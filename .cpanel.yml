@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH="/home/$(whoami)/public_html/"
+    - /bin/cp -R index.html styles.css main.js robots.txt sitemap.xml favicon.png jpb-monogram.png jpb-logo-lockup.png "$DEPLOYPATH"
+    - /bin/cp -R photos "$DEPLOYPATH"
