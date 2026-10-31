@@ -1,0 +1,707 @@
+{
+  "abeer-nehme-qatar-philharmonic-2026.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "about-live-stage.jpg": {
+    "width": 1740,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/about-live-stage-480.webp",
+        "width": 480,
+        "height": 530
+      },
+      {
+        "src": "photos/optimized/about-live-stage-960.webp",
+        "width": 960,
+        "height": 1059
+      },
+      {
+        "src": "photos/optimized/about-live-stage-1600.webp",
+        "width": 1600,
+        "height": 1766
+      }
+    ]
+  },
+  "about-portrait.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "photos/optimized/about-portrait-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/about-portrait-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/about-portrait-1600.webp",
+        "width": 1600,
+        "height": 1067
+      }
+    ]
+  },
+  "al-sharq-symphony-istanbul-2017.jpg": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "photos/optimized/al-sharq-symphony-istanbul-2017-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/al-sharq-symphony-istanbul-2017-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "cartoon-orchestra-kuwait-2025.jpg": {
+    "width": 1345,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/cartoon-orchestra-kuwait-2025-480.webp",
+        "width": 480,
+        "height": 685
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-kuwait-2025-960.webp",
+        "width": 960,
+        "height": 1370
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp",
+        "width": 1345,
+        "height": 1920
+      }
+    ]
+  },
+  "concert-arena-led-screens.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/concert-arena-led-screens-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/concert-arena-led-screens-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/concert-arena-led-screens-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-church-concert-organ.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-church-concert-organ-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-church-concert-organ-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-church-concert-organ-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-cl5-closeup.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-cl5-closeup-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-cl5-closeup-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-cl5-closeup-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-concert-hall-aerial.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-concert-hall-aerial-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-concert-hall-aerial-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-concert-hall-aerial-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-console-dark-venue.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-console-dark-venue-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-console-dark-venue-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-console-dark-venue-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-headphones-monitor.jpg": {
+    "width": 1900,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-headphones-monitor-480.webp",
+        "width": 480,
+        "height": 485
+      },
+      {
+        "src": "photos/optimized/foh-headphones-monitor-960.webp",
+        "width": 960,
+        "height": 970
+      },
+      {
+        "src": "photos/optimized/foh-headphones-monitor-1600.webp",
+        "width": 1600,
+        "height": 1617
+      }
+    ]
+  },
+  "foh-indoor-concert.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-indoor-concert-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-indoor-concert-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-indoor-concert-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-mixer-closeup-blue.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-mixer-closeup-blue-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-mixer-closeup-blue-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-mixer-closeup-blue-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-orchestra-ornate-backdrop.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-orchestra-ornate-backdrop-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-orchestra-ornate-backdrop-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-orchestra-ornate-backdrop-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-outdoor-night-setup.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-outdoor-night-setup-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/foh-outdoor-night-setup-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/foh-outdoor-night-setup-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "foh-pov-concert-beams.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-pov-concert-beams-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/foh-pov-concert-beams-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/foh-pov-concert-beams-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "foh-pov-red-curtain-concert.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-pov-red-curtain-concert-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/foh-pov-red-curtain-concert-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/foh-pov-red-curtain-concert-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "foh-pov-theater-stage.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-pov-theater-stage-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/foh-pov-theater-stage-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/foh-pov-theater-stage-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "foh-purple-ornate-venue.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-purple-ornate-venue-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-purple-ornate-venue-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-purple-ornate-venue-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "foh-yamaha-multiview.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/foh-yamaha-multiview-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/foh-yamaha-multiview-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/foh-yamaha-multiview-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "hero-foh.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/hero-foh-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/hero-foh-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/hero-foh-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "live-outdoor-foh-night.jpg": {
+    "width": 1536,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/live-outdoor-foh-night-480.webp",
+        "width": 480,
+        "height": 600
+      },
+      {
+        "src": "photos/optimized/live-outdoor-foh-night-960.webp",
+        "width": 960,
+        "height": 1200
+      },
+      {
+        "src": "photos/optimized/live-outdoor-foh-night-1536.webp",
+        "width": 1536,
+        "height": 1920
+      }
+    ]
+  },
+  "live-outdoor-stage.jpg": {
+    "width": 1740,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/live-outdoor-stage-480.webp",
+        "width": 480,
+        "height": 530
+      },
+      {
+        "src": "photos/optimized/live-outdoor-stage-960.webp",
+        "width": 960,
+        "height": 1059
+      },
+      {
+        "src": "photos/optimized/live-outdoor-stage-1600.webp",
+        "width": 1600,
+        "height": 1766
+      }
+    ]
+  },
+  "marina-viotti-zouk-mikael-2026.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/marina-viotti-zouk-mikael-2026-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/marina-viotti-zouk-mikael-2026-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "midas-heritage-console.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/midas-heritage-console-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "src": "photos/optimized/midas-heritage-console-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "src": "photos/optimized/midas-heritage-console-1080.webp",
+        "width": 1080,
+        "height": 1920
+      }
+    ]
+  },
+  "monitor-desk-video-screens.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/monitor-desk-video-screens-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/monitor-desk-video-screens-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/monitor-desk-video-screens-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "pope-leo-waterfront.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "photos/optimized/pope-leo-waterfront-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/pope-leo-waterfront-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/pope-leo-waterfront-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "portrait-studio-2.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "photos/optimized/portrait-studio-2-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/portrait-studio-2-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/portrait-studio-2-1600.webp",
+        "width": 1600,
+        "height": 1067
+      }
+    ]
+  },
+  "studio-manley-outboard.jpg": {
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/studio-manley-outboard-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/studio-manley-outboard-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "photos/optimized/studio-manley-outboard-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ]
+  },
+  "studio-mixing-console.jpg": {
+    "width": 1627,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/studio-mixing-console-480.webp",
+        "width": 480,
+        "height": 566
+      },
+      {
+        "src": "photos/optimized/studio-mixing-console-960.webp",
+        "width": 960,
+        "height": 1133
+      },
+      {
+        "src": "photos/optimized/studio-mixing-console-1600.webp",
+        "width": 1600,
+        "height": 1888
+      }
+    ]
+  },
+  "studio-strip.jpg": {
+    "width": 1627,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "photos/optimized/studio-strip-480.webp",
+        "width": 480,
+        "height": 566
+      },
+      {
+        "src": "photos/optimized/studio-strip-960.webp",
+        "width": 960,
+        "height": 1133
+      },
+      {
+        "src": "photos/optimized/studio-strip-1600.webp",
+        "width": 1600,
+        "height": 1888
+      }
+    ]
+  },
+  "the-eighties-knockout-kuwait-2026.jpg": {
+    "width": 1290,
+    "height": 1711,
+    "variants": [
+      {
+        "src": "photos/optimized/the-eighties-knockout-kuwait-2026-480.webp",
+        "width": 480,
+        "height": 637
+      },
+      {
+        "src": "photos/optimized/the-eighties-knockout-kuwait-2026-960.webp",
+        "width": 960,
+        "height": 1273
+      },
+      {
+        "src": "photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
+        "width": 1290,
+        "height": 1711
+      }
+    ]
+  },
+  "zynforge-live.png": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "photos/optimized/zynforge-live-128.webp",
+        "width": 128,
+        "height": 128
+      }
+    ]
+  },
+  "zynforge-recording.png": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "photos/optimized/zynforge-recording-128.webp",
+        "width": 128,
+        "height": 128
+      }
+    ]
+  },
+  "zynforge-stage.png": {
+    "width": 2048,
+    "height": 2048,
+    "variants": [
+      {
+        "src": "photos/optimized/zynforge-stage-128.webp",
+        "width": 128,
+        "height": 128
+      }
+    ]
+  }
+}
