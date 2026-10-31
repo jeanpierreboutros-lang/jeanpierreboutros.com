@@ -11,6 +11,10 @@ e = html.escape
 image_manifest = json.loads((OUT / "photos/optimized/manifest.json").read_text())
 asset_versions = {name: sha256((OUT / name).read_bytes()).hexdigest()[:12]
                   for name in ("styles.css", "main.js")}
+profile_path = "output/pdf/jean-pierre-boutros-profile.pdf"
+profile_bytes = (OUT / profile_path).read_bytes()
+profile_url = f"{profile_path}?v={sha256(profile_bytes).hexdigest()[:12]}"
+profile_size = f"{len(profile_bytes) / 1024:.0f} KB"
 
 # Keep existing collaborations. Only state specific roles supported by the bio.
 artists = [
@@ -378,7 +382,7 @@ INDEX = f'''<!DOCTYPE html>
             <p class="lead">I’m Jean-Pierre, a live and studio sound engineer based in Lebanon, working with artists, musicians, and production teams internationally.</p>
             <p>My work moves between the stage, the studio, and the broadcast desk. I bring the same attention to each: understanding the performance and shaping the sound around it.</p>
             <p>I founded StudioJPB in 2008. Alongside engineering and studio integration, I build audio software through Zynforge Audio, turning everyday production challenges into practical tools.</p>
-            <a class="text-link" href="#contact">Let’s talk sound <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="{e(profile_url)}" download="Jean-Pierre-Boutros-Profile.pdf" aria-label="Download Jean-Pierre Boutros’s professional profile (PDF, 1 page, {profile_size})">Download profile (PDF) <span aria-hidden="true">↓</span></a>
           </div>
           <figure class="about-photo" data-reveal>
             {image("about-portrait.jpg", "Jean-Pierre Boutros, sound engineer and founder of StudioJPB", sizes="(max-width: 760px) 100vw, 40vw")}
@@ -419,6 +423,7 @@ INDEX = f'''<!DOCTYPE html>
         <div class="contact-details">
           <a href="mailto:jp@jeanpierreboutros.com" class="contact-link"><span><span class="contact-tag">Email</span>jp@jeanpierreboutros.com</span><span aria-hidden="true">↗</span></a>
           <a href="https://wa.me/9613883863" target="_blank" rel="noopener noreferrer" class="contact-link"><span><span class="contact-tag">WhatsApp</span>+961 3 883 863</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          <a href="{e(profile_url)}" download="Jean-Pierre-Boutros-Profile.pdf" class="contact-link"><span><span class="contact-tag">Professional profile</span>Download PDF · 1 page · {profile_size}</span><span aria-hidden="true">↓</span></a>
           <div class="social"><a href="https://www.instagram.com/jp.boutros" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.facebook.com/jean.p.boutros" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in a new tab)</span></a></div>
         </div>
       </div>

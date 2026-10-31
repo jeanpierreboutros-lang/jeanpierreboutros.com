@@ -12,6 +12,8 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 - `styles.css` contains design tokens, responsive components and print styles.
 - `main.js` handles navigation, progressive scroll reveals and native modal dialogs.
 - `optimize_images.py` creates responsive WebP assets and metadata.
+- `build_profile.py` creates the downloadable one-page professional profile.
+- `output/pdf/jean-pierre-boutros-profile.pdf` is the published profile PDF.
 - `photos/` holds originals; `photos/optimized/` holds generated derivatives.
 - `.cpanel.yml` copies runtime files and photos to HostGator's document root.
 
@@ -57,6 +59,21 @@ Commit the generated WebP files and `photos/optimized/manifest.json` with the HT
 
 Gallery captions describe visible content and established portfolio facts. Add specific event/venue information when confirmed.
 
+## Downloadable professional profile
+
+The About and Contact sections offer a one-page A4 PDF with a biography, portrait, expertise, six selected productions, collaborators, studio and software work, television credits and clickable contact details. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
+
+To update it, edit `build_profile.py`, then run:
+
+```sh
+# A dedicated Python environment is recommended.
+python3 -m pip install 'reportlab>=4.2,<5'
+python3 build_profile.py
+python3 build.py
+```
+
+The generator uses Georgia and Arial TTF fonts from macOS's supplemental fonts directory and embeds their subsets in the final PDF. For another build machine, set `JPB_PROFILE_FONT_DIR` to a directory containing the named font files. Render and inspect the complete page after changes; confirm one A4 page, selectable text, working links and no clipped or overlapping text. The generator rejects content that exceeds the page's reserved body area. The deploy manifest copies only the finished PDF from `output/pdf/`.
+
 ## Accessibility and behaviour
 
 - Main landmark, skip link, named sections and visible keyboard focus.
@@ -90,4 +107,4 @@ The existing HostGator/cPanel workflow is unchanged:
 2. In cPanel Git Version Control, update from remote and deploy the HEAD commit.
 3. Hard-refresh the live site and check it again.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons, the professional profile PDF and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
