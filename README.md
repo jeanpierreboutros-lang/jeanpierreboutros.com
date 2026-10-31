@@ -90,4 +90,4 @@ The existing HostGator/cPanel workflow is unchanged:
 2. In cPanel Git Version Control, update from remote and deploy the HEAD commit.
 3. Hard-refresh the live site and check it again.
 
-The deploy manifest copies HTML, CSS, JavaScript, robots, sitemap, icons and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
