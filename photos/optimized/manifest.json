@@ -440,6 +440,27 @@
       }
     ]
   },
+  "lebanese-philharmonic-diman-2026.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "variants": [
+      {
+        "src": "photos/optimized/lebanese-philharmonic-diman-2026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/lebanese-philharmonic-diman-2026-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/lebanese-philharmonic-diman-2026-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
   "live-outdoor-foh-night.jpg": {
     "width": 1536,
     "height": 1920,
@@ -542,6 +563,69 @@
         "src": "photos/optimized/monitor-desk-video-screens-1440.webp",
         "width": 1440,
         "height": 1920
+      }
+    ]
+  },
+  "nancy-ajram-arab-stars-riyadh-2023.jpg": {
+    "width": 1080,
+    "height": 720,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp",
+        "width": 1080,
+        "height": 720
+      }
+    ]
+  },
+  "nancy-ajram-baligh-hamdi-riyadh-2023.jpg": {
+    "width": 4160,
+    "height": 2768,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp",
+        "width": 480,
+        "height": 319
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-960.webp",
+        "width": 960,
+        "height": 639
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
+        "width": 1600,
+        "height": 1065
+      }
+    ]
+  },
+  "nancy-ajram-warda-night-jeddah-2024.jpg": {
+    "width": 2048,
+    "height": 1366,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp",
+        "width": 1600,
+        "height": 1067
       }
     ]
   },

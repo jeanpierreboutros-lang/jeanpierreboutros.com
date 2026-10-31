@@ -26,6 +26,7 @@ artists = [
     "Salah El Kurdi", "Charbel Rouhana", "Chantal Bitar", "Carlos Azar",
     "Ziad Bourji", "Sarina Cross", "Ziad Jamal", "Mouhamad Khairy",
     "Manel Mallat", "Faraj Hanna", "Mike Massy", "Ria Ellinidou", "Marina Viotti",
+    "Lebanese National Philharmonic Orchestra",
 ]
 
 # Captions describe visible content, without guessing venues or artists.
@@ -35,6 +36,10 @@ gallery = [
     ("cartoon-orchestra-kuwait-2025.jpg", "Cartoon Orchestra", "Cartoon Orchestra production poster displayed at Sheikh Jaber Al-Ahmad Cultural Centre in Kuwait", "FOH engineer · Kuwait, 2025"),
     ("al-sharq-symphony-istanbul-2017.jpg", "Al Sharq Symphony", "Orchestra and choir performing Al Sharq Symphony in Istanbul, from Al Sharq Youth’s official concert video", "FOH engineer · Istanbul, 2017"),
     ("abeer-nehme-qatar-philharmonic-2026.jpg", "Abeer Nehme · Qatar Philharmonic", "Abeer Nehme singing on stage with the Qatar Philharmonic Orchestra at U VENUE in Doha, 23 January 2026", "FOH engineer · U VENUE, Doha, 2026"),
+    ("nancy-ajram-baligh-hamdi-riyadh-2023.jpg", "Nancy Ajram · Baligh Hamdi Night", "Nancy Ajram performing with orchestral musicians at Baligh Hamdi Night in Riyadh, 9 November 2023", "Nancy Ajram’s monitor engineer · Riyadh, 2023"),
+    ("nancy-ajram-warda-night-jeddah-2024.jpg", "Nancy Ajram · Warda Night", "Nancy Ajram on stage with orchestral musicians at Warda Night in Jeddah, 4 July 2024", "Nancy Ajram’s monitor engineer · Jeddah, 2024"),
+    ("nancy-ajram-arab-stars-riyadh-2023.jpg", "Nancy Ajram · Night of Arab Stars", "Nancy Ajram singing with dancers and musicians at Night of Arab Stars in Riyadh, 31 December 2023", "Nancy Ajram’s monitor engineer · Riyadh Season, 2023"),
+    ("lebanese-philharmonic-diman-2026.jpg", "Lebanese Philharmonic · Diman", "Lebanese National Philharmonic Orchestra performing beneath an illuminated cross at the Patriarchal Summer Residence in Diman, conducted by Harout Fazlian", "FOH engineer · Diman, 26 July 2026"),
     ("live-outdoor-foh-night.jpg", "At the desk", "Jean-Pierre Boutros mixing an outdoor concert at night", "Live sound"),
     ("foh-pov-theater-stage.jpg", "A view from front of house", "Mixing console facing an illuminated theatre stage", "Live sound"),
     ("concert-arena-led-screens.jpg", "Sound at scale", "Concert stage with large LED screens, seen from the audience", "Live production"),
@@ -58,7 +63,28 @@ zyn = [
 navigation = [("work", "Selected work"), ("credits", "Credits"), ("about", "About"),
               ("zynforge", "Zynforge"), ("gallery", "Gallery"), ("contact", "Contact")]
 
+baligh_coverage_url = "https://www.sayidaty.net/مشاهير/مشاهير-العرب/1692211-بالصور-7-فنانين-و185-عازفاً-بموسم-الرياض-ما-الأغاني-التي-اختاروها-في"
+warda_coverage_url = "https://aawsat.com/يوميات-الشرق/5037424-ليلة-وردة-سهرة-باذخة-الجمال-لعشاق-الطرب-على-مسرح-أرينا"
+arab_stars_coverage_url = "https://www.sayidaty.net/مشاهير/مشاهير-العرب/1711121-بالفيديو-والصور-تفاصيل-حفلة-ليلة-نجمات-العرب-في-الرياض"
+arab_stars_photo_url = "https://www.aljamila.com/node/791121/بسعر-خيالي-نانسي-عجرم-تألقت-بفستان-أسود-شفاف-في-ليلة-نجمات-العرب%C2%A0"
+diman_coverage_url = "https://bkerki.org/news-article/امسية-موسيقية-بعنوان-عهد-أبدي/"
+
 gallery_sources = {
+    "nancy-ajram-arab-stars-riyadh-2023.jpg": {
+        "name": "Rotana Live / Al Jamila",
+        "url": arab_stars_photo_url,
+        "image_url": "https://static.aljamila.com/styles/1100x732_scale/public/2024-01/نانسي%20عجرم%20-%20الصورة%20من%20الحساب%20الرسمي%20لحفلات%20روتانا%20على%20إنستجرام_0.jpg",
+    },
+    "nancy-ajram-baligh-hamdi-riyadh-2023.jpg": {
+        "name": "Benchmark / Sayidaty",
+        "url": baligh_coverage_url,
+        "image_url": "https://static.sayidaty.net/2023-11/298244.jpg",
+    },
+    "nancy-ajram-warda-night-jeddah-2024.jpg": {
+        "name": "Asharq Al-Awsat",
+        "url": warda_coverage_url,
+        "image_url": "https://static.srpcdigital.com/2024-07/704233.jpeg",
+    },
     "abeer-nehme-qatar-philharmonic-2026.jpg": {
         "name": "U Events / U VENUE",
         "url": "https://uevents.me/en/events/abeer-nehme-with-qatar-philharmonic-orchestra",
@@ -94,6 +120,8 @@ def nav_links(css=""):
 
 
 artist_projects = {
+    "Lebanese National Philharmonic Orchestra": ("lebanese-philharmonic-diman", "FOH engineer · Diman, 2026"),
+    "Nancy Ajram": ("baligh-hamdi-night", "Monitor engineer · Saudi Arabia, 2023–24"),
     "Abeer Nehme": ("abeer-nehme-qatar", "FOH engineer · Qatar, 2026"),
     "Marcel Khalifé": ("al-sharq-symphony", "FOH engineer · Istanbul, 2017"),
     "Marina Viotti": ("marina-viotti", "FOH engineer · Lebanon, 2026"),
@@ -139,7 +167,7 @@ jsonld = {
     "telephone": "+9613883863", "image": "https://www.jeanpierreboutros.com/photos/about-portrait.jpg",
     "address": {"@type": "PostalAddress", "addressLocality": "Jounieh", "addressCountry": "LB"},
     "sameAs": ["https://www.instagram.com/jp.boutros", "https://www.facebook.com/jean.p.boutros"],
-    "knowsAbout": ["Live Sound", "FOH Engineering", "Broadcast Sound", "Recording", "Mixing", "Mastering", "Audio System Integration", "Sound Design", "Post-Production"],
+    "knowsAbout": ["Live Sound", "FOH Engineering", "Monitor Engineering", "Broadcast Sound", "Recording", "Mixing", "Mastering", "Audio System Integration", "Sound Design", "Post-Production"],
     "affiliation": [
         {"@type": "Organization", "name": "Studio Jean-Pierre Boutros (StudioJPB)", "foundingDate": "2008", "founder": {"@type": "Person", "name": "Jean-Pierre Boutros"}},
         {"@type": "Organization", "name": "Zynforge Audio", "founder": {"@type": "Person", "name": "Jean-Pierre Boutros"}},
@@ -319,6 +347,72 @@ INDEX = f'''<!DOCTYPE html>
               <p class="source-note">Concert photo: <a href="https://uevents.me/en/events/abeer-nehme-with-qatar-philharmonic-orchestra" target="_blank" rel="noopener noreferrer">U Events / U VENUE<span class="sr-only"> (opens in a new tab)</span></a></p>
             </div>
           </article>
+          <!-- Monitor role is specifically for Nancy Ajram; it is not a credit for the whole production. -->
+          <article class="project-event" id="baligh-hamdi-night" aria-labelledby="baligh-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[5]['src'])}" data-gallery-index="5" aria-label="Enlarge Nancy Ajram performing with the orchestra at Baligh Hamdi Night in Riyadh" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("nancy-ajram-baligh-hamdi-riyadh-2023.jpg", "Nancy Ajram and orchestral musicians at Baligh Hamdi Night, Riyadh, 9 November 2023 — photo by Benchmark, via Sayidaty", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">06 <span>Monitor engineering · Nancy Ajram</span></p>
+              <h3 id="baligh-title">Nancy Ajram.<br /><em>Baligh Hamdi Night.</em></h3>
+              <p class="project-title-ar" lang="ar" dir="rtl">روائع بليغ حمدي</p>
+              <p>Monitor engineering for Nancy Ajram’s performance at Masterpieces of Baligh Hamdi, held at Abu Bakr Salem Theatre in Riyadh.</p>
+              <p>Presented during Riyadh Season 2023, the concert celebrated the Egyptian composer’s repertoire with live orchestral performances.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Abu Bakr Salem Theatre · Riyadh, Saudi Arabia</dd></div><div><dt>Date</dt><dd>9 November 2023</dd></div></dl>
+              <a class="text-link" href="https://www.harpersbazaararabia.com/culture/entertainment/baligh-hamdi-tribute" target="_blank" rel="noopener noreferrer">Explore the tribute <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert photo: <a href="{e(baligh_coverage_url)}" target="_blank" rel="noopener noreferrer">Benchmark, via Sayidaty<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
+          <!-- User confirmed this is the 4 July 2024 Jeddah show; date and venue match GEA's Enjoy listing. -->
+          <article class="project-event" id="warda-night" aria-labelledby="warda-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[6]['src'])}" data-gallery-index="6" aria-label="Enlarge Nancy Ajram performing with the orchestra at Warda Night in Jeddah" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("nancy-ajram-warda-night-jeddah-2024.jpg", "Nancy Ajram performing with orchestral musicians at Warda Night, Jeddah, 4 July 2024 — photo from Asharq Al-Awsat", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">07 <span>Monitor engineering · Nancy Ajram</span></p>
+              <h3 id="warda-title">Nancy Ajram.<br /><em>Warda Night.</em></h3>
+              <p class="project-title-ar" lang="ar" dir="rtl">ليلة وردة</p>
+              <p>Monitor engineering for Nancy Ajram’s performance at Warda Night, the inaugural concert at Abadi Al Johar Arena in Jeddah.</p>
+              <p>The Jeddah Season 2024 tribute honoured Warda Al-Jazairia, with an orchestra conducted by Walid Fayed and performances by four Arab vocalists.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Abadi Al Johar Arena · Jeddah, Saudi Arabia</dd></div><div><dt>Date</dt><dd>4 July 2024</dd></div></dl>
+              <a class="text-link" href="https://enjoy.sa/en/events/warda-night/" target="_blank" rel="noopener noreferrer">View the official event listing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert photo: <a href="{e(warda_coverage_url)}" target="_blank" rel="noopener noreferrer">Asharq Al-Awsat<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
+          <article class="project-event" id="night-of-arab-stars" aria-labelledby="arab-stars-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[7]['src'])}" data-gallery-index="7" aria-label="Enlarge Nancy Ajram performing at Night of Arab Stars in Riyadh" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("nancy-ajram-arab-stars-riyadh-2023.jpg", "Nancy Ajram performing with dancers and musicians at Night of Arab Stars, Riyadh, 31 December 2023 — photo by Rotana Live, via Al Jamila", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">08 <span>Monitor engineering · Nancy Ajram</span></p>
+              <h3 id="arab-stars-title">Nancy Ajram.<br /><em>Night of Arab Stars.</em></h3>
+              <p class="project-title-ar" lang="ar" dir="rtl">ليلة نجمات العرب</p>
+              <p>Monitor engineering for Nancy Ajram’s performance at Night of Arab Stars, the Riyadh Season concert welcoming 2024 at Mohammed Abdu Arena.</p>
+              <p>Presented by Rotana, the New Year’s Eve programme brought together six Arab vocalists for solo performances and duets, with musical direction by Hany Farhat.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Mohammed Abdu Arena · Riyadh, Saudi Arabia</dd></div><div><dt>Date</dt><dd>31 December 2023</dd></div></dl>
+              <a class="text-link" href="{e(arab_stars_coverage_url)}" target="_blank" rel="noopener noreferrer">Explore the concert <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert photo: <a href="{e(arab_stars_photo_url)}" target="_blank" rel="noopener noreferrer">Rotana Live, via Al Jamila<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
+          <article class="project-event" id="lebanese-philharmonic-diman" aria-labelledby="diman-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[8]['src'])}" data-gallery-index="8" aria-label="Enlarge the Lebanese National Philharmonic Orchestra performing in Diman" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("lebanese-philharmonic-diman-2026.jpg", "Lebanese National Philharmonic Orchestra conducted by Harout Fazlian at the Patriarchal Summer Residence, Diman, 26 July 2026", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">09 <span>Front-of-house engineering · Orchestra</span></p>
+              <h3 id="diman-title">Lebanese Philharmonic.<br /><em>An evening in Diman.</em></h3>
+              <p class="project-title-ar" lang="ar" dir="rtl">العهد الأبدي</p>
+              <p>FOH engineering for the Lebanese National Philharmonic Orchestra, conducted by Harout Fazlian, at the Patriarchal Summer Residence in Diman, North Lebanon.</p>
+              <p>The open-air concert, titled “Eternal Covenant”, formed part of the celebrations for the beatification of Patriarch Elias Hoayek.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Conductor</dt><dd>Harout Fazlian</dd></div><div><dt>Location &amp; date</dt><dd>Diman, North Lebanon · 26 July 2026</dd></div></dl>
+              <a class="text-link" href="{e(diman_coverage_url)}" target="_blank" rel="noopener noreferrer">Read the concert coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert details · Maronite Patriarchate</p>
+            </div>
+          </article>
         </div>
         <article class="project-feature" data-reveal>
           <figure class="project-photo">
@@ -326,7 +420,7 @@ INDEX = f'''<!DOCTYPE html>
             <figcaption>Papal visit · Lebanon, 2025</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-index">06 <span>Broadcast sound engineering</span></p>
+            <p class="project-index">10 <span>Broadcast sound engineering</span></p>
             <h3>A moment<br /><em>to be heard.</em></h3>
             <p>Broadcast sound engineering for the Papal Mass at Beirut Waterfront during Pope Leo XIV’s 2025 visit to Lebanon.</p>
             <dl class="project-details"><div><dt>Production</dt><dd>Papal Mass</dd></div><div><dt>Location</dt><dd>Beirut, Lebanon · 2025</dd></div></dl>
@@ -338,14 +432,14 @@ INDEX = f'''<!DOCTYPE html>
           <article class="project-studio" data-reveal>
             <div class="studio-image">{image("studio-strip.jpg", "Jean-Pierre Boutros working at a studio mixing console", sizes="(max-width: 760px) 100vw, 50vw")}</div>
             <div class="project-copy">
-              <p class="project-index">07 <span>Recording · Mixing · Mastering</span></p>
+              <p class="project-index">11 <span>Recording · Mixing · Mastering</span></p>
               <h3>StudioJPB.<br /><em>Since 2008.</em></h3>
               <p>I founded Studio Jean-Pierre Boutros in Jounieh, Lebanon, as a home for my studio work, from recording sessions to the final master.</p>
               <a class="text-link" href="#about">Meet the engineer <span aria-hidden="true">↗</span></a>
             </div>
           </article>
           <article class="project-integration" data-reveal>
-            <p class="project-index">08 <span>Audio system integration</span></p>
+            <p class="project-index">12 <span>Audio system integration</span></p>
             <div class="signal-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
             <h3>Studio systems.<br /><em>Working together.</em></h3>
             <p>My integration work includes recording facilities such as Merwas Studios in Riyadh and Playsound Studios in Lebanon.</p>
@@ -391,7 +485,7 @@ INDEX = f'''<!DOCTYPE html>
         </div>
         <div class="expertise">
           <h3>Areas of practice</h3>
-          <ul class="skills" data-reveal-group>{''.join(f'<li>{e(skill)}</li>' for skill in ['Live sound & FOH', 'Broadcast sound', 'Recording & tracking', 'Mixing & mastering', 'Audio system integration', 'Sound design & post-production'])}</ul>
+          <ul class="skills" data-reveal-group>{''.join(f'<li>{e(skill)}</li>' for skill in ['Live sound & FOH', 'Monitor engineering', 'Broadcast sound', 'Recording & tracking', 'Mixing & mastering', 'Audio system integration', 'Sound design & post-production'])}</ul>
         </div>
       </div>
     </section>
