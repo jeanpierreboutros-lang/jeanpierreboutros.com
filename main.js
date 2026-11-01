@@ -20,6 +20,16 @@
   var gallery = JSON.parse(document.getElementById('gallery-data').textContent);
   var currentImage = 0;
   var galleryTrigger = null;
+  var projectCards = Array.prototype.slice.call(document.querySelectorAll('[data-project-card]'));
+  var projectDialogs = Array.prototype.slice.call(document.querySelectorAll('[data-project-dialog]'));
+  var projectFilters = document.querySelector('.portfolio-filters');
+  var projectMore = document.querySelector('[data-show-all-projects]');
+  var projectCount = document.getElementById('portfolio-count');
+  var projectTriggers = new WeakMap();
+  var projectMap = new Map(projectDialogs.map(function (dialog) { return [dialog.id, dialog]; }));
+
+  // Open descriptions form the no-script fallback; enhance them into native modals.
+  if (modalSupported) projectDialogs.forEach(function (dialog) { dialog.removeAttribute('open'); });
 
   // Keep every section and navigation link usable when JavaScript is unavailable.
   if (modalSupported) document.documentElement.classList.add('js-enabled');
@@ -67,6 +77,98 @@
     });
     dialog.addEventListener('close', syncScrollLock);
   });
+
+  function filterProjects(category) {
+    var shown = 0;
+    projectCards.forEach(function (card) {
+      var visible = category === 'all' || (category === 'featured' ? card.hasAttribute('data-featured') : card.dataset.category === category);
+      card.hidden = !visible;
+      if (visible) shown++;
+    });
+    projectFilters.querySelectorAll('button').forEach(function (button) {
+      button.setAttribute('aria-pressed', String(button.dataset.projectFilter === category));
+    });
+    var label = { featured: 'Featured', all: 'All work', foh: 'FOH', monitors: 'Monitors', broadcast: 'Broadcast', studio: 'Studio' }[category];
+    projectCount.textContent = shown + ' project' + (shown === 1 ? '' : 's') + ' · ' + label;
+    projectMore.hidden = category !== 'featured';
+  }
+
+  function openProject(id, trigger) {
+    var dialog = projectMap.get(id);
+    if (!dialog || dialog.open) return;
+    var card = projectCards.find(function (item) { return item.dataset.projectCard === id; });
+    if (card.hidden) filterProjects('all');
+    if (!trigger) card.scrollIntoView({ behavior: 'instant', block: 'center' });
+    projectDialogs.forEach(function (other) { if (other.open) other.close(); });
+    projectTriggers.set(dialog, trigger || card.querySelector('a'));
+    dialog.showModal();
+    dialog.scrollTop = 0;
+    history.replaceState(null, '', '#' + id);
+    syncScrollLock();
+  }
+
+  function projectFromHash() {
+    var id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (error) { return; }
+    if (projectMap.has(id)) openProject(id);
+    else projectDialogs.forEach(function (dialog) {
+      if (!dialog.open) return;
+      projectTriggers.delete(dialog);
+      dialog.close();
+      var destination = document.getElementById(id);
+      if (destination) {
+        destination.focus({ preventScroll: true });
+        destination.scrollIntoView({ behavior: reducedMotion.matches || motionPaused ? 'instant' : 'smooth' });
+      }
+    });
+  }
+
+  if (modalSupported && projectCards.length) {
+    projectFilters.hidden = false;
+    filterProjects('featured');
+    projectFilters.querySelectorAll('button').forEach(function (button) {
+      button.addEventListener('click', function () { filterProjects(button.dataset.projectFilter); });
+    });
+    projectMore.addEventListener('click', function () {
+      filterProjects('all');
+      var allButton = projectFilters.querySelector('[data-project-filter="all"]');
+      allButton.focus({ preventScroll: true });
+      document.getElementById('work').scrollIntoView({ behavior: reducedMotion.matches || motionPaused ? 'instant' : 'smooth' });
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      var id = link.getAttribute('href').slice(1);
+      if (!projectMap.has(id)) return;
+      link.setAttribute('aria-haspopup', 'dialog');
+      link.setAttribute('aria-controls', id);
+      link.addEventListener('click', function (event) {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        openProject(id, link);
+      });
+    });
+    projectDialogs.forEach(function (dialog) {
+      dialog.addEventListener('close', function () {
+        if (location.hash === '#' + dialog.id) history.replaceState(null, '', '#work');
+        var trigger = projectTriggers.get(dialog);
+        if (trigger && trigger.isConnected && !document.querySelector('dialog[open]')) trigger.focus({ preventScroll: true });
+      });
+    });
+    window.addEventListener('hashchange', projectFromHash);
+    projectFromHash();
+  }
+
+  var galleryMore = document.querySelector('.gallery-more');
+  if (modalSupported && galleryMore) {
+    var extraPhotos = document.querySelectorAll('.gallery-card:not([data-gallery-featured])');
+    extraPhotos.forEach(function (photo) { photo.hidden = true; });
+    galleryMore.hidden = false;
+    galleryMore.addEventListener('click', function () {
+      var expanded = galleryMore.getAttribute('aria-expanded') === 'true';
+      extraPhotos.forEach(function (photo) { photo.hidden = expanded; });
+      galleryMore.setAttribute('aria-expanded', String(!expanded));
+      galleryMore.innerHTML = (expanded ? 'View all 24 photographs' : 'Show fewer photographs') + ' <span aria-hidden="true">' + (expanded ? '↗' : '↑') + '</span>';
+    });
+  }
 
   function showImage(index) {
     currentImage = (index + gallery.length) % gallery.length;

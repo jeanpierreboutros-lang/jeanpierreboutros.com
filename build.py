@@ -2,6 +2,7 @@
 """Render the portfolio from confirmed credits and local image metadata."""
 import html
 import json
+import re
 from datetime import date
 from hashlib import sha256
 from pathlib import Path
@@ -198,7 +199,8 @@ for index, (filename, title, alt, context) in enumerate(gallery):
     gallery_data.append({"src": full["src"], "alt": alt, "caption": f"{title} · {context}{credit_text}",
                          "width": full["width"], "height": full["height"]})
     poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg") else ""
-    gallery_items.append(f'''<figure class="gallery-card{poster_class}">
+    featured_attribute = ' data-gallery-featured' if index in (15, 16, 18, 19, 21, 23) else ''
+    gallery_items.append(f'''<figure class="gallery-card{poster_class}"{featured_attribute}>
   <a class="gallery-item" href="{e(full["src"])}" data-gallery-index="{index}"
      aria-label="Enlarge photo: {e(alt)}" aria-haspopup="dialog" aria-controls="lightbox">
     {image(filename, alt, sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw")}
@@ -206,6 +208,9 @@ for index, (filename, title, alt, context) in enumerate(gallery):
   </a>
   <figcaption><span>{e(title)}</span><span>{e(context)}{credit_html}</span></figcaption>
 </figure>''')
+
+# Lead with the working side of the performance; retain every photograph in the viewer.
+gallery_items.sort(key=lambda item: 'data-gallery-featured' not in item)
 
 jsonld = {
     "@context": "https://schema.org", "@type": "Person", "name": "Jean-Pierre Boutros",
@@ -222,93 +227,7 @@ jsonld = {
     ],
 }
 
-INDEX = f'''<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jean-Pierre Boutros — Live, Studio &amp; Broadcast Sound Engineer</title>
-  <meta name="description" content="Jean-Pierre Boutros is a sound engineer based in Lebanon, working internationally in live sound, studio recording, mixing, mastering, broadcast and audio system integration." />
-  <meta name="author" content="Jean-Pierre Boutros" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <link rel="canonical" href="https://www.jeanpierreboutros.com/" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="apple-touch-icon" href="favicon.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jeanpierreboutros.com/" />
-  <meta property="og:site_name" content="Jean-Pierre Boutros" />
-  <meta property="og:title" content="Jean-Pierre Boutros — Sound Engineer" />
-  <meta property="og:description" content="Live sound. Studio craft. Broadcast precision. Selected work and collaborations from sound engineer Jean-Pierre Boutros." />
-  <meta property="og:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
-  <meta property="og:image:alt" content="Jean-Pierre Boutros, sound engineer" />
-  <meta property="og:image:width" content="1920" />
-  <meta property="og:image:height" content="1280" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jean-Pierre Boutros — Sound Engineer" />
-  <meta name="twitter:description" content="Live, studio and broadcast sound engineer. Based in Lebanon, working internationally." />
-  <meta name="twitter:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
-  <meta name="twitter:image:alt" content="Jean-Pierre Boutros, sound engineer" />
-  <script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v={asset_versions['styles.css']}" />
-  <script src="main.js?v={asset_versions['main.js']}" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="progress" aria-hidden="true"></div>
-  <nav class="nav" id="nav" aria-label="Primary">
-    <a href="#top" class="nav-brand"><img class="nav-logo" src="jpb-monogram.png" alt="" width="27" height="32" /><span>Jean-Pierre Boutros</span></a>
-    <div class="nav-links">{nav_links("nav-contact")}</div>
-    <button class="nav-burger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu" aria-haspopup="dialog">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-  <dialog class="mobile-menu" id="mobileMenu" aria-label="Navigation">
-    <button type="button" class="dialog-close" data-close aria-label="Close navigation">✕</button>
-    <p class="eyebrow">Jean-Pierre Boutros</p>
-    <nav aria-label="Mobile">{nav_links("mm-contact")}</nav>
-    <p class="menu-location">Lebanon · Working internationally</p>
-  </dialog>
-
-  <header class="hero" id="top" tabindex="-1">
-    <div class="hero-bg" aria-hidden="true">
-      {image("hero-foh.jpg", "", eager=True)}
-      <div class="hero-grad-1"></div><div class="hero-grad-2"></div>
-    </div>
-    <div class="hero-content">
-      <p class="eyebrow hero-eyebrow"><span></span>Beirut, Lebanon · Working internationally</p>
-      <h1 class="hero-title">Jean-Pierre<br /><em>Boutros</em></h1>
-      <div class="hero-bottom">
-        <div class="hero-description">
-          <p class="hero-role">Live, studio &amp; broadcast <span>sound engineer.</span></p>
-          <p class="hero-lede">From the first note to the final mix.<br />Sound shaped around the performance.</p>
-        </div>
-        <div class="hero-actions">
-          <a href="#work" class="btn btn-primary">Explore selected work <span aria-hidden="true">↘</span></a>
-          <a href="#contact" class="btn btn-ghost">Get in touch</a>
-        </div>
-      </div>
-    </div>
-    <div class="hero-wave" aria-hidden="true">{''.join(f'<span style="height:{h}%;--wave-duration:{1.4 + (i % 7) * .21:.2f}s;--wave-delay:-{(i % 11) * .17:.2f}s"></span>' for i, h in enumerate([20,55,80,40,70,30,90,50,65,25,75,45,100,55,35,80,60,20,70,45,90,30,65,50,85,40,70,25,55,15]))}</div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="practice-strip container" role="group" aria-label="Areas of practice" data-reveal-group>
-      <p><span>On stage</span>Live sound &amp; broadcast</p>
-      <p><span>In the studio</span>Recording, mixing &amp; mastering</p>
-      <p><span>Behind the systems</span>Audio integration &amp; software</p>
-    </div>
-
-    <section class="section" id="work" aria-labelledby="work-title" tabindex="-1">
-      <div class="container">
-        <div class="section-heading" data-reveal>
-          <div><p class="eyebrow">Selected work</p><h2 class="section-title" id="work-title">The work.<br /><em>The worlds behind it.</em></h2></div>
-          <p class="section-intro">Concert stages, studio sessions, and live broadcasts. A few perspectives on my work in sound.</p>
-        </div>
+PROJECT_DETAILS = f'''
         <!-- Event context: JACC's official listing, event 599. FOH role confirmed by Jean-Pierre. -->
         <article class="project-feature project-feature--kuwait" id="the-eighties" aria-labelledby="eighties-title" data-reveal>
           <figure class="project-poster">
@@ -572,7 +491,7 @@ INDEX = f'''<!DOCTYPE html>
         </article>
         <div class="project-pair" data-reveal-group>
           <article class="project-studio" data-reveal>
-            <div class="studio-image">{image("studio-strip.jpg", "Jean-Pierre Boutros working at a studio mixing console", sizes="(max-width: 760px) 100vw, 50vw")}</div>
+            <div class="studio-image">{image("studio-manley-outboard.jpg", "Hands adjusting Manley outboard audio equipment during studio work", sizes="(max-width: 760px) 100vw, 50vw")}</div>
             <div class="project-copy">
               <p class="project-index">17 <span>Recording · Mixing · Mastering</span></p>
               <h3>StudioJPB.<br /><em>Since 2008.</em></h3>
@@ -590,6 +509,166 @@ INDEX = f'''<!DOCTYPE html>
             <p class="source-note">Merwas was recognised by Guinness World Records as the world’s largest music production studio in 2022.</p>
           </article>
         </div>
+'''
+
+
+# Card summaries stay separate from the full, sourced project descriptions above.
+# Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
+projects = [
+    ("the-eighties", "The Eighties… The Knockout", "National Theatre · JACC", "Kuwait · 2026", "FOH engineer", "foh", 0, True),
+    ("marina-viotti", "Marina Viotti", "Opera under the stars", "Zouk Mikael · 2026", "FOH engineer", "foh", 1, False),
+    ("cartoon-orchestra", "Cartoon Orchestra", "Sheikh Jaber Al-Ahmad Cultural Centre", "Kuwait · 2025", "FOH engineer", "foh", 2, False),
+    ("al-sharq-symphony", "Al Sharq Symphony", "Marcel Khalifé & Istanbul Philharmonic", "Istanbul · 2017", "FOH engineer", "foh", 3, False),
+    ("abeer-nehme-qatar", "Abeer Nehme", "With the Qatar Philharmonic Orchestra", "Doha · 2026", "FOH engineer", "foh", 4, True),
+    ("baligh-hamdi-night", "Nancy Ajram", "Baligh Hamdi Night", "Riyadh · 2023", "Monitor engineer", "monitors", 5, True),
+    ("warda-night", "Nancy Ajram", "Warda Night", "Jeddah · 2024", "Monitor engineer", "monitors", 6, False),
+    ("night-of-arab-stars", "Nancy Ajram", "Night of Arab Stars · Riyadh Season", "Riyadh · 2023", "Monitor engineer", "monitors", 7, False),
+    ("lebanese-philharmonic-diman", "Lebanese Philharmonic", "Eternal Covenant · Harout Fazlian", "Diman · 2026", "FOH engineer", "foh", 8, False),
+    ("nancy-ajram-olympia", "Nancy Ajram", "L’Olympia", "Paris · 2022", "FOH engineer", "foh", 9, True),
+    ("marcel-khalife-muscat", "Marcel Khalifé", "Royal Opera House Muscat", "Muscat · 2019", "FOH engineer", "foh", 10, True),
+    ("ehdeniyat-abeer-nehme", "Abeer Nehme", "Ehdeniyat International Festival", "Ehden · 2025", "FOH engineer", "foh", 12, False),
+    ("ehdeniyat-al-shami", "Al Shami", "Ehdeniyat International Festival", "Ehden · 2025", "FOH engineer", "foh", 13, True),
+    ("nancy-ajram-expo-dubai", "Nancy Ajram", "Infinite Nights · Expo 2020 Dubai", "Dubai · 2021", "Monitor engineer", "monitors", 11, False),
+    ("ehdeniyat-adam", "Adam", "Ehdeniyat International Festival", "Ehden · 2025", "Monitor engineer", "monitors", 14, False),
+    ("papal-broadcast", "Papal Mass", "Live broadcast · Beirut Waterfront", "Beirut · 2025", "Broadcast sound engineer", "broadcast", 20, False),
+    ("studio-jpb", "StudioJPB", "Recording, mixing & mastering", "Jounieh · Since 2008", "Founder & sound engineer", "studio", 18, False),
+    ("studio-integration", "Studio systems", "Merwas Studios & Playsound Studios", "Riyadh & Lebanon", "Audio system integration", "studio", "studio-mixing-console.jpg", False),
+]
+project_articles = re.findall(r'<article\b[^>]*>.*?</article>', PROJECT_DETAILS, re.S)
+if len(project_articles) != len(projects):
+    raise ValueError("Project summaries and full descriptions must stay in sync")
+project_dialogs = []
+project_cards = {}
+for project, article in zip(projects, project_articles):
+    slug, title, production, location, role, category, photo, featured = project
+    opening = re.match(r'<article\b[^>]*>', article)[0]
+    article_id = re.search(r'\bid="([^"]+)"', opening)
+    if article_id and article_id[1] != slug:
+        raise ValueError(f"Project order mismatch: {slug}")
+    labelledby = re.search(r'aria-labelledby="([^"]+)"', opening)
+    title_id = labelledby[1] if labelledby else f"{slug}-title"
+    article = article.replace(opening, re.sub(r'\s(?:id|data-reveal)="[^"]*"|\sdata-reveal(?=[\s>])', '', opening), 1)
+    if not labelledby:
+        article = article.replace('<h3>', f'<h3 id="{slug}-title">', 1)
+    project_dialogs.append(f'''<dialog class="project-dialog" id="{slug}" aria-labelledby="{title_id}" data-project-dialog open>
+  <div class="project-dialog-bar"><p>{e(title)}<span>{e(role)}</span></p><button type="button" class="dialog-close" data-close aria-label="Close project">✕</button></div>
+  {article}
+</dialog>''')
+    filename = gallery[photo][0] if isinstance(photo, int) else photo
+    alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
+    source = gallery_sources.get(filename)
+    source_html = (f'<p class="portfolio-credit">Photo: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
+    poster_class = ' portfolio-card--poster' if photo in (0, 2) else ''
+    featured_attr = ' data-featured' if featured else ''
+    project_cards[slug] = f'''<article class="portfolio-card{poster_class}" data-project-card="{slug}" data-category="{category}"{featured_attr}>
+  <a class="portfolio-link" href="#{slug}">
+    <div class="portfolio-image">
+      {image(filename, alt, sizes="(max-width: 600px) 100vw, 50vw")}
+      <span class="portfolio-role">{e(role)}</span>
+    </div>
+    <div class="portfolio-copy"><p class="portfolio-location">{e(location)}</p><h3>{e(title)}</h3><p class="portfolio-production">{e(production)}</p><span class="portfolio-arrow" aria-hidden="true">↗</span></div>
+  </a>
+{source_html}
+</article>'''
+
+featured_order = ["nancy-ajram-olympia", "abeer-nehme-qatar", "marcel-khalife-muscat",
+                  "ehdeniyat-al-shami", "baligh-hamdi-night", "the-eighties"]
+card_order = featured_order + [p[0] for p in projects if p[0] not in featured_order]
+filter_labels = [("featured", "Featured"), ("all", "All work"), ("foh", "FOH"),
+                 ("monitors", "Monitors"), ("broadcast", "Broadcast"), ("studio", "Studio")]
+filter_buttons = ''.join(f'<button type="button" data-project-filter="{key}" aria-pressed="false" aria-controls="portfolio-grid">{label}</button>' for key, label in filter_labels)
+portfolio_html = f'''<div class="portfolio-toolbar">
+  <div class="portfolio-filters" role="group" aria-label="Filter projects" hidden>{filter_buttons}</div>
+  <p class="portfolio-count" id="portfolio-count" role="status" aria-live="polite" aria-atomic="true">18 projects</p>
+</div>
+<div class="portfolio-grid" id="portfolio-grid">{''.join(project_cards[slug] for slug in card_order)}</div>
+<div class="portfolio-footer"><p>Every room has a different story.</p><button class="text-link portfolio-more" type="button" data-show-all-projects hidden>View all 18 projects <span aria-hidden="true">↗</span></button></div>
+<div class="project-details-fallback">{''.join(project_dialogs)}</div>'''
+
+INDEX = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jean-Pierre Boutros — Live, Studio &amp; Broadcast Sound Engineer</title>
+  <meta name="description" content="Jean-Pierre Boutros is a sound engineer based in Lebanon, working internationally in live sound, studio recording, mixing, mastering, broadcast and audio system integration." />
+  <meta name="author" content="Jean-Pierre Boutros" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="canonical" href="https://www.jeanpierreboutros.com/" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jeanpierreboutros.com/" />
+  <meta property="og:site_name" content="Jean-Pierre Boutros" />
+  <meta property="og:title" content="Jean-Pierre Boutros — Sound Engineer" />
+  <meta property="og:description" content="Live sound. Studio craft. Broadcast precision. Selected work and collaborations from sound engineer Jean-Pierre Boutros." />
+  <meta property="og:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
+  <meta property="og:image:alt" content="Jean-Pierre Boutros, sound engineer" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1280" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jean-Pierre Boutros — Sound Engineer" />
+  <meta name="twitter:description" content="Live, studio and broadcast sound engineer. Based in Lebanon, working internationally." />
+  <meta name="twitter:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
+  <meta name="twitter:image:alt" content="Jean-Pierre Boutros, sound engineer" />
+  <script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v={asset_versions['styles.css']}" />
+  <script src="main.js?v={asset_versions['main.js']}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a href="#top" class="nav-brand"><img class="nav-logo" src="jpb-monogram.png" alt="" width="27" height="32" /><span>Jean-Pierre Boutros</span></a>
+    <div class="nav-links">{nav_links("nav-contact")}</div>
+    <button class="nav-burger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu" aria-haspopup="dialog">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <dialog class="mobile-menu" id="mobileMenu" aria-label="Navigation">
+    <button type="button" class="dialog-close" data-close aria-label="Close navigation">✕</button>
+    <p class="eyebrow">Jean-Pierre Boutros</p>
+    <nav aria-label="Mobile">{nav_links("mm-contact")}</nav>
+    <p class="menu-location">Lebanon · Working internationally</p>
+  </dialog>
+
+  <header class="hero hero--portrait" id="top" tabindex="-1">
+    <div class="hero-shell container">
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span>Sound engineer</p>
+        <h1 class="hero-title">Jean-Pierre<br /><em>Boutros.</em></h1>
+        <div class="hero-description">
+          <p class="hero-role">FOH. Monitors. Studio. Broadcast.</p>
+          <p class="hero-lede">An ear for the artist.<br />A sound that fills the room.</p>
+        </div>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Explore selected work <span aria-hidden="true">↘</span></a>
+          <a href="{e(profile_url)}" class="hero-profile" download="Jean-Pierre-Boutros-Profile.pdf" aria-label="Download professional profile (PDF, 1 page, {profile_size})">Download profile <span aria-hidden="true">↓</span><span class="hero-profile-format">PDF · 1 page</span></a>
+        </div>
+        <p class="hero-location">Based in Lebanon <span aria-hidden="true">/</span> Working internationally</p>
+      </div>
+      <figure class="hero-portrait">
+        {image("live-outdoor-foh-night.jpg", "Jean-Pierre Boutros at the front-of-house console during an outdoor concert", sizes="(max-width: 760px) 100vw, 55vw", eager=True)}
+        <figcaption><span>At front of house</span><span>In the moment. In the mix.</span></figcaption>
+        <a href="#about" class="hero-about" aria-label="Meet Jean-Pierre Boutros"><span aria-hidden="true">↗</span></a>
+      </figure>
+    </div>
+    <div class="hero-wave" aria-hidden="true">{''.join(f'<span style="height:{h}%;--wave-duration:{1.4 + (i % 7) * .21:.2f}s;--wave-delay:-{(i % 11) * .17:.2f}s"></span>' for i, h in enumerate([20,55,80,40,70,30,90,50,65,25,75,45,100,55,35,80,60,20,70,45,90,30,65,50,85,40,70,25,55,15]))}</div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="section" id="work" aria-labelledby="work-title" tabindex="-1">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="eyebrow">Selected work</p><h2 class="section-title" id="work-title">On stage.<br /><em>Behind the sound.</em></h2></div>
+          <p class="section-intro">From intimate performances to orchestras and festival stages. Explore the artists, the rooms, and my role in the mix.</p>
+        </div>
+        {portfolio_html}
       </div>
     </section>
 
@@ -647,9 +726,10 @@ INDEX = f'''<!DOCTYPE html>
       <div class="container">
         <div class="section-heading" data-reveal>
           <div><p class="eyebrow">Behind the scenes</p><h2 class="section-title" id="gallery-title">A life<br /><em>in sound.</em></h2></div>
-          <p class="section-intro">A few frames from the working side of a performance. Select a photograph to take a closer look.</p>
+          <p class="section-intro">The desk. The room. The moments between. A closer look at the working side of a performance.</p>
         </div>
-        <div class="gallery-grid" data-reveal-group>{''.join(gallery_items)}</div>
+        <div class="gallery-grid" id="gallery-grid" data-reveal-group>{''.join(gallery_items)}</div>
+        <button class="text-link gallery-more" type="button" aria-controls="gallery-grid" aria-expanded="false" hidden>View all 24 photographs <span aria-hidden="true">↗</span></button>
       </div>
     </section>
 

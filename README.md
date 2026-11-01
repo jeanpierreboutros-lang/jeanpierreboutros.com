@@ -6,6 +6,14 @@ Live site: https://www.jeanpierreboutros.com/
 
 Content and documentation reviewed: 1 November 2026. The website includes 18 project entries, 36 artist and ensemble collaborations, 24 gallery photographs, and a downloadable one-page professional profile.
 
+## Portfolio presentation
+
+The portfolio opens with Jean-Pierre's outdoor FOH photograph beside his name and a profile download near the top. The StudioJPB card and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
+
+The project browser starts with six featured projects: Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait. Filters expose all 18 projects or FOH, Monitors, Broadcast and Studio categories. Every image card opens the complete sourced description in a native modal; the existing project anchors and PDF links still work directly. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+
+`projects` in `build.py` holds the compact card summaries and filter categories. Its order must match `PROJECT_DETAILS`; the build validates matching anchors. `featured_order` determines the opening selection. All 18 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 24; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF retains the complete current credits and is linked from the opening, About and Contact sections.
+
 ## Current project register
 
 | Project | Jean-Pierre's role | Location and date | Website anchor |
@@ -25,9 +33,9 @@ Content and documentation reviewed: 1 November 2026. The website includes 18 pro
 | Al Shami - Ehdeniyat 2025 | FOH engineer | Ehdeniyat International Festival, Ehden, Lebanon; 3 August 2025 | `#ehdeniyat-al-shami` |
 | Nancy Ajram - Infinite Nights, Expo 2020 Dubai | Monitor engineer for Nancy Ajram | Al Wasl Plaza, Dubai, UAE; 12 November 2021 | `#nancy-ajram-expo-dubai` |
 | Adam - Ehdeniyat 2025 | Monitor engineer for Adam | Ehdeniyat International Festival, Ehden, Lebanon; 31 July 2025 | `#ehdeniyat-adam` |
-| Papal Mass broadcast | Broadcast sound engineer | Beirut Waterfront, Lebanon; 2025 | `#work` |
-| StudioJPB | Founder; recording, mixing and mastering | Jounieh, Lebanon; founded 2008 | `#work` |
-| Studio system integration | Audio system integration | Merwas Studios, Riyadh; Playsound Studios, Lebanon | `#work` |
+| Papal Mass broadcast | Broadcast sound engineer | Beirut Waterfront, Lebanon; 2025 | `#papal-broadcast` |
+| StudioJPB | Founder; recording, mixing and mastering | Jounieh, Lebanon; founded 2008 | `#studio-jpb` |
+| Studio system integration | Audio system integration | Merwas Studios, Riyadh; Playsound Studios, Lebanon | `#studio-integration` |
 
 Production roles come from Jean-Pierre's confirmations and original biography. Public sources support event names, dates, venues and programme details; they do not independently establish his engineering credits. Nancy Ajram's monitor credits apply specifically to her performances.
 
@@ -114,7 +122,7 @@ Gallery captions describe visible content and established portfolio facts. Add s
 
 ## Downloadable professional profile
 
-The About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, nine production groups covering sixteen concert productions or broadcasts, studio and software work, television credits and clickable contact details. A compact Ehdeniyat 2025 block lists Abeer Nehme and Al Shami as FOH credits and Adam as a monitor credit, with each date and links to the project cards. Nancy Ajram's group identifies the Olympia FOH role separately from her four monitor credits in Dubai and Saudi Arabia. Marcel Khalifé's group covers Al Sharq Symphony in Istanbul and the Muscat concert engagement. The Diman FOH project is also included. Nancy's grouped monitor credits use years in the profile; the website project cards and register retain the complete dates and venues. The complete collaboration list remains on the website. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
+The opening, About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, nine production groups covering sixteen concert productions or broadcasts, studio and software work, television credits and clickable contact details. A compact Ehdeniyat 2025 block lists Abeer Nehme and Al Shami as FOH credits and Adam as a monitor credit, with each date and links to the project cards. Nancy Ajram's group identifies the Olympia FOH role separately from her four monitor credits in Dubai and Saudi Arabia. Marcel Khalifé's group covers Al Sharq Symphony in Istanbul and the Muscat concert engagement. The Diman FOH project is also included. Nancy's grouped monitor credits use years in the profile; the website project cards and register retain the complete dates and venues. The complete collaboration list remains on the website. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
 
 To update it, edit `build_profile.py`, then run:
 
@@ -148,9 +156,9 @@ Before deployment:
 1. Run `python3 build.py`, `node --check main.js` and `git diff --check`.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
-4. Open the gallery, navigate with arrow keys, close with Escape and check focus restoration.
+4. Verify Featured (6), All work (18), FOH (10), Monitors (5), Broadcast (1), and Studio (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
 5. Confirm images and section links resolve and project links point to the intended source.
-6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check both website download links use the new PDF fingerprint and size.
+6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check all three website download links use the new PDF fingerprint and size.
 7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.
 
 ## Deployment
@@ -160,7 +168,7 @@ Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git.
 1. Push reviewed changes to `main` on GitHub.
 2. In cPanel Git Version Control, choose the existing repository and update from remote. Confirm the HEAD SHA equals the pushed commit.
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
-4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check the affected projects, new images and both profile download links. Compare downloaded PDF bytes with the committed artifact when the profile changes.
+4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check the affected projects, new images and all three profile download links. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
 The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons, the professional profile PDF and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
