@@ -65,15 +65,16 @@ PRODUCTIONS = [
         "JACC National Theatre. Musical direction: Dr Khaled Noori.",
     ),
     (
-        "Al Sharq Symphony", "al-sharq-symphony",
-        "FOH engineer | Istanbul, Turkey | 2017",
-        "Marcel Khalifé; Istanbul Philharmonic Orchestra; conductor Lubnan Baalbaki.",
+        "Marcel Khalifé - Selected FOH credits", "marcel-khalife-muscat",
+        "FOH engineer | Istanbul, 2017; Muscat, Oman, 2019",
+        "Al Sharq Symphony: Istanbul Philharmonic, Lubnan Baalbaki. "
+        "Royal Opera House Muscat: House of Musical Arts, 26-27 Sep 2019.",
     ),
     (
-        "Nancy Ajram - Selected monitor credits", "night-of-arab-stars",
-        "Monitor engineer for Nancy Ajram | Saudi Arabia | 2023-24",
-        "Baligh Hamdi Night, Riyadh - 9 Nov 2023; Night of Arab Stars, Riyadh - "
-        "31 Dec 2023; Warda Night, Jeddah - 4 Jul 2024.",
+        "Nancy Ajram - FOH & monitor credits", "nancy-ajram-olympia",
+        "FOH engineer | L'Olympia, Paris | 10 June 2022",
+        "Monitor engineer: Expo 2020 Dubai (2021); Baligh Hamdi Night and "
+        "Night of Arab Stars, Riyadh (2023); Warda Night, Jeddah (2024).",
     ),
     (
         "Papal Mass broadcast", "work",
@@ -167,13 +168,13 @@ def build():
         left = paragraph(pdf, escape(metadata), margin, left, left_width,
                          size=8.4, leading=10.8, color=DARK_GOLD, gap=2)
         left = paragraph(pdf, escape(detail), margin, left, left_width,
-                         size=9.1, leading=12, color=MUTED, gap=6)
+                         size=9.1, leading=12, color=MUTED, gap=5)
 
-    left = section(pdf, "Selected collaborators", margin, left - 2, left_width)
     left = paragraph(pdf,
+        "<b>Selected collaborators</b><br/>"
         "Nancy Ajram, Marcel Khalifé, Georges Wassouf, Carole Samaha, "
         "Abeer Nehme, Ramy Ayyach, Charbel Rouhana, Rasha Rizk and Marina Viotti.",
-        margin, left, left_width, size=9.2, leading=12.8, color=MUTED)
+        margin, left - 4, left_width, size=9.1, leading=12.5, color=MUTED)
 
     right = section(pdf, "Expertise", right_x, top, right_width)
     for item in ["Live sound & FOH", "Monitor engineering", "Broadcast sound", "Recording & tracking",

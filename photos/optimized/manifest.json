@@ -503,6 +503,22 @@
       }
     ]
   },
+  "marcel-khalife-muscat-2019.jpg": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "src": "photos/optimized/marcel-khalife-muscat-2019-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-muscat-2019-800.webp",
+        "width": 800,
+        "height": 450
+      }
+    ]
+  },
   "marina-viotti-zouk-mikael-2026.jpg": {
     "width": 1440,
     "height": 1920,
@@ -605,6 +621,43 @@
         "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
         "width": 1600,
         "height": 1065
+      }
+    ]
+  },
+  "nancy-ajram-expo-dubai-2021.jpg": {
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-expo-dubai-2021-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-expo-dubai-2021-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
+        "width": 1600,
+        "height": 1067
+      }
+    ]
+  },
+  "nancy-ajram-olympia-paris-2022.jpg": {
+    "width": 647,
+    "height": 661,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-olympia-paris-2022-480.webp",
+        "width": 480,
+        "height": 490
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-olympia-paris-2022-647.webp",
+        "width": 647,
+        "height": 661
       }
     ]
   },

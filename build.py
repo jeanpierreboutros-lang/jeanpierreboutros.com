@@ -40,6 +40,9 @@ gallery = [
     ("nancy-ajram-warda-night-jeddah-2024.jpg", "Nancy Ajram · Warda Night", "Nancy Ajram on stage with orchestral musicians at Warda Night in Jeddah, 4 July 2024", "Nancy Ajram’s monitor engineer · Jeddah, 2024"),
     ("nancy-ajram-arab-stars-riyadh-2023.jpg", "Nancy Ajram · Night of Arab Stars", "Nancy Ajram singing with dancers and musicians at Night of Arab Stars in Riyadh, 31 December 2023", "Nancy Ajram’s monitor engineer · Riyadh Season, 2023"),
     ("lebanese-philharmonic-diman-2026.jpg", "Lebanese Philharmonic · Diman", "Lebanese National Philharmonic Orchestra performing beneath an illuminated cross at the Patriarchal Summer Residence in Diman, conducted by Harout Fazlian", "FOH engineer · Diman, 26 July 2026"),
+    ("nancy-ajram-olympia-paris-2022.jpg", "Nancy Ajram · L’Olympia", "Nancy Ajram singing in a red gown with her band at L’Olympia in Paris, 10 June 2022", "FOH engineer · Paris, 2022"),
+    ("marcel-khalife-muscat-2019.jpg", "Marcel Khalifé · Muscat", "Marcel Khalifé singing and playing the oud during his September 2019 concerts at the Royal Opera House of Musical Arts in Muscat", "FOH engineer · Muscat, Oman, 2019"),
+    ("nancy-ajram-expo-dubai-2021.jpg", "Nancy Ajram · Expo 2020 Dubai", "Nancy Ajram singing with her band beneath the Al Wasl Plaza dome during Infinite Nights at Expo 2020 Dubai, 12 November 2021", "Nancy Ajram’s monitor engineer · Dubai, 2021"),
     ("live-outdoor-foh-night.jpg", "At the desk", "Jean-Pierre Boutros mixing an outdoor concert at night", "Live sound"),
     ("foh-pov-theater-stage.jpg", "A view from front of house", "Mixing console facing an illuminated theatre stage", "Live sound"),
     ("concert-arena-led-screens.jpg", "Sound at scale", "Concert stage with large LED screens, seen from the audience", "Live production"),
@@ -68,8 +71,28 @@ warda_coverage_url = "https://aawsat.com/يوميات-الشرق/5037424-ليل�
 arab_stars_coverage_url = "https://www.sayidaty.net/مشاهير/مشاهير-العرب/1711121-بالفيديو-والصور-تفاصيل-حفلة-ليلة-نجمات-العرب-في-الرياض"
 arab_stars_photo_url = "https://www.aljamila.com/node/791121/بسعر-خيالي-نانسي-عجرم-تألقت-بفستان-أسود-شفاف-في-ليلة-نجمات-العرب%C2%A0"
 diman_coverage_url = "https://bkerki.org/news-article/امسية-موسيقية-بعنوان-عهد-أبدي/"
+olympia_coverage_url = "https://www.parisbouge.com/events/234789"
+olympia_photo_url = "https://www.filfan.com/news/147643"
+muscat_programme_url = "https://rohmuscat.org.om/en/performance/performance-detail?i=404"
+muscat_photo_url = "https://www.omanobserver.om/article/23830/Main/marcel-khalife-created-his-own-global-sound-world"
+expo_coverage_url = "https://virtualexpodubai.com/listen-watch/events/infinite-nights-starring-ragheb-alama-and-nancy-ajram"
 
 gallery_sources = {
+    "nancy-ajram-expo-dubai-2021.jpg": {
+        "name": "Expo 2020 Dubai / Virtual Expo",
+        "url": expo_coverage_url,
+        "image_url": "https://images.ctfassets.net/opz1rk40r4ou/1Z8NDz0CUIBH8xHsnKBvCu/e7dab9c5f3fa9c5b5cc9fd1912a19dbd/Expo_Nights_Nancy_54.jpg?fm=jpg&q=90&w=1600",
+    },
+    "nancy-ajram-olympia-paris-2022.jpg": {
+        "name": "FilFan",
+        "url": olympia_photo_url,
+        "image_url": "https://media.filfan.com/NewsPics/FilfanNew/large/389566_0.PNG",
+    },
+    "marcel-khalife-muscat-2019.jpg": {
+        "name": "Oman Observer",
+        "url": muscat_photo_url,
+        "image_url": "https://www.omanobserver.om/uploads/imported_images/uploads/2019/09/IMG_4593.jpg",
+    },
     "nancy-ajram-arab-stars-riyadh-2023.jpg": {
         "name": "Rotana Live / Al Jamila",
         "url": arab_stars_photo_url,
@@ -121,9 +144,9 @@ def nav_links(css=""):
 
 artist_projects = {
     "Lebanese National Philharmonic Orchestra": ("lebanese-philharmonic-diman", "FOH engineer · Diman, 2026"),
-    "Nancy Ajram": ("baligh-hamdi-night", "Monitor engineer · Saudi Arabia, 2023–24"),
+    "Nancy Ajram": ("nancy-ajram-olympia", "FOH & monitor engineer · 2021–24"),
     "Abeer Nehme": ("abeer-nehme-qatar", "FOH engineer · Qatar, 2026"),
-    "Marcel Khalifé": ("al-sharq-symphony", "FOH engineer · Istanbul, 2017"),
+    "Marcel Khalifé": ("marcel-khalife-muscat", "FOH engineer · Istanbul & Muscat"),
     "Marina Viotti": ("marina-viotti", "FOH engineer · Lebanon, 2026"),
     "Cartoon Orchestra": ("cartoon-orchestra", "FOH engineer · Kuwait, 2025"),
 }
@@ -413,14 +436,61 @@ INDEX = f'''<!DOCTYPE html>
               <p class="source-note">Concert details · Maronite Patriarchate</p>
             </div>
           </article>
+          <article class="project-event" id="nancy-ajram-olympia" aria-labelledby="olympia-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[9]['src'])}" data-gallery-index="9" aria-label="Enlarge Nancy Ajram performing at L’Olympia in Paris" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("nancy-ajram-olympia-paris-2022.jpg", "Nancy Ajram performing with her band at L’Olympia, Paris, 10 June 2022 — photo via FilFan", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">10 <span>Front-of-house engineering · Nancy Ajram</span></p>
+              <h3 id="olympia-title">Nancy Ajram.<br /><em>L’Olympia, Paris.</em></h3>
+              <p>FOH engineering for Nancy Ajram’s concert at L’Olympia in Paris on 10 June 2022.</p>
+              <p>Her return to the Paris stage followed the release of Nancy 10, with a programme drawn from her repertoire and live band accompaniment.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>L’Olympia · Paris, France</dd></div><div><dt>Date</dt><dd>10 June 2022</dd></div></dl>
+              <a class="text-link" href="https://www.youtube.com/watch?v=4l2mWDhjhtk" target="_blank" rel="noopener noreferrer">Watch the official concert recap <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert photo: <a href="{e(olympia_photo_url)}" target="_blank" rel="noopener noreferrer">FilFan<span class="sr-only"> (opens in a new tab)</span></a> · <a href="{e(olympia_coverage_url)}" target="_blank" rel="noopener noreferrer">Event listing<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
+          <article class="project-event" id="marcel-khalife-muscat" aria-labelledby="muscat-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[10]['src'])}" data-gallery-index="10" aria-label="Enlarge Marcel Khalifé performing in Muscat in 2019" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("marcel-khalife-muscat-2019.jpg", "Marcel Khalifé singing and playing oud in Muscat, September 2019 — photo from Oman Observer", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">11 <span>Front-of-house engineering · Marcel Khalifé</span></p>
+              <h3 id="muscat-title">Marcel Khalifé.<br /><em>Royal Opera House Muscat.</em></h3>
+              <p>FOH engineering for Marcel Khalifé at the House of Musical Arts, part of the Royal Opera House Muscat, Oman.</p>
+              <p>Presented on 26–27 September 2019, the concerts brought together his voice and oud with live accompaniment, including pianist Rami Khalifé.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>House of Musical Arts · Royal Opera House Muscat</dd></div><div><dt>Location &amp; dates</dt><dd>Muscat, Oman · 26–27 September 2019</dd></div></dl>
+              <a class="text-link" href="{e(muscat_programme_url)}" target="_blank" rel="noopener noreferrer">View the official programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Concert photo &amp; review: <a href="{e(muscat_photo_url)}" target="_blank" rel="noopener noreferrer">Oman Observer<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
         </div>
+        <article class="project-feature project-feature--concert" id="nancy-ajram-expo-dubai" aria-labelledby="expo-title" data-reveal>
+          <figure class="project-poster">
+            <a href="{e(gallery_data[11]['src'])}" data-gallery-index="11" aria-label="Enlarge Nancy Ajram performing at Expo 2020 Dubai" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("nancy-ajram-expo-dubai-2021.jpg", "Nancy Ajram performing with her band at Al Wasl Plaza, Expo 2020 Dubai, 12 November 2021 — photo from Expo 2020 Dubai / Virtual Expo", sizes="(max-width: 760px) 100vw, 50vw")}
+            </a>
+            <figcaption>Infinite Nights · Al Wasl Plaza · Dubai, 2021</figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">12 <span>Monitor engineering · Nancy Ajram</span></p>
+            <h3 id="expo-title">Nancy Ajram.<br /><em>Expo 2020 Dubai.</em></h3>
+            <p>Monitor engineering for Nancy Ajram’s Infinite Nights performance at Expo 2020 Dubai on 12 November 2021.</p>
+            <p>The concert took place beneath the dome of Al Wasl Plaza and was streamed internationally as part of the Expo’s live music series.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Al Wasl Plaza · Dubai, UAE</dd></div><div><dt>Date</dt><dd>12 November 2021</dd></div></dl>
+            <a class="text-link" href="{e(expo_coverage_url)}" target="_blank" rel="noopener noreferrer">Explore the official concert archive <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Concert photo · Expo 2020 Dubai / Virtual Expo</p>
+          </div>
+        </article>
         <article class="project-feature" data-reveal>
           <figure class="project-photo">
             {image("pope-leo-waterfront.jpg", "Stage prepared for Pope Leo XIV’s 2025 visit to Lebanon", sizes="(max-width: 760px) 100vw, 55vw")}
             <figcaption>Papal visit · Lebanon, 2025</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-index">10 <span>Broadcast sound engineering</span></p>
+            <p class="project-index">13 <span>Broadcast sound engineering</span></p>
             <h3>A moment<br /><em>to be heard.</em></h3>
             <p>Broadcast sound engineering for the Papal Mass at Beirut Waterfront during Pope Leo XIV’s 2025 visit to Lebanon.</p>
             <dl class="project-details"><div><dt>Production</dt><dd>Papal Mass</dd></div><div><dt>Location</dt><dd>Beirut, Lebanon · 2025</dd></div></dl>
@@ -432,14 +502,14 @@ INDEX = f'''<!DOCTYPE html>
           <article class="project-studio" data-reveal>
             <div class="studio-image">{image("studio-strip.jpg", "Jean-Pierre Boutros working at a studio mixing console", sizes="(max-width: 760px) 100vw, 50vw")}</div>
             <div class="project-copy">
-              <p class="project-index">11 <span>Recording · Mixing · Mastering</span></p>
+              <p class="project-index">14 <span>Recording · Mixing · Mastering</span></p>
               <h3>StudioJPB.<br /><em>Since 2008.</em></h3>
               <p>I founded Studio Jean-Pierre Boutros in Jounieh, Lebanon, as a home for my studio work, from recording sessions to the final master.</p>
               <a class="text-link" href="#about">Meet the engineer <span aria-hidden="true">↗</span></a>
             </div>
           </article>
           <article class="project-integration" data-reveal>
-            <p class="project-index">12 <span>Audio system integration</span></p>
+            <p class="project-index">15 <span>Audio system integration</span></p>
             <div class="signal-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
             <h3>Studio systems.<br /><em>Working together.</em></h3>
             <p>My integration work includes recording facilities such as Merwas Studios in Riyadh and Playsound Studios in Lebanon.</p>
