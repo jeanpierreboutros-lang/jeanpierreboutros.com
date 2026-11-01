@@ -171,9 +171,9 @@ def build():
                          size=9.1, leading=12, color=MUTED, gap=5)
 
     left = paragraph(pdf,
-        "<b>Selected collaborators</b><br/>"
-        "Nancy Ajram, Marcel Khalifé, Georges Wassouf, Carole Samaha, "
-        "Abeer Nehme, Ramy Ayyach, Charbel Rouhana, Rasha Rizk and Marina Viotti.",
+        f'<b><link href="{SITE}#ehdeniyat-abeer-nehme">Ehdeniyat 2025 | Ehden, Lebanon</link></b><br/>'
+        f'FOH: Abeer Nehme (25 Jul), <link href="{SITE}#ehdeniyat-al-shami">Al Shami (3 Aug)</link>.<br/>'
+        f'Monitor engineer: <link href="{SITE}#ehdeniyat-adam">Adam (31 Jul)</link>.',
         margin, left - 4, left_width, size=9.1, leading=12.5, color=MUTED)
 
     right = section(pdf, "Expertise", right_x, top, right_width)

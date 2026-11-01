@@ -4,7 +4,7 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-Content and documentation reviewed: 1 November 2026. The website includes 15 project entries, 36 artist and ensemble collaborations, 21 gallery photographs, and a downloadable one-page professional profile.
+Content and documentation reviewed: 1 November 2026. The website includes 18 project entries, 36 artist and ensemble collaborations, 24 gallery photographs, and a downloadable one-page professional profile.
 
 ## Current project register
 
@@ -21,7 +21,10 @@ Content and documentation reviewed: 1 November 2026. The website includes 15 pro
 | Lebanese National Philharmonic - Eternal Covenant | FOH engineer | Patriarchal Summer Residence, Diman, North Lebanon; 26 July 2026; conductor Harout Fazlian | `#lebanese-philharmonic-diman` |
 | Nancy Ajram - L'Olympia | FOH engineer | L'Olympia, Paris, France; 10 June 2022 | `#nancy-ajram-olympia` |
 | Marcel Khalifé - Royal Opera House Muscat | FOH engineer | House of Musical Arts, Muscat, Oman; 26-27 September 2019 | `#marcel-khalife-muscat` |
+| Abeer Nehme - Ehdeniyat 2025 | FOH engineer | Ehdeniyat International Festival, Ehden, Lebanon; 25 July 2025 | `#ehdeniyat-abeer-nehme` |
+| Al Shami - Ehdeniyat 2025 | FOH engineer | Ehdeniyat International Festival, Ehden, Lebanon; 3 August 2025 | `#ehdeniyat-al-shami` |
 | Nancy Ajram - Infinite Nights, Expo 2020 Dubai | Monitor engineer for Nancy Ajram | Al Wasl Plaza, Dubai, UAE; 12 November 2021 | `#nancy-ajram-expo-dubai` |
+| Adam - Ehdeniyat 2025 | Monitor engineer for Adam | Ehdeniyat International Festival, Ehden, Lebanon; 31 July 2025 | `#ehdeniyat-adam` |
 | Papal Mass broadcast | Broadcast sound engineer | Beirut Waterfront, Lebanon; 2025 | `#work` |
 | StudioJPB | Founder; recording, mixing and mastering | Jounieh, Lebanon; founded 2008 | `#work` |
 | Studio system integration | Audio system integration | Merwas Studios, Riyadh; Playsound Studios, Lebanon | `#work` |
@@ -84,6 +87,14 @@ Marcel Khalifé's 2019 Muscat project also carries Jean-Pierre's confirmed FOH c
 
 Jean-Pierre confirmed his monitor-engineering role for Nancy Ajram's Infinite Nights performance at Expo 2020 Dubai. The show took place on 12 November 2021 at Al Wasl Plaza, as confirmed by Dubai Media Office's 8 November 2021 announcement: https://mediaoffice.ae/en/news/2021/November/08-11/Expo-2020-Dubai-latest-visit-figure-approaches-3-million. The official concert archive provides programme context and the selected band photograph: https://virtualexpodubai.com/listen-watch/events/infinite-nights-starring-ragheb-alama-and-nancy-ajram. Image origin: https://images.ctfassets.net/opz1rk40r4ou/1Z8NDz0CUIBH8xHsnKBvCu/e7dab9c5f3fa9c5b5cc9fd1912a19dbd/Expo_Nights_Nancy_54.jpg?fm=jpg&q=90&w=1600. Expo 2020 Dubai / Virtual Expo attribution appears in the project, gallery and image viewer. The event retains its official Expo 2020 name; the performance year is 2021. Jean-Pierre's credit applies to Nancy's show.
 
+Jean-Pierre confirmed three artist-specific roles at Ehdeniyat International Festival 2025: FOH for Abeer Nehme on 25 July and Al Shami on 3 August, and monitors for Adam on 31 July. Dates match the published festival programme at https://lebanonuntravelled.com/ehdeniyat-international-festival-2025/ and the archived ticketing information at https://www.ticketingboxoffice.com/news/details/2941/. Each show has its own project card and gallery image; the artist collaboration labels identify the corresponding role. These entries credit the named artist's performance rather than the complete festival.
+
+Abeer Nehme's performance photo is credited by L'Orient-Le Jour to Ehdeniyat Festival: https://today.lorientlejour.com/article/1471284/at-ehdeniyat-abeer-nehme-reaches-saltana.html. Its 28 July 2025 review also supports the choir and Marc Abou Naoum programme context. Image origin: https://s.lorientlejour.com/storage/attachments/1472/PIE_9590_836549.jpg/r/2400/PIE_9590_836549.jpg. Visible attribution is Ehdeniyat Festival / L'Orient-Le Jour.
+
+Al Shami's stage photo comes from Cairo24's 4 August 2025 concert report: https://www.cairo24.com/2256107. Image origin: https://www.cairo24.com/Upload/libfiles/163/0/191.jpg. The full portrait composition, including the LED stage and effects, is retained and credited to Cairo24.
+
+Adam's performance portrait comes from the dated Beiruting event gallery: https://www.beiruting.com/events/43820/adam-at-ehdeniyat-festival. Image origin: https://api.beiruting.com/images/1210x807xi/527531944_1336761888016831_8705915139313954408_n.webp. The WebP was converted to JPEG with its full composition retained. The 1 August 2025 report from festival media partner Aghani Aghani confirms the previous evening's show and its Ziad Rahbani tribute: https://aghaniaghani.com/news/regional-celebrities/آدم-يُشعل-مسرح-إهدنيات-الدولي-بلحظات-إ/. Visible photo attribution is Beiruting.
+
 ## Images
 
 Original photographs are preserved. Responsive WebP derivatives use widths up to 480, 960 and 1600 pixels. Zynforge icons use 128px assets for their 64px display size. Images have intrinsic dimensions, responsive sources and meaningful alternative text. All except the hero load lazily.
@@ -103,7 +114,7 @@ Gallery captions describe visible content and established portfolio facts. Add s
 
 ## Downloadable professional profile
 
-The About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, eight selected-production groups covering thirteen concert productions or broadcasts, collaborators, studio and software work, television credits and clickable contact details. Nancy Ajram's group identifies the Olympia FOH role separately from her four monitor credits in Dubai and Saudi Arabia. Marcel Khalifé's group covers Al Sharq Symphony in Istanbul and the Muscat concert engagement. The Diman FOH project is also included. Grouped monitor credits use years in the profile; the website project cards and register retain the complete dates and venues. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
+The About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, nine production groups covering sixteen concert productions or broadcasts, studio and software work, television credits and clickable contact details. A compact Ehdeniyat 2025 block lists Abeer Nehme and Al Shami as FOH credits and Adam as a monitor credit, with each date and links to the project cards. Nancy Ajram's group identifies the Olympia FOH role separately from her four monitor credits in Dubai and Saudi Arabia. Marcel Khalifé's group covers Al Sharq Symphony in Istanbul and the Muscat concert engagement. The Diman FOH project is also included. Nancy's grouped monitor credits use years in the profile; the website project cards and register retain the complete dates and venues. The complete collaboration list remains on the website. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
 
 To update it, edit `build_profile.py`, then run:
 

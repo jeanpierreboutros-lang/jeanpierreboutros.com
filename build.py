@@ -43,6 +43,9 @@ gallery = [
     ("nancy-ajram-olympia-paris-2022.jpg", "Nancy Ajram · L’Olympia", "Nancy Ajram singing in a red gown with her band at L’Olympia in Paris, 10 June 2022", "FOH engineer · Paris, 2022"),
     ("marcel-khalife-muscat-2019.jpg", "Marcel Khalifé · Muscat", "Marcel Khalifé singing and playing the oud during his September 2019 concerts at the Royal Opera House of Musical Arts in Muscat", "FOH engineer · Muscat, Oman, 2019"),
     ("nancy-ajram-expo-dubai-2021.jpg", "Nancy Ajram · Expo 2020 Dubai", "Nancy Ajram singing with her band beneath the Al Wasl Plaza dome during Infinite Nights at Expo 2020 Dubai, 12 November 2021", "Nancy Ajram’s monitor engineer · Dubai, 2021"),
+    ("abeer-nehme-ehdeniyat-2025.jpg", "Abeer Nehme · Ehdeniyat 2025", "Abeer Nehme singing with musicians and a dancer at Ehdeniyat International Festival, 25 July 2025", "FOH engineer · Ehden, Lebanon, 2025"),
+    ("al-shami-ehdeniyat-2025.jpg", "Al Shami · Ehdeniyat 2025", "Al Shami performing amid stage effects and LED screens at Ehdeniyat International Festival, 3 August 2025", "FOH engineer · Ehden, Lebanon, 2025"),
+    ("adam-ehdeniyat-2025.jpg", "Adam · Ehdeniyat 2025", "Adam singing with musicians behind him at Ehdeniyat International Festival, 31 July 2025", "Monitor engineer for Adam · Ehden, Lebanon, 2025"),
     ("live-outdoor-foh-night.jpg", "At the desk", "Jean-Pierre Boutros mixing an outdoor concert at night", "Live sound"),
     ("foh-pov-theater-stage.jpg", "A view from front of house", "Mixing console facing an illuminated theatre stage", "Live sound"),
     ("concert-arena-led-screens.jpg", "Sound at scale", "Concert stage with large LED screens, seen from the audience", "Live production"),
@@ -76,8 +79,28 @@ olympia_photo_url = "https://www.filfan.com/news/147643"
 muscat_programme_url = "https://rohmuscat.org.om/en/performance/performance-detail?i=404"
 muscat_photo_url = "https://www.omanobserver.om/article/23830/Main/marcel-khalife-created-his-own-global-sound-world"
 expo_coverage_url = "https://virtualexpodubai.com/listen-watch/events/infinite-nights-starring-ragheb-alama-and-nancy-ajram"
+ehdeniyat_programme_url = "https://lebanonuntravelled.com/ehdeniyat-international-festival-2025/"
+abeer_ehdeniyat_coverage_url = "https://today.lorientlejour.com/article/1471284/at-ehdeniyat-abeer-nehme-reaches-saltana.html"
+shami_ehdeniyat_coverage_url = "https://www.cairo24.com/2256107"
+adam_ehdeniyat_coverage_url = "https://aghaniaghani.com/news/regional-celebrities/آدم-يُشعل-مسرح-إهدنيات-الدولي-بلحظات-إ/"
+adam_ehdeniyat_gallery_url = "https://www.beiruting.com/events/43820/adam-at-ehdeniyat-festival"
 
 gallery_sources = {
+    "abeer-nehme-ehdeniyat-2025.jpg": {
+        "name": "Ehdeniyat Festival / L’Orient-Le Jour",
+        "url": abeer_ehdeniyat_coverage_url,
+        "image_url": "https://s.lorientlejour.com/storage/attachments/1472/PIE_9590_836549.jpg/r/2400/PIE_9590_836549.jpg",
+    },
+    "al-shami-ehdeniyat-2025.jpg": {
+        "name": "Cairo24",
+        "url": shami_ehdeniyat_coverage_url,
+        "image_url": "https://www.cairo24.com/Upload/libfiles/163/0/191.jpg",
+    },
+    "adam-ehdeniyat-2025.jpg": {
+        "name": "Beiruting",
+        "url": adam_ehdeniyat_gallery_url,
+        "image_url": "https://api.beiruting.com/images/1210x807xi/527531944_1336761888016831_8705915139313954408_n.webp",
+    },
     "nancy-ajram-expo-dubai-2021.jpg": {
         "name": "Expo 2020 Dubai / Virtual Expo",
         "url": expo_coverage_url,
@@ -143,9 +166,11 @@ def nav_links(css=""):
 
 
 artist_projects = {
+    "Al Shami": ("ehdeniyat-al-shami", "FOH engineer · Ehdeniyat, 2025"),
+    "Adam": ("ehdeniyat-adam", "Monitor engineer · Ehdeniyat, 2025"),
     "Lebanese National Philharmonic Orchestra": ("lebanese-philharmonic-diman", "FOH engineer · Diman, 2026"),
     "Nancy Ajram": ("nancy-ajram-olympia", "FOH & monitor engineer · 2021–24"),
-    "Abeer Nehme": ("abeer-nehme-qatar", "FOH engineer · Qatar, 2026"),
+    "Abeer Nehme": ("ehdeniyat-abeer-nehme", "FOH engineer · Qatar & Ehden, 2025–26"),
     "Marcel Khalifé": ("marcel-khalife-muscat", "FOH engineer · Istanbul & Muscat"),
     "Marina Viotti": ("marina-viotti", "FOH engineer · Lebanon, 2026"),
     "Cartoon Orchestra": ("cartoon-orchestra", "FOH engineer · Kuwait, 2025"),
@@ -466,6 +491,36 @@ INDEX = f'''<!DOCTYPE html>
               <p class="source-note">Concert photo &amp; review: <a href="{e(muscat_photo_url)}" target="_blank" rel="noopener noreferrer">Oman Observer<span class="sr-only"> (opens in a new tab)</span></a></p>
             </div>
           </article>
+          <article class="project-event" id="ehdeniyat-abeer-nehme" aria-labelledby="ehdeniyat-abeer-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[12]['src'])}" data-gallery-index="12" aria-label="Enlarge Abeer Nehme performing at Ehdeniyat 2025" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("abeer-nehme-ehdeniyat-2025.jpg", "Abeer Nehme with musicians and a dancer at Ehdeniyat, 25 July 2025 — photo courtesy Ehdeniyat Festival, via L’Orient-Le Jour", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">12 <span>Front-of-house engineering · Festival</span></p>
+              <h3 id="ehdeniyat-abeer-title">Abeer Nehme.<br /><em>Ehdeniyat 2025.</em></h3>
+              <p>FOH engineering for Abeer Nehme’s concert at Ehdeniyat International Festival in Ehden, North Lebanon, on 25 July 2025.</p>
+              <p>Her open-air performance brought together her own songs and a multilingual repertoire, accompanied by musicians and a choir under Marc Abou Naoum.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Festival</dt><dd>Ehdeniyat International Festival · Ehden, Lebanon</dd></div><div><dt>Date</dt><dd>25 July 2025</dd></div></dl>
+              <a class="text-link" href="{e(abeer_ehdeniyat_coverage_url)}" target="_blank" rel="noopener noreferrer">Read the concert review <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Photo: <a href="{e(abeer_ehdeniyat_coverage_url)}" target="_blank" rel="noopener noreferrer">Ehdeniyat Festival, via L’Orient-Le Jour<span class="sr-only"> (opens in a new tab)</span></a> · <a href="{e(ehdeniyat_programme_url)}" target="_blank" rel="noopener noreferrer">Festival programme<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
+          <article class="project-event" id="ehdeniyat-al-shami" aria-labelledby="ehdeniyat-shami-title" data-reveal>
+            <a class="event-media event-media--concert" href="{e(gallery_data[13]['src'])}" data-gallery-index="13" aria-label="Enlarge Al Shami performing at Ehdeniyat 2025" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("al-shami-ehdeniyat-2025.jpg", "Al Shami performing with stage effects at Ehdeniyat, 3 August 2025 — photo via Cairo24", sizes="(max-width: 760px) 100vw, 50vw")}
+              <span class="gallery-expand" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy">
+              <p class="project-index">13 <span>Front-of-house engineering · Festival</span></p>
+              <h3 id="ehdeniyat-shami-title">Al Shami.<br /><em>Ehdeniyat 2025.</em></h3>
+              <p>FOH engineering for Al Shami’s concert at Ehdeniyat International Festival on 3 August 2025, the closing night of the festival’s 21st edition.</p>
+              <p>The outdoor production combined his songs with dancers, LED visuals and stage effects in the mountain setting of Ehden, North Lebanon.</p>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Festival</dt><dd>Ehdeniyat International Festival · Ehden, Lebanon</dd></div><div><dt>Date</dt><dd>3 August 2025</dd></div></dl>
+              <a class="text-link" href="{e(shami_ehdeniyat_coverage_url)}" target="_blank" rel="noopener noreferrer">Explore the concert coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+              <p class="source-note">Photo: <a href="{e(shami_ehdeniyat_coverage_url)}" target="_blank" rel="noopener noreferrer">Cairo24<span class="sr-only"> (opens in a new tab)</span></a> · <a href="{e(ehdeniyat_programme_url)}" target="_blank" rel="noopener noreferrer">Festival programme<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </article>
         </div>
         <article class="project-feature project-feature--concert" id="nancy-ajram-expo-dubai" aria-labelledby="expo-title" data-reveal>
           <figure class="project-poster">
@@ -475,7 +530,7 @@ INDEX = f'''<!DOCTYPE html>
             <figcaption>Infinite Nights · Al Wasl Plaza · Dubai, 2021</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-index">12 <span>Monitor engineering · Nancy Ajram</span></p>
+            <p class="project-index">14 <span>Monitor engineering · Nancy Ajram</span></p>
             <h3 id="expo-title">Nancy Ajram.<br /><em>Expo 2020 Dubai.</em></h3>
             <p>Monitor engineering for Nancy Ajram’s Infinite Nights performance at Expo 2020 Dubai on 12 November 2021.</p>
             <p>The concert took place beneath the dome of Al Wasl Plaza and was streamed internationally as part of the Expo’s live music series.</p>
@@ -484,13 +539,30 @@ INDEX = f'''<!DOCTYPE html>
             <p class="source-note">Concert photo · Expo 2020 Dubai / Virtual Expo</p>
           </div>
         </article>
+        <article class="project-feature project-feature--concert project-feature--portrait" id="ehdeniyat-adam" aria-labelledby="ehdeniyat-adam-title" data-reveal>
+          <figure class="project-poster">
+            <a href="{e(gallery_data[14]['src'])}" data-gallery-index="14" aria-label="Enlarge Adam performing at Ehdeniyat 2025" aria-haspopup="dialog" aria-controls="lightbox">
+              {image("adam-ehdeniyat-2025.jpg", "Adam singing with musicians behind him at Ehdeniyat, 31 July 2025 — photo via Beiruting", sizes="(max-width: 760px) 100vw, 50vw")}
+            </a>
+            <figcaption>Adam · Ehdeniyat International Festival · 31 July 2025</figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">15 <span>Monitor engineering · Adam</span></p>
+            <h3 id="ehdeniyat-adam-title">Adam.<br /><em>Ehdeniyat 2025.</em></h3>
+            <p>Monitor engineering for Adam’s performance at Ehdeniyat International Festival in Ehden, North Lebanon, on 31 July 2025.</p>
+            <p>The evening included songs from his own repertoire and a tribute to Ziad Rahbani.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Adam</dd></div><div><dt>Festival</dt><dd>Ehdeniyat International Festival · Ehden, Lebanon</dd></div><div><dt>Date</dt><dd>31 July 2025</dd></div></dl>
+            <a class="text-link" href="{e(adam_ehdeniyat_coverage_url)}" target="_blank" rel="noopener noreferrer">Explore the concert coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Photo: <a href="{e(adam_ehdeniyat_gallery_url)}" target="_blank" rel="noopener noreferrer">Beiruting<span class="sr-only"> (opens in a new tab)</span></a> · <a href="{e(ehdeniyat_programme_url)}" target="_blank" rel="noopener noreferrer">Festival programme<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
         <article class="project-feature" data-reveal>
           <figure class="project-photo">
             {image("pope-leo-waterfront.jpg", "Stage prepared for Pope Leo XIV’s 2025 visit to Lebanon", sizes="(max-width: 760px) 100vw, 55vw")}
             <figcaption>Papal visit · Lebanon, 2025</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-index">13 <span>Broadcast sound engineering</span></p>
+            <p class="project-index">16 <span>Broadcast sound engineering</span></p>
             <h3>A moment<br /><em>to be heard.</em></h3>
             <p>Broadcast sound engineering for the Papal Mass at Beirut Waterfront during Pope Leo XIV’s 2025 visit to Lebanon.</p>
             <dl class="project-details"><div><dt>Production</dt><dd>Papal Mass</dd></div><div><dt>Location</dt><dd>Beirut, Lebanon · 2025</dd></div></dl>
@@ -502,14 +574,14 @@ INDEX = f'''<!DOCTYPE html>
           <article class="project-studio" data-reveal>
             <div class="studio-image">{image("studio-strip.jpg", "Jean-Pierre Boutros working at a studio mixing console", sizes="(max-width: 760px) 100vw, 50vw")}</div>
             <div class="project-copy">
-              <p class="project-index">14 <span>Recording · Mixing · Mastering</span></p>
+              <p class="project-index">17 <span>Recording · Mixing · Mastering</span></p>
               <h3>StudioJPB.<br /><em>Since 2008.</em></h3>
               <p>I founded Studio Jean-Pierre Boutros in Jounieh, Lebanon, as a home for my studio work, from recording sessions to the final master.</p>
               <a class="text-link" href="#about">Meet the engineer <span aria-hidden="true">↗</span></a>
             </div>
           </article>
           <article class="project-integration" data-reveal>
-            <p class="project-index">15 <span>Audio system integration</span></p>
+            <p class="project-index">18 <span>Audio system integration</span></p>
             <div class="signal-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
             <h3>Studio systems.<br /><em>Working together.</em></h3>
             <p>My integration work includes recording facilities such as Merwas Studios in Riyadh and Playsound Studios in Lebanon.</p>
