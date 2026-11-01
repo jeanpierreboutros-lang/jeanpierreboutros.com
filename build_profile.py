@@ -42,7 +42,7 @@ PRODUCTIONS = [
     (
         "The Eighties... The Knockout", "the-eighties",
         "FOH engineer | Kuwait | October 2026",
-        "National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre.",
+        "National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre (JACC).",
     ),
     (
         "Abeer Nehme with Qatar Philharmonic Orchestra", "abeer-nehme-qatar",
@@ -52,7 +52,12 @@ PRODUCTIONS = [
     (
         "Marina Viotti - Opera gala", "marina-viotti",
         "FOH engineer | Lebanon | 8 September 2026",
-        "Beirut International Opera Festival inaugural gala, Roman Amphitheatre, Zouk Mikael.",
+        "Beirut International Opera Festival gala, Roman Amphitheatre, Zouk Mikael.",
+    ),
+    (
+        "Lebanese National Philharmonic Orchestra", "lebanese-philharmonic-diman",
+        "FOH engineer | Diman, North Lebanon | 26 July 2026",
+        "Eternal Covenant. Patriarchal Summer Residence; conductor Harout Fazlian.",
     ),
     (
         "Cartoon Orchestra", "cartoon-orchestra",
@@ -62,7 +67,13 @@ PRODUCTIONS = [
     (
         "Al Sharq Symphony", "al-sharq-symphony",
         "FOH engineer | Istanbul, Turkey | 2017",
-        "Marcel Khalifé with the Istanbul Philharmonic Orchestra, conducted by Lubnan Baalbaki.",
+        "Marcel Khalifé; Istanbul Philharmonic Orchestra; conductor Lubnan Baalbaki.",
+    ),
+    (
+        "Nancy Ajram - Selected monitor credits", "night-of-arab-stars",
+        "Monitor engineer for Nancy Ajram | Saudi Arabia | 2023-24",
+        "Baligh Hamdi Night, Riyadh - 9 Nov 2023; Night of Arab Stars, Riyadh - "
+        "31 Dec 2023; Warda Night, Jeddah - 4 Jul 2024.",
     ),
     (
         "Papal Mass broadcast", "work",
@@ -94,8 +105,8 @@ def build():
                         lang="en-US")
     pdf.setTitle("Jean-Pierre Boutros | Professional Profile")
     pdf.setAuthor("Jean-Pierre Boutros")
-    pdf.setSubject("Live, studio and broadcast sound engineering; selected credits and contact")
-    pdf.setKeywords("Jean-Pierre Boutros, FOH, sound engineer, StudioJPB, Zynforge Audio")
+    pdf.setSubject("FOH, monitor, studio and broadcast sound engineering; selected credits and contact")
+    pdf.setKeywords("Jean-Pierre Boutros, FOH, monitor engineer, sound engineer, StudioJPB, Zynforge Audio")
     pdf.setCreator("Jean-Pierre Boutros portfolio")
     pdf.setViewerPreference("DisplayDocTitle", "true")
     width, height = A4
@@ -137,7 +148,7 @@ def build():
 
     bio = (
         "Jean-Pierre Boutros is a sound engineer based in Lebanon, working internationally "
-        "across live concerts, studio production, broadcast and audio system integration. "
+        "across FOH and monitor engineering, studio production, broadcast and audio system integration. "
         "He founded StudioJPB in Jounieh in 2008 and develops audio software through Zynforge Audio."
     )
     top = paragraph(pdf, bio, margin, header_bottom - 23, usable,
@@ -152,11 +163,11 @@ def build():
     for title, anchor, metadata, detail in PRODUCTIONS:
         left = paragraph(pdf, f'<link href="{SITE}#{anchor}">{escape(title)}</link>',
                          margin, left, left_width, font="ProfileSansBold", size=9.9,
-                         leading=12.4, gap=3)
+                         leading=12.4, gap=2)
         left = paragraph(pdf, escape(metadata), margin, left, left_width,
-                         size=8.4, leading=10.8, color=DARK_GOLD, gap=3)
+                         size=8.4, leading=10.8, color=DARK_GOLD, gap=2)
         left = paragraph(pdf, escape(detail), margin, left, left_width,
-                         size=9.1, leading=12, color=MUTED, gap=11)
+                         size=9.1, leading=12, color=MUTED, gap=6)
 
     left = section(pdf, "Selected collaborators", margin, left - 2, left_width)
     left = paragraph(pdf,
@@ -165,12 +176,12 @@ def build():
         margin, left, left_width, size=9.2, leading=12.8, color=MUTED)
 
     right = section(pdf, "Expertise", right_x, top, right_width)
-    for item in ["Live sound & FOH", "Broadcast sound", "Recording & tracking",
+    for item in ["Live sound & FOH", "Monitor engineering", "Broadcast sound", "Recording & tracking",
                  "Mixing & mastering", "Audio system integration",
                  "Sound design & post-production"]:
         right = paragraph(pdf, escape(item), right_x, right, right_width,
                           size=9.4, leading=12.5, gap=3)
-    right = section(pdf, "Studio & systems", right_x, right - 16, right_width)
+    right = section(pdf, "Studio & systems", right_x, right - 12, right_width)
     right = paragraph(pdf, "<b>StudioJPB</b><br/>Founder | Jounieh, 2008", right_x,
                       right, right_width, size=9.2, leading=12.7, gap=9)
     right = paragraph(pdf, "Integration work includes Merwas Studios, Riyadh, and "

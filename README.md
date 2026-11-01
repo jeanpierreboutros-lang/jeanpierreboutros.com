@@ -1,8 +1,29 @@
 # jeanpierreboutros.com
 
-Personal portfolio of Jean-Pierre Boutros: live, studio and broadcast sound engineering, audio system integration, StudioJPB and Zynforge Audio.
+Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio and broadcast sound engineering, audio system integration, StudioJPB and Zynforge Audio.
 
 Live site: https://www.jeanpierreboutros.com/
+
+Content and documentation reviewed: 1 November 2026. The website includes 12 project entries, 36 artist and ensemble collaborations, 18 gallery photographs, and a downloadable one-page professional profile.
+
+## Current project register
+
+| Project | Jean-Pierre's role | Location and date | Website anchor |
+| --- | --- | --- | --- |
+| The Eighties... The Knockout | FOH engineer | JACC, Kuwait; October 2026 | `#the-eighties` |
+| Marina Viotti - Opera gala | FOH engineer | Roman Amphitheatre, Zouk Mikael, Lebanon; 8 September 2026 | `#marina-viotti` |
+| Cartoon Orchestra | FOH engineer | JACC National Theatre, Kuwait; 4 October 2025 | `#cartoon-orchestra` |
+| Al Sharq Symphony - Marcel Khalifé and Istanbul Philharmonic | FOH engineer | Istanbul, Turkey; 2017; conductor Lubnan Baalbaki | `#al-sharq-symphony` |
+| Abeer Nehme with Qatar Philharmonic Orchestra | FOH engineer | U VENUE, Doha, Qatar; 23 January 2026 | `#abeer-nehme-qatar` |
+| Nancy Ajram - Baligh Hamdi Night | Monitor engineer for Nancy Ajram | Abu Bakr Salem Theatre, Riyadh; 9 November 2023 | `#baligh-hamdi-night` |
+| Nancy Ajram - Warda Night | Monitor engineer for Nancy Ajram | Abadi Al Johar Arena, Jeddah; 4 July 2024 | `#warda-night` |
+| Nancy Ajram - Night of Arab Stars | Monitor engineer for Nancy Ajram | Mohammed Abdu Arena, Riyadh Season; 31 December 2023 | `#night-of-arab-stars` |
+| Lebanese National Philharmonic - Eternal Covenant | FOH engineer | Patriarchal Summer Residence, Diman, North Lebanon; 26 July 2026; conductor Harout Fazlian | `#lebanese-philharmonic-diman` |
+| Papal Mass broadcast | Broadcast sound engineer | Beirut Waterfront, Lebanon; 2025 | `#work` |
+| StudioJPB | Founder; recording, mixing and mastering | Jounieh, Lebanon; founded 2008 | `#work` |
+| Studio system integration | Audio system integration | Merwas Studios, Riyadh; Playsound Studios, Lebanon | `#work` |
+
+Production roles come from Jean-Pierre's confirmations and original biography. Public sources support event names, dates, venues and programme details; they do not independently establish his engineering credits. Nancy Ajram's monitor credits apply specifically to her performances.
 
 ## Stack and structure
 
@@ -27,10 +48,16 @@ Edit `build.py`, then regenerate with `python3 build.py`. The generator only nee
 - `tv`: existing television credits and production formats.
 - `zyn`: product names, categories, descriptions and icons.
 - `gallery`: original filename, visible title, descriptive alternative text and context.
+- `gallery_sources`: photo attribution, coverage URL and original image URL for externally sourced photographs.
+- `artist_projects`: role labels and project anchors for confirmed artist and ensemble credits.
 - `navigation`: shared desktop and mobile links.
 - `jsonld` and the HTML template: metadata, selected projects, biography and contact.
 
 Only add specific production roles, dates, venues, results and testimonials that are confirmed. The Papal Mass broadcast role, StudioJPB founding date and integration credits come from the original biography. The broadcast link is attributed to Vatican News; the Merwas record is attributed to Guinness World Records. Uncertain attendance figures and artist biographies have been removed.
+
+Featured image links use explicit `gallery_data` indices and `data-gallery-index` values. When inserting or reordering gallery entries, update every affected project link and verify that its enlarged photograph and caption still match. Update this register, the content totals and `build_profile.py` whenever the documented selection changes.
+
+## Event sources and photograph records
 
 The Eighties… The Knockout is featured with Jean-Pierre's confirmed FOH engineering role, his supplied signed artwork/cast photograph, and October 2026 production context from JACC's official event listing: https://tickets.jacc-kw.com/event/info/the-eighties--the-knockout/599. The original image is preserved, and both its feature and gallery view display the full composition.
 
@@ -42,11 +69,11 @@ Abeer Nehme with the Qatar Philharmonic Orchestra is featured with Jean-Pierre's
 
 Al Sharq Symphony features Jean-Pierre's confirmed FOH role for Marcel Khalifé and the Istanbul Philharmonic Orchestra, conducted by Lubnan Baalbaki. The organizer identifies the event as part of the Al Sharq Youth Annual Conference in Istanbul in 2017; later video/page publication dates are not treated as concert dates. The featured image is the organizer's official concert-video thumbnail, with visible Al Sharq Youth attribution in the project, gallery and image viewer. Sources: https://www.youtube.com/watch?v=hAZbbyPg7GE and https://youth.sharqforum.org/asy-gallery/al-sharq-symphony-marcel-khalife-and-istanbul-philharmonic-orchestra-conducted-by-lubnan-baalbaki/. Image origin: https://i.ytimg.com/vi/hAZbbyPg7GE/maxresdefault.jpg.
 
-Two Nancy Ajram projects credit Jean-Pierre specifically as her monitor engineer. Baligh Hamdi Night (Masterpieces of Baligh Hamdi) took place at Abu Bakr Salem Theatre, Riyadh, on 9 November 2023; concert context: https://www.harpersbazaararabia.com/culture/entertainment/baligh-hamdi-tribute. Its performance photo comes from Benchmark's media office, credited in Sayidaty's 10 November 2023 concert report (article 1692211); image origin: https://static.sayidaty.net/2023-11/298244.jpg. Warda Night took place at Abadi Al Johar Arena, Jeddah, on 4 July 2024, as confirmed by Jean-Pierre and GEA's official listing: https://enjoy.sa/en/events/warda-night/. Its Nancy-with-orchestra photo is attributed to Asharq Al-Awsat's 5 July 2024 coverage (article 5037424); image origin: https://static.srpcdigital.com/2024-07/704233.jpeg. Both photos have visible attribution in the project, gallery and image viewer. Nancy's credit does not imply responsibility for the other performers' monitor mixes.
+Three Nancy Ajram projects credit Jean-Pierre specifically as her monitor engineer. Baligh Hamdi Night (Masterpieces of Baligh Hamdi) took place at Abu Bakr Salem Theatre, Riyadh, on 9 November 2023; concert context: https://www.harpersbazaararabia.com/culture/entertainment/baligh-hamdi-tribute. Its performance photo comes from Benchmark's media office, credited in Sayidaty's 10 November 2023 concert report (article 1692211); image origin: https://static.sayidaty.net/2023-11/298244.jpg. Warda Night took place at Abadi Al Johar Arena, Jeddah, on 4 July 2024, as confirmed by Jean-Pierre and GEA's official listing: https://enjoy.sa/en/events/warda-night/. Its Nancy-with-orchestra photo is attributed to Asharq Al-Awsat's 5 July 2024 coverage (article 5037424); image origin: https://static.srpcdigital.com/2024-07/704233.jpeg. Both photos have visible attribution in the project, gallery and image viewer. Nancy's credit does not imply responsibility for the other performers' monitor mixes.
 
 Jean-Pierre also confirmed Night of Arab Stars (31 December 2023, Mohammed Abdu Arena, Riyadh Season) and his role as Nancy Ajram's monitor engineer. Sayidaty's 1 January 2024 concert report (article 1711121) supports the event context; Al Jamila's 7 January 2024 article (791121) explicitly credits the selected performance photo to Rotana Live's official Instagram account. The photo is preserved as downloaded, with visible attribution in the project, gallery and image viewer. The concert welcomed 2024; the performance date remains 31 December 2023.
 
-The Diman project uses Jean-Pierre's supplied IMG_2750.HEIC, converted to JPEG for the responsive image pipeline. Its creation date (26 July 2026) matches the Maronite Patriarchate's official report of “Eternal Covenant” (العهد الأبدي) at the Patriarchal Summer Residence: https://bkerki.org/news-article/امسية-موسيقية-بعنوان-عهد-أبدي/. The report confirms the Lebanese National Philharmonic Orchestra, conductor Harout Fazlian and the beatification context. Jean-Pierre confirmed his role as FOH engineer.
+The Diman project uses Jean-Pierre's supplied IMG_2750.HEIC, converted to JPEG for the responsive image pipeline. Its creation date (26 July 2026) matches the Maronite Patriarchate's official report of “Eternal Covenant” (العهد الأبدي) at the Patriarchal Summer Residence: https://bkerki.org/news-article/امسية-موسيقية-بعنوان-عهد-أبدي/. The report confirms the Lebanese National Philharmonic Orchestra, conductor Harout Fazlian and the beatification context. Jean-Pierre confirmed his role as FOH engineer. The supplied photograph was retained after comparing the official gallery and accessible press photos: it offers the strongest full-orchestra view among the inspected alternatives. The HEIC remains untouched in Downloads; the site uses `photos/lebanese-philharmonic-diman-2026.jpg` and its WebP derivatives.
 
 ## Images
 
@@ -67,18 +94,18 @@ Gallery captions describe visible content and established portfolio facts. Add s
 
 ## Downloadable professional profile
 
-The About and Contact sections offer a one-page A4 PDF with a biography, portrait, expertise, six selected productions, collaborators, studio and software work, television credits and clickable contact details. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
+The About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, eight selected-production groups covering ten concerts or broadcasts, collaborators, studio and software work, television credits and clickable contact details. The selection includes the Diman FOH project and all three Nancy Ajram monitor credits, grouped together to retain a readable one-page layout. Night of Arab Stars is dated 31 December 2023, and Warda Night is correctly located in Jeddah. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
 
 To update it, edit `build_profile.py`, then run:
 
 ```sh
-# A dedicated Python environment is recommended.
-python3 -m pip install 'reportlab>=4.2,<5'
-python3 build_profile.py
+python3 -m venv /private/tmp/jpb-profile-venv
+/private/tmp/jpb-profile-venv/bin/python -m pip install 'reportlab>=4.2,<5'
+/private/tmp/jpb-profile-venv/bin/python build_profile.py
 python3 build.py
 ```
 
-The generator uses Georgia and Arial TTF fonts from macOS's supplemental fonts directory and embeds their subsets in the final PDF. For another build machine, set `JPB_PROFILE_FONT_DIR` to a directory containing the named font files. Render and inspect the complete page after changes; confirm one A4 page, selectable text, working links and no clipped or overlapping text. The generator rejects content that exceeds the page's reserved body area. The deploy manifest copies only the finished PDF from `output/pdf/`.
+Reuse an existing environment instead of recreating it when ReportLab is already installed. The generator uses Georgia and Arial TTF fonts from macOS's supplemental fonts directory and embeds their subsets in the final PDF. For another build machine, set `JPB_PROFILE_FONT_DIR` to a directory containing the named font files. Render and inspect the complete page after changes; confirm one A4 page, selectable text, working links and no clipped or overlapping text. Poppler or PyMuPDF can render the page for inspection. The generator rejects content that exceeds the page's reserved body area. Rebuilding `build.py` after the PDF updates both download fingerprints and the displayed size. The deploy manifest copies only the finished PDF from `output/pdf/`.
 
 ## Accessibility and behaviour
 
@@ -103,14 +130,22 @@ Before deployment:
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
 4. Open the gallery, navigate with arrow keys, close with Escape and check focus restoration.
 5. Confirm images and section links resolve and project links point to the intended source.
-6. Review the final local preview.
+6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check both website download links use the new PDF fingerprint and size.
+7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.
 
 ## Deployment
 
-The existing HostGator/cPanel workflow is unchanged:
+Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
 
 1. Push reviewed changes to `main` on GitHub.
-2. In cPanel Git Version Control, update from remote and deploy the HEAD commit.
-3. Hard-refresh the live site and check it again.
+2. In cPanel Git Version Control, choose the existing repository and update from remote. Confirm the HEAD SHA equals the pushed commit.
+3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
+4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check the affected projects, new images and both profile download links. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
 The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons, the professional profile PDF and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+
+The document root is shared with the existing main hosting site. Keep deployment scoped to `.cpanel.yml`; avoid replacing unrelated account files or changing domain mappings. Deployment copies files without purging other content.
+
+### Rollback
+
+If a release introduces a broken page, incorrect credit or inaccessible download, revert its commit on `main` with `git revert RELEASE_COMMIT_SHA`, review the resulting runtime files, and push the revert. Update from remote and deploy that new HEAD in cPanel. Verify Last Deployed SHA and the restored live page/PDF. Keep shared hosting files outside this repository untouched.
