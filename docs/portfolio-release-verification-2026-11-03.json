@@ -1,0 +1,73 @@
+{
+  "content_commit": "24ec55eef9540cb49fab5f49328399e631a13c05",
+  "canonical_pages": 39,
+  "resources": 152,
+  "matched": 191,
+  "failed": [],
+  "redirects": [
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "ok": true
+    },
+    {
+      "url": "http://www.jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "ok": true
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "ok": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/index.html",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "ok": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-credits",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/",
+      "ok": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/index.html",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "ok": true
+    }
+  ],
+  "not_published_checks": [
+    {
+      "path": "/jpb-release-missing-20261103/",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/docs/broad-credit-research-2026-11-02.json",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/studio_credits.py",
+      "status": 404,
+      "ok": true
+    }
+  ],
+  "deployed_date": "2026-11-03",
+  "deployed_timezone": "Asia/Beirut",
+  "hostgator_last_deployed_sha": "24ec55eef9540cb49fab5f49328399e631a13c05",
+  "local_schema_checks": 4828,
+  "published_projects": 28,
+  "published_studio_release_entries": 51,
+  "portfolio_exclusions": [
+    "Maher Zain",
+    "Between the two Blacks"
+  ],
+  "browser_observation": "The published homepage loaded in Chrome and showed 28 projects, 34 photographs, the new artist links and the studio-credit directory. Full byte verification covered every canonical page and referenced asset."
+}

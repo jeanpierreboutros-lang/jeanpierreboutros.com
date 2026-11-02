@@ -195,7 +195,7 @@ Before deployment:
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`, `sh -n hosting/install-seo.sh` and `git diff --check`. For domain/range checks, download the official Schema.org vocabulary separately and run `python3 check_site.py --vocabulary /path/to/schemaorg-current-https.jsonld`. No network request is made by the checker.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
-4. Verify Featured (6), All work (22), FOH (11), Monitors (6), Broadcast (1), Studio (3), and Technical (1) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
+4. Verify Featured (6), All work (28), FOH (16), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
 5. Confirm images and section links resolve and project links point to the intended source.
 6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check all three website download links use the new PDF fingerprint and size.
 7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.
@@ -203,6 +203,8 @@ Before deployment:
 ## Deployment
 
 Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
+
+Portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See `docs/portfolio-release-verification-2026-11-03.json`.
 
 1. Push reviewed changes to `main` on GitHub.
 2. In cPanel Git Version Control, choose the existing repository and update from remote. Confirm the HEAD SHA equals the pushed commit.
