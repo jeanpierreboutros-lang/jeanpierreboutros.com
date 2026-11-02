@@ -4,15 +4,15 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-Content and documentation reviewed: 1 November 2026. The website includes 18 project entries, 36 artist and ensemble collaborations, 24 gallery photographs, and a downloadable one-page professional profile.
+Content and documentation reviewed: 2 November 2026. The website includes 28 canonical HTML pages, 18 project records, six service pages, 36 artist and ensemble collaborations, 24 gallery photographs, and a downloadable one-page professional profile. See [the implementation report](docs/SEO-IMPLEMENTATION-REPORT.md), [search registration steps](docs/SEARCH-CONSOLE.md) and [measurement plan](docs/MEASUREMENT.md).
 
 ## Portfolio presentation
 
 The portfolio opens with Jean-Pierre's outdoor FOH photograph beside his name and a profile download near the top. The StudioJPB card and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
-The project browser starts with six featured projects: Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait. Filters expose all 18 projects or FOH, Monitors, Broadcast and Studio categories. Every image card opens the complete sourced description in a native modal; the existing project anchors and PDF links still work directly. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+The project browser starts with six featured projects: Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait. Filters expose all 18 projects or FOH, Monitors, Broadcast and Studio categories. Homepage image cards link to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
 
-`projects` in `build.py` holds the compact card summaries and filter categories. Its order must match `PROJECT_DETAILS`; the build validates matching anchors. `featured_order` determines the opening selection. All 18 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 24; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF retains the complete current credits and is linked from the opening, About and Contact sections.
+`projects` in `build.py` holds the compact card summaries and filter categories. Its order must match `PROJECT_DETAILS`; the build validates matching anchors. `featured_order` determines the opening selection. All 18 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 24; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF retains its current text and layout; its 11 production links now target the dedicated project pages. It is linked from the opening, About and Contact sections.
 
 ## Current project register
 
@@ -41,9 +41,14 @@ Production roles come from Jean-Pierre's confirmations and original biography. P
 
 ## Stack and structure
 
-A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, database or runtime package installation. Fonts load from Google Fonts; images and other assets are self-hosted.
+A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, database or runtime package installation. The existing Fraunces and Hanken Grotesk fonts are self-hosted under `fonts/`, with their original Unicode ranges, font-display: swap and open licenses. Images and all runtime assets are self-hosted. Normal page requests need no third-party font stylesheet.
 
-- `build.py` generates `index.html` from the content and structured data.
+- `build.py` generates the homepage and invokes the static page generator.
+- `services.py` holds the six service descriptions, FAQs and the reviewed content date.
+- `search_pages.py` generates 27 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
+- `check_site.py` validates the generated inventory, links, metadata, images, specific credits and crawler rules.
+- `hosting/seo.htaccess` contains domain-scoped canonical redirects; `hosting/install-seo.sh` merges the managed block and privately backs up existing rules.
+- `fonts/` contains the original typefaces, CSS, provenance manifest and SIL Open Font Licenses.
 - `styles.css` contains design tokens, responsive components and print styles.
 - `main.js` handles navigation, progressive scroll reveals and native modal dialogs.
 - `optimize_images.py` creates responsive WebP assets and metadata.
@@ -52,11 +57,11 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 - `photos/` holds originals; `photos/optimized/` holds generated derivatives.
 - `.cpanel.yml` copies runtime files and photos to HostGator's document root.
 
-The page follows: introduction → selected work → collaborations and television → biography and expertise → Zynforge → gallery → contact. Original section anchors, including `#tv`, remain valid.
+The homepage follows: introduction → selected work → collaborations and television → biography, expertise and factual FAQs → Zynforge → gallery → contact. Its navigation, animation and original section anchors, including `#tv`, remain valid. Service links use the existing expertise list and a compact footer directory. Dedicated pages reuse the same palette, typography, navigation, imagery and layout components. English remains the maintained language; no incomplete translations or hreflang alternates are generated.
 
 ## Editing content
 
-Edit `build.py`, then regenerate with `python3 build.py`. The generator only needs Python's standard library. It fingerprints CSS and JavaScript URLs so deployed updates do not reuse stale browser caches. Rebuild after editing either asset, too. Do not hand-edit `index.html`.
+Edit `build.py`, then regenerate with `python3 build.py`. The generator needs Python 3.9 or later and only its standard library. It fingerprints CSS and JavaScript URLs so deployed updates do not reuse stale browser caches. Rebuild after editing either asset, too. Do not hand-edit `index.html`.
 
 - `artists`: existing artist and ensemble collaborations, without speculative role descriptions.
 - `tv`: existing television credits and production formats.
@@ -65,7 +70,7 @@ Edit `build.py`, then regenerate with `python3 build.py`. The generator only nee
 - `gallery_sources`: photo attribution, coverage URL and original image URL for externally sourced photographs.
 - `artist_projects`: role labels and project anchors for confirmed artist and ensemble credits.
 - `navigation`: shared desktop and mobile links.
-- `jsonld` and the HTML template: metadata, selected projects, biography and contact.
+- The homepage template: selected projects, biography and contact. Shared metadata and linked JSON-LD are generated by `search_pages.py`.
 
 Only add specific production roles, dates, venues, results and testimonials that are confirmed. The Papal Mass broadcast role, StudioJPB founding date and integration credits come from the original biography. The broadcast link is attributed to Vatican News; the Merwas record is attributed to Guinness World Records. Uncertain attendance figures and artist biographies have been removed.
 
@@ -105,7 +110,7 @@ Adam's performance portrait comes from the dated Beiruting event gallery: https:
 
 ## Images
 
-Original photographs are preserved. Responsive WebP derivatives use widths up to 480, 960 and 1600 pixels. Zynforge icons use 128px assets for their 64px display size. Images have intrinsic dimensions, responsive sources and meaningful alternative text. All except the hero load lazily.
+Original photographs are preserved. Responsive WebP derivatives use widths up to 480, 960 and 1600 pixels. Zynforge icons use 128px assets for their 64px display size. Images have intrinsic dimensions, responsive sources and meaningful alternative text. The homepage hero and service introduction photographs load eagerly; below-the-fold images load lazily.
 
 After adding or replacing originals under `photos/`, run:
 
@@ -124,7 +129,7 @@ Gallery captions describe visible content and established portfolio facts. Add s
 
 The opening, About and Contact sections offer a one-page A4 PDF with a biography, portrait, seven areas of expertise, nine production groups covering sixteen concert productions or broadcasts, studio and software work, television credits and clickable contact details. A compact Ehdeniyat 2025 block lists Abeer Nehme and Al Shami as FOH credits and Adam as a monitor credit, with each date and links to the project cards. Nancy Ajram's group identifies the Olympia FOH role separately from her four monitor credits in Dubai and Saudi Arabia. Marcel Khalifé's group covers Al Sharq Symphony in Istanbul and the Muscat concert engagement. The Diman FOH project is also included. Nancy's grouped monitor credits use years in the profile; the website project cards and register retain the complete dates and venues. The complete collaboration list remains on the website. The download URL includes a content fingerprint so updated profiles do not reuse old cached files. The PDF is committed; normal website builds do not require PDF libraries.
 
-To update it, edit `build_profile.py`, then run:
+Its text and one-page layout are unchanged in the SEO release; production links point directly to canonical project pages. To update it, edit `build_profile.py`, then run:
 
 ```sh
 python3 -m venv /private/tmp/jpb-profile-venv
@@ -153,7 +158,7 @@ Run `python3 -m http.server 8000 --bind 127.0.0.1` and open http://127.0.0.1:800
 
 Before deployment:
 
-1. Run `python3 build.py`, `node --check main.js` and `git diff --check`.
+1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`, `sh -n hosting/install-seo.sh` and `git diff --check`. For domain/range checks, download the official Schema.org vocabulary separately and run `python3 check_site.py --vocabulary /path/to/schemaorg-current-https.jsonld`. No network request is made by the checker.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
 4. Verify Featured (6), All work (18), FOH (10), Monitors (5), Broadcast (1), and Studio (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
@@ -168,12 +173,12 @@ Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git.
 1. Push reviewed changes to `main` on GitHub.
 2. In cPanel Git Version Control, choose the existing repository and update from remote. Confirm the HEAD SHA equals the pushed commit.
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
-4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check the affected projects, new images and all three profile download links. Compare downloaded PDF bytes with the committed artifact when the profile changes.
+4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check all sitemap URLs, affected projects, service pages, updated images and all three profile download links. Verify HTTP/apex/index.html redirects to the HTTPS www canonical, a real 404, search crawler access and GPTBot exclusion. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies HTML, CSS, JavaScript, robots, sitemap, icons, the professional profile PDF and the complete photos directory, including optimized assets. Build scripts, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 28 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
-The document root is shared with the existing main hosting site. Keep deployment scoped to `.cpanel.yml`; avoid replacing unrelated account files or changing domain mappings. Deployment copies files without purging other content.
+The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the private repository’s `.deployment-backups/`. Every redirect is conditional on jeanpierreboutros.com or www.jeanpierreboutros.com, so the other domain is unaffected. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 
 ### Rollback
 
-If a release introduces a broken page, incorrect credit or inaccessible download, revert its commit on `main` with `git revert RELEASE_COMMIT_SHA`, review the resulting runtime files, and push the revert. Update from remote and deploy that new HEAD in cPanel. Verify Last Deployed SHA and the restored live page/PDF. Keep shared hosting files outside this repository untouched.
+If a release introduces a broken page, incorrect credit or inaccessible download, revert its commit on `main` with `git revert RELEASE_COMMIT_SHA`, review the resulting runtime files, and push the revert. Update from remote and deploy that new HEAD in cPanel. Verify Last Deployed SHA and the restored live page/PDF. Keep unrelated shared hosting files untouched. Reverting code alone does not remove the managed .htaccess block: restore the appropriate private `.deployment-backups/htaccess-before-jpb.*` backup in cPanel if redirect rules need rollback. Preserve the current non-JPB rules if they changed after that backup. Newly added static pages remain on the non-purging host until explicitly removed; remove only this release’s generated service/project pages if a full rollback is required, or retain their valid content while restoring the homepage.

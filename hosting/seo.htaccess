@@ -1,0 +1,23 @@
+# BEGIN JPB MANAGED SEO
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Limit every redirect to this portfolio's domain on the shared document root.
+# Remove an explicitly requested index.html, preserving the query string.
+RewriteCond %{HTTP_HOST} ^(www\.)?jeanpierreboutros\.com(:[0-9]+)?$ [NC]
+RewriteCond %{THE_REQUEST} \s/+[^\s?]*index\.html[?\s] [NC]
+RewriteRule ^(.*/)?index\.html$ https://www.jeanpierreboutros.com/$1 [R=301,L]
+
+# Canonical directory URLs, including newly generated service/project pages.
+RewriteCond %{HTTP_HOST} ^(www\.)?jeanpierreboutros\.com(:[0-9]+)?$ [NC]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.+)$ https://www.jeanpierreboutros.com/$1/ [R=301,L]
+
+# One destination for HTTP and non-www duplicates.
+RewriteCond %{HTTP_HOST} ^(www\.)?jeanpierreboutros\.com(:[0-9]+)?$ [NC]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.jeanpierreboutros\.com$ [NC]
+RewriteRule ^ https://www.jeanpierreboutros.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END JPB MANAGED SEO

@@ -77,7 +77,7 @@ PRODUCTIONS = [
         "Night of Arab Stars, Riyadh (2023); Warda Night, Jeddah (2024).",
     ),
     (
-        "Papal Mass broadcast", "work",
+        "Papal Mass broadcast", "papal-broadcast",
         "Broadcast sound engineer | Beirut Waterfront | 2025",
         "Production during Pope Leo XIV's visit to Lebanon.",
     ),
@@ -162,7 +162,7 @@ def build():
 
     left = section(pdf, "Selected productions", margin, top, left_width)
     for title, anchor, metadata, detail in PRODUCTIONS:
-        left = paragraph(pdf, f'<link href="{SITE}#{anchor}">{escape(title)}</link>',
+        left = paragraph(pdf, f'<link href="{SITE}projects/{anchor}/">{escape(title)}</link>',
                          margin, left, left_width, font="ProfileSansBold", size=9.9,
                          leading=12.4, gap=2)
         left = paragraph(pdf, escape(metadata), margin, left, left_width,
@@ -171,9 +171,9 @@ def build():
                          size=9.1, leading=12, color=MUTED, gap=5)
 
     left = paragraph(pdf,
-        f'<b><link href="{SITE}#ehdeniyat-abeer-nehme">Ehdeniyat 2025 | Ehden, Lebanon</link></b><br/>'
-        f'FOH: Abeer Nehme (25 Jul), <link href="{SITE}#ehdeniyat-al-shami">Al Shami (3 Aug)</link>.<br/>'
-        f'Monitor engineer: <link href="{SITE}#ehdeniyat-adam">Adam (31 Jul)</link>.',
+        f'<b><link href="{SITE}projects/ehdeniyat-abeer-nehme/">Ehdeniyat 2025 | Ehden, Lebanon</link></b><br/>'
+        f'FOH: Abeer Nehme (25 Jul), <link href="{SITE}projects/ehdeniyat-al-shami/">Al Shami (3 Aug)</link>.<br/>'
+        f'Monitor engineer: <link href="{SITE}projects/ehdeniyat-adam/">Adam (31 Jul)</link>.',
         margin, left - 4, left_width, size=9.1, leading=12.5, color=MUTED)
 
     right = section(pdf, "Expertise", right_x, top, right_width)

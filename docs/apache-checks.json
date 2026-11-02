@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-02",
+  "apache": "2.4.67",
+  "canonical_pages_http_200": 28,
+  "redirect_cases_passed": 8,
+  "other_domain_unaffected": true,
+  "existing_deny_preserved": true,
+  "unknown_page_http_status": 404,
+  "font_mime_and_immutable_cache": true
+}

@@ -59,7 +59,8 @@
     menu.querySelectorAll('a').forEach(function (link, index) {
       link.style.setProperty('--menu-delay', index * 45 + 'ms');
       link.addEventListener('click', function () {
-        closeMenu(document.querySelector(link.getAttribute('href')));
+        var href = link.getAttribute('href');
+        closeMenu(href.charAt(0) === '#' ? document.getElementById(href.slice(1)) : null);
       });
     });
     mobileLayout.addEventListener('change', function (event) {
@@ -123,7 +124,7 @@
     });
   }
 
-  if (modalSupported && projectCards.length) {
+  if (modalSupported && projectCards.length && projectDialogs.length && projectFilters) {
     projectFilters.hidden = false;
     filterProjects('featured');
     projectFilters.querySelectorAll('button').forEach(function (button) {
@@ -135,8 +136,8 @@
       allButton.focus({ preventScroll: true });
       document.getElementById('work').scrollIntoView({ behavior: reducedMotion.matches || motionPaused ? 'instant' : 'smooth' });
     });
-    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
-      var id = link.getAttribute('href').slice(1);
+    document.querySelectorAll('a[data-project-open], a[href^="#"]').forEach(function (link) {
+      var id = link.dataset.projectOpen || link.getAttribute('href').slice(1);
       if (!projectMap.has(id)) return;
       link.setAttribute('aria-haspopup', 'dialog');
       link.setAttribute('aria-controls', id);

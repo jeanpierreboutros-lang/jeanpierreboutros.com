@@ -1,0 +1,205 @@
+[
+  {
+    "label": "http://jeanpierreboutros.com/",
+    "requested": "http://jeanpierreboutros.com/",
+    "url": "http://jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.042,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "http://www.jeanpierreboutros.com/",
+    "requested": "http://www.jeanpierreboutros.com/",
+    "url": "http://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.04,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "https://jeanpierreboutros.com/",
+    "requested": "https://jeanpierreboutros.com/",
+    "url": "https://jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.157,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "https://www.jeanpierreboutros.com/",
+    "requested": "https://www.jeanpierreboutros.com/",
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.055,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "Googlebot",
+    "requested": "https://www.jeanpierreboutros.com/",
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.052,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "bingbot",
+    "requested": "https://www.jeanpierreboutros.com/",
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 0.947,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "OAI-SearchBot",
+    "requested": "https://www.jeanpierreboutros.com/",
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.055,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "PerplexityBot",
+    "requested": "https://www.jeanpierreboutros.com/",
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "redirects": [],
+    "seconds": 1.043,
+    "bytes": 119413,
+    "canonical": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  },
+  {
+    "label": "robots",
+    "requested": "https://www.jeanpierreboutros.com/robots.txt",
+    "url": "https://www.jeanpierreboutros.com/robots.txt",
+    "status": 200,
+    "redirects": [],
+    "seconds": 0.643,
+    "bytes": 79,
+    "canonical": [],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/plain"
+    },
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://www.jeanpierreboutros.com/sitemap.xml\n"
+  },
+  {
+    "label": "sitemap",
+    "requested": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "url": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "status": 200,
+    "redirects": [],
+    "seconds": 0.543,
+    "bytes": 277,
+    "canonical": [],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Sun, 01 Nov 2026 11:15:59 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "application/xml"
+    },
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.jeanpierreboutros.com/</loc>\n    <lastmod>2026-06-17</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>1.0</priority>\n  </url>\n</urlset>\n"
+  },
+  {
+    "label": "jpb-audit-page-that-does-not-exist",
+    "requested": "https://www.jeanpierreboutros.com/jpb-audit-page-that-does-not-exist",
+    "url": "https://www.jeanpierreboutros.com/jpb-audit-page-that-does-not-exist",
+    "status": 404,
+    "redirects": [],
+    "seconds": 0.557,
+    "bytes": 746,
+    "canonical": [],
+    "headers": {
+      "Server": "Apache",
+      "Last-Modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+      "Vary": "Accept-Encoding",
+      "Content-Type": "text/html"
+    },
+    "body": ""
+  }
+]

@@ -7,6 +7,9 @@ from datetime import date
 from hashlib import sha256
 from pathlib import Path
 
+from search_pages import DESCRIPTION, faq_html, graph, page_head, render_search_pages, site_links
+from services import AVAILABILITY, HOME_FAQ, SERVICES
+
 OUT = Path(__file__).resolve().parent
 e = html.escape
 image_manifest = json.loads((OUT / "photos/optimized/manifest.json").read_text())
@@ -212,20 +215,6 @@ for index, (filename, title, alt, context) in enumerate(gallery):
 # Lead with the working side of the performance; retain every photograph in the viewer.
 gallery_items.sort(key=lambda item: 'data-gallery-featured' not in item)
 
-jsonld = {
-    "@context": "https://schema.org", "@type": "Person", "name": "Jean-Pierre Boutros",
-    "jobTitle": "Live, studio and broadcast sound engineer",
-    "description": "Sound engineer based in Lebanon, working internationally in live sound, recording, mixing, mastering, broadcast and audio system integration. Founder of StudioJPB and Zynforge Audio.",
-    "url": "https://www.jeanpierreboutros.com/", "email": "jp@jeanpierreboutros.com",
-    "telephone": "+9613883863", "image": "https://www.jeanpierreboutros.com/photos/about-portrait.jpg",
-    "address": {"@type": "PostalAddress", "addressLocality": "Jounieh", "addressCountry": "LB"},
-    "sameAs": ["https://www.instagram.com/jp.boutros", "https://www.facebook.com/jean.p.boutros"],
-    "knowsAbout": ["Live Sound", "FOH Engineering", "Monitor Engineering", "Broadcast Sound", "Recording", "Mixing", "Mastering", "Audio System Integration", "Sound Design", "Post-Production"],
-    "affiliation": [
-        {"@type": "Organization", "name": "Studio Jean-Pierre Boutros (StudioJPB)", "foundingDate": "2008", "founder": {"@type": "Person", "name": "Jean-Pierre Boutros"}},
-        {"@type": "Organization", "name": "Zynforge Audio", "founder": {"@type": "Person", "name": "Jean-Pierre Boutros"}},
-    ],
-}
 
 PROJECT_DETAILS = f'''
         <!-- Event context: JACC's official listing, event 599. FOH role confirmed by Jean-Pierre. -->
@@ -553,6 +542,7 @@ for project, article in zip(projects, project_articles):
     project_dialogs.append(f'''<dialog class="project-dialog" id="{slug}" aria-labelledby="{title_id}" data-project-dialog open>
   <div class="project-dialog-bar"><p>{e(title)}<span>{e(role)}</span></p><button type="button" class="dialog-close" data-close aria-label="Close project">✕</button></div>
   {article}
+  <p class="project-permalink"><a class="text-link" href="/projects/{slug}/">Read the full project page <span aria-hidden="true">↗</span></a></p>
 </dialog>''')
     filename = gallery[photo][0] if isinstance(photo, int) else photo
     alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
@@ -561,7 +551,7 @@ for project, article in zip(projects, project_articles):
     poster_class = ' portfolio-card--poster' if photo in (0, 2) else ''
     featured_attr = ' data-featured' if featured else ''
     project_cards[slug] = f'''<article class="portfolio-card{poster_class}" data-project-card="{slug}" data-category="{category}"{featured_attr}>
-  <a class="portfolio-link" href="#{slug}">
+  <a class="portfolio-link" href="/projects/{slug}/" data-project-open="{slug}">
     <div class="portfolio-image">
       {image(filename, alt, sizes="(max-width: 600px) 100vw, 50vw")}
       <span class="portfolio-role">{e(role)}</span>
@@ -588,37 +578,9 @@ portfolio_html = f'''<div class="portfolio-toolbar">
 INDEX = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jean-Pierre Boutros — Live, Studio &amp; Broadcast Sound Engineer</title>
-  <meta name="description" content="Jean-Pierre Boutros is a sound engineer based in Lebanon, working internationally in live sound, studio recording, mixing, mastering, broadcast and audio system integration." />
-  <meta name="author" content="Jean-Pierre Boutros" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <link rel="canonical" href="https://www.jeanpierreboutros.com/" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="apple-touch-icon" href="favicon.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jeanpierreboutros.com/" />
-  <meta property="og:site_name" content="Jean-Pierre Boutros" />
-  <meta property="og:title" content="Jean-Pierre Boutros — Sound Engineer" />
-  <meta property="og:description" content="Live sound. Studio craft. Broadcast precision. Selected work and collaborations from sound engineer Jean-Pierre Boutros." />
-  <meta property="og:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
-  <meta property="og:image:alt" content="Jean-Pierre Boutros, sound engineer" />
-  <meta property="og:image:width" content="1920" />
-  <meta property="og:image:height" content="1280" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jean-Pierre Boutros — Sound Engineer" />
-  <meta name="twitter:description" content="Live, studio and broadcast sound engineer. Based in Lebanon, working internationally." />
-  <meta name="twitter:image" content="https://www.jeanpierreboutros.com/photos/about-portrait.jpg" />
-  <meta name="twitter:image:alt" content="Jean-Pierre Boutros, sound engineer" />
-  <script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v={asset_versions['styles.css']}" />
-  <script src="main.js?v={asset_versions['main.js']}" defer></script>
+  {page_head("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION,
+             structured=graph("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION, page_type="ProfilePage"),
+             preload_image="live-outdoor-foh-night.jpg", image_sizes="(max-width: 760px) 100vw, 55vw")}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -694,8 +656,8 @@ INDEX = f'''<!DOCTYPE html>
           <div class="about-copy" data-reveal>
             <p class="eyebrow">The engineer</p>
             <h2 class="section-title" id="about-title">An ear for the music.<br /><em>A mind for the details.</em></h2>
-            <p class="lead">I’m Jean-Pierre, a live and studio sound engineer based in Lebanon, working with artists, musicians, and production teams internationally.</p>
-            <p>My work moves between the stage, the studio, and the broadcast desk. I bring the same attention to each: understanding the performance and shaping the sound around it.</p>
+            <p class="lead">I’m Jean-Pierre Boutros, an international sound engineer based in Lebanon, working with artists, musicians, and production teams worldwide.</p>
+            <p>My work moves between the stage, the studio, and the broadcast desk: live sound, front-of-house and monitor mixing, concerts and festivals, recording, studio mixing, mastering, and audio system integration. I bring the same attention to each: understanding the performance and shaping the sound around it.</p>
             <p>I founded StudioJPB in 2008. Alongside engineering and studio integration, I build audio software through Zynforge Audio, turning everyday production challenges into practical tools.</p>
             <a class="text-link" href="{e(profile_url)}" download="Jean-Pierre-Boutros-Profile.pdf" aria-label="Download Jean-Pierre Boutros’s professional profile (PDF, 1 page, {profile_size})">Download profile (PDF) <span aria-hidden="true">↓</span></a>
           </div>
@@ -706,8 +668,10 @@ INDEX = f'''<!DOCTYPE html>
         </div>
         <div class="expertise">
           <h3>Areas of practice</h3>
-          <ul class="skills" data-reveal-group>{''.join(f'<li>{e(skill)}</li>' for skill in ['Live sound & FOH', 'Monitor engineering', 'Broadcast sound', 'Recording & tracking', 'Mixing & mastering', 'Audio system integration', 'Sound design & post-production'])}</ul>
+          <ul class="skills" data-reveal-group>{''.join(f'<li><a href="/{slug}/">{e(skill)}</a></li>' for skill, slug in [('Live sound & FOH', 'live-sound-engineer'), ('Monitor engineering', 'live-sound-engineer'), ('Broadcast sound', 'broadcast-audio-engineer'), ('Recording & tracking', 'recording-engineer'), ('Mixing & mastering', 'mixing-mastering'), ('Audio system integration', 'studio-system-integration')])}<li>Sound design &amp; post-production</li></ul>
         </div>
+        <p class="expertise-more"><a class="text-link" href="/services/">Explore all engineering services <span aria-hidden="true">↗</span></a></p>
+        {faq_html(HOME_FAQ, "About the engineer and international projects")}
       </div>
     </section>
 
@@ -735,7 +699,7 @@ INDEX = f'''<!DOCTYPE html>
 
     <section class="section section--contact" id="contact" aria-labelledby="contact-title" tabindex="-1">
       <div class="container contact-grid">
-        <div data-reveal><p class="eyebrow">Start a conversation</p><h2 class="section-title" id="contact-title">Good sound starts<br /><em>with a conversation.</em></h2><p class="section-intro">For a concert, a recording, a broadcast, or a studio system, tell me what you’re working on.</p><p class="contact-location">Based in Lebanon · Available for projects internationally</p></div>
+        <div data-reveal><p class="eyebrow">Start a conversation</p><h2 class="section-title" id="contact-title">Good sound starts<br /><em>with a conversation.</em></h2><p class="section-intro">For a concert, a recording, a broadcast, or a studio system, tell me what you’re working on.</p><p class="contact-location">{e(AVAILABILITY)} <a href="/international-projects/">International project information</a></p></div>
         <div class="contact-details">
           <a href="mailto:jp@jeanpierreboutros.com" class="contact-link"><span><span class="contact-tag">Email</span>jp@jeanpierreboutros.com</span><span aria-hidden="true">↗</span></a>
           <a href="https://wa.me/9613883863" target="_blank" rel="noopener noreferrer" class="contact-link"><span><span class="contact-tag">WhatsApp</span>+961 3 883 863</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
@@ -745,6 +709,7 @@ INDEX = f'''<!DOCTYPE html>
       </div>
     </section>
   </main>
+  {site_links()}
   <footer class="footer container">
     <a class="footer-brand" href="#top"><img src="jpb-monogram.png" alt="" width="27" height="32" />Jean-Pierre Boutros</a>
     <span>© {date.today().year} · Sound engineer · Lebanon</span><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
@@ -768,3 +733,10 @@ INDEX = f'''<!DOCTYPE html>
 
 (OUT / "index.html").write_text(INDEX, encoding="utf-8")
 print(f"index.html written: {len(artists)} artist credits, {len(gallery)} gallery photographs")
+
+search_paths = render_search_pages({
+    "home": INDEX, "image": image, "projects": projects,
+    "articles": project_articles, "cards": project_cards, "gallery": gallery,
+    "sources": gallery_sources, "gallery_data": gallery_data,
+})
+print(f"Search pages written: {len(search_paths)} canonical pages, including the homepage")
