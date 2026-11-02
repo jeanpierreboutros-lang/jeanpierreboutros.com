@@ -1,0 +1,198 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "Broad web search for Jean-Pierre Boutros as a sound, recording, mixing, mastering, live, broadcast and sound-design engineer, beyond the artists already listed in the portfolio.",
+  "method": "English name variants Jean-Pierre Boutros, Jean Pierre Boutros, JeanPierre Boutros, Jean Pierre Botrous and Jean Pierre Botros; Arabic جان بيار بطرس and جان بيير بطرس; French role terms; reverse searches for StudioJPB, Studio JPB and Studio Jean-Pierre Boutros. Original artist uploads, production archives and the UN press release were preferred. Secondary catalogues and reporting remain identified. The owner's two websites were excluded as independent proof.",
+  "website_action": "Jean-Pierre approved the six findings presented for review except Maher Zain and Between the two Blacks. Five release entries and one live production project were added. He then authorized publishing all new additions through HostGator.",
+  "new_personal_credits_with_primary_sources": [
+    {
+      "artist": "Nancy Ajram",
+      "work": "Akher Esdar",
+      "year": "2023",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=xJIH9jJr9SA",
+      "evidence": "The official artist lyric-video search result explicitly names JeanPierre Boutros for mixing and mastering in English and Arabic.",
+      "corroboration": "https://www.e3lam.com/671298/",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    },
+    {
+      "artist": "Marwan Chami",
+      "work": "Tayer",
+      "year": "2022",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=Y44I1oeyfQE",
+      "evidence": "Artist upload published 11 August 2022. Its description explicitly names JeanPierre Boutros for mixing and mastering at Play Sound Studios.",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    },
+    {
+      "artist": "Maher Zain",
+      "work": "Lebanon",
+      "year": "2024",
+      "role": "Choir recording",
+      "source": "https://www.youtube.com/watch?v=ok2c22IXcws",
+      "evidence": "Official music-video credits list Choir Recording: Jean-Pierre Boutros. This does not establish the lead-vocal recording or mixing/mastering.",
+      "corroboration": "https://play.samaanetwork.net/music/lebanon/",
+      "in_current_preview": false,
+      "excluded_by_owner": true
+    },
+    {
+      "work": "Beirut the Sea Lover",
+      "year": "2019",
+      "date": "14 June 2019",
+      "venue": "Roman Baths, Beirut Downtown",
+      "role": "3D sound mixing",
+      "source": "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en",
+      "evidence": "The festival's original production credits explicitly name Jean-Pierre Boutros for 3D sound mixing.",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    },
+    {
+      "work": "Between the two Blacks",
+      "year": "2007",
+      "date": "31 August 2007 premiere",
+      "venue": "Théâtre Athénée Jounieh",
+      "role": "Sound & music design",
+      "source": "https://www.julienboutros.com/blacks.html",
+      "evidence": "The creator's production archive names JeanPierre Boutros as sound and music designer. Search-indexed content was readable; direct retrieval returned HTTP 406/cache miss.",
+      "in_current_preview": false,
+      "excluded_by_owner": true
+    }
+  ],
+  "new_studio_credit_with_primary_source": [
+    {
+      "artist": "Nader Khoury",
+      "work": "Idi bi Idik",
+      "year": "2018",
+      "role": "Recording studio · Studio Jean-Pierre Boutros",
+      "source": "https://unicbeirut.org/index.php/Press%20Release/create-press-releases-32",
+      "arabic_source": "https://unicbeirut.org/index.php/ar/Press%20Release/add-32",
+      "evidence": "The UN Information Centre's bilingual release credits recording to Jean Pierre Boutros Studio. It does not identify a personal engineer or any mixing/mastering role.",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    }
+  ],
+  "additional_published_leads": [
+    {
+      "artist": "Georges Nehme / OK World",
+      "work": "Moving Mountains",
+      "edition": "OK World · 2014 CD",
+      "role": "Vocal recording · Georges Nehme's takes",
+      "source": "https://musicbase.net/ok-world",
+      "source_type": "Secondary CD-personnel catalogue",
+      "evidence": "Track 1 is recorded by Jean Pierre Boutros. The recording notes identify Georges Nehme's vocal takes as recorded and edited at Studio JPB. Do not infer whole-album recording or the recording of other vocalists.",
+      "release": "https://www.qobuz.com/us-en/album/ok-world-bugge-wesseltoft-josemi-carmona-shrikant-shriram/w893anvdzt5pc",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    },
+    {
+      "artist": "Georges Nehme / OK World",
+      "work": "Mawwal",
+      "edition": "OK World · 2014 CD",
+      "role": "Vocal editing studio · StudioJPB",
+      "source": "https://musicbase.net/ok-world",
+      "source_type": "Secondary CD-personnel catalogue",
+      "evidence": "The notes identify Georges Nehme's Mawwal vocals as edited at Studio JPB. The track recording credit names another engineer, so no Jean-Pierre recording role is inferred.",
+      "in_current_preview": false,
+      "selection_note": "Not included in the six findings selected for addition."
+    },
+    {
+      "artist": "Abeer Nehme",
+      "work": "Addesh Bhebbak / قدّيش بحبّك",
+      "edition": "2022 music-video coverage",
+      "role": "Recording studio · Studio Jean-Pierre Boutros",
+      "source": "https://www.mtv.com.lb/news/1250854",
+      "source_type": "Contemporary release reporting",
+      "corroboration": "https://www.alriyadh.com/1931428",
+      "evidence": "Both reports credit the recording studio to Jean-Pierre and place mixing/mastering elsewhere. Do not turn the studio mention into a personal engineering credit.",
+      "in_current_preview": true,
+      "selected_by_owner": true
+    },
+    {
+      "artist": "Abeer Nehme",
+      "work": "Shou Baamel",
+      "edition": "2025 music-video coverage; title already listed for the 2022 album",
+      "role": "Mixing & mastering",
+      "source": "https://www.e3lam.com/707853/",
+      "source_type": "Contemporary release reporting",
+      "release": "https://www.youtube.com/watch?v=LN_O2awnJt8",
+      "corroboration": "https://www.lyrics-arabic.com/2025/12/lyrics-shou-baamel-abeer-nehme.html",
+      "evidence": "Reports name Jean-Pierre personally for mixing/mastering. The existing portfolio uses the 2022 album metadata and a mastering/studio credit. Confirm whether the 2025 video uses the same recording before changing scope or creating a second entry.",
+      "in_current_preview": "Existing title, narrower 2022 album role",
+      "selection_note": "Not included in the six findings selected for addition."
+    },
+    {
+      "work": "Photo Umbrella",
+      "year": "2011 production archive",
+      "role": "Video",
+      "source": "https://www.julienboutros.com/photoumbrella.html",
+      "source_type": "Creator's production archive",
+      "evidence": "Credits Jean-Pierre for video, while sound and music design are credited to a different person. Keep this outside the sound-engineering list.",
+      "in_current_preview": false,
+      "selection_note": "Not included in the six findings selected for addition."
+    }
+  ],
+  "reconfirmed_existing_examples": [
+    {
+      "artist": "Nancy Ajram",
+      "work": "Men Nazra",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=UFn1-pTQ85s"
+    },
+    {
+      "artist": "Nancy Ajram",
+      "work": "Warana Eh",
+      "role": "Recording",
+      "source": "https://www.youtube.com/watch?v=Lb21_-odDjs"
+    },
+    {
+      "artist": "Georges Wassouf",
+      "work": "Raksa Espani",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=I1ilzrqdZ10"
+    },
+    {
+      "artist": "Ramy Ayyach",
+      "work": "Sway بالعربي",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=Yl691WC3dFk"
+    },
+    {
+      "artist": "Ramy Ayyach",
+      "work": "Ahlan Bil Jamal",
+      "role": "Mastering",
+      "source": "https://www.youtube.com/watch?v=A3x-IdvDIro"
+    },
+    {
+      "artist": "Abeer Nehme",
+      "work": "Bi Saraha",
+      "role": "Recording studio · StudioJPB",
+      "source": "https://ahwal.media/archives/94293"
+    },
+    {
+      "artist": "Marcel Khalifé & Abeer Nehme",
+      "work": "Sing A Little",
+      "role": "Recording studio · Studio Jean-Pierre Boutros",
+      "source": "https://mediatheque.philharmoniedeparis.fr/mediatheque/doc/ALOES/1114862/abeer-nehme-marcel-khalife-sing-a-little-marcel-khalife-composition"
+    }
+  ],
+  "exclusions_and_limits": [
+    "Same-name academic, political, legal, business and personal-record results were excluded as unrelated; no personal details from those results are retained.",
+    "Own-site and self-authored profile copy establish professional web presence but were not counted as independent production evidence.",
+    "Other contributors' names and credits are not part of the proposed public wording.",
+    "Compilation appearances and duplicate mirrors of the same release are not additional engineering projects.",
+    "Public search is not a complete lifetime discography. Missing searchable credits do not mean no work occurred.",
+    "Direct YouTube fetches sometimes returned only a shell or cache miss; indexed original-video descriptions supplied the named credit lines.",
+    "Any eventual portfolio addition must retain the exact personal-versus-studio scope above."
+  ],
+  "discovery_sources": [
+    "https://www.wneen.com/mixer/414",
+    "https://www.lahamag.com/keywords/278139-%D8%AC%D8%A7%D9%86-%D8%A8%D9%8A%D8%A7%D8%B1-%D8%A8%D8%B7%D8%B1%D8%B3",
+    "https://lb.linkedin.com/in/jeanpierreboutros",
+    "https://lb.linkedin.com/in/boutros-jean-pierre-21843b31"
+  ],
+  "portfolio_exclusions": [
+    "Maher Zain",
+    "Between the two Blacks"
+  ]
+}

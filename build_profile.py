@@ -45,9 +45,12 @@ PRODUCTIONS = [
         "National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre (JACC).",
     ),
     (
-        "Abeer Nehme with Qatar Philharmonic Orchestra", "abeer-nehme-qatar",
-        "FOH engineer | Doha, Qatar | 23 January 2026",
-        "U VENUE. Presented by U Events.",
+        "Abeer Nehme - Selected engineering credits", "abeer-nehme-qatar",
+        "FOH engineer | Qatar, 2026; Baalbeck, Lebanon, 2016",
+        "Qatar Philharmonic, U VENUE, 23 Jan 2026. "
+        "Baalbeck Festival, Temple of Bacchus, 19 Aug 2016. "
+        "Audio technical supervision: On the Steps of Marco Polo with "
+        "Charbel Rouhana, Beiteddine (2013).",
     ),
     (
         "Marina Viotti - Opera gala", "marina-viotti",
@@ -57,18 +60,19 @@ PRODUCTIONS = [
     (
         "Lebanese National Philharmonic Orchestra", "lebanese-philharmonic-diman",
         "FOH engineer | Diman, North Lebanon | 26 July 2026",
-        "Eternal Covenant. Patriarchal Summer Residence; conductor Harout Fazlian.",
+        "Eternal Covenant. Patriarchal Summer Residence.",
     ),
     (
         "Cartoon Orchestra", "cartoon-orchestra",
         "FOH engineer | Kuwait | 4 October 2025",
-        "JACC National Theatre. Musical direction: Dr Khaled Noori.",
+        "JACC National Theatre.",
     ),
     (
-        "Marcel Khalifé - Selected FOH credits", "marcel-khalife-muscat",
+        "Marcel Khalifé - Selected engineering credits", "marcel-khalife-muscat",
         "FOH engineer | Istanbul, 2017; Muscat, Oman, 2019",
-        "Al Sharq Symphony: Istanbul Philharmonic, Lubnan Baalbaki. "
-        "Royal Opera House Muscat: House of Musical Arts, 26-27 Sep 2019.",
+        "Al Sharq Symphony: Istanbul Philharmonic. "
+        "Royal Opera House Muscat, 26-27 Sep 2019. "
+        "Amman Citadel: monitors & recording, 13 Sep 2016.",
     ),
     (
         "Nancy Ajram - FOH & monitor credits", "nancy-ajram-olympia",
@@ -97,7 +101,7 @@ def paragraph(pdf, text, x, top, width, *, font="ProfileSans", size=9.6,
 
 def section(pdf, title, x, top, width):
     return paragraph(pdf, title, x, top, width, font="ProfileSerif", size=15,
-                     leading=18, gap=12)
+                     leading=18, gap=9)
 
 
 def build():
@@ -117,9 +121,9 @@ def build():
     pdf.rect(0, 0, width, height, fill=1, stroke=0)
 
     # A restrained brand header leaves the body easy to read and print.
-    header_bottom = height - 166
+    header_bottom = height - 151
     pdf.setFillColor(colors.HexColor("#111210"))
-    pdf.rect(0, header_bottom, width, 166, fill=1, stroke=0)
+    pdf.rect(0, header_bottom, width, 151, fill=1, stroke=0)
     pdf.saveState()
     pdf.setFillColor(GOLD)
     label = pdf.beginText(margin, height - 29)
@@ -130,27 +134,27 @@ def build():
     pdf.restoreState()
     pdf.setFillColor(colors.HexColor("#F3F0E8"))
     pdf.setFont("ProfileSerif", 29)
-    pdf.drawString(margin - 1, height - 70, "Jean-Pierre")
+    pdf.drawString(margin - 1, height - 63, "Jean-Pierre")
     pdf.setFillColor(GOLD)
     pdf.setFont("ProfileSerifItalic", 31)
-    pdf.drawString(margin - 1, height - 108, "Boutros")
+    pdf.drawString(margin - 1, height - 96, "Boutros")
     pdf.setFillColor(colors.HexColor("#F3F0E8"))
     pdf.setFont("ProfileSans", 10)
-    pdf.drawString(margin, height - 134, "Live, studio & broadcast sound engineer")
+    pdf.drawString(margin, height - 119, "Live, studio & broadcast sound engineer")
     pdf.setFillColor(colors.HexColor("#C9C6BB"))
     pdf.setFont("ProfileSans", 8.4)
-    pdf.drawString(margin, height - 151, "Lebanon | Working internationally")
+    pdf.drawString(margin, height - 136, "Lebanon | Working internationally")
     photo_width, photo_height = 154, 154 * 2 / 3
-    photo_x, photo_y = width - margin - photo_width, height - 137
+    photo_x, photo_y = width - margin - photo_width, height - 126
     pdf.drawImage(str(ROOT / "photos/about-portrait.jpg"), photo_x, photo_y,
                   width=photo_width, height=photo_height, preserveAspectRatio=True)
     pdf.setFillColor(GOLD)
     pdf.rect(photo_x, photo_y - 6, photo_width, 1.4, fill=1, stroke=0)
 
     bio = (
-        "Jean-Pierre Boutros is a sound engineer based in Lebanon, working internationally "
-        "across FOH and monitor engineering, studio production, broadcast and audio system integration. "
-        "He founded StudioJPB in Jounieh in 2008 and develops audio software through Zynforge Audio."
+        "Lebanon-based sound engineer working internationally in FOH, monitors, recording, "
+        "studio production, broadcast and audio systems. Founder of StudioJPB "
+        "(Jounieh, 2008) and Zynforge Audio."
     )
     top = paragraph(pdf, bio, margin, header_bottom - 23, usable,
                     size=10, leading=14, gap=23)
@@ -167,8 +171,14 @@ def build():
                          leading=12.4, gap=2)
         left = paragraph(pdf, escape(metadata), margin, left, left_width,
                          size=8.4, leading=10.8, color=DARK_GOLD, gap=2)
-        left = paragraph(pdf, escape(detail), margin, left, left_width,
-                         size=9.1, leading=12, color=MUTED, gap=5)
+        detail_markup = escape(detail)
+        if anchor == "abeer-nehme-qatar":
+            detail_markup = detail_markup.replace("Baalbeck Festival", f'<link href="{SITE}projects/abeer-nehme-baalbeck/">Baalbeck Festival</link>')
+            detail_markup = detail_markup.replace("On the Steps of Marco Polo", f'<link href="{SITE}projects/beiteddine-marco-polo/">On the Steps of Marco Polo</link>')
+        elif anchor == "marcel-khalife-muscat":
+            detail_markup = detail_markup.replace("Amman Citadel", f'<link href="{SITE}projects/marcel-khalife-amman/">Amman Citadel</link>')
+        left = paragraph(pdf, detail_markup, margin, left, left_width,
+                         size=9.1, leading=12, color=MUTED, gap=3.5)
 
     left = paragraph(pdf,
         f'<b><link href="{SITE}projects/ehdeniyat-abeer-nehme/">Ehdeniyat 2025 | Ehden, Lebanon</link></b><br/>'
@@ -187,10 +197,12 @@ def build():
                       right, right_width, size=9.2, leading=12.7, gap=9)
     right = paragraph(pdf, "Integration work includes Merwas Studios, Riyadh, and "
                       "Playsound Studios, Lebanon.", right_x, right, right_width,
-                      size=9.2, leading=12.7, color=MUTED, gap=18)
+                      size=9.2, leading=12.7, color=MUTED, gap=12)
+    right = paragraph(pdf, f'<b><link href="{SITE}projects/carole-samaha-golden-album/">Carole Samaha</link></b><br/>Golden Album (2023)<br/>Mixing &amp; mastering', right_x,
+                      right, right_width, size=9.2, leading=12.7, color=MUTED, gap=12)
     right = section(pdf, "Software", right_x, right, right_width)
     right = paragraph(pdf, "<b>Founder, Zynforge Audio</b><br/>Live, Recording &amp; Stage", right_x, right,
-                      right_width, size=9.2, leading=14, gap=18)
+                      right_width, size=9.2, leading=14, gap=12)
     right = section(pdf, "Television", right_x, right, right_width)
     for programme, channel in [("Hek Menghanni", "MTV Lebanon"),
                                ("Ghanni Al Aali", "Abu Dhabi TV"),
@@ -213,7 +225,7 @@ def build():
               344, 67, 211, size=9.5, leading=12)
     paragraph(pdf, f'<link href="{SITE}">www.jeanpierreboutros.com</link>',
               margin, 46, 245, size=9, leading=12, color=DARK_GOLD)
-    paragraph(pdf, "Full credits & project details online", 344, 46, 211,
+    paragraph(pdf, f'<link href="{SITE}studio-credits/">Songs, albums &amp; live credits online</link>', 344, 46, 211,
               size=8.1, leading=12, color=MUTED)
     pdf.showPage()
     pdf.save()

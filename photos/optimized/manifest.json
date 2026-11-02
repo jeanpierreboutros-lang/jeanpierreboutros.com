@@ -1,4 +1,25 @@
 {
+  "abeer-nehme-baalbeck-2016.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "photos/optimized/abeer-nehme-baalbeck-2016-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-baalbeck-2016-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-baalbeck-2016-1600.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
   "abeer-nehme-ehdeniyat-2025.jpg": {
     "width": 2400,
     "height": 1600,
@@ -133,6 +154,59 @@
         "src": "photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
         "width": 1280,
         "height": 720
+      }
+    ]
+  },
+  "beirut-the-sea-lover-2019.jpg": {
+    "width": 1920,
+    "height": 1154,
+    "variants": [
+      {
+        "src": "photos/optimized/beirut-the-sea-lover-2019-480.webp",
+        "width": 480,
+        "height": 288
+      },
+      {
+        "src": "photos/optimized/beirut-the-sea-lover-2019-960.webp",
+        "width": 960,
+        "height": 577
+      },
+      {
+        "src": "photos/optimized/beirut-the-sea-lover-2019-1600.webp",
+        "width": 1600,
+        "height": 962
+      }
+    ]
+  },
+  "beiteddine-marco-polo-2013.jpg": {
+    "width": 483,
+    "height": 316,
+    "variants": [
+      {
+        "src": "photos/optimized/beiteddine-marco-polo-2013-480.webp",
+        "width": 480,
+        "height": 314
+      },
+      {
+        "src": "photos/optimized/beiteddine-marco-polo-2013-483.webp",
+        "width": 483,
+        "height": 316
+      }
+    ]
+  },
+  "carole-samaha-golden-album-2023.jpg": {
+    "width": 600,
+    "height": 600,
+    "variants": [
+      {
+        "src": "photos/optimized/carole-samaha-golden-album-2023-480.webp",
+        "width": 480,
+        "height": 480
+      },
+      {
+        "src": "photos/optimized/carole-samaha-golden-album-2023-600.webp",
+        "width": 600,
+        "height": 600
       }
     ]
   },
@@ -556,6 +630,48 @@
       }
     ]
   },
+  "marcel-khalife-amman-citadel-2016.jpg": {
+    "width": 2500,
+    "height": 1667,
+    "variants": [
+      {
+        "src": "photos/optimized/marcel-khalife-amman-citadel-2016-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-amman-citadel-2016-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp",
+        "width": 1600,
+        "height": 1067
+      }
+    ]
+  },
+  "marcel-khalife-baalbeck-2019.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "photos/optimized/marcel-khalife-baalbeck-2019-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-baalbeck-2019-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-baalbeck-2019-1600.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
   "marcel-khalife-muscat-2019.jpg": {
     "width": 800,
     "height": 450,
@@ -590,6 +706,22 @@
         "src": "photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
         "width": 1440,
         "height": 1920
+      }
+    ]
+  },
+  "mazeej-ndu-2019.jpg": {
+    "width": 483,
+    "height": 316,
+    "variants": [
+      {
+        "src": "photos/optimized/mazeej-ndu-2019-480.webp",
+        "width": 480,
+        "height": 314
+      },
+      {
+        "src": "photos/optimized/mazeej-ndu-2019-483.webp",
+        "width": 483,
+        "height": 316
       }
     ]
   },
@@ -695,6 +827,27 @@
         "src": "photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
         "width": 1600,
         "height": 1067
+      }
+    ]
+  },
+  "nancy-ajram-jounieh-2022.jpg": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-jounieh-2022-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-jounieh-2022-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-jounieh-2022-1280.webp",
+        "width": 1280,
+        "height": 720
       }
     ]
   },
@@ -858,6 +1011,43 @@
         "src": "photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
         "width": 1290,
         "height": 1711
+      }
+    ]
+  },
+  "zade-dirani-amman-2019.jpg": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "photos/optimized/zade-dirani-amman-2019-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/zade-dirani-amman-2019-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "photos/optimized/zade-dirani-amman-2019-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "zade-dirani-dbayeh-2018.jpg": {
+    "width": 483,
+    "height": 316,
+    "variants": [
+      {
+        "src": "photos/optimized/zade-dirani-dbayeh-2018-480.webp",
+        "width": 480,
+        "height": 314
+      },
+      {
+        "src": "photos/optimized/zade-dirani-dbayeh-2018-483.webp",
+        "width": 483,
+        "height": 316
       }
     ]
   },

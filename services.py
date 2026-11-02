@@ -32,7 +32,7 @@ SERVICES = [
         ],
         "capabilities": ["Front-of-house concert mixing", "Artist monitor engineering", "Festival performance mixing", "Live music and theatre productions"],
         "brief": ["Artist, venue, country and show dates", "FOH or monitor position required", "Stage plot, input list and artist rider", "House system, available console and local audio crew"],
-        "projects": ["nancy-ajram-olympia", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night"],
+        "projects": ["nancy-ajram-olympia", "abeer-nehme-baalbeck", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night", "marcel-khalife-amman", "zade-dirani-dbayeh", "zade-dirani-amman", "marcel-khalife-baalbeck", "nancy-ajram-jounieh", "mazeej-ndu"],
         "faq": [
             ("What is the difference between FOH and monitor engineering?", "FOH is the mix for the audience. Monitor engineering is the performer’s stage mix. Jean-Pierre has documented credits in both roles; the assignment is agreed for the particular show."),
             ("Can I book Jean-Pierre for a festival performance?", "Yes. His festival credits include FOH for Abeer Nehme and Al Shami, and monitors for Adam, at Ehdeniyat 2025. Send the artist, dates, location and required position to discuss your production."),
@@ -53,8 +53,8 @@ SERVICES = [
         "caption": "Abeer Nehme & Qatar Philharmonic Orchestra · Doha, 2026",
         "sections": [
             ("Orchestra, soloist and performance context.", [
-                "An orchestral sound brief brings together the ensemble, conductor, soloists and the listening environment. FOH engineering concerns the amplified audience mix. Jean-Pierre’s project records identify his engineering role and the conductor and performers involved in each production.",
-                "Relevant work ranges from Abeer Nehme with the Qatar Philharmonic Orchestra at U VENUE in Doha to the Lebanese National Philharmonic Orchestra’s Eternal Covenant concert in Diman, conducted by Harout Fazlian. The portfolio also includes Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic Orchestra, conducted by Lubnan Baalbaki."
+                "An orchestral sound brief brings together the ensemble, conductor, soloists and the listening environment. FOH engineering concerns the amplified audience mix. Jean-Pierre’s project records identify his engineering role for each production.",
+                "Relevant work ranges from Abeer Nehme with the Qatar Philharmonic Orchestra at U VENUE in Doha to the Lebanese National Philharmonic Orchestra’s Eternal Covenant concert in Diman. The portfolio also includes Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic Orchestra."
             ]),
             ("From concert halls to open-air performances.", [
                 "The existing credits include orchestral concerts, Cartoon Orchestra in Kuwait and the Marina Viotti opera gala at Zouk Mikael’s Roman Amphitheatre. Together, these projects span vocalists with orchestra, instrumental ensembles and open-air opera performances.",
@@ -63,7 +63,7 @@ SERVICES = [
         ],
         "capabilities": ["Orchestral FOH mixing", "Vocalist with orchestra performances", "Opera gala sound engineering", "Open-air and concert hall performances"],
         "brief": ["Ensemble, conductor, soloists and programme", "Venue layout and acoustic or amplified performance format", "Stage plan, input list and available audio system", "Rehearsals, show dates and separate recording or broadcast teams"],
-        "projects": ["abeer-nehme-qatar", "lebanese-philharmonic-diman", "al-sharq-symphony", "marina-viotti"],
+        "projects": ["abeer-nehme-qatar", "lebanese-philharmonic-diman", "al-sharq-symphony", "marina-viotti", "marcel-khalife-baalbeck"],
         "faq": [
             ("Which orchestral projects demonstrate this experience?", "Examples include Abeer Nehme with the Qatar Philharmonic in Doha, the Lebanese National Philharmonic in Diman and Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic. Each linked project identifies Jean-Pierre’s FOH role."),
             ("Does Jean-Pierre work on opera and vocal performances?", "Yes. The documented portfolio includes FOH engineering for the Marina Viotti opera gala at Zouk Mikael and Abeer Nehme’s performance with the Qatar Philharmonic Orchestra."),
@@ -84,7 +84,7 @@ SERVICES = [
         "caption": "Jean-Pierre Boutros · Recording, mixing & mastering",
         "sections": [
             ("Recording and tracking for music production.", [
-                "Recording is the capture stage of a production: the performance, musicians and session requirements shape the engineering brief. Jean-Pierre’s established areas of practice include recording and tracking, alongside studio mixing and mastering. StudioJPB is the named studio practice in his professional history.",
+                "Recording is the capture stage of a production: the performance, musicians and session requirements shape the engineering brief. Jean-Pierre’s established areas of practice include recording and tracking, alongside studio mixing and mastering. StudioJPB is the named studio practice in his professional history. His live recording credits include Marcel Khalifé at Amman Citadel, Jordan, on 13 September 2016, where he also handled monitor engineering.",
                 "A useful session inquiry explains what you want to record, who will perform and how the material will be used. Include the number of musicians, instruments and vocals, any existing recordings, the intended production schedule and the recording location. This allows the capture and later studio stages to be discussed as separate parts of the work."
             ]),
             ("Connect the session to the rest of the production.", [
@@ -94,7 +94,7 @@ SERVICES = [
         ],
         "capabilities": ["Recording and tracking", "Studio production work through StudioJPB", "Mixing as a separately scoped production stage", "Mastering as a separately scoped production stage"],
         "brief": ["Musicians, instruments and material to record", "Recording location, dates and session schedule", "Existing sessions, audio files and compatibility requirements", "Capture responsibilities, channel requirements and delivery format"],
-        "projects": ["studio-jpb"],
+        "projects": ["studio-jpb", "marcel-khalife-amman"],
         "faq": [
             ("Where is Jean-Pierre’s studio practice based?", "Jean-Pierre founded StudioJPB in Jounieh, Lebanon, in 2008. Contact him to discuss the location and requirements of a specific recording session."),
             ("Can recording, mixing and mastering be discussed together?", "Yes. All three are established areas of his studio work. Identify which stages you need, the material involved and the intended schedule so the scope can be agreed."),
@@ -125,7 +125,7 @@ SERVICES = [
         ],
         "capabilities": ["Studio mixing", "Mastering", "Recording-to-mix production continuity", "StudioJPB engineering practice"],
         "brief": ["Number of tracks or songs and production status", "Available audio files, sessions and rough mixes", "Reference material and approval contacts", "Deadline, revision scope and required delivery formats"],
-        "projects": ["studio-jpb"],
+        "projects": ["carole-samaha-golden-album", "studio-jpb"],
         "faq": [
             ("Does Jean-Pierre provide both mixing and mastering?", "Yes. Recording, mixing and mastering are established areas of his StudioJPB practice. The required stages and deliverables are agreed for each production."),
             ("Can I inquire from another country?", "Yes. International clients can contact Jean-Pierre by email or WhatsApp to discuss the material, timing and working arrangements."),

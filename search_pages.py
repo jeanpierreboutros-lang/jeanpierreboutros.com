@@ -8,6 +8,7 @@ from urllib.parse import quote, urlsplit
 from xml.etree import ElementTree as ET
 
 from services import AVAILABILITY, HOME_FAQ, REVIEWED, SERVICES, SERVICE_BY_SLUG
+from studio_credits import CREDIT_GROUPS, studio_groups_html
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.jeanpierreboutros.com"
@@ -200,7 +201,7 @@ def service_links():
 
 def site_links():
     return f'''<nav class="site-directory container" aria-label="Services and project pages">
-  <div><p class="eyebrow">Explore the work</p><a href="/services/">All services</a><a href="/projects/">All project details</a><a href="/international-projects/">International projects</a></div>
+  <div><p class="eyebrow">Explore the work</p><a href="/services/">All services</a><a href="/projects/">All project details</a><a href="/studio-credits/">Studio credits</a><a href="/international-projects/">International projects</a></div>
   <ul>{service_links()}</ul>
 </nav>'''
 
@@ -304,6 +305,8 @@ def render_search_pages(context):
             f'<li>{e(item)}</li>' for item in service["brief"]
         ) + '</ul></div></section>'
         body += '<section class="page-section"><h2>Selected experience</h2>' + project_grid(service["projects"]) + '</section>'
+        if slug in ("recording-engineer", "mixing-mastering"):
+            body += '<section class="page-section"><h2>Released recordings</h2><p>Explore Jean-Pierre Boutros’s recording, mixing and mastering credits by song and album.</p><a class="text-link" href="/studio-credits/">Browse studio credits <span aria-hidden="true">↗</span></a></section>'
         body += faq_html(service["faq"])
         body += '<section class="page-section"><h2>Related services</h2><ul class="related-links">' + "".join(
             f'<li><a href="/{key}/">{e(SERVICE_BY_SLUG[key]["name"])}</a></li>'
@@ -316,7 +319,7 @@ def render_search_pages(context):
 
     # Preserve every full project description, with a genuinely indexable URL.
     orchestra_projects = {"marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
-                          "abeer-nehme-qatar", "lebanese-philharmonic-diman"}
+                          "abeer-nehme-qatar", "lebanese-philharmonic-diman", "marcel-khalife-baalbeck"}
     for project in project_records:
         slug, name, production, location, role, category, photo, featured = project
         path = f"/projects/{slug}/"
@@ -340,6 +343,8 @@ def render_search_pages(context):
                             else ["broadcast-audio-engineer"] if category == "broadcast"
                             else ["studio-system-integration"] if slug == "studio-integration"
                             else ["recording-engineer", "mixing-mastering"] if slug == "studio-jpb"
+                            else ["live-sound-engineer", "recording-engineer"] if slug == "marcel-khalife-amman"
+                            else ["mixing-mastering"] if slug == "carole-samaha-golden-album"
                             else ["live-sound-engineer"])
         body += '<section class="page-section"><h2>Engineering services</h2><ul class="related-links">' + "".join(
             f'<li><a href="/{key}/">{e(SERVICE_BY_SLUG[key]["name"])}</a></li>'
@@ -369,7 +374,7 @@ def render_search_pages(context):
     path = "/projects/"
     crumbs = [("Home", "/"), ("Projects", path)]
     body = intro("Professional portfolio", "The projects.<br /><em>The actual role.</em>",
-                 "Explore all 18 project records: concert and festival FOH, artist monitors, orchestral performances, broadcast, StudioJPB and audio system integration.",
+                 f"Explore all {len(project_records)} project records: concert and festival FOH, artist monitors, live recording, orchestral performances, broadcast, StudioJPB and audio system integration.",
                  crumbs)
     body += project_grid([p[0] for p in project_records])
     body += inquiry_html()
@@ -399,6 +404,22 @@ def render_search_pages(context):
           body, crumbs, page_type="CollectionPage",
           main_entity={"@id": absolute("services/#catalog")})
 
+    path = "/studio-credits/"
+    crumbs = [("Home", "/"), ("Studio credits", path)]
+    body = intro("Songs & albums", "On record.<br /><em>Behind the music.</em>",
+                 "Jean-Pierre Boutros’s recording, mixing and mastering credits, by song and album.", crumbs)
+    body += studio_groups_html() + inquiry_html("Recording / mixing / mastering inquiry")
+    works = [(group, work) for group in CREDIT_GROUPS for work in group["works"]]
+    item_list = {"@type": "ItemList", "@id": absolute(path + "#credits"),
+                 "name": "Recording, mixing and mastering credits", "numberOfItems": len(works),
+                 "itemListElement": [
+                     {"@type": "ListItem", "position": index, "name": group["name"] + " · " + work["title"] + " · " + work["role"],
+                      "url": work.get("url", absolute(path + "#" + group["id"]))}
+                     for index, (group, work) in enumerate(works, 1)]}
+    write(path, "Recording, Mixing & Mastering Credits | Jean-Pierre Boutros",
+          "Explore Jean-Pierre Boutros and StudioJPB recording, mixing and mastering credits for songs and albums by Nancy Ajram, Carole Samaha, Abeer Nehme and more.",
+          body, crumbs, page_type="CollectionPage", main_entity={"@id": absolute(path + "#credits")}, extra=[item_list])
+
     path = "/international-projects/"
     crumbs = [("Home", "/"), ("International projects", path)]
     body = intro("Lebanon-based · Worldwide", "Different stages.<br /><em>The same attention.</em>",
@@ -407,12 +428,13 @@ def render_search_pages(context):
     regions = [
         ("France", ["nancy-ajram-olympia"]),
         ("Oman", ["marcel-khalife-muscat"]),
+        ("Jordan", ["marcel-khalife-amman", "zade-dirani-amman"]),
         ("Qatar", ["abeer-nehme-qatar"]),
         ("Kuwait", ["the-eighties", "cartoon-orchestra"]),
         ("Saudi Arabia", ["baligh-hamdi-night", "warda-night", "night-of-arab-stars"]),
         ("United Arab Emirates", ["nancy-ajram-expo-dubai"]),
         ("Turkey", ["al-sharq-symphony"]),
-        ("Lebanon", ["marina-viotti", "lebanese-philharmonic-diman",
+        ("Lebanon", ["beirut-the-sea-lover", "mazeej-ndu", "nancy-ajram-jounieh", "marcel-khalife-baalbeck", "zade-dirani-dbayeh", "beiteddine-marco-polo", "abeer-nehme-baalbeck", "marina-viotti", "lebanese-philharmonic-diman",
                      "ehdeniyat-abeer-nehme", "ehdeniyat-al-shami", "ehdeniyat-adam",
                      "papal-broadcast", "studio-jpb"]),
     ]
@@ -465,7 +487,8 @@ Sitemap: {SITE}/sitemap.xml
         "", "## Main pages",
         f"- [Professional profile]({SITE}/): Biography, collaborations, portfolio and contact.",
         f"- [Services]({SITE}/services/): The six documented service areas.",
-        f"- [Project records]({SITE}/projects/): All 18 projects with role, context and sources.",
+        f"- [Project records]({SITE}/projects/): All {len(project_records)} projects with role, context and sources.",
+        f"- [Studio credits]({SITE}/studio-credits/): Jean-Pierre Boutros’s recording, mixing and mastering roles for released songs and albums.",
         f"- [International projects]({SITE}/international-projects/): Locations of documented work and worldwide availability.",
         "", "## Services",
     ]

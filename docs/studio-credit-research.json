@@ -1,0 +1,789 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "Initial 36 artist and ensemble names in build.py, plus Al Walid Hallani, Mohammed Islam, Cyrine Abdel Nour, Marwan Chami and Nader Khoury",
+  "method": "English name variants, Arabic name variants where applicable, reverse searches for the engineer and studio, then original artist releases, storefront personnel metadata, institutional CD catalogues and contemporary release reporting. Roles remain limited to the documented production stage; studio-only credits are labelled StudioJPB.",
+  "summary": {
+    "artists_searched": 41,
+    "artists_with_published_credits": 22,
+    "related_collaborators": 1,
+    "no_attributable_public_studio_credit_found": 13,
+    "release_entries": 51,
+    "owner_confirmed_additional_artists": 5,
+    "owner_confirmed_release_entries": 13
+  },
+  "artists": [
+    {
+      "artist": "Nancy Ajram",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Men Nazra",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.youtube.com/watch?v=UFn1-pTQ85s",
+          "notes": "Words and music: Ziad Jamal."
+        },
+        {
+          "work": "Aamon Jadidon",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.youtube.com/watch?v=Zc6nH0sK7rU",
+          "notes": ""
+        },
+        {
+          "work": "Ya Eid",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2022",
+          "source": "https://www.youtube.com/watch?v=Mh4_BMRP43M",
+          "notes": "Words and music: Salim Assaf."
+        },
+        {
+          "work": "Warana Eh",
+          "role": "Recording",
+          "edition_or_year": "2025",
+          "source": "https://www.youtube.com/watch?v=Lb21_-odDjs",
+          "notes": "The official artist video explicitly names Jean-Pierre Boutros for recording. No mixing or mastering role is inferred."
+        },
+        {
+          "work": "Akher Esdar",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.youtube.com/watch?v=xJIH9jJr9SA",
+          "release_url": "https://www.youtube.com/watch?v=xJIH9jJr9SA",
+          "release_link_verified": "2026-11-02",
+          "notes": "Selected for the portfolio by Jean-Pierre after reviewing the broader search findings."
+        }
+      ]
+    },
+    {
+      "artist": "Marcel Khalifé",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Sing A Little",
+          "role": "Recorded at StudioJPB",
+          "edition_or_year": "2019 CD edition",
+          "source": "https://mediatheque.philharmoniedeparis.fr/mediatheque/doc/ALOES/1114862/abeer-nehme-marcel-khalife-sing-a-little-marcel-khalife-composition",
+          "notes": "Composed and produced by Marcel Khalifé, sung by Abeer Nehme; Faraj Hanna is credited on buzuq. The catalogue identifies Studio Jean-Pierre Boutros as the recording studio."
+        }
+      ]
+    },
+    {
+      "artist": "Georges Wassouf",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Noss Omry",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.youtube.com/watch?v=Tn39YMcJUxg",
+          "notes": ""
+        },
+        {
+          "work": "Raksa Espani",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.youtube.com/watch?v=I1ilzrqdZ10",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Carole Samaha",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Golden Album",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.youtube.com/watch?v=M--KeGtmvgM",
+          "notes": "Album credit confirmed by Jean-Pierre and published in the artist’s release credits. Track titles follow Apple Music’s release listing."
+        }
+      ]
+    },
+    {
+      "artist": "Abeer Nehme",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Ossotna",
+          "role": "Recording, mixing & mastering",
+          "edition_or_year": "2022",
+          "source": "https://rw.popnable.com/libani/indirimbo/746931-abeer-nehme-ossotna/amagambo-n%27ubusobanuro",
+          "notes": ""
+        },
+        {
+          "work": "Bala Ma Nhess",
+          "role": "Mastering · StudioJPB",
+          "edition_or_year": "2022",
+          "source": "https://www.qobuz.com/us-en/album/bala-ma-nhess-abeer-nehme/tpoeewi2tys9a",
+          "notes": "The mastering credit is published under Jean Pierre Boutros Studio."
+        },
+        {
+          "work": "Shou Baamel",
+          "role": "Mastering & studio credit · StudioJPB",
+          "edition_or_year": "2022 album version",
+          "source": "https://www.qobuz.com/gb-en/album/bi-saraha-abeer-nehme/xxqwrx69r9zmc",
+          "notes": ""
+        },
+        {
+          "work": "Sawt",
+          "role": "Mastering & studio credit · StudioJPB",
+          "edition_or_year": "2022",
+          "source": "https://www.qobuz.com/gb-en/album/bi-saraha-abeer-nehme/xxqwrx69r9zmc",
+          "notes": ""
+        },
+        {
+          "work": "Ossotna (Unplugged Version)",
+          "role": "Mastering & studio credit · StudioJPB",
+          "edition_or_year": "2022",
+          "source": "https://www.qobuz.com/gb-en/album/bi-saraha-abeer-nehme/xxqwrx69r9zmc",
+          "notes": ""
+        },
+        {
+          "work": "Aamel Nasini",
+          "role": "Studio credit · StudioJPB",
+          "edition_or_year": "2022",
+          "source": "https://www.qobuz.com/se-en/album/aamel-nasini-abeer-nehme/ko747w2te5eqc",
+          "notes": "The release lists Jean Pierre Boutros Studio; mixing and mastering are credited to Sleiman Damien."
+        },
+        {
+          "work": "Bi Saraha",
+          "role": "Studio recording · StudioJPB",
+          "edition_or_year": "2022",
+          "source": "https://ahwal.media/archives/94293",
+          "notes": "Recording is credited to StudioJPB; mixing and mastering are credited to Sleiman Damien."
+        },
+        {
+          "work": "El Meelad El Jayi",
+          "role": "Vocal recording studio · StudioJPB",
+          "edition_or_year": "2021",
+          "source": "https://www.youtube.com/watch?v=cUPS5sXwxm4",
+          "notes": "StudioJPB is credited for the vocal recording location. Ralph Sleiman is credited for recording, mixing and mastering."
+        },
+        {
+          "work": "Sing A Little",
+          "role": "Recorded at StudioJPB",
+          "edition_or_year": "2019 CD edition",
+          "source": "https://mediatheque.philharmoniedeparis.fr/mediatheque/doc/ALOES/1114862/abeer-nehme-marcel-khalife-sing-a-little-marcel-khalife-composition",
+          "notes": "Composed and produced by Marcel Khalifé, sung by Abeer Nehme; Faraj Hanna is credited on buzuq. The catalogue identifies Studio Jean-Pierre Boutros as the recording studio."
+        },
+        {
+          "work": "Fallou",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://www.youtube.com/watch?v=hqyW-9LJLoM",
+          "release_link_verified": "2026-11-02",
+          "notes": "Studio release selected; engineering role follows the owner’s confirmation."
+        },
+        {
+          "work": "Hikayi",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://www.youtube.com/watch?v=XMFdqEu8Jx4",
+          "release_link_verified": "2026-11-02",
+          "notes": "Studio release selected; engineering role follows the owner’s confirmation."
+        },
+        {
+          "work": "Fi Asfour",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://www.youtube.com/watch?v=09L7zX-SVRc",
+          "release_link_verified": "2026-11-02",
+          "notes": "Studio release selected; engineering role follows the owner’s confirmation."
+        },
+        {
+          "work": "Kil Ma T'illi",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://www.youtube.com/watch?v=cn4K-fZ-x70",
+          "release_link_verified": "2026-11-02",
+          "notes": "Studio release selected; engineering role follows the owner’s confirmation."
+        },
+        {
+          "work": "Addaysh Bhebak",
+          "role": "Recorded at StudioJPB",
+          "edition_or_year": "2022 music video",
+          "source": "https://www.mtv.com.lb/news/1250854",
+          "release_url": "https://www.youtube.com/watch?v=-NSBIfNe7pA",
+          "release_link_verified": "2026-11-02",
+          "notes": "Recording is credited to Studio Jean-Pierre Boutros. No personal recording engineer or mixing/mastering credit is inferred."
+        }
+      ]
+    },
+    {
+      "artist": "Maya Diab",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Adam",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Al Shami",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Melhem Zein",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Ramy Ayyach",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Sway بالعربي",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.youtube.com/watch?v=Yl691WC3dFk",
+          "notes": ""
+        },
+        {
+          "work": "Ahlan Bil Jamal",
+          "role": "Mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.youtube.com/watch?v=A3x-IdvDIro",
+          "notes": "Arrangement and mixing: The AB Brothers."
+        },
+        {
+          "work": "Ismallah",
+          "role": "Mastering",
+          "edition_or_year": "2025",
+          "source": "https://www.assawsana.com/article/680079",
+          "notes": ""
+        },
+        {
+          "work": "Ma Bensak",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=6bNch07UIaA",
+          "release_link_verified": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "artist": "Zade Dirani",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Joseph Attiye",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Georges Nehme",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Hayda Hali",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2022",
+          "source": "https://www.mtv.com.lb/amp/details/1299182",
+          "notes": ""
+        },
+        {
+          "work": "Betetzekkari",
+          "role": "Recorded at StudioJPB",
+          "edition_or_year": "2017",
+          "source": "https://elfann.com/news/show/1172993/جورج-نعمة-يطلق-جديده-بتتذكري-بالصوت",
+          "notes": "The recording studio is credited to Jean-Pierre; mixing and mastering are credited to Elie Barbar."
+        },
+        {
+          "work": "Moving Mountains",
+          "role": "Vocal recording · Selected takes",
+          "edition_or_year": "2014 CD edition · OK World",
+          "source": "https://musicbase.net/ok-world",
+          "release_url": "https://www.qobuz.com/us-en/album/ok-world-bugge-wesseltoft-josemi-carmona-shrikant-shriram/w893anvdzt5pc",
+          "release_link_verified": "2026-11-02",
+          "notes": "Jean-Pierre is credited for recording track 1. The notes identify Georges Nehme’s vocal takes at StudioJPB; no whole-album recording or other vocalists’ recording is inferred."
+        }
+      ]
+    },
+    {
+      "artist": "Salim Assaf",
+      "searched": true,
+      "status": "owner_confirmed_credit",
+      "context": "Songwriting collaboration · Ya Eid by Nancy Ajram",
+      "credit_group": "nancy-ajram",
+      "credits": [
+        {
+          "work": "Shu Hal Hob",
+          "role": "Recording, mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=RWWslews8mI",
+          "release_link_verified": "2026-11-02"
+        },
+        {
+          "work": "Eza Fik",
+          "role": "Recording, mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=P-sxaVWswg4",
+          "release_link_verified": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "artist": "Mazeej",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Cartoon Orchestra",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Macadi Nahhas",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Nour",
+          "role": "Recording & mixing",
+          "edition_or_year": "2014",
+          "source": "https://musicbase.net/nour",
+          "notes": "Album mastering is credited to Abbey Road Studios."
+        }
+      ]
+    },
+    {
+      "artist": "Tania Saleh",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Oum Sakker El Dekkene",
+          "role": "Recording & mastering",
+          "edition_or_year": "2015",
+          "source": "https://www.vetogate.com/1818528",
+          "notes": "Arrangement and mixing: Cesar Kahwagi."
+        }
+      ]
+    },
+    {
+      "artist": "Remi Bandali",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Rasha Rizk",
+      "searched": true,
+      "status": "owner_confirmed_credit",
+      "credits": [
+        {
+          "work": "اللعبة (The Play)",
+          "role": "Recording",
+          "edition_or_year": "2014",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://open.spotify.com/album/5jBdrUfmowed8lJVvzFuyp",
+          "release_link_verified": "2026-11-02",
+          "notes": "Spotify identifies the album as اللعبة by Rasha Rizk, with eight tracks and a 24 June 2014 date. The portfolio retains the English title The Play supplied by Jean-Pierre. The release link establishes album identity; the recording credit comes from Jean-Pierre."
+        }
+      ]
+    },
+    {
+      "artist": "Yara",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Mosh Bimazagak",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.youtube.com/watch?v=VycPpNdp3us",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Leen Hayek",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Nassini",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2024",
+          "source": "https://www.lyrics-arabic.com/2024/02/lyrics-nassini-leen-hayek.html",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Salah El Kurdi",
+      "searched": true,
+      "status": "owner_confirmed_credit",
+      "credits": [
+        {
+          "work": "Taii Nkhoun",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=3IX_hsiP_lU",
+          "release_link_verified": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "artist": "Charbel Rouhana",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Chantal Bitar",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Mech Rah Khallik Tfell",
+          "role": "Recording, mixing & mastering",
+          "edition_or_year": "2020",
+          "source": "https://www.youtube.com/watch?v=zxl5bRawqdM",
+          "notes": "Faraj Hanna is credited on buzuq."
+        }
+      ]
+    },
+    {
+      "artist": "Carlos Azar",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Kel Ma Bde’ellak",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.lebanon24.com/news/arts-celebrities/1076261/فنان-لبناني-شهير-يعود-للغناء-بعد-انقطاع-9-سنوات-من-هو؟",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Ziad Bourji",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Shtaatella",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2022",
+          "source": "https://gate.ahram.org.eg/News/3907358.aspx",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Sarina Cross",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Ragismena Matia (Ραγισμένα Μάτια)",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2019",
+          "source": "https://www.youtube.com/watch?v=5awyeu88fgQ",
+          "notes": "The video credits identify JPB Studios, Beirut."
+        }
+      ]
+    },
+    {
+      "artist": "Ziad Jamal",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Yemken",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2025",
+          "source": "https://www.alboraqmedia.com/2025/06/Ziad-Jamal%20.html",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "artist": "Mouhamad Khairy",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Ya Samra",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.alrabiafm.com/mohamed-khairy-presents-the-song-ya-samra/",
+          "notes": "Words and music: Ziad Jamal."
+        }
+      ]
+    },
+    {
+      "artist": "Manel Mallat",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Faraj Hanna",
+      "searched": true,
+      "status": "related_song_or_album_collaborator",
+      "context": "Buzuq · Sing A Little & Chantal Bitar",
+      "credit_group": "sing-a-little"
+    },
+    {
+      "artist": "Mike Massy",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Naseej",
+          "role": "Vocal recording for Fadia Tomb El Hage",
+          "edition_or_year": "2014",
+          "source": "https://musicbase.net/naseej",
+          "notes": "Jean-Pierre is named among the recording engineers. The album notes locate Fadia Tomb El Hage’s vocal takes at StudioJPB; Mike Massy’s vocals were recorded in France."
+        }
+      ]
+    },
+    {
+      "artist": "Ria Ellinidou",
+      "searched": true,
+      "status": "owner_confirmed_credit",
+      "credits": [
+        {
+          "work": "Στα Κόκκινα",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=CosSCMqn4WA",
+          "release_link_verified": "2026-11-02"
+        },
+        {
+          "work": "Όταν Αγαπάς",
+          "role": "Mixing & mastering",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "notes": "Release year not provided; no year inferred.",
+          "release_url": "https://www.youtube.com/watch?v=sRL16GeOES8",
+          "release_link_verified": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "artist": "Marina Viotti",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Lebanese National Philharmonic Orchestra",
+      "searched": true,
+      "status": "no_attributable_public_studio_credit_found",
+      "notes": "Existing collaboration and confirmed live credits remain. This search result does not establish that no studio work took place; no song title or engineering role has been inferred."
+    },
+    {
+      "artist": "Al Walid Hallani",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Zeffo El Amar",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "https://www.youtube.com/watch?v=6mOQ_iczvhk",
+          "notes": "Requested by the owner as Ziffou L Amar. Official artist/video spelling retained; the video explicitly credits JeanPierre Boutros for mixing and mastering."
+        }
+      ]
+    },
+    {
+      "artist": "Mohammed Islam",
+      "searched": true,
+      "status": "owner_confirmed_credit",
+      "credits": [
+        {
+          "work": "Nheb El Dini",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2023",
+          "source": "Confirmed directly by Jean-Pierre Boutros in this session",
+          "release_url": "https://www.youtube.com/watch?v=z--xdkXvyEg",
+          "release_link_verified": "2026-11-02",
+          "notes": "Official Platinum Records release located. The published video description attributes arrangement/mixing to Bassem Rizk and does not name Jean-Pierre; the portfolio role follows Jean-Pierre’s direct confirmation."
+        }
+      ]
+    },
+    {
+      "artist": "Cyrine Abdel Nour",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Aamellon Aeqdi",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2025",
+          "source": "https://www.youtube.com/watch?v=CpqTVr-fMFY",
+          "release_link_verified": "2026-11-02",
+          "notes": "Official artist music video credits Jean Pierre Botrous for Mix & Mastering and جان بيار بطرس in Arabic. The published English surname is misspelled; the portfolio retains Jean-Pierre Boutros."
+        }
+      ]
+    },
+    {
+      "artist": "Marwan Chami",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Tayer",
+          "role": "Mixing & mastering",
+          "edition_or_year": "2022",
+          "source": "https://www.youtube.com/watch?v=Y44I1oeyfQE",
+          "release_url": "https://www.youtube.com/watch?v=Y44I1oeyfQE",
+          "release_link_verified": "2026-11-02",
+          "notes": "Selected for the portfolio by Jean-Pierre after reviewing the broader search findings."
+        }
+      ]
+    },
+    {
+      "artist": "Nader Khoury",
+      "searched": true,
+      "status": "published_credit_found",
+      "credits": [
+        {
+          "work": "Idi bi Idik",
+          "role": "Recorded at StudioJPB",
+          "edition_or_year": "2018",
+          "source": "https://unicbeirut.org/index.php/Press%20Release/create-press-releases-32",
+          "release_url": "https://unicbeirut.org/index.php/Press%20Release/create-press-releases-32",
+          "release_link_verified": "2026-11-02",
+          "notes": "The UN announcement credits Jean Pierre Boutros Studio for recording; it does not identify an individual engineer or mixing/mastering role."
+        }
+      ]
+    }
+  ],
+  "important_scope_decisions": [
+    "Nancy Ajram: Men Nazra and Aamon Jadidon/Ya Eid are mixing and mastering credits; no recording engineer is inferred from a studio-location line.",
+    "Ramy Ayyach: Ahlan Bil Jamal and Ismallah are mastering credits. Sway is mixing and mastering. Ma Bensak is an owner-confirmed mixing and mastering credit.",
+    "Abeer Nehme: Bi Saraha and Aamel Nasini do not acquire mixing/mastering credits from a studio mention; Sleiman Damien holds those published roles. El Meelad El Jayi identifies StudioJPB as the vocal recording studio while Ralph Sleiman receives engineering credits.",
+    "Mike Massy/Naseej: the recording note concerns Fadia Tomb El Hage vocal takes at StudioJPB. Mike Massy vocal recording is separately located in France.",
+    "Faraj Hanna is credited as a buzuq collaborator on the researched releases; no solo recording project is inferred. Salim Assaf’s Shu Hal Hob and Eza Fik are owner-confirmed recording, mixing and mastering projects.",
+    "Sing A Little is labelled 2019 CD edition to match the Philharmonie catalogue; the catalogue date is not treated as the original release date.",
+    "Broader search additions preserve studio-only recording attribution for Idi bi Idik and Addaysh Bhebak, and selected vocal recording for Moving Mountains. Maher Zain and Between the two Blacks are excluded at the owner’s request. Beirut the Sea Lover is a live production project for 3D sound mixing, separate from studio release entries."
+  ],
+  "citadel_image_search": {
+    "requested_source": "Roya TV",
+    "matching_archive_videos": [
+      "https://www.youtube.com/watch?v=jG8Z5yOSNmU",
+      "https://www.youtube.com/watch?v=DGWlrJ-TnFk",
+      "https://www.youtube.com/watch?v=xbB0Z-_mGng"
+    ],
+    "result": "Indexed Roya Music concert descriptions were found, but matching video pages could not be retrieved and thumbnail requests returned HTTP 404.",
+    "selected_source": "https://www.alibarqawistudios.com/music-festivals",
+    "selected_image": "Ali-Barqawi-Studios-Art-Series-Music-Event-Amman-Citadel-Festival-Marcel-Khalifeh-Jordan-2016-053.jpg",
+    "reason": "The photographer identifies the artist, Amman Citadel and 2016 in the original image record. The original copyright/artist metadata is retained."
+  },
+  "search_log": "studio-credit-search-queries.json",
+  "presentation": "At the owner’s request, public entries show artist/project identification and Jean-Pierre Boutros or Studio Jean-Pierre Boutros credits only. Other contributors, research notes, track lists and source-credit labels remain in repository documentation and are not rendered. Related-collaborator roles are not shown.",
+  "new_release_links": {
+    "checked": "2026-11-02",
+    "method": "Search results identify official artist/label uploads and streaming release pages. Στα Κόκκινα was inspected in Chrome; Rasha Rizk’s exact Spotify album link was followed from the source album on the published track page and verified as اللعبة by Rasha Rizk.",
+    "links": [
+      {
+        "title": "Fallou",
+        "url": "https://www.youtube.com/watch?v=hqyW-9LJLoM"
+      },
+      {
+        "title": "Hikayi",
+        "url": "https://www.youtube.com/watch?v=XMFdqEu8Jx4"
+      },
+      {
+        "title": "Fi Asfour",
+        "url": "https://www.youtube.com/watch?v=09L7zX-SVRc"
+      },
+      {
+        "title": "Kil Ma T'illi",
+        "url": "https://www.youtube.com/watch?v=cn4K-fZ-x70"
+      },
+      {
+        "title": "Ma Bensak",
+        "url": "https://www.youtube.com/watch?v=6bNch07UIaA"
+      },
+      {
+        "title": "Zeffo El Amar",
+        "url": "https://www.youtube.com/watch?v=6mOQ_iczvhk"
+      },
+      {
+        "title": "Nheb El Dini",
+        "url": "https://www.youtube.com/watch?v=z--xdkXvyEg"
+      },
+      {
+        "title": "Shu Hal Hob",
+        "url": "https://www.youtube.com/watch?v=RWWslews8mI"
+      },
+      {
+        "title": "Eza Fik",
+        "url": "https://www.youtube.com/watch?v=P-sxaVWswg4"
+      },
+      {
+        "title": "Taii Nkhoun",
+        "url": "https://www.youtube.com/watch?v=3IX_hsiP_lU"
+      },
+      {
+        "title": "Στα Κόκκινα",
+        "url": "https://www.youtube.com/watch?v=CosSCMqn4WA"
+      },
+      {
+        "title": "Όταν Αγαπάς",
+        "url": "https://www.youtube.com/watch?v=sRL16GeOES8"
+      },
+      {
+        "title": "Aamellon Aeqdi",
+        "url": "https://www.youtube.com/watch?v=CpqTVr-fMFY"
+      },
+      {
+        "title": "اللعبة (The Play)",
+        "url": "https://open.spotify.com/album/5jBdrUfmowed8lJVvzFuyp"
+      },
+      {
+        "title": "Akher Esdar",
+        "url": "https://www.youtube.com/watch?v=xJIH9jJr9SA"
+      },
+      {
+        "title": "Addaysh Bhebak",
+        "url": "https://www.youtube.com/watch?v=-NSBIfNe7pA"
+      },
+      {
+        "title": "Tayer",
+        "url": "https://www.youtube.com/watch?v=Y44I1oeyfQE"
+      },
+      {
+        "title": "Idi bi Idik",
+        "url": "https://unicbeirut.org/index.php/Press%20Release/create-press-releases-32"
+      },
+      {
+        "title": "Moving Mountains",
+        "url": "https://www.qobuz.com/us-en/album/ok-world-bugge-wesseltoft-josemi-carmona-shrikant-shriram/w893anvdzt5pc"
+      }
+    ],
+    "credit_scope": "These links identify the releases. Owner-confirmed roles remain as supplied. The Eza Fik video lists Studio Jean-Pierre Boutros for recording/mixing and a different mastering engineer; its all-stage portfolio role remains based on Jean-Pierre’s direct confirmation. Shu Hal Hob confirms his mix/master credit and a recording location, without naming its recording engineer. The four additional Abeer Nehme roles follow Jean-Pierre’s direct confirmation. Fallou’s official video credits Studio Jean-Pierre Boutros with recording, mixing and mastering. Hikayi’s video names Jean-Pierre for recording and assigns mastering elsewhere; that difference is retained in this private audit. Fi Asfour and Kil Ma T’illi link to the 2019 studio album audio, rather than concert recordings."
+  },
+  "nancy_deep_review": "nancy-credit-research-2026-11-02.json",
+  "broad_name_review": "broad-credit-research-2026-11-02.json"
+}

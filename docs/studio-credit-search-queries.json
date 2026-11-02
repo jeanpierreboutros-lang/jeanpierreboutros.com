@@ -1,0 +1,285 @@
+{
+  "reviewed": "2026-11-02",
+  "note": "Actual recorded search-query batches; source retrievals and some initial discovery queries are documented in the research report.",
+  "batches": [
+    {
+      "batch": "credits_batch_1",
+      "queries": [
+        "\"Nancy Ajram\" \"Boutros\" recording mixing mastering",
+        "\"Marcel Khalife\" \"Boutros\" recording mixing mastering",
+        "\"Georges Wassouf\" \"Boutros\" mixing mastering",
+        "\"Carole Samaha\" \"Boutros\" \"Golden\""
+      ]
+    },
+    {
+      "batch": "credits_batch_2",
+      "queries": [
+        "\"Abeer Nehme\" \"Jean Pierre\" credits",
+        "\"Maya Diab\" \"Jean Pierre Boutros\"",
+        "\"Adam\" \"Jean Pierre Boutros\" mixing",
+        "\"Al Shami\" \"Jean Pierre Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_3",
+      "queries": [
+        "\"Melhem Zein\" \"Boutros\" mix master",
+        "\"Ramy Ayyach\" \"Boutros\" mixing mastering",
+        "\"Zade Dirani\" \"Jean Pierre\"",
+        "\"Joseph Attiye\" \"Boutros\" mix mastering"
+      ]
+    },
+    {
+      "batch": "credits_batch_4",
+      "queries": [
+        "\"Georges Nehme\" \"Jean Pierre\"",
+        "\"Salim Assaf\" \"Jean Pierre\"",
+        "\"Mazeej\" \"Boutros\"",
+        "\"Cartoon Orchestra\" \"Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_5",
+      "queries": [
+        "\"Macadi Nahhas\" \"Boutros\"",
+        "\"Tania Saleh\" \"Jean Pierre\"",
+        "\"Remi Bandali\" \"Boutros\"",
+        "\"Rasha Rizk\" \"Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_6",
+      "queries": [
+        "\"Yara\" \"Jean Pierre Boutros\"",
+        "\"Leen Hayek\" \"Jean Pierre Boutros\"",
+        "\"Salah El Kurdi\" \"Jean Pierre Boutros\"",
+        "\"Charbel Rouhana\" \"Jean Pierre Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_7",
+      "queries": [
+        "\"Chantal Bitar\" \"Boutros\"",
+        "\"Carlos Azar\" \"Jean Pierre\"",
+        "\"Ziad Bourji\" \"Jean Pierre Boutros\"",
+        "\"Sarina Cross\" \"Jean Pierre Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_8",
+      "queries": [
+        "\"Ziad Jamal\" \"Jean Pierre\"",
+        "\"Mouhamad Khairy\" \"Boutros\"",
+        "\"Manel Mallat\" \"Boutros\"",
+        "\"Faraj Hanna\" \"Boutros\""
+      ]
+    },
+    {
+      "batch": "credits_batch_9",
+      "queries": [
+        "\"Mike Massy\" \"Jean Pierre Boutros\"",
+        "\"Ria Ellinidou\" \"Boutros\"",
+        "\"Marina Viotti\" \"Boutros\"",
+        "\"Lebanese Philharmonic\" \"Jean Pierre Boutros\" recording"
+      ]
+    },
+    {
+      "batch": "credits_arabic_1",
+      "queries": [
+        "\"ملحم زين\" \"جان\" \"بطرس\"",
+        "\"رامي عياش\" \"جان بيار بطرس\"",
+        "\"زيد ديراني\" \"جان\" \"بطرس\"",
+        "\"جوزيف عطية\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_arabic_2",
+      "queries": [
+        "\"جورج نعمة\" \"جان بيار بطرس\"",
+        "\"سليم عساف\" \"جان بيار بطرس\"",
+        "\"مزيج\" \"جان بيار بطرس\"",
+        "\"مايا دياب\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_arabic_3",
+      "queries": [
+        "\"مكادي نحاس\" \"جان بيار بطرس\"",
+        "\"تانيا صالح\" \"جان بيار بطرس\"",
+        "\"ريمي بندلي\" \"جان بيار بطرس\"",
+        "\"رشا رزق\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_arabic_4",
+      "queries": [
+        "\"يارا\" \"جان بيار بطرس\"",
+        "\"لين الحايك\" \"جان بيار بطرس\"",
+        "\"صلاح الكردي\" \"جان بيار بطرس\"",
+        "\"شربل روحانا\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_arabic_5",
+      "queries": [
+        "\"شانتال بيطار\" \"جان بيار بطرس\"",
+        "\"كارلوس عازار\" \"جان بيار بطرس\"",
+        "\"زياد جمال\" \"جان بيار بطرس\"",
+        "\"محمد خيري\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_arabic_6",
+      "queries": [
+        "\"منال ملاط\" \"جان بيار بطرس\"",
+        "\"فرج حنا\" \"جان بيار بطرس\"",
+        "\"مايك ماسي\" \"جان بيار بطرس\"",
+        "\"آدم\" \"جان بيار بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_variants_1",
+      "queries": [
+        "\"Ρία Ελλήνιδου\" \"Boutros\"",
+        "\"Ria Ellinidou\" \"Studio\" \"Jean\"",
+        "\"Manel Mallat\" \"recording\" \"Jean\"",
+        "\"Faraj Hanna\" \"Jean-Pierre\""
+      ]
+    },
+    {
+      "batch": "credits_discovery",
+      "queries": [
+        "\"Jean Pierre Boutros\" site:youtube.com -site:jeanpierreboutros.com",
+        "\"Jean-Pierre Boutros\" \"Mix\" -site:jeanpierreboutros.com -site:studiojpb.com",
+        "\"جان بيار بطرس\" أغنية",
+        "\"جان بيير بطرس\" أغنية"
+      ]
+    },
+    {
+      "batch": "credits_discovery_2",
+      "queries": [
+        "\"Studio Jean Pierre Boutros\" music recording -site:jeanpierreboutros.com -site:studiojpb.com",
+        "\"Jean-Pierre Boutros\" \"mastering\" -site:jeanpierreboutros.com -site:studiojpb.com",
+        "\"جان بيار بطرس\" \"تسجيل\" -site:jeanpierreboutros.com",
+        "\"جان بيار بطرس\" \"ماستر\" -site:jeanpierreboutros.com"
+      ]
+    },
+    {
+      "batch": "credits_primary_1",
+      "queries": [
+        "Nancy Ajram Men Nazra official music video Mix Mastering Jean",
+        "Georges Wassouf Noss Omry official music video Jean Pierre",
+        "Carole Samaha Beirut Golden Album Mix Mastering",
+        "Chantal Bitar Mech Rah Khallik Tfell Studio Recording Mix Mastering"
+      ]
+    },
+    {
+      "batch": "credits_primary_2",
+      "queries": [
+        "Macadi Nahhas Nour \"recorded\" \"Boutros\"",
+        "Mike Massy Naseej \"Boutros\" recording",
+        "Ramy Ayach Sway official Jean Pierre Boutros",
+        "Chantal Bitar \"Mech Rah Khallik\" official"
+      ]
+    },
+    {
+      "batch": "credits_primary_3",
+      "queries": [
+        "\"Ramy Ayach\" \"Sway\" \"Mix\" site:youtube.com",
+        "\"Ramy Ayach\" \"Ahlan Bil Jamal\" \"Master\"",
+        "\"Carole Samaha\" \"Beirut\" \"Jean-Pierre\" site:youtube.com",
+        "\"Georges Nehme\" \"Hayda Hali\" \"Mix\""
+      ]
+    },
+    {
+      "batch": "credits_primary_4",
+      "queries": [
+        "\"جورج نعمة\" \"هيدا حالي\" site:youtube.com",
+        "\"كارول سماحة\" \"بيروت\" \"Mix\" site:youtube.com",
+        "\"رامي عياش\" \"اهلا بالجمال\" site:youtube.com",
+        "\"محمد خيري\" \"يا سمرا\" site:youtube.com"
+      ]
+    },
+    {
+      "batch": "credits_primary_5",
+      "queries": [
+        "Carole Samaha Beirut Golden Album official lyric video 2023",
+        "Mohamad Khairy Ya Samra official 2023 mixing",
+        "Leen Al Hayek Nassini official mix master",
+        "Georges Nehme Hayda Hali 2022 official music video"
+      ]
+    },
+    {
+      "batch": "credits_primary_6",
+      "queries": [
+        "Yara Mesh Bmazajak official Jean Pierre Boutros",
+        "Leen Al Hayek Nassini Jean Pierre Boutros",
+        "Mohammed Khairy Ya Samra Jean Pierre Boutros",
+        "Ziad Jamal Yemken Jean Pierre Boutros"
+      ]
+    },
+    {
+      "batch": "credits_primary_7",
+      "queries": [
+        "\"Yara\" \"Mesh Bmazajak\" site:youtube.com",
+        "\"Leen Al Hayek\" \"Nassini\" site:youtube.com",
+        "\"Mohamad Khairy\" \"Ya Samra\" site:youtube.com",
+        "\"Ziad Jamal\" \"Yemken\" site:youtube.com"
+      ]
+    },
+    {
+      "batch": "credits_primary_8",
+      "queries": [
+        "يارا مش بمزاجك فيديو رسمي",
+        "لين الحايك نسيني فيديو رسمي",
+        "محمد خيري يا سمرا 2023 يوتيوب",
+        "زياد جمال يمكن 2025 official"
+      ]
+    },
+    {
+      "batch": "credits_primary_9",
+      "queries": [
+        "Abeer Nehme Ossotna official recording Boutros",
+        "Abeer Nehme Shou Baamel official mastering",
+        "Abeer Nehme El Meelad El Jayi recording",
+        "Nancy Ajram Aam Jadid Ya Eid recording mastering Boutros"
+      ]
+    },
+    {
+      "batch": "credits_primary_10",
+      "queries": [
+        "\"Abeer Nehme\" \"Ossotna\" \"Recording\"",
+        "\"Abeer Nehme\" \"Shou Baamel\" \"Mastering\"",
+        "\"Nancy Ajram\" \"Ya Eid\" \"Mastering\"",
+        "\"Nancy Ajram\" \"Aam Jadid\" \"Mastering\""
+      ]
+    },
+    {
+      "batch": "credits_primary_11",
+      "queries": [
+        "Abeer Nehme Ossotna official lyrics video 2022",
+        "Abeer Nehme Shou Baamel official lyrics video 2022",
+        "Nancy Ajram Ya Eid official music video 2022",
+        "Nancy Ajram Aam Jadid official music video 2024"
+      ]
+    },
+    {
+      "batch": "credits_verification_1",
+      "queries": [
+        "\"Georges Wassouf\" \"Raksa Espani\" \"Boutros\"",
+        "\"Nancy Ajram\" \"عام جديد\" \"بطرس\"",
+        "\"Carlos Azar\" \"Kel Ma\" \"Mastering\"",
+        "\"Tania Saleh\" \"قوم سكر\" \"بطرس\""
+      ]
+    },
+    {
+      "batch": "credits_verification_2",
+      "queries": [
+        "\"Leen Hayek\" \"Nassini\" \"Mix\"",
+        "\"Yara\" \"Mosh Bimazagak\" \"Mix\"",
+        "\"Ziad Jamal\" \"Yemken\" \"Mix\"",
+        "\"Sarina Cross\" \"Ραγισμένα Μάτια\" \"Jean\""
+      ]
+    }
+  ]
+}

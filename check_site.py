@@ -163,7 +163,7 @@ def main():
     tree = ET.parse(ROOT / "sitemap.xml")
     entries = tree.findall("{*}url")
     urls = [entry.findtext("{*}loc") for entry in entries]
-    assert len(urls) == len(set(urls)) == 28, "Expected 28 unique canonical pages"
+    assert len(urls) == len(set(urls)) == 39, "Expected 39 unique canonical pages"
     pages = {}
     for url in urls:
         assert url.startswith(SITE + "/") and url.endswith("/") and "?" not in url
@@ -189,8 +189,8 @@ def main():
             target = local_target(ref, path)
             if target:
                 assert target[0].is_file(), (path, ref, "missing local target")
-    assert len({page.titles[0] for page in pages.values()}) == 28, "Duplicate titles"
-    assert len({page.meta["description"] for page in pages.values()}) == 28, "Duplicate descriptions"
+    assert len({page.titles[0] for page in pages.values()}) == 39, "Duplicate titles"
+    assert len({page.meta["description"] for page in pages.values()}) == 39, "Duplicate descriptions"
     incoming = Counter()
     for source, page in pages.items():
         for ref in page.refs:
@@ -202,11 +202,11 @@ def main():
                 incoming[target[0]] += 1
     assert all(incoming[path] for path in pages if path != ROOT / "index.html"), "Orphan page"
     home = pages[ROOT / "index.html"]
-    assert len(home.cards) == len(home.dialogs) == 18
+    assert len(home.cards) == len(home.dialogs) == 28
     assert sum("data-featured" in card for card in home.cards) == 6
-    assert Counter(card["data-category"] for card in home.cards) == {"foh": 10, "monitors": 5, "broadcast": 1, "studio": 2}
+    assert Counter(card["data-category"] for card in home.cards) == {"foh": 16, "monitors": 6, "broadcast": 1, "studio": 3, "technical": 2}
     gallery = json.loads(re.search(r'id="gallery-data">(.*?)</script>', (ROOT / "index.html").read_text(), re.S)[1])
-    assert len(gallery) == 24
+    assert len(gallery) == 34
     assert all(link["href"] == gallery[int(link["data-gallery-index"])]["src"] for link in home.gallery_links)
     assert len(home.downloads) == 3 and len(set(home.downloads)) == 1
     for slug, role in {
@@ -218,6 +218,16 @@ def main():
         "nancy-ajram-olympia": "FOH engineer",
         "ehdeniyat-abeer-nehme": "FOH engineer",
         "ehdeniyat-al-shami": "FOH engineer",
+        "marcel-khalife-amman": "Monitor &amp; recording engineer",
+        "abeer-nehme-baalbeck": "FOH engineer",
+        "beiteddine-marco-polo": "Audio technical supervision",
+        "carole-samaha-golden-album": "Mixing &amp; mastering engineer",
+        "zade-dirani-dbayeh": "FOH engineer",
+        "zade-dirani-amman": "FOH engineer",
+        "marcel-khalife-baalbeck": "FOH engineer",
+        "nancy-ajram-jounieh": "FOH engineer",
+        "mazeej-ndu": "FOH engineer",
+        "beirut-the-sea-lover": "3D sound mixing",
     }.items():
         assert role in (ROOT / "projects" / slug / "index.html").read_text(), (slug, role)
     robots = RobotFileParser()
@@ -230,7 +240,7 @@ def main():
     if args.vocabulary:
         checked = vocabulary_check([p.json[0] for p in pages.values()], args.vocabulary)
         print(f"PASS: {checked} Schema.org property/domain/range checks against official vocabulary")
-    print("PASS: 28 pages; unique metadata/H1s; canonical URLs; local assets, fragments and ARIA references; no orphan pages; preserved project/gallery counts and specific roles; search access and GPTBot exclusion.")
+    print("PASS: 39 pages; unique metadata/H1s; canonical URLs; local assets, fragments and ARIA references; no orphan pages; preserved project/gallery counts and specific roles; search access and GPTBot exclusion.")
 
 
 if __name__ == "__main__":

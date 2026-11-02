@@ -89,7 +89,7 @@
     projectFilters.querySelectorAll('button').forEach(function (button) {
       button.setAttribute('aria-pressed', String(button.dataset.projectFilter === category));
     });
-    var label = { featured: 'Featured', all: 'All work', foh: 'FOH', monitors: 'Monitors', broadcast: 'Broadcast', studio: 'Studio' }[category];
+    var label = { featured: 'Featured', all: 'All work', foh: 'FOH', monitors: 'Monitors', broadcast: 'Broadcast', studio: 'Studio', technical: 'Technical' }[category];
     projectCount.textContent = shown + ' project' + (shown === 1 ? '' : 's') + ' · ' + label;
     projectMore.hidden = category !== 'featured';
   }
@@ -167,7 +167,7 @@
       var expanded = galleryMore.getAttribute('aria-expanded') === 'true';
       extraPhotos.forEach(function (photo) { photo.hidden = expanded; });
       galleryMore.setAttribute('aria-expanded', String(!expanded));
-      galleryMore.innerHTML = (expanded ? 'View all 24 photographs' : 'Show fewer photographs') + ' <span aria-hidden="true">' + (expanded ? '↗' : '↑') + '</span>';
+      galleryMore.innerHTML = (expanded ? 'View all ' + gallery.length + ' photographs' : 'Show fewer photographs') + ' <span aria-hidden="true">' + (expanded ? '↗' : '↑') + '</span>';
     });
   }
 

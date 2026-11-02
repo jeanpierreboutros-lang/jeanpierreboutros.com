@@ -9,6 +9,7 @@ from pathlib import Path
 
 from search_pages import DESCRIPTION, faq_html, graph, page_head, render_search_pages, site_links
 from services import AVAILABILITY, HOME_FAQ, SERVICES
+from studio_credits import CREDIT_GROUPS, studio_groups_html
 
 OUT = Path(__file__).resolve().parent
 e = html.escape
@@ -22,13 +23,13 @@ profile_size = f"{len(profile_bytes) / 1024:.0f} KB"
 
 # Keep existing collaborations. Only state specific roles supported by the bio.
 artists = [
-    "Nancy Ajram", "Marcel Khalifé", "Georges Wassouf", "Carole Samaha",
+    "Nancy Ajram", "Marcel Khalifé", "Georges Wassouf", "Carole Samaha", "Cyrine Abdel Nour",
     "Abeer Nehme", "Maya Diab", "Adam", "Al Shami", "Melhem Zein",
-    "Ramy Ayyach", "Zade Dirani", "Joseph Attiye", "Georges Nehme",
-    "Salim Assaf", "Mazeej", "Cartoon Orchestra", "Macadi Nahhas",
+    "Ramy Ayyach", "Al Walid Hallani", "Zade Dirani", "Joseph Attiye", "Georges Nehme",
+    "Salim Assaf", "Marwan Chami", "Nader Khoury", "Mazeej", "Cartoon Orchestra", "Macadi Nahhas",
     "Tania Saleh", "Remi Bandali", "Rasha Rizk", "Yara", "Leen Hayek",
     "Salah El Kurdi", "Charbel Rouhana", "Chantal Bitar", "Carlos Azar",
-    "Ziad Bourji", "Sarina Cross", "Ziad Jamal", "Mouhamad Khairy",
+    "Ziad Bourji", "Sarina Cross", "Ziad Jamal", "Mouhamad Khairy", "Mohammed Islam",
     "Manel Mallat", "Faraj Hanna", "Mike Massy", "Ria Ellinidou", "Marina Viotti",
     "Lebanese National Philharmonic Orchestra",
 ]
@@ -43,7 +44,7 @@ gallery = [
     ("nancy-ajram-baligh-hamdi-riyadh-2023.jpg", "Nancy Ajram · Baligh Hamdi Night", "Nancy Ajram performing with orchestral musicians at Baligh Hamdi Night in Riyadh, 9 November 2023", "Nancy Ajram’s monitor engineer · Riyadh, 2023"),
     ("nancy-ajram-warda-night-jeddah-2024.jpg", "Nancy Ajram · Warda Night", "Nancy Ajram on stage with orchestral musicians at Warda Night in Jeddah, 4 July 2024", "Nancy Ajram’s monitor engineer · Jeddah, 2024"),
     ("nancy-ajram-arab-stars-riyadh-2023.jpg", "Nancy Ajram · Night of Arab Stars", "Nancy Ajram singing with dancers and musicians at Night of Arab Stars in Riyadh, 31 December 2023", "Nancy Ajram’s monitor engineer · Riyadh Season, 2023"),
-    ("lebanese-philharmonic-diman-2026.jpg", "Lebanese Philharmonic · Diman", "Lebanese National Philharmonic Orchestra performing beneath an illuminated cross at the Patriarchal Summer Residence in Diman, conducted by Harout Fazlian", "FOH engineer · Diman, 26 July 2026"),
+    ("lebanese-philharmonic-diman-2026.jpg", "Lebanese Philharmonic · Diman", "Lebanese National Philharmonic Orchestra performing beneath an illuminated cross at the Patriarchal Summer Residence in Diman", "FOH engineer · Diman, 26 July 2026"),
     ("nancy-ajram-olympia-paris-2022.jpg", "Nancy Ajram · L’Olympia", "Nancy Ajram singing in a red gown with her band at L’Olympia in Paris, 10 June 2022", "FOH engineer · Paris, 2022"),
     ("marcel-khalife-muscat-2019.jpg", "Marcel Khalifé · Muscat", "Marcel Khalifé singing and playing the oud during his September 2019 concerts at the Royal Opera House of Musical Arts in Muscat", "FOH engineer · Muscat, Oman, 2019"),
     ("nancy-ajram-expo-dubai-2021.jpg", "Nancy Ajram · Expo 2020 Dubai", "Nancy Ajram singing with her band beneath the Al Wasl Plaza dome during Infinite Nights at Expo 2020 Dubai, 12 November 2021", "Nancy Ajram’s monitor engineer · Dubai, 2021"),
@@ -59,6 +60,16 @@ gallery = [
     ("foh-orchestra-ornate-backdrop.jpg", "An orchestral perspective", "Mixing console overlooking orchestral musicians on stage", "Live sound"),
     ("midas-heritage-console.jpg", "Behind the mix", "Midas Heritage mixing console and production screens", "Live production"),
     ("foh-concert-hall-aerial.jpg", "From the back of the room", "Concert hall and stage viewed from above the front-of-house position", "Live sound"),
+    ("marcel-khalife-amman-citadel-2016.jpg", "Marcel Khalifé · Amman Citadel", "Marcel Khalifé singing and playing the oud at centre stage under white beams and green lighting at Amman Citadel in 2016", "Monitor & recording engineer · Amman, Jordan, 2016"),
+    ("abeer-nehme-baalbeck-2016.jpg", "Abeer Nehme · Baalbeck", "Abeer Nehme singing in a purple dress against the illuminated stone architecture of the Temple of Bacchus in Baalbeck", "FOH engineer · Baalbeck, Lebanon, 2016"),
+    ("beiteddine-marco-polo-2013.jpg", "On the Steps of Marco Polo · Beiteddine", "Beiteddine Art Festival 2013 production artwork for On the Steps of Marco Polo, featuring Rafic Ali Ahmad, Abeer Nehme and Charbel Rouhana", "Audio technical supervision · Beiteddine, Lebanon, 2013"),
+    ("carole-samaha-golden-album-2023.jpg", "Carole Samaha · Golden Album", "Official cover artwork for Carole Samaha’s Golden Album, released in 2023", "Mixing & mastering · Album, 2023"),
+    ("zade-dirani-dbayeh-2018.jpg", "Zade Dirani · Dbayeh", "Event artwork for Zade Dirani at Palais des Congrès, Dbayeh, on 11 October 2018", "FOH mixing · Dbayeh, Lebanon, 2018"),
+    ("zade-dirani-amman-2019.jpg", "Zade Dirani · The Hope Concert", "Zade Dirani at the piano in his official video of the 22 February 2019 fundraising concert in Amman", "FOH mixing · Amman, Jordan, 2019"),
+    ("marcel-khalife-baalbeck-2019.jpg", "Marcel Khalifé · Baalbeck", "Marcel Khalifé singing and playing the oud with an orchestra and choir against the illuminated stone architecture of Baalbeck, from the festival archive", "FOH mixing · Baalbeck, Lebanon, 2019"),
+    ("nancy-ajram-jounieh-2022.jpg", "Nancy Ajram · Bnoss Jounieh", "Nancy Ajram singing in a green dress in front of the crowd in her official Bnoss Jounieh 2022 concert video", "FOH mixing · Jounieh, Lebanon, 2022"),
+    ("mazeej-ndu-2019.jpg", "Mazeej by Lucas Sakr · NDU", "Original Mazeej on Stage event artwork showing a grand piano in the NDU theatre and the date 11 March 2019", "FOH engineer · Zouk Mosbeh, Lebanon, 2019"),
+    ("beirut-the-sea-lover-2019.jpg", "Beirut the Sea Lover", "A sunset, sailing ships and the Beirut cityscape projected onto the Roman Baths staircase during Beirut the Sea Lover, from the Beirut Spring Festival archive", "3D sound mixing · Beirut, Lebanon, 2019"),
 ]
 tv = [
     ("MTV Lebanon", "Hek Menghanni", "Music television"),
@@ -88,8 +99,78 @@ abeer_ehdeniyat_coverage_url = "https://today.lorientlejour.com/article/1471284/
 shami_ehdeniyat_coverage_url = "https://www.cairo24.com/2256107"
 adam_ehdeniyat_coverage_url = "https://aghaniaghani.com/news/regional-celebrities/آدم-يُشعل-مسرح-إهدنيات-الدولي-بلحظات-إ/"
 adam_ehdeniyat_gallery_url = "https://www.beiruting.com/events/43820/adam-at-ehdeniyat-festival"
+amman_programme_url = "https://jordantimes.com/news/local/jordan-host-international-artists-bands-summer-remember%E2%80%99"
+amman_photo_url = "https://www.alibarqawistudios.com/music-festivals"
+baalbeck_programme_url = "https://www.baalbeck.org.lb/programs/abeer-nehme/"
+baalbeck_photo_url = "https://www.baalbeck.org.lb/highlights/?program=highlights#798"
+baalbeck_date_url = "https://www.ticketingboxoffice.com/media/Events-Media/9012/en"
+beiteddine_programme_url = "https://www.ticketingboxoffice.com/media/Events-Media/6577/en"
+golden_album_url = "https://music.apple.com/us/album/golden-album/1675126762"
+zade_dbayeh_programme_url = "https://www.ticketingboxoffice.com/media/Events-Media/11365/en"
+zade_amman_programme_url = "https://www.khcc.jo/en/news/under-the-patronage-of-hrh-princess-ghida-talal-khcf-to-hold-charity-concert-with-renowned-pianist-and-composer-zade-dirani"
+zade_amman_video_url = "https://www.youtube.com/watch?v=pkbnvbAltXk"
+marcel_baalbeck_programme_url = "https://www.baalbeck.org.lb/programs/marcel-khalife/"
+marcel_baalbeck_photo_url = "https://www.baalbeck.org.lb/highlights/?program=highlights#2615"
+nancy_jounieh_programme_url = "https://www.ticketingboxoffice.com/media/we-are-lebanon-18-aug-22-thurs/19612/en"
+nancy_jounieh_video_url = "https://www.youtube.com/watch?v=blbqRLqgoEU"
+mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-mar19-mon/11892/en"
+beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
 gallery_sources = {
+    "beirut-the-sea-lover-2019.jpg": {
+        "name": "Beirut Spring Festival",
+        "url": beirut_sea_lover_programme_url,
+        "image_url": "https://irp.cdn-website.com/3428af66/dms3rep/multi/opt/Beirut%2Bthe%2BSea%2BLover%2B2019-%2BBSF2019-%2BPhotos%2BA-1920w.jpg",
+    },
+    "mazeej-ndu-2019.jpg": {
+        "name": "Mazeej / NDU / Ticketing Box Office",
+        "url": mazeej_ndu_programme_url,
+        "image_url": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-11892-636839265094787064.jpg",
+        "label": "Artwork",
+    },
+    "marcel-khalife-baalbeck-2019.jpg": {
+        "name": "Baalbeck International Festival",
+        "url": marcel_baalbeck_photo_url,
+        "image_url": "https://www.baalbeck.org.lb/wp-content/uploads/2016/05/marcel-khalife.jpg",
+    },
+    "nancy-ajram-jounieh-2022.jpg": {
+        "name": "Nancy Ajram · Official concert video",
+        "url": nancy_jounieh_video_url,
+        "image_url": "https://i.ytimg.com/vi/blbqRLqgoEU/maxresdefault.jpg",
+        "label": "Video image",
+    },
+    "zade-dirani-dbayeh-2018.jpg": {
+        "name": "Taawon Lebanon / Ticketing Box Office",
+        "url": zade_dbayeh_programme_url,
+        "image_url": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-11365-636718247930309696.jpg",
+        "label": "Artwork",
+    },
+    "zade-dirani-amman-2019.jpg": {
+        "name": "Zade Dirani · Official concert video",
+        "url": zade_amman_video_url,
+        "image_url": "https://i.ytimg.com/vi/pkbnvbAltXk/maxresdefault.jpg",
+        "label": "Video image",
+    },
+    "marcel-khalife-amman-citadel-2016.jpg": {
+        "name": "Ali Barqawi Studios",
+        "url": amman_photo_url,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/52a47d3de4b06e67e555171a/1604348542791-XRIIAD43439NZXZLL331/Ali-Barqawi-Studios-Art-Series-Music-Event-Amman-Citadel-Festival-Marcel-Khalifeh-Jordan-2016-053.jpg",
+    },
+    "abeer-nehme-baalbeck-2016.jpg": {
+        "name": "Baalbeck International Festival",
+        "url": baalbeck_photo_url,
+        "image_url": "https://www.baalbeck.org.lb/wp-content/uploads/2016/05/abeernehme2016-1.jpg",
+    },
+    "beiteddine-marco-polo-2013.jpg": {
+        "name": "Beiteddine Art Festival / Ticketing Box Office",
+        "url": beiteddine_programme_url,
+        "image_url": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/B-6577-635035519961590527.JPG",
+    },
+    "carole-samaha-golden-album-2023.jpg": {
+        "name": "Carole Samaha / Apple Music",
+        "url": golden_album_url,
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/61/42/c0/6142c0a7-45d9-3fcd-49e0-c1f3cabb1671/cover.jpg/600x600bf-60.jpg",
+    },
     "abeer-nehme-ehdeniyat-2025.jpg": {
         "name": "Ehdeniyat Festival / L’Orient-Le Jour",
         "url": abeer_ehdeniyat_coverage_url,
@@ -174,14 +255,22 @@ artist_projects = {
     "Adam": ("ehdeniyat-adam", "Monitor engineer · Ehdeniyat, 2025"),
     "Lebanese National Philharmonic Orchestra": ("lebanese-philharmonic-diman", "FOH engineer · Diman, 2026"),
     "Nancy Ajram": ("nancy-ajram-olympia", "FOH & monitor engineer · 2021–24"),
-    "Abeer Nehme": ("ehdeniyat-abeer-nehme", "FOH engineer · Qatar & Ehden, 2025–26"),
-    "Marcel Khalifé": ("marcel-khalife-muscat", "FOH engineer · Istanbul & Muscat"),
+    "Abeer Nehme": ("abeer-nehme-baalbeck", "FOH engineer · Baalbeck, Qatar & Ehden"),
+    "Marcel Khalifé": ("marcel-khalife-baalbeck", "FOH, monitors & recording · Istanbul, Muscat, Baalbeck & Amman"),
+    "Charbel Rouhana": ("beiteddine-marco-polo", "Audio technical supervision · Beiteddine, 2013"),
+    "Carole Samaha": ("carole-samaha-golden-album", "Mixing & mastering · Golden Album, 2023"),
+    "Zade Dirani": ("zade-dirani-dbayeh", "FOH mixing · Dbayeh, 2018 & Amman, 2019"),
+    "Mazeej": ("mazeej-ndu", "FOH engineer · NDU, 2019"),
     "Marina Viotti": ("marina-viotti", "FOH engineer · Lebanon, 2026"),
     "Cartoon Orchestra": ("cartoon-orchestra", "FOH engineer · Kuwait, 2025"),
 }
+studio_artists = {artist: group for group in CREDIT_GROUPS for artist in group["artists"]}
 artist_html = "\n".join(
     f'<li><a href="#{artist_projects[name][0]}">{e(name)}<span class="credit-role">{e(artist_projects[name][1])}</span></a></li>'
-    if name in artist_projects else f'<li>{e(name)}</li>' for name in artists)
+    if name in artist_projects else
+    f'<li><a href="/studio-credits/#{studio_artists[name]["id"]}">{e(name)}<span class="credit-role">{e(studio_artists[name]["works"][0]["role"])}</span></a></li>'
+    if name in studio_artists else
+    f'<li>{e(name)}</li>' for name in artists)
 tv_html = "\n".join(f'''<li class="broadcast-row">
   <span class="tv-channel">{e(channel)}</span>
   <h4>{e(title)}</h4><span class="broadcast-format">{e(kind)}</span>
@@ -201,7 +290,7 @@ for index, (filename, title, alt, context) in enumerate(gallery):
     credit_html = (f'<a class="image-credit" href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">Image: {e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a>' if source else "")
     gallery_data.append({"src": full["src"], "alt": alt, "caption": f"{title} · {context}{credit_text}",
                          "width": full["width"], "height": full["height"]})
-    poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg") else ""
+    poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg", "beiteddine-marco-polo-2013.jpg", "carole-samaha-golden-album-2023.jpg", "zade-dirani-dbayeh-2018.jpg", "mazeej-ndu-2019.jpg") else ""
     featured_attribute = ' data-gallery-featured' if index in (15, 16, 18, 19, 21, 23) else ''
     gallery_items.append(f'''<figure class="gallery-card{poster_class}"{featured_attribute}>
   <a class="gallery-item" href="{e(full["src"])}" data-gallery-index="{index}"
@@ -232,7 +321,6 @@ PROJECT_DETAILS = f'''
             <p>Front-of-house engineering for the 2026 return of this live musical production at the National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre, Kuwait.</p>
             <p>A journey through the music and television memories of the 1980s, presented as part of the centre’s tenth-anniversary celebrations.</p>
             <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>National Theatre · JACC</dd></div><div><dt>Location &amp; date</dt><dd>Kuwait · October 2026</dd></div></dl>
-            <p class="production-credit">Direction · Jassim Al-Qames<br />Musical direction · Dr Khaled Noori</p>
             <a class="text-link" href="https://tickets.jacc-kw.com/event/info/the-eighties--the-knockout/599" target="_blank" rel="noopener noreferrer">Explore the production <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
             <p class="source-note">Production details · Official JACC listing</p>
           </div>
@@ -248,7 +336,7 @@ PROJECT_DETAILS = f'''
               <p class="project-index">02 <span>Front-of-house engineering · Opera</span></p>
               <h3 id="marina-title">Marina Viotti.<br /><em>Opera under the stars.</em></h3>
               <p>FOH engineering for the inaugural gala of the Beirut International Opera Festival &amp; Competition, headlined by mezzo-soprano Marina Viotti at Zouk Mikael’s Roman Amphitheatre.</p>
-              <p>The open-air programme brought together Les Solistes de Beyrouth and a symphony orchestra under conductor Fernando Afara.</p>
+              <p>The open-air programme combined choral and symphonic performances.</p>
               <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Roman Amphitheatre, Zouk Mikael</dd></div><div><dt>Date</dt><dd>8 September 2026 · Lebanon</dd></div></dl>
               <a class="text-link" href="https://beirutoperafestival.com/the-festival/first-edition-2026/" target="_blank" rel="noopener noreferrer">Explore the inaugural gala <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
               <p class="source-note">Programme details · Beirut International Opera Festival &amp; Competition</p>
@@ -265,7 +353,7 @@ PROJECT_DETAILS = f'''
               <h3 id="cartoon-title">Cartoon Orchestra.<br /><em>Memories, live.</em></h3>
               <p class="project-title-ar" lang="ar" dir="rtl">أوركسترا الكرتون</p>
               <p>FOH engineering for Cartoon Orchestra at the National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre, Kuwait.</p>
-              <p>Led by Dr Khaled Noori, the production revisited the themes and scores of Arabic and international animated series, combining live orchestral music with visual storytelling.</p>
+              <p>The production revisited the themes and scores of Arabic and international animated series, combining live orchestral music with visual storytelling.</p>
               <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>National Theatre · JACC</dd></div><div><dt>Date</dt><dd>4 October 2025 · Kuwait</dd></div></dl>
               <a class="text-link" href="https://jacc-kw.com/survey/calen/JACC_Season_Calendar_25-26.pdf#page=7" target="_blank" rel="noopener noreferrer">View the official programme <span aria-hidden="true">↗</span><span class="sr-only"> (PDF opens in a new tab)</span></a>
               <p class="source-note">Production details · JACC 2025–26 season calendar</p>
@@ -280,9 +368,9 @@ PROJECT_DETAILS = f'''
             <div class="project-copy">
               <p class="project-index">04 <span>Front-of-house engineering · Symphony</span></p>
               <h3 id="al-sharq-title">Al Sharq<br /><em>Symphony.</em></h3>
-              <p>FOH engineering for Marcel Khalifé and the Istanbul Philharmonic Orchestra, conducted by Lubnan Baalbaki.</p>
+              <p>FOH engineering for Marcel Khalifé and the Istanbul Philharmonic Orchestra.</p>
               <p>The concert was presented as part of the Al Sharq Youth Annual Conference in Istanbul in 2017.</p>
-              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Conductor</dt><dd>Lubnan Baalbaki</dd></div><div><dt>Location &amp; year</dt><dd>Istanbul, Turkey · 2017</dd></div></dl>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Location &amp; year</dt><dd>Istanbul, Turkey · 2017</dd></div></dl>
               <a class="text-link" href="https://www.youtube.com/watch?v=hAZbbyPg7GE" target="_blank" rel="noopener noreferrer">Watch the concert <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
               <p class="source-note">Image &amp; official concert coverage: <a href="https://youth.sharqforum.org/asy-gallery/al-sharq-symphony-marcel-khalife-and-istanbul-philharmonic-orchestra-conducted-by-lubnan-baalbaki/" target="_blank" rel="noopener noreferrer">Al Sharq Youth<span class="sr-only"> (opens in a new tab)</span></a></p>
             </div>
@@ -331,7 +419,7 @@ PROJECT_DETAILS = f'''
               <h3 id="warda-title">Nancy Ajram.<br /><em>Warda Night.</em></h3>
               <p class="project-title-ar" lang="ar" dir="rtl">ليلة وردة</p>
               <p>Monitor engineering for Nancy Ajram’s performance at Warda Night, the inaugural concert at Abadi Al Johar Arena in Jeddah.</p>
-              <p>The Jeddah Season 2024 tribute honoured Warda Al-Jazairia, with an orchestra conducted by Walid Fayed and performances by four Arab vocalists.</p>
+              <p>The Jeddah Season 2024 tribute celebrated Warda’s repertoire with live orchestral performances.</p>
               <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Abadi Al Johar Arena · Jeddah, Saudi Arabia</dd></div><div><dt>Date</dt><dd>4 July 2024</dd></div></dl>
               <a class="text-link" href="https://enjoy.sa/en/events/warda-night/" target="_blank" rel="noopener noreferrer">View the official event listing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
               <p class="source-note">Concert photo: <a href="{e(warda_coverage_url)}" target="_blank" rel="noopener noreferrer">Asharq Al-Awsat<span class="sr-only"> (opens in a new tab)</span></a></p>
@@ -347,7 +435,7 @@ PROJECT_DETAILS = f'''
               <h3 id="arab-stars-title">Nancy Ajram.<br /><em>Night of Arab Stars.</em></h3>
               <p class="project-title-ar" lang="ar" dir="rtl">ليلة نجمات العرب</p>
               <p>Monitor engineering for Nancy Ajram’s performance at Night of Arab Stars, the Riyadh Season concert welcoming 2024 at Mohammed Abdu Arena.</p>
-              <p>Presented by Rotana, the New Year’s Eve programme brought together six Arab vocalists for solo performances and duets, with musical direction by Hany Farhat.</p>
+              <p>The New Year’s Eve programme brought together six Arab vocalists for solo performances and duets.</p>
               <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer for Nancy Ajram</dd></div><div><dt>Venue</dt><dd>Mohammed Abdu Arena · Riyadh, Saudi Arabia</dd></div><div><dt>Date</dt><dd>31 December 2023</dd></div></dl>
               <a class="text-link" href="{e(arab_stars_coverage_url)}" target="_blank" rel="noopener noreferrer">Explore the concert <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
               <p class="source-note">Concert photo: <a href="{e(arab_stars_photo_url)}" target="_blank" rel="noopener noreferrer">Rotana Live, via Al Jamila<span class="sr-only"> (opens in a new tab)</span></a></p>
@@ -355,16 +443,16 @@ PROJECT_DETAILS = f'''
           </article>
           <article class="project-event" id="lebanese-philharmonic-diman" aria-labelledby="diman-title" data-reveal>
             <a class="event-media event-media--concert" href="{e(gallery_data[8]['src'])}" data-gallery-index="8" aria-label="Enlarge the Lebanese National Philharmonic Orchestra performing in Diman" aria-haspopup="dialog" aria-controls="lightbox">
-              {image("lebanese-philharmonic-diman-2026.jpg", "Lebanese National Philharmonic Orchestra conducted by Harout Fazlian at the Patriarchal Summer Residence, Diman, 26 July 2026", sizes="(max-width: 760px) 100vw, 50vw")}
+              {image("lebanese-philharmonic-diman-2026.jpg", "Lebanese National Philharmonic Orchestra at the Patriarchal Summer Residence, Diman, 26 July 2026", sizes="(max-width: 760px) 100vw, 50vw")}
               <span class="gallery-expand" aria-hidden="true">↗</span>
             </a>
             <div class="project-copy">
               <p class="project-index">09 <span>Front-of-house engineering · Orchestra</span></p>
               <h3 id="diman-title">Lebanese Philharmonic.<br /><em>An evening in Diman.</em></h3>
               <p class="project-title-ar" lang="ar" dir="rtl">العهد الأبدي</p>
-              <p>FOH engineering for the Lebanese National Philharmonic Orchestra, conducted by Harout Fazlian, at the Patriarchal Summer Residence in Diman, North Lebanon.</p>
+              <p>FOH engineering for the Lebanese National Philharmonic Orchestra at the Patriarchal Summer Residence in Diman, North Lebanon.</p>
               <p>The open-air concert, titled “Eternal Covenant”, formed part of the celebrations for the beatification of Patriarch Elias Hoayek.</p>
-              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Conductor</dt><dd>Harout Fazlian</dd></div><div><dt>Location &amp; date</dt><dd>Diman, North Lebanon · 26 July 2026</dd></div></dl>
+              <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Location &amp; date</dt><dd>Diman, North Lebanon · 26 July 2026</dd></div></dl>
               <a class="text-link" href="{e(diman_coverage_url)}" target="_blank" rel="noopener noreferrer">Read the concert coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
               <p class="source-note">Concert details · Maronite Patriarchate</p>
             </div>
@@ -501,6 +589,182 @@ PROJECT_DETAILS = f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <!-- Engineering roles confirmed by Jean-Pierre; event dates and context from linked sources. -->
+        <article class="project-event" id="marcel-khalife-amman" aria-labelledby="amman-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[24]['src'])}" data-gallery-index="24" aria-label="Enlarge Marcel Khalifé performing in Amman in 2016" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("marcel-khalife-amman-citadel-2016.jpg", "Marcel Khalifé performing at Amman Citadel in 2016 — photo by Ali Barqawi", sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">19 <span>Monitor engineering &amp; recording · Marcel Khalifé</span></p>
+            <h3 id="amman-title">Marcel Khalifé.<br /><em>Amman Citadel.</em></h3>
+            <p>Monitor engineering and recording for Marcel Khalifé’s concert at Amman Citadel in Jordan on 13 September 2016.</p>
+            <p>The performance formed part of Jordan Festival 2016, organised by Friends of Jordan Festivals at the historic citadel in the heart of Amman.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor &amp; recording engineer</dd></div><div><dt>Venue</dt><dd>Amman Citadel · Amman, Jordan</dd></div><div><dt>Date</dt><dd>13 September 2016</dd></div></dl>
+            <a class="text-link" href="{e(amman_programme_url)}" target="_blank" rel="noopener noreferrer">Read the festival announcement <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Concert photo: <a href="{e(amman_photo_url)}" target="_blank" rel="noopener noreferrer">Ali Barqawi Studios<span class="sr-only"> (opens in a new tab)</span></a> · Event programme: The Jordan Times</p>
+          </div>
+        </article>
+        <article class="project-event" id="abeer-nehme-baalbeck" aria-labelledby="baalbeck-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[25]['src'])}" data-gallery-index="25" aria-label="Enlarge Abeer Nehme performing at the Temple of Bacchus in Baalbeck" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("abeer-nehme-baalbeck-2016.jpg", "Abeer Nehme performing at the Temple of Bacchus — photo from Baalbeck International Festival’s 2016 archive", sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">20 <span>Front-of-house engineering · Abeer Nehme</span></p>
+            <h3 id="baalbeck-title">Abeer Nehme.<br /><em>Baalbeck International Festival.</em></h3>
+            <p>FOH engineering for Abeer Nehme’s “Al Mutanabbi… Mousafiran Abadan” at the Temple of Bacchus, Baalbeck, Lebanon, on 19 August 2016.</p>
+            <p>The programme followed the journeys of poet Al Mutanabbi through songs and musical traditions from the Arab world, the Mediterranean and beyond, alongside vocal extracts from his poetry.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Temple of Bacchus · Baalbeck, Lebanon</dd></div><div><dt>Date</dt><dd>19 August 2016</dd></div></dl>
+            <a class="text-link" href="{e(baalbeck_programme_url)}" target="_blank" rel="noopener noreferrer">Explore the official programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Photo: <a href="{e(baalbeck_photo_url)}" target="_blank" rel="noopener noreferrer">Baalbeck International Festival<span class="sr-only"> (opens in a new tab)</span></a> · <a href="{e(baalbeck_date_url)}" target="_blank" rel="noopener noreferrer">Dated event listing<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="beiteddine-marco-polo" aria-labelledby="marco-polo-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[26]['src'])}" data-gallery-index="26" aria-label="Enlarge the On the Steps of Marco Polo production artwork" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("beiteddine-marco-polo-2013.jpg", gallery[26][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">21 <span>Audio technical supervision · Beiteddine Art Festival</span></p>
+            <h3 id="marco-polo-title">On the Steps of Marco Polo.<br /><em>Beiteddine Art Festival.</em></h3>
+            <p>Audio technical supervision for “On the Steps of Marco Polo: A Musical Journey on the Silk Road,” opening Beiteddine Art Festival on 21–22 June 2013.</p>
+            <p>The production featured Abeer Nehme and Charbel Rouhana at Beiteddine Palace.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Audio technical supervision</dd></div><div><dt>Venue</dt><dd>Beiteddine Palace · Chouf, Lebanon</dd></div><div><dt>Dates</dt><dd>21–22 June 2013</dd></div></dl>
+            <a class="text-link" href="{e(beiteddine_programme_url)}" target="_blank" rel="noopener noreferrer">Read the production programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Production artwork &amp; programme: Beiteddine Art Festival / Ticketing Box Office</p>
+          </div>
+        </article>
+        <article class="project-event" id="carole-samaha-golden-album" aria-labelledby="golden-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[27]['src'])}" data-gallery-index="27" aria-label="Enlarge Carole Samaha’s Golden Album cover" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("carole-samaha-golden-album-2023.jpg", gallery[27][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">22 <span>Mixing &amp; mastering · Carole Samaha</span></p>
+            <h3 id="golden-title">Carole Samaha.<br /><em>Golden Album.</em></h3>
+            <p>Mixing and mastering for Carole Samaha’s Golden Album, released on 3 March 2023.</p>
+            <p>The 12-song album pairs her voice with orchestral arrangements. Her official “The Journey” documentary follows the album’s recording and production.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Mixing &amp; mastering engineer</dd></div><div><dt>Release</dt><dd>Golden Album · Carole Samaha</dd></div><div><dt>Date</dt><dd>3 March 2023</dd></div></dl>
+            <a class="text-link" href="{e(golden_album_url)}" target="_blank" rel="noopener noreferrer">Listen to Golden Album <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Album artwork &amp; release details: Carole Samaha / Apple Music · <a href="https://www.youtube.com/watch?v=og3sM9uYQGI" target="_blank" rel="noopener noreferrer">The Journey — official documentary<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="zade-dirani-dbayeh" aria-labelledby="zade-dbayeh-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[28]['src'])}" data-gallery-index="28" aria-label="Enlarge the Zade Dirani Dbayeh concert artwork" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("zade-dirani-dbayeh-2018.jpg", gallery[28][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">23 <span>Front-of-house mixing · Zade Dirani</span></p>
+            <h3 id="zade-dbayeh-title">Zade Dirani.<br /><em>Palais des Congrès.</em></h3>
+            <p>Front-of-house mixing for Zade Dirani’s concert at Palais des Congrès in Dbayeh, Lebanon, on 11 October 2018.</p>
+            <p>The concert supported Taawon Lebanon’s education programme to help prevent school dropout.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Palais des Congrès · Dbayeh, Lebanon</dd></div><div><dt>Date</dt><dd>11 October 2018</dd></div></dl>
+            <a class="text-link" href="{e(zade_dbayeh_programme_url)}" target="_blank" rel="noopener noreferrer">Read the concert programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Event artwork &amp; programme: Taawon Lebanon / Ticketing Box Office</p>
+            <p>Also see <a href="/projects/zade-dirani-amman/">Zade Dirani — The Hope Concert, Amman, 2019</a>.</p>
+          </div>
+        </article>
+        <article class="project-event" id="zade-dirani-amman" aria-labelledby="zade-amman-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[29]['src'])}" data-gallery-index="29" aria-label="Enlarge Zade Dirani in The Hope Concert video" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("zade-dirani-amman-2019.jpg", gallery[29][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">24 <span>Front-of-house mixing · Zade Dirani</span></p>
+            <h3 id="zade-amman-title">Zade Dirani.<br /><em>The Hope Concert.</em></h3>
+            <p>Front-of-house mixing for Zade Dirani’s “The Hope Concert” at the Royal Cultural Palace in Amman, Jordan, on 22 February 2019.</p>
+            <p>The King Hussein Cancer Foundation presented the concert to support underprivileged patients receiving treatment at the King Hussein Cancer Center.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Royal Cultural Palace · Al Hussein Youth City, Amman, Jordan</dd></div><div><dt>Date</dt><dd>22 February 2019</dd></div></dl>
+            <a class="text-link" href="{e(zade_amman_video_url)}" target="_blank" rel="noopener noreferrer">Watch the official concert highlights <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Video image: Zade Dirani’s official concert video · <a href="{e(zade_amman_programme_url)}" target="_blank" rel="noopener noreferrer">King Hussein Cancer Foundation announcement<span class="sr-only"> (opens in a new tab)</span></a></p>
+            <p>Also see <a href="/projects/zade-dirani-dbayeh/">Zade Dirani — Palais des Congrès, Dbayeh, 2018</a>.</p>
+          </div>
+        </article>
+'''
+
+
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="marcel-khalife-baalbeck" aria-labelledby="marcel-baalbeck-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[30]['src'])}" data-gallery-index="30" aria-label="Enlarge Marcel Khalifé in the Baalbeck festival archive" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("marcel-khalife-baalbeck-2019.jpg", gallery[30][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">25 <span>Front-of-house mixing · Marcel Khalifé</span></p>
+            <h3 id="marcel-baalbeck-title">Marcel Khalifé.<br /><em>Ode to a Homeland.</em></h3>
+            <p>Front-of-house mixing for Marcel Khalifé’s “Ode to a Homeland,” opening Baalbeck International Festival on 5 July 2019.</p>
+            <p>The concert took place on the steps of the Temple of Bacchus in Baalbeck, Lebanon.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Steps of the Temple of Bacchus · Baalbeck, Lebanon</dd></div><div><dt>Date</dt><dd>5 July 2019</dd></div></dl>
+            <a class="text-link" href="{e(marcel_baalbeck_programme_url)}" target="_blank" rel="noopener noreferrer">Explore the official programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Programme &amp; archive image: <a href="{e(marcel_baalbeck_photo_url)}" target="_blank" rel="noopener noreferrer">Baalbeck International Festival<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-jounieh" aria-labelledby="nancy-jounieh-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[31]['src'])}" data-gallery-index="31" aria-label="Enlarge Nancy Ajram in the Bnoss Jounieh concert video" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("nancy-ajram-jounieh-2022.jpg", gallery[31][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">26 <span>Front-of-house mixing · Nancy Ajram</span></p>
+            <h3 id="nancy-jounieh-title">Nancy Ajram.<br /><em>Bnoss Jounieh.</em></h3>
+            <p>Front-of-house mixing for Nancy Ajram’s Bnoss Jounieh concert at Fouad Chehab Stadium in Jounieh, Lebanon, on 18 August 2022.</p>
+            <p>The “We Are Lebanon” event brought her live performance to the stadium’s outdoor stage. Her official channel features the full concert.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Fouad Chehab Stadium · Jounieh, Lebanon</dd></div><div><dt>Date</dt><dd>18 August 2022</dd></div></dl>
+            <a class="text-link" href="{e(nancy_jounieh_video_url)}" target="_blank" rel="noopener noreferrer">Watch the official full concert <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Video image: Nancy Ajram’s official concert upload · <a href="{e(nancy_jounieh_programme_url)}" target="_blank" rel="noopener noreferrer">Dated event listing<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="mazeej-ndu" aria-labelledby="mazeej-ndu-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[32]['src'])}" data-gallery-index="32" aria-label="Enlarge the Mazeej on Stage NDU event artwork" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("mazeej-ndu-2019.jpg", gallery[32][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">27 <span>Front-of-house engineering · Mazeej</span></p>
+            <h3 id="mazeej-ndu-title">Mazeej by Lucas Sakr.<br /><em>On Stage at NDU.</em></h3>
+            <p>FOH engineering for “Mazeej on Stage” by Lucas Sakr at Notre Dame University–Louaize in Zouk Mosbeh, Lebanon, on 11 March 2019.</p>
+            <p>The concert took place at Bechara El Rahi Theater, in collaboration with the NDU School of Music.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Bechara El Rahi Theater · NDU, Zouk Mosbeh, Lebanon</dd></div><div><dt>Date</dt><dd>11 March 2019</dd></div></dl>
+            <a class="text-link" href="{e(mazeej_ndu_programme_url)}" target="_blank" rel="noopener noreferrer">Read the concert programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Event artwork &amp; programme: Mazeej / NDU / Ticketing Box Office</p>
+          </div>
+        </article>
+'''
+
+
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="beirut-the-sea-lover" aria-labelledby="beirut-sea-lover-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[33]['src'])}" data-gallery-index="33" aria-label="Enlarge the Beirut the Sea Lover projection at the Roman Baths" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("beirut-the-sea-lover-2019.jpg", gallery[33][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">28 <span>3D sound mixing · Beirut Spring Festival</span></p>
+            <h3 id="beirut-sea-lover-title">Beirut the Sea Lover.<br /><em>Roman Baths.</em></h3>
+            <p>3D sound mixing for “Beirut the Sea Lover” at the Roman Baths in downtown Beirut, Lebanon, on 14 June 2019, as part of Beirut Spring Festival.</p>
+            <p>The production combined a live concert, storytelling and video mapping to explore Beirut’s history and its relationship with the sea.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>3D sound mixing</dd></div><div><dt>Venue</dt><dd>Roman Baths · Downtown Beirut, Lebanon</dd></div><div><dt>Date</dt><dd>14 June 2019</dd></div></dl>
+            <a class="text-link" href="{e(beirut_sea_lover_programme_url)}" target="_blank" rel="noopener noreferrer">Explore the official production archive <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Production image &amp; programme: <a href="{e(beirut_sea_lover_programme_url)}" target="_blank" rel="noopener noreferrer">Beirut Spring Festival<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -512,7 +776,7 @@ projects = [
     ("baligh-hamdi-night", "Nancy Ajram", "Baligh Hamdi Night", "Riyadh · 2023", "Monitor engineer", "monitors", 5, True),
     ("warda-night", "Nancy Ajram", "Warda Night", "Jeddah · 2024", "Monitor engineer", "monitors", 6, False),
     ("night-of-arab-stars", "Nancy Ajram", "Night of Arab Stars · Riyadh Season", "Riyadh · 2023", "Monitor engineer", "monitors", 7, False),
-    ("lebanese-philharmonic-diman", "Lebanese Philharmonic", "Eternal Covenant · Harout Fazlian", "Diman · 2026", "FOH engineer", "foh", 8, False),
+    ("lebanese-philharmonic-diman", "Lebanese Philharmonic", "Eternal Covenant", "Diman · 2026", "FOH engineer", "foh", 8, False),
     ("nancy-ajram-olympia", "Nancy Ajram", "L’Olympia", "Paris · 2022", "FOH engineer", "foh", 9, True),
     ("marcel-khalife-muscat", "Marcel Khalifé", "Royal Opera House Muscat", "Muscat · 2019", "FOH engineer", "foh", 10, True),
     ("ehdeniyat-abeer-nehme", "Abeer Nehme", "Ehdeniyat International Festival", "Ehden · 2025", "FOH engineer", "foh", 12, False),
@@ -522,6 +786,16 @@ projects = [
     ("papal-broadcast", "Papal Mass", "Live broadcast · Beirut Waterfront", "Beirut · 2025", "Broadcast sound engineer", "broadcast", 20, False),
     ("studio-jpb", "StudioJPB", "Recording, mixing & mastering", "Jounieh · Since 2008", "Founder & sound engineer", "studio", 18, False),
     ("studio-integration", "Studio systems", "Merwas Studios & Playsound Studios", "Riyadh & Lebanon", "Audio system integration", "studio", "studio-mixing-console.jpg", False),
+    ("marcel-khalife-amman", "Marcel Khalifé", "Amman Citadel · Jordan Festival", "Amman · 2016", "Monitor & recording engineer", "monitors", 24, False),
+    ("abeer-nehme-baalbeck", "Abeer Nehme", "Baalbeck International Festival", "Baalbeck · 2016", "FOH engineer", "foh", 25, False),
+    ("beiteddine-marco-polo", "On the Steps of Marco Polo", "Abeer Nehme & Charbel Rouhana · Beiteddine", "Beiteddine · 2013", "Audio technical supervision", "technical", 26, False),
+    ("carole-samaha-golden-album", "Carole Samaha", "Golden Album", "Album · 2023", "Mixing & mastering engineer", "studio", 27, False),
+    ("zade-dirani-dbayeh", "Zade Dirani", "Palais des Congrès", "Dbayeh · 2018", "FOH engineer", "foh", 28, False),
+    ("zade-dirani-amman", "Zade Dirani", "The Hope Concert", "Amman · 2019", "FOH engineer", "foh", 29, False),
+    ("marcel-khalife-baalbeck", "Marcel Khalifé", "Ode to a Homeland · Baalbeck", "Baalbeck · 2019", "FOH engineer", "foh", 30, False),
+    ("nancy-ajram-jounieh", "Nancy Ajram", "Bnoss Jounieh · We Are Lebanon", "Jounieh · 2022", "FOH engineer", "foh", 31, False),
+    ("mazeej-ndu", "Mazeej by Lucas Sakr", "On Stage · NDU", "Zouk Mosbeh · 2019", "FOH engineer", "foh", 32, False),
+    ("beirut-the-sea-lover", "Beirut the Sea Lover", "Roman Baths · Beirut Spring Festival", "Beirut · 2019", "3D sound mixing", "technical", 33, False),
 ]
 project_articles = re.findall(r'<article\b[^>]*>.*?</article>', PROJECT_DETAILS, re.S)
 if len(project_articles) != len(projects):
@@ -547,8 +821,8 @@ for project, article in zip(projects, project_articles):
     filename = gallery[photo][0] if isinstance(photo, int) else photo
     alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
     source = gallery_sources.get(filename)
-    source_html = (f'<p class="portfolio-credit">Photo: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
-    poster_class = ' portfolio-card--poster' if photo in (0, 2) else ''
+    source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
+    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32) else ''
     featured_attr = ' data-featured' if featured else ''
     project_cards[slug] = f'''<article class="portfolio-card{poster_class}" data-project-card="{slug}" data-category="{category}"{featured_attr}>
   <a class="portfolio-link" href="/projects/{slug}/" data-project-open="{slug}">
@@ -565,14 +839,14 @@ featured_order = ["nancy-ajram-olympia", "abeer-nehme-qatar", "marcel-khalife-mu
                   "ehdeniyat-al-shami", "baligh-hamdi-night", "the-eighties"]
 card_order = featured_order + [p[0] for p in projects if p[0] not in featured_order]
 filter_labels = [("featured", "Featured"), ("all", "All work"), ("foh", "FOH"),
-                 ("monitors", "Monitors"), ("broadcast", "Broadcast"), ("studio", "Studio")]
+                 ("monitors", "Monitors"), ("broadcast", "Broadcast"), ("studio", "Studio"), ("technical", "Technical")]
 filter_buttons = ''.join(f'<button type="button" data-project-filter="{key}" aria-pressed="false" aria-controls="portfolio-grid">{label}</button>' for key, label in filter_labels)
 portfolio_html = f'''<div class="portfolio-toolbar">
   <div class="portfolio-filters" role="group" aria-label="Filter projects" hidden>{filter_buttons}</div>
-  <p class="portfolio-count" id="portfolio-count" role="status" aria-live="polite" aria-atomic="true">18 projects</p>
+  <p class="portfolio-count" id="portfolio-count" role="status" aria-live="polite" aria-atomic="true">{len(projects)} projects</p>
 </div>
 <div class="portfolio-grid" id="portfolio-grid">{''.join(project_cards[slug] for slug in card_order)}</div>
-<div class="portfolio-footer"><p>Every room has a different story.</p><button class="text-link portfolio-more" type="button" data-show-all-projects hidden>View all 18 projects <span aria-hidden="true">↗</span></button></div>
+<div class="portfolio-footer"><p>Every room has a different story.</p><button class="text-link portfolio-more" type="button" data-show-all-projects hidden>View all {len(projects)} projects <span aria-hidden="true">↗</span></button></div>
 <div class="project-details-fallback">{''.join(project_dialogs)}</div>'''
 
 INDEX = f'''<!DOCTYPE html>
@@ -641,6 +915,12 @@ INDEX = f'''<!DOCTYPE html>
           <p class="section-intro">Artists, ensembles, and productions I’ve worked with across live and studio settings.</p>
         </div>
         <ul class="credits-list" aria-label="Artists, ensembles and productions" data-reveal-group>{artist_html}</ul>
+        <section class="studio-credits" id="studio-credits" aria-labelledby="studio-credits-title" tabindex="-1">
+          <div class="broadcast-heading"><p class="eyebrow">On record</p><h3 id="studio-credits-title">Recording, mixing &amp; mastering</h3></div>
+          <p class="section-intro">Songs and albums. My recording, mixing and mastering credits, by artist.</p>
+          {studio_groups_html(compact=True)}
+          <a class="text-link" href="/studio-credits/">Browse all studio credits <span aria-hidden="true">↗</span></a>
+        </section>
         <section class="broadcast" id="tv" aria-labelledby="broadcast-title" tabindex="-1">
           <div class="broadcast-heading"><p class="eyebrow">On air</p><h3 id="broadcast-title">Television &amp; productions</h3></div>
           <ul class="broadcast-list" data-reveal-group>{tv_html}
@@ -693,7 +973,7 @@ INDEX = f'''<!DOCTYPE html>
           <p class="section-intro">The desk. The room. The moments between. A closer look at the working side of a performance.</p>
         </div>
         <div class="gallery-grid" id="gallery-grid" data-reveal-group>{''.join(gallery_items)}</div>
-        <button class="text-link gallery-more" type="button" aria-controls="gallery-grid" aria-expanded="false" hidden>View all 24 photographs <span aria-hidden="true">↗</span></button>
+        <button class="text-link gallery-more" type="button" aria-controls="gallery-grid" aria-expanded="false" hidden>View all {len(gallery)} photographs <span aria-hidden="true">↗</span></button>
       </div>
     </section>
 

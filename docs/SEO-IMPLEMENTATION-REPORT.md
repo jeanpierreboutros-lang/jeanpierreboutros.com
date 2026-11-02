@@ -4,12 +4,9 @@ Reviewed: 2 November 2026. Website: https://www.jeanpierreboutros.com/.
 
 ## Release status
 
-Implementation and automated checks are complete locally. This SEO release has
-**not been published to HostGator**. Browser access remains unavailable, including
-after the reported reconnection: the tools return “native pipe startup failed”
-and “browser access host is unavailable.” Interactive visual checks, the public
-Schema.org/Google validators and post-deployment verification remain outstanding.
-The last verified production release before this work is `23e64f6`.
+The SEO release `6cf3dda` was deployed through HostGator cPanel on 2 November 2026. cPanel's deployed SHA matched the release; all 28 published pages and 93 referenced assets matched local bytes, and canonical redirects, a real 404 and a project dialog passed live checks. Public Schema.org/Google validator checks remain outstanding.
+
+The subsequent portfolio update adds Marcel Khalifé at Amman Citadel (monitors and recording, 2016), Abeer Nehme at Baalbeck (FOH, 2016), On the Steps of Marco Polo at Beiteddine (audio technical supervision, 2013), and Carole Samaha’s Golden Album (mixing/mastering, 2023), with dedicated pages and updated PDF credits. The current inventory is 39 canonical pages, 28 projects, 41 artist/ensemble collaborations, 34 gallery photographs and 51 studio release entries across 27 artists. The studio directory combines published research, the owner’s specific song confirmations, a deeper Nancy Ajram review adding Warana Eh recording, and Al Walid Hallani’s Zeffo El Amar mixing/mastering, Mohammed Islam’s owner-confirmed Nheb El Dini mixing/mastering, and Cyrine Abdel Nour’s Aamellon Aeqdi mixing/mastering. Two Zade Dirani FOH projects cover Palais des Congrès, Dbayeh (11 October 2018), and The Hope Concert in Amman (22 February 2019). FOH mixing projects also include Marcel Khalifé’s Ode to a Homeland at Baalbeck (5 July 2019) and Nancy Ajram’s Bnoss Jounieh concert (18 August 2022). Rasha Rizk’s اللعبة (The Play) album is an owner-confirmed recording credit linked to Spotify. Mazeej by Lucas Sakr at NDU (11 March 2019) adds a confirmed FOH project. Public entries show project titles and Jean-Pierre’s credits only, as requested. The owner approved publication of all new additions through HostGator after the remaining checks. The six selected broader-research credits are included; Maher Zain and Between the two Blacks are excluded. The audit and measurements below describe the original SEO release.
 
 The release expands the existing static site from one canonical page to **28**:
 the homepage, six service pages, 18 complete project pages and three directories.

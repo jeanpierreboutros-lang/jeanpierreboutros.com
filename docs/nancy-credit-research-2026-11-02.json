@@ -1,0 +1,96 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "Deeper public-source research into Jean-Pierre Boutros and StudioJPB collaborations with Nancy Ajram; existing owner-confirmed live work is separate.",
+  "method": "English and Arabic engineer-name variants; reverse searches; official artist upload descriptions; artist release catalogue; label-supplied storefront personnel. The portfolio’s own websites were not used as independent evidence.",
+  "additional_verified": [
+    {
+      "title": "Warana Eh",
+      "role": "Recording",
+      "year": "2025",
+      "source": "https://www.youtube.com/watch?v=Lb21_-odDjs",
+      "decision": "Add as a personal recording credit only."
+    },
+    {
+      "title": "Akher Esdar",
+      "role": "Mixing & mastering",
+      "year": "2023",
+      "source": "https://www.youtube.com/watch?v=xJIH9jJr9SA",
+      "decision": "Found in the later broad-name search, approved by the owner, and added to the portfolio."
+    }
+  ],
+  "reconfirmed": [
+    {
+      "title": "Men Nazra",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=UFn1-pTQ85s"
+    },
+    {
+      "title": "Aamon Jadidon",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=Zc6nH0sK7rU"
+    },
+    {
+      "title": "Ya Eid",
+      "role": "Mixing & mastering",
+      "source": "https://www.youtube.com/watch?v=Mh4_BMRP43M"
+    }
+  ],
+  "reviewed_without_additional_attributable_credit": [
+    {
+      "title": "Nancy 11",
+      "source": "https://www.qobuz.com/fr-fr/album/nancy-11-nancy-ajram/qsb6dc6tbuzsb",
+      "finding": "The eleven-track personnel listing contains no Jean-Pierre Boutros credit. This absence does not establish that he did no work on the album."
+    },
+    {
+      "title": "Baddi Oul Bhebak",
+      "source": "https://www.youtube.com/watch?v=Mo9FAImcX_U",
+      "finding": "The official artist upload for the Miss Lebanon performance lists Play Sound Studios as the recording location without naming Jean-Pierre. A studio location alone does not establish his personal role."
+    },
+    {
+      "title": "Shhadi Ya Deni",
+      "source": "https://www.youtube.com/watch?v=WxOArstktZ4",
+      "finding": "Recording locations are listed, but Jean-Pierre is not named for an engineering role."
+    },
+    {
+      "title": "Sah Sah",
+      "source": "https://www.universalmusic.it/popular-music/album/sah-sah_35677207757/",
+      "finding": "The label’s personnel listing supplies no Jean-Pierre credit; no role added."
+    },
+    {
+      "title": "Lya",
+      "source": "https://www.youtube.com/watch?v=pUHFoIzky90",
+      "finding": "The official audio description does not supply an attributable Jean-Pierre engineering credit."
+    },
+    {
+      "title": "Maakoul El Gharam",
+      "source": "https://www.qobuz.com/nz-en/album/maakoul-el-gharam-nancy-ajram/3614596084930",
+      "finding": "The published personnel listing does not supply an attributable Jean-Pierre engineering credit."
+    }
+  ],
+  "scope_decisions": [
+    "Aamoun Jadid and Aamon Jadidon are not counted twice solely because of alternate spellings/uploads of the same work.",
+    "Men Nazra storefront metadata uses the broad Producer label. The portfolio retains the more specific mixing/mastering role from the official music-video description.",
+    "Play Sound and AB Brother recording-location mentions do not establish a personal Jean-Pierre Boutros role without a direct credit or owner confirmation.",
+    "Existing FOH and monitor credits remain grounded in the owner’s confirmations. No new live role is inferred from public event coverage."
+  ],
+  "recorded_query_examples": [
+    "\"Nancy Ajram\" \"Jean Pierre Boutros\"",
+    "\"Nancy Ajram\" \"Jean-Pierre Boutros\"",
+    "\"نانسي عجرم\" \"جان بيار بطرس\"",
+    "\"نانسي عجرم\" \"جان بيير بطرس\"",
+    "\"Nancy Ajram\" \"Boutros\" \"Recording\"",
+    "\"Nancy Ajram\" \"StudioJPB\"",
+    "Nancy Ajram Nancy 11 album recording credits Jean",
+    "\"Nancy Ajram\" \"Warana Eh\" \"Recording\"",
+    "Nancy Ajram Baddi Oul Bhebak recording",
+    "Nancy Ajram Ghyranin recording",
+    "Nancy Ajram Ensa recording",
+    "Nancy Ajram Aala Elmi recording",
+    "\"Nancy Ajram\" \"Sah Sah\" \"recording\"",
+    "\"Nancy Ajram\" \"jp.boutros\"",
+    "\"Nancy Ajram\" \"recording\" \"JeanPierre\"",
+    "Nancy Ajram Toul Omri Negma credits recording",
+    "Nancy Ajram Shhadi Ya Deni credits recording"
+  ],
+  "limitations": "Search results and published personnel can omit work or vary between versions. This review verifies four named song credits; it is not a complete lifetime discography or evidence that other collaborations did not happen."
+}
