@@ -1,15 +1,24 @@
 # Visibility and inquiry measurement
 
-Use this after deployment and ownership verification. No analytics provider,
+Reviewed 3 November 2026. The portfolio is published; Google/Bing ownership
+verification and performance exports remain outstanding. No analytics provider,
 tracking script, cookies, account connection or data collection was installed by
 this release. No analytics configuration was found in the repository.
 
 ## Establish a baseline
 
-Record the actual deployment date and code release, then export the first
+The published baseline is content release `24ec55e`, deployed through HostGator
+on 3 November 2026 (Asia/Beirut): 39 canonical pages, six services, 28 projects,
+and 51 studio release entries across 27 artists on `/studio-credits/`.
+All 39 pages and 152 referenced resources matched local bytes; this establishes
+release delivery, not search visibility or performance gains. See the
+[verification record](portfolio-release-verification-2026-11-03.json).
+
+Complete the [search registration steps](SEARCH-CONSOLE.md), then export the first
 available Google Search Console and Bing Webmaster Tools performance data.
 Compare rolling 28-day periods, keeping seasonality and newly indexed pages in
-mind. An absent early impression is not proof of a technical fault.
+mind. An absent early impression is not proof of a technical fault. No search baseline,
+traffic totals, inquiry counts or Core Web Vitals improvement is claimed yet.
 
 | Metric | Source | Review |
 | --- | --- | --- |
@@ -19,6 +28,7 @@ mind. An absent early impression is not proof of a technical fault.
 | Country-level performance | Search performance country dimension | Monthly |
 | Service-page performance | Filter each of the six service URLs | Monthly |
 | Project discovery | Filter `/projects/` URLs and artist/venue queries | Monthly |
+| Studio credit discovery | Filter `/studio-credits/` and artist/song/album queries; 51 entries share one URL | Monthly |
 | Indexed pages and selected canonicals | Page indexing and URL inspections | After release, then monthly |
 | Sitemap and crawl errors | Google/Bing sitemap and indexing reports | After release, then monthly |
 | LCP, INP and CLS | Field reports; PageSpeed/CrUX when available | Monthly |

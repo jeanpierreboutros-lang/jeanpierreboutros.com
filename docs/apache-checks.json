@@ -6,5 +6,8 @@
   "other_domain_unaffected": true,
   "existing_deny_preserved": true,
   "unknown_page_http_status": 404,
-  "font_mime_and_immutable_cache": true
+  "font_mime_and_immutable_cache": true,
+  "record_kind": "historical_local_fixture",
+  "scope": "Original 28-page SEO release tested locally on 2 November 2026. Counts and measured results are preserved; these are not tests of all 39 current pages or the current remote shared-host configuration.",
+  "current_live_verification": "portfolio-release-verification-2026-11-03.json"
 }

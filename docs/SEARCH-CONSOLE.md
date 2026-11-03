@@ -1,17 +1,25 @@
 # Search registration and production verification
 
-Prepared 2 November 2026. No Google Search Console or Bing Webmaster Tools
+Reviewed 3 November 2026. No Google Search Console or Bing Webmaster Tools
 registration, ownership verification or sitemap submission has been performed by
 this implementation. No verification tokens were supplied or invented.
 
-## Publish and verify first
+## Published release and future deployment checks
 
-The canonical origin is https://www.jeanpierreboutros.com, retaining the website's
-existing canonical choice. The prepared release has 28 canonical HTML pages.
+The canonical origin is https://www.jeanpierreboutros.com. HostGator deployed
+content release `24ec55e` on 3 November 2026 (Asia/Beirut), and cPanel's Last
+Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched
+local bytes. Six redirect cases, a real 404 and the two tested research/source
+paths passed live verification. See the [release record](portfolio-release-verification-2026-11-03.json).
+
+The 39 sitemap URLs comprise the homepage, six services, 28 projects and four
+directories, including `/studio-credits/`. Its 51 release entries are content on
+one directory page, not 51 additional pages. Documentation-only commits do not
+require deployment. For future website changes:
 
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`,
    `sh -n hosting/install-seo.sh` and `git diff --check`.
-2. Review the homepage, a service page, a project page and the mobile navigation.
+2. Review the homepage, a service page, a project page, the studio-credit directory and the mobile navigation.
    Test a homepage card, its photo viewer, Escape, a direct legacy project hash,
    the full project link, service links and the three profile downloads.
 3. Push the reviewed release to `main`. In the existing HostGator cPanel Git
@@ -21,7 +29,7 @@ existing canonical choice. The prepared release has 28 canonical HTML pages.
    prepends the domain-scoped JPB redirects while retaining the other .htaccess
    rules. Backups are private under the repository's `.deployment-backups/`.
    An invalid existing managed block or symlinked .htaccess stops installation.
-5. Confirm all 28 sitemap URLs return 200, and the live HTML/PDF/assets match
+5. Confirm all 39 sitemap URLs return 200, and the live HTML/PDF/assets match
    the release. Verify these examples:
 
 | Request | Expected result |
@@ -54,7 +62,7 @@ Official setup: https://search.google.com/search-console
    token or file. The site currently emits no fabricated verification tag.
 5. After the release is public, open **Sitemaps** and submit
    `https://www.jeanpierreboutros.com/sitemap.xml`.
-6. Inspect the homepage, `/services/`, `/live-sound-engineer/` and a project URL
+6. Inspect the homepage, `/services/`, `/studio-credits/`, `/live-sound-engineer/` and a project URL
    with **URL inspection → Test live URL**. Confirm crawl access, the rendered
    content and the declared canonical. Request indexing for important pages
    using the available interface.
@@ -73,7 +81,7 @@ Official setup: https://www.bing.com/webmasters/
 3. Complete the offered verification with Bing's actual DNS value, XML file or
    meta tag. Preserve existing ownership verification records.
 4. In **Sitemaps**, submit `https://www.jeanpierreboutros.com/sitemap.xml`.
-5. Use **URL inspection** for the homepage, a service and a project record.
+5. Use **URL inspection** for the homepage, studio directory, a service and a project record.
    Review indexing issues and Search Performance after Bing recrawls the site.
 6. Consider IndexNow for future substantive changes after ownership is
    established. No IndexNow key was generated and no submission is claimed here.
@@ -83,9 +91,9 @@ https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b
 
 ## Structured-data verification after publication
 
-- Open https://validator.schema.org/ and test the homepage, a service URL and
+- Open https://validator.schema.org/ and test the homepage, studio-credit directory, a service URL and
   a project URL. Check Person, Organization, Service, WebSite, WebPage,
-  ProfilePage, Article, OfferCatalog and BreadcrumbList relationships.
+  ProfilePage, Article, ItemList, OfferCatalog and BreadcrumbList relationships.
 - Open https://search.google.com/test/rich-results and test representative
   public URLs. Service is valid Schema.org vocabulary but is not itself a
   promise of a Google rich-result feature. The site does not publish ratings,
@@ -119,7 +127,10 @@ English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-Browser/computer access was unavailable during this implementation. Local
-Apache/TLS and offline Schema.org checks were completed; interactive visual QA,
-the two web validators and live release verification remain required before
-claiming those steps are complete.
+The current release passed 4,828 local Schema.org property/domain/range checks.
+Historical local Apache/TLS results cover the original 28-page SEO release;
+they are not a new remote-host test. The published homepage was observed in
+Chrome, and live byte verification covered all 39 pages and 152 resources.
+A full new desktop/mobile keyboard, filter, modal and photo-viewer matrix is not
+recorded as complete. The public Schema.org Validator, Google Rich Results Test,
+Google/Bing ownership verification and sitemap submissions remain outstanding.

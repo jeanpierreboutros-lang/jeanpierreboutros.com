@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-11-02",
-  "note": "Actual recorded search-query batches; source retrievals and some initial discovery queries are documented in the research report.",
+  "note": "Actual recorded search-query batches from the initial audit; source retrievals and some initial discovery queries are documented in studio-credit-research.json. This is not an exhaustive log of the later Nancy and broader-name searches; their separate records retain additional methods and queries.",
   "batches": [
     {
       "batch": "credits_batch_1",
@@ -281,5 +281,8 @@
         "\"Sarina Cross\" \"Ραγισμένα Μάτια\" \"Jean\""
       ]
     }
-  ]
+  ],
+  "record_kind": "historical_recorded_query_log",
+  "last_reconciled": "2026-11-03",
+  "current_research_record": "studio-credit-research.json"
 }

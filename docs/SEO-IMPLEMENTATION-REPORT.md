@@ -1,94 +1,114 @@
 # Worldwide SEO and AI search implementation
 
-Reviewed: 2 November 2026. Website: https://www.jeanpierreboutros.com/.
+Documentation reconciled: 3 November 2026. Website: https://www.jeanpierreboutros.com/.
 
-## Release status
+## Published release
 
-The SEO release `6cf3dda` was deployed through HostGator cPanel on 2 November 2026. cPanel's deployed SHA matched the release; all 28 published pages and 93 referenced assets matched local bytes, and canonical redirects, a real 404 and a project dialog passed live checks. Public Schema.org/Google validator checks remain outstanding.
+HostGator deployed content release `24ec55eef9540cb49fab5f49328399e631a13c05`
+on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel's Last Deployed SHA matched.
+All 39 canonical pages and 152 referenced resources matched the approved local
+bytes. Six canonical redirect cases, an unknown-path 404 and the two tested
+research/source paths passed live verification. The published homepage was
+observed in Chrome. See the [verification record](portfolio-release-verification-2026-11-03.json).
 
-The subsequent portfolio update adds Marcel Khalifé at Amman Citadel (monitors and recording, 2016), Abeer Nehme at Baalbeck (FOH, 2016), On the Steps of Marco Polo at Beiteddine (audio technical supervision, 2013), and Carole Samaha’s Golden Album (mixing/mastering, 2023), with dedicated pages and updated PDF credits. The current inventory is 39 canonical pages, 28 projects, 41 artist/ensemble collaborations, 34 gallery photographs and 51 studio release entries across 27 artists. The studio directory combines published research, the owner’s specific song confirmations, a deeper Nancy Ajram review adding Warana Eh recording, and Al Walid Hallani’s Zeffo El Amar mixing/mastering, Mohammed Islam’s owner-confirmed Nheb El Dini mixing/mastering, and Cyrine Abdel Nour’s Aamellon Aeqdi mixing/mastering. Two Zade Dirani FOH projects cover Palais des Congrès, Dbayeh (11 October 2018), and The Hope Concert in Amman (22 February 2019). FOH mixing projects also include Marcel Khalifé’s Ode to a Homeland at Baalbeck (5 July 2019) and Nancy Ajram’s Bnoss Jounieh concert (18 August 2022). Rasha Rizk’s اللعبة (The Play) album is an owner-confirmed recording credit linked to Spotify. Mazeej by Lucas Sakr at NDU (11 March 2019) adds a confirmed FOH project. Public entries show project titles and Jean-Pierre’s credits only, as requested. The owner approved publication of all new additions. HostGator deployed portfolio release `24ec55e` on 3 November 2026 (Asia/Beirut), with a matching Last Deployed SHA. All 39 live pages and 152 referenced resources matched the approved local bytes; redirects, the real 404 and unpublished source/research paths passed verification. The record is in `docs/portfolio-release-verification-2026-11-03.json`. The six selected broader-research credits are included; Maher Zain and Between the two Blacks are excluded. The audit and measurements below describe the original SEO release.
+| Current inventory | Count |
+| --- | ---: |
+| Canonical HTML pages / sitemap URLs | 39 |
+| Homepage | 1 |
+| Service pages | 6 |
+| Project pages | 28 |
+| Directories: services, projects, studio credits, international projects | 4 |
+| Artist and ensemble collaboration names | 41 |
+| Gallery photographs | 34 |
+| Unique studio song/album entries | 51 |
+| Credited studio artists / directory groups | 27 / 27 |
+| Profile PDF | One A4 page, 16 project links |
 
-The release expands the existing static site from one canonical page to **28**:
-the homepage, six service pages, 18 complete project pages and three directories.
-All existing professional credits, original photographs, project descriptions,
-collaborations and section anchors are retained. The homepage keeps its design,
-project modals, gallery, animation controls and navigation. Its limited additions
-are factual identity/availability copy, useful links, four FAQs and a compact
-service directory. The removed opening collaboration strip remains removed, and
-the StudioJPB photograph remains the Manley equipment close-up.
+The homepage filters show Featured 6, All work 28, FOH 16, Monitors 6,
+Broadcast 1, Studio 3 and Technical 2. Albums count as one studio entry; track
+lists do not inflate the total. The shared Sing A Little entry is displayed once
+while its evidence is recorded under both artists. Studio entries share the
+`/studio-credits/` URL rather than creating 51 individual pages.
 
-## Audit findings and corrections
-
-| Area | Before | Implemented result |
-| --- | --- | --- |
-| Framework/rendering | Python standard-library generator; HTML/CSS/vanilla JavaScript; static generation, no frontend framework or runtime version | Existing architecture retained; Python 3.9+ build generates all public HTML |
-| Routing | One homepage with hash sections, filtered cards and modal descriptions | Real directory URLs containing `index.html`; existing hashes and modals preserved |
-| Searchable content | Substantive HTML existed, but project descriptions shared one URL and modal/filter states affected ordinary discovery | 18 full project records plus visible service text available without JavaScript |
-| Canonical handling | Canonical tag chose HTTPS www; all four HTTP/HTTPS and apex/www variants returned 200 | Canonical choice retained; domain-scoped 301 rules prepared for duplicate origins, explicit `index.html` and missing directory slashes |
-| Metadata | Homepage metadata and social tags; no individual service/project metadata | Unique title, description, H1, canonical, Open Graph and Twitter metadata on 28 pages |
-| Schema | Unlinked Person object | Stable linked Person, site, organizations, services, catalog, pages, breadcrumbs and project articles |
-| Sitemap | Homepage only; old modification date | 28 canonical, indexable HTML URLs with reviewed content date; no duplicate/redirect URLs |
-| Robots | Wildcard allow | Four search crawlers explicitly allowed; GPTBot blocked at the owner's request |
-| Fonts | External Google Fonts CSS and font requests | Same typefaces self-hosted, licensed, subset-aware and preloaded with `font-display: swap` |
-| Images | Existing responsive WebP, intrinsic dimensions and lazy loading | Preserved; matching responsive homepage image preload and eager service introduction images |
-| Internal linking | Mainly homepage sections and project hashes | Service directory, project index, related services/projects, breadcrumbs, real card destinations and PDF project links |
-| Accessibility | Existing skip links, focus styles, native dialogs and reduced-motion controls | Retained; new semantic pages, one H1, meaningful links, native FAQ disclosures and valid ARIA references |
-| Localization | English with some Arabic production titles | English maintained; Arabic title attributes preserved; no incomplete translations/hreflang |
-| Measurement | No configured analytics/ownership tokens found | Search registration instructions and measurement plan; no unapproved tracking installed |
-
-The live pre-release audit found no public login requirement or accidental
-`noindex`. Googlebot, bingbot, OAI-SearchBot and PerplexityBot identifying headers
-received HTTP 200. Those probes used the test machine's IP, so they do not verify
-the hosting firewall's treatment of genuine operator IP ranges. Unknown paths
-returned actual 404 responses. Raw observations are in [audit-before.json](audit-before.json).
-
-## Identity and international positioning
-
-The existing professional brand **Jean-Pierre Boutros** remains the primary name.
-“Jean Pierre Boutros” is its structured-data alternate name. The homepage title
-is “Jean-Pierre Boutros | International FOH & Sound Engineer.” Visible biography,
-FAQs, service introductions and inquiry sections establish a Lebanon home base
-and worldwide availability by arrangement.
-
-Verified services cover live sound/FOH/artist monitors, orchestral performances,
-recording, mixing/mastering, broadcast and audio system integration. StudioJPB's
-Jounieh location and 2008 founding remain intact. Zynforge Audio remains linked to
-his professional identity. No foreign office, award, qualification, equipment
-ownership, testimonial, new artist role or named studio release has been invented.
-
-Worldwide availability is separate from the locations of past work. The
-international page lists documented projects in France, Oman, Qatar, Kuwait,
-Saudi Arabia, the UAE, Turkey and Lebanon. It welcomes inquiries from other
-markets without claiming previous work or a permanent business there.
-
-## New service and directory pages
-
-| Canonical path | Scope and evidence |
+| Release | Deployment and evidence scope |
 | --- | --- |
-| `/live-sound-engineer/` | FOH, concerts, festivals and artist monitor assignments; Olympia, Ehdeniyat and Baligh Hamdi examples |
-| `/orchestra-sound-engineer/` | Orchestral/vocal/opera FOH; Qatar Philharmonic, Diman, Al Sharq and Marina Viotti |
-| `/recording-engineer/` | Recording/tracking; StudioJPB history and confirmed recording practice |
-| `/mixing-mastering/` | Distinct mixing and mastering stages; StudioJPB practice |
-| `/broadcast-audio-engineer/` | Papal Mass broadcast and accurately qualified television collaborations |
-| `/studio-system-integration/` | Merwas Studios and Playsound Studios integration references |
-| `/services/` | Complete service directory and factual professional FAQs |
-| `/projects/` | All 18 project records without a JavaScript filter requirement |
-| `/international-projects/` | Actual project locations, international availability and inquiry guidance |
+| `6cf3dda` — original SEO release | 2 November 2026; 28 pages and 93 referenced assets matched live bytes; canonical redirects, real 404 and a project dialog checked |
+| `24ec55e` — portfolio expansion | 3 November 2026; 39 pages and 152 referenced resources matched live bytes; six redirect cases and three expected 404 responses checked |
 
-Each service page has a unique introduction, detailed explanation, established
-engineering areas, technical inquiry checklist, genuine project examples, four
-FAQs, related service links and email/WhatsApp calls to action. Metadata, schema,
-canonical URLs and sitemap entries are generated together.
+Documentation commits may follow the deployed content commit without requiring a
+new website deployment. Repository documentation and source generators are
+excluded from the HostGator runtime manifest.
 
-FOH, concert and festival intent is combined into a substantial live-sound page.
-Separate thin `/foh-engineer/` or `/concert-festival-audio/` duplicates were not
-created. Standalone consulting, sound-system optimization and remote/online mixing
-pages await confirmation of the specific offering. No country doorway pages were
-created.
+## Architecture and search access
 
-## Portfolio discoverability
+The Python 3.9+ standard-library generator produces static HTML, CSS and vanilla
+JavaScript. No frontend framework, database or rendering service is required.
+`build.py` holds portfolio content, `studio_credits.py` holds release credits,
+`services.py` holds service descriptions, and `search_pages.py` generates shared
+metadata, structured data and discovery files. Editing and deployment instructions
+are in the [README](../README.md).
 
-The following 18 canonical records reuse the full existing sourced descriptions:
+| Area | Original finding | Current implementation |
+| --- | --- | --- |
+| Routing and discovery | One canonical homepage; substantial project descriptions shared hash/modal URLs | 28 complete project pages, six service pages and four directories available without JavaScript |
+| Canonicals | HTTPS www canonical tag; four origin variants returned 200 | Retained HTTPS www identity; hostname-scoped 301 rules for duplicate origins, explicit index files and missing directory slashes |
+| Metadata | Homepage metadata only | Unique title, description, H1, canonical and social metadata on 39 pages |
+| Structured data | Unlinked Person object | Linked Person, site, organizations, services, catalog, pages, breadcrumbs, project articles, images and studio ItemList |
+| Sitemap | Homepage only | 39 canonical indexable HTML URLs; release entries are not separate sitemap pages |
+| Robots | Wildcard allow | Explicit access for four search crawlers; GPTBot disallowed at the owner's request |
+| Fonts | External stylesheet and font requests | Original typefaces self-hosted, licensed and subset-aware, with three Latin preloads |
+| Images | Responsive WebP, dimensions and lazy loading already present | Preserved and expanded with attributed event images and matching derivatives |
+| Internal linking | Homepage sections and project hashes | Project/service directories, breadcrumbs, related links, release links and 16 PDF project links |
+| Accessibility | Skip links, focus styles, native dialogs, reduced-motion controls | Preserved; semantic pages, valid ARIA references, native FAQs and artist disclosures |
+| Measurement | No configured analytics or ownership tokens found | Registration instructions and measurement plan; no tracking or fabricated verification installed |
+
+The historical [pre-release audit](audit-before.json) found no login requirement
+or accidental `noindex`. Requests identifying as Googlebot, bingbot,
+OAI-SearchBot and PerplexityBot received HTTP 200 from the test machine. Those
+requests do not establish how the hosting firewall treats genuine crawler IPs.
+
+The homepage retains its design, modals, gallery, animation controls, section
+anchors and navigation. Real links progressively open project dialogs when
+JavaScript is available and remain ordinary page links otherwise. Closing a
+project returns focus to its originating link. The opening collaboration strip
+remains removed and StudioJPB retains the Manley equipment photograph.
+
+## Identity, services and directories
+
+Jean-Pierre Boutros remains the professional name, with Jean Pierre Boutros as a
+structured-data alternate. The site identifies a Lebanon home base and worldwide
+availability by arrangement. StudioJPB's Jounieh location and 2008 founding and
+Zynforge Audio's relationship remain intact. No foreign office, award, equipment
+ownership or testimonial has been invented.
+
+The international directory describes documented work in France, Oman, Qatar,
+Kuwait, Saudi Arabia, the UAE, Turkey, Jordan and Lebanon. Availability elsewhere
+does not imply a past project or permanent business there.
+
+| Canonical path | Scope |
+| --- | --- |
+| `/live-sound-engineer/` | FOH, concerts, festivals and artist monitor assignments |
+| `/orchestra-sound-engineer/` | Orchestral, vocal and opera FOH |
+| `/recording-engineer/` | Recording/tracking and StudioJPB practice |
+| `/mixing-mastering/` | Mixing and mastering stages, with confirmed album experience |
+| `/broadcast-audio-engineer/` | Papal Mass broadcast and qualified television collaborations |
+| `/studio-system-integration/` | Merwas Studios and Playsound Studios integration |
+| `/services/` | Six services and factual professional FAQs |
+| `/projects/` | All 28 project records |
+| `/studio-credits/` | 51 linked song/album entries across 27 credited artists |
+| `/international-projects/` | Documented locations and international inquiry guidance |
+
+Service pages include an introduction, scope, inquiry guidance, project examples,
+four FAQs, related services and contact links. FOH/concert/festival intent shares
+one substantial page. Standalone consulting, optimization or remote-mixing pages
+await confirmation of those offerings. English remains maintained; existing Arabic
+production titles retain language attributes. No incomplete translated versions,
+hreflang clusters or country doorway pages were created.
+
+## Project and studio credit coverage
+
+All 28 project paths are listed below. The [README project register](../README.md#current-project-register)
+records dates, venues and Jean-Pierre's exact roles.
 
 ```text
 /projects/the-eighties/
@@ -109,190 +129,148 @@ The following 18 canonical records reuse the full existing sourced descriptions:
 /projects/papal-broadcast/
 /projects/studio-jpb/
 /projects/studio-integration/
+/projects/marcel-khalife-amman/
+/projects/abeer-nehme-baalbeck/
+/projects/beiteddine-marco-polo/
+/projects/carole-samaha-golden-album/
+/projects/zade-dirani-dbayeh/
+/projects/zade-dirani-amman/
+/projects/marcel-khalife-baalbeck/
+/projects/nancy-ajram-jounieh/
+/projects/mazeej-ndu/
+/projects/beirut-the-sea-lover/
 ```
 
-Nancy Ajram's Olympia FOH role stays distinct from her four monitor assignments.
-Adam's Ehdeniyat credit remains monitor engineering; Abeer Nehme and Al Shami's
-Ehdeniyat credits remain FOH. Public coverage supports event context; Jean-Pierre's
-confirmations establish his roles. Photo attribution remains visible. All 36
-collaborations and 24 gallery entries are preserved.
+The expansion includes Marcel Khalifé at Amman Citadel for monitors/recording;
+Abeer Nehme at Baalbeck for FOH; Marco Polo at Beiteddine for audio technical
+supervision; Carole Samaha's Golden Album for mixing/mastering; two Zade Dirani
+FOH shows; Marcel at Baalbeck and Nancy at Jounieh for FOH; Mazeej at NDU for FOH;
+and Beirut the Sea Lover for 3D sound mixing. Mazeej uses the owner's corrected
+11 March 2019 date. Rasha Rizk's اللعبة (The Play) is a studio album recording
+entry, not an additional project page.
 
-Ordinary card links now have real page destinations. Homepage JavaScript enhances
-them into the existing modals, preserving modifier-click navigation and legacy
-hash links. A modal also provides a full-page link. The downloadable profile's
-11 production links now point directly to project URLs; its text and one-page
-layout are unchanged.
+Public wording retains artist/project identification and Jean-Pierre's own
+engineering credit. Studio-only credits remain StudioJPB credits. Other
+contributors' production credits, research notes and private track lists are
+excluded from rendered copy; photo attribution remains visible. Owner
+confirmations establish supplied roles. Public event coverage establishes
+context unless it explicitly credits his work, as the Beirut festival archive
+does. Nancy's monitor assignments apply specifically to her performances.
 
-## Search opportunities and content relevance
+All 41 collaboration names were audited. The [studio research](studio-credit-research.json)
+reconciles the 51 unique entries and thirteen directly confirmed role entries.
+The [Nancy review](nancy-credit-research-2026-11-02.json) records four
+mixing/mastering songs and Warana Eh recording. The [broader review](broad-credit-research-2026-11-02.json)
+records the six selected additions: Akher Esdar, Tayer, Idi bi Idik, Moving
+Mountains, Addaysh Bhebak and Beirut the Sea Lover. Maher Zain and Between the two
+Blacks are excluded at the owner's request. Unselected leads remain research-only;
+the 2025 Shou Baamel lead does not expand the existing 2022 album role.
 
-These are qualitative intent mappings, not measured keyword volumes, difficulty
-scores or ranking forecasts. Search Console/Bing data should determine later
-priorities.
+The downloadable profile was updated with selected confirmed roles. Its current
+one-page A4 artifact has 16 project links, is 317,690 bytes, and uses fingerprint
+`02735665a277`. It is a selection rather than an exhaustive discography.
 
-| Relevant query intent | Primary destination |
-| --- | --- |
-| International sound engineer | Homepage; international projects |
-| Professional sound engineer in Lebanon | Homepage |
-| Audio engineer available worldwide | International projects |
-| Professional live sound engineer | Live sound |
-| International FOH engineer | Live sound |
-| Front of house engineer | Live sound |
-| Touring audio engineer | Live sound; international inquiry |
-| Concert sound engineer | Live sound |
-| Festival sound engineer | Live sound |
-| Artist monitor engineer | Live sound; actual monitor project records |
-| Orchestra sound engineer | Orchestra sound |
-| Vocalist with orchestra sound engineering | Orchestra sound; Qatar project |
-| Opera gala sound engineer | Orchestra sound; Marina Viotti project |
-| Recording engineer | Recording |
-| Studio recording engineer Lebanon | Recording; StudioJPB project |
-| Professional mixing engineer | Mixing and mastering |
-| Music mastering services | Mixing and mastering |
-| Broadcast audio engineer | Broadcast |
-| Live broadcast sound engineer | Broadcast; Papal Mass project |
-| Professional audio system integration | Studio integration |
+## Search intent and structured data
 
-Two public professional portfolios were reviewed for useful content patterns:
-[Berk Kula](https://berkkula.com/) separates live/recorded identity and role-based
-credits; [Jacob Feinberg](https://jjmfp.com/) makes FOH, broadcast, recording and
-mixing work clear. The useful opportunity here is equally explicit services and
-project roles. No competitor traffic, backlink or rank metrics were assumed.
+The qualitative intent mappings are international sound engineer to the homepage
+and international directory; FOH/concert/festival/monitor work to live sound;
+orchestral/opera work to orchestra sound; recording and mixing/mastering to their
+respective service pages; broadcast and integration to their service pages; and
+artist/song/album engineering queries to studio credits. Actual project queries
+also have dedicated project destinations. These mappings are not measured keyword
+volumes or ranking forecasts. The original review of public portfolios
+[Berk Kula](https://berkkula.com/) and [Jacob Feinberg](https://jjmfp.com/)
+informed clear service and role presentation; no competitor metrics were assumed.
 
-## Structured data
+The canonical identity is `https://www.jeanpierreboutros.com/#person`. Linked graphs
+include Person, WebSite, WebPage, ProfilePage, CollectionPage, Organization,
+Service, OfferCatalog/Offer, BreadcrumbList/ListItem, Article, ImageObject and the
+studio ItemList. Schema describes visible content and adds no fake reviews,
+ratings, unsupported addresses, event attendance or FAQ rich-result claims.
 
-The canonical identity is
-`https://www.jeanpierreboutros.com/#person`, matching the site's retained www
-canonical origin. Page graphs connect:
+The current local check passed **4,828 property/domain/range checks** against the
+official Schema.org vocabulary. This does not replace the public Schema.org
+Validator or Google Rich Results Test, which remain outstanding, and does not
+promise a rich result.
 
-- `Person`, `WebSite`, `WebPage`, homepage `ProfilePage` and directory `CollectionPage`.
-- Verified StudioJPB and Zynforge `Organization` entities.
-- Six `Service` entities with the Person as provider and worldwide service coverage.
-- `OfferCatalog`/`Offer`, related services and page `mainEntity` references.
-- `BreadcrumbList`/`ListItem` for nested pages.
-- Project `Article` records and credited `ImageObject` photographs.
+`robots.txt` permits Googlebot, bingbot, OAI-SearchBot and PerplexityBot and blocks
+GPTBot following the owner's preference. Other access retains the prior wildcard
+policy. Firewall protections were not disabled. The optional `/llms.txt` is a
+factual public directory; it is supplementary rather than an indexing requirement
+or instruction to recommend the website.
 
-JSON-LD describes the visible professional record. It does not add ratings,
-reviews, LocalBusiness addresses, Event attendance, unsupported credentials or
-FAQ rich-result claims. Local checks against the official current Schema.org
-vocabulary passed **3,316 property/domain/range checks**. This is distinct from
-running the interactive Schema.org Validator or Google's Rich Results Test;
-those remain pending. Valid schema does not guarantee a rich result or citation.
-
-## Crawler and AI discovery configuration
-
-`robots.txt` explicitly permits Googlebot, bingbot, OAI-SearchBot and PerplexityBot.
-It disallows GPTBot following the owner's explicit preference. Other crawlers
-retain the previous wildcard access; no blanket change to all model-training
-controls was made. No firewall protection was disabled.
-
-The optional `/llms.txt` is a factual directory of public services/projects, with
-no instruction to recommend the website. It is supplementary, not an established
-indexing requirement. Static HTML, clear introductions, factual FAQs, internal
-links and verifiable project roles provide the substantive discovery work.
-
-Official references:
+Original implementation references:
 [Google AI features](https://developers.google.com/search/docs/appearance/ai-features),
-[Google AI optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide),
+[Google AI guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide),
 [OpenAI crawler controls](https://developers.openai.com/api/docs/bots),
 [Perplexity crawlers](https://docs.perplexity.ai/docs/resources/perplexity-crawlers),
 [Bing guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
 
-## Performance and accessibility
+## Verification and its limits
 
-The original image optimization, lazy loading, intrinsic dimensions, deferred
-JavaScript and reduced-motion handling remain intact. The same Fraunces and
-Hanken Grotesk typefaces are now self-hosted in 10 WOFF2 subset files, with
-provenance and SIL licenses. Three Latin faces are preloaded; the browser loads
-additional Unicode subsets only as needed. Fingerprinted font files have an
-immutable cache policy. CSS/JavaScript and PDF links retain content fingerprints.
-
-No runtime framework, tracking library or rendering service was added. Essential
-content does not wait for JavaScript. New FAQ answers use native HTML disclosures.
-New pages use semantic landmarks, one H1, descriptive links, image alternatives,
-valid ARIA targets and responsive CSS using the existing design tokens.
-
-These are implementation improvements, **not measured Core Web Vitals gains**.
-Both mobile and desktop PageSpeed API attempts returned HTTP 429; no field
-LCP/INP/CLS dataset or successful browser performance run was available. See
-[pagespeed-attempt.json](pagespeed-attempt.json). Actual mobile layout, keyboard
-behavior and performance need browser verification before release sign-off.
-
-## Quality assurance results
-
-| Check | Result |
+| Current portfolio release check | Recorded result |
 | --- | --- |
-| Python production build | Pass; 28 canonical pages |
-| `check_site.py` | Pass; unique metadata/H1, canonical URLs, local assets/fragments, ARIA targets, no orphan pages, preserved credits/counts and crawler policy |
-| Official Schema.org vocabulary checks | Pass; 3,316 checks |
-| JavaScript syntax, Python compilation, shell syntax | Pass |
-| HTML5 parsing | Pass; all 28 documents, zero parser errors |
-| CSS parsing | Pass; site and font stylesheets, zero parser errors |
-| Local Apache 2.4.67 with TLS | Pass; all 28 pages HTTP 200 and eight redirect cases |
-| Other shared hostname / existing deny rules | Pass; unrelated hostname unaffected, existing protected test resource remains HTTP 403 |
-| Missing path / font delivery | Pass; real HTTP 404, correct font MIME and immutable cache |
-| Redirect installer | Pass; preserves original rules, private backup, idempotence and malformed-block rejection |
-| PDF | Pass; one A4 page, identical extracted text/layout, 14 links including 11 valid project destinations; visually rendered and inspected |
-| External link audit | No confirmed 404/410 among 30 unique targets; 25 returned 200, three 403, one transport error and Facebook 400 require browser/manual interpretation |
-| Interactive visual/keyboard QA | Pending; browser connection unavailable |
-| Schema.org Validator / Google Rich Results Test | Pending; browser connection unavailable |
-| HostGator deployment / live verification | Pending; browser connection unavailable |
+| Production build and `check_site.py` | Passed for all 39 pages, inventory, metadata, local links/fragments, ARIA targets, schema and crawler policy |
+| Official Schema.org vocabulary | 4,828 local property/domain/range checks passed |
+| JavaScript syntax / diff whitespace | `node --check main.js` and `git diff --check` passed |
+| Live content delivery | 39 pages + 152 referenced resources = 191 exact byte matches; no failures |
+| Live canonical redirects | Six cases passed |
+| Unknown path and tested source/research paths | Three expected HTTP 404 responses |
+| cPanel deployed SHA | Matched `24ec55eef9540cb49fab5f49328399e631a13c05` |
+| PDF | One A4 page with 16 project links; rendered/inspected before release; delivered bytes matched |
+| Browser observation | Published homepage loaded with 28 projects, 34 photographs, new artists and studio directory |
 
-Apache evidence: [apache-checks.json](apache-checks.json). External results:
-[external-links.json](external-links.json). Denied/blocked external requests were
-not automatically treated as broken links and their existing source references
-were preserved. The local Apache fixture tests do not prove the current remote
-server configuration; that must be checked after deployment.
+The byte check establishes delivery of the referenced resources, not successful
+execution of every interaction or a check of every repository file. A full new
+live desktop/mobile keyboard, filter, dialog and image-viewer matrix is not
+recorded as complete. Earlier local page views and the original release's live
+project-dialog check do not replace that matrix.
 
-## Files created
+| Historical original SEO evidence — 2 November 2026 | Original scope retained |
+| --- | --- |
+| Local HTML5/CSS parsing | 28 HTML documents and site/font CSS passed with zero parser errors |
+| Local Schema.org vocabulary | 3,316 checks for the original release |
+| Python compilation / shell syntax | Passed for the original implementation |
+| Apache 2.4.67 TLS fixture | 28 pages HTTP 200; eight redirect cases passed |
+| Shared hostname / access restrictions | Unrelated hostname unaffected; protected fixture remained HTTP 403 |
+| Font / missing-path delivery | Correct font MIME and immutable cache; actual unknown-path 404 |
+| Redirect installer | Existing rules preserved; private backup, idempotence and malformed-block rejection passed |
+| External link audit | 30 targets: 25 HTTP 200, three 403, one transport error and one Facebook 400; no confirmed 404/410 |
+| PageSpeed attempts | Mobile and desktop API requests returned HTTP 429; no scores obtained |
 
-- Source/build checks: `services.py`, `search_pages.py`, `check_site.py`.
-- Generated HTML: six service directories, 18 `projects/<slug>/index.html`
-  records listed above, plus `services/index.html`, `projects/index.html` and
-  `international-projects/index.html` (27 new HTML files).
-- Crawl directory: `llms.txt`.
-- Hosting: `hosting/seo.htaccess`, `hosting/install-seo.sh`.
-- Fonts: `fonts/fonts.css`, `fonts/.htaccess`, `fonts/manifest.json`,
-  `fonts/README.md`, two OFL license files and 10 fingerprinted WOFF2 files.
-- Documentation/evidence: this report, `docs/SEARCH-CONSOLE.md`,
-  `docs/MEASUREMENT.md`, `docs/audit-before.json`, `docs/pagespeed-attempt.json`,
-  `docs/external-links.json`, `docs/apache-checks.json`.
+The [Apache fixture](apache-checks.json), [external link results](external-links.json)
+and [PageSpeed attempts](pagespeed-attempt.json) remain historical evidence.
+The 30-target audit is not an audit of every current release link. Blocked or
+denied responses were not automatically treated as broken links. Local shared-host
+fixture results do not establish the current remote configuration.
 
-## Files modified
+Self-hosted fonts, responsive images, dimensions, lazy loading, deferred JavaScript,
+reduced motion and static content improve implementation quality, but **no measured
+Core Web Vitals gain is claimed**. No new successful PageSpeed run or field dataset
+is recorded. Google/Bing ownership verification, sitemap submission and both public
+structured-data validators remain outstanding. No analytics, ownership token or
+search-performance baseline was installed or invented.
 
-`.cpanel.yml`, `.gitignore`, `README.md`, `build.py`, `build_profile.py`,
-`index.html`, `main.js`, `styles.css`, `robots.txt`, `sitemap.xml` and
-`output/pdf/jean-pierre-boutros-profile.pdf`.
+## Maintenance and follow-up
 
-The deployment manifest copies runtime assets/pages without purging unrelated
-hosting files. Its redirect installer preserves existing non-JPB rules and makes
-private backups outside the shared document root. Every redirect is conditional
-on this portfolio's hostnames. Deployment and rollback steps are in the
-[README](../README.md#deployment).
+Build sources, generated pages, fonts, images, PDF and hosting scripts are mapped
+in the [README](../README.md#stack-and-structure). The non-purging HostGator manifest
+copies 39 pages and runtime resources while preserving unrelated shared-host files.
+The redirect installer preserves other rules and stores backups outside the public
+root. Every managed redirect is scoped to the portfolio's two hostnames.
+Deployment and rollback instructions are in the [deployment runbook](../README.md#deployment).
 
-## Remaining actions and ongoing visibility
+1. Complete the desktop/mobile interaction matrix when reviewing behavior changes.
+2. Run the public Schema.org and Google validators on representative homepage,
+   service, project and studio-directory URLs.
+3. Complete Google Search Console and Bing ownership with real account-issued
+   values, submit the sitemap and inspect representative URLs using the
+   [search registration instructions](SEARCH-CONSOLE.md).
+4. Establish search, country, page and qualified-inquiry baselines using the
+   [measurement plan](MEASUREMENT.md). AI referrals provide partial evidence only.
+5. Add future credits with confirmed role/version scope and source evidence;
+   preserve the owner's exclusions and person-versus-studio distinction. Review
+   the selected PDF and documentation inventory when portfolio content changes.
 
-1. Restore browser/computer access; review the homepage and new service/project
-   pages at desktop, 400px and 320px widths. Check mobile menu, project modal,
-   photo viewer, Escape/focus return, legacy hashes, FAQ, full-page navigation
-   and PDF download behavior.
-2. Push the reviewed release and run HostGator **Update from Remote → Deploy
-   HEAD Commit**. Verify both SHAs, all 28 live URLs, canonical redirects, robots,
-   fonts, PDF bytes, 404 behavior and the unrelated shared hostname.
-3. Run the public Schema.org and Google validators on representative URLs.
-4. Verify Google Search Console and Bing Webmaster Tools ownership with actual
-   account-provided tokens. Submit the XML sitemap and inspect the homepage,
-   service and project URLs. No registration, ownership or submission is claimed.
-   Follow [the exact instructions](SEARCH-CONSOLE.md).
-5. Record search impressions, clicks, queries, countries, service/project page
-   performance, index coverage, field performance and qualified inquiries using
-   [the measurement plan](MEASUREMENT.md). Identifiable AI referrals are partial
-   evidence; all recommendations/citations cannot be directly measured.
-6. Add confirmed project scope, named studio releases, genuine approved
-   testimonials and precise equipment experience as evidence becomes available.
-   Confirm any standalone consulting, optimization or remote-mixing offering
-   before creating those pages. Consider Arabic/French only with complete,
-   reviewable translations and a maintenance plan.
-
-The result improves technical access, relevance and factual clarity. Search
-engines and AI services independently decide crawling, indexing and presentation;
-rankings, citations and recommendations are not guaranteed.
+Search engines and AI services decide crawling, indexing and presentation.
+Rankings, citations and recommendations are not guaranteed.

@@ -69,5 +69,36 @@
     "Maher Zain",
     "Between the two Blacks"
   ],
-  "browser_observation": "The published homepage loaded in Chrome and showed 28 projects, 34 photographs, the new artist links and the studio-credit directory. Full byte verification covered every canonical page and referenced asset."
+  "browser_observation": "The published homepage loaded in Chrome and showed 28 projects, 34 photographs, the new artist links and the studio-credit directory. Full byte verification covered every canonical page and referenced asset.",
+  "documentation_reconciled": "2026-11-03",
+  "deployed_local_time": "00:00:01",
+  "published_services": 6,
+  "published_directories": 4,
+  "published_collaboration_names": 41,
+  "published_gallery_images": 34,
+  "published_studio_artists": 27,
+  "published_studio_groups": 27,
+  "project_filters": {
+    "featured": 6,
+    "all": 28,
+    "foh": 16,
+    "monitors": 6,
+    "broadcast": 1,
+    "studio": 3,
+    "technical": 2
+  },
+  "profile_pdf": {
+    "pages": 1,
+    "page_format": "A4",
+    "bytes": 317690,
+    "fingerprint": "02735665a277",
+    "project_links": 16
+  },
+  "verification_scope": "Recorded at publication: all 39 canonical pages and 152 referenced resources matched local bytes. This does not mean every repository file or interactive behavior was tested. Documentation reconciliation did not repeat the live requests.",
+  "outstanding": [
+    "Full new live desktop/mobile keyboard, filter, project dialog and image-viewer interaction matrix is not recorded as complete.",
+    "Public Schema.org Validator and Google Rich Results Test.",
+    "Google Search Console and Bing Webmaster Tools ownership verification and sitemap submission.",
+    "Successful PageSpeed or field Core Web Vitals measurements and search/inquiry baseline data."
+  ]
 }

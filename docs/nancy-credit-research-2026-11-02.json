@@ -8,31 +8,36 @@
       "role": "Recording",
       "year": "2025",
       "source": "https://www.youtube.com/watch?v=Lb21_-odDjs",
-      "decision": "Add as a personal recording credit only."
+      "decision": "Published as a personal recording credit only; no mixing or mastering role inferred.",
+      "in_published_portfolio": true
     },
     {
       "title": "Akher Esdar",
       "role": "Mixing & mastering",
       "year": "2023",
       "source": "https://www.youtube.com/watch?v=xJIH9jJr9SA",
-      "decision": "Found in the later broad-name search, approved by the owner, and added to the portfolio."
+      "decision": "Found in the later broad-name search, approved by the owner, and published for mixing and mastering.",
+      "in_published_portfolio": true
     }
   ],
   "reconfirmed": [
     {
       "title": "Men Nazra",
       "role": "Mixing & mastering",
-      "source": "https://www.youtube.com/watch?v=UFn1-pTQ85s"
+      "source": "https://www.youtube.com/watch?v=UFn1-pTQ85s",
+      "in_published_portfolio": true
     },
     {
       "title": "Aamon Jadidon",
       "role": "Mixing & mastering",
-      "source": "https://www.youtube.com/watch?v=Zc6nH0sK7rU"
+      "source": "https://www.youtube.com/watch?v=Zc6nH0sK7rU",
+      "in_published_portfolio": true
     },
     {
       "title": "Ya Eid",
       "role": "Mixing & mastering",
-      "source": "https://www.youtube.com/watch?v=Mh4_BMRP43M"
+      "source": "https://www.youtube.com/watch?v=Mh4_BMRP43M",
+      "in_published_portfolio": true
     }
   ],
   "reviewed_without_additional_attributable_credit": [
@@ -92,5 +97,16 @@
     "Nancy Ajram Toul Omri Negma credits recording",
     "Nancy Ajram Shhadi Ya Deni credits recording"
   ],
-  "limitations": "Search results and published personnel can omit work or vary between versions. This review verifies four named song credits; it is not a complete lifetime discography or evidence that other collaborations did not happen."
+  "limitations": "Search results and published personnel can omit work or vary between versions. This review verifies five named song credits; it is not a complete lifetime discography or evidence that other collaborations did not happen.",
+  "last_reconciled": "2026-11-03",
+  "publication": {
+    "status": "published",
+    "content_commit": "24ec55eef9540cb49fab5f49328399e631a13c05",
+    "deployed_date": "2026-11-03",
+    "timezone": "Asia/Beirut",
+    "verification_record": "portfolio-release-verification-2026-11-03.json",
+    "directory": "https://www.jeanpierreboutros.com/studio-credits/#nancy-ajram",
+    "published_song_count": 5
+  },
+  "date_note": "Original source-review date is retained. Reconciliation records publication and counts, not new source retrievals."
 }

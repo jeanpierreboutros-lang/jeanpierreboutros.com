@@ -9,7 +9,10 @@
     "no_attributable_public_studio_credit_found": 13,
     "release_entries": 51,
     "owner_confirmed_additional_artists": 5,
-    "owner_confirmed_release_entries": 13
+    "owner_confirmed_release_entries": 13,
+    "credit_groups": 27,
+    "credited_artists": 27,
+    "artists_with_owner_confirmed_entries": 8
   },
   "artists": [
     {
@@ -679,7 +682,7 @@
     }
   ],
   "important_scope_decisions": [
-    "Nancy Ajram: Men Nazra and Aamon Jadidon/Ya Eid are mixing and mastering credits; no recording engineer is inferred from a studio-location line.",
+    "Nancy Ajram: Men Nazra, Aamon Jadidon, Ya Eid and Akher Esdar are mixing and mastering credits; Warana Eh is recording only. A studio-location mention does not establish a personal recording role.",
     "Ramy Ayyach: Ahlan Bil Jamal and Ismallah are mastering credits. Sway is mixing and mastering. Ma Bensak is an owner-confirmed mixing and mastering credit.",
     "Abeer Nehme: Bi Saraha and Aamel Nasini do not acquire mixing/mastering credits from a studio mention; Sleiman Damien holds those published roles. El Meelad El Jayi identifies StudioJPB as the vocal recording studio while Ralph Sleiman receives engineering credits.",
     "Mike Massy/Naseej: the recording note concerns Fadia Tomb El Hage vocal takes at StudioJPB. Mike Massy vocal recording is separately located in France.",
@@ -782,8 +785,26 @@
         "url": "https://www.qobuz.com/us-en/album/ok-world-bugge-wesseltoft-josemi-carmona-shrikant-shriram/w893anvdzt5pc"
       }
     ],
-    "credit_scope": "These links identify the releases. Owner-confirmed roles remain as supplied. The Eza Fik video lists Studio Jean-Pierre Boutros for recording/mixing and a different mastering engineer; its all-stage portfolio role remains based on Jean-Pierre’s direct confirmation. Shu Hal Hob confirms his mix/master credit and a recording location, without naming its recording engineer. The four additional Abeer Nehme roles follow Jean-Pierre’s direct confirmation. Fallou’s official video credits Studio Jean-Pierre Boutros with recording, mixing and mastering. Hikayi’s video names Jean-Pierre for recording and assigns mastering elsewhere; that difference is retained in this private audit. Fi Asfour and Kil Ma T’illi link to the 2019 studio album audio, rather than concert recordings."
+    "credit_scope": "These links identify the releases. Owner-confirmed roles remain as supplied. The Eza Fik video lists Studio Jean-Pierre Boutros for recording/mixing and a different mastering engineer; its all-stage portfolio role remains based on Jean-Pierre’s direct confirmation. Shu Hal Hob confirms his mix/master credit and a recording location, without naming its recording engineer. The four additional Abeer Nehme roles follow Jean-Pierre’s direct confirmation. Fallou’s official video credits Studio Jean-Pierre Boutros with recording, mixing and mastering. Hikayi’s video names Jean-Pierre for recording and assigns mastering elsewhere; that difference is retained in this private audit. Fi Asfour and Kil Ma T’illi link to the 2019 studio album audio, rather than concert recordings.",
+    "last_reconciled": "2026-11-03"
   },
   "nancy_deep_review": "nancy-credit-research-2026-11-02.json",
-  "broad_name_review": "broad-credit-research-2026-11-02.json"
+  "broad_name_review": "broad-credit-research-2026-11-02.json",
+  "last_reconciled": "2026-11-03",
+  "date_note": "The reviewed date records source research; last_reconciled records alignment with the published release, not a new source retrieval.",
+  "publication": {
+    "status": "published",
+    "content_commit": "24ec55eef9540cb49fab5f49328399e631a13c05",
+    "deployed_date": "2026-11-03",
+    "timezone": "Asia/Beirut",
+    "verification_record": "portfolio-release-verification-2026-11-03.json",
+    "directory": "https://www.jeanpierreboutros.com/studio-credits/"
+  },
+  "counting_notes": [
+    "The 41 audit names match the current artist/ensemble collaboration list; its status categories are mutually exclusive.",
+    "The 51 release entries count each rendered song or album entry once. Albums are not expanded into separate track entries.",
+    "Sing A Little is documented under both Marcel Khalifé and Abeer Nehme in this artist audit but is rendered as one shared release entry.",
+    "There are 27 rendered credit groups and 27 unique credited artists; the group count and artist count are calculated separately.",
+    "owner_confirmed_additional_artists counts five audit records whose status is owner_confirmed_credit. Eight artists have at least one of the thirteen directly confirmed entries, including artists with other published credits."
+  ]
 }

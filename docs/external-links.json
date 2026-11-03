@@ -151,5 +151,8 @@
       "status": 200,
       "final_url": "https://youth.sharqforum.org/asy-gallery/al-sharq-symphony-marcel-khalife-and-istanbul-philharmonic-orchestra-conducted-by-lubnan-baalbaki/"
     }
-  ]
+  ],
+  "record_kind": "historical_external_link_audit",
+  "scope": "Thirty targets from the original SEO release, checked on 2 November 2026. Original responses are retained; this is not an audit of every link in the current 51-entry studio directory. Later release/source research is documented separately.",
+  "current_research_record": "studio-credit-research.json"
 }
