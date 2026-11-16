@@ -71,6 +71,8 @@ assert.equal(config.send_page_view, true);
 const globalSettings = allowed.commands().find(x => x[0] === 'set')[1];
 assert.equal(globalSettings.page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
 assert.equal(globalSettings.page_referrer, 'https://chatgpt.com');
+assert.equal(globalSettings.cookie_expires, 15552000);
+assert.equal(globalSettings.cookie_flags, 'SameSite=Lax;Secure');
 assert.equal(config.page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
 assert.equal(config.page_referrer, 'https://chatgpt.com');
 assert.equal(config.allow_google_signals, false);
