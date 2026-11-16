@@ -7,7 +7,7 @@ from datetime import date
 from hashlib import sha256
 from pathlib import Path
 
-from search_pages import DESCRIPTION, faq_html, graph, json_text, page_head, render_search_pages, site_links
+from search_pages import HOME_DESCRIPTION, faq_html, graph, json_text, page_head, render_search_pages, site_links
 from services import AVAILABILITY, HOME_FAQ, SERVICES
 from studio_credits import CREDIT_GROUPS, studio_groups_html
 
@@ -927,8 +927,8 @@ portfolio_html = f'''<div class="portfolio-toolbar">
 INDEX = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
-  {page_head("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION,
-             structured=graph("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION, page_type="ProfilePage"),
+  {page_head("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", HOME_DESCRIPTION,
+             structured=graph("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", HOME_DESCRIPTION, page_type="ProfilePage"),
              preload_image="live-outdoor-foh-night.jpg", image_sizes="(max-width: 760px) 100vw, 65vw")}
 </head>
 <body>

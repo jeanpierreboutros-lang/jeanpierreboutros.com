@@ -18,6 +18,8 @@ WEBSITE = SITE + "/#website"
 DESCRIPTION = ("Lebanon-based international sound engineer Jean-Pierre Boutros: "
                "FOH for concerts and festivals, recording, mixing, mastering, broadcast "
                "and studio integration. Available worldwide by arrangement.")
+HOME_DESCRIPTION = ("Jean-Pierre Boutros, Lebanon-based international sound engineer for FOH, "
+                    "concerts, recording, mixing, broadcast and studio integration. Available worldwide.")
 e = html.escape
 PAGE_REVIEW_DATES = {
     path: "2026-11-16" for path in (
@@ -362,6 +364,10 @@ def render_search_pages(context):
                         if len(plain(p)) > 70), f"{role} · {production} · {location}")
         title = f"{name} · {production} | {role} | {NAME}"
         description = f"{NAME}: {role.lower()} for {name}. {production}. {location}. Project details, photographs and related sound engineering services."
+        if slug == "tarteeb-shareet-doha":
+            title = "Shareet · Tarteeb at QNCC | Jean-Pierre Boutros, FOH"
+            description = ("Jean-Pierre Boutros was the FOH engineer for Tarteeb’s Shareet concert "
+                           "at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026. View the project.")
         crumbs = [("Home", "/"), ("Projects", "/projects/"), (name + " · " + production, path)]
         body = intro(role + " · " + location, e(name) + "<br /><em>" + e(production) + "</em>",
                      summary, crumbs)
