@@ -1,0 +1,401 @@
+{
+  "checked_at_utc": "2026-11-16T12:22:09.231363+00:00",
+  "content_commit": "c9521aa399ccd6b8446a6f68bdbd8b39b266f0d7",
+  "canonical_origin": "https://www.jeanpierreboutros.com",
+  "canonical_pages": 40,
+  "http_requests": 27,
+  "http_200_and_matching": 27,
+  "results": [
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "Googlebot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "Googlebot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "Googlebot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "bingbot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "bingbot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "bingbot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "OAI-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "OAI-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "OAI-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "Claude-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "Claude-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "Claude-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "PerplexityBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "PerplexityBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "PerplexityBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "ChatGPT-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "ChatGPT-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "ChatGPT-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "Claude-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "Claude-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "Claude-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "Perplexity-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "matches_local": true,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "bytes": 219344,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "Perplexity-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "matches_local": true,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "bytes": 48329,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "Perplexity-User",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "matches_local": true,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "bytes": 34575,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/robots.txt",
+      "user_agent": "JPB-AI-Search-Verification/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/robots.txt",
+      "matches_local": true,
+      "sha256": "a3bbfc9d3d75709ae518623564a38a2ceceb1b03cdecb8d9a9889228a0302f5d",
+      "bytes": 614
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "user_agent": "JPB-AI-Search-Verification/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "matches_local": true,
+      "sha256": "dc33d13c4caa37589c4b714b062123133b020b31f812f539a0f2b9285aef1127",
+      "bytes": 5151
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/llms.txt",
+      "user_agent": "JPB-AI-Search-Verification/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/llms.txt",
+      "matches_local": true,
+      "sha256": "9b4107f135fcc5fc5e7d288120d5e417e49ca96b417c65a09148ced0db246451",
+      "bytes": 7263
+    }
+  ],
+  "robots_permissions_all_40_urls": {
+    "Googlebot": true,
+    "bingbot": true,
+    "OAI-SearchBot": true,
+    "Claude-SearchBot": true,
+    "PerplexityBot": true,
+    "ChatGPT-User": true,
+    "Claude-User": true,
+    "Perplexity-User": true
+  },
+  "gptbot_training_exclusion_preserved": true,
+  "wildcard_access_preserved": true,
+  "unchanged_previously_verified_urls": 164,
+  "previous_verification_content_commit": "239f127cddc602681c1091c73d18e3cb2e6f5fd6",
+  "prior_verification_limit": "Previously matched pages/assets remain byte-identical locally; they were not all re-fetched in this focused policy check.",
+  "test_limit": "HTTP user-agent simulations originate from this audit machine. They do not establish access from verified operator IPs, actual indexing or inclusion in any AI answer.",
+  "grok": "No verified publisher submission endpoint or dedicated search crawler token found in reviewed official sources. Existing wildcard access and public crawlable pages retained. No direct Grok submission/test claimed.",
+  "search_sample": "Branded public search returned the canonical homepage with an older cached snapshot. Fresh-page retrieval via the search tool was unavailable without an HTTP diagnosis; no firewall conclusion inferred.",
+  "official_sources": [
+    "https://developers.openai.com/api/docs/bots",
+    "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+    "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+    "https://docs.x.ai/developers/tools/web-search"
+  ],
+  "deployment_via": "Existing HostGator cPanel Git deployment",
+  "hostgator_last_deployed_sha": "c9521aa399ccd6b8446a6f68bdbd8b39b266f0d7",
+  "hostgator_last_deployed_display": "Nov 16, 2026 3:21:14 PM",
+  "robots_last_modified_utc": "2026-11-16T12:21:14Z"
+}

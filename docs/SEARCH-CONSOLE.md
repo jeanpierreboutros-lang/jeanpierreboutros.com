@@ -132,6 +132,7 @@ Search access is explicitly allowed for Googlebot, bingbot, OAI-SearchBot,
 Claude-SearchBot and PerplexityBot. ChatGPT-User, Claude-User and Perplexity-User
 have explicit public-page access. See [AI search visibility](AI-SEARCH-VISIBILITY.md)
 for official provider references, Grok coverage and verification limits.
+The policy update is deployed in `c9521aa`; [27 focused live checks](ai-search-verification-2026-11-16.json) pass.
 GPTBot is disallowed at the owner's request. Other crawler access
 retains the previous wildcard policy; Google-Extended and other training
 controls were not silently changed. This is separate from firewall settings.

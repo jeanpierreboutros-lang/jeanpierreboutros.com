@@ -2,6 +2,25 @@
 
 The portfolio is prepared for search and retrieval by ChatGPT, Claude, Perplexity and other assistants that use the public web. This builds on the published 40-page static website, linked professional identity, verified credits, international service descriptions and successfully processed Google/Bing sitemaps. Allowing access does not guarantee that a provider will crawl, index, cite or recommend it.
 
+## Published verification
+
+Deployed content `c9521aa399ccd6b8446a6f68bdbd8b39b266f0d7` through the existing
+HostGator Git deployment on 16 November 2026. cPanel's Last Deployed SHA matches.
+All **27 focused public HTTP checks** returned 200 and matched the local release:
+eight documented search/fetch identities on home, live sound and Shareet, plus
+robots.txt, sitemap.xml and llms.txt. Permissions pass for all eight identities
+across all 40 canonical URLs. The other 164 previously verified page/resource
+URLs still refer to unchanged local bytes; only robots.txt changed at runtime.
+See [the exact live evidence](ai-search-verification-2026-11-16.json).
+
+Production generation, the site checker and 4,980 Schema.org vocabulary checks
+passed. JavaScript/shell syntax and whitespace checks passed. This crawler-policy
+update changes no visible design, professional content, structured-data graph,
+canonical URL or sitemap URL. Existing Google/Bing verification and their
+successful 40-page sitemap processing remain in place; no duplicate submission
+was needed. HTTP simulations do not establish verified operator-IP access,
+actual AI indexing or recommendation.
+
 ## Provider-specific implementation
 
 | Service | Website configuration | Official reference and limits |
@@ -29,7 +48,7 @@ The visible HTML answers who Jean-Pierre Boutros is, his Lebanon home base, worl
 
 A branded public search during this review returned the canonical professional website, StudioJPB and external credit sources. The search provider still showed an older homepage snapshot. Its retrieval tool could not fetch several new canonical pages, including Shareet, or the fresh-query homepage; the tool did not expose a useful HTTP diagnosis. This is not proof of a host firewall block or proof that every AI can retrieve the new release. The independently recorded Google/Bing live tests passed, and direct HTTP checks verify the published content separately.
 
-Post-deployment checks must fetch robots.txt and representative home/service/project URLs, check status, canonical/indexing directives and compare public bytes with the release. Requests using documented bot names originate from the audit machine, not verified operator IPs. Real Claude, OpenAI and Perplexity crawler-IP access requires hosting logs or an operator-origin live fetch to establish. No direct Claude/Grok answer-generation test or provider API call is claimed.
+The recorded post-deployment checks fetched robots.txt and representative home/service/project URLs, checked status and canonical/indexing directives, and matched public bytes with the release. Requests using documented bot names originate from the audit machine, not verified operator IPs. Real Claude, OpenAI and Perplexity crawler-IP access requires hosting logs or an operator-origin live fetch to establish. No direct Claude/Grok answer-generation test or provider API call is claimed.
 
 ## Visibility work that continues over time
 

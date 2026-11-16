@@ -18,9 +18,10 @@ Historical baseline: HostGator deployed content release `24ec55e` on 3 November
 34 gallery photographs, 51 studio entries across 27 artists and the selected
 one-page profile PDF. Its original evidence remains unchanged.
 
-AI search follow-up: explicit Claude search and AI user-fetch rules are recorded
-in [AI search visibility](docs/AI-SEARCH-VISIBILITY.md), with provider references,
-Grok coverage, verification limits and ongoing discovery work.
+AI search follow-up **deployed as `c9521aa`**: explicit Claude search and AI
+user-fetch rules passed 27 public HTTP checks. See [AI search visibility](docs/AI-SEARCH-VISIBILITY.md)
+and [live evidence](docs/ai-search-verification-2026-11-16.json) for provider
+references, Grok coverage, verification limits and ongoing discovery work.
 
 ## Documentation and evidence
 
