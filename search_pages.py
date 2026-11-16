@@ -3,12 +3,14 @@ import html
 import json
 import re
 from hashlib import sha256
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 from xml.etree import ElementTree as ET
 
 from services import AVAILABILITY, HOME_FAQ, REVIEWED, SERVICES, SERVICE_BY_SLUG
 from studio_credits import CREDIT_GROUPS, studio_groups_html
+from measurement import measurement_head, measurement_markup
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.jeanpierreboutros.com"
@@ -31,6 +33,12 @@ PAGE_REVIEW_DATES = {
 
 def absolute(path):
     return SITE + "/" + path.lstrip("/")
+
+
+@lru_cache(maxsize=None)
+def asset_url(path):
+    """Version local image URLs so immutable caching cannot retain stale images."""
+    return path + "?v=" + sha256((ROOT / path).read_bytes()).hexdigest()[:12]
 
 
 def json_text(value):
@@ -78,7 +86,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
             "jobTitle": "International sound engineer, FOH engineer, recording and mixing engineer",
             "description": DESCRIPTION, "email": "jp@jeanpierreboutros.com",
             "telephone": "+9613883863",
-            "image": absolute(search_image("about-portrait.jpg")["src"]),
+            "image": absolute(asset_url(search_image("about-portrait.jpg")["src"])),
             "homeLocation": {"@type": "Country", "name": "Lebanon"},
             "sameAs": ["https://www.instagram.com/jp.boutros",
                        "https://www.facebook.com/jean.p.boutros",
@@ -164,12 +172,12 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
     if preload_image:
         variants = manifest[preload_image]["variants"]
         default = next((v for v in variants if v["width"] >= 960), variants[-1])
-        srcset = ", ".join(f'/{v["src"]} {v["width"]}w' for v in variants)
-        image_preload = (f'<link rel="preload" as="image" href="/{e(default["src"])}" '
+        srcset = ", ".join(f'/{asset_url(v["src"])} {v["width"]}w' for v in variants)
+        image_preload = (f'<link rel="preload" as="image" href="/{e(asset_url(default["src"]))}" '
                          f'imagesrcset="{e(srcset)}" imagesizes="{e(image_sizes)}" '
                          'fetchpriority="high" />')
     picture = search_image(image)
-    picture_url = absolute(picture["src"])
+    picture_url = absolute(asset_url(picture["src"]))
     url = absolute(path)
     return f'''<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -179,7 +187,7 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#191e1c" />
   <link rel="canonical" href="{e(url)}" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="icon" type="image/png" href="/{asset_url('favicon.png')}" />
   <link rel="apple-touch-icon" href="/favicon.png" />
   <meta property="og:type" content="{e(og_type)}" />
   <meta property="og:url" content="{e(url)}" />
@@ -202,7 +210,8 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
 {image_preload}
   <link rel="stylesheet" href="/fonts/fonts.css?v={font_version}" />
   <link rel="stylesheet" href="/styles.css?v={css_version}" />
-  <script src="/main.js?v={js_version}" defer></script>'''
+  <script src="/main.js?v={js_version}" defer></script>
+  {measurement_head()}'''
 
 
 def faq_html(items, heading="Questions before the project."):
@@ -310,6 +319,7 @@ def render_search_pages(context):
   <main id="main" tabindex="-1" class="detail-page container">{body}</main>
   {site_links()}
   {footer}
+  {measurement_markup()}
   {motion}
   {lightbox}
   <script type="application/json" id="gallery-data">{json_text(gallery_data)}</script>
@@ -390,13 +400,28 @@ def render_search_pages(context):
             f'<li><a href="/{key}/">{e(SERVICE_BY_SLUG[key]["name"])}</a></li>'
             for key in related_services
         ) + '</ul><p class="record-provenance">Engineering role confirmed by Jean-Pierre Boutros. Linked production coverage provides event context.</p></section>'
-        related_projects = [p[0] for p in project_records if p[5] == category and p[0] != slug][:2]
+        if slug == "studio-jpb":
+            body += '<section class="page-section"><h2>Selected released engineering work</h2><ul class="related-links">'
+            for group_id, work_title in [("nancy-ajram", "Warana Eh"), ("nancy-ajram", "Men Nazra"),
+                                         ("carole-samaha", "Golden Album")]:
+                group = next(g for g in CREDIT_GROUPS if g["id"] == group_id)
+                work = next(w for w in group["works"] if w["title"] == work_title)
+                body += (f'<li><a href="/studio-credits/#{e(group_id)}">'
+                         f'{e(group["name"])} · {e(work_title)} · {e(work["role"])}</a></li>')
+            body += '</ul></section>'
+        related_by_project = {
+            "nancy-ajram-olympia": ["baligh-hamdi-night", "warda-night"],
+            "marcel-khalife-amman": ["marcel-khalife-muscat", "marcel-khalife-baalbeck"],
+            "studio-jpb": ["carole-samaha-golden-album", "marcel-khalife-amman"],
+        }
+        related_projects = related_by_project.get(slug,
+            [p[0] for p in project_records if p[5] == category and p[0] != slug][:2])
         if related_projects:
             body += '<section class="page-section"><h2>More from the portfolio</h2>' + project_grid(related_projects) + '</section>'
         body += inquiry_html(name + " / similar production inquiry")
         article_id = absolute(path + "#record")
         picture = search_image(filename)
-        image_data = {"@type": "ImageObject", "contentUrl": absolute(picture["src"]),
+        image_data = {"@type": "ImageObject", "contentUrl": absolute(asset_url(picture["src"])),
                       "caption": alt}
         if filename in sources:
             image_data["creditText"] = sources[filename]["name"]

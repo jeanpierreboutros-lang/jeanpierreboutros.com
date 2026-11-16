@@ -136,6 +136,30 @@ Deployed as `f9d2867`. All 40 pages and the fingerprinted stylesheet matched
 live bytes; desktop and 320px contact layouts were observed. See the
 [social-profile verification](docs/social-profile-verification-2026-11-16.json).
 
+## Inquiry tracking and measured performance
+
+The next release adds consent-based Google Analytics in `analytics.js`, configured
+by `measurement.py`. It measures page visits, email/WhatsApp link clicks and
+profile-download clicks. The Google tag stays unloaded until the visitor allows
+analytics; Privacy & analytics controls appear in the footer. See
+[the measurement implementation](docs/ANALYTICS.md).
+
+The public mobile/desktop PageSpeed report now supplies a real lab baseline:
+94 / 99 Performance, with 100 Accessibility, Best Practices and SEO on both.
+Real-user field data is unavailable. See [the before report](docs/growth-performance-before-2026-11-16.json).
+Small 160px/240px variants and content-versioned image URLs address the measured
+thumbnail/caching findings while retaining all pre-existing image bytes.
+`python3 optimize_images.py --thumbnails-only` adds small variants without
+rewriting existing derivatives. Run `python3 build.py` after changing images,
+CSS or JavaScript so every content fingerprint stays current.
+
+`node test_analytics.js` checks consent, opt-out, safe event payloads and hostname
+isolation without contacting Google. The source configuration and tests are
+excluded from deployment; only the runtime analytics script is copied.
+[Credit requests](docs/OUTREACH-DRAFTS.md) remain drafts at the owner's request.
+[Deeper technical case details](docs/PROJECT-DETAILS-TO-CONFIRM.md) and approved
+testimonials require factual input before publication.
+
 ## Editing content
 
 Edit `build.py` for portfolio content, `studio_credits.py` for song/album credits, `services.py` for services and FAQs, and `search_pages.py` for shared page generation, metadata and structured data. Regenerate with `python3 build.py`. The generator needs Python 3.9 or later and only its standard library. It fingerprints CSS and JavaScript URLs so deployed updates do not reuse stale browser caches. Rebuild after editing either asset, too. Do not hand-edit generated HTML, sitemap, robots or `llms.txt` files. Keep research evidence and publication decisions in the corresponding documentation records.

@@ -10,6 +10,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+from hashlib import sha256
 from urllib.parse import unquote, urlsplit
 from urllib.robotparser import RobotFileParser
 from xml.etree import ElementTree as ET
@@ -176,6 +177,11 @@ def main():
         assert len(page.titles) == 1 and page.titles[0].strip(), (path, "title")
         assert page.meta.get("description", "").strip(), (path, "description")
         assert "noindex" not in page.meta.get("robots", ""), path
+        assert page.meta.get("ga-measurement-id") == "G-KHS391KEP1", (path, "Analytics stream")
+        assert 'src="https://www.googletagmanager.com/' not in text, (path, "Tag loaded before consent")
+        assert "privacy-details" in page.ids and "analytics-choice-title" in page.ids
+        analytics_version = sha256((ROOT / "analytics.js").read_bytes()).hexdigest()[:12]
+        assert f'/analytics.js?v={analytics_version}' in page.refs, (path, "Analytics asset")
         assert page.meta["og:url"] == url and page.meta["og:title"] == page.titles[0]
         assert page.meta["twitter:title"] == page.titles[0]
         assert page.meta["og:description"] == page.meta["twitter:description"] == page.meta["description"]

@@ -1,0 +1,54 @@
+{
+  "checked": "2026-11-16",
+  "baseline_content_commit": "f9d286732831aeaaca3e90102c5cea9702c4cdfa",
+  "method": "Observed the public PageSpeed Insights report in Chrome; values transcribed as displayed.",
+  "report": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/8gsl5g6orh",
+  "report_display": "Nov 16, 2026, 3:45:43 PM",
+  "capture_timezone": "GMT+3",
+  "lighthouse": "13.6.0",
+  "mobile": {
+    "performance": 94,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "fcp_display": "2.0 s",
+    "lcp_display": "2.7 s",
+    "total_blocking_time_display": "0 ms",
+    "cls": 0,
+    "speed_index_display": "3.0 s",
+    "device": "Emulated Moto G Power",
+    "network": "Slow 4G throttling",
+    "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/8gsl5g6orh?form_factor=mobile"
+  },
+  "desktop": {
+    "performance": 99,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "fcp_display": "0.6 s",
+    "lcp_display": "0.6 s",
+    "total_blocking_time_display": "0 ms",
+    "cls": 0,
+    "speed_index_display": "1.2 s",
+    "device": "Emulated Desktop",
+    "network": "Custom throttling",
+    "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/8gsl5g6orh?form_factor=desktop"
+  },
+  "field_data": {
+    "status": "No Data",
+    "inp": null,
+    "interpretation": "No real-user Core Web Vitals baseline; lab TBT is not field INP."
+  },
+  "mobile_findings": {
+    "cache_lifetimes_estimated_savings_kib": 458,
+    "image_delivery_estimated_savings_kib": 277,
+    "render_blocking_estimated_savings_ms": 340,
+    "image_examples": "Several small portfolio thumbnails fetched the 480px derivative. Smaller responsive variants and accurate sizes can reduce transfer without changing full-size photographs.",
+    "cache_examples": "Image and logo requests in the report showed Cache TTL None."
+  },
+  "limits": [
+    "One before-release lab report, not a field-data result or a ranking guarantee.",
+    "Scores vary by run and network.",
+    "The earlier API quota failure remains historical; this successful browser report supersedes the lack of a lab score."
+  ]
+}

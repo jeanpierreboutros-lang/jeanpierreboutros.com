@@ -1,0 +1,48 @@
+{
+  "checked": "2026-11-16",
+  "google_search_console": {
+    "property": "sc-domain:jeanpierreboutros.com",
+    "performance": "Processing data, please check again in a day or so",
+    "query_country_page_exports": "Unavailable; export disabled",
+    "page_indexing": "Processing data, please check again in a day or so",
+    "interpretation": "No organic query, country, click or indexed-coverage baseline available yet. Do not substitute zero for missing data."
+  },
+  "bing_webmaster_tools": {
+    "site": "https://www.jeanpierreboutros.com/",
+    "search_performance": "Please check back in 48 hours while we prepare the data for your site",
+    "ai_performance": {
+      "citation_sources_display": "Microsoft Copilots and Partners",
+      "displayed_range": "August 16, 2026 to November 15, 2026",
+      "total_citations_display": 0,
+      "average_cited_pages_display": 0,
+      "grounding_queries": "No data available; 0 rows",
+      "interpretation": "Newly verified property; range ends before the current release. This is not a valid after-release measure and does not cover all AI services."
+    },
+    "sitemap": "Success; 40 discovered URLs"
+  },
+  "google_analytics": {
+    "account_created": true,
+    "property_created": true,
+    "property_name": "jeanpierreboutros.com",
+    "measurement_id": "G-KHS391KEP1",
+    "stream_name": "Jean-Pierre Boutros — Website",
+    "stream_url": "https://www.jeanpierreboutros.com",
+    "account_sharing": "Google defaults retained after explicit owner choice: products/services off, modeling/business insights on, technical support on, recommendations on.",
+    "agreement": "Owner explicitly approved Analytics Terms and Data Processing Terms; both accepted in the setup UI.",
+    "collection_status_at_setup": "Data collection pending; no installed website tag yet at the point of account creation.",
+    "reporting_timezone": "Lebanon (GMT+02:00 shown in Admin)",
+    "reporting_currency": "USD",
+    "event_custom_dimensions": {
+      "Contact method": "contact_method",
+      "Link location": "link_location"
+    },
+    "enhanced_measurement": "Off, explicitly approved by owner and confirmed in stream details"
+  },
+  "external_requests": {
+    "state": "Drafts only, as requested by owner",
+    "draft_file": "OUTREACH-DRAFTS.md",
+    "sent": false
+  },
+  "testimonials": "No approved quote supplied; none invented or published",
+  "deeper_case_details": "Awaiting confirmed technical facts; verified release/related-project links improved independently"
+}

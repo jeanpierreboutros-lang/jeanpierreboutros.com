@@ -4,6 +4,16 @@
     "height": 1080,
     "variants": [
       {
+        "src": "photos/optimized/abeer-nehme-baalbeck-2016-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-baalbeck-2016-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
         "src": "photos/optimized/abeer-nehme-baalbeck-2016-480.webp",
         "width": 480,
         "height": 270
@@ -24,6 +34,16 @@
     "width": 2400,
     "height": 1600,
     "variants": [
+      {
+        "src": "photos/optimized/abeer-nehme-ehdeniyat-2025-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-ehdeniyat-2025-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/abeer-nehme-ehdeniyat-2025-480.webp",
         "width": 480,
@@ -46,6 +66,16 @@
     "height": 1200,
     "variants": [
       {
+        "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
         "src": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp",
         "width": 480,
         "height": 360
@@ -66,6 +96,16 @@
     "width": 1740,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/about-live-stage-160.webp",
+        "width": 160,
+        "height": 177
+      },
+      {
+        "src": "photos/optimized/about-live-stage-240.webp",
+        "width": 240,
+        "height": 265
+      },
       {
         "src": "photos/optimized/about-live-stage-480.webp",
         "width": 480,
@@ -88,6 +128,16 @@
     "height": 1280,
     "variants": [
       {
+        "src": "photos/optimized/about-portrait-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/about-portrait-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
         "src": "photos/optimized/about-portrait-480.webp",
         "width": 480,
         "height": 320
@@ -109,6 +159,16 @@
     "height": 807,
     "variants": [
       {
+        "src": "photos/optimized/adam-ehdeniyat-2025-160.webp",
+        "width": 160,
+        "height": 240
+      },
+      {
+        "src": "photos/optimized/adam-ehdeniyat-2025-240.webp",
+        "width": 240,
+        "height": 360
+      },
+      {
         "src": "photos/optimized/adam-ehdeniyat-2025-480.webp",
         "width": 480,
         "height": 720
@@ -125,6 +185,16 @@
     "height": 1400,
     "variants": [
       {
+        "src": "photos/optimized/al-shami-ehdeniyat-2025-160.webp",
+        "width": 160,
+        "height": 239
+      },
+      {
+        "src": "photos/optimized/al-shami-ehdeniyat-2025-240.webp",
+        "width": 240,
+        "height": 358
+      },
+      {
         "src": "photos/optimized/al-shami-ehdeniyat-2025-480.webp",
         "width": 480,
         "height": 716
@@ -140,6 +210,16 @@
     "width": 1280,
     "height": 720,
     "variants": [
+      {
+        "src": "photos/optimized/al-sharq-symphony-istanbul-2017-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/al-sharq-symphony-istanbul-2017-240.webp",
+        "width": 240,
+        "height": 135
+      },
       {
         "src": "photos/optimized/al-sharq-symphony-istanbul-2017-480.webp",
         "width": 480,
@@ -162,6 +242,16 @@
     "height": 1154,
     "variants": [
       {
+        "src": "photos/optimized/beirut-the-sea-lover-2019-160.webp",
+        "width": 160,
+        "height": 96
+      },
+      {
+        "src": "photos/optimized/beirut-the-sea-lover-2019-240.webp",
+        "width": 240,
+        "height": 144
+      },
+      {
         "src": "photos/optimized/beirut-the-sea-lover-2019-480.webp",
         "width": 480,
         "height": 288
@@ -183,6 +273,16 @@
     "height": 316,
     "variants": [
       {
+        "src": "photos/optimized/beiteddine-marco-polo-2013-160.webp",
+        "width": 160,
+        "height": 105
+      },
+      {
+        "src": "photos/optimized/beiteddine-marco-polo-2013-240.webp",
+        "width": 240,
+        "height": 157
+      },
+      {
         "src": "photos/optimized/beiteddine-marco-polo-2013-480.webp",
         "width": 480,
         "height": 314
@@ -199,6 +299,16 @@
     "height": 600,
     "variants": [
       {
+        "src": "photos/optimized/carole-samaha-golden-album-2023-160.webp",
+        "width": 160,
+        "height": 160
+      },
+      {
+        "src": "photos/optimized/carole-samaha-golden-album-2023-240.webp",
+        "width": 240,
+        "height": 240
+      },
+      {
         "src": "photos/optimized/carole-samaha-golden-album-2023-480.webp",
         "width": 480,
         "height": 480
@@ -214,6 +324,16 @@
     "width": 1345,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/cartoon-orchestra-kuwait-2025-160.webp",
+        "width": 160,
+        "height": 228
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-kuwait-2025-240.webp",
+        "width": 240,
+        "height": 343
+      },
       {
         "src": "photos/optimized/cartoon-orchestra-kuwait-2025-480.webp",
         "width": 480,
@@ -236,6 +356,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/concert-arena-led-screens-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/concert-arena-led-screens-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/concert-arena-led-screens-480.webp",
         "width": 480,
         "height": 640
@@ -256,6 +386,16 @@
     "width": 1440,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/foh-church-concert-organ-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-church-concert-organ-240.webp",
+        "width": 240,
+        "height": 320
+      },
       {
         "src": "photos/optimized/foh-church-concert-organ-480.webp",
         "width": 480,
@@ -278,6 +418,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/foh-cl5-closeup-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-cl5-closeup-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/foh-cl5-closeup-480.webp",
         "width": 480,
         "height": 640
@@ -298,6 +448,16 @@
     "width": 1440,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/foh-concert-hall-aerial-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-concert-hall-aerial-240.webp",
+        "width": 240,
+        "height": 320
+      },
       {
         "src": "photos/optimized/foh-concert-hall-aerial-480.webp",
         "width": 480,
@@ -320,6 +480,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/foh-console-dark-venue-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-console-dark-venue-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/foh-console-dark-venue-480.webp",
         "width": 480,
         "height": 640
@@ -340,6 +510,16 @@
     "width": 1900,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/foh-headphones-monitor-160.webp",
+        "width": 160,
+        "height": 162
+      },
+      {
+        "src": "photos/optimized/foh-headphones-monitor-240.webp",
+        "width": 240,
+        "height": 243
+      },
       {
         "src": "photos/optimized/foh-headphones-monitor-480.webp",
         "width": 480,
@@ -362,6 +542,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/foh-indoor-concert-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-indoor-concert-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/foh-indoor-concert-480.webp",
         "width": 480,
         "height": 640
@@ -382,6 +572,16 @@
     "width": 1440,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/foh-mixer-closeup-blue-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-mixer-closeup-blue-240.webp",
+        "width": 240,
+        "height": 320
+      },
       {
         "src": "photos/optimized/foh-mixer-closeup-blue-480.webp",
         "width": 480,
@@ -404,6 +604,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/foh-orchestra-ornate-backdrop-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-orchestra-ornate-backdrop-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/foh-orchestra-ornate-backdrop-480.webp",
         "width": 480,
         "height": 640
@@ -424,6 +634,16 @@
     "width": 1920,
     "height": 1440,
     "variants": [
+      {
+        "src": "photos/optimized/foh-outdoor-night-setup-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/foh-outdoor-night-setup-240.webp",
+        "width": 240,
+        "height": 180
+      },
       {
         "src": "photos/optimized/foh-outdoor-night-setup-480.webp",
         "width": 480,
@@ -446,6 +666,16 @@
     "height": 1440,
     "variants": [
       {
+        "src": "photos/optimized/foh-pov-concert-beams-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/foh-pov-concert-beams-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
         "src": "photos/optimized/foh-pov-concert-beams-480.webp",
         "width": 480,
         "height": 360
@@ -466,6 +696,16 @@
     "width": 1920,
     "height": 1440,
     "variants": [
+      {
+        "src": "photos/optimized/foh-pov-red-curtain-concert-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/foh-pov-red-curtain-concert-240.webp",
+        "width": 240,
+        "height": 180
+      },
       {
         "src": "photos/optimized/foh-pov-red-curtain-concert-480.webp",
         "width": 480,
@@ -488,6 +728,16 @@
     "height": 1440,
     "variants": [
       {
+        "src": "photos/optimized/foh-pov-theater-stage-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/foh-pov-theater-stage-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
         "src": "photos/optimized/foh-pov-theater-stage-480.webp",
         "width": 480,
         "height": 360
@@ -508,6 +758,16 @@
     "width": 1440,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/foh-purple-ornate-venue-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-purple-ornate-venue-240.webp",
+        "width": 240,
+        "height": 320
+      },
       {
         "src": "photos/optimized/foh-purple-ornate-venue-480.webp",
         "width": 480,
@@ -530,6 +790,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/foh-yamaha-multiview-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/foh-yamaha-multiview-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/foh-yamaha-multiview-480.webp",
         "width": 480,
         "height": 640
@@ -550,6 +820,16 @@
     "width": 1920,
     "height": 1440,
     "variants": [
+      {
+        "src": "photos/optimized/hero-foh-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/hero-foh-240.webp",
+        "width": 240,
+        "height": 180
+      },
       {
         "src": "photos/optimized/hero-foh-480.webp",
         "width": 480,
@@ -572,6 +852,16 @@
     "height": 3024,
     "variants": [
       {
+        "src": "photos/optimized/lebanese-philharmonic-diman-2026-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/lebanese-philharmonic-diman-2026-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
         "src": "photos/optimized/lebanese-philharmonic-diman-2026-480.webp",
         "width": 480,
         "height": 360
@@ -592,6 +882,16 @@
     "width": 1536,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/live-outdoor-foh-night-160.webp",
+        "width": 160,
+        "height": 200
+      },
+      {
+        "src": "photos/optimized/live-outdoor-foh-night-240.webp",
+        "width": 240,
+        "height": 300
+      },
       {
         "src": "photos/optimized/live-outdoor-foh-night-480.webp",
         "width": 480,
@@ -614,6 +914,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/live-outdoor-stage-160.webp",
+        "width": 160,
+        "height": 177
+      },
+      {
+        "src": "photos/optimized/live-outdoor-stage-240.webp",
+        "width": 240,
+        "height": 265
+      },
+      {
         "src": "photos/optimized/live-outdoor-stage-480.webp",
         "width": 480,
         "height": 530
@@ -634,6 +944,16 @@
     "width": 2500,
     "height": 1667,
     "variants": [
+      {
+        "src": "photos/optimized/marcel-khalife-amman-citadel-2016-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-amman-citadel-2016-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/marcel-khalife-amman-citadel-2016-480.webp",
         "width": 480,
@@ -656,6 +976,16 @@
     "height": 1080,
     "variants": [
       {
+        "src": "photos/optimized/marcel-khalife-baalbeck-2019-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-baalbeck-2019-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
         "src": "photos/optimized/marcel-khalife-baalbeck-2019-480.webp",
         "width": 480,
         "height": 270
@@ -677,6 +1007,16 @@
     "height": 450,
     "variants": [
       {
+        "src": "photos/optimized/marcel-khalife-muscat-2019-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/marcel-khalife-muscat-2019-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
         "src": "photos/optimized/marcel-khalife-muscat-2019-480.webp",
         "width": 480,
         "height": 270
@@ -692,6 +1032,16 @@
     "width": 1440,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/marina-viotti-zouk-mikael-2026-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/marina-viotti-zouk-mikael-2026-240.webp",
+        "width": 240,
+        "height": 320
+      },
       {
         "src": "photos/optimized/marina-viotti-zouk-mikael-2026-480.webp",
         "width": 480,
@@ -714,6 +1064,16 @@
     "height": 316,
     "variants": [
       {
+        "src": "photos/optimized/mazeej-ndu-2019-160.webp",
+        "width": 160,
+        "height": 105
+      },
+      {
+        "src": "photos/optimized/mazeej-ndu-2019-240.webp",
+        "width": 240,
+        "height": 157
+      },
+      {
         "src": "photos/optimized/mazeej-ndu-2019-480.webp",
         "width": 480,
         "height": 314
@@ -729,6 +1089,16 @@
     "width": 1080,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/midas-heritage-console-160.webp",
+        "width": 160,
+        "height": 284
+      },
+      {
+        "src": "photos/optimized/midas-heritage-console-240.webp",
+        "width": 240,
+        "height": 427
+      },
       {
         "src": "photos/optimized/midas-heritage-console-480.webp",
         "width": 480,
@@ -751,6 +1121,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/monitor-desk-video-screens-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/monitor-desk-video-screens-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/monitor-desk-video-screens-480.webp",
         "width": 480,
         "height": 640
@@ -771,6 +1151,16 @@
     "width": 1080,
     "height": 720,
     "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp",
         "width": 480,
@@ -793,6 +1183,16 @@
     "height": 2768,
     "variants": [
       {
+        "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-160.webp",
+        "width": 160,
+        "height": 106
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
         "src": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp",
         "width": 480,
         "height": 319
@@ -813,6 +1213,16 @@
     "width": 1600,
     "height": 1067,
     "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-expo-dubai-2021-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-expo-dubai-2021-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/nancy-ajram-expo-dubai-2021-480.webp",
         "width": 480,
@@ -835,6 +1245,16 @@
     "height": 720,
     "variants": [
       {
+        "src": "photos/optimized/nancy-ajram-jounieh-2022-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-jounieh-2022-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
         "src": "photos/optimized/nancy-ajram-jounieh-2022-480.webp",
         "width": 480,
         "height": 270
@@ -856,6 +1276,16 @@
     "height": 661,
     "variants": [
       {
+        "src": "photos/optimized/nancy-ajram-olympia-paris-2022-160.webp",
+        "width": 160,
+        "height": 163
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-olympia-paris-2022-240.webp",
+        "width": 240,
+        "height": 245
+      },
+      {
         "src": "photos/optimized/nancy-ajram-olympia-paris-2022-480.webp",
         "width": 480,
         "height": 490
@@ -871,6 +1301,16 @@
     "width": 2048,
     "height": 1366,
     "variants": [
+      {
+        "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp",
         "width": 480,
@@ -893,6 +1333,16 @@
     "height": 1440,
     "variants": [
       {
+        "src": "photos/optimized/pope-leo-waterfront-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/pope-leo-waterfront-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
         "src": "photos/optimized/pope-leo-waterfront-480.webp",
         "width": 480,
         "height": 360
@@ -913,6 +1363,16 @@
     "width": 1920,
     "height": 1280,
     "variants": [
+      {
+        "src": "photos/optimized/portrait-studio-2-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/portrait-studio-2-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/portrait-studio-2-480.webp",
         "width": 480,
@@ -935,6 +1395,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/studio-manley-outboard-160.webp",
+        "width": 160,
+        "height": 213
+      },
+      {
+        "src": "photos/optimized/studio-manley-outboard-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
         "src": "photos/optimized/studio-manley-outboard-480.webp",
         "width": 480,
         "height": 640
@@ -955,6 +1425,16 @@
     "width": 1627,
     "height": 1920,
     "variants": [
+      {
+        "src": "photos/optimized/studio-mixing-console-160.webp",
+        "width": 160,
+        "height": 189
+      },
+      {
+        "src": "photos/optimized/studio-mixing-console-240.webp",
+        "width": 240,
+        "height": 283
+      },
       {
         "src": "photos/optimized/studio-mixing-console-480.webp",
         "width": 480,
@@ -977,6 +1457,16 @@
     "height": 1920,
     "variants": [
       {
+        "src": "photos/optimized/studio-strip-160.webp",
+        "width": 160,
+        "height": 189
+      },
+      {
+        "src": "photos/optimized/studio-strip-240.webp",
+        "width": 240,
+        "height": 283
+      },
+      {
         "src": "photos/optimized/studio-strip-480.webp",
         "width": 480,
         "height": 566
@@ -997,6 +1487,16 @@
     "width": 1200,
     "height": 800,
     "variants": [
+      {
+        "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-160.webp",
+        "width": 160,
+        "height": 107
+      },
+      {
+        "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-240.webp",
+        "width": 240,
+        "height": 160
+      },
       {
         "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp",
         "width": 480,
@@ -1019,6 +1519,16 @@
     "height": 1711,
     "variants": [
       {
+        "src": "photos/optimized/the-eighties-knockout-kuwait-2026-160.webp",
+        "width": 160,
+        "height": 212
+      },
+      {
+        "src": "photos/optimized/the-eighties-knockout-kuwait-2026-240.webp",
+        "width": 240,
+        "height": 318
+      },
+      {
         "src": "photos/optimized/the-eighties-knockout-kuwait-2026-480.webp",
         "width": 480,
         "height": 637
@@ -1040,6 +1550,16 @@
     "height": 720,
     "variants": [
       {
+        "src": "photos/optimized/zade-dirani-amman-2019-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/zade-dirani-amman-2019-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
         "src": "photos/optimized/zade-dirani-amman-2019-480.webp",
         "width": 480,
         "height": 270
@@ -1060,6 +1580,16 @@
     "width": 483,
     "height": 316,
     "variants": [
+      {
+        "src": "photos/optimized/zade-dirani-dbayeh-2018-160.webp",
+        "width": 160,
+        "height": 105
+      },
+      {
+        "src": "photos/optimized/zade-dirani-dbayeh-2018-240.webp",
+        "width": 240,
+        "height": 157
+      },
       {
         "src": "photos/optimized/zade-dirani-dbayeh-2018-480.webp",
         "width": 480,

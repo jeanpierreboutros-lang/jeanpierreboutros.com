@@ -7,9 +7,10 @@ from datetime import date
 from hashlib import sha256
 from pathlib import Path
 
-from search_pages import HOME_DESCRIPTION, faq_html, graph, json_text, page_head, render_search_pages, site_links
+from search_pages import HOME_DESCRIPTION, asset_url, faq_html, graph, json_text, page_head, render_search_pages, site_links
 from services import AVAILABILITY, HOME_FAQ, SERVICES
 from studio_credits import CREDIT_GROUPS, studio_groups_html
+from measurement import measurement_markup
 
 OUT = Path(__file__).resolve().parent
 e = html.escape
@@ -244,9 +245,9 @@ def image(filename, alt, *, css="", sizes="100vw", eager=False):
         if not (OUT / variant["src"]).is_file():
             raise FileNotFoundError(f"Run optimize_images.py: {variant['src']}")
     default = next((v for v in variants if v["width"] >= 960), variants[-1])
-    srcset = ", ".join(f"{v['src']} {v['width']}w" for v in variants)
+    srcset = ", ".join(f"{asset_url(v['src'])} {v['width']}w" for v in variants)
     loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
-    return (f'<img class="{e(css)}" src="{e(default["src"])}" '
+    return (f'<img class="{e(css)}" src="{e(asset_url(default["src"]))}" '
             f'srcset="{e(srcset)}" sizes="{e(sizes)}" alt="{e(alt)}" '
             f'width="{info["width"]}" height="{info["height"]}" '
             f'{loading} decoding="async" />')
@@ -295,12 +296,12 @@ for index, (filename, title, alt, context) in enumerate(gallery):
     source = gallery_sources.get(filename)
     credit_text = f" · Image: {source['name']}" if source else ""
     credit_html = (f'<a class="image-credit" href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">Image: {e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a>' if source else "")
-    gallery_data.append({"src": full["src"], "alt": alt, "caption": f"{title} · {context}{credit_text}",
+    gallery_data.append({"src": asset_url(full["src"]), "alt": alt, "caption": f"{title} · {context}{credit_text}",
                          "width": full["width"], "height": full["height"]})
     poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg", "beiteddine-marco-polo-2013.jpg", "carole-samaha-golden-album-2023.jpg", "zade-dirani-dbayeh-2018.jpg", "mazeej-ndu-2019.jpg", "tarteeb-shareet-qncc-doha-2026.webp") else ""
     featured_attribute = ' data-gallery-featured' if index in (15, 16, 18, 19, 21, 23) else ''
     gallery_items.append(f'''<figure class="gallery-card{poster_class}"{featured_attribute}>
-  <a class="gallery-item" href="{e(full["src"])}" data-gallery-index="{index}"
+  <a class="gallery-item" href="{e(asset_url(full["src"]))}" data-gallery-index="{index}"
      aria-label="Enlarge photo: {e(alt)}" aria-haspopup="dialog" aria-controls="lightbox">
     {image(filename, alt, sizes="(max-width: 980px) 50vw, 33vw")}
     <span class="gallery-expand" aria-hidden="true">↗</span>
@@ -899,7 +900,7 @@ for project, article in zip(projects, project_articles):
   <a class="portfolio-link" href="/projects/{slug}/" data-project-open="{slug}">
     <span class="portfolio-number" aria-hidden="true">{project_numbers[slug]:02d}</span>
     <div class="portfolio-image">
-      {image(filename, alt, sizes="(max-width: 760px) 30vw, (max-width: 1100px) 180px, 240px")}
+      {image(filename, alt, sizes="(max-width: 360px) 75px, (max-width: 760px) max(82px, calc(28vw - .84rem)), (max-width: 1100px) 180px, 240px")}
     </div>
     <div class="portfolio-copy"><p class="portfolio-location">{e(location.split(' · ')[0])}</p><h3>{e(title)}</h3><p class="portfolio-production">{e(production)}</p><p class="portfolio-role">{e(role)}</p>{date_html}<span class="portfolio-arrow" aria-hidden="true">↗</span></div>
   </a>
@@ -935,7 +936,7 @@ INDEX = f'''<!DOCTYPE html>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="progress" aria-hidden="true"></div>
   <nav class="nav" id="nav" aria-label="Primary">
-    <a href="#top" class="nav-brand"><img class="nav-logo" src="jpb-monogram.png" alt="" width="27" height="32" /><span>Jean-Pierre Boutros<span class="brand-role">Sound engineer</span></span></a>
+    <a href="#top" class="nav-brand"><img class="nav-logo" src="{asset_url('jpb-monogram.png')}" alt="" width="27" height="32" /><span>Jean-Pierre Boutros<span class="brand-role">Sound engineer</span></span></a>
     <div class="nav-links">{nav_links("nav-contact")}</div>
     <button class="nav-burger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu" aria-haspopup="dialog">
       <span></span><span></span><span></span>
@@ -1069,9 +1070,10 @@ INDEX = f'''<!DOCTYPE html>
   </main>
   {site_links()}
   <footer class="footer container">
-    <a class="footer-brand" href="#top"><img src="jpb-monogram.png" alt="" width="27" height="32" />Jean-Pierre Boutros</a>
-    <span>© {date.today().year} · Sound engineer · Lebanon</span><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    <a class="footer-brand" href="#top"><img src="{asset_url('jpb-monogram.png')}" alt="" width="27" height="32" />Jean-Pierre Boutros</a>
+    <span>© {date.today().year} · Sound engineer · Lebanon</span><a href="#privacy-details" class="privacy-link">Privacy &amp; analytics</a><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
   </footer>
+  {measurement_markup()}
 
   <button class="motion-toggle" id="motionToggle" type="button" aria-label="Pause animations" hidden>
     <span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span>
