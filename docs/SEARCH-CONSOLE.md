@@ -128,8 +128,11 @@ https://schema.org/version/latest/schemaorg-current-https.jsonld
 
 ## Search and AI access
 
-Search access is explicitly allowed for Googlebot, bingbot, OAI-SearchBot and
-PerplexityBot. GPTBot is disallowed at the owner's request. Other crawler access
+Search access is explicitly allowed for Googlebot, bingbot, OAI-SearchBot,
+Claude-SearchBot and PerplexityBot. ChatGPT-User, Claude-User and Perplexity-User
+have explicit public-page access. See [AI search visibility](AI-SEARCH-VISIBILITY.md)
+for official provider references, Grok coverage and verification limits.
+GPTBot is disallowed at the owner's request. Other crawler access
 retains the previous wildcard policy; Google-Extended and other training
 controls were not silently changed. This is separate from firewall settings.
 

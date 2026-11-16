@@ -268,7 +268,8 @@ def main():
         assert role in (ROOT / "projects" / slug / "index.html").read_text(), (slug, role)
     robots = RobotFileParser()
     robots.parse((ROOT / "robots.txt").read_text().splitlines())
-    for bot in ("Googlebot", "bingbot", "OAI-SearchBot", "PerplexityBot"):
+    for bot in ("Googlebot", "bingbot", "OAI-SearchBot", "Claude-SearchBot",
+                "PerplexityBot", "ChatGPT-User", "Claude-User", "Perplexity-User"):
         assert all(robots.can_fetch(bot, url) for url in urls), bot
     assert not robots.can_fetch("GPTBot", SITE + "/"), "Owner's training exclusion"
     assert robots.site_maps() == [SITE + "/sitemap.xml"]

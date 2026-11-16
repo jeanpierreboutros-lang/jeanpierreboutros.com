@@ -509,7 +509,14 @@ def render_search_pages(context):
 User-agent: Googlebot
 User-agent: bingbot
 User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
 User-agent: PerplexityBot
+Allow: /
+
+# Fetching public pages in response to an AI user's request.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
 Allow: /
 
 # Owner preference: exclude OpenAI model-training crawl; search remains allowed.
