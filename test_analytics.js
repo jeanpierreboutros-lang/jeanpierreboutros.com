@@ -64,9 +64,10 @@ const allowed = fixture();
 allowed.click('[data-analytics-accept]');
 assert.equal(allowed.scripts.length, 1);
 assert.equal(allowed.scripts[0].src, 'https://www.googletagmanager.com/gtag/js?id=' + id);
-assert.equal(allowed.events('page_view').length, 1, 'Exactly one page view on activation');
+assert.equal(allowed.events('page_view').length, 0, 'No second manual page view alongside config');
+assert.equal(allowed.commands().filter(x => x[0] === 'config').length, 1);
 const config = allowed.commands().find(x => x[0] === 'config')[2];
-assert.equal(config.send_page_view, false);
+assert.equal(config.send_page_view, true);
 const globalSettings = allowed.commands().find(x => x[0] === 'set')[1];
 assert.equal(globalSettings.page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
 assert.equal(globalSettings.page_referrer, 'https://chatgpt.com');
@@ -103,7 +104,7 @@ allowed.link('mailto:jp@jeanpierreboutros.com');
 assert.equal(allowed.events('contact_click').length, 2, 'Revocation stops future interaction events');
 allowed.click('[data-analytics-accept]');
 assert.equal(allowed.scripts.length, 1, 'Re-enabling does not load a second tag');
-assert.equal(allowed.events('page_view').length, 1);
+assert.equal(allowed.commands().filter(x => x[0] === 'config').length, 1, 'Re-enabling does not configure another page view');
 
 for (const option of [{gpc: true}, {dnt: '1'}]) {
   const browserOptOut = fixture({...option, saved: JSON.stringify({choice: 'allow', expires: Date.now() + 10000})});

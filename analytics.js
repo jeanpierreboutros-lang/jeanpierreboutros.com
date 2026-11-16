@@ -78,13 +78,10 @@
         debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1',
         allow_google_signals: false, allow_ad_personalization_signals: false});
       tag('js', new Date());
-      tag('config', id, {send_page_view: false, allow_google_signals: false,
+      tag('config', id, {send_page_view: true, allow_google_signals: false,
         allow_ad_personalization_signals: false, cookie_expires: lifetime / 1000,
         cookie_flags: 'SameSite=Lax;Secure',
         page_location: window.location.origin + window.location.pathname,
-        page_referrer: referrerOrigin(),
-        debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1'});
-      tag('event', 'page_view', {page_location: window.location.origin + window.location.pathname,
         page_referrer: referrerOrigin(),
         debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1'});
       var script = document.createElement('script');
