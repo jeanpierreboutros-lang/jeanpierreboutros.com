@@ -17,7 +17,9 @@ time and US dollars.
 the visitor allows optional analytics. Rejecting consent sends no Analytics
 events. The footer's Privacy & analytics section explains collection and lets
 the visitor change the choice. The choice lasts up to 180 days in localStorage.
-Analytics cookies are configured for 180 days. Browser Do Not Track and Global
+Analytics cookies are configured for 180 days, including global configuration
+before destination initialization. The final browser cookie table confirmed
+this expiry. Browser Do Not Track and Global
 Privacy Control preferences keep this site's optional analytics off.
 
 On withdrawal, the implementation disables the Google tag, clears visible `_ga`
@@ -42,6 +44,10 @@ scroll, video and history events beyond the intended collection.
 | `contact_click` | Email or WhatsApp link clicked | `contact_method` (email/whatsapp), `page_path`, `link_location` |
 | `profile_download` | Professional-profile PDF link clicked | `page_path`, `link_location` |
 
+Custom events also explicitly supply the sanitized page URL, referral origin
+and an optional debug hint. Global page settings apply before destination
+initialization. The table lists the service-specific event fields.
+
 `link_location` is a fixed label: hero, about, contact, inquiry or other. Message
 contents, email subjects, full outbound URLs and user-entered form values are
 not included in these custom event payloads. Normal GA4 service processing still
@@ -55,9 +61,11 @@ location before filling it; do not commit client information to the repository.
 ## Reporting
 
 Use GA4 Realtime/DebugView to validate installation. The `analytics_debug=1`
-query option enables debug mode for a consented test page; the query itself is
-removed from the URL sent by this implementation. Label such visits as QA in
-release notes and exclude them when assessing real demand.
+query option supplies the debug-mode hint for a consented test page; the query
+itself is removed from the page URL. Realtime receipt was verified; independent
+DebugView filtering was not confirmed. This hint does not automatically exclude
+tests from normal reports. Label test visits as QA in release notes and account
+for them when assessing real demand.
 
 Standard reporting can take time to populate. Inspect `contact_click` by
 `contact_method` and `link_location`, and compare page/country/referral reports
@@ -88,6 +96,12 @@ The tests cover consent gating, refusal, expiry, browser opt-outs, withdrawal,
 payload sanitization, click semantics and hostname isolation without contacting
 Google. Verify the real production network and reporting separately after a
 release; unit tests alone do not establish collection.
+
+Production verification on 16 November 2026 confirmed consent gating, sanitized
+contact/PDF event URLs, one configured page view, 180-day cookies, cookie removal
+on withdrawal and Realtime event receipt. See
+[the analytics verification](growth-analytics-verification-2026-11-16.json).
+Standard GA4 session/engagement events may also be generated after consent.
 
 Official references checked on 16 November 2026:
 

@@ -1,15 +1,21 @@
 # Visibility and inquiry measurement
 
-Published and registered **16 November 2026**. Final content release `239f127`
-has 40 canonical pages, six services and 29 projects. Google and Bing ownership
-are verified; both processed the sitemap successfully and discovered 40 pages.
-Home and Shareet indexing requests were accepted. Search reports are processing;
-no organic performance/country/query baseline has been exported yet.
+Current content release **c931301**, deployed 16 November 2026, retains 40
+canonical pages, six services and 29 projects. Google and Bing ownership are
+verified and both processed the 40-URL sitemap. Search query/country/indexing
+reports were still processing when checked on 16 November; missing data is not
+zero and does not establish rankings.
 
-See [the release report](RELEASE-2026-11-16.md). No analytics provider, tracking
-script, cookies or new analytics data collection was installed. No analytics
-configuration was found in the repository. Preserve the 3 November historical
-baseline below alongside the new deployment annotation.
+Consent-based GA4 is now installed after the owner's account-sharing choice and
+explicit approval of Google's agreements. Realtime received test page views,
+contact clicks and profile-download clicks. These are QA events, not real
+inquiries. See [the implementation](ANALYTICS.md),
+[verification](growth-analytics-verification-2026-11-16.json) and
+[release report](GROWTH-RELEASE-2026-11-16.md).
+
+The earlier [SEO release report](RELEASE-2026-11-16.md) describes registration and
+the site before analytics was installed. Preserve its historical scope alongside
+the new release annotation and the 3 November baseline below.
 
 ## Establish a baseline
 
@@ -20,14 +26,18 @@ All 39 pages and 152 referenced resources matched local bytes; this establishes
 release delivery, not search visibility or performance gains. See the
 [verification record](portfolio-release-verification-2026-11-03.json).
 
-The new deployment annotation is 16 November 2026, final commit `239f127`,
-40 pages / 29 projects. The [current live record](portfolio-release-verification-2026-11-16.json)
+The earlier SEO deployment annotation is 16 November 2026, commit `239f127`,
+40 pages / 29 projects. The [SEO release live record](portfolio-release-verification-2026-11-16.json)
 distinguishes initial verification from the two-page metadata refinement.
 Registration is complete; export the first available Google Search Console and
 Bing Webmaster Tools performance data after processing finishes.
 Compare rolling 28-day periods, keeping seasonality and newly indexed pages in
 mind. An absent early impression is not proof of a technical fault. No search baseline,
-traffic totals, inquiry counts or Core Web Vitals improvement is claimed yet.
+organic traffic growth, qualified-inquiry gains or real-user Core Web Vitals
+improvement is claimed. The later lab comparison measured mobile
+Performance 94 → 96 and LCP 2.7s → 2.5s, desktop Performance 99 → 99, and CLS 0
+on both. See the [lab evidence](growth-performance-after-2026-11-16.json); scores
+vary and field data remains unavailable.
 
 | Metric | Source | Review |
 | --- | --- | --- |
@@ -41,7 +51,7 @@ traffic totals, inquiry counts or Core Web Vitals improvement is claimed yet.
 | Indexed pages and selected canonicals | Page indexing and URL inspections | After release, then monthly |
 | Sitemap and crawl errors | Google/Bing sitemap and indexing reports | After release, then monthly |
 | LCP, INP and CLS | Field reports; PageSpeed/CrUX when available | Monthly |
-| Identifiable AI referrals | Hosting/referrer reports or an approved future analytics tool | Monthly |
+| Identifiable AI referrals | Consented GA4 referral-origin reports, with incomplete coverage | Monthly |
 | Supported AI citation counts, cited URLs and grounding queries | Bing Webmaster Tools AI Performance, when available for the verified property | Monthly |
 | Qualified inquiries and bookings | A manual inquiry log | Monthly |
 
@@ -51,10 +61,13 @@ For each inquiry, optionally record the date, requested service, project country
 how the client found the website and whether it became a qualified discussion or
 booking. Keep private client details in a private system, not this repository.
 
-If an appropriate analytics service is later configured and authorized, measure
-email and WhatsApp clicks and profile downloads. A link click is an expression
-of interest, not proof that a message was sent or a booking made. Keep confirmed
-inquiries separate from click counts.
+GA4 now measures consented email and WhatsApp clicks as `contact_click`, and
+profile-PDF clicks as `profile_download`. The event-scoped dimensions Contact
+method and Link location are configured. A click is an expression of interest,
+not proof that a message was sent or a booking made. Keep confirmed inquiries
+separate from click counts. Copy the [blank inquiry log](inquiry-log-template.csv)
+to a private location before recording actual projects; never commit client
+information to this repository.
 
 ## AI visibility
 

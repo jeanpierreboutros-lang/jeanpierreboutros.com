@@ -36,7 +36,8 @@
       "Contact method": "contact_method",
       "Link location": "link_location"
     },
-    "enhanced_measurement": "Off, explicitly approved by owner and confirmed in stream details"
+    "enhanced_measurement": "Off, explicitly approved by owner and confirmed in stream details",
+    "collection_status_after_deployment": "Realtime received QA page_view, profile_download and contact_click events. See growth-analytics-verification-2026-11-16.json; counts are tests, not client demand."
   },
   "external_requests": {
     "state": "Drafts only, as requested by owner",

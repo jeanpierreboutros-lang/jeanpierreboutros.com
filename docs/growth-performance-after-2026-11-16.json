@@ -1,0 +1,53 @@
+{
+  "checked": "2026-11-16",
+  "measured_content_commit": "73e662f08d436094c124f8ec84af1f864b470f0e",
+  "report": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/l40ydmnu5s",
+  "report_display": "Nov 16, 2026, 4:41:07 PM",
+  "capture_timezone": "GMT+3",
+  "lighthouse": "13.6.0",
+  "mobile": {
+    "performance": 96,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "fcp_display": "1.8 s",
+    "lcp_display": "2.5 s",
+    "total_blocking_time_display": "0 ms",
+    "cls": 0,
+    "speed_index_display": "3.0 s",
+    "fcp_ms": 1802,
+    "lcp_ms": 2477,
+    "speed_index_ms": 3020,
+    "device": "Emulated Moto G Power",
+    "network": "Slow 4G throttling",
+    "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/l40ydmnu5s?form_factor=mobile"
+  },
+  "field_data": {
+    "status": "No Data",
+    "inp": null
+  },
+  "image_delivery_estimated_savings_kib": 46,
+  "notes": [
+    "Before: mobile Performance 94; after: 96. Scores and timings vary by run.",
+    "Image-delivery estimated opportunity decreased from 277 KiB to 46 KiB; not a direct byte-transfer measurement.",
+    "No field-data or ranking improvement is established by Lighthouse.",
+    "A subsequent analytics-only fix applies URL minimization globally and explicitly on every event. The Google tag remains unloaded without consent. This lab run preceded that fix; mobile image/cache/layout changes are identical."
+  ],
+  "desktop": {
+    "performance": 99,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "fcp_display": "0.5 s",
+    "lcp_display": "0.5 s",
+    "total_blocking_time_display": "0 ms",
+    "cls": 0,
+    "speed_index_display": "1.2 s",
+    "fcp_ms": 511,
+    "lcp_ms": 543,
+    "speed_index_ms": 1205,
+    "device": "Emulated Desktop",
+    "network": "Custom throttling",
+    "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/l40ydmnu5s?form_factor=desktop"
+  }
+}

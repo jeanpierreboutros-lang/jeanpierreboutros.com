@@ -1,0 +1,49 @@
+{
+  "checked": "2026-11-16",
+  "measurement_id": "G-KHS391KEP1",
+  "method": "Observed Chrome DevTools Network/Application panels and the signed-in GA4 Realtime overview; no client identifiers or account credentials recorded.",
+  "before_consent": "Fresh Incognito session: Google filter showed 0 matching requests before allowing analytics.",
+  "after_rejection": "Final normal-browser page reload with saved reject: 0 Google matches among 46 website requests; status Optional analytics are off.",
+  "after_allow": "Google tag returned 200 and GA4 collection returned 204. Exactly one page_view was observed on the fresh dcc8bd6 test page, followed by contact_click and profile_download.",
+  "payloads": {
+    "contact_click": {
+      "dl": "https://www.jeanpierreboutros.com/",
+      "en": "contact_click",
+      "link_location": "contact",
+      "contact_method": "whatsapp"
+    },
+    "profile_download": {
+      "dl": "https://www.jeanpierreboutros.com/",
+      "en": "profile_download",
+      "link_location": "hero"
+    }
+  },
+  "cookie_lifetime_final_release": {
+    "content_commit": "c931301970051a6c7b4788a2b310365f8004adb6",
+    "cookies": [
+      "_ga",
+      "_ga_KHS391KEP1"
+    ],
+    "expires_display": "2027-05-15T14:00:31.000Z",
+    "interpretation": "180 days after the 16 November 2026 test consent; applied globally before destination initialization."
+  },
+  "withdrawal_final_release": "Clicked Reject analytics using the public choice UI; status changed to off. Refreshed Application cookie table: Number of cookies shown in table: 0.",
+  "ga4_realtime_received": {
+    "page_view": 6,
+    "profile_download": 2,
+    "contact_click": 1,
+    "interpretation": "Representative QA-session counts at observation, including earlier refinement tests. These are installation proof, not organic traffic, qualified inquiries or bookings."
+  },
+  "custom_dimensions_created": {
+    "Contact method": "contact_method",
+    "Link location": "link_location"
+  },
+  "enhanced_measurement": "Off, explicitly approved by owner and confirmed in stream details.",
+  "visual_qa": "Privacy controls observed at 320 CSS px and desktop; reject/allow controls visible with matching prominence and no clipped banner text.",
+  "scope_limits": [
+    "Do Not Track, Global Privacy Control, expiry, blocked storage, tab synchronization and custom email-click classification verified in isolated unit fixtures; browser preferences were not changed.",
+    "WhatsApp contact opened its destination; no message was sent. The PDF save dialog was cancelled, so this is a click test, not a completed download.",
+    "Realtime receipt verified. DebugView filtering was not independently confirmed; do not assume the debug query removes test visits from standard reporting.",
+    "GA4 also supplies ordinary session/engagement events after consent; turning Enhanced measurement off does not disable GA4 service processing."
+  ]
+}
