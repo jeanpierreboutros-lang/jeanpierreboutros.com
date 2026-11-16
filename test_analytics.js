@@ -67,6 +67,9 @@ assert.equal(allowed.scripts[0].src, 'https://www.googletagmanager.com/gtag/js?i
 assert.equal(allowed.events('page_view').length, 1, 'Exactly one page view on activation');
 const config = allowed.commands().find(x => x[0] === 'config')[2];
 assert.equal(config.send_page_view, false);
+const globalSettings = allowed.commands().find(x => x[0] === 'set')[1];
+assert.equal(globalSettings.page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
+assert.equal(globalSettings.page_referrer, 'https://chatgpt.com');
 assert.equal(config.page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
 assert.equal(config.page_referrer, 'https://chatgpt.com');
 assert.equal(config.allow_google_signals, false);
@@ -82,6 +85,15 @@ assert.equal(allowed.events('profile_download').length, 1);
 assert.equal(allowed.events('contact_click')[0][2].contact_method, 'email');
 assert.equal(allowed.events('contact_click')[1][2].contact_method, 'whatsapp');
 assert.equal(allowed.events('contact_click')[1][2].link_location, 'inquiry');
+for (const event of allowed.events()) {
+  assert.equal(event[2].page_location, 'https://www.jeanpierreboutros.com/live-sound-engineer/');
+  assert.equal(event[2].page_referrer, 'https://chatgpt.com');
+}
+const debug = fixture({url: 'https://www.jeanpierreboutros.com/?analytics_debug=1&secret=private'});
+debug.click('[data-analytics-accept]');
+debug.link('mailto:jp@jeanpierreboutros.com');
+assert.ok(debug.events().every(x => x[2].debug_mode === true));
+assert.ok(!JSON.stringify(debug.commands()).includes('secret'));
 assert.ok(!JSON.stringify(allowed.commands()).includes('private'), 'No query, fragment, full referrer or message text sent');
 allowed.click('[data-analytics-settings]');
 allowed.click('[data-analytics-reject]');

@@ -69,9 +69,15 @@
       window.gtag = tag;
       tag('consent', 'default', {analytics_storage: 'denied', ad_storage: 'denied',
         ad_user_data: 'denied', ad_personalization: 'denied'});
-      tag('js', new Date());
       tag('consent', 'update', {analytics_storage: 'granted', ad_storage: 'denied',
         ad_user_data: 'denied', ad_personalization: 'denied'});
+      // Apply URL minimization globally as well as on individual events. Google
+      // can initialize destination defaults independently of a config command.
+      tag('set', {page_location: window.location.origin + window.location.pathname,
+        page_referrer: referrerOrigin(),
+        debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1',
+        allow_google_signals: false, allow_ad_personalization_signals: false});
+      tag('js', new Date());
       tag('config', id, {send_page_view: false, allow_google_signals: false,
         allow_ad_personalization_signals: false, cookie_expires: lifetime / 1000,
         cookie_flags: 'SameSite=Lax;Secure',
@@ -79,7 +85,8 @@
         page_referrer: referrerOrigin(),
         debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1'});
       tag('event', 'page_view', {page_location: window.location.origin + window.location.pathname,
-        page_referrer: referrerOrigin()});
+        page_referrer: referrerOrigin(),
+        debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1'});
       var script = document.createElement('script');
       script.async = true;
       script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
@@ -136,7 +143,10 @@
     try { url = new URL(link.href, window.location.href); } catch (error) { return; }
     var location = link.closest('#contact') ? 'contact' : link.closest('#inquiry') ? 'inquiry' :
       link.closest('.hero') ? 'hero' : link.closest('#about') ? 'about' : 'other';
-    var params = {page_path: window.location.pathname, link_location: location};
+    var params = {page_path: window.location.pathname, link_location: location,
+      page_location: window.location.origin + window.location.pathname,
+      page_referrer: referrerOrigin(),
+      debug_mode: new URLSearchParams(window.location.search).get('analytics_debug') === '1'};
     if (url.protocol === 'mailto:') {
       params.contact_method = 'email';
       tag('event', 'contact_click', params);
