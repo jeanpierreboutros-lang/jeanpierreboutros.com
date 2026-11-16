@@ -4,6 +4,11 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
+Latest local SEO review: **16 November 2026**, 40 canonical pages, six services,
+29 projects and 51 studio release entries. The darker folio, Tarteeb addition
+and this SEO pass await deployment. Read the [current audit and implementation
+report](docs/SEO-AUDIT-2026-11-16.md); the release history below remains intact.
+
 Documentation reconciled: 3 November 2026. The published website includes 39 canonical HTML pages, 28 project records, six service pages, 41 artist and ensemble collaborations, 34 gallery photographs, 51 studio release entries across 27 credited artists, and a downloadable one-page professional profile. HostGator deployed content release `24ec55e` on 3 November 2026 (Asia/Beirut).
 
 ## Documentation and evidence
@@ -12,6 +17,11 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
+| [16 November audit](docs/SEO-AUDIT-2026-11-16.md) | Current local implementation, live audit, validation, search intent and remaining actions |
+| [Current public HTTP audit](docs/search-audit-live-2026-11-16.json) | 59 requests, with the published 39-page state distinguished from the local release |
+| [Current external-link audit](docs/search-audit-external-2026-11-16.json) | 95 public destinations, including blocked/failed checks requiring review |
+| [Current Apache fixture](docs/search-audit-apache-2026-11-16.json) | 59 checks of the 40-page local release, redirects and shared-host-safe caching |
+| [Asset measurements](docs/search-audit-performance-2026-11-16.json) | Before/after local sizes, without unsupported Core Web Vitals claims |
 | [Implementation report](docs/SEO-IMPLEMENTATION-REPORT.md) | Current architecture, content inventory, release history and verification limits |
 | [Search registration](docs/SEARCH-CONSOLE.md) | Production checks and outstanding Google/Bing ownership and sitemap setup |
 | [Measurement plan](docs/MEASUREMENT.md) | Published baseline and future search/inquiry measurement |
@@ -28,16 +38,21 @@ These files are repository documentation and are excluded from the public websit
 
 ## Portfolio presentation
 
-The portfolio opens with Jean-Pierre's outdoor FOH photograph beside his name and a profile download near the top. The StudioJPB card and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
+Local design revision, 16 November 2026: the portfolio uses a production-folio direction with dark charcoal surfaces, warm grey type, a copper accent, a full-width name masthead and the original JPB monogram. The outdoor FOH photograph leads the mobile layout before the introduction. A numbered discipline strip links to the services, and Selected Work uses a ruled project index with photographs, engineering roles, dates and locations instead of repeated image cards. Events appear newest first under year headings; ongoing studio practices have a separate Studio & systems group. Project numbers follow this chronological index and remain consistent in dialogs and dedicated pages. Compact studio disclosures, a deeper charcoal Zynforge section and a photographic contact sheet give the later sections different rhythms. The profile download remains near the top. These local changes have not been deployed; the deployment record below describes the previous published release.
 
-The project browser starts with six featured projects: Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait. Filters expose all 28 projects or FOH, Monitors, Broadcast, Studio and Technical categories. Homepage image cards link to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+The StudioJPB entry and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
-`projects` in `build.py` holds the compact card summaries and filter categories. Its order must match `PROJECT_DETAILS`; the build validates matching anchors. `featured_order` determines the opening selection. All 28 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 34; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
+The project browser starts with all 29 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+
+`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 29 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 35; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
+
+Local content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 is the newest FOH entry. The local build now contains 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. The published release recorded above remains unchanged until deployment. The downloadable profile remains the existing one-page selection.
 
 ## Current project register
 
 | Project | Jean-Pierre's role | Location and date | Website anchor |
 | --- | --- | --- | --- |
+| Shareet: The 80s and 90s Concert · Tarteeb | FOH engineer | Al Mayassa Theatre, QNCC, Doha, Qatar; 14 November 2026 | `#tarteeb-shareet-doha` |
 | The Eighties... The Knockout | FOH engineer | JACC, Kuwait; October 2026 | `#the-eighties` |
 | Marina Viotti - Opera gala | FOH engineer | Roman Amphitheatre, Zouk Mikael, Lebanon; 8 September 2026 | `#marina-viotti` |
 | Cartoon Orchestra | FOH engineer | JACC National Theatre, Kuwait; 4 October 2025 | `#cartoon-orchestra` |
@@ -71,13 +86,13 @@ Production roles come from Jean-Pierre's confirmations, original biography or ex
 
 ## Stack and structure
 
-A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, database or runtime package installation. The existing Fraunces and Hanken Grotesk fonts are self-hosted under `fonts/`, with their original Unicode ranges, font-display: swap and open licenses. Images and all runtime assets are self-hosted. Normal page requests need no third-party font stylesheet.
+A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, database or runtime package installation. Hanken Grotesk is the folio's display and body typeface, with system monospace for production metadata. The earlier Fraunces files remain available in `fonts/`; only the Hanken Latin face is preloaded. Both families retain their original Unicode ranges, font-display: swap and open licenses. Images and all runtime assets are self-hosted. Normal page requests need no third-party font stylesheet.
 
 - `build.py` generates the homepage and invokes the static page generator.
 - `services.py` holds the six service descriptions, FAQs and the reviewed content date.
 - `studio_credits.py` holds 51 song/album entries, their exact engineering scope and source notes excluded from rendered pages; it generates the homepage disclosures and `/studio-credits/`.
 - `docs/studio-credit-research.json` reconciles the initial 36-name audit and five added artists to all 41 current collaboration names; the research records above preserve role evidence, owner confirmations and recorded search batches.
-- `search_pages.py` generates 38 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
+- `search_pages.py` generates 39 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
 - `check_site.py` validates the generated inventory, links, metadata, images, specific credits and crawler rules.
 - `hosting/seo.htaccess` contains domain-scoped canonical redirects; `hosting/install-seo.sh` merges the managed block and privately backs up existing rules.
 - `fonts/` contains the original typefaces, CSS, provenance manifest and SIL Open Font Licenses.
@@ -109,6 +124,8 @@ Only add specific production roles, dates, venues, results and testimonials that
 Featured image links use explicit `gallery_data` indices and `data-gallery-index` values. When inserting or reordering gallery entries, update every affected project link and verify that its enlarged photograph and caption still match. Update this register and the content totals whenever the inventory changes. Review `build_profile.py` when its selected credits change; the one-page PDF is a selection, not an exhaustive project or song list.
 
 ## Event sources and photograph records
+
+Shareet: The 80s and 90s Concert was presented by Tarteeb, supported by Qatar Calendar and led by conductor Khaled Nouri at Al Mayassa Theatre, QNCC, on 14 November 2026. Jean-Pierre confirmed his FOH role on 16 November 2026. Tarteeb’s Arabic description on Virgin Megastore Tickets confirms the production context, date and hall; the public 25° North listing cross-checks those details and supplies the promotional artwork. The image is labelled as artwork, with Tarteeb / Qatar Calendar attribution via 25° North. Its source WebP is preserved and responsive derivatives are generated locally. No performers are inferred from the programme’s list of songs. See [the research record](docs/tarteeb-shareet-research-2026-11-16.json) and [the event listing](https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026).
 
 The Eighties… The Knockout is featured with Jean-Pierre's confirmed FOH engineering role, his supplied signed artwork/cast photograph, and October 2026 production context from JACC's official event listing: https://tickets.jacc-kw.com/event/info/the-eighties--the-knockout/599. The original image is preserved, and both its feature and gallery view display the full composition.
 
@@ -205,7 +222,7 @@ Reuse an existing environment instead of recreating it when ReportLab is already
 - Descriptive gallery links, captions, live image counter and arrow-key navigation.
 - Closing the image viewer restores focus to the originating photograph.
 - Reduced-motion preferences disable animation, transitions and smooth scrolling.
-- Motion includes a staged hero entrance, a gentle one-time image zoom, a decorative waveform, staggered grid reveals, card/link hover feedback and modal/photo fades. The visible pause control stops site animations. The waveform and hero zoom pause offscreen, when the tab is hidden, or while a modal is open. No animation represents live audio playback. A system reduced-motion preference is honoured on load and when changed; keyboard-focused content is shown immediately.
+- Motion includes a brief hero entrance and image zoom, staggered reveals, link hover feedback and modal/photo fades. The former looping waveform is removed. The pause control sits below the footer. The hero zoom pauses offscreen, when the tab is hidden, or while a modal is open. A system reduced-motion preference is honoured on load and when changed; keyboard-focused content is shown immediately.
 - Content and navigation work without JavaScript; gallery links open images directly.
 - The menu closes when switching to desktop width.
 - No audio or video starts automatically.
@@ -219,7 +236,7 @@ Before deployment:
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`, `sh -n hosting/install-seo.sh` and `git diff --check`. For domain/range checks, download the official Schema.org vocabulary separately and run `python3 check_site.py --vocabulary /path/to/schemaorg-current-https.jsonld`. No network request is made by the checker.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
-4. Verify Featured (6), All work (28), FOH (16), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
+4. Verify Featured (6), All work (29), FOH (17), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
 5. Confirm images and section links resolve and project links point to the intended source.
 6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check all three website download links use the new PDF fingerprint and size.
 7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.
@@ -237,7 +254,7 @@ Documentation-only commits can follow the deployed content commit without changi
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
 4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check all sitemap URLs, affected projects, service pages, updated images and all three profile download links. Verify HTTP/apex/index.html redirects to the HTTPS www canonical, a real 404, search crawler access and GPTBot exclusion. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 39 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 40 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
 The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Every redirect is conditional on jeanpierreboutros.com or www.jeanpierreboutros.com, so the other domain is unaffected. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 

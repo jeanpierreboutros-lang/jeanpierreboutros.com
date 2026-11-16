@@ -993,6 +993,27 @@
       }
     ]
   },
+  "tarteeb-shareet-qncc-doha-2026.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
   "the-eighties-knockout-kuwait-2026.jpg": {
     "width": 1290,
     "height": 1711,

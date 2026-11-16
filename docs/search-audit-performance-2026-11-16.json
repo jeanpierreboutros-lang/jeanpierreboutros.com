@@ -1,0 +1,482 @@
+{
+  "checked": "2026-11-16",
+  "scope": "Local file sizes, not a network benchmark or Core Web Vitals measurement.",
+  "font_css": {
+    "before": 8760,
+    "after": 3608
+  },
+  "pages": [
+    {
+      "path": "broadcast-audio-engineer/index.html",
+      "before_bytes": 32972,
+      "after_bytes": 32686,
+      "before_gzip_bytes": 8144,
+      "after_gzip_bytes": 8157
+    },
+    {
+      "path": "index.html",
+      "before_bytes": 221027,
+      "after_bytes": 219500,
+      "before_gzip_bytes": 33321,
+      "after_gzip_bytes": 33287
+    },
+    {
+      "path": "international-projects/index.html",
+      "before_bytes": 34193,
+      "after_bytes": 33590,
+      "before_gzip_bytes": 8206,
+      "after_gzip_bytes": 8191
+    },
+    {
+      "path": "live-sound-engineer/index.html",
+      "before_bytes": 48603,
+      "after_bytes": 48329,
+      "before_gzip_bytes": 9857,
+      "after_gzip_bytes": 9865
+    },
+    {
+      "path": "mixing-mastering/index.html",
+      "before_bytes": 34525,
+      "after_bytes": 34650,
+      "before_gzip_bytes": 8584,
+      "after_gzip_bytes": 8694
+    },
+    {
+      "path": "orchestra-sound-engineer/index.html",
+      "before_bytes": 38976,
+      "after_bytes": 38754,
+      "before_gzip_bytes": 8732,
+      "after_gzip_bytes": 8742
+    },
+    {
+      "path": "projects/abeer-nehme-baalbeck/index.html",
+      "before_bytes": 35459,
+      "after_bytes": 34859,
+      "before_gzip_bytes": 8174,
+      "after_gzip_bytes": 8175
+    },
+    {
+      "path": "projects/abeer-nehme-qatar/index.html",
+      "before_bytes": 35176,
+      "after_bytes": 34575,
+      "before_gzip_bytes": 8012,
+      "after_gzip_bytes": 8016
+    },
+    {
+      "path": "projects/al-sharq-symphony/index.html",
+      "before_bytes": 35115,
+      "after_bytes": 34508,
+      "before_gzip_bytes": 8080,
+      "after_gzip_bytes": 8087
+    },
+    {
+      "path": "projects/baligh-hamdi-night/index.html",
+      "before_bytes": 35255,
+      "after_bytes": 34656,
+      "before_gzip_bytes": 8379,
+      "after_gzip_bytes": 8382
+    },
+    {
+      "path": "projects/beirut-the-sea-lover/index.html",
+      "before_bytes": 34330,
+      "after_bytes": 33730,
+      "before_gzip_bytes": 7955,
+      "after_gzip_bytes": 7959
+    },
+    {
+      "path": "projects/beiteddine-marco-polo/index.html",
+      "before_bytes": 34366,
+      "after_bytes": 33764,
+      "before_gzip_bytes": 7924,
+      "after_gzip_bytes": 7925
+    },
+    {
+      "path": "projects/carole-samaha-golden-album/index.html",
+      "before_bytes": 34239,
+      "after_bytes": 33637,
+      "before_gzip_bytes": 7987,
+      "after_gzip_bytes": 7989
+    },
+    {
+      "path": "projects/cartoon-orchestra/index.html",
+      "before_bytes": 35163,
+      "after_bytes": 34564,
+      "before_gzip_bytes": 8141,
+      "after_gzip_bytes": 8150
+    },
+    {
+      "path": "projects/ehdeniyat-abeer-nehme/index.html",
+      "before_bytes": 35386,
+      "after_bytes": 34787,
+      "before_gzip_bytes": 8132,
+      "after_gzip_bytes": 8138
+    },
+    {
+      "path": "projects/ehdeniyat-adam/index.html",
+      "before_bytes": 35232,
+      "after_bytes": 34630,
+      "before_gzip_bytes": 8353,
+      "after_gzip_bytes": 8360
+    },
+    {
+      "path": "projects/ehdeniyat-al-shami/index.html",
+      "before_bytes": 35065,
+      "after_bytes": 34463,
+      "before_gzip_bytes": 8054,
+      "after_gzip_bytes": 8069
+    },
+    {
+      "path": "projects/index.html",
+      "before_bytes": 72008,
+      "after_bytes": 71164,
+      "before_gzip_bytes": 12157,
+      "after_gzip_bytes": 12149
+    },
+    {
+      "path": "projects/lebanese-philharmonic-diman/index.html",
+      "before_bytes": 35186,
+      "after_bytes": 34587,
+      "before_gzip_bytes": 8111,
+      "after_gzip_bytes": 8114
+    },
+    {
+      "path": "projects/marcel-khalife-amman/index.html",
+      "before_bytes": 35533,
+      "after_bytes": 34932,
+      "before_gzip_bytes": 8255,
+      "after_gzip_bytes": 8262
+    },
+    {
+      "path": "projects/marcel-khalife-baalbeck/index.html",
+      "before_bytes": 35420,
+      "after_bytes": 34818,
+      "before_gzip_bytes": 8046,
+      "after_gzip_bytes": 8048
+    },
+    {
+      "path": "projects/marcel-khalife-muscat/index.html",
+      "before_bytes": 35085,
+      "after_bytes": 34483,
+      "before_gzip_bytes": 8106,
+      "after_gzip_bytes": 8114
+    },
+    {
+      "path": "projects/marina-viotti/index.html",
+      "before_bytes": 35006,
+      "after_bytes": 34407,
+      "before_gzip_bytes": 8019,
+      "after_gzip_bytes": 8026
+    },
+    {
+      "path": "projects/mazeej-ndu/index.html",
+      "before_bytes": 34544,
+      "after_bytes": 33942,
+      "before_gzip_bytes": 8052,
+      "after_gzip_bytes": 8058
+    },
+    {
+      "path": "projects/nancy-ajram-expo-dubai/index.html",
+      "before_bytes": 35085,
+      "after_bytes": 34486,
+      "before_gzip_bytes": 8192,
+      "after_gzip_bytes": 8194
+    },
+    {
+      "path": "projects/nancy-ajram-jounieh/index.html",
+      "before_bytes": 35075,
+      "after_bytes": 34476,
+      "before_gzip_bytes": 8096,
+      "after_gzip_bytes": 8111
+    },
+    {
+      "path": "projects/nancy-ajram-olympia/index.html",
+      "before_bytes": 34566,
+      "after_bytes": 33964,
+      "before_gzip_bytes": 8087,
+      "after_gzip_bytes": 8099
+    },
+    {
+      "path": "projects/night-of-arab-stars/index.html",
+      "before_bytes": 35536,
+      "after_bytes": 34937,
+      "before_gzip_bytes": 8385,
+      "after_gzip_bytes": 8392
+    },
+    {
+      "path": "projects/papal-broadcast/index.html",
+      "before_bytes": 31007,
+      "after_bytes": 30404,
+      "before_gzip_bytes": 7412,
+      "after_gzip_bytes": 7412
+    },
+    {
+      "path": "projects/studio-integration/index.html",
+      "before_bytes": 33938,
+      "after_bytes": 33309,
+      "before_gzip_bytes": 7965,
+      "after_gzip_bytes": 7956
+    },
+    {
+      "path": "projects/studio-jpb/index.html",
+      "before_bytes": 33135,
+      "after_bytes": 32504,
+      "before_gzip_bytes": 7777,
+      "after_gzip_bytes": 7769
+    },
+    {
+      "path": "projects/tarteeb-shareet-doha/index.html",
+      "before_bytes": 35433,
+      "after_bytes": 34831,
+      "before_gzip_bytes": 8118,
+      "after_gzip_bytes": 8117
+    },
+    {
+      "path": "projects/the-eighties/index.html",
+      "before_bytes": 35196,
+      "after_bytes": 34596,
+      "before_gzip_bytes": 8147,
+      "after_gzip_bytes": 8148
+    },
+    {
+      "path": "projects/warda-night/index.html",
+      "before_bytes": 34904,
+      "after_bytes": 34305,
+      "before_gzip_bytes": 8315,
+      "after_gzip_bytes": 8320
+    },
+    {
+      "path": "projects/zade-dirani-amman/index.html",
+      "before_bytes": 35197,
+      "after_bytes": 34598,
+      "before_gzip_bytes": 8192,
+      "after_gzip_bytes": 8199
+    },
+    {
+      "path": "projects/zade-dirani-dbayeh/index.html",
+      "before_bytes": 34535,
+      "after_bytes": 33933,
+      "before_gzip_bytes": 8027,
+      "after_gzip_bytes": 8035
+    },
+    {
+      "path": "recording-engineer/index.html",
+      "before_bytes": 34888,
+      "after_bytes": 34971,
+      "before_gzip_bytes": 8603,
+      "after_gzip_bytes": 8754
+    },
+    {
+      "path": "services/index.html",
+      "before_bytes": 31387,
+      "after_bytes": 30774,
+      "before_gzip_bytes": 7298,
+      "after_gzip_bytes": 7300
+    },
+    {
+      "path": "studio-credits/index.html",
+      "before_bytes": 54808,
+      "after_bytes": 53788,
+      "before_gzip_bytes": 10351,
+      "after_gzip_bytes": 10337
+    },
+    {
+      "path": "studio-system-integration/index.html",
+      "before_bytes": 33935,
+      "after_bytes": 33661,
+      "before_gzip_bytes": 8202,
+      "after_gzip_bytes": 8211
+    }
+  ],
+  "social_images": [
+    {
+      "before_path": "photos/pope-leo-waterfront.jpg",
+      "after_path": "photos/optimized/pope-leo-waterfront-1600.webp",
+      "before_bytes": 440059,
+      "after_bytes": 160274
+    },
+    {
+      "before_path": "photos/about-portrait.jpg",
+      "after_path": "photos/optimized/about-portrait-1600.webp",
+      "before_bytes": 153235,
+      "after_bytes": 35354
+    },
+    {
+      "before_path": "photos/live-outdoor-foh-night.jpg",
+      "after_path": "photos/optimized/live-outdoor-foh-night-1536.webp",
+      "before_bytes": 321545,
+      "after_bytes": 111508
+    },
+    {
+      "before_path": "photos/studio-manley-outboard.jpg",
+      "after_path": "photos/optimized/studio-manley-outboard-1440.webp",
+      "before_bytes": 437959,
+      "after_bytes": 166812
+    },
+    {
+      "before_path": "photos/abeer-nehme-qatar-philharmonic-2026.jpg",
+      "after_path": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp",
+      "before_bytes": 386752,
+      "after_bytes": 301664
+    },
+    {
+      "before_path": "photos/abeer-nehme-baalbeck-2016.jpg",
+      "after_path": "photos/optimized/abeer-nehme-baalbeck-2016-1600.webp",
+      "before_bytes": 233848,
+      "after_bytes": 53602
+    },
+    {
+      "before_path": "photos/al-sharq-symphony-istanbul-2017.jpg",
+      "after_path": "photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
+      "before_bytes": 182530,
+      "after_bytes": 129878
+    },
+    {
+      "before_path": "photos/nancy-ajram-baligh-hamdi-riyadh-2023.jpg",
+      "after_path": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
+      "before_bytes": 816515,
+      "after_bytes": 88504
+    },
+    {
+      "before_path": "photos/beirut-the-sea-lover-2019.jpg",
+      "after_path": "photos/optimized/beirut-the-sea-lover-2019-1600.webp",
+      "before_bytes": 219995,
+      "after_bytes": 86598
+    },
+    {
+      "before_path": "photos/beiteddine-marco-polo-2013.jpg",
+      "after_path": "photos/optimized/beiteddine-marco-polo-2013-483.webp",
+      "before_bytes": 40262,
+      "after_bytes": 26636
+    },
+    {
+      "before_path": "photos/carole-samaha-golden-album-2023.jpg",
+      "after_path": "photos/optimized/carole-samaha-golden-album-2023-600.webp",
+      "before_bytes": 87175,
+      "after_bytes": 52916
+    },
+    {
+      "before_path": "photos/cartoon-orchestra-kuwait-2025.jpg",
+      "after_path": "photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp",
+      "before_bytes": 723552,
+      "after_bytes": 279204
+    },
+    {
+      "before_path": "photos/abeer-nehme-ehdeniyat-2025.jpg",
+      "after_path": "photos/optimized/abeer-nehme-ehdeniyat-2025-1600.webp",
+      "before_bytes": 546796,
+      "after_bytes": 160758
+    },
+    {
+      "before_path": "photos/adam-ehdeniyat-2025.jpg",
+      "after_path": "photos/optimized/adam-ehdeniyat-2025-538.webp",
+      "before_bytes": 65484,
+      "after_bytes": 15554
+    },
+    {
+      "before_path": "photos/al-shami-ehdeniyat-2025.jpg",
+      "after_path": "photos/optimized/al-shami-ehdeniyat-2025-938.webp",
+      "before_bytes": 119800,
+      "after_bytes": 107110
+    },
+    {
+      "before_path": "photos/lebanese-philharmonic-diman-2026.jpg",
+      "after_path": "photos/optimized/lebanese-philharmonic-diman-2026-1600.webp",
+      "before_bytes": 1627419,
+      "after_bytes": 212868
+    },
+    {
+      "before_path": "photos/marcel-khalife-amman-citadel-2016.jpg",
+      "after_path": "photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp",
+      "before_bytes": 846330,
+      "after_bytes": 163948
+    },
+    {
+      "before_path": "photos/marcel-khalife-baalbeck-2019.jpg",
+      "after_path": "photos/optimized/marcel-khalife-baalbeck-2019-1600.webp",
+      "before_bytes": 548039,
+      "after_bytes": 238452
+    },
+    {
+      "before_path": "photos/marcel-khalife-muscat-2019.jpg",
+      "after_path": "photos/optimized/marcel-khalife-muscat-2019-800.webp",
+      "before_bytes": 202832,
+      "after_bytes": 24532
+    },
+    {
+      "before_path": "photos/marina-viotti-zouk-mikael-2026.jpg",
+      "after_path": "photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
+      "before_bytes": 586252,
+      "after_bytes": 228506
+    },
+    {
+      "before_path": "photos/mazeej-ndu-2019.jpg",
+      "after_path": "photos/optimized/mazeej-ndu-2019-483.webp",
+      "before_bytes": 41413,
+      "after_bytes": 17662
+    },
+    {
+      "before_path": "photos/nancy-ajram-expo-dubai-2021.jpg",
+      "after_path": "photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
+      "before_bytes": 308523,
+      "after_bytes": 71722
+    },
+    {
+      "before_path": "photos/nancy-ajram-jounieh-2022.jpg",
+      "after_path": "photos/optimized/nancy-ajram-jounieh-2022-1280.webp",
+      "before_bytes": 165346,
+      "after_bytes": 129404
+    },
+    {
+      "before_path": "photos/nancy-ajram-olympia-paris-2022.jpg",
+      "after_path": "photos/optimized/nancy-ajram-olympia-paris-2022-647.webp",
+      "before_bytes": 103251,
+      "after_bytes": 25996
+    },
+    {
+      "before_path": "photos/nancy-ajram-arab-stars-riyadh-2023.jpg",
+      "after_path": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp",
+      "before_bytes": 150676,
+      "after_bytes": 120052
+    },
+    {
+      "before_path": "photos/studio-mixing-console.jpg",
+      "after_path": "photos/optimized/studio-mixing-console-1600.webp",
+      "before_bytes": 656323,
+      "after_bytes": 313166
+    },
+    {
+      "before_path": "photos/tarteeb-shareet-qncc-doha-2026.webp",
+      "after_path": "photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp",
+      "before_bytes": 65654,
+      "after_bytes": 65340
+    },
+    {
+      "before_path": "photos/the-eighties-knockout-kuwait-2026.jpg",
+      "after_path": "photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
+      "before_bytes": 468643,
+      "after_bytes": 146932
+    },
+    {
+      "before_path": "photos/nancy-ajram-warda-night-jeddah-2024.jpg",
+      "after_path": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp",
+      "before_bytes": 210660,
+      "after_bytes": 94158
+    },
+    {
+      "before_path": "photos/zade-dirani-amman-2019.jpg",
+      "after_path": "photos/optimized/zade-dirani-amman-2019-1280.webp",
+      "before_bytes": 52646,
+      "after_bytes": 13002
+    },
+    {
+      "before_path": "photos/zade-dirani-dbayeh-2018.jpg",
+      "after_path": "photos/optimized/zade-dirani-dbayeh-2018-483.webp",
+      "before_bytes": 46212,
+      "after_bytes": 21466
+    }
+  ],
+  "total_html_before": 1646489,
+  "total_html_after": 1623552,
+  "social_bytes_before": 10855726,
+  "social_bytes_after": 3663578
+}

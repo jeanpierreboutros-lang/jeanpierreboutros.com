@@ -1,8 +1,6 @@
 {
   "source": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600&display=swap",
   "preload": [
-    "/fonts/c9745ee907c02cdd.woff2",
-    "/fonts/88e17be075f1be50.woff2",
     "/fonts/1f21c6eaa0000f33.woff2"
   ],
   "files": {

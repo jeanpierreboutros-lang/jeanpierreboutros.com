@@ -1,8 +1,14 @@
 # Search registration and production verification
 
-Reviewed 3 November 2026. No Google Search Console or Bing Webmaster Tools
+Reviewed 16 November 2026. No Google Search Console or Bing Webmaster Tools
 registration, ownership verification or sitemap submission has been performed by
 this implementation. No verification tokens were supplied or invented.
+
+The current local release contains **40 pages and 29 projects**, including
+Shareet · Tarteeb at QNCC. It has not been deployed. The read-only live audit on
+16 November found the earlier 39 pages returning 200 and the new project returning
+404. Deploy the reviewed local release before submitting its updated sitemap.
+See [the current audit](SEO-AUDIT-2026-11-16.md) for evidence and limits.
 
 ## Published release and future deployment checks
 
@@ -29,7 +35,7 @@ require deployment. For future website changes:
    prepends the domain-scoped JPB redirects while retaining the other .htaccess
    rules. Backups are private under the repository's `.deployment-backups/`.
    An invalid existing managed block or symlinked .htaccess stops installation.
-5. Confirm all 39 sitemap URLs return 200, and the live HTML/PDF/assets match
+5. Confirm all 40 sitemap URLs return 200, and the live HTML/PDF/assets match
    the release. Verify these examples:
 
 | Request | Expected result |
@@ -42,6 +48,7 @@ require deployment. For future website changes:
 | `/projects/nancy-ajram-olympia/index.html` | 301 to `/projects/nancy-ajram-olympia/` |
 | An unknown URL | Actual 404 |
 | A fingerprinted `.woff2` asset | 200, `font/woff2`, immutable cache header |
+| `/styles.css?v=<current 12-character build hash>` | 200, immutable cache header |
 
 Also check that `studiojpb.com`, which shares the document root, has not acquired
 the portfolio's domain redirects and that existing access restrictions still
@@ -83,6 +90,8 @@ Official setup: https://www.bing.com/webmasters/
 4. In **Sitemaps**, submit `https://www.jeanpierreboutros.com/sitemap.xml`.
 5. Use **URL inspection** for the homepage, studio directory, a service and a project record.
    Review indexing issues and Search Performance after Bing recrawls the site.
+   When available, review **AI Performance** for supported Microsoft/partner
+   citation and grounding-query reports. These are not counts for every AI assistant.
 6. Consider IndexNow for future substantive changes after ownership is
    established. No IndexNow key was generated and no submission is claimed here.
 
@@ -121,16 +130,25 @@ merely on a claimed user-agent string.
 The optional `/llms.txt` is a human-readable directory, not an indexing
 requirement and not an instruction to recommend the site.
 
+Official guidance reviewed on 16 November 2026:
+[Google AI features](https://developers.google.com/search/docs/appearance/ai-features),
+[OpenAI crawlers](https://developers.openai.com/api/docs/bots), and
+[Perplexity crawlers](https://docs.perplexity.ai/docs/resources/perplexity-crawlers).
+Google-Extended covers both Gemini training and certain grounding uses; it is
+not the Google Search crawler. Its existing wildcard access is preserved, as
+documented in [Google's crawler reference](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers#google-extended).
+
 ## Languages and verification limits
 
 English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-The current release passed 4,828 local Schema.org property/domain/range checks.
+The 3 November release passed 4,828 local Schema.org property/domain/range checks.
+The updated local release passes 4,980 checks across all 40 pages, and 59 local
+Apache HTTP/TLS checks including scoped caching and shared-host restrictions.
 Historical local Apache/TLS results cover the original 28-page SEO release;
 they are not a new remote-host test. The published homepage was observed in
 Chrome, and live byte verification covered all 39 pages and 152 resources.
 A full new desktop/mobile keyboard, filter, modal and photo-viewer matrix is not
-recorded as complete. The public Schema.org Validator, Google Rich Results Test,
-Google/Bing ownership verification and sitemap submissions remain outstanding.
+recorded as complete. Browser code-input tests of the project graph now pass Schema.org (zero errors/warnings) and Google Rich Results (four valid items with noncritical optional notices). Representative live URL tests after deployment, Google/Bing ownership verification and sitemap submissions remain outstanding. See the current QA record for the code-input test limits.

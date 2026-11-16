@@ -1,6 +1,23 @@
 # Worldwide SEO and AI search implementation
 
+**Latest review — 16 November 2026:** see [the current audit and implementation
+report](SEO-AUDIT-2026-11-16.md). The local release has 40 canonical pages and 29
+projects, improved service-credit links, optimized sharing images, current
+structured data and scoped asset caching. It has not been deployed. The
+3 November release history and its original measurements below are retained.
+
 Documentation reconciled: 3 November 2026. Website: https://www.jeanpierreboutros.com/.
+
+## Local addition — 16 November 2026
+
+The unreleased local portfolio now includes Shareet · Tarteeb at QNCC, Doha,
+14 November 2026, with Jean-Pierre’s confirmed FOH role. The current build has
+40 canonical pages, 29 project records, 35 gallery images and 17 FOH projects.
+The project is first in the chronological index and is linked from the live sound
+service and international projects directory. Event context and artwork provenance
+are recorded in [the research record](tarteeb-shareet-research-2026-11-16.json).
+The published release and verification measurements below are historical and
+remain unchanged until a new deployment is verified.
 
 ## Published release
 
@@ -11,7 +28,7 @@ bytes. Six canonical redirect cases, an unknown-path 404 and the two tested
 research/source paths passed live verification. The published homepage was
 observed in Chrome. See the [verification record](portfolio-release-verification-2026-11-03.json).
 
-| Current inventory | Count |
+| Published inventory — 3 November 2026 | Count |
 | --- | ---: |
 | Canonical HTML pages / sitemap URLs | 39 |
 | Homepage | 1 |

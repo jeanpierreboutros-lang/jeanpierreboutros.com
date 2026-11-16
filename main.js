@@ -25,6 +25,7 @@
   var projectFilters = document.querySelector('.portfolio-filters');
   var projectMore = document.querySelector('[data-show-all-projects]');
   var projectCount = document.getElementById('portfolio-count');
+  var projectYearHeadings = Array.prototype.slice.call(document.querySelectorAll('[data-project-year-group]'));
   var projectTriggers = new WeakMap();
   var projectMap = new Map(projectDialogs.map(function (dialog) { return [dialog.id, dialog]; }));
 
@@ -86,6 +87,11 @@
       card.hidden = !visible;
       if (visible) shown++;
     });
+    projectYearHeadings.forEach(function (heading) {
+      heading.hidden = !projectCards.some(function (card) {
+        return !card.hidden && card.dataset.projectYear === heading.dataset.projectYearGroup;
+      });
+    });
     projectFilters.querySelectorAll('button').forEach(function (button) {
       button.setAttribute('aria-pressed', String(button.dataset.projectFilter === category));
     });
@@ -126,7 +132,7 @@
 
   if (modalSupported && projectCards.length && projectDialogs.length && projectFilters) {
     projectFilters.hidden = false;
-    filterProjects('featured');
+    filterProjects('all');
     projectFilters.querySelectorAll('button').forEach(function (button) {
       button.addEventListener('click', function () { filterProjects(button.dataset.projectFilter); });
     });

@@ -5,7 +5,8 @@ without Jean-Pierre's confirmation. Technical briefs describe inquiry inputs,
 not unverified equipment ownership or work on a particular production.
 """
 
-REVIEWED = "2026-11-02"
+# Deliberate content/metadata review date; do not advance on every build.
+REVIEWED = "2026-11-16"
 AVAILABILITY = ("Based in Lebanon. Available for professional audio projects worldwide, "
                 "with international travel, dates and scope agreed for each engagement.")
 
@@ -32,7 +33,7 @@ SERVICES = [
         ],
         "capabilities": ["Front-of-house concert mixing", "Artist monitor engineering", "Festival performance mixing", "Live music and theatre productions"],
         "brief": ["Artist, venue, country and show dates", "FOH or monitor position required", "Stage plot, input list and artist rider", "House system, available console and local audio crew"],
-        "projects": ["nancy-ajram-olympia", "abeer-nehme-baalbeck", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night", "marcel-khalife-amman", "zade-dirani-dbayeh", "zade-dirani-amman", "marcel-khalife-baalbeck", "nancy-ajram-jounieh", "mazeej-ndu"],
+        "projects": ["tarteeb-shareet-doha", "nancy-ajram-olympia", "abeer-nehme-baalbeck", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night", "marcel-khalife-amman", "zade-dirani-dbayeh", "zade-dirani-amman", "marcel-khalife-baalbeck", "nancy-ajram-jounieh", "mazeej-ndu"],
         "faq": [
             ("What is the difference between FOH and monitor engineering?", "FOH is the mix for the audience. Monitor engineering is the performer’s stage mix. Jean-Pierre has documented credits in both roles; the assignment is agreed for the particular show."),
             ("Can I book Jean-Pierre for a festival performance?", "Yes. His festival credits include FOH for Abeer Nehme and Al Shami, and monitors for Adam, at Ehdeniyat 2025. Send the artist, dates, location and required position to discuss your production."),
@@ -76,7 +77,7 @@ SERVICES = [
         "slug": "recording-engineer",
         "name": "Recording & tracking",
         "title": "Recording Engineer & Studio Sessions | Jean-Pierre Boutros",
-        "description": "Recording and tracking with Jean-Pierre Boutros, founder of StudioJPB in Jounieh, Lebanon. Discuss your musicians, session requirements and production schedule.",
+        "description": "Recording and tracking with Jean-Pierre Boutros, founder of StudioJPB in Lebanon. Explore named music and live recording credits; worldwide project inquiries welcome.",
         "h1": "Recording engineering.<br /><em>Start with the performance.</em>",
         "intro": "Jean-Pierre Boutros is a recording and studio sound engineer based in Lebanon. He founded StudioJPB in Jounieh in 2008, with work spanning recording, mixing and mastering.",
         "photo": "about-portrait.jpg",
@@ -92,7 +93,8 @@ SERVICES = [
                 "Alongside his engineering practice, Jean-Pierre develops audio software through Zynforge Audio, including Zynforge Recording for multitrack recording and playback. His studio, live production and software work share an attention to practical production requirements. International recording inquiries are welcome, with location and travel agreed per project."
             ])
         ],
-        "capabilities": ["Recording and tracking", "Studio production work through StudioJPB", "Mixing as a separately scoped production stage", "Mastering as a separately scoped production stage"],
+        "capabilities": ["Recording and tracking", "Live concert recording", "Studio production work through StudioJPB", "Mixing as a separately scoped production stage", "Mastering as a separately scoped production stage"],
+        "credit_examples": [("nancy-ajram", "Warana Eh"), ("macadi-nahhas", "Nour"), ("chantal-bitar", "Mech Rah Khallik Tfell")],
         "brief": ["Musicians, instruments and material to record", "Recording location, dates and session schedule", "Existing sessions, audio files and compatibility requirements", "Capture responsibilities, channel requirements and delivery format"],
         "projects": ["studio-jpb", "marcel-khalife-amman"],
         "faq": [
@@ -107,7 +109,7 @@ SERVICES = [
         "slug": "mixing-mastering",
         "name": "Studio mixing & mastering",
         "title": "Mixing & Mastering Engineer | Jean-Pierre Boutros",
-        "description": "Studio mixing and mastering with Jean-Pierre Boutros, founder of StudioJPB in Lebanon. Discuss your recordings, production goals, deliverables and schedule.",
+        "description": "Mixing and mastering by Lebanon-based Jean-Pierre Boutros. Explore confirmed song and album credits for Nancy Ajram, Georges Wassouf and Carole Samaha. Worldwide inquiries.",
         "h1": "Mixing &amp; mastering.<br /><em>The final details.</em>",
         "intro": "Jean-Pierre Boutros provides studio mixing and mastering as part of his professional sound engineering practice. His StudioJPB history dates to 2008 in Jounieh, Lebanon.",
         "photo": "studio-manley-outboard.jpg",
@@ -124,6 +126,7 @@ SERVICES = [
             ])
         ],
         "capabilities": ["Studio mixing", "Mastering", "Recording-to-mix production continuity", "StudioJPB engineering practice"],
+        "credit_examples": [("nancy-ajram", "Men Nazra"), ("georges-wassouf", "Noss Omry"), ("carole-samaha", "Golden Album")],
         "brief": ["Number of tracks or songs and production status", "Available audio files, sessions and rough mixes", "Reference material and approval contacts", "Deadline, revision scope and required delivery formats"],
         "projects": ["carole-samaha-golden-album", "studio-jpb"],
         "faq": [

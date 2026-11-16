@@ -1,0 +1,62 @@
+{
+  "researched": "2026-11-16",
+  "slug": "tarteeb-shareet-doha",
+  "title": "Shareet: The 80s and 90s Concert",
+  "title_ar": "شريط الثمانينات والتسعينات",
+  "organizer": "Tarteeb",
+  "support": "Qatar Calendar",
+  "conductor": "Khaled Nouri",
+  "venue": "Al Mayassa Theatre, Qatar National Convention Centre (QNCC)",
+  "location": "Doha, Qatar",
+  "date": "2026-11-14",
+  "engineering_role": {
+    "role": "FOH engineer",
+    "source": "Jean-Pierre Boutros, direct confirmation in this conversation on 16 November 2026"
+  },
+  "sources": [
+    {
+      "url": "https://tickets.virginmegastore.me/qa/event/35881/music/شريط-الثمانينات-والتسعينات?utm_campaign=event-tickets&utm_medium=referral&utm_source=25north",
+      "publisher": "Virgin Megastore Tickets, organizer-supplied Arabic programme",
+      "supports": [
+        "Tarteeb",
+        "Qatar Calendar support",
+        "conductor Khaled Nouri",
+        "Gulf and Arabic repertoire from the 1980s and 1990s",
+        "14 November 2026",
+        "Al Mayassa Theatre, QNCC"
+      ],
+      "access_note": "Programme text retrievable through the linked/indexed page; a separate direct command-line retrieval returned HTTP 404. The website uses the accessible 25° North listing for its public programme link."
+    },
+    {
+      "url": "https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026",
+      "publisher": "25° North",
+      "supports": [
+        "English event title",
+        "Tarteeb",
+        "conductor Khaled Nouri",
+        "14 November 2026",
+        "Al Mayassa Theatre, QNCC",
+        "event artwork"
+      ]
+    }
+  ],
+  "artwork": {
+    "source_url": "https://www.25north.qa/_img/1600/events/shareet-80s-90s-concert-qncc-2026.webp",
+    "credit": "Tarteeb / Qatar Calendar · via 25° North",
+    "local_path": "photos/tarteeb-shareet-qncc-doha-2026.webp",
+    "sha256": "9eafa8fe1a194783f1a2856a38a0bbb321c8289e5fceeedd2689dd77fff085e5",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "description": "Promotional artwork with Tarteeb and Qatar Calendar logos, cassette tape on a vintage taxi by Doha waterfront, date 14/11/2026 and Al Mayasa Theatre/QNCC labels.",
+    "treatment": "Original WebP retained; responsive WebP derivatives generated without altering artwork content."
+  },
+  "limits": [
+    "FOH role relies on the owner’s confirmation, not event coverage.",
+    "Names of artists whose songs feature in the programme are not treated as confirmed performing artists.",
+    "No attendance, equipment or additional engineering responsibilities asserted.",
+    "Existing professional-profile PDF remains a selection and was not changed."
+  ],
+  "publication_status": "Local files only; not deployed."
+}

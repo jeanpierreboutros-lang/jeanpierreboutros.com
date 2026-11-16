@@ -163,7 +163,7 @@ def main():
     tree = ET.parse(ROOT / "sitemap.xml")
     entries = tree.findall("{*}url")
     urls = [entry.findtext("{*}loc") for entry in entries]
-    assert len(urls) == len(set(urls)) == 39, "Expected 39 unique canonical pages"
+    assert len(urls) == len(set(urls)) == 40, "Expected 40 unique canonical pages"
     pages = {}
     for url in urls:
         assert url.startswith(SITE + "/") and url.endswith("/") and "?" not in url
@@ -178,6 +178,24 @@ def main():
         assert "noindex" not in page.meta.get("robots", ""), path
         assert page.meta["og:url"] == url and page.meta["og:title"] == page.titles[0]
         assert page.meta["twitter:title"] == page.titles[0]
+        assert page.meta["og:description"] == page.meta["twitter:description"] == page.meta["description"]
+        assert page.meta["og:image"] == page.meta["twitter:image"]
+        assert page.meta["og:image:type"] == "image/webp"
+        social_image = local_target(page.meta["og:image"], path)[0]
+        manifest = json.loads((ROOT / "photos/optimized/manifest.json").read_text())
+        variant = next(v for info in manifest.values() for v in info["variants"]
+                       if ROOT / v["src"] == social_image)
+        assert (page.meta["og:image:width"], page.meta["og:image:height"]) == (str(variant["width"]), str(variant["height"]))
+        webpage = next(item for item in page.json[0]["@graph"]
+                       if item.get("@id") == url + "#webpage")
+        assert webpage["dateModified"] == next(entry.findtext("{*}lastmod") for entry in entries if entry.findtext("{*}loc") == url)
+        if url.startswith(SITE + "/projects/") and url != SITE + "/projects/":
+            assert page.meta["og:type"] == "article"
+            record = next(item for item in page.json[0]["@graph"] if item.get("@type") == "Article")
+            assert record["author"]["@id"] == SITE + "/#person"
+            assert record["mainEntityOfPage"]["@id"] == url + "#webpage"
+            if "/studio-jpb/" not in url and "/studio-integration/" not in url:
+                assert re.fullmatch(r"\d{4}(?:-\d{2}(?:-\d{2})?)?", record["temporalCoverage"])
         assert len(page.ids) == len(set(page.ids)), (path, "duplicate IDs")
         assert all(label in page.ids for label in page.labels), (path, "ARIA reference")
         assert all(all(k in img for k in ("alt", "width", "height")) for img in page.images)
@@ -189,8 +207,8 @@ def main():
             target = local_target(ref, path)
             if target:
                 assert target[0].is_file(), (path, ref, "missing local target")
-    assert len({page.titles[0] for page in pages.values()}) == 39, "Duplicate titles"
-    assert len({page.meta["description"] for page in pages.values()}) == 39, "Duplicate descriptions"
+    assert len({page.titles[0] for page in pages.values()}) == 40, "Duplicate titles"
+    assert len({page.meta["description"] for page in pages.values()}) == 40, "Duplicate descriptions"
     incoming = Counter()
     for source, page in pages.items():
         for ref in page.refs:
@@ -202,11 +220,29 @@ def main():
                 incoming[target[0]] += 1
     assert all(incoming[path] for path in pages if path != ROOT / "index.html"), "Orphan page"
     home = pages[ROOT / "index.html"]
-    assert len(home.cards) == len(home.dialogs) == 28
+    assert len(home.cards) == len(home.dialogs) == 29
     assert sum("data-featured" in card for card in home.cards) == 6
-    assert Counter(card["data-category"] for card in home.cards) == {"foh": 16, "monitors": 6, "broadcast": 1, "studio": 3, "technical": 2}
+    assert Counter(card["data-category"] for card in home.cards) == {"foh": 17, "monitors": 6, "broadcast": 1, "studio": 3, "technical": 2}
+    home_text = (ROOT / "index.html").read_text()
+    project_dates = re.findall(r'<time class="portfolio-date" datetime="([^"]+)">', home_text)
+    assert len(project_dates) == 27 and project_dates == sorted(project_dates, reverse=True), "Project date order"
+    years = re.findall(r'data-project-year-group="([^"]+)"', home_text)
+    assert years == list(dict.fromkeys(d[:4] for d in project_dates)) + ["ongoing"], "Project year groups"
+    assert all(card["data-project-year"] == "ongoing" for card in home.cards[-2:]), "Ongoing studio practices"
+    assert home.cards[0]["data-project-card"] == "tarteeb-shareet-doha", "Most recent project first"
+    tarteeb = (ROOT / "projects/tarteeb-shareet-doha/index.html").read_text()
+    assert all(value in tarteeb for value in ("FOH engineer", "14 November 2026", "Al Mayassa Theatre", "QNCC", "Tarteeb")), "Tarteeb role, venue and date"
+    assert "2026-11-14" in project_dates, "Tarteeb date in chronology"
+    assert len(re.findall(r'<h4>.*?</h4>', home_text)) >= 29, "Project headings nested under year headings"
+    for slug, works in {
+        "recording-engineer": ("Warana Eh", "Nour", "Mech Rah Khallik Tfell"),
+        "mixing-mastering": ("Men Nazra", "Noss Omry", "Golden Album"),
+    }.items():
+        service_text = (ROOT / slug / "index.html").read_text()
+        assert all(work in service_text for work in works), (slug, "Named studio experience")
+        assert service_text.count('<details>') == 4, (slug, "Visible FAQs")
     gallery = json.loads(re.search(r'id="gallery-data">(.*?)</script>', (ROOT / "index.html").read_text(), re.S)[1])
-    assert len(gallery) == 34
+    assert len(gallery) == 35
     assert all(link["href"] == gallery[int(link["data-gallery-index"])]["src"] for link in home.gallery_links)
     assert len(home.downloads) == 3 and len(set(home.downloads)) == 1
     for slug, role in {
@@ -240,7 +276,7 @@ def main():
     if args.vocabulary:
         checked = vocabulary_check([p.json[0] for p in pages.values()], args.vocabulary)
         print(f"PASS: {checked} Schema.org property/domain/range checks against official vocabulary")
-    print("PASS: 39 pages; unique metadata/H1s; canonical URLs; local assets, fragments and ARIA references; no orphan pages; preserved project/gallery counts and specific roles; search access and GPTBot exclusion.")
+    print("PASS: 40 pages; unique metadata/H1s; canonical URLs; local assets, fragments and ARIA references; no orphan pages; preserved project/gallery counts and specific roles; search access and GPTBot exclusion.")
 
 
 if __name__ == "__main__":

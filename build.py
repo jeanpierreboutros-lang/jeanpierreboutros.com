@@ -7,7 +7,7 @@ from datetime import date
 from hashlib import sha256
 from pathlib import Path
 
-from search_pages import DESCRIPTION, faq_html, graph, page_head, render_search_pages, site_links
+from search_pages import DESCRIPTION, faq_html, graph, json_text, page_head, render_search_pages, site_links
 from services import AVAILABILITY, HOME_FAQ, SERVICES
 from studio_credits import CREDIT_GROUPS, studio_groups_html
 
@@ -70,6 +70,7 @@ gallery = [
     ("nancy-ajram-jounieh-2022.jpg", "Nancy Ajram · Bnoss Jounieh", "Nancy Ajram singing in a green dress in front of the crowd in her official Bnoss Jounieh 2022 concert video", "FOH mixing · Jounieh, Lebanon, 2022"),
     ("mazeej-ndu-2019.jpg", "Mazeej by Lucas Sakr · NDU", "Original Mazeej on Stage event artwork showing a grand piano in the NDU theatre and the date 11 March 2019", "FOH engineer · Zouk Mosbeh, Lebanon, 2019"),
     ("beirut-the-sea-lover-2019.jpg", "Beirut the Sea Lover", "A sunset, sailing ships and the Beirut cityscape projected onto the Roman Baths staircase during Beirut the Sea Lover, from the Beirut Spring Festival archive", "3D sound mixing · Beirut, Lebanon, 2019"),
+    ("tarteeb-shareet-qncc-doha-2026.webp", "Shareet · Tarteeb", "Shareet promotional artwork showing a cassette tape on a vintage taxi beside Doha’s waterfront, with Tarteeb and Qatar Calendar logos and the QNCC event date", "FOH engineer · Al Mayassa Theatre, QNCC, Doha · 14 November 2026"),
 ]
 tv = [
     ("MTV Lebanon", "Hek Menghanni", "Music television"),
@@ -117,6 +118,12 @@ mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-m
 beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
 gallery_sources = {
+    "tarteeb-shareet-qncc-doha-2026.webp": {
+        "name": "Tarteeb / Qatar Calendar · via 25° North",
+        "url": "https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026",
+        "image_url": "https://www.25north.qa/_img/1600/events/shareet-80s-90s-concert-qncc-2026.webp",
+        "label": "Artwork",
+    },
     "beirut-the-sea-lover-2019.jpg": {
         "name": "Beirut Spring Festival",
         "url": beirut_sea_lover_programme_url,
@@ -290,12 +297,12 @@ for index, (filename, title, alt, context) in enumerate(gallery):
     credit_html = (f'<a class="image-credit" href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">Image: {e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a>' if source else "")
     gallery_data.append({"src": full["src"], "alt": alt, "caption": f"{title} · {context}{credit_text}",
                          "width": full["width"], "height": full["height"]})
-    poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg", "beiteddine-marco-polo-2013.jpg", "carole-samaha-golden-album-2023.jpg", "zade-dirani-dbayeh-2018.jpg", "mazeej-ndu-2019.jpg") else ""
+    poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg", "beiteddine-marco-polo-2013.jpg", "carole-samaha-golden-album-2023.jpg", "zade-dirani-dbayeh-2018.jpg", "mazeej-ndu-2019.jpg", "tarteeb-shareet-qncc-doha-2026.webp") else ""
     featured_attribute = ' data-gallery-featured' if index in (15, 16, 18, 19, 21, 23) else ''
     gallery_items.append(f'''<figure class="gallery-card{poster_class}"{featured_attribute}>
   <a class="gallery-item" href="{e(full["src"])}" data-gallery-index="{index}"
      aria-label="Enlarge photo: {e(alt)}" aria-haspopup="dialog" aria-controls="lightbox">
-    {image(filename, alt, sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw")}
+    {image(filename, alt, sizes="(max-width: 980px) 50vw, 33vw")}
     <span class="gallery-expand" aria-hidden="true">↗</span>
   </a>
   <figcaption><span>{e(title)}</span><span>{e(context)}{credit_html}</span></figcaption>
@@ -765,6 +772,27 @@ PROJECT_DETAILS += f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <!-- Production context: Tarteeb's Virgin Megastore listing, cross-checked with 25° North. FOH role confirmed by Jean-Pierre on 16 November 2026. -->
+        <article class="project-event" id="tarteeb-shareet-doha" aria-labelledby="tarteeb-shareet-title" data-reveal>
+          <a class="event-media event-media--poster" href="{e(gallery_data[34]['src'])}" data-gallery-index="34" aria-label="Enlarge the Shareet promotional artwork" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("tarteeb-shareet-qncc-doha-2026.webp", gallery[34][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">29 <span>Front-of-house engineering · Tarteeb</span></p>
+            <h3 id="tarteeb-shareet-title">Shareet.<br /><em>The 80s and 90s Concert.</em></h3>
+            <p class="project-title-ar" lang="ar" dir="rtl">شريط الثمانينات والتسعينات</p>
+            <p>FOH engineering for Tarteeb’s “Shareet: The 80s and 90s Concert” at Al Mayassa Theatre, Qatar National Convention Centre (QNCC), Doha, Qatar, on 14 November 2026.</p>
+            <p>Presented by Tarteeb with support from Qatar Calendar and led by conductor Khaled Nouri, the programme revisited Gulf and Arabic songs from the 1980s and 1990s.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Al Mayassa Theatre · QNCC, Doha, Qatar</dd></div><div><dt>Date</dt><dd>14 November 2026</dd></div></dl>
+            <a class="text-link" href="https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026" target="_blank" rel="noopener noreferrer">Read the event programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Promotional artwork: Tarteeb / Qatar Calendar, via <a href="https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026" target="_blank" rel="noopener noreferrer">25° North<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -796,7 +824,45 @@ projects = [
     ("nancy-ajram-jounieh", "Nancy Ajram", "Bnoss Jounieh · We Are Lebanon", "Jounieh · 2022", "FOH engineer", "foh", 31, False),
     ("mazeej-ndu", "Mazeej by Lucas Sakr", "On Stage · NDU", "Zouk Mosbeh · 2019", "FOH engineer", "foh", 32, False),
     ("beirut-the-sea-lover", "Beirut the Sea Lover", "Roman Baths · Beirut Spring Festival", "Beirut · 2019", "3D sound mixing", "technical", 33, False),
+    ("tarteeb-shareet-doha", "Shareet · Tarteeb", "The 80s and 90s Concert · QNCC", "Doha · 2026", "FOH engineer", "foh", 34, False),
 ]
+# Preserve the precision of the confirmed dates; a year-only credit stays year-only.
+# Ongoing studio practices are separate from dated productions.
+project_dates = {
+    "tarteeb-shareet-doha": ("2026-11-14", "14 November 2026"),
+    "the-eighties": ("2026-10", "October 2026"),
+    "marina-viotti": ("2026-09-08", "8 September 2026"),
+    "cartoon-orchestra": ("2025-10-04", "4 October 2025"),
+    "al-sharq-symphony": ("2017", "2017"),
+    "abeer-nehme-qatar": ("2026-01-23", "23 January 2026"),
+    "baligh-hamdi-night": ("2023-11-09", "9 November 2023"),
+    "warda-night": ("2024-07-04", "4 July 2024"),
+    "night-of-arab-stars": ("2023-12-31", "31 December 2023"),
+    "lebanese-philharmonic-diman": ("2026-07-26", "26 July 2026"),
+    "nancy-ajram-olympia": ("2022-06-10", "10 June 2022"),
+    "marcel-khalife-muscat": ("2019-09-26", "26–27 September 2019"),
+    "ehdeniyat-abeer-nehme": ("2025-07-25", "25 July 2025"),
+    "ehdeniyat-al-shami": ("2025-08-03", "3 August 2025"),
+    "nancy-ajram-expo-dubai": ("2021-11-12", "12 November 2021"),
+    "ehdeniyat-adam": ("2025-07-31", "31 July 2025"),
+    "papal-broadcast": ("2025", "2025"),
+    "marcel-khalife-amman": ("2016-09-13", "13 September 2016"),
+    "abeer-nehme-baalbeck": ("2016-08-19", "19 August 2016"),
+    "beiteddine-marco-polo": ("2013-06-21", "21–22 June 2013"),
+    "carole-samaha-golden-album": ("2023-03-03", "3 March 2023"),
+    "zade-dirani-dbayeh": ("2018-10-11", "11 October 2018"),
+    "zade-dirani-amman": ("2019-02-22", "22 February 2019"),
+    "marcel-khalife-baalbeck": ("2019-07-05", "5 July 2019"),
+    "nancy-ajram-jounieh": ("2022-08-18", "18 August 2022"),
+    "mazeej-ndu": ("2019-03-11", "11 March 2019"),
+    "beirut-the-sea-lover": ("2019-06-14", "14 June 2019"),
+}
+assert set(project_dates) == {p[0] for p in projects} - {"studio-jpb", "studio-integration"}
+card_order = sorted((p[0] for p in projects),
+                    key=lambda slug: project_dates.get(slug, ("", ""))[0], reverse=True)
+project_years = {slug: project_dates[slug][0][:4] if slug in project_dates else "ongoing"
+                 for slug in card_order}
+project_numbers = {slug: number for number, slug in enumerate(card_order, 1)}
 project_articles = re.findall(r'<article\b[^>]*>.*?</article>', PROJECT_DETAILS, re.S)
 if len(project_articles) != len(projects):
     raise ValueError("Project summaries and full descriptions must stay in sync")
@@ -804,6 +870,9 @@ project_dialogs = []
 project_cards = {}
 for project, article in zip(projects, project_articles):
     slug, title, production, location, role, category, photo, featured = project
+    article = re.sub(r'(<p class="project-index">)\d+',
+                     lambda match: f'{match[1]}{project_numbers[slug]:02d}', article)
+    project_articles[projects.index(project)] = article
     opening = re.match(r'<article\b[^>]*>', article)[0]
     article_id = re.search(r'\bid="([^"]+)"', opening)
     if article_id and article_id[1] != slug:
@@ -822,31 +891,37 @@ for project, article in zip(projects, project_articles):
     alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
     source = gallery_sources.get(filename)
     source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
-    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32) else ''
+    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34) else ''
     featured_attr = ' data-featured' if featured else ''
-    project_cards[slug] = f'''<article class="portfolio-card{poster_class}" data-project-card="{slug}" data-category="{category}"{featured_attr}>
+    date_html = (f'<time class="portfolio-date" datetime="{project_dates[slug][0]}">{e(project_dates[slug][1])}</time>'
+                 if slug in project_dates else '<span class="portfolio-date">Ongoing practice</span>')
+    project_cards[slug] = f'''<article class="portfolio-card{poster_class}" data-project-card="{slug}" data-category="{category}" data-project-year="{project_years[slug]}"{featured_attr}>
   <a class="portfolio-link" href="/projects/{slug}/" data-project-open="{slug}">
+    <span class="portfolio-number" aria-hidden="true">{project_numbers[slug]:02d}</span>
     <div class="portfolio-image">
-      {image(filename, alt, sizes="(max-width: 600px) 100vw, 50vw")}
-      <span class="portfolio-role">{e(role)}</span>
+      {image(filename, alt, sizes="(max-width: 760px) 30vw, (max-width: 1100px) 180px, 240px")}
     </div>
-    <div class="portfolio-copy"><p class="portfolio-location">{e(location)}</p><h3>{e(title)}</h3><p class="portfolio-production">{e(production)}</p><span class="portfolio-arrow" aria-hidden="true">↗</span></div>
+    <div class="portfolio-copy"><p class="portfolio-location">{e(location.split(' · ')[0])}</p><h3>{e(title)}</h3><p class="portfolio-production">{e(production)}</p><p class="portfolio-role">{e(role)}</p>{date_html}<span class="portfolio-arrow" aria-hidden="true">↗</span></div>
   </a>
 {source_html}
 </article>'''
 
-featured_order = ["nancy-ajram-olympia", "abeer-nehme-qatar", "marcel-khalife-muscat",
-                  "ehdeniyat-al-shami", "baligh-hamdi-night", "the-eighties"]
-card_order = featured_order + [p[0] for p in projects if p[0] not in featured_order]
-filter_labels = [("featured", "Featured"), ("all", "All work"), ("foh", "FOH"),
+year_groups = []
+for year in dict.fromkeys(project_years.values()):
+    label = "Studio & systems" if year == "ongoing" else year
+    year_groups.append(f'<h3 class="portfolio-year" data-project-year-group="{year}">{e(label)}</h3>'
+                       + ''.join(project_cards[slug].replace('<h3>', '<h4>').replace('</h3>', '</h4>')
+                                 for slug in card_order if project_years[slug] == year))
+filter_labels = [("all", "All work"), ("featured", "Featured"), ("foh", "FOH"),
                  ("monitors", "Monitors"), ("broadcast", "Broadcast"), ("studio", "Studio"), ("technical", "Technical")]
 filter_buttons = ''.join(f'<button type="button" data-project-filter="{key}" aria-pressed="false" aria-controls="portfolio-grid">{label}</button>' for key, label in filter_labels)
 portfolio_html = f'''<div class="portfolio-toolbar">
   <div class="portfolio-filters" role="group" aria-label="Filter projects" hidden>{filter_buttons}</div>
   <p class="portfolio-count" id="portfolio-count" role="status" aria-live="polite" aria-atomic="true">{len(projects)} projects</p>
 </div>
-<div class="portfolio-grid" id="portfolio-grid">{''.join(project_cards[slug] for slug in card_order)}</div>
-<div class="portfolio-footer"><p>Every room has a different story.</p><button class="text-link portfolio-more" type="button" data-show-all-projects hidden>View all {len(projects)} projects <span aria-hidden="true">↗</span></button></div>
+<div class="portfolio-order"><span>By year</span><span>Newest first ↓</span></div>
+<div class="portfolio-grid" id="portfolio-grid">{''.join(year_groups)}</div>
+<div class="portfolio-footer"><p>Concerts / Records / Broadcasts / Systems</p><button class="text-link portfolio-more" type="button" data-show-all-projects hidden>View all {len(projects)} projects <span aria-hidden="true">↗</span></button></div>
 <div class="project-details-fallback">{''.join(project_dialogs)}</div>'''
 
 INDEX = f'''<!DOCTYPE html>
@@ -854,13 +929,13 @@ INDEX = f'''<!DOCTYPE html>
 <head>
   {page_head("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION,
              structured=graph("/", "Jean-Pierre Boutros | International FOH & Sound Engineer", DESCRIPTION, page_type="ProfilePage"),
-             preload_image="live-outdoor-foh-night.jpg", image_sizes="(max-width: 760px) 100vw, 55vw")}
+             preload_image="live-outdoor-foh-night.jpg", image_sizes="(max-width: 760px) 100vw, 65vw")}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="progress" aria-hidden="true"></div>
   <nav class="nav" id="nav" aria-label="Primary">
-    <a href="#top" class="nav-brand"><img class="nav-logo" src="jpb-monogram.png" alt="" width="27" height="32" /><span>Jean-Pierre Boutros</span></a>
+    <a href="#top" class="nav-brand"><img class="nav-logo" src="jpb-monogram.png" alt="" width="27" height="32" /><span>Jean-Pierre Boutros<span class="brand-role">Sound engineer</span></span></a>
     <div class="nav-links">{nav_links("nav-contact")}</div>
     <button class="nav-burger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu" aria-haspopup="dialog">
       <span></span><span></span><span></span>
@@ -875,33 +950,36 @@ INDEX = f'''<!DOCTYPE html>
 
   <header class="hero hero--portrait" id="top" tabindex="-1">
     <div class="hero-shell container">
+      <div class="hero-masthead">
+        <div class="hero-topline"><p class="eyebrow">Sound engineering / Selected portfolio</p><p>Lebanon · International</p></div>
+        <h1 class="hero-title"><span>Jean-Pierre</span> <span>Boutros<span class="name-stop">.</span></span></h1>
+      </div>
       <div class="hero-content">
-        <p class="eyebrow hero-eyebrow"><span></span>Sound engineer</p>
-        <h1 class="hero-title">Jean-Pierre<br /><em>Boutros.</em></h1>
         <div class="hero-description">
-          <p class="hero-role">FOH. Monitors. Studio. Broadcast.</p>
-          <p class="hero-lede">An ear for the artist.<br />A sound that fills the room.</p>
+          <p class="hero-kicker"><span aria-hidden="true">↳</span> At the desk</p>
+          <p class="hero-lede">The artist.<br />The room.<br /><span>The details.</span></p>
+          <p class="hero-note">Live sound, records and broadcasts.<br />From the first input to the final mix.</p>
         </div>
         <div class="hero-actions">
-          <a href="#work" class="btn btn-primary">Explore selected work <span aria-hidden="true">↘</span></a>
+          <a href="#work" class="btn btn-primary">View the work <span aria-hidden="true">↘</span></a>
           <a href="{e(profile_url)}" class="hero-profile" download="Jean-Pierre-Boutros-Profile.pdf" aria-label="Download professional profile (PDF, 1 page, {profile_size})">Download profile <span aria-hidden="true">↓</span><span class="hero-profile-format">PDF · 1 page</span></a>
         </div>
-        <p class="hero-location">Based in Lebanon <span aria-hidden="true">/</span> Working internationally</p>
+        <p class="hero-location">Founder, StudioJPB <span aria-hidden="true">/</span> Est. 2008</p>
       </div>
       <figure class="hero-portrait">
-        {image("live-outdoor-foh-night.jpg", "Jean-Pierre Boutros at the front-of-house console during an outdoor concert", sizes="(max-width: 760px) 100vw, 55vw", eager=True)}
-        <figcaption><span>At front of house</span><span>In the moment. In the mix.</span></figcaption>
+        {image("live-outdoor-foh-night.jpg", "Jean-Pierre Boutros at the front-of-house console during an outdoor concert", sizes="(max-width: 760px) 100vw, 65vw", eager=True)}
+        <figcaption><span>01 / Field notes</span><span>Jean-Pierre at front of house</span></figcaption>
         <a href="#about" class="hero-about" aria-label="Meet Jean-Pierre Boutros"><span aria-hidden="true">↗</span></a>
       </figure>
     </div>
-    <div class="hero-wave" aria-hidden="true">{''.join(f'<span style="height:{h}%;--wave-duration:{1.4 + (i % 7) * .21:.2f}s;--wave-delay:-{(i % 11) * .17:.2f}s"></span>' for i, h in enumerate([20,55,80,40,70,30,90,50,65,25,75,45,100,55,35,80,60,20,70,45,90,30,65,50,85,40,70,25,55,15]))}</div>
+    <div class="practice-strip container" aria-label="Engineering disciplines"><a href="/live-sound-engineer/"><span>01</span> FOH &amp; monitors</a><a href="/recording-engineer/"><span>02</span> Recording</a><a href="/mixing-mastering/"><span>03</span> Mixing &amp; mastering</a><a href="/broadcast-audio-engineer/"><span>04</span> Broadcast</a></div>
   </header>
 
   <main id="main" tabindex="-1">
     <section class="section" id="work" aria-labelledby="work-title" tabindex="-1">
       <div class="container">
         <div class="section-heading" data-reveal>
-          <div><p class="eyebrow">Selected work</p><h2 class="section-title" id="work-title">On stage.<br /><em>Behind the sound.</em></h2></div>
+          <div><p class="eyebrow">01 / The project index</p><h2 class="section-title" id="work-title">Selected work<span class="heading-count"> / {len(projects)}</span></h2></div>
           <p class="section-intro">From intimate performances to orchestras and festival stages. Explore the artists, the rooms, and my role in the mix.</p>
         </div>
         {portfolio_html}
@@ -911,7 +989,7 @@ INDEX = f'''<!DOCTYPE html>
     <section class="section section--alt" id="credits" aria-labelledby="credits-title" tabindex="-1">
       <div class="container">
         <div class="section-heading" data-reveal>
-          <div><p class="eyebrow">Selected collaborations</p><h2 class="section-title" id="credits-title">On stage.<br /><em>In good company.</em></h2></div>
+          <div><p class="eyebrow">02 / Collaborations</p><h2 class="section-title" id="credits-title">The company<br />I keep.</h2></div>
           <p class="section-intro">Artists, ensembles, and productions I’ve worked with across live and studio settings.</p>
         </div>
         <ul class="credits-list" aria-label="Artists, ensembles and productions" data-reveal-group>{artist_html}</ul>
@@ -934,8 +1012,8 @@ INDEX = f'''<!DOCTYPE html>
       <div class="container">
         <div class="about-grid" data-reveal-group>
           <div class="about-copy" data-reveal>
-            <p class="eyebrow">The engineer</p>
-            <h2 class="section-title" id="about-title">An ear for the music.<br /><em>A mind for the details.</em></h2>
+            <p class="eyebrow">03 / The engineer</p>
+            <h2 class="section-title" id="about-title">A working life<br />in sound.</h2>
             <p class="lead">I’m Jean-Pierre Boutros, an international sound engineer based in Lebanon, working with artists, musicians, and production teams worldwide.</p>
             <p>My work moves between the stage, the studio, and the broadcast desk: live sound, front-of-house and monitor mixing, concerts and festivals, recording, studio mixing, mastering, and audio system integration. I bring the same attention to each: understanding the performance and shaping the sound around it.</p>
             <p>I founded StudioJPB in 2008. Alongside engineering and studio integration, I build audio software through Zynforge Audio, turning everyday production challenges into practical tools.</p>
@@ -958,7 +1036,7 @@ INDEX = f'''<!DOCTYPE html>
     <section class="section section--alt" id="zynforge" aria-labelledby="zynforge-title" tabindex="-1">
       <div class="container">
         <div class="section-heading" data-reveal>
-          <div><p class="eyebrow">From engineer to developer</p><h2 class="section-title" id="zynforge-title">Built from experience.<br /><em>Zynforge Audio.</em></h2></div>
+          <div><p class="eyebrow">04 / Tools of the trade</p><h2 class="section-title" id="zynforge-title">Zynforge Audio<span class="heading-count"> ↗</span></h2></div>
           <p class="section-intro">The tools I build come from the work I do. Zynforge Audio brings that experience to software for the stage and studio.</p>
         </div>
         <div class="product-grid" data-reveal-group>{zyn_html}</div>
@@ -969,7 +1047,7 @@ INDEX = f'''<!DOCTYPE html>
     <section class="section" id="gallery" aria-labelledby="gallery-title" tabindex="-1">
       <div class="container">
         <div class="section-heading" data-reveal>
-          <div><p class="eyebrow">Behind the scenes</p><h2 class="section-title" id="gallery-title">A life<br /><em>in sound.</em></h2></div>
+          <div><p class="eyebrow">05 / The contact sheet</p><h2 class="section-title" id="gallery-title">From my side<br />of the stage.</h2></div>
           <p class="section-intro">The desk. The room. The moments between. A closer look at the working side of a performance.</p>
         </div>
         <div class="gallery-grid" id="gallery-grid" data-reveal-group>{''.join(gallery_items)}</div>
@@ -979,7 +1057,7 @@ INDEX = f'''<!DOCTYPE html>
 
     <section class="section section--contact" id="contact" aria-labelledby="contact-title" tabindex="-1">
       <div class="container contact-grid">
-        <div data-reveal><p class="eyebrow">Start a conversation</p><h2 class="section-title" id="contact-title">Good sound starts<br /><em>with a conversation.</em></h2><p class="section-intro">For a concert, a recording, a broadcast, or a studio system, tell me what you’re working on.</p><p class="contact-location">{e(AVAILABILITY)} <a href="/international-projects/">International project information</a></p></div>
+        <div data-reveal><p class="eyebrow">06 / Next on the desk</p><h2 class="section-title" id="contact-title">Tell me about<br />your production<span class="name-stop">.</span></h2><p class="section-intro">For a concert, a recording, a broadcast, or a studio system, tell me what you’re working on.</p><p class="contact-location">{e(AVAILABILITY)} <a href="/international-projects/">International project information</a></p></div>
         <div class="contact-details">
           <a href="mailto:jp@jeanpierreboutros.com" class="contact-link"><span><span class="contact-tag">Email</span>jp@jeanpierreboutros.com</span><span aria-hidden="true">↗</span></a>
           <a href="https://wa.me/9613883863" target="_blank" rel="noopener noreferrer" class="contact-link"><span><span class="contact-tag">WhatsApp</span>+961 3 883 863</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
@@ -1006,7 +1084,7 @@ INDEX = f'''<!DOCTYPE html>
     <figure><img class="lightbox-img" alt="" hidden /><figcaption><span id="lightbox-caption"></span><span id="lightbox-count" role="status" aria-live="polite" aria-atomic="true"></span></figcaption></figure>
     <button type="button" class="lightbox-next" aria-label="Next photograph">›</button>
   </dialog>
-  <script type="application/json" id="gallery-data">{json.dumps(gallery_data, ensure_ascii=False).replace('<', chr(92) + 'u003c')}</script>
+  <script type="application/json" id="gallery-data">{json_text(gallery_data)}</script>
 </body>
 </html>
 '''
@@ -1016,6 +1094,8 @@ print(f"index.html written: {len(artists)} artist credits, {len(gallery)} galler
 
 search_paths = render_search_pages({
     "home": INDEX, "image": image, "projects": projects,
+    "project_order": card_order, "project_years": project_years,
+    "project_dates": project_dates,
     "articles": project_articles, "cards": project_cards, "gallery": gallery,
     "sources": gallery_sources, "gallery_data": gallery_data,
 })

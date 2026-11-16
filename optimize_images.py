@@ -15,7 +15,7 @@ DEST.mkdir(exist_ok=True)
 manifest = {}
 
 for source in sorted((ROOT / "photos").iterdir()):
-    if source.suffix.lower() not in (".jpg", ".png"):
+    if source.suffix.lower() not in (".jpg", ".png", ".webp"):
         continue
     with Image.open(source) as original:
         original = ImageOps.exif_transpose(original)

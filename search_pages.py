@@ -15,10 +15,16 @@ SITE = "https://www.jeanpierreboutros.com"
 NAME = "Jean-Pierre Boutros"
 PERSON = SITE + "/#person"
 WEBSITE = SITE + "/#website"
-DESCRIPTION = ("Jean-Pierre Boutros is a Lebanon-based international sound engineer "
-               "specializing in live sound, FOH mixing, concerts, festivals, recording, "
-               "studio mixing, mastering, broadcast and audio system integration.")
+DESCRIPTION = ("Lebanon-based international sound engineer Jean-Pierre Boutros: "
+               "FOH for concerts and festivals, recording, mixing, mastering, broadcast "
+               "and studio integration. Available worldwide by arrangement.")
 e = html.escape
+PAGE_REVIEW_DATES = {
+    path: "2026-11-16" for path in (
+        "/", "/projects/", "/projects/tarteeb-shareet-doha/",
+        "/live-sound-engineer/", "/international-projects/",
+    )
+}
 
 
 def absolute(path):
@@ -26,7 +32,13 @@ def absolute(path):
 
 
 def json_text(value):
-    return json.dumps(value, ensure_ascii=False).replace("<", "\\u003c")
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+
+
+def search_image(filename):
+    """Reuse the full-composition derivative; retain every original photograph."""
+    manifest = json.loads((ROOT / "photos/optimized/manifest.json").read_text())
+    return manifest[filename]["variants"][-1]
 
 
 def plain(value):
@@ -64,7 +76,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
             "jobTitle": "International sound engineer, FOH engineer, recording and mixing engineer",
             "description": DESCRIPTION, "email": "jp@jeanpierreboutros.com",
             "telephone": "+9613883863",
-            "image": absolute("photos/about-portrait.jpg"),
+            "image": absolute(search_image("about-portrait.jpg")["src"]),
             "homeLocation": {"@type": "Country", "name": "Lebanon"},
             "sameAs": ["https://www.instagram.com/jp.boutros",
                        "https://www.facebook.com/jean.p.boutros"],
@@ -114,7 +126,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
         "@type": page_type, "@id": url + "#webpage", "url": url,
         "name": title, "description": description, "inLanguage": "en",
         "isPartOf": {"@id": WEBSITE}, "about": {"@id": PERSON},
-        "dateModified": REVIEWED, "mainEntity": main_entity or {"@id": PERSON}
+        "dateModified": PAGE_REVIEW_DATES.get(path, REVIEWED), "mainEntity": main_entity or {"@id": PERSON}
     }
     if breadcrumbs:
         breadcrumb_id = url + "#breadcrumbs"
@@ -134,7 +146,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
 
 def page_head(path, title, description, *, image="about-portrait.jpg",
               image_alt="Jean-Pierre Boutros, international sound engineer",
-              structured=None, preload_image=None, image_sizes="100vw"):
+              structured=None, preload_image=None, image_sizes="100vw", og_type="website"):
     manifest = json.loads((ROOT / "photos/optimized/manifest.json").read_text())
     fonts = json.loads((ROOT / "fonts/manifest.json").read_text())
     css_version = sha256((ROOT / "styles.css").read_bytes()).hexdigest()[:12]
@@ -152,7 +164,8 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
         image_preload = (f'<link rel="preload" as="image" href="/{e(default["src"])}" '
                          f'imagesrcset="{e(srcset)}" imagesizes="{e(image_sizes)}" '
                          'fetchpriority="high" />')
-    picture = manifest[image]
+    picture = search_image(image)
+    picture_url = absolute(picture["src"])
     url = absolute(path)
     return f'''<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -160,16 +173,17 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
   <meta name="description" content="{e(description)}" />
   <meta name="author" content="{NAME}" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="theme-color" content="#191e1c" />
   <link rel="canonical" href="{e(url)}" />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="apple-touch-icon" href="/favicon.png" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="{e(og_type)}" />
   <meta property="og:url" content="{e(url)}" />
   <meta property="og:site_name" content="{NAME}" />
   <meta property="og:title" content="{e(title)}" />
   <meta property="og:description" content="{e(description)}" />
-  <meta property="og:image" content="{absolute("photos/" + image)}" />
+  <meta property="og:image" content="{picture_url}" />
+  <meta property="og:image:type" content="image/webp" />
   <meta property="og:image:alt" content="{e(image_alt)}" />
   <meta property="og:image:width" content="{picture["width"]}" />
   <meta property="og:image:height" content="{picture["height"]}" />
@@ -177,7 +191,7 @@ def page_head(path, title, description, *, image="about-portrait.jpg",
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{e(title)}" />
   <meta name="twitter:description" content="{e(description)}" />
-  <meta name="twitter:image" content="{absolute("photos/" + image)}" />
+  <meta name="twitter:image" content="{picture_url}" />
   <meta name="twitter:image:alt" content="{e(image_alt)}" />
   <script type="application/ld+json">{json_text(structured or graph(path, title, description))}</script>
   {font_links}
@@ -220,8 +234,9 @@ def render_search_pages(context):
     home = context["home"]
     images = context["image"]
     project_records = context["projects"]
+    article_by_slug = dict(zip((p[0] for p in project_records), context["articles"]))
+    project_records = sorted(project_records, key=lambda p: context["project_order"].index(p[0]))
     by_slug = {p[0]: p for p in project_records}
-    article_by_slug = dict(zip(by_slug, context["articles"]))
     cards = context["cards"]
     gallery = context["gallery"]
     sources = context["sources"]
@@ -260,17 +275,28 @@ def render_search_pages(context):
         # A collection page uses normal links, without homepage filter enhancement.
         return re.sub(r'\sdata-project-card="[^"]+"', "", markup)
 
-    def project_grid(slugs):
-        return '<div class="portfolio-grid">' + "".join(card(slug) for slug in slugs) + '</div>'
+    def project_grid(slugs, *, group_years=False):
+        slugs = sorted(slugs, key=context["project_order"].index)
+        markup, previous_year = [], None
+        for slug in slugs:
+            year = context["project_years"][slug]
+            if group_years and year != previous_year:
+                label = "Studio & systems" if year == "ongoing" else year
+                markup.append(f'<h2 class="portfolio-year">{e(label)}</h2>')
+                previous_year = year
+            markup.append(card(slug))
+        return '<div class="portfolio-grid">' + ''.join(markup) + '</div>'
 
     def write(path, title, description, body, breadcrumbs, *, image="about-portrait.jpg",
               alt="Jean-Pierre Boutros, international sound engineer", page_type="WebPage",
-              main_entity=None, extra=None):
+              main_entity=None, extra=None, preload_image=None, og_type="website"):
         data = graph(path, title, description, page_type=page_type,
                      main_entity=main_entity, breadcrumbs=breadcrumbs, extra=extra)
         output = ROOT / path.strip("/") / "index.html"
         output.parent.mkdir(parents=True, exist_ok=True)
-        head = page_head(path, title, description, image=image, image_alt=alt, structured=data)
+        head = page_head(path, title, description, image=image, image_alt=alt, structured=data,
+                         preload_image=preload_image,
+                         image_sizes="(max-width: 760px) 100vw, 45vw", og_type=og_type)
         document = f'''<!DOCTYPE html>
 <html lang="en">
 <head>{head}</head>
@@ -306,7 +332,13 @@ def render_search_pages(context):
         ) + '</ul></div></section>'
         body += '<section class="page-section"><h2>Selected experience</h2>' + project_grid(service["projects"]) + '</section>'
         if slug in ("recording-engineer", "mixing-mastering"):
-            body += '<section class="page-section"><h2>Released recordings</h2><p>Explore Jean-Pierre Boutros’s recording, mixing and mastering credits by song and album.</p><a class="text-link" href="/studio-credits/">Browse studio credits <span aria-hidden="true">↗</span></a></section>'
+            body += '<section class="page-section"><h2>Released recordings</h2><p>Named releases show the specific engineering work behind the service:</p><ul class="related-links">'
+            for group_id, work_title in service["credit_examples"]:
+                group = next(g for g in CREDIT_GROUPS if g["id"] == group_id)
+                work = next(w for w in group["works"] if w["title"] == work_title)
+                body += (f'<li><a href="/studio-credits/#{e(group_id)}">'
+                         f'{e(group["name"])} · {e(work_title)} · {e(work["role"])}</a></li>')
+            body += '</ul><a class="text-link" href="/studio-credits/">Browse all studio credits <span aria-hidden="true">↗</span></a></section>'
         body += faq_html(service["faq"])
         body += '<section class="page-section"><h2>Related services</h2><ul class="related-links">' + "".join(
             f'<li><a href="/{key}/">{e(SERVICE_BY_SLUG[key]["name"])}</a></li>'
@@ -315,7 +347,7 @@ def render_search_pages(context):
         body += inquiry_html(service["name"] + " inquiry")
         write(path, service["title"], service["description"], body, crumbs,
               image=service["photo"], alt=service["alt"],
-              main_entity={"@id": service_id(slug)})
+              main_entity={"@id": service_id(slug)}, preload_image=service["photo"])
 
     # Preserve every full project description, with a genuinely indexable URL.
     orchestra_projects = {"marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
@@ -355,7 +387,8 @@ def render_search_pages(context):
             body += '<section class="page-section"><h2>More from the portfolio</h2>' + project_grid(related_projects) + '</section>'
         body += inquiry_html(name + " / similar production inquiry")
         article_id = absolute(path + "#record")
-        image_data = {"@type": "ImageObject", "contentUrl": absolute("photos/" + filename),
+        picture = search_image(filename)
+        image_data = {"@type": "ImageObject", "contentUrl": absolute(picture["src"]),
                       "caption": alt}
         if filename in sources:
             image_data["creditText"] = sources[filename]["name"]
@@ -364,11 +397,14 @@ def render_search_pages(context):
             "description": summary, "articleBody": plain(article),
             "author": {"@id": PERSON}, "publisher": {"@id": PERSON},
             "mainEntityOfPage": {"@id": absolute(path + "#webpage")},
-            "inLanguage": "en", "dateModified": REVIEWED, "image": image_data,
+            "inLanguage": "en", "dateModified": PAGE_REVIEW_DATES.get(path, REVIEWED), "image": image_data,
             "about": [{"@id": service_id(key)} for key in related_services]
         }
+        if slug in context["project_dates"]:
+            # This is the production date, never an invented article-publication date.
+            record["temporalCoverage"] = context["project_dates"][slug][0]
         write(path, title, description, body, crumbs, image=filename, alt=alt,
-              main_entity={"@id": article_id}, extra=[record])
+              main_entity={"@id": article_id}, extra=[record], og_type="article")
 
     # Index pages expose the complete inventory without a filter or modal.
     path = "/projects/"
@@ -376,7 +412,8 @@ def render_search_pages(context):
     body = intro("Professional portfolio", "The projects.<br /><em>The actual role.</em>",
                  f"Explore all {len(project_records)} project records: concert and festival FOH, artist monitors, live recording, orchestral performances, broadcast, StudioJPB and audio system integration.",
                  crumbs)
-    body += project_grid([p[0] for p in project_records])
+    body += '<p class="portfolio-order"><span>By year</span><span>Newest first ↓</span></p>'
+    body += project_grid([p[0] for p in project_records], group_years=True)
     body += inquiry_html()
     item_list = {"@type": "ItemList", "@id": absolute(path + "#projects"),
                  "name": "Professional project records", "numberOfItems": len(project_records),
@@ -429,7 +466,7 @@ def render_search_pages(context):
         ("France", ["nancy-ajram-olympia"]),
         ("Oman", ["marcel-khalife-muscat"]),
         ("Jordan", ["marcel-khalife-amman", "zade-dirani-amman"]),
-        ("Qatar", ["abeer-nehme-qatar"]),
+        ("Qatar", ["tarteeb-shareet-doha", "abeer-nehme-qatar"]),
         ("Kuwait", ["the-eighties", "cartoon-orchestra"]),
         ("Saudi Arabia", ["baligh-hamdi-night", "warda-night", "night-of-arab-stars"]),
         ("United Arab Emirates", ["nancy-ajram-expo-dubai"]),
@@ -459,7 +496,7 @@ def render_search_pages(context):
     for path in paths:
         entry = ET.SubElement(sitemap, "{" + namespace + "}url")
         ET.SubElement(entry, "{" + namespace + "}loc").text = absolute(path)
-        ET.SubElement(entry, "{" + namespace + "}lastmod").text = REVIEWED
+        ET.SubElement(entry, "{" + namespace + "}lastmod").text = PAGE_REVIEW_DATES.get(path, REVIEWED)
     ET.indent(sitemap, space="  ")
     (ROOT / "sitemap.xml").write_bytes(ET.tostring(sitemap, encoding="utf-8", xml_declaration=True) + b"\n")
     (ROOT / "robots.txt").write_text(f'''# Search discovery and model-training controls are separate.

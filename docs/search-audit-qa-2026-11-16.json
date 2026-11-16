@@ -1,0 +1,76 @@
+{
+  "checked": "2026-11-16",
+  "deployment_performed": false,
+  "build": {
+    "pages": 40,
+    "projects": 29,
+    "services": 6,
+    "studio_releases": 51,
+    "collaborations": 41,
+    "gallery_images": 35,
+    "result": "pass"
+  },
+  "checks": {
+    "local_metadata_links_assets_aria_canonicals_sitemap": "pass",
+    "specific_production_roles_and_chronology": "pass",
+    "schema_org_property_domain_range_checks": 4980,
+    "html5_documents_without_parser_errors": 40,
+    "css_stylesheet_parse_errors": 0,
+    "python_compile": "pass",
+    "javascript_syntax": "pass",
+    "shell_syntax": "pass",
+    "apache_http_tls_checks": 59,
+    "installer_preservation_backup_idempotence_malformed_block_rejection": "pass",
+    "all_prior_files_retained": true,
+    "image_logo_font_pdf_binaries_preserved": true,
+    "generated_html_utf8_strict_decode_and_charset": "pass"
+  },
+  "vocabulary": {
+    "url": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+    "sha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74"
+  },
+  "external_validators": {
+    "schema_org": {
+      "method": "Browser code input of the generated project graph",
+      "errors": 0,
+      "warnings": 0,
+      "top_level_items": 4
+    },
+    "google_rich_results": {
+      "method": "Browser code input of the generated project graph",
+      "valid_items": 4,
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject metadata",
+        "Organization"
+      ],
+      "critical_errors": 0,
+      "noncritical_notices": [
+        "Article: three optional-field notices",
+        "Image metadata: noncritical optional-field notices"
+      ],
+      "result_url": "https://search.google.com/test/rich-results/result?id=YaQDCrX-eYRRqvHjru5BKA"
+    },
+    "limits": "Code-input tests assess structured-data shape, not public hosting, indexing or entitlement to a feature. A clipboard/plain-text preview showed encoding artifacts in non-ASCII title punctuation; strict UTF-8 decoding and charset checks of every actual generated HTML file pass. Repeat representative public URL tests after deployment. Optional publication/licensing data was not invented to clear notices."
+  },
+  "browser_observations": [
+    "Updated desktop homepage: dark folio, original logo, 29 projects and Tarteeb first",
+    "Recording service: named studio-credit links visible in existing design",
+    "Mixing service: 320px viewport, readable layout and mobile menu; Escape dismisses navigation",
+    "Preview left open at http://127.0.0.1:8003/"
+  ],
+  "performance_limits": "Public PageSpeed API returned 429 quota error. No LCP, INP, CLS, score or field improvement claimed.",
+  "temporary_qa_dependencies": {
+    "production_dependencies_added": false,
+    "location": "/private/tmp/jpb-seo-qa-venv",
+    "risk_workflow": "dependency-reviewer / package-risk",
+    "results": {
+      "pypi:html5lib@1.1": "UNKNOWN: Endor evidence tools unavailable",
+      "pypi:tinycss2@1.4.0": "UNKNOWN: Endor evidence tools unavailable",
+      "pypi:fonttools@4.60.2": "UNKNOWN: Endor evidence tools unavailable",
+      "pypi:brotli@1.2.1": "UNKNOWN: Endor evidence tools unavailable"
+    },
+    "interpretation": "No security clearance or known-vulnerability claim; isolated QA only."
+  }
+}

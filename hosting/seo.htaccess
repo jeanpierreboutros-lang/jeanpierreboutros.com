@@ -20,4 +20,12 @@ RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} !^www\.jeanpierreboutros\.com$ [NC]
 RewriteRule ^ https://www.jeanpierreboutros.com%{REQUEST_URI} [R=301,L]
 </IfModule>
+
+# Only content-fingerprinted portfolio assets receive an immutable lifetime.
+# Unversioned requests and other sites on this shared root retain their policy.
+<IfModule mod_headers.c>
+<FilesMatch "^(styles\.css|main\.js|fonts\.css)$">
+Header set Cache-Control "public, max-age=31536000, immutable" "expr=%{HTTP_HOST} =~ m#^(www\.)?jeanpierreboutros\.com(:[0-9]+)?$# && %{QUERY_STRING} =~ m#(^|&)v=[0-9a-f]{12}(&|$)#"
+</FilesMatch>
+</IfModule>
 # END JPB MANAGED SEO

@@ -1,0 +1,479 @@
+{
+  "checked": "2026-11-16",
+  "server": "Apache 2.4.67 isolated local HTTP/TLS fixture",
+  "scope": "Current 40 pages, canonical redirects, scoped immutable caching, other hostname and existing access restrictions. Not a production deployment.",
+  "results": [
+    {
+      "path": "/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/international-projects/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/services/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": false,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null
+    },
+    {
+      "path": "/",
+      "host": "jeanpierreboutros.com",
+      "tls": false,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null
+    },
+    {
+      "path": "/",
+      "host": "jeanpierreboutros.com",
+      "tls": true,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null
+    },
+    {
+      "path": "/index.html",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null
+    },
+    {
+      "path": "/live-sound-engineer",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "cache_control": null
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/index.html",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "cache_control": null
+    },
+    {
+      "path": "/styles.css?v=123456789abc",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/styles.css",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/styles.css?v=123456789abc",
+      "host": "studiojpb.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/main.js?v=123456789abc",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/main.js",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/main.js?v=123456789abc",
+      "host": "studiojpb.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/fonts/fonts.css?v=123456789abc",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/fonts/fonts.css",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/fonts/fonts.css?v=123456789abc",
+      "host": "studiojpb.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/",
+      "host": "studiojpb.com",
+      "tls": true,
+      "status": 200,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/protected-fixture.txt",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 403,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/protected-fixture.txt",
+      "host": "studiojpb.com",
+      "tls": true,
+      "status": 403,
+      "location": null,
+      "cache_control": null
+    },
+    {
+      "path": "/jpb-unknown/",
+      "host": "www.jeanpierreboutros.com",
+      "tls": true,
+      "status": 404,
+      "location": null,
+      "cache_control": null
+    }
+  ]
+}

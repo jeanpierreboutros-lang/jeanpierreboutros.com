@@ -1,9 +1,13 @@
 # Visibility and inquiry measurement
 
-Reviewed 3 November 2026. The portfolio is published; Google/Bing ownership
+Reviewed 16 November 2026. The earlier portfolio release is published; Google/Bing ownership
 verification and performance exports remain outstanding. No analytics provider,
 tracking script, cookies, account connection or data collection was installed by
 this release. No analytics configuration was found in the repository.
+
+The current local candidate has 40 canonical pages, six services and 29 projects.
+Record its eventual deployed commit and date as a new annotation; retain the
+3 November baseline below. A local build does not establish live delivery.
 
 ## Establish a baseline
 
@@ -33,6 +37,7 @@ traffic totals, inquiry counts or Core Web Vitals improvement is claimed yet.
 | Sitemap and crawl errors | Google/Bing sitemap and indexing reports | After release, then monthly |
 | LCP, INP and CLS | Field reports; PageSpeed/CrUX when available | Monthly |
 | Identifiable AI referrals | Hosting/referrer reports or an approved future analytics tool | Monthly |
+| Supported AI citation counts, cited URLs and grounding queries | Bing Webmaster Tools AI Performance, when available for the verified property | Monthly |
 | Qualified inquiries and bookings | A manual inquiry log | Monthly |
 
 ## Inquiries
@@ -53,6 +58,16 @@ interfaces, but privacy controls, apps, redirects and absent referrers mean
 coverage is incomplete. Search Console reports Google performance under the
 dimensions the product makes available. Do not manufacture a separate count of
 AI recommendations from ordinary search data.
+
+Google documents AI Overviews/AI Mode traffic within Search Console's **Web**
+search performance reporting; treat that as the coverage described by the
+[official Google guidance](https://developers.google.com/search/docs/appearance/ai-features).
+Bing's [AI Performance preview](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/)
+reports citations across Microsoft Copilot, Bing summaries and selected partners.
+Its [additional preview insights](https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/)
+include intents, topics, citation share and comparisons. Use whichever reports
+the verified account actually exposes; no account data was accessed here.
+These reports do not cover all ChatGPT, Gemini, Perplexity or other AI answers.
 
 Keep occasional manual samples of relevant, non-leading discovery questions and
 record the date, interface and observed links. Results vary by location, query,

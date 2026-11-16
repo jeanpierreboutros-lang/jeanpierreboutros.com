@@ -1,0 +1,1304 @@
+{
+  "checked": "2026-11-16",
+  "scope": "Read-only public HTTP responses from this machine; crawler-identifying headers do not prove access from genuine crawler IPs. No deployment performed.",
+  "results": [
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.002,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:00 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.599831",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "elapsed_seconds": 0.74,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:00 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 10743\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.558627",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Broadcast Audio Engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "83cef3fe52b895d1e3762c7525651f3a5e81e75d2f765a5354a172aefbc3744d",
+      "decoded_text_bytes": 32548
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/international-projects/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/international-projects/",
+      "elapsed_seconds": 0.748,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:00 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 10902\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.566779",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/international-projects/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "International Sound Engineer &amp; Projects | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "dee321f661b6788b2ece0b95a5745b84dc4c160eaa99daa48c90586b88c83094",
+      "decoded_text_bytes": 33771
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "elapsed_seconds": 0.818,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:00 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 16113\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.609199",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Live Sound &amp; FOH Engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "07a9f4042f4c16def0f865367d62361d5131535cc56fbf79ed13d751ec7d4bfe",
+      "decoded_text_bytes": 44977
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "elapsed_seconds": 0.742,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:00 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11455\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.564032",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/mixing-mastering/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Mixing &amp; Mastering Engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "83b40b81cc6fd9fdd5d56924eaf3cdc3f0e17469fbe5b362957b3b2241b905cd",
+      "decoded_text_bytes": 33943
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "elapsed_seconds": 0.795,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:01 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 13159\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.600830",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Orchestra Sound Engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "ce1994beeba0bf3445ba8c3d61706fff9e7e2202315fb880f8be3aeb9a19e07f",
+      "decoded_text_bytes": 37886
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/",
+      "elapsed_seconds": 0.719,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:01 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.535065",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Sound Engineering Projects | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "7b5375e601b874c64e9415d28c509d40f415ff5d5bd45f4f7d36f727381933ce",
+      "decoded_text_bytes": 64898
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "elapsed_seconds": 0.79,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:01 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11434\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.596049",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Abeer Nehme · Baalbeck International Festival | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "2ac91c3eb5e65b5f27cc152fb4128956f2faf9b0ba75b800fb205f5b97338002",
+      "decoded_text_bytes": 34517
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "elapsed_seconds": 0.795,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:01 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11190\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.614973",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Abeer Nehme · With the Qatar Philharmonic Orchestra | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "1a39eab971e827caf8ef5294ac275493a33e9df06d7021a8c813d6115fb8b9e8",
+      "decoded_text_bytes": 34234
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "elapsed_seconds": 0.789,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:01 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11257\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.613997",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Al Sharq Symphony · Marcel Khalifé &amp; Istanbul Philharmonic | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "ca17bff7c7ab1b6f91a6f9878ac044dd4d3b26dc4e597a048e71370664d108e1",
+      "decoded_text_bytes": 34173
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "elapsed_seconds": 0.719,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:02 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11977\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.548601",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · Baligh Hamdi Night | Monitor engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "b059b56b4ceb8bd9a501bf95a543df4342c45c2640ed60ccdf4ac299e27e7e5e",
+      "decoded_text_bytes": 34909
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "elapsed_seconds": 0.776,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:02 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11126\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.599991",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Beirut the Sea Lover · Roman Baths · Beirut Spring Festival | 3D sound mixing | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "9355f8b74ebc54851440f9558470ad56b969eeec8d8098e6d87c2991f41ffa49",
+      "decoded_text_bytes": 33887
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "elapsed_seconds": 0.769,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:02 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11146\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.593897",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "On the Steps of Marco Polo · Abeer Nehme &amp; Charbel Rouhana · Beiteddine | Audio technical supervision | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "b8908954f72b32221bee2e923540636f8dd97863d66879b80a61cc40e155af4d",
+      "decoded_text_bytes": 33928
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "elapsed_seconds": 0.882,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:02 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11063\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.676562",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Carole Samaha · Golden Album | Mixing &amp; mastering engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "47814a8f64dd341ec4f7182626cba8b631d5d005b5be6e783d6f05213987fa83",
+      "decoded_text_bytes": 33664
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "elapsed_seconds": 0.791,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:02 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11409\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.594079",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Cartoon Orchestra · Sheikh Jaber Al-Ahmad Cultural Centre | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "509300327dd2584eb910273e069e528ead59237c6fd2b0f9f3a5a733c4e9bf87",
+      "decoded_text_bytes": 34221
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "elapsed_seconds": 0.84,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11271\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.632566",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Abeer Nehme · Ehdeniyat International Festival | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "bd0c1dfc5d3f8453a76fb0c7eb41c0c6f764a31f7c782e46b52a5bf96c07df0b",
+      "decoded_text_bytes": 34444
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "elapsed_seconds": 0.81,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11663\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.609739",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Adam · Ehdeniyat International Festival | Monitor engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "d224e818f04f6f92c087d61c783670f37658dac799106b416762d93bb1e8e3c0",
+      "decoded_text_bytes": 34657
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "elapsed_seconds": 0.71,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11186\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.537422",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Al Shami · Ehdeniyat International Festival | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "c255eddeb7f94b9a026de940be38dab6b618ebb010bf37dbc5864b075886978e",
+      "decoded_text_bytes": 34123
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "elapsed_seconds": 0.736,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11360\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.553776",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Lebanese Philharmonic · Eternal Covenant | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "1d8dda003394b8ec726c7cceb0f459437171ab09e61a632cf1e65497082ec7ee",
+      "decoded_text_bytes": 34244
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "elapsed_seconds": 0.785,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11894\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.605911",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Marcel Khalifé · Amman Citadel · Jordan Festival | Monitor &amp; recording engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "d1713b0503e3d425bae014ba748ceef632d1956af5a6136a5647437bf48ed184",
+      "decoded_text_bytes": 35218
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "elapsed_seconds": 0.853,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11391\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.604419",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Marcel Khalifé · Ode to a Homeland · Baalbeck | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "deca24f31990b68bcff4d99e5a5d29940daae2e24b6e11df2de9ad1a30c0872f",
+      "decoded_text_bytes": 34478
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "elapsed_seconds": 0.851,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:03 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11300\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.604641",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Marcel Khalifé · Royal Opera House Muscat | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "9125e77143b33c0ef4aa33f0b7b9fd283259ce4865ae78dd554017ac7775eb9f",
+      "decoded_text_bytes": 34143
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "elapsed_seconds": 0.819,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11312\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.628662",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Marina Viotti · Opera under the stars | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "349bc9975f56c19f02026ce9e912e37d5e7f4fe606ea4b837dbbf4bf71cd52ac",
+      "decoded_text_bytes": 34081
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "elapsed_seconds": 0.841,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11254\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.631254",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Mazeej by Lucas Sakr · On Stage · NDU | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "8ace70f9b15ee0359ae830d5bafba8c06dc17347b9baa77ab39066f2fa66e7da",
+      "decoded_text_bytes": 33602
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "elapsed_seconds": 0.899,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11733\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.696419",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · Infinite Nights · Expo 2020 Dubai | Monitor engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "2b88fcd285c26b1c8bb19cee2a85f5f7a4313de74a2bbed039ab675e551551bf",
+      "decoded_text_bytes": 34770
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "elapsed_seconds": 0.723,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11303\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.544547",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · Bnoss Jounieh · We Are Lebanon | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "2ca7176175d6e4fd88b7f61c8a776bcdd72fba684672bda84f114bf4e9c6d79f",
+      "decoded_text_bytes": 34133
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "elapsed_seconds": 0.743,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11021\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.558508",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · L’Olympia | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "8f1c2778d10666a34d3a13192347f3cde773c95deb63d018788d74b76901126e",
+      "decoded_text_bytes": 33624
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "elapsed_seconds": 0.825,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 12010\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.643986",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · Night of Arab Stars · Riyadh Season | Monitor engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "499f514c8381e0a34ecc858833cc6ba1f4c975fa1ca22e79422e0a3c0384f964",
+      "decoded_text_bytes": 35221
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "elapsed_seconds": 0.848,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:04 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 9889\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.610237",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Papal Mass · Live broadcast · Beirut Waterfront | Broadcast sound engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "2165ac32a8fbe49a872e36dcd62aaf50e0f044811e973835b993d503f890d65a",
+      "decoded_text_bytes": 30734
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "elapsed_seconds": 0.848,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 10949\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.645722",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-integration/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Studio systems · Merwas Studios &amp; Playsound Studios | Audio system integration | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "8919922e46c7251e34a0e6a6665b0b49a2ba44cd606601dd71ebafdcd3e4f281",
+      "decoded_text_bytes": 33356
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "elapsed_seconds": 0.849,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 10652\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.607916",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "StudioJPB · Recording, mixing &amp; mastering | Founder &amp; sound engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "78245102546c49d8e9279f76e11cdf7d96e083e1ed10d156b4fd1d8d26b53a23",
+      "decoded_text_bytes": 32539
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 404,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "elapsed_seconds": 0.601,
+      "headers": [
+        "HTTP/1.1 404 Not Found\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Wed, 25 Mar 2026 21:28:51 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 462\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.591780",
+      "canonical": [],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "title": [
+        "404 Error"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666",
+      "decoded_text_bytes": 746
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "elapsed_seconds": 0.73,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11488\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.548384",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/the-eighties/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "The Eighties… The Knockout · National Theatre · JACC | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "4b562f3b94a4148613c0771ed46148eca8e1004de3ac1b97c5875056dd1335a6",
+      "decoded_text_bytes": 34264
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "elapsed_seconds": 0.738,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11821\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.557404",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/warda-night/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · Warda Night | Monitor engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "06d8eea91d6618e670a641b2880eb61159f261eb70c9cd8970bee63a6324edfc",
+      "decoded_text_bytes": 34584
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "elapsed_seconds": 0.713,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:05 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11456\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.545131",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Zade Dirani · The Hope Concert | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "8b01c49c646ea86b37e595486973d9841c7c9cf31c644a4f5c679c7067769fd1",
+      "decoded_text_bytes": 34255
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "elapsed_seconds": 0.755,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11117\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.583613",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Zade Dirani · Palais des Congrès | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "2893c93b85e24064238b3cfde5e9307a2048aa4350d9f27954a793320179c01c",
+      "decoded_text_bytes": 33593
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "elapsed_seconds": 0.72,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11565\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.541851",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/recording-engineer/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Recording Engineer &amp; Studio Sessions | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "e07d83b1b22c06175a656d809373455814c5ca3c550fd5ef356114932024a94d",
+      "decoded_text_bytes": 34301
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/services/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/services/",
+      "elapsed_seconds": 0.684,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 9889\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.673397",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/services/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "International Sound Engineering Services | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "e07043b659e68efdcf9a68c9aa8f835dc2c74dba352bc1cfceddc72ceb69b449",
+      "decoded_text_bytes": 31114
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "elapsed_seconds": 0.835,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 13915\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.594921",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-credits/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Recording, Mixing &amp; Mastering Credits | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "254de05b8ce182d72e6e016fadf2d0b844d62857f37fd5b73724f4513924528c",
+      "decoded_text_bytes": 54535
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "elapsed_seconds": 0.72,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 10940\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.544422",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-system-integration/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Studio Audio System Integration | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "aebff0b9a1155301677df73afdd42db49f83a8776fa4dbea3f350d55816e23d4",
+      "decoded_text_bytes": 33360
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/robots.txt",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/robots.txt",
+      "elapsed_seconds": 0.607,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:06 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 272\r\nContent-Type: text/plain"
+      ],
+      "starttransfer_seconds": "0.596579",
+      "body": "# Search discovery and model-training controls are separate.\nUser-agent: Googlebot\nUser-agent: bingbot\nUser-agent: OAI-SearchBot\nUser-agent: PerplexityBot\nAllow: /\n\n# Owner preference: exclude OpenAI model-training crawl; search remains allowed.\nUser-agent: GPTBot\nDisallow: /\n\n# Preserve existing access for other crawlers; this is not a security boundary.\nUser-agent: *\nAllow: /\n\nSitemap: https://www.jeanpierreboutros.com/sitemap.xml\n",
+      "decoded_text_sha256": "11ac5ffa72b42d0da6cf9bd0cfd5909197147f155e4c8ef2b409ec63e71eeb6d",
+      "decoded_text_bytes": 437
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "elapsed_seconds": 0.61,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 588\r\nContent-Type: application/xml"
+      ],
+      "starttransfer_seconds": "0.599884",
+      "body": "<?xml version='1.0' encoding='utf-8'?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.jeanpierreboutros.com/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/broadcast-audio-engineer/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/international-projects/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/live-sound-engineer/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/mixing-mastering/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/orchestra-sound-engineer/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/al-sharq-symphony/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/cartoon-orchestra/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/marina-viotti/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/mazeej-ndu/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/night-of-arab-stars/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/papal-broadcast/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/studio-integration/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/studio-jpb/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/the-eighties/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/warda-night/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/zade-dirani-amman/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/recording-engineer/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/services/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/studio-credits/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n  <url>\n    <loc>https://www.jeanpierreboutros.com/studio-system-integration/</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n</urlset>\n",
+      "decoded_text_sha256": "2cb7b2a5cc90063ac3556d6623e73bd6bac139df7976c4cb9c31973ee321bf91",
+      "decoded_text_bytes": 5020
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/llms.txt",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/llms.txt",
+      "elapsed_seconds": 0.618,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 2456\r\nContent-Type: text/plain"
+      ],
+      "starttransfer_seconds": "0.608878",
+      "decoded_text_sha256": "389e7fadc3e2815aee271e62b7d1f6c3a0443b99434b419e2e0afcf539eb60d4",
+      "decoded_text_bytes": 7110
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/styles.css",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/styles.css",
+      "elapsed_seconds": 0.735,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 13720\r\nContent-Type: text/css"
+      ],
+      "starttransfer_seconds": "0.551752",
+      "decoded_text_sha256": "f4e85240acfdbccd62d70900582e1f787c25ae6bd7151298a49dc804ce190d0a",
+      "decoded_text_bytes": 41818
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/main.js",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/main.js",
+      "elapsed_seconds": 0.672,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 4982\r\nContent-Type: text/javascript"
+      ],
+      "starttransfer_seconds": "0.661376",
+      "decoded_text_sha256": "0538616a00e5fae1687ca079bbabc8cea0db7fb5e74ad6c515e519433839c617",
+      "decoded_text_bytes": 13938
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/1f21c6eaa0000f33.woff2",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/1f21c6eaa0000f33.woff2",
+      "elapsed_seconds": 0.794,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nContent-Length: 34664\r\nCache-Control: public, max-age=31536000, immutable\r\nContent-Type: font/woff2"
+      ],
+      "starttransfer_seconds": "0.607802",
+      "decoded_text_sha256": "cba558d21e9a9fe54662934fe7934d27f639dcf90c0fd1b22ca0aeda5e82b4e7",
+      "decoded_text_bytes": 62832
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/jpb-audit-missing-20261116/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 404,
+      "final_url": "https://www.jeanpierreboutros.com/jpb-audit-missing-20261116/",
+      "elapsed_seconds": 0.608,
+      "headers": [
+        "HTTP/1.1 404 Not Found\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Wed, 25 Mar 2026 21:28:51 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 462\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.598153",
+      "canonical": [],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "title": [
+        "404 Error"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666",
+      "decoded_text_bytes": 746
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/build.py",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 404,
+      "final_url": "https://www.jeanpierreboutros.com/build.py",
+      "elapsed_seconds": 0.615,
+      "headers": [
+        "HTTP/1.1 404 Not Found\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLast-Modified: Wed, 25 Mar 2026 21:28:51 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 462\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.605457",
+      "canonical": [],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "title": [
+        "404 Error"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666",
+      "decoded_text_bytes": 746
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/docs/studio-credit-research.json",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 404,
+      "final_url": "https://www.jeanpierreboutros.com/docs/studio-credit-research.json",
+      "elapsed_seconds": 0.55,
+      "headers": [
+        "HTTP/1.1 404 Not Found\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Wed, 25 Mar 2026 21:28:51 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 462\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.539476",
+      "canonical": [],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "title": [
+        "404 Error"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666",
+      "decoded_text_bytes": 746
+    },
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.378,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:07 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/\r\nContent-Length: 282\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "1.010030",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "http://www.jeanpierreboutros.com/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.474,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/\r\nContent-Length: 282\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "1.074493",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.577,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/\r\nContent-Length: 282\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "1.215844",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/index.html",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.183,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/\r\nContent-Length: 282\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.732981",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "elapsed_seconds": 0.995,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/live-sound-engineer/\r\nContent-Length: 302\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:08 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 16113\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.808902",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Live Sound &amp; FOH Engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "07a9f4042f4c16def0f865367d62361d5131535cc56fbf79ed13d751ec7d4bfe",
+      "decoded_text_bytes": 44977
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/index.html",
+      "user_agent": "JPB-Public-SEO-Audit/1.0",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "elapsed_seconds": 0.802,
+      "headers": [
+        "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLocation: https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/\r\nContent-Length: 311\r\nContent-Type: text/html; charset=iso-8859-1",
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 11021\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.791573",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Nancy Ajram · L’Olympia | FOH engineer | Jean-Pierre Boutros"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "8f1c2778d10666a34d3a13192347f3cde773c95deb63d018788d74b76901126e",
+      "decoded_text_bytes": 33624
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "Googlebot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.03,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.599582",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "bingbot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 0.928,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.555831",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "OAI-SearchBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 0.977,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.616571",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "user_agent": "PerplexityBot",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "elapsed_seconds": 1.064,
+      "headers": [
+        "HTTP/1.1 200 OK\r\nDate: Mon, 16 Nov 2026 10:35:09 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 02 Nov 2026 22:00:01 GMT\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html"
+      ],
+      "starttransfer_seconds": "0.664274",
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ],
+      "title": [
+        "Jean-Pierre Boutros | International FOH &amp; Sound Engineer"
+      ],
+      "h1_count": 1,
+      "decoded_text_sha256": "df4eace0fad7417ec78ecf231b0faea0d2ddfb6f9882404f5fab2e369189f50f",
+      "decoded_text_bytes": 210957
+    }
+  ],
+  "body_metric_note": "Body hashes/sizes refer to the UTF-8 re-encoded decoded audit text. They are not binary asset integrity checks; header/status evidence is retained for the font request."
+}
