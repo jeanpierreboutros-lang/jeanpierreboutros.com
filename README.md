@@ -132,6 +132,10 @@ new-tab labels and safe external-link attributes; the row wraps on narrow
 screens. These links associate profiles with the professional identity without
 claiming a ranking or AI recommendation benefit.
 
+Deployed as `f9d2867`. All 40 pages and the fingerprinted stylesheet matched
+live bytes; desktop and 320px contact layouts were observed. See the
+[social-profile verification](docs/social-profile-verification-2026-11-16.json).
+
 ## Editing content
 
 Edit `build.py` for portfolio content, `studio_credits.py` for song/album credits, `services.py` for services and FAQs, and `search_pages.py` for shared page generation, metadata and structured data. Regenerate with `python3 build.py`. The generator needs Python 3.9 or later and only its standard library. It fingerprints CSS and JavaScript URLs so deployed updates do not reuse stale browser caches. Rebuild after editing either asset, too. Do not hand-edit generated HTML, sitemap, robots or `llms.txt` files. Keep research evidence and publication decisions in the corresponding documentation records.

@@ -1,0 +1,683 @@
+{
+  "checked_at_utc": "2026-11-16T12:35:52.209396+00:00",
+  "content_commit": "f9d286732831aeaaca3e90102c5cea9702c4cdfa",
+  "confirmed_profiles": [
+    "https://x.com/JPbboutros",
+    "https://www.linkedin.com/in/jeanpierreboutros/"
+  ],
+  "confirmation_source": "Owner supplied X @JPbboutros and confirmed the LinkedIn URL in this conversation on 16 November 2026",
+  "pages_checked": 40,
+  "http_requests": 41,
+  "http_200_and_matching": 41,
+  "visible_links": "Homepage contact section alongside existing Instagram/Facebook links",
+  "structured_data": "Both confirmed URLs in the stable Person sameAs array on every canonical page",
+  "styles": "Social row can wrap on narrow screens; existing horizontal gap, colors and type retained",
+  "external_profile_limit": "Identity URLs are owner-confirmed. X public fetch through the web tool returned a cache miss; no claim of a successful unauthenticated external X-page fetch.",
+  "results": [
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "expected_file": "index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7116467778b9b338e45df9dfb465b5b7b69dbfc02b3265f41cb7bfd027faddfc",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "visible_social_links": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "expected_file": "broadcast-audio-engineer/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d6131ce2ecd79ce2c7c2b9e3c91e8cfbdb9c1faeb24cb54c5cf20f12dd8706b8",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/international-projects/",
+      "expected_file": "international-projects/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9dd54d99232fd883ada5b22e0c65e8463f5e6020415c5f548149ddf62df63520",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/international-projects/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "expected_file": "live-sound-engineer/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3fb670c1524d13fd504f92212e673ad36b0fbd26df5d507f685262dbd416ddc7",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "expected_file": "mixing-mastering/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3ce553d0dab43d943863d671b61189c22d26d31e9eb6afd3433e96fce782d493",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/mixing-mastering/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "expected_file": "orchestra-sound-engineer/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1cac4c552cb3396d206e9f1d5e281264abff32c661dd973fd4d3c15403e1c917",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/",
+      "expected_file": "projects/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "90961510564f924346bb88ce75a123fe2bad5fd70dcb1319ad32cb851bde3136",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "expected_file": "projects/abeer-nehme-baalbeck/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0ca983117d5b011045393ba9580cfb26d6ae7e4742fa6ac255a31b4b0ea5455a",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "expected_file": "projects/abeer-nehme-qatar/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9baf6c79a99e36631e63eaff66de324044d1d724edddd64a879798e3345f4e00",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "expected_file": "projects/al-sharq-symphony/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b22005aa7d16b2bc7ae40a10a51a3587c8afb417469ceb90e2cebdad49982ec3",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "expected_file": "projects/baligh-hamdi-night/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3b03a768f550459c3a381468bdd118ab38fb18eb154e081c67f2982a4fa5adff",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "expected_file": "projects/beirut-the-sea-lover/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "fc5a6da5586cbb6a8c3d3f6bb0933ceda9c4f8a2f4959d2d7affc9d783c8bf3e",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "expected_file": "projects/beiteddine-marco-polo/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3a333f3d2555ae0d7d093a8819be61b11d0256fdeadc943b2b6f057530385ea6",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "expected_file": "projects/carole-samaha-golden-album/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3975b549a5521296e28897e1718db3280c1a4a714501a7142c93ac0f4b5cc150",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "expected_file": "projects/cartoon-orchestra/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ef9de51763f5b3ae9b95bca71fe98b95e8b37f823b6e50c44da98cc19da6e139",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "expected_file": "projects/ehdeniyat-abeer-nehme/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "bc2ff492a9f9e7177dbb3680234848fa30f9a9ba1ffacaeac115c140c3861846",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "expected_file": "projects/ehdeniyat-adam/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "42393578641b26fd4206c510d1598bd12ffbdf659ecbfdb0f8594be6d2bfa5dc",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "expected_file": "projects/ehdeniyat-al-shami/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2cadcdae8dde9e0f754b4b35d459c8a18425e7d823c664b1584512d81017f721",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "expected_file": "projects/lebanese-philharmonic-diman/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b070e0282303841839daafcf93197fa7e19b5255711c8c20f5b5c9e567239461",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "expected_file": "projects/marcel-khalife-amman/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "70e0096b938978d9a8b0834857000cdd4a58e5c57f018471a5740ba14cb1a976",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "expected_file": "projects/marcel-khalife-baalbeck/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f3398b78bcbc368225a4731a2bcfeeb65893ea9b57cf439ca84ca30cbb5c75a4",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "expected_file": "projects/marcel-khalife-muscat/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0485982e9d1a5b1bad33806a463df469801b42bfb813adadcf178c1aea372f60",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "expected_file": "projects/marina-viotti/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6e5cc2186764eaa1f28b9834d5430d5eafa2593e9c06fb5eab52d91a745f7f98",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "expected_file": "projects/mazeej-ndu/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8bb7ddcc10425869914128c52887e43ed73ba167d2cacf09d7fc82ab1a8d8f16",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "expected_file": "projects/nancy-ajram-expo-dubai/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "94baad6e2fd6f7dc5e98eca8d3c87eb272f8c88789781504586f713ac129cc41",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "expected_file": "projects/nancy-ajram-jounieh/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "aae2b2fc49a8b0f079a536fa2e03aaeb89d3b93551f5a1fd1224399080b9ef8e",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "expected_file": "projects/nancy-ajram-olympia/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "919b4fd042213bfb5258805796dec552973557a0f2b04b43eb9154721610c9d4",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "expected_file": "projects/night-of-arab-stars/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d6138531c57af2d378629dc0ca0fa749cf8dbc36c9538d8506015a7378d09b57",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "expected_file": "projects/papal-broadcast/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "af944ae2c284f73ebae90bc3d941acd7aec0d77cc6b727f12db6026a4fd5f90c",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "expected_file": "projects/studio-integration/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b9733f62958de2cd0d4691a10afe77a3f9cf8ad89bab113daab79284c09309d1",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-integration/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "expected_file": "projects/studio-jpb/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "abe5a1814975c5814bc04eccaa44a33072544f79ec580b7e29fefcf2d17b0361",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "expected_file": "projects/tarteeb-shareet-doha/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "684e9201b979f61e5ec8391a1f50dcc1165799d1f95c3344e9fb130aa0b25ba0",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "expected_file": "projects/the-eighties/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a39472d17b9bf6d945d711089b44a2e9d48f75234cf6a65ad531bc30c0433cf9",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/the-eighties/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "expected_file": "projects/warda-night/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7c1190620ad9348656d8dec6b0ffe97b563c5757eb98c9dbd021a9bdc3dd9644",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/warda-night/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "expected_file": "projects/zade-dirani-amman/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "bbc1257482cf61edd3e9ea66906313812fbcbbe01e700b87ca034d1b80d31735",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "expected_file": "projects/zade-dirani-dbayeh/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5b9ec89dec4735d1747d9149bc16d1cf4963160c57a12fdd21cad782d3a7a7fc",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "expected_file": "recording-engineer/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ce40f1c0da43dc6820dc4ea57c7ad3431e3c67d1d7cea17a66d9b77cbb88878c",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/recording-engineer/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/services/",
+      "expected_file": "services/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "517c858d7a4d8213d6e4f9d04d25baaf5aa1d0282d891b929766faa52f6850ec",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/services/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "expected_file": "studio-credits/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b887f986d900f49368f52e0b947d7aeadbedf9aa515f8f5f0685c7e6f8068662",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-credits/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "expected_file": "studio-system-integration/index.html",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e27793b310ea7584ce8d9d9a7afefdf2d815bbc04d6315fe26abcee68134d308",
+      "person_profiles": [
+        "https://www.instagram.com/jp.boutros",
+        "https://www.facebook.com/jean.p.boutros",
+        "https://x.com/JPbboutros",
+        "https://www.linkedin.com/in/jeanpierreboutros/"
+      ],
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-system-integration/"
+      ]
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/styles.css?v=80a0eea30890",
+      "expected_file": "styles.css",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "80a0eea308908863d27c7e500559593462f68c258c6c5ceef50b99a5c820ef85",
+      "cache_control": "public, max-age=31536000, immutable"
+    }
+  ],
+  "hostgator_last_deployed_sha": "f9d286732831aeaaca3e90102c5cea9702c4cdfa",
+  "hostgator_last_deployed_display": "Nov 16, 2026 3:34:42 PM",
+  "browser_checks": {
+    "desktop": "Both X and LinkedIn links observed in the published contact section alongside Instagram/Facebook",
+    "mobile": "All four social links visible with no clipping at Responsive width 320; desktop restored after the check",
+    "account_changes": "No external X or LinkedIn profile settings/content were modified"
+  },
+  "local_validation": {
+    "production_build": "pass",
+    "canonical_pages": 40,
+    "schema_org_property_domain_range_checks": 4980,
+    "site_links_metadata_identity": "pass",
+    "javascript_syntax": "pass",
+    "hosting_shell_syntax": "pass",
+    "whitespace": "pass"
+  }
+}
