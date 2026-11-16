@@ -4,12 +4,19 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-Latest local SEO review: **16 November 2026**, 40 canonical pages, six services,
-29 projects and 51 studio release entries. The darker folio, Tarteeb addition
-and this SEO pass await deployment. Read the [current audit and implementation
-report](docs/SEO-AUDIT-2026-11-16.md); the release history below remains intact.
+Published **16 November 2026**: dark portfolio, original JPB logo, newest-first
+projects, Shareet · Tarteeb FOH credit and worldwide SEO improvements. Final
+content release `239f127` has 40 canonical pages, six services, 29 projects,
+35 gallery images and 51 studio release entries. Google and Bing ownership are
+verified; both processed the sitemap and discovered all 40 pages. Read the
+[deployment and registration report](docs/RELEASE-2026-11-16.md) and
+[live verification record](docs/portfolio-release-verification-2026-11-16.json).
+Performance reports are processing; discovery does not mean all pages are indexed.
 
-Documentation reconciled: 3 November 2026. The published website includes 39 canonical HTML pages, 28 project records, six service pages, 41 artist and ensemble collaborations, 34 gallery photographs, 51 studio release entries across 27 credited artists, and a downloadable one-page professional profile. HostGator deployed content release `24ec55e` on 3 November 2026 (Asia/Beirut).
+Historical baseline: HostGator deployed content release `24ec55e` on 3 November
+2026 (Asia/Beirut): 39 pages, 28 projects, six services, 41 collaboration names,
+34 gallery photographs, 51 studio entries across 27 artists and the selected
+one-page profile PDF. Its original evidence remains unchanged.
 
 ## Documentation and evidence
 
@@ -17,15 +24,18 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
-| [16 November audit](docs/SEO-AUDIT-2026-11-16.md) | Current local implementation, live audit, validation, search intent and remaining actions |
-| [Current public HTTP audit](docs/search-audit-live-2026-11-16.json) | 59 requests, with the published 39-page state distinguished from the local release |
-| [Current external-link audit](docs/search-audit-external-2026-11-16.json) | 95 public destinations, including blocked/failed checks requiring review |
-| [Current Apache fixture](docs/search-audit-apache-2026-11-16.json) | 59 checks of the 40-page local release, redirects and shared-host-safe caching |
+| [Deployment and registration](docs/RELEASE-2026-11-16.md) | Current published release, Google/Bing setup, tests and remaining measurements |
+| [Exact release files](docs/release-files-2026-11-16.json) | Created/modified paths and final content commit |
+| [16 November audit](docs/SEO-AUDIT-2026-11-16.md) | Predeployment implementation/audit evidence; see the release report for current status |
+| [Predeployment public HTTP audit](docs/search-audit-live-2026-11-16.json) | 59 requests, with the published 39-page state distinguished from the local release |
+| [16 November external-link audit](docs/search-audit-external-2026-11-16.json) | 95 public destinations, including blocked/failed checks requiring review |
+| [16 November Apache fixture](docs/search-audit-apache-2026-11-16.json) | 59 checks of the 40-page local release, redirects and shared-host-safe caching |
 | [Asset measurements](docs/search-audit-performance-2026-11-16.json) | Before/after local sizes, without unsupported Core Web Vitals claims |
 | [Implementation report](docs/SEO-IMPLEMENTATION-REPORT.md) | Current architecture, content inventory, release history and verification limits |
-| [Search registration](docs/SEARCH-CONSOLE.md) | Production checks and outstanding Google/Bing ownership and sitemap setup |
+| [Search registration](docs/SEARCH-CONSOLE.md) | Completed Google/Bing registration and future production maintenance |
 | [Measurement plan](docs/MEASUREMENT.md) | Published baseline and future search/inquiry measurement |
-| [Portfolio release verification](docs/portfolio-release-verification-2026-11-03.json) | Current release: 39 pages and 152 referenced resources matched live bytes |
+| [Current live verification](docs/portfolio-release-verification-2026-11-16.json) | 40 pages and 125 resource URLs verified; Google/Bing results and limits |
+| [3 November release verification](docs/portfolio-release-verification-2026-11-03.json) | Historical release: 39 pages and 152 resources matched live bytes |
 | [Studio credit research](docs/studio-credit-research.json) | All 41 collaboration names, exact role decisions and 51 unique release entries |
 | [Nancy Ajram review](docs/nancy-credit-research-2026-11-02.json) | Five published song credits and limits on unconfirmed work |
 | [Broader name review](docs/broad-credit-research-2026-11-02.json) | Six approved additions, unselected leads and the owner's two exclusions |
@@ -38,7 +48,7 @@ These files are repository documentation and are excluded from the public websit
 
 ## Portfolio presentation
 
-Local design revision, 16 November 2026: the portfolio uses a production-folio direction with dark charcoal surfaces, warm grey type, a copper accent, a full-width name masthead and the original JPB monogram. The outdoor FOH photograph leads the mobile layout before the introduction. A numbered discipline strip links to the services, and Selected Work uses a ruled project index with photographs, engineering roles, dates and locations instead of repeated image cards. Events appear newest first under year headings; ongoing studio practices have a separate Studio & systems group. Project numbers follow this chronological index and remain consistent in dialogs and dedicated pages. Compact studio disclosures, a deeper charcoal Zynforge section and a photographic contact sheet give the later sections different rhythms. The profile download remains near the top. These local changes have not been deployed; the deployment record below describes the previous published release.
+Published design revision, 16 November 2026: the portfolio uses a production-folio direction with dark charcoal surfaces, warm grey type, a copper accent, a full-width name masthead and the original JPB monogram. The outdoor FOH photograph leads the mobile layout before the introduction. A numbered discipline strip links to the services, and Selected Work uses a ruled project index with photographs, engineering roles, dates and locations instead of repeated image cards. Events appear newest first under year headings; ongoing studio practices have a separate Studio & systems group. Project numbers follow this chronological index and remain consistent in dialogs and dedicated pages. Compact studio disclosures, a deeper charcoal Zynforge section and a photographic contact sheet give the later sections different rhythms. The profile download remains near the top. These changes are deployed in content release `239f127`; the release report above records the current verification.
 
 The StudioJPB entry and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
@@ -46,7 +56,7 @@ The project browser starts with all 29 projects, ordered by date within year gro
 
 `projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 29 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 35; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
 
-Local content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 is the newest FOH entry. The local build now contains 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. The published release recorded above remains unchanged until deployment. The downloadable profile remains the existing one-page selection.
+Published content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 is the newest FOH entry. The published build contains 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. The downloadable profile remains the existing one-page selection.
 
 ## Current project register
 
@@ -179,7 +189,7 @@ Thirteen entries carry Jean-Pierre’s direct role confirmations: Salah El Kurdi
 
 The deeper Nancy Ajram review and later broad-name search establish five published songs: Men Nazra, Aamon Jadidon, Ya Eid and Akher Esdar for mixing/mastering, and Warana Eh for recording. The broader research added five studio release entries and one live production project, detailed below. Other collaboration names retain their existing live work without an inferred studio role. The linked research records preserve the source dates, version distinctions and publication decisions.
 
-The homepage offers native artist disclosures and a link to the complete `/studio-credits/` directory. At Jean-Pierre’s request, entries show the project/song title and his engineering credit only; title links open the release or project. Other contributors, research notes, source labels, dates and album track lists are not rendered. Studio-only credits remain attributed to Studio Jean-Pierre Boutros, without inferring a personal engineering role. Naseej is labelled vocal recording for selected takes. Related collaborators retain plain artist names without songwriting or performance-role credits. Named conductor/director credits were also removed from project copy and the downloadable profile. Image attribution remains with the photographs. Research files, source generators and notes are excluded from public deployment; the complete generated studio directory is included.
+The homepage offers native artist disclosures and a link to the complete `/studio-credits/` directory. At Jean-Pierre’s request, entries show the project/song title and his engineering credit only; title links open the release or project. Other contributors, research notes, source labels, dates and album track lists are not rendered. Studio-only credits remain attributed to Studio Jean-Pierre Boutros, without inferring a personal engineering role. Naseej is labelled vocal recording for selected takes. Related collaborators retain plain artist names without songwriting or performance-role credits. Earlier project/profile copy omitted named conductor/director credits; the new Shareet record includes its officially documented conductor as production context. Image attribution remains with the photographs. Research files, source generators and notes are excluded from public deployment; the complete generated studio directory is included.
 
 Published on 3 November 2026 after owner approval, the six selected broader-search findings are: Nancy Ajram’s Akher Esdar (mixing/mastering), Marwan Chami’s Tayer (mixing/mastering), Nader Khoury’s Idi bi Idik (recording studio), Georges Nehme’s Moving Mountains (selected vocal recording), Abeer Nehme’s Addaysh Bhebak (recording studio), and Beirut the Sea Lover (3D sound mixing). Maher Zain and Between the two Blacks were explicitly excluded from the portfolio. Moving Mountains links to the OK World album release and retains its precise vocal scope from the CD personnel notes at https://musicbase.net/ok-world. Addaysh Bhebak uses the official artist video https://www.youtube.com/watch?v=-NSBIfNe7pA with studio attribution corroborated by https://www.mtv.com.lb/news/1250854. Idi bi Idik links to the original UN announcement https://unicbeirut.org/index.php/Press%20Release/create-press-releases-32. The complete Beirut Spring Festival archive https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en names Jean-Pierre for 3D sound mixing and supplies the projection image. This production appears under Technical, without inferring a FOH role. All these additions are included in deployed content release `24ec55e`. Unselected Mawwal and Photo Umbrella leads remain research-only. Shou Baamel retains its narrower 2022 album mastering/studio credit; the 2025 video lead does not expand that role without version confirmation.
 
@@ -245,7 +255,9 @@ Before deployment:
 
 Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
 
-Portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See [the verification record](docs/portfolio-release-verification-2026-11-03.json).
+Current content release `239f127cddc602681c1091c73d18e3cb2e6f5fd6` was deployed on 16 November 2026; cPanel’s Last Deployed SHA matches and the public Last-Modified header is 12:03:34 GMT. See [the release report](docs/RELEASE-2026-11-16.md). Both Google and Bing are verified and processed the 40-URL sitemap.
+
+Historical portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See [the verification record](docs/portfolio-release-verification-2026-11-03.json).
 
 Documentation-only commits can follow the deployed content commit without changing the website. They do not require a cPanel deployment because these documents are excluded from the runtime manifest. The steps below apply to future website releases.
 

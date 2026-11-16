@@ -1,27 +1,33 @@
 # Search registration and production verification
 
-Reviewed 16 November 2026. No Google Search Console or Bing Webmaster Tools
-registration, ownership verification or sitemap submission has been performed by
-this implementation. No verification tokens were supplied or invented.
+Completed **16 November 2026** for final content release `239f127`.
+See [the release report](RELEASE-2026-11-16.md) and
+[verification evidence](portfolio-release-verification-2026-11-16.json).
 
-The current local release contains **40 pages and 29 projects**, including
-Shareet · Tarteeb at QNCC. It has not been deployed. The read-only live audit on
-16 November found the earlier 39 pages returning 200 and the new project returning
-404. Deploy the reviewed local release before submitting its updated sitemap.
-See [the current audit](SEO-AUDIT-2026-11-16.md) for evidence and limits.
+| Platform | Completed result |
+| --- | --- |
+| Google Search Console | Domain `jeanpierreboutros.com` verified by DNS TXT; sitemap processed successfully, 40 discovered pages |
+| Bing Webmaster Tools | Canonical HTTPS www property verified by DNS CNAME; sitemap Success, 40 URLs, zero sitemap errors/warnings |
+| Priority URLs | Home and Shareet indexing requests accepted by both platforms; Google live tests passed; final Bing Shareet live test can be indexed with no SEO/GEO issues |
+
+The sitemap is `https://www.jeanpierreboutros.com/sitemap.xml`. Retain the
+verification DNS records; the existing SPF, mail and other DNS records were
+preserved. No remaining account sign-in or verification step is required.
+The reports are processing, and discovered URLs/accepted requests do not prove
+that every page is indexed or that the new version has been recrawled.
 
 ## Published release and future deployment checks
 
-The canonical origin is https://www.jeanpierreboutros.com. HostGator deployed
-content release `24ec55e` on 3 November 2026 (Asia/Beirut), and cPanel's Last
-Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched
-local bytes. Six redirect cases, a real 404 and the two tested research/source
-paths passed live verification. See the [release record](portfolio-release-verification-2026-11-03.json).
+Canonical origin: https://www.jeanpierreboutros.com. HostGator's Last Deployed
+SHA matches `239f127cddc602681c1091c73d18e3cb2e6f5fd6`. Initial verification
+matched all 40 pages and 125 referenced resource URLs. Both runtime pages changed
+in the snippet refinement were fetched again and matched; the remaining 163
+URLs reference unchanged bytes. Six redirects, three expected 404s and scoped
+cache headers passed. Documentation-only commits do not require deployment.
 
-The 39 sitemap URLs comprise the homepage, six services, 28 projects and four
-directories, including `/studio-credits/`. Its 51 release entries are content on
-one directory page, not 51 additional pages. Documentation-only commits do not
-require deployment. For future website changes:
+The 40 sitemap URLs comprise home, six services, 29 projects and four
+directories. The 51 studio release entries share one directory page. For future
+website changes:
 
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`,
    `sh -n hosting/install-seo.sh` and `git diff --check`.
@@ -54,7 +60,10 @@ Also check that `studiojpb.com`, which shares the document root, has not acquire
 the portfolio's domain redirects and that existing access restrictions still
 work. Every redirect is conditional on this portfolio's two hostnames.
 
-## Google Search Console
+## Google Search Console maintenance
+
+Ownership and submission are complete. These steps describe future properties,
+verification recovery and routine review; reuse the existing verified property.
 
 Official setup: https://search.google.com/search-console
 
@@ -78,7 +87,10 @@ Official setup: https://search.google.com/search-console
 
 Ownership reference: https://support.google.com/webmasters/answer/9008080
 
-## Bing Webmaster Tools
+## Bing Webmaster Tools maintenance
+
+Ownership and submission are complete using manual DNS verification. These steps
+describe future properties or verification recovery; reuse the existing site.
 
 Official setup: https://www.bing.com/webmasters/
 
@@ -144,11 +156,13 @@ English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-The 3 November release passed 4,828 local Schema.org property/domain/range checks.
-The updated local release passes 4,980 checks across all 40 pages, and 59 local
-Apache HTTP/TLS checks including scoped caching and shared-host restrictions.
-Historical local Apache/TLS results cover the original 28-page SEO release;
-they are not a new remote-host test. The published homepage was observed in
-Chrome, and live byte verification covered all 39 pages and 152 resources.
-A full new desktop/mobile keyboard, filter, modal and photo-viewer matrix is not
-recorded as complete. Browser code-input tests of the project graph now pass Schema.org (zero errors/warnings) and Google Rich Results (four valid items with noncritical optional notices). Representative live URL tests after deployment, Google/Bing ownership verification and sitemap submissions remain outstanding. See the current QA record for the code-input test limits.
+The current release passes 4,980 local Schema.org property/domain/range checks
+across 40 pages. The predeployment Apache fixture passed 59 HTTP/TLS checks,
+including cache and shared-host isolation. Public byte checks and Google/Bing
+live fetches are now recorded in the release evidence. The published Shareet
+URL passed Schema.org with zero errors/warnings and Google's Rich Results Test
+with four valid supported items and noncritical optional-field notices. The
+later snippet refinement passed local checks and Bing's final live test with no
+SEO/GEO issues. A new full mobile/keyboard interaction matrix and field Core Web
+Vitals measurement were not performed after deployment; earlier local checks
+retain their original scope. See [the release report](RELEASE-2026-11-16.md).

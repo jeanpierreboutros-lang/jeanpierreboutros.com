@@ -1,0 +1,1959 @@
+{
+  "checked": "2026-11-16",
+  "content_commit": "239f127cddc602681c1091c73d18e3cb2e6f5fd6",
+  "canonical_pages": 40,
+  "referenced_resource_urls": 125,
+  "matched": 165,
+  "failed": [],
+  "results": [
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "expected_file": "index.html",
+      "bytes": 219344,
+      "sha256": "116653755834508a9d80d6d2dcff081da6c950b038fee40176cbf34c4d82c9fa",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "expected_file": "broadcast-audio-engineer/index.html",
+      "bytes": 32686,
+      "sha256": "6f1fcee8b6f13d597bbaead1a710890612c795b17a2a41a3b7c97d592f485da6",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/international-projects/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/international-projects/",
+      "expected_file": "international-projects/index.html",
+      "bytes": 33590,
+      "sha256": "f91b33a499831b9c269a056f7ea134e65008d318efc6eb2dd62a6dbcf25cbed5",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/international-projects/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "expected_file": "live-sound-engineer/index.html",
+      "bytes": 48329,
+      "sha256": "4ca7fef5d1d566648494d57d60d78497d4d12d68272fb796b36b519c9a6323d8",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/live-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "expected_file": "mixing-mastering/index.html",
+      "bytes": 34650,
+      "sha256": "89275a0ce37290678511531e1c522999ec428515ceef485383363bbf2ff2d81e",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/mixing-mastering/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "expected_file": "orchestra-sound-engineer/index.html",
+      "bytes": 38754,
+      "sha256": "da92648fa5789e396c90b62a0a9630b297996b0d243f0727364975870d9fc790",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/",
+      "expected_file": "projects/index.html",
+      "bytes": 71164,
+      "sha256": "783615165d377b3d78c16eea588150bdf996e03a0873b0e2a67e54b8231e29d3",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "expected_file": "projects/abeer-nehme-baalbeck/index.html",
+      "bytes": 34859,
+      "sha256": "868153eedfaf3448b10da87d4a991e72002e6152f59cafee17cbd59f4e28510d",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "expected_file": "projects/abeer-nehme-qatar/index.html",
+      "bytes": 34575,
+      "sha256": "d8826d2f19f2811d0547e62b99ad0d4470bd57d77e09daf68b0ad118f73f8402",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "expected_file": "projects/al-sharq-symphony/index.html",
+      "bytes": 34508,
+      "sha256": "7a3442f23dca23b5ae83d17d09933f5089be82b7fd615d5c772e6b50f02ecf47",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "expected_file": "projects/baligh-hamdi-night/index.html",
+      "bytes": 34656,
+      "sha256": "759354f8b8a7bab584d9e11c6e6ae13504d09a56ed16a019344713303df9fbee",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "expected_file": "projects/beirut-the-sea-lover/index.html",
+      "bytes": 33730,
+      "sha256": "6a4455dd08f312c0105cd900af548627ca3f1bc4a596f490346028f402bef65f",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "expected_file": "projects/beiteddine-marco-polo/index.html",
+      "bytes": 33764,
+      "sha256": "1dd43e99f3843cf4fd20e028140f7797ed5b1934d95f75ebdee102499853d539",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "expected_file": "projects/carole-samaha-golden-album/index.html",
+      "bytes": 33637,
+      "sha256": "a85ab5b5543dfeedd34f62bbcb6a2612e0cde4330a1de86df3fb12035de8d57a",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "expected_file": "projects/cartoon-orchestra/index.html",
+      "bytes": 34564,
+      "sha256": "ea840ebee55152be2280fc0ff795000c744bb4ec0a69d21d25697f4da7da95e9",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "expected_file": "projects/ehdeniyat-abeer-nehme/index.html",
+      "bytes": 34787,
+      "sha256": "f46fd1eb86a45625298ad9cc025a57bfb800d1f59d7cb0793f64b2d5bd18afcc",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "expected_file": "projects/ehdeniyat-adam/index.html",
+      "bytes": 34630,
+      "sha256": "abbc0b4227a79def59a2befcb7feefb1050c66a2abb4135d58c1ab778e644da5",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "expected_file": "projects/ehdeniyat-al-shami/index.html",
+      "bytes": 34463,
+      "sha256": "ee860bd754fdb047430e4c25f44e0a4b728b585e4e277c0c3bbcfad86fca75d9",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "expected_file": "projects/lebanese-philharmonic-diman/index.html",
+      "bytes": 34587,
+      "sha256": "20cb31886a839a8c499875643c46c7e4e5de7ab4d1f498ca1a0a46323df2a8a8",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "expected_file": "projects/marcel-khalife-amman/index.html",
+      "bytes": 34932,
+      "sha256": "ee7c68da29bb3c60863305d3d7ae6eb41a6967d2240cc2bebd97a644e945c327",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "expected_file": "projects/marcel-khalife-baalbeck/index.html",
+      "bytes": 34818,
+      "sha256": "f8cea8a1a175cd152be5f49b898455213e43afefd5b3547c674b05bfabba3dd8",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "expected_file": "projects/marcel-khalife-muscat/index.html",
+      "bytes": 34483,
+      "sha256": "48c5908b18136a7eeda3dd5e16d5e5a03bd56d99e656cecd75aa89d91c622d3e",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "expected_file": "projects/marina-viotti/index.html",
+      "bytes": 34407,
+      "sha256": "99c8f2b5c767138418d29734cc5d9bd1f37bf85de794ed94b92bd97430511e9a",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "expected_file": "projects/mazeej-ndu/index.html",
+      "bytes": 33942,
+      "sha256": "36a0a56af3dbd82e93a0f83581ba452cb53c69bf8e32e566bd7b36a06348356d",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "expected_file": "projects/nancy-ajram-expo-dubai/index.html",
+      "bytes": 34486,
+      "sha256": "05ed665e0f3a6a210175eb37187d03bedeebb3f7076c324afc7e1247cc16e1e1",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "expected_file": "projects/nancy-ajram-jounieh/index.html",
+      "bytes": 34476,
+      "sha256": "e27dcfcc9df3f7424a1265e1b55efa99478bd45c54ef0e09b89919ec0992fe30",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "expected_file": "projects/nancy-ajram-olympia/index.html",
+      "bytes": 33964,
+      "sha256": "94b869b5cc924f7c28cee52160f9d89db2e567bc2eee4b4341733b3ca1c7ce87",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "expected_file": "projects/night-of-arab-stars/index.html",
+      "bytes": 34937,
+      "sha256": "92b460f500693f0eb5c666c35051811e646dc0cd37ed91bf4d666cf59b760a26",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "expected_file": "projects/papal-broadcast/index.html",
+      "bytes": 30404,
+      "sha256": "24365fb67b5f0031df696fb72a7bc113dcbac518ce24f1949e06951da5e51199",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "expected_file": "projects/studio-integration/index.html",
+      "bytes": 33309,
+      "sha256": "41a0d57ec1dd85c97018ce7f1416c5b85cbda6161b91e37ff12e13973fc4d31b",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-integration/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "expected_file": "projects/studio-jpb/index.html",
+      "bytes": 32504,
+      "sha256": "cb605ca4f49035bf991472ae22c9928104d0d82b8de8765a2f0093601c43f003",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "expected_file": "projects/tarteeb-shareet-doha/index.html",
+      "bytes": 34575,
+      "sha256": "8c408376c767655c3df295315d25e81dbbda8357980e044f39a91c99f0b88d90",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "expected_file": "projects/the-eighties/index.html",
+      "bytes": 34596,
+      "sha256": "28eea3c9438a93a6496603bdb0215344da4240bc74785fd686a9c02710a2d313",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/the-eighties/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "expected_file": "projects/warda-night/index.html",
+      "bytes": 34305,
+      "sha256": "8950a4f70e509ad18c6fcd28aefe32c5973a8ca8038b62b0f47b308173f6fab1",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/warda-night/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "expected_file": "projects/zade-dirani-amman/index.html",
+      "bytes": 34598,
+      "sha256": "0b2d66e7dcd12d792a2b70cc4b569f46318133c6b889666c5cbd23adfa041bb1",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "expected_file": "projects/zade-dirani-dbayeh/index.html",
+      "bytes": 33933,
+      "sha256": "58e04e5fbcf5d5fea5038c65c9d6e86367b486d3715ddae8ae0b8c489b883ad5",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "expected_file": "recording-engineer/index.html",
+      "bytes": 34971,
+      "sha256": "6995ae0d13e5e2a79e9c71092c6ce5d14019f9dbce8f947f5a947a63416230b6",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/recording-engineer/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/services/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/services/",
+      "expected_file": "services/index.html",
+      "bytes": 30774,
+      "sha256": "44adc9316c5b20ae7f7c474cf1238160b798d16e21fa6947e5543f82193e48ce",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/services/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "expected_file": "studio-credits/index.html",
+      "bytes": 53788,
+      "sha256": "0f3b616080db781c0ab531bc832c2bb98739c343db648905e1a52326839cf7df",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-credits/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "expected_file": "studio-system-integration/index.html",
+      "bytes": 33661,
+      "sha256": "ffa0089c64c63f0aa7bc061e634ad2013c56794af903b73e463f12d9b31937e2",
+      "matches": true,
+      "canonical": [
+        "https://www.jeanpierreboutros.com/studio-system-integration/"
+      ],
+      "robots": "index, follow, max-image-preview:large",
+      "h1_count": 1
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/favicon.png",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/favicon.png",
+      "expected_file": "favicon.png",
+      "bytes": 7557,
+      "sha256": "a1ba96ca1a51908416dfc44aebfd7d1e76e04c2fbd4198cb6db91a2605ac28f6",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/1f21c6eaa0000f33.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/1f21c6eaa0000f33.woff2",
+      "expected_file": "fonts/1f21c6eaa0000f33.woff2",
+      "bytes": 34664,
+      "sha256": "1f21c6eaa0000f3329cfcfac966b43d5bebf5aa610303e33294ac31bc6f4bb59",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-960.webp",
+      "expected_file": "photos/optimized/live-outdoor-foh-night-960.webp",
+      "bytes": 58278,
+      "sha256": "531fbced1854a1342d480727896421cc9a72e06e8747057421cb3e0ca4d9739f",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/fonts.css?v=d946d5aae4ae",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/fonts.css?v=d946d5aae4ae",
+      "expected_file": "fonts/fonts.css",
+      "bytes": 3608,
+      "sha256": "d946d5aae4ae30d0b554d6c5b98dd9ae934f86a62a62ba85378e459ba853367d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/styles.css?v=ff38f93b419c",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/styles.css?v=ff38f93b419c",
+      "expected_file": "styles.css",
+      "bytes": 53360,
+      "sha256": "ff38f93b419c4f79e8ba876c72c3d5c8d0366d0d60bdcf4b6c6e718aa3a12dee",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/main.js?v=8272e6e3e321",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/main.js?v=8272e6e3e321",
+      "expected_file": "main.js",
+      "bytes": 14270,
+      "sha256": "8272e6e3e3214b90f86e2e9487e84f571648e50e1c6bae343ccecb009e3840ae",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/jpb-monogram.png",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/jpb-monogram.png",
+      "expected_file": "jpb-monogram.png",
+      "bytes": 10579,
+      "sha256": "1e6a204526e91d30ce081505a849c494e5a76e48a78b8c1fe0ac373fba5c51be",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/output/pdf/jean-pierre-boutros-profile.pdf?v=02735665a277",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/output/pdf/jean-pierre-boutros-profile.pdf?v=02735665a277",
+      "expected_file": "output/pdf/jean-pierre-boutros-profile.pdf",
+      "bytes": 317690,
+      "sha256": "02735665a277c1d861f6edbec8d562b6372a7f07c7a424cb165557638d1623da",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-480.webp",
+      "expected_file": "photos/optimized/live-outdoor-foh-night-480.webp",
+      "bytes": 24972,
+      "sha256": "05391a51e4ae762b0b79c74a62855d7d7d10b4f7195604b53477846ae33b5aec",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-1536.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-1536.webp",
+      "expected_file": "photos/optimized/live-outdoor-foh-night-1536.webp",
+      "bytes": 111508,
+      "sha256": "163aa86eb9111ab37dc613409d4643a0c1accc95206e2a8131e300a905d1e702",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp",
+      "expected_file": "photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp",
+      "bytes": 51682,
+      "sha256": "0fda3a6849375f7a5043d76a9643331f4fde8c76c1fd3edf6bc5097c1a9a077e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp",
+      "expected_file": "photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp",
+      "bytes": 22188,
+      "sha256": "9279939c14f9f206e8b775cb1f5c2ecc965003acf07ea339476b66b86fd0aea1",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp",
+      "expected_file": "photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp",
+      "bytes": 65340,
+      "sha256": "54140e3d732e1347362ad731b67def80190fc480e65d4a1e06c525bfc1826dc5",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-960.webp",
+      "expected_file": "photos/optimized/the-eighties-knockout-kuwait-2026-960.webp",
+      "bytes": 108078,
+      "sha256": "0fc4999c399978159d3517273448d3a819daf731bbe877fa9677893f636f05fe",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-480.webp",
+      "expected_file": "photos/optimized/the-eighties-knockout-kuwait-2026-480.webp",
+      "bytes": 48676,
+      "sha256": "b0ca2db26df0457816d950e75e7d5123b57a7149106a119fdb9312d7509ef832",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
+      "expected_file": "photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp",
+      "bytes": 146932,
+      "sha256": "087748a20eb2a66a29a5cf57beae2b27e48dd6e753add88c1e0e838d91fd25e4",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-960.webp",
+      "expected_file": "photos/optimized/marina-viotti-zouk-mikael-2026-960.webp",
+      "bytes": 127996,
+      "sha256": "ef59f2f9ebe4795659a5777c5b2f041a15138bda1dbf9afcc70b50f5bceedd9e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-480.webp",
+      "expected_file": "photos/optimized/marina-viotti-zouk-mikael-2026-480.webp",
+      "bytes": 42638,
+      "sha256": "2fb3ba117ed23f16c94d715abc2326cdc19b4467907d165998f11ad0fe019f35",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
+      "expected_file": "photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp",
+      "bytes": 228506,
+      "sha256": "5301de2c13c4a3364b7b912fc1703ac5ffdc18b008a36f73b45d140fa2c09df6",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-960.webp",
+      "expected_file": "photos/optimized/lebanese-philharmonic-diman-2026-960.webp",
+      "bytes": 102388,
+      "sha256": "27fe6cf4b56923701d75028a7ba03f320b86ebb7a4a984c5115c855ff4c1e6eb",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-480.webp",
+      "expected_file": "photos/optimized/lebanese-philharmonic-diman-2026-480.webp",
+      "bytes": 34100,
+      "sha256": "acf56b0ca31047f0c6b3366a110f66919f850426812ef3b412b9d01d6ce634c9",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-1600.webp",
+      "expected_file": "photos/optimized/lebanese-philharmonic-diman-2026-1600.webp",
+      "bytes": 212868,
+      "sha256": "0001b324f00a612842add2c19de9fbda457581575052002754a90b3c7d16e405",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-960.webp",
+      "expected_file": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-960.webp",
+      "bytes": 131740,
+      "sha256": "7a3aab8fb54348b773c327efaa77eb23692780eae87d1e95e80650c78e45b4db",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp",
+      "expected_file": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp",
+      "bytes": 38934,
+      "sha256": "e5f05779520ea15813b4a7838cb6fa3ebfef50467e00ff2b0f7a4003efe86f07",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp",
+      "expected_file": "photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp",
+      "bytes": 301664,
+      "sha256": "29c4249f55f74490286afe312f2b18989a2cd5970b5f3b4d9611a2fb8e5ea536",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-960.webp",
+      "expected_file": "photos/optimized/cartoon-orchestra-kuwait-2025-960.webp",
+      "bytes": 162034,
+      "sha256": "bba6e32898f368ddefe1cd1c18ff2027674ac772f5b4fe227bbe0d587b7211b1",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-480.webp",
+      "expected_file": "photos/optimized/cartoon-orchestra-kuwait-2025-480.webp",
+      "bytes": 51498,
+      "sha256": "b1eb4fc9db042efdd81ecc4a4333ff20177608e77aeac5ce7d2e0ef66544e63c",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp",
+      "expected_file": "photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp",
+      "bytes": 279204,
+      "sha256": "ee78c868e9074d8af9133d1692a712508072926c072f1d352e87aebb035a917e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-938.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-938.webp",
+      "expected_file": "photos/optimized/al-shami-ehdeniyat-2025-938.webp",
+      "bytes": 107110,
+      "sha256": "a46eada5fd2eca35f1a747ba0193d41eb93596de43f9d5c86cf317e9c4f0acf6",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-480.webp",
+      "expected_file": "photos/optimized/al-shami-ehdeniyat-2025-480.webp",
+      "bytes": 46704,
+      "sha256": "60cea235be5e615137603d78c7e39895196788718b931873d5b7a86d17f5ffb3",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-538.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-538.webp",
+      "expected_file": "photos/optimized/adam-ehdeniyat-2025-538.webp",
+      "bytes": 15554,
+      "sha256": "609e9ed5cb991a1d1dd48761f86fc8f4911340a4050779599aab9a60b725b6a7",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-480.webp",
+      "expected_file": "photos/optimized/adam-ehdeniyat-2025-480.webp",
+      "bytes": 12450,
+      "sha256": "191cf9314c336eb6f781b7d1e7e6cfca57c279a4f3d6878fd527a6c8d3c3bc8b",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-960.webp",
+      "expected_file": "photos/optimized/abeer-nehme-ehdeniyat-2025-960.webp",
+      "bytes": 80394,
+      "sha256": "ffc73bcd3fb8af2a1c78bdd54f1636d6c3797993c16dae0adf1896eb704fb05a",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-480.webp",
+      "expected_file": "photos/optimized/abeer-nehme-ehdeniyat-2025-480.webp",
+      "bytes": 29982,
+      "sha256": "3a29739e408e3469ab7ca3b1fe46e0c5886e00d809f56f81966ac51704ed3eeb",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-1600.webp",
+      "expected_file": "photos/optimized/abeer-nehme-ehdeniyat-2025-1600.webp",
+      "bytes": 160758,
+      "sha256": "0c439337ffcbf663d30265d29ee2c16ed8639a8f45b411cf8c321870ed77d5d0",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-960.webp",
+      "expected_file": "photos/optimized/pope-leo-waterfront-960.webp",
+      "bytes": 77582,
+      "sha256": "920d9443917faecf647972f2b7eb97aa284b45087c26f42b061e1caf88896aba",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-480.webp",
+      "expected_file": "photos/optimized/pope-leo-waterfront-480.webp",
+      "bytes": 24404,
+      "sha256": "3dc3876f4300493ccea34bedb480005203fd2dbc313a98e2aa69a005443dffda",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-1600.webp",
+      "expected_file": "photos/optimized/pope-leo-waterfront-1600.webp",
+      "bytes": 160274,
+      "sha256": "f3417904ab6b1d40ad949e6c1e6bf231794d3b7a12ee65284446ecd9c97d90e1",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-960.webp",
+      "expected_file": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-960.webp",
+      "bytes": 40592,
+      "sha256": "dc50fb451bd93f4baeec9f849bf06672ceba9194b90a928b6c3fdf03b3fee7ac",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp",
+      "bytes": 14188,
+      "sha256": "c0e4d0f5c81705b7a929664fea1de22095db1c3b5405574855678f3c494ed928",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp",
+      "expected_file": "photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp",
+      "bytes": 94158,
+      "sha256": "b7c7a3fb9a532ae334d13eb8cbf760f86c02105d0fc7cbf7c84a2b5b3ed218b4",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-960.webp",
+      "expected_file": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-960.webp",
+      "bytes": 93578,
+      "sha256": "f4a3ca4ad0bec7677561eacc214fe538da42c4106d913905578c6a1647177656",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp",
+      "bytes": 31240,
+      "sha256": "c12fecda9d86834052dea0a23b0ec6b80e908b6095f6698776c4fc3dd841c427",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp",
+      "expected_file": "photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp",
+      "bytes": 120052,
+      "sha256": "03666957c48767b6025701e447119421dad96ac4cbd221f76a31f65bde452880",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-960.webp",
+      "expected_file": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-960.webp",
+      "bytes": 38604,
+      "sha256": "77cc3d8aee675616555ead6270c6fc3f0b96f27744452c2b4d9d6ef2aba3af56",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp",
+      "bytes": 13762,
+      "sha256": "0d829d8f2e5f384113442976e0f0a08f139f12f0fdbb14998c5a53612ca105f4",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
+      "expected_file": "photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp",
+      "bytes": 88504,
+      "sha256": "76c26d7bb8ba17f44c17f3adc3a6dd74b97e76eae17c0a79269c05f2fdad022a",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-600.webp",
+      "expected_file": "photos/optimized/carole-samaha-golden-album-2023-600.webp",
+      "bytes": 52916,
+      "sha256": "e23f50f38ae5ddea687d44f23ce09a419796058f27e02398adaf2d02cbb00032",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-480.webp",
+      "expected_file": "photos/optimized/carole-samaha-golden-album-2023-480.webp",
+      "bytes": 36694,
+      "sha256": "caa32531e6f80270e5926c5cdf312d32341e229bb8d4394c9b4b579f56ee3a6e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-960.webp",
+      "expected_file": "photos/optimized/nancy-ajram-jounieh-2022-960.webp",
+      "bytes": 68552,
+      "sha256": "f474212e52d2f756e5917050253e2a4c5cc0d35208eccf97a40d94ec4242f109",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-jounieh-2022-480.webp",
+      "bytes": 21726,
+      "sha256": "b5e67fce861d30dba3e9f1e60386f92dc0ab60734824de2e3998f51870184f31",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-1280.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-1280.webp",
+      "expected_file": "photos/optimized/nancy-ajram-jounieh-2022-1280.webp",
+      "bytes": 129404,
+      "sha256": "fa35a5ed8e0c39014262223b55979dd6cf4a38dd094b01d44cce972b513c98ff",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-647.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-647.webp",
+      "expected_file": "photos/optimized/nancy-ajram-olympia-paris-2022-647.webp",
+      "bytes": 25996,
+      "sha256": "e3aaefc9a36cc4ca263c9d090bbf7291cf7ae7cb7a0936774f566aad2eea6012",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-olympia-paris-2022-480.webp",
+      "bytes": 17596,
+      "sha256": "4fd87cb881b9a54bc21536dda8faef544e8cc25efad9ac1f4b569a5b361c9315",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-960.webp",
+      "expected_file": "photos/optimized/nancy-ajram-expo-dubai-2021-960.webp",
+      "bytes": 37870,
+      "sha256": "189981ad56d5e78c10fc546b2f4afaa582aa8c2ab26a824e68ebe77f217fad40",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-480.webp",
+      "expected_file": "photos/optimized/nancy-ajram-expo-dubai-2021-480.webp",
+      "bytes": 15702,
+      "sha256": "46874cb92a25be503acc4c5cc618d57fcd4e9cb5fcd935aba137744228d33a9d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
+      "expected_file": "photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp",
+      "bytes": 71722,
+      "sha256": "6c0746d18933430dd0c7a3894e53ab4b22f446c37359acce1d6f964ad875f171",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-800.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-800.webp",
+      "expected_file": "photos/optimized/marcel-khalife-muscat-2019-800.webp",
+      "bytes": 24532,
+      "sha256": "749dfc190bbe1f0b3f2b89e64b9e954f14d08bf767df87ee4a4515e5ce174b8d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-480.webp",
+      "expected_file": "photos/optimized/marcel-khalife-muscat-2019-480.webp",
+      "bytes": 11810,
+      "sha256": "08e6ce53bf76db77447cc605c226a041ce4c7fe14089ef3a342e2ad27b77102e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-960.webp",
+      "expected_file": "photos/optimized/marcel-khalife-baalbeck-2019-960.webp",
+      "bytes": 100434,
+      "sha256": "6247daa0bb445d8cdcef4fa9931894dd34bb975cf4a791685fa60d8e7b29daf2",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-480.webp",
+      "expected_file": "photos/optimized/marcel-khalife-baalbeck-2019-480.webp",
+      "bytes": 27852,
+      "sha256": "cddf3a264ee22607b330009a5e518b33df4512421ea41241c0446998cfd1a8f3",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-1600.webp",
+      "expected_file": "photos/optimized/marcel-khalife-baalbeck-2019-1600.webp",
+      "bytes": 238452,
+      "sha256": "3045f079e8a1cb3a66f28768177ae522fb26eb7dd0479fea8c9b66a5f2991ab6",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-960.webp",
+      "expected_file": "photos/optimized/beirut-the-sea-lover-2019-960.webp",
+      "bytes": 44302,
+      "sha256": "1af62a367a8ce01af9bd6eac4c444aef4e6d8f8fb0129ffdd45d342ae4b12d7e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-480.webp",
+      "expected_file": "photos/optimized/beirut-the-sea-lover-2019-480.webp",
+      "bytes": 15754,
+      "sha256": "7c54ca1e6d968bea4a8b90cd3dbdc7d93d2ee658eb9bd364fafe3d4f0f0299b8",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-1600.webp",
+      "expected_file": "photos/optimized/beirut-the-sea-lover-2019-1600.webp",
+      "bytes": 86598,
+      "sha256": "9f5e9b14741474ae13c19ba2467b38d7019448b8fd30b4c5f09220b8c8c1cd97",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-483.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-483.webp",
+      "expected_file": "photos/optimized/mazeej-ndu-2019-483.webp",
+      "bytes": 17662,
+      "sha256": "ef81265e633b3198682930c353cc22025b1eaba6f81968adfff6947e0d9eab32",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-480.webp",
+      "expected_file": "photos/optimized/mazeej-ndu-2019-480.webp",
+      "bytes": 17140,
+      "sha256": "93298e501475fecb188dbad42e477872163367b37f40fb149a0e618bace32850",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-960.webp",
+      "expected_file": "photos/optimized/zade-dirani-amman-2019-960.webp",
+      "bytes": 8952,
+      "sha256": "4d703d16b2e55724618ca50a11f238c9c6c4eeddef350f368f010bd20da5f483",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-480.webp",
+      "expected_file": "photos/optimized/zade-dirani-amman-2019-480.webp",
+      "bytes": 3738,
+      "sha256": "6c0da374d9023a4605298011002e64e3556bec6201ee26ad6069007250ee5819",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-1280.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-1280.webp",
+      "expected_file": "photos/optimized/zade-dirani-amman-2019-1280.webp",
+      "bytes": 13002,
+      "sha256": "802b043d1165fdb8379f397a3f9e597e83d5506cf95ef6f44283e5a8b81ff3c4",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-483.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-483.webp",
+      "expected_file": "photos/optimized/zade-dirani-dbayeh-2018-483.webp",
+      "bytes": 21466,
+      "sha256": "370fedbf8d234fa3e793c969e1b13a682b63b62fade83f92b37502243e9a5cf0",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-480.webp",
+      "expected_file": "photos/optimized/zade-dirani-dbayeh-2018-480.webp",
+      "bytes": 20586,
+      "sha256": "689fa12a891eb696d2f4940d9583adb1b810cfae9e79ba3bf968816dc6746f50",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-960.webp",
+      "expected_file": "photos/optimized/al-sharq-symphony-istanbul-2017-960.webp",
+      "bytes": 86778,
+      "sha256": "b4ff1631b287d9c94253d63ab989b180724f411397e84d5a09beb105ee0f5681",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-480.webp",
+      "expected_file": "photos/optimized/al-sharq-symphony-istanbul-2017-480.webp",
+      "bytes": 27856,
+      "sha256": "44268aee15e29670cbbad43aef96c257775d102cba5aa1f23c0844655ae627ff",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
+      "expected_file": "photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp",
+      "bytes": 129878,
+      "sha256": "ab736014afe9fc972f1c5b810c95e6504e2f2791461c3f4dd99ed26bdf4d6f0a",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-960.webp",
+      "expected_file": "photos/optimized/marcel-khalife-amman-citadel-2016-960.webp",
+      "bytes": 53262,
+      "sha256": "72e399df665da32281494da61a945c08283fff833219017c63bd9f352bd4afbb",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-480.webp",
+      "expected_file": "photos/optimized/marcel-khalife-amman-citadel-2016-480.webp",
+      "bytes": 16754,
+      "sha256": "eff36a7b30f1807711b0b030ebc459e17598be5697269b3391f622a8907e9cf6",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp",
+      "expected_file": "photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp",
+      "bytes": 163948,
+      "sha256": "d907369ce167f78430be9d6a7fab642dfff406e5e124d151acfcaf977b6348a2",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-960.webp",
+      "expected_file": "photos/optimized/abeer-nehme-baalbeck-2016-960.webp",
+      "bytes": 26114,
+      "sha256": "525f973870bf22cc77f2f0a42f495cedc28b26037ee46f8ce560ff98fe103b8d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-480.webp",
+      "expected_file": "photos/optimized/abeer-nehme-baalbeck-2016-480.webp",
+      "bytes": 10032,
+      "sha256": "2d12757aa4613bfacfbf9c02213482ba1dfbfab25268d44f017b835dc2a1a638",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-1600.webp",
+      "expected_file": "photos/optimized/abeer-nehme-baalbeck-2016-1600.webp",
+      "bytes": 53602,
+      "sha256": "3614f7ca1511bdaa494bf7fbd0b0c6b2eaec03211f28dba513a17316edb2ccd3",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-483.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-483.webp",
+      "expected_file": "photos/optimized/beiteddine-marco-polo-2013-483.webp",
+      "bytes": 26636,
+      "sha256": "2f338490998555d132d364669f48acc12eb3c6736038ac79542ca2de041d597d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-480.webp",
+      "expected_file": "photos/optimized/beiteddine-marco-polo-2013-480.webp",
+      "bytes": 25384,
+      "sha256": "79afe4490c6614c05886c7f523a2205804937279b78bf63535b3aaf9bbece39c",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-960.webp",
+      "expected_file": "photos/optimized/studio-manley-outboard-960.webp",
+      "bytes": 74990,
+      "sha256": "fa1e1a0d0faba66595f2857dee1f246f025326772f2775be0b638ce9ea43d243",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-480.webp",
+      "expected_file": "photos/optimized/studio-manley-outboard-480.webp",
+      "bytes": 25422,
+      "sha256": "5cb57248797374fd6e580597eb7ee8e517f3e58f26b736037bf8a5a16a81cb30",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-1440.webp",
+      "expected_file": "photos/optimized/studio-manley-outboard-1440.webp",
+      "bytes": 166812,
+      "sha256": "d2ddb75221cec85171c9557c36a26f9b1271cbcb773299e872b6b73a49574a93",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-960.webp",
+      "expected_file": "photos/optimized/studio-mixing-console-960.webp",
+      "bytes": 152378,
+      "sha256": "eebf4c0c35bad81194e389640988203a67e500e7e2eb0a03e8ed2dc1d0e91d86",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-480.webp",
+      "expected_file": "photos/optimized/studio-mixing-console-480.webp",
+      "bytes": 48642,
+      "sha256": "190de2e26846d9d02860764ea46ea0dc92e2d30e6be8eb86160d85729abf9ba8",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-1600.webp",
+      "expected_file": "photos/optimized/studio-mixing-console-1600.webp",
+      "bytes": 313166,
+      "sha256": "e9305d95278e44ecf7785035468528850e4c56c41efd789bf5253c666a45a3e9",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-960.webp",
+      "expected_file": "photos/optimized/about-portrait-960.webp",
+      "bytes": 18076,
+      "sha256": "b63d62b901adc0c9833d390cd291360e5ac0fd7497b78d88a871769992bb0e20",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-480.webp",
+      "expected_file": "photos/optimized/about-portrait-480.webp",
+      "bytes": 7982,
+      "sha256": "9b8260b15bbb3f4d9f441de1ab3c9a53cea5e6e6d38acb5970cb9d90586a35e7",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-1600.webp",
+      "expected_file": "photos/optimized/about-portrait-1600.webp",
+      "bytes": 35354,
+      "sha256": "35d2ff9eaa1867838d43dd2b74cba30b5bc08fcf2a11d7b3887cbd8e89b65e36",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-live-128.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-live-128.webp",
+      "expected_file": "photos/optimized/zynforge-live-128.webp",
+      "bytes": 2756,
+      "sha256": "a1485690d92dc2ae42e7d8d4698deff57651a81b3e2c6e3e194d8e31287414ff",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-recording-128.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-recording-128.webp",
+      "expected_file": "photos/optimized/zynforge-recording-128.webp",
+      "bytes": 3062,
+      "sha256": "e5604172f4f68c7a6639d7e4d383d0056bfbac60760e6941cf892cdc2352a06d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-stage-128.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-stage-128.webp",
+      "expected_file": "photos/optimized/zynforge-stage-128.webp",
+      "bytes": 2682,
+      "sha256": "809def2c2f126316474c7f909f78ec95e027d0b1ac4f9139144e97bab93f3288",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-1600.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-1600.webp",
+      "expected_file": "photos/optimized/foh-pov-theater-stage-1600.webp",
+      "bytes": 236424,
+      "sha256": "a8b9f1fd1c8ced153c786a5953e5461cc5192df451e76f7bbcec682cf8646651",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-960.webp",
+      "expected_file": "photos/optimized/foh-pov-theater-stage-960.webp",
+      "bytes": 107002,
+      "sha256": "0291be8c10e5db54ede8fb48865ce0a601684f5e9609c229698fcb8cf0330379",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-480.webp",
+      "expected_file": "photos/optimized/foh-pov-theater-stage-480.webp",
+      "bytes": 34162,
+      "sha256": "afe652238f91e4da08cc1963b024638ecf05d778e6ebca2c43e77948d73690c8",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-1440.webp",
+      "expected_file": "photos/optimized/foh-church-concert-organ-1440.webp",
+      "bytes": 250568,
+      "sha256": "ec86ad69ba88ae4a51c89969064676b600d0dc1f78ff437c8e249e0d55ee1b28",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-960.webp",
+      "expected_file": "photos/optimized/foh-church-concert-organ-960.webp",
+      "bytes": 129106,
+      "sha256": "1c5baca9009bd2ebdeddc65d88f17056eec5fd38e2ca0c2ba39a18e901cfec03",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-480.webp",
+      "expected_file": "photos/optimized/foh-church-concert-organ-480.webp",
+      "bytes": 45900,
+      "sha256": "54d7930984933d108538cb779ef104c26372b5a40edd92274131e427ba3e4f1d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-1440.webp",
+      "expected_file": "photos/optimized/foh-orchestra-ornate-backdrop-1440.webp",
+      "bytes": 263540,
+      "sha256": "3a6796f230157b5e3bd8f1e9141e0163915a29ba39f7bd05a39c93663a47e627",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-960.webp",
+      "expected_file": "photos/optimized/foh-orchestra-ornate-backdrop-960.webp",
+      "bytes": 144144,
+      "sha256": "3a6c7a51cbab8c9069177d510954bd89522fd04782449c94737c8c9567ce3b2d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-480.webp",
+      "expected_file": "photos/optimized/foh-orchestra-ornate-backdrop-480.webp",
+      "bytes": 50192,
+      "sha256": "1e18ade0657247a5b43cc5005f3fe0d5226b49c3ff252062fcd0c57c949abdb1",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-1440.webp",
+      "expected_file": "photos/optimized/foh-concert-hall-aerial-1440.webp",
+      "bytes": 134132,
+      "sha256": "c46917e6c6fdf80508332e0ba0de500c62d8f3d85b87a203caac7076d5f87a38",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-960.webp",
+      "expected_file": "photos/optimized/foh-concert-hall-aerial-960.webp",
+      "bytes": 66816,
+      "sha256": "fe67c185afd46927f31c83776d0e6090dbd73543c2bb52260d22154a6f88936e",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-480.webp",
+      "expected_file": "photos/optimized/foh-concert-hall-aerial-480.webp",
+      "bytes": 20106,
+      "sha256": "5014b80163ec6398a50944c985b09df908734184fe32e47a6251ce16c62bfa32",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-1440.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-1440.webp",
+      "expected_file": "photos/optimized/concert-arena-led-screens-1440.webp",
+      "bytes": 363360,
+      "sha256": "0d5024084b8f318df71cbdaaa07272e5c09bbd5cb036ecca26c035fa12223632",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-960.webp",
+      "expected_file": "photos/optimized/concert-arena-led-screens-960.webp",
+      "bytes": 165868,
+      "sha256": "d5febfb4b6b4c30a72472d9f59b3ab73ab6cb8f4a5257827af13d4ff7cfe2f43",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-480.webp",
+      "expected_file": "photos/optimized/concert-arena-led-screens-480.webp",
+      "bytes": 53974,
+      "sha256": "1c90b614946c4ce5ca1ab1e87d5c25742bf6aa941b6212098d5f6207ff5fa548",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-1080.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-1080.webp",
+      "expected_file": "photos/optimized/midas-heritage-console-1080.webp",
+      "bytes": 158854,
+      "sha256": "2b917d4aa512b70938ce15bd58e7ff350e69cf44017f6bbf484596dd61f71079",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-960.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-960.webp",
+      "expected_file": "photos/optimized/midas-heritage-console-960.webp",
+      "bytes": 126228,
+      "sha256": "48ac82fd72505271b35ce5e54cdebe2e20ee46f43fd03c24ff240b9dbdaec29a",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-480.webp",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-480.webp",
+      "expected_file": "photos/optimized/midas-heritage-console-480.webp",
+      "bytes": 48742,
+      "sha256": "2e027365732fba5f6e8599d997b060e8bea393cd0c93d9e9740aeef1e0fc1379",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/robots.txt",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/robots.txt",
+      "expected_file": "robots.txt",
+      "bytes": 437,
+      "sha256": "11ac5ffa72b42d0da6cf9bd0cfd5909197147f155e4c8ef2b409ec63e71eeb6d",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "expected_file": "sitemap.xml",
+      "bytes": 5151,
+      "sha256": "dc33d13c4caa37589c4b714b062123133b020b31f812f539a0f2b9285aef1127",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/llms.txt",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/llms.txt",
+      "expected_file": "llms.txt",
+      "bytes": 7263,
+      "sha256": "9b4107f135fcc5fc5e7d288120d5e417e49ca96b417c65a09148ced0db246451",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/d24c3502a91415f2.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/d24c3502a91415f2.woff2",
+      "expected_file": "fonts/d24c3502a91415f2.woff2",
+      "bytes": 12956,
+      "sha256": "d24c3502a91415f2ec44f107807673255b696c379b3995543270921c27863e32",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/7e701dc124492f7d.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/7e701dc124492f7d.woff2",
+      "expected_file": "fonts/7e701dc124492f7d.woff2",
+      "bytes": 40560,
+      "sha256": "7e701dc124492f7d0856fba4a07157d0cecc84e2b2b4615f08530c1e8bc112dd",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/c9745ee907c02cdd.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/c9745ee907c02cdd.woff2",
+      "expected_file": "fonts/c9745ee907c02cdd.woff2",
+      "bytes": 45624,
+      "sha256": "c9745ee907c02cdd46cc41a65bb711cd861432f679a76c18e3de204a18723040",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/250cc2966c658fb6.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/250cc2966c658fb6.woff2",
+      "expected_file": "fonts/250cc2966c658fb6.woff2",
+      "bytes": 11536,
+      "sha256": "250cc2966c658fb6d336731de9d82a8129025e9839c20c253bbc477852f6cf4f",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/f1451edd6434085c.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/f1451edd6434085c.woff2",
+      "expected_file": "fonts/f1451edd6434085c.woff2",
+      "bytes": 33640,
+      "sha256": "f1451edd6434085c4f9f3a8b4a674182dd7d6acccf53bfced19fd167f0705a06",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/88e17be075f1be50.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/88e17be075f1be50.woff2",
+      "expected_file": "fonts/88e17be075f1be50.woff2",
+      "bytes": 36560,
+      "sha256": "88e17be075f1be50ab67b057b99e3701b828f44ed28f9452df6c02645bb0cba9",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/2f52020a90793104.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/2f52020a90793104.woff2",
+      "expected_file": "fonts/2f52020a90793104.woff2",
+      "bytes": 1644,
+      "sha256": "2f52020a90793104e4178b0ae3ccd30eea28cac27e0fea8fcf4f246151777f74",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/2f467719b2167cc4.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/2f467719b2167cc4.woff2",
+      "expected_file": "fonts/2f467719b2167cc4.woff2",
+      "bytes": 9364,
+      "sha256": "2f467719b2167cc4778b5780a2fb42fadf5203b29d0fb5f1482bbab32b1b7999",
+      "matches": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/a1376a563717f1ef.woff2",
+      "status": 200,
+      "final_url": "https://www.jeanpierreboutros.com/fonts/a1376a563717f1ef.woff2",
+      "expected_file": "fonts/a1376a563717f1ef.woff2",
+      "bytes": 19572,
+      "sha256": "a1376a563717f1efa2f5286ab23da2b61ae8dec827a77b97adfa01cad4ec4ee2",
+      "matches": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "pass": true
+    },
+    {
+      "url": "http://www.jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "pass": true
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/index.html",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/index.html",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "pass": true
+    }
+  ],
+  "expected_404": [
+    {
+      "url": "https://www.jeanpierreboutros.com/jpb-release-missing-20261116/",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/build.py",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/docs/SEO-AUDIT-2026-11-16.md",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "crawler_requests": [
+    {
+      "user_agent": "Googlebot",
+      "status": 200,
+      "matches_home": true
+    },
+    {
+      "user_agent": "bingbot",
+      "status": 200,
+      "matches_home": true
+    },
+    {
+      "user_agent": "OAI-SearchBot",
+      "status": 200,
+      "matches_home": true
+    },
+    {
+      "user_agent": "PerplexityBot",
+      "status": 200,
+      "matches_home": true
+    }
+  ],
+  "crawler_test_limit": "Requests originate from this audit machine, not verified operator crawler IPs.",
+  "cache_headers": [
+    {
+      "url": "https://www.jeanpierreboutros.com/styles.css?v=ff38f93b419c",
+      "cache_control": "public, max-age=31536000, immutable",
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/main.js?v=8272e6e3e321",
+      "cache_control": "public, max-age=31536000, immutable",
+      "pass": true
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/fonts.css?v=d946d5aae4ae",
+      "cache_control": "public, max-age=31536000, immutable",
+      "pass": true
+    }
+  ],
+  "sitemap_urls": [
+    "https://www.jeanpierreboutros.com/",
+    "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+    "https://www.jeanpierreboutros.com/international-projects/",
+    "https://www.jeanpierreboutros.com/live-sound-engineer/",
+    "https://www.jeanpierreboutros.com/mixing-mastering/",
+    "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+    "https://www.jeanpierreboutros.com/projects/",
+    "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+    "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+    "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+    "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+    "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+    "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+    "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+    "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+    "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+    "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+    "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+    "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+    "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+    "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+    "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+    "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+    "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+    "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+    "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+    "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+    "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+    "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+    "https://www.jeanpierreboutros.com/projects/studio-integration/",
+    "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+    "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+    "https://www.jeanpierreboutros.com/projects/the-eighties/",
+    "https://www.jeanpierreboutros.com/projects/warda-night/",
+    "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+    "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+    "https://www.jeanpierreboutros.com/recording-engineer/",
+    "https://www.jeanpierreboutros.com/services/",
+    "https://www.jeanpierreboutros.com/studio-credits/",
+    "https://www.jeanpierreboutros.com/studio-system-integration/"
+  ],
+  "robots_search_allowed": true,
+  "gptbot_excluded": true,
+  "deployment_via": "Existing HostGator cPanel Git repository; no account credentials recorded.",
+  "hostgator_last_deployed_sha": "239f127cddc602681c1091c73d18e3cb2e6f5fd6",
+  "hostgator_last_deployed_display": "Nov 16, 2026 3:03:34 PM",
+  "hostgator_display_timezone": "Not independently confirmed; retain display as observed.",
+  "hostgator_last_deployed_sha_matches_content": true,
+  "google_search_console": {
+    "property": "sc-domain:jeanpierreboutros.com",
+    "ownership_verified": true,
+    "method": "Domain name provider / DNS TXT",
+    "authoritative_nameservers": [
+      "ns8001.hostgator.com",
+      "ns8002.hostgator.com"
+    ],
+    "verification_record_visible_on_both_authorities": true,
+    "existing_spf_preserved": true,
+    "verification_txt_ttl": 14400,
+    "sitemap": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "submission_confirmed": true,
+    "initial_status": "Could not fetch, transient",
+    "current_status": "Sitemap processed successfully",
+    "discovered_pages": 40,
+    "homepage_index_status": "URL is on Google; Page is indexed",
+    "homepage_live_test": "URL is available to Google; Page can be indexed",
+    "indexing_limit": "Existing index status does not establish that the just-deployed version has been recrawled.",
+    "homepage_refresh_requested": true,
+    "homepage_refresh_confirmation": "Indexing requested; URL added to priority crawl queue",
+    "tarteeb_inspection": "Discovered - currently not indexed (initial Google index snapshot)",
+    "tarteeb_live_test": "URL is available to Google; Page can be indexed",
+    "tarteeb_indexing_requested": true,
+    "tarteeb_indexing_confirmation": "Indexing requested; URL added to priority crawl queue",
+    "performance_status": "New property data processing; no search performance baseline exported"
+  },
+  "bing_webmaster_tools": {
+    "canonical_site": "https://www.jeanpierreboutros.com/",
+    "basic_google_profile_signin_approved_by_user": true,
+    "site_added": true,
+    "verification_method": "CNAME DNS",
+    "cname_host": "c6f5d798f01385faa5b701645707c3da.jeanpierreboutros.com",
+    "cname_target": "verify.bing.com",
+    "visible_on_both_authoritative_nameservers": true,
+    "dashboard": "Verified site dashboard accessible after navigating to Webmaster Tools root",
+    "sitemap_submission_confirmed": true,
+    "ownership_verified": true,
+    "sitemap": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "sitemap_status": "Success",
+    "sitemap_known": 1,
+    "sitemap_errors": 0,
+    "sitemap_warnings": 0,
+    "performance_status": "Data and reports being processed; Bing reports up to 48 hours",
+    "homepage_initial_index_status": "Indexed successfully; URL can appear on Bing (existing indexed snapshot)",
+    "homepage_indexing_requested": true,
+    "homepage_indexing_confirmation": "Indexing requested.",
+    "tarteeb_initial_index_status": "Not discovered; URL not known to Bing",
+    "tarteeb_indexing_requested": true,
+    "tarteeb_indexing_confirmation": "Indexing requested.",
+    "tarteeb_live_test": "URL can be indexed by Bing",
+    "initial_live_metadata_notices": [
+      "Title too long",
+      "Meta Description too long or too short"
+    ],
+    "metadata_follow_up": "Concise homepage description and Shareet title/description deployed in 239f127; final Shareet live test reports No SEO/GEO issues found.",
+    "sitemap_discovered_urls": 40,
+    "tarteeb_final_live_test": "URL can be indexed by Bing",
+    "tarteeb_final_live_test_display": "Today at 15:05 (16 November 2026)",
+    "tarteeb_final_live_seo_geo_issues": 0,
+    "tarteeb_final_live_markup_types": 2
+  },
+  "public_live_validators": {
+    "schema_org": {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "errors": 0,
+      "warnings": 0,
+      "method": "Public URL fetch; correct non-ASCII text observed"
+    },
+    "google_rich_results": {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "crawl": "Crawled successfully",
+      "crawl_display": "Nov 16, 2026, 2:47:08 PM",
+      "valid_items": 4,
+      "types": [
+        "Article",
+        "Breadcrumbs",
+        "Image Metadata",
+        "Organization"
+      ],
+      "noncritical_notices": [
+        "Article optional fields",
+        "Image metadata optional fields"
+      ],
+      "result_url": "https://search.google.com/test/rich-results/result?id=S3usjSZcsng7iyq5i81vZA&hl=en"
+    },
+    "tested_content_commit": "a071362d551300c5c3503db8ecfd03f1a4587e1c"
+  },
+  "deployment_last_modified_utc": "2026-11-16T12:03:34Z",
+  "initial_full_http_verification_commit": "a071362d551300c5c3503db8ecfd03f1a4587e1c",
+  "final_refinement_verification": {
+    "refetched_changed_pages": [
+      {
+        "url": "https://www.jeanpierreboutros.com/",
+        "title": "Jean-Pierre Boutros | International FOH & Sound Engineer",
+        "description": "Jean-Pierre Boutros, Lebanon-based international sound engineer for FOH, concerts, recording, mixing, broadcast and studio integration. Available worldwide.",
+        "bytes": 219344,
+        "matches": true
+      },
+      {
+        "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+        "title": "Shareet · Tarteeb at QNCC | Jean-Pierre Boutros, FOH",
+        "description": "Jean-Pierre Boutros was the FOH engineer for Tarteeb’s Shareet concert at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026. View the project.",
+        "bytes": 34575,
+        "matches": true
+      }
+    ],
+    "unchanged_previously_verified_urls": 163,
+    "method": "Only two runtime pages changed. Re-fetched both, matched live bytes and confirmed other referenced files retain their previously matched hashes."
+  },
+  "public_ui_checks": {
+    "homepage": "Published dark charcoal design, original JPB monogram, typography and FOH photograph observed in Chrome",
+    "chronology": "2026 year first; Shareet 14 November, The Eighties October, Marina Viotti 8 September, Lebanese Philharmonic 26 July, Abeer Nehme 23 January; 2025 follows",
+    "project_dialog": "Shareet opens with FOH role, QNCC hall and 14 November 2026; Escape closes and returns focus to originating project link",
+    "scope": "Post-deployment desktop smoke check. Earlier local mobile checks are retained in the QA record; no new field Core Web Vitals measurement."
+  },
+  "release_status": "Deployed and verified; Google and Bing ownership and sitemap setup completed. Indexing requests accepted; search reporting still processing.",
+  "initial_protocol_checks_commit": "a071362d551300c5c3503db8ecfd03f1a4587e1c",
+  "initial_protocol_checks_scope": "Six redirects, three expected 404s, crawler-identifying requests and cache headers checked on a071362; only two HTML metadata pages changed afterward.",
+  "deployment_last_modified_header": "Mon, 16 Nov 2026 12:03:34 GMT"
+}

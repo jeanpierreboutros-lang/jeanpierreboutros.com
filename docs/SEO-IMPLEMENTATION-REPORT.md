@@ -1,25 +1,27 @@
 # Worldwide SEO and AI search implementation
 
-**Latest review — 16 November 2026:** see [the current audit and implementation
-report](SEO-AUDIT-2026-11-16.md). The local release has 40 canonical pages and 29
-projects, improved service-credit links, optimized sharing images, current
-structured data and scoped asset caching. It has not been deployed. The
-3 November release history and its original measurements below are retained.
+**Published update — 16 November 2026:** see [the current release and registration
+report](RELEASE-2026-11-16.md). Final content `239f127` is deployed: 40 canonical
+pages, six services, 29 projects, original logo and dark chronological portfolio.
+Google and Bing ownership are verified; both processed the sitemap with 40
+URLs. [Live evidence](portfolio-release-verification-2026-11-16.json) records
+verification and remaining measurement limits. The [predeployment audit](SEO-AUDIT-2026-11-16.md)
+and 3 November release history below retain their original scope.
 
 Documentation reconciled: 3 November 2026. Website: https://www.jeanpierreboutros.com/.
 
-## Local addition — 16 November 2026
+## Published addition — 16 November 2026
 
-The unreleased local portfolio now includes Shareet · Tarteeb at QNCC, Doha,
+The published portfolio includes Shareet · Tarteeb at QNCC, Doha,
 14 November 2026, with Jean-Pierre’s confirmed FOH role. The current build has
 40 canonical pages, 29 project records, 35 gallery images and 17 FOH projects.
 The project is first in the chronological index and is linked from the live sound
 service and international projects directory. Event context and artwork provenance
 are recorded in [the research record](tarteeb-shareet-research-2026-11-16.json).
-The published release and verification measurements below are historical and
-remain unchanged until a new deployment is verified.
+The 3 November release and measurements below are historical. Current deployment
+and search-registration results are in the release report linked above.
 
-## Published release
+## Historical published release — 3 November 2026
 
 HostGator deployed content release `24ec55eef9540cb49fab5f49328399e631a13c05`
 on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel's Last Deployed SHA matched.
@@ -49,12 +51,19 @@ while its evidence is recorded under both artists. Studio entries share the
 
 | Release | Deployment and evidence scope |
 | --- | --- |
+| `239f127` — dark portfolio and SEO | 16 November 2026; 40 pages and 125 resource URLs verified, Google/Bing ownership and successful 40-URL sitemap processing |
 | `6cf3dda` — original SEO release | 2 November 2026; 28 pages and 93 referenced assets matched live bytes; canonical redirects, real 404 and a project dialog checked |
 | `24ec55e` — portfolio expansion | 3 November 2026; 39 pages and 152 referenced resources matched live bytes; six redirect cases and three expected 404 responses checked |
 
 Documentation commits may follow the deployed content commit without requiring a
 new website deployment. Repository documentation and source generators are
 excluded from the HostGator runtime manifest.
+
+## Historical implementation detail — 3 November 2026
+
+The remaining sections retain the 3 November implementation snapshot. Their
+page counts, test totals and outstanding account/validator statements are
+historical. The 16 November report linked above supersedes their release status.
 
 ## Architecture and search access
 

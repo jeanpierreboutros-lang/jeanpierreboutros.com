@@ -1,25 +1,30 @@
 # Visibility and inquiry measurement
 
-Reviewed 16 November 2026. The earlier portfolio release is published; Google/Bing ownership
-verification and performance exports remain outstanding. No analytics provider,
-tracking script, cookies, account connection or data collection was installed by
-this release. No analytics configuration was found in the repository.
+Published and registered **16 November 2026**. Final content release `239f127`
+has 40 canonical pages, six services and 29 projects. Google and Bing ownership
+are verified; both processed the sitemap successfully and discovered 40 pages.
+Home and Shareet indexing requests were accepted. Search reports are processing;
+no organic performance/country/query baseline has been exported yet.
 
-The current local candidate has 40 canonical pages, six services and 29 projects.
-Record its eventual deployed commit and date as a new annotation; retain the
-3 November baseline below. A local build does not establish live delivery.
+See [the release report](RELEASE-2026-11-16.md). No analytics provider, tracking
+script, cookies or new analytics data collection was installed. No analytics
+configuration was found in the repository. Preserve the 3 November historical
+baseline below alongside the new deployment annotation.
 
 ## Establish a baseline
 
-The published baseline is content release `24ec55e`, deployed through HostGator
+The historical published baseline is content release `24ec55e`, deployed through HostGator
 on 3 November 2026 (Asia/Beirut): 39 canonical pages, six services, 28 projects,
 and 51 studio release entries across 27 artists on `/studio-credits/`.
 All 39 pages and 152 referenced resources matched local bytes; this establishes
 release delivery, not search visibility or performance gains. See the
 [verification record](portfolio-release-verification-2026-11-03.json).
 
-Complete the [search registration steps](SEARCH-CONSOLE.md), then export the first
-available Google Search Console and Bing Webmaster Tools performance data.
+The new deployment annotation is 16 November 2026, final commit `239f127`,
+40 pages / 29 projects. The [current live record](portfolio-release-verification-2026-11-16.json)
+distinguishes initial verification from the two-page metadata refinement.
+Registration is complete; export the first available Google Search Console and
+Bing Webmaster Tools performance data after processing finishes.
 Compare rolling 28-day periods, keeping seasonality and newly indexed pages in
 mind. An absent early impression is not proof of a technical fault. No search baseline,
 traffic totals, inquiry counts or Core Web Vitals improvement is claimed yet.
@@ -66,7 +71,8 @@ Bing's [AI Performance preview](https://blogs.bing.com/webmaster/2026/2/Introduc
 reports citations across Microsoft Copilot, Bing summaries and selected partners.
 Its [additional preview insights](https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/)
 include intents, topics, citation share and comparisons. Use whichever reports
-the verified account actually exposes; no account data was accessed here.
+the verified account actually exposes. AI Performance is visible in this account;
+no citation data was exported during registration.
 These reports do not cover all ChatGPT, Gemini, Perplexity or other AI answers.
 
 Keep occasional manual samples of relevant, non-leading discovery questions and

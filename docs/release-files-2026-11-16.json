@@ -1,0 +1,312 @@
+{
+  "content_commit": "239f127cddc602681c1091c73d18e3cb2e6f5fd6",
+  "created": 14,
+  "modified": 57,
+  "files": [
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "M",
+      "path": "broadcast-audio-engineer/index.html"
+    },
+    {
+      "status": "M",
+      "path": "build.py"
+    },
+    {
+      "status": "M",
+      "path": "check_site.py"
+    },
+    {
+      "status": "M",
+      "path": "docs/MEASUREMENT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/SEARCH-CONSOLE.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/SEO-AUDIT-2026-11-16.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/SEO-IMPLEMENTATION-REPORT.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-apache-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-external-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-live-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-pagespeed-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-performance-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-audit-qa-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/search-implementation-files-2026-11-16.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/tarteeb-shareet-research-2026-11-16.json"
+    },
+    {
+      "status": "M",
+      "path": "fonts/README.md"
+    },
+    {
+      "status": "M",
+      "path": "fonts/fonts.css"
+    },
+    {
+      "status": "M",
+      "path": "fonts/manifest.json"
+    },
+    {
+      "status": "M",
+      "path": "hosting/seo.htaccess"
+    },
+    {
+      "status": "M",
+      "path": "index.html"
+    },
+    {
+      "status": "M",
+      "path": "international-projects/index.html"
+    },
+    {
+      "status": "M",
+      "path": "live-sound-engineer/index.html"
+    },
+    {
+      "status": "M",
+      "path": "llms.txt"
+    },
+    {
+      "status": "M",
+      "path": "main.js"
+    },
+    {
+      "status": "M",
+      "path": "mixing-mastering/index.html"
+    },
+    {
+      "status": "M",
+      "path": "optimize_images.py"
+    },
+    {
+      "status": "M",
+      "path": "orchestra-sound-engineer/index.html"
+    },
+    {
+      "status": "M",
+      "path": "photos/optimized/manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp"
+    },
+    {
+      "status": "A",
+      "path": "photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp"
+    },
+    {
+      "status": "A",
+      "path": "photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp"
+    },
+    {
+      "status": "A",
+      "path": "photos/tarteeb-shareet-qncc-doha-2026.webp"
+    },
+    {
+      "status": "M",
+      "path": "projects/abeer-nehme-baalbeck/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/abeer-nehme-qatar/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/al-sharq-symphony/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/baligh-hamdi-night/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/beirut-the-sea-lover/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/beiteddine-marco-polo/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/carole-samaha-golden-album/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/cartoon-orchestra/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/ehdeniyat-abeer-nehme/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/ehdeniyat-adam/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/ehdeniyat-al-shami/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/lebanese-philharmonic-diman/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/marcel-khalife-amman/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/marcel-khalife-baalbeck/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/marcel-khalife-muscat/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/marina-viotti/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/mazeej-ndu/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/nancy-ajram-expo-dubai/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/nancy-ajram-jounieh/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/nancy-ajram-olympia/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/night-of-arab-stars/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/papal-broadcast/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/studio-integration/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/studio-jpb/index.html"
+    },
+    {
+      "status": "A",
+      "path": "projects/tarteeb-shareet-doha/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/the-eighties/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/warda-night/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/zade-dirani-amman/index.html"
+    },
+    {
+      "status": "M",
+      "path": "projects/zade-dirani-dbayeh/index.html"
+    },
+    {
+      "status": "M",
+      "path": "recording-engineer/index.html"
+    },
+    {
+      "status": "M",
+      "path": "search_pages.py"
+    },
+    {
+      "status": "M",
+      "path": "services.py"
+    },
+    {
+      "status": "M",
+      "path": "services/index.html"
+    },
+    {
+      "status": "M",
+      "path": "sitemap.xml"
+    },
+    {
+      "status": "M",
+      "path": "studio-credits/index.html"
+    },
+    {
+      "status": "M",
+      "path": "studio-system-integration/index.html"
+    },
+    {
+      "status": "M",
+      "path": "styles.css"
+    }
+  ],
+  "initial_design_seo_commit": "a071362d551300c5c3503db8ecfd03f1a4587e1c",
+  "refinement_files": [
+    "build.py",
+    "search_pages.py",
+    "index.html",
+    "projects/tarteeb-shareet-doha/index.html"
+  ],
+  "record_scope": "Union of content release changes from preceding repository HEAD through 239f127, including 16 November audit documentation. Post-deployment documentation recorded separately.",
+  "base_commit": "831769219bf13173a34e3fc9ae2e1c89cc3edf70",
+  "post_deployment_documentation_created": [
+    "docs/RELEASE-2026-11-16.md",
+    "docs/portfolio-release-verification-2026-11-16.json",
+    "docs/release-files-2026-11-16.json"
+  ],
+  "post_deployment_documentation_modified": [
+    "README.md",
+    "docs/SEARCH-CONSOLE.md",
+    "docs/MEASUREMENT.md",
+    "docs/SEO-AUDIT-2026-11-16.md",
+    "docs/SEO-IMPLEMENTATION-REPORT.md"
+  ]
+}
