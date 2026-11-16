@@ -1062,7 +1062,7 @@ INDEX = f'''<!DOCTYPE html>
           <a href="mailto:jp@jeanpierreboutros.com" class="contact-link"><span><span class="contact-tag">Email</span>jp@jeanpierreboutros.com</span><span aria-hidden="true">↗</span></a>
           <a href="https://wa.me/9613883863" target="_blank" rel="noopener noreferrer" class="contact-link"><span><span class="contact-tag">WhatsApp</span>+961 3 883 863</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
           <a href="{e(profile_url)}" download="Jean-Pierre-Boutros-Profile.pdf" class="contact-link"><span><span class="contact-tag">Professional profile</span>Download PDF · 1 page · {profile_size}</span><span aria-hidden="true">↓</span></a>
-          <div class="social"><a href="https://www.instagram.com/jp.boutros" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.facebook.com/jean.p.boutros" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in a new tab)</span></a></div>
+          <div class="social"><a href="https://www.instagram.com/jp.boutros" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.facebook.com/jean.p.boutros" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in a new tab)</span></a><a href="https://x.com/JPbboutros" target="_blank" rel="noopener noreferrer">X<span class="sr-only"> (@JPbboutros; opens in a new tab)</span></a><a href="https://www.linkedin.com/in/jeanpierreboutros/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></div>
         </div>
       </div>
     </section>

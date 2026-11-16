@@ -285,7 +285,7 @@ dialog::backdrop { background: rgb(var(--bg-rgb) / .85); }
 .contact-link > span[aria-hidden] { color: var(--accent); }
 .contact-tag { display: block; color: var(--accent); text-transform: uppercase; letter-spacing: .12em; font-size: .66rem; margin-bottom: .4rem; }
 .contact-link:hover { color: var(--accent); border-color: var(--accent); }
-.social { display: flex; gap: 1.8rem; margin-top: 1.5rem; }
+.social { display: flex; flex-wrap: wrap; gap: .35rem 1.8rem; margin-top: 1.5rem; }
 .social a { display: inline-flex; align-items: center; min-height: 44px; font-size: .75rem; text-decoration: none; color: var(--muted); }
 .social a:hover { color: var(--accent); }
 .footer { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; padding-block: 2rem; }

@@ -121,6 +121,17 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 
 The homepage follows: introduction → selected work → collaborations and television → biography, expertise and factual FAQs → Zynforge → gallery → contact. Its navigation, animation and original section anchors, including `#tv`, remain valid. Service links use the existing expertise list and a compact footer directory. Dedicated pages reuse the same palette, typography, navigation, imagery and layout components. English remains the maintained language; no incomplete translations or hreflang alternates are generated.
 
+## Professional social profiles
+
+Jean-Pierre confirmed X `@JPbboutros` and LinkedIn
+`https://www.linkedin.com/in/jeanpierreboutros/` on 16 November 2026.
+The homepage contact section links to both alongside the existing Instagram and
+Facebook profiles. The Person entity on all 40 pages includes all four profiles
+in `sameAs`, using the same stable identity. Social links retain accessible
+new-tab labels and safe external-link attributes; the row wraps on narrow
+screens. These links associate profiles with the professional identity without
+claiming a ranking or AI recommendation benefit.
+
 ## Editing content
 
 Edit `build.py` for portfolio content, `studio_credits.py` for song/album credits, `services.py` for services and FAQs, and `search_pages.py` for shared page generation, metadata and structured data. Regenerate with `python3 build.py`. The generator needs Python 3.9 or later and only its standard library. It fingerprints CSS and JavaScript URLs so deployed updates do not reuse stale browser caches. Rebuild after editing either asset, too. Do not hand-edit generated HTML, sitemap, robots or `llms.txt` files. Keep research evidence and publication decisions in the corresponding documentation records.
