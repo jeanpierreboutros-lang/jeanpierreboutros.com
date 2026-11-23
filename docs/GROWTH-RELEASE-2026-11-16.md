@@ -1,5 +1,7 @@
 # Measurement, credibility and performance release — 16 November 2026
 
+Historical record. Reconciled **24 November 2026**: current content release `04a1d8a` is published with 41 canonical pages and the RY X FOH project. See [the current release](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md). Counts, account observations, test totals and outstanding statements below retain their original dated scope; they are not new measurements of the current release.
+
 Deployed final content **c931301970051a6c7b4788a2b310365f8004adb6** through the
 existing HostGator cPanel Git deployment. cPanel displayed the same Last Deployed
 SHA and **Nov 16, 2026 4:58:44 PM**. The dark design, typography, navigation,

@@ -1,10 +1,8 @@
 # Visibility and inquiry measurement
 
-Current content release **c931301**, deployed 16 November 2026, retains 40
-canonical pages, six services and 29 projects. Google and Bing ownership are
-verified and both processed the 40-URL sitemap. Search query/country/indexing
-reports were still processing when checked on 16 November; missing data is not
-zero and does not establish rankings.
+Documentation reconciled **24 November 2026**. Current content release **`04a1d8a`** was deployed on 24 November 2026 and contains 41 canonical pages, six services and 30 projects. All 41 pages and 196 referenced resources matched the published release. See [the release report](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
+Google and Bing ownership were verified and both processed the then-40-URL sitemap on 16 November. Search query/country/indexing reports were still processing when checked then. No search-account or GA4 reporting review was performed during this session, so the current 41-URL sitemap is not evidence that all 41 pages have been ingested or indexed. Missing report data is not a measured zero.
 
 Consent-based GA4 is now installed after the owner's account-sharing choice and
 explicit approval of Google's agreements. Realtime received test page views,
@@ -18,6 +16,8 @@ the site before analytics was installed. Preserve its historical scope alongside
 the new release annotation and the 3 November baseline below.
 
 ## Establish a baseline
+
+Treat 24 November as a new content-release annotation: the RY X project went live as `04a1d8a`. At the next review, use the existing verified properties to inspect the new URL and latest sitemap processing, then export the available comparable data. No new search, country, referral, inquiry or field-performance baseline was collected for this release.
 
 The historical published baseline is content release `24ec55e`, deployed through HostGator
 on 3 November 2026 (Asia/Beirut): 39 canonical pages, six services, 28 projects,

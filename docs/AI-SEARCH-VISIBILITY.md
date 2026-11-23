@@ -1,8 +1,10 @@
-# AI search visibility — 16 November 2026
+# AI search visibility
 
-The portfolio is prepared for search and retrieval by ChatGPT, Claude, Perplexity and other assistants that use the public web. This builds on the published 40-page static website, linked professional identity, verified credits, international service descriptions and successfully processed Google/Bing sitemaps. Allowing access does not guarantee that a provider will crawl, index, cite or recommend it.
+Documentation reconciled **24 November 2026**. Published content `04a1d8a` now has **41 canonical pages**, including the new RY X project. The existing search/fetch allow rules and GPTBot training exclusion are preserved; the site checker passed its robots assertions across all 41 URLs. All 41 pages and 196 referenced resources matched the live release. No new provider-origin retrieval, search-account review or AI citation test was performed. See [the release report](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
 
-## Published verification
+The portfolio is prepared for search and retrieval by ChatGPT, Claude, Perplexity and other assistants that use the public web. This builds on the published 41-page static website, linked professional identity, verified credits, international service descriptions and successfully processed Google/Bing sitemaps. Allowing access does not guarantee that a provider will crawl, index, cite or recommend it.
+
+## Historical crawler-policy verification — 16 November 2026
 
 Deployed content `c9521aa399ccd6b8446a6f68bdbd8b39b266f0d7` through the existing
 HostGator Git deployment on 16 November 2026. cPanel's Last Deployed SHA matches.
@@ -34,7 +36,7 @@ actual AI indexing or recommendation.
 | Bing / Copilot | bingbot allowed; verified Bing property and processed sitemap | Search and available AI Performance reports can be reviewed in the existing account; no universal AI citation measurement is claimed. |
 | Grok | Public, crawlable HTML, self-canonicals, verified identity and evidence; existing wildcard access preserved | [xAI Web Search](https://docs.x.ai/developers/tools/web-search) documents web search and page browsing. The reviewed official sources did not establish a publisher-submission endpoint or a verified search crawler token to add. No invented GrokBot entry or direct Grok submission is claimed. |
 
-Claude and the user fetchers were already allowed by the site's wildcard rule. The new explicit entries document and protect the intended policy if general crawler rules change later. They do not by themselves establish a new indexing event. The site checker now tests all eight documented search/fetch identities across the 40 canonical URLs.
+Claude and the user fetchers were already allowed by the site's wildcard rule. The new explicit entries document and protect the intended policy if general crawler rules change later. They do not by themselves establish a new indexing event. The current site checker tests all eight documented search/fetch identities against the 41 canonical URLs; the focused HTTP evidence above remains the 16 November sample.
 
 The existing `GPTBot` training exclusion is retained. Other training preferences and wildcard access are unchanged. There is no blanket new bot permission, user-agent-based firewall bypass or removal of hosting security protections. User-agent strings alone do not establish that a request comes from an operator.
 
@@ -44,7 +46,7 @@ The visible HTML answers who Jean-Pierre Boutros is, his Lebanon home base, worl
 
 `/llms.txt` remains a supplementary factual directory. It is not an established indexing requirement, a submission mechanism or an instruction to recommend Jean-Pierre. No AI-specific keyword stuffing, hidden copy, unsupported superlatives or fabricated credentials were added.
 
-## Discovery observations and verification scope
+## Historical discovery observations and verification scope — 16 November 2026
 
 A branded public search during this review returned the canonical professional website, StudioJPB and external credit sources. The search provider still showed an older homepage snapshot. Its retrieval tool could not fetch several new canonical pages, including Shareet, or the fresh-query homepage; the tool did not expose a useful HTTP diagnosis. This is not proof of a host firewall block or proof that every AI can retrieve the new release. The independently recorded Google/Bing live tests passed, and direct HTTP checks verify the published content separately.
 
@@ -52,7 +54,7 @@ The recorded post-deployment checks fetched robots.txt and representative home/s
 
 ## Visibility work that continues over time
 
-1. Retain the verified Google/Bing properties and DNS proofs. Review indexing, selected canonicals and sitemap errors as reports populate; discovery of 40 URLs does not mean all 40 are indexed.
+1. Retain the verified Google/Bing properties and DNS proofs. Review indexing, selected canonicals and sitemap errors as reports populate; the historical discovery of 40 URLs does not establish ingestion or indexing of all 41 current URLs.
 2. Strengthen genuine third-party credits and links from organizers, venues, artists and studio releases. Keep the same name, role, location and canonical website in maintained professional profiles. No outreach or profile changes were made by this update.
 3. Publish useful, confirmed project details and photographs as work is completed. Keep FOH, monitors, recording and studio-only credits precise.
 4. Review available search queries, countries, service pages, identifiable AI referrals, Bing AI Performance and qualified international inquiries. Log occasional dated AI-search samples using non-leading professional queries. Results vary; one answer is not a stable rank.

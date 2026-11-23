@@ -1,12 +1,12 @@
 # Details for deeper case studies
 
+Reviewed **24 November 2026**. The RY X show is already published with its confirmed FOH role, date, hall and festival; it does not require further factual input to remain live. The suggestions below are optional improvements. See [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
 The existing portfolio's roles, dates, venues, images and published release
 credits are retained. No undocumented console, signal chain, channel count,
 challenge, result or testimonial will be invented.
 
-Three records are prepared for richer first-person technical detail: Shareet at
-QNCC, Abeer Nehme with Qatar Philharmonic, and Nancy Ajram at L'Olympia. For each,
-please provide whichever points you are comfortable publishing:
+Four records can be expanded with richer first-person technical detail: RY X with Qatar Philharmonic at QNCC for Doha Film Festival, Shareet at QNCC, Abeer Nehme with Qatar Philharmonic, and Nancy Ajram at L'Olympia. RY X currently uses the attributed official promotional portrait; an owner-supplied FOH or concert photograph would add first-hand production context. For any future expansion, use only details the owner confirms for publication:
 
 1. Your exact scope, including any work beyond the already confirmed FOH role.
 2. Console/recording system and any relevant routing, playback or processing.

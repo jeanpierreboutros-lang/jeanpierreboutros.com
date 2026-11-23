@@ -1,5 +1,7 @@
 # Inquiry and traffic measurement
 
+Documentation reconciled **24 November 2026**. Current published content is `04a1d8a` (41 canonical pages). The RY X release preserves the existing consent and analytics implementation, and the referenced runtime files matched the live release. The account configuration, cookie/network behavior and event receipt described below were verified on **16 November 2026**; they were not retested in GA4 during this session. See [current release delivery](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
 Google Analytics account and property were created on 16 November 2026 after
 the owner approved Google's Analytics Terms and Data Processing Terms. The
 website stream is `G-KHS391KEP1`, for `https://www.jeanpierreboutros.com`.

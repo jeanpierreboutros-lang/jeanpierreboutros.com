@@ -1,10 +1,12 @@
 # Search registration and production verification
 
-Completed **16 November 2026** for final content release `239f127`.
+Documentation reconciled **24 November 2026**. Current content release is `04a1d8a`, with 41 live sitemap URLs and 30 project pages. The RY X page is published; its ingestion/indexing has not been checked in the search accounts. See [current live evidence](ry-x-qatar-philharmonic-live-verification-2026-11-24.json) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
+Registration was completed **16 November 2026** for release `239f127`. The table below records that dated account observation.
 See [the release report](RELEASE-2026-11-16.md) and
 [verification evidence](portfolio-release-verification-2026-11-16.json).
 
-| Platform | Completed result |
+| Platform | Result observed on 16 November 2026 |
 | --- | --- |
 | Google Search Console | Domain `jeanpierreboutros.com` verified by DNS TXT; sitemap processed successfully, 40 discovered pages |
 | Bing Webmaster Tools | Canonical HTTPS www property verified by DNS CNAME; sitemap Success, 40 URLs, zero sitemap errors/warnings |
@@ -13,21 +15,15 @@ See [the release report](RELEASE-2026-11-16.md) and
 The sitemap is `https://www.jeanpierreboutros.com/sitemap.xml`. Retain the
 verification DNS records; the existing SPF, mail and other DNS records were
 preserved. No remaining account sign-in or verification step is required.
-The reports are processing, and discovered URLs/accepted requests do not prove
-that every page is indexed or that the new version has been recrawled.
+Reports were processing when inspected on 16 November. They were not reopened during the RY X publication session; discovered URLs and accepted requests do not prove that every page is indexed or that a new version has been recrawled.
 
 ## Published release and future deployment checks
 
-Canonical origin: https://www.jeanpierreboutros.com. HostGator's Last Deployed
-SHA matches `239f127cddc602681c1091c73d18e3cb2e6f5fd6`. Initial verification
-matched all 40 pages and 125 referenced resource URLs. Both runtime pages changed
-in the snippet refinement were fetched again and matched; the remaining 163
-URLs reference unchanged bytes. Six redirects, three expected 404s and scoped
-cache headers passed. Documentation-only commits do not require deployment.
+Canonical origin: https://www.jeanpierreboutros.com. HostGator’s Last Deployed SHA is `04a1d8a45c1a07b848330a511c640224243b9ed8`, observed at **24 November 2026, 00:06:42 (Asia/Qatar)**. All 41 pages and 196 referenced resources matched the reviewed release bytes. The three tested canonical redirect destinations and four 404 checks passed. See [the release report](RELEASE-2026-11-24.md). Documentation-only commits do not require deployment.
 
-The 40 sitemap URLs comprise home, six services, 29 projects and four
-directories. The 51 studio release entries share one directory page. For future
-website changes:
+The 41 sitemap URLs comprise home, six services, 30 projects and four directories. The 51 studio release entries share one directory page. For the next search-account review, inspect `/projects/ry-x-qatar-philharmonic-doha/`, check the existing sitemap’s latest processed inventory and selected canonicals, and record actual observations. No new Google/Bing inspection, indexing request, sitemap-processing result or IndexNow submission was performed for RY X.
+
+For future website changes:
 
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`,
    `sh -n hosting/install-seo.sh` and `git diff --check`.
@@ -41,7 +37,7 @@ website changes:
    prepends the domain-scoped JPB redirects while retaining the other .htaccess
    rules. Backups are private under the repository's `.deployment-backups/`.
    An invalid existing managed block or symlinked .htaccess stops installation.
-5. Confirm all 40 sitemap URLs return 200, and the live HTML/PDF/assets match
+5. Confirm all 41 current sitemap URLs return 200 (update this inventory after later releases), and the live HTML/PDF/assets match
    the release. Verify these examples:
 
 | Request | Expected result |
@@ -132,7 +128,7 @@ Search access is explicitly allowed for Googlebot, bingbot, OAI-SearchBot,
 Claude-SearchBot and PerplexityBot. ChatGPT-User, Claude-User and Perplexity-User
 have explicit public-page access. See [AI search visibility](AI-SEARCH-VISIBILITY.md)
 for official provider references, Grok coverage and verification limits.
-The policy update is deployed in `c9521aa`; [27 focused live checks](ai-search-verification-2026-11-16.json) pass.
+The policy update was deployed in `c9521aa`; [27 focused live checks](ai-search-verification-2026-11-16.json) passed on 16 November. The RY X release retains that policy; `check_site.py` passed its robots access assertions across all 41 current sitemap URLs.
 GPTBot is disallowed at the owner's request. Other crawler access
 retains the previous wildcard policy; Google-Extended and other training
 controls were not silently changed. This is separate from firewall settings.
@@ -160,8 +156,7 @@ English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-The current release passes 4,980 local Schema.org property/domain/range checks
-across 40 pages. The predeployment Apache fixture passed 59 HTTP/TLS checks,
+The 16 November release passed 4,980 local Schema.org property/domain/range checks across its 40 pages; that total was not rerun or extrapolated to the 41-page RY X release. The predeployment Apache fixture passed 59 HTTP/TLS checks,
 including cache and shared-host isolation. Public byte checks and Google/Bing
 live fetches are now recorded in the release evidence. The published Shareet
 URL passed Schema.org with zero errors/warnings and Google's Rich Results Test

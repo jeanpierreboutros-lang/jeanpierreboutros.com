@@ -1,5 +1,7 @@
 # Credit and testimonial requests — prepared 16 November 2026
 
+Session review **24 November 2026**: these three existing drafts remain **unsent** under the owner’s 16 November instruction. Publishing RY X did not authorize outreach, and no RY X request or testimonial was created or sent. Contact sources below retain their original check date; recheck before any later authorized sending. See [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
 Status: **drafts, not sent**. Each role is already confirmed by Jean-Pierre and
 published on his portfolio. Public contact addresses were checked on the
 organizations' own websites. Jean-Pierre chose **Keep the drafts only** on

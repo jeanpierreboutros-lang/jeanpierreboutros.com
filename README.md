@@ -4,6 +4,20 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
+Published **24 November 2026**, content release `04a1d8a`: RY X with the
+Qatar Philharmonic Orchestra at QNCC, Auditorium 3, Doha, for Doha Film
+Festival’s DFF Music programme on 23 November 2026. Jean-Pierre confirmed
+his FOH engineer role. The published build has 41 canonical pages, 30 projects
+(18 FOH), 36 gallery images and 43 collaboration names. All 41 pages and
+196 referenced resources matched the reviewed release. See the
+[release report](docs/RELEASE-2026-11-24.md),
+[live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json)
+and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
+
+Session closed **24 November 2026**. Start the next session with the
+[closeout and follow-ups](docs/SESSION-CLOSEOUT-2026-11-24.md). The remaining operational reminder
+is to confirm hosting renewal; publishing the RY X entry is complete.
+
 Previous release, **16 November 2026**: dark portfolio, original JPB logo, newest-first
 projects, Shareet · Tarteeb FOH credit and worldwide SEO improvements. Final
 content release `239f127` has 40 canonical pages, six services, 29 projects,
@@ -11,7 +25,7 @@ content release `239f127` has 40 canonical pages, six services, 29 projects,
 verified; both processed the sitemap and discovered all 40 pages. Read the
 [deployment and registration report](docs/RELEASE-2026-11-16.md) and
 [live verification record](docs/portfolio-release-verification-2026-11-16.json).
-Performance reports are processing; discovery does not mean all pages are indexed.
+Reports were processing when checked on 16 November; they were not reopened in this session. Discovery does not mean all pages are indexed.
 
 Historical baseline: HostGator deployed content release `24ec55e` on 3 November
 2026 (Asia/Beirut): 39 pages, 28 projects, six services, 41 collaboration names,
@@ -23,22 +37,14 @@ user-fetch rules passed 27 public HTTP checks. See [AI search visibility](docs/A
 and [live evidence](docs/ai-search-verification-2026-11-16.json) for provider
 references, Grok coverage, verification limits and ongoing discovery work.
 
-Published **24 November 2026**, content release `04a1d8a`: RY X with the
-Qatar Philharmonic Orchestra at QNCC, Auditorium 3, Doha, for Doha Film
-Festival’s DFF Music programme on 23 November 2026. Jean-Pierre confirmed
-his FOH engineer role. The published build has 41 canonical pages, 30 projects
-(18 FOH), 36 gallery images and 43 collaboration names. All 41 pages and
-196 referenced resources matched the reviewed release. See the
-[release report](docs/RELEASE-2026-11-24.md),
-[live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json)
-and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
-
 ## Documentation and evidence
 
 These files are repository documentation and are excluded from the public website deployment. Research dates record when sources were checked; reconciliation dates record when documentation was aligned with the published release. Historical test results retain their original scope and measurements.
 
 | Document | Purpose and scope |
 | --- | --- |
+| [Session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Completed work, evidence, remaining follow-ups and next-session starting point |
+| [RY X live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json) | 41 pages and 196 referenced resources matched the deployed release |
 | [RY X release](docs/RELEASE-2026-11-24.md) | Current published content release and live verification |
 | [Deployment and registration](docs/RELEASE-2026-11-16.md) | Previous release, Google/Bing setup, tests and remaining measurements |
 | [Exact release files](docs/release-files-2026-11-16.json) | Created/modified paths and final content commit |
@@ -52,7 +58,7 @@ These files are repository documentation and are excluded from the public websit
 | [Measurement plan](docs/MEASUREMENT.md) | Published baseline and future search/inquiry measurement |
 | [16 November live verification](docs/portfolio-release-verification-2026-11-16.json) | 40 pages and 125 resource URLs verified; Google/Bing results and limits |
 | [3 November release verification](docs/portfolio-release-verification-2026-11-03.json) | Historical release: 39 pages and 152 resources matched live bytes |
-| [Studio credit research](docs/studio-credit-research.json) | All 41 collaboration names, exact role decisions and 51 unique release entries |
+| [Studio credit research](docs/studio-credit-research.json) | Historical 41-name review, exact role decisions and 51 unique release entries; RY X/Qatar Philharmonic are documented separately |
 | [Nancy Ajram review](docs/nancy-credit-research-2026-11-02.json) | Five published song credits and limits on unconfirmed work |
 | [Broader name review](docs/broad-credit-research-2026-11-02.json) | Six approved additions, unselected leads and the owner's two exclusions |
 | [Recorded search queries](docs/studio-credit-search-queries.json) | Historical query batches; not an exhaustive log of every later search |
@@ -64,7 +70,7 @@ These files are repository documentation and are excluded from the public websit
 
 ## Portfolio presentation
 
-Published design revision, 16 November 2026: the portfolio uses a production-folio direction with dark charcoal surfaces, warm grey type, a copper accent, a full-width name masthead and the original JPB monogram. The outdoor FOH photograph leads the mobile layout before the introduction. A numbered discipline strip links to the services, and Selected Work uses a ruled project index with photographs, engineering roles, dates and locations instead of repeated image cards. Events appear newest first under year headings; ongoing studio practices have a separate Studio & systems group. Project numbers follow this chronological index and remain consistent in dialogs and dedicated pages. Compact studio disclosures, a deeper charcoal Zynforge section and a photographic contact sheet give the later sections different rhythms. The profile download remains near the top. These changes are deployed in content release `239f127`; the release report above records the current verification.
+Published design revision, 16 November 2026: the portfolio uses a production-folio direction with dark charcoal surfaces, warm grey type, a copper accent, a full-width name masthead and the original JPB monogram. The outdoor FOH photograph leads the mobile layout before the introduction. A numbered discipline strip links to the services, and Selected Work uses a ruled project index with photographs, engineering roles, dates and locations instead of repeated image cards. Events appear newest first under year headings; ongoing studio practices have a separate Studio & systems group. Project numbers follow this chronological index and remain consistent in dialogs and dedicated pages. Compact studio disclosures, a deeper charcoal Zynforge section and a photographic contact sheet give the later sections different rhythms. The profile download remains near the top. These changes are deployed in content release `239f127`; the 24 November release report above records the latest delivery verification.
 
 The StudioJPB entry and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
@@ -72,7 +78,7 @@ The project browser starts with all 30 projects, ordered by date within year gro
 
 `projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 30 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 36; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
 
-Published content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 is the newest FOH entry. The published build contains 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. The downloadable profile remains the existing one-page selection.
+Historical content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 became the newest FOH entry at that release. That build contained 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. RY X now leads the 30-project index. The downloadable profile remains the existing one-page selection.
 
 ## Current project register
 
@@ -138,13 +144,13 @@ The homepage follows: introduction → selected work → collaborations and tele
 Jean-Pierre confirmed X `@JPbboutros` and LinkedIn
 `https://www.linkedin.com/in/jeanpierreboutros/` on 16 November 2026.
 The homepage contact section links to both alongside the existing Instagram and
-Facebook profiles. The Person entity on all 40 pages includes all four profiles
+Facebook profiles. The Person entity on all 41 current pages includes all four profiles
 in `sameAs`, using the same stable identity. Social links retain accessible
 new-tab labels and safe external-link attributes; the row wraps on narrow
 screens. These links associate profiles with the professional identity without
 claiming a ranking or AI recommendation benefit.
 
-Deployed as `f9d2867`. All 40 pages and the fingerprinted stylesheet matched
+Originally deployed as `f9d2867` on 16 November. All 40 pages in that release and the fingerprinted stylesheet matched
 live bytes; desktop and 320px contact layouts were observed. See the
 [social-profile verification](docs/social-profile-verification-2026-11-16.json).
 
@@ -196,6 +202,8 @@ Only add specific production roles, dates, venues, results and testimonials that
 Featured image links use explicit `gallery_data` indices and `data-gallery-index` values. When inserting or reordering gallery entries, update every affected project link and verify that its enlarged photograph and caption still match. Update this register and the content totals whenever the inventory changes. Review `build_profile.py` when its selected credits change; the one-page PDF is a selection, not an exhaustive project or song list.
 
 ## Event sources and photograph records
+
+RY X with the Qatar Philharmonic Orchestra took place at QNCC, Auditorium 3, Doha, on 23 November 2026, within Doha Film Festival’s DFF Music programme. Jean-Pierre directly confirmed his FOH engineer role. The official festival and orchestra listings establish the event context; the attributed Doha Film Institute portrait is promotional, not a photograph of this performance. The project was published on 24 November as `04a1d8a`. See [event and image provenance](docs/ry-x-qatar-philharmonic-research-2026-11-23.json) and [live delivery evidence](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json). An owner-supplied concert or FOH photograph is an optional future improvement.
 
 Shareet: The 80s and 90s Concert was presented by Tarteeb, supported by Qatar Calendar and led by conductor Khaled Nouri at Al Mayassa Theatre, QNCC, on 14 November 2026. Jean-Pierre confirmed his FOH role on 16 November 2026. Tarteeb’s Arabic description on Virgin Megastore Tickets confirms the production context, date and hall; the public 25° North listing cross-checks those details and supplies the promotional artwork. The image is labelled as artwork, with Tarteeb / Qatar Calendar attribution via 25° North. Its source WebP is preserved and responsive derivatives are generated locally. No performers are inferred from the programme’s list of songs. See [the research record](docs/tarteeb-shareet-research-2026-11-16.json) and [the event listing](https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026).
 

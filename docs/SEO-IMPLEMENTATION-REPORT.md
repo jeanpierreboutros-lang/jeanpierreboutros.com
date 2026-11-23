@@ -1,25 +1,30 @@
 # Worldwide SEO and AI search implementation
 
-**Published update — 16 November 2026:** see [the current release and registration
-report](RELEASE-2026-11-16.md). Final content `239f127` is deployed: 40 canonical
-pages, six services, 29 projects, original logo and dark chronological portfolio.
-Google and Bing ownership are verified; both processed the sitemap with 40
-URLs. [Live evidence](portfolio-release-verification-2026-11-16.json) records
-verification and remaining measurement limits. The [predeployment audit](SEO-AUDIT-2026-11-16.md)
-and 3 November release history below retain their original scope.
+Documentation reconciled **24 November 2026**. Website: https://www.jeanpierreboutros.com/.
 
-Documentation reconciled: 3 November 2026. Website: https://www.jeanpierreboutros.com/.
+## Current published release — 24 November 2026
 
-## Published addition — 16 November 2026
+Content `04a1d8a45c1a07b848330a511c640224243b9ed8` is deployed through the existing HostGator cPanel Git workflow. RY X with the Qatar Philharmonic Orchestra is the newest project, with Jean-Pierre’s confirmed FOH engineer role at QNCC, Auditorium 3, Doha, on 23 November 2026 for Doha Film Festival. The homepage, project page, gallery, collaboration credits, live/orchestra services, Qatar directory, sitemap and supplementary page directory include it.
 
-The published portfolio includes Shareet · Tarteeb at QNCC, Doha,
-14 November 2026, with Jean-Pierre’s confirmed FOH role. The current build has
-40 canonical pages, 29 project records, 35 gallery images and 17 FOH projects.
-The project is first in the chronological index and is linked from the live sound
-service and international projects directory. Event context and artwork provenance
-are recorded in [the research record](tarteeb-shareet-research-2026-11-16.json).
-The 3 November release and measurements below are historical. Current deployment
-and search-registration results are in the release report linked above.
+| Current inventory | Count |
+| --- | ---: |
+| Canonical HTML pages / sitemap URLs | 41 |
+| Homepage / services / projects / directories | 1 / 6 / 30 / 4 |
+| FOH / monitors / broadcast / studio / technical projects | 18 / 6 / 1 / 3 / 2 |
+| Featured projects | 6 |
+| Artist and ensemble collaboration names | 43 |
+| Gallery images | 36 |
+| Unique studio release entries / artist groups | 51 / 27 |
+
+All 41 pages and 196 referenced resources matched the release bytes after deployment. Three tested duplicate-origin/index URLs resolved to the canonical homepage; a nonexistent path and three repository-only paths returned 404. The live project page and desktop layout were observed in Chrome. The existing PDF, analytics implementation, fonts, branding and crawler policy were retained. No new mobile interaction matrix, vocabulary-wide schema run, external validator run, performance score or search-console result is claimed for this release.
+
+See [the release report](RELEASE-2026-11-24.md), [exact live evidence](ry-x-qatar-philharmonic-live-verification-2026-11-24.json), [event provenance](ry-x-qatar-philharmonic-research-2026-11-23.json) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
+Google/Bing registration was completed on 16 November. Their recorded 40-URL sitemap processing is historical account evidence; the 41-URL sitemap is now live, but search accounts were not revisited to establish ingestion or indexing of the new project. Existing GA4 consent behavior and prior lab measurements retain their documented 16 November verification scope.
+
+## Historical addition — 16 November 2026
+
+Shareet · Tarteeb at QNCC, Doha, on 14 November 2026 was added with the owner-confirmed FOH role. That release contained 40 canonical pages, 29 projects (17 FOH), 35 gallery images and 41 collaboration names. Shareet led the index then; RY X leads it now. See [the original release/registration report](RELEASE-2026-11-16.md) and [Tarteeb research](tarteeb-shareet-research-2026-11-16.json).
 
 ## Historical published release — 3 November 2026
 
@@ -51,6 +56,8 @@ while its evidence is recorded under both artists. Studio entries share the
 
 | Release | Deployment and evidence scope |
 | --- | --- |
+| `04a1d8a` — RY X FOH project | 24 November 2026; 41 pages and 196 referenced resources matched live bytes; cPanel SHA confirmed |
+| `c931301` — analytics/performance follow-up | 16 November 2026; consent-based analytics and prior lab results retained; see the growth release report |
 | `239f127` — dark portfolio and SEO | 16 November 2026; 40 pages and 125 resource URLs verified, Google/Bing ownership and successful 40-URL sitemap processing |
 | `6cf3dda` — original SEO release | 2 November 2026; 28 pages and 93 referenced assets matched live bytes; canonical redirects, real 404 and a project dialog checked |
 | `24ec55e` — portfolio expansion | 3 November 2026; 39 pages and 152 referenced resources matched live bytes; six redirect cases and three expected 404 responses checked |
@@ -61,9 +68,9 @@ excluded from the HostGator runtime manifest.
 
 ## Historical implementation detail — 3 November 2026
 
-The remaining sections retain the 3 November implementation snapshot. Their
+The implementation sections below, up to the current maintenance section, retain the 3 November snapshot. Their
 page counts, test totals and outstanding account/validator statements are
-historical. The 16 November report linked above supersedes their release status.
+historical. The current release summary above supersedes their release status.
 
 ## Architecture and search access
 
@@ -74,7 +81,7 @@ JavaScript. No frontend framework, database or rendering service is required.
 metadata, structured data and discovery files. Editing and deployment instructions
 are in the [README](../README.md).
 
-| Area | Original finding | Current implementation |
+| Area | Original finding | Implementation recorded on 3 November |
 | --- | --- | --- |
 | Routing and discovery | One canonical homepage; substantial project descriptions shared hash/modal URLs | 28 complete project pages, six service pages and four directories available without JavaScript |
 | Canonicals | HTTPS www canonical tag; four origin variants returned 200 | Retained HTTPS www identity; hostname-scoped 301 rules for duplicate origins, explicit index files and missing directory slashes |
@@ -133,7 +140,7 @@ hreflang clusters or country doorway pages were created.
 
 ## Project and studio credit coverage
 
-All 28 project paths are listed below. The [README project register](../README.md#current-project-register)
+The 28 project paths present on 3 November are listed below. Shareet and RY X were added later; the current register contains 30 projects. The [README project register](../README.md#current-project-register)
 records dates, venues and Jean-Pierre's exact roles.
 
 ```text
@@ -192,7 +199,7 @@ Mountains, Addaysh Bhebak and Beirut the Sea Lover. Maher Zain and Between the t
 Blacks are excluded at the owner's request. Unselected leads remain research-only;
 the 2025 Shou Baamel lead does not expand the existing 2022 album role.
 
-The downloadable profile was updated with selected confirmed roles. Its current
+The downloadable profile was updated with selected confirmed roles. Its recorded
 one-page A4 artifact has 16 project links, is 317,690 bytes, and uses fingerprint
 `02735665a277`. It is a selection rather than an exhaustive discography.
 
@@ -214,7 +221,7 @@ Service, OfferCatalog/Offer, BreadcrumbList/ListItem, Article, ImageObject and t
 studio ItemList. Schema describes visible content and adds no fake reviews,
 ratings, unsupported addresses, event attendance or FAQ rich-result claims.
 
-The current local check passed **4,828 property/domain/range checks** against the
+The 3 November local check passed **4,828 property/domain/range checks** against the
 official Schema.org vocabulary. This does not replace the public Schema.org
 Validator or Google Rich Results Test, which remain outstanding, and does not
 promise a rich result.
@@ -234,7 +241,7 @@ Original implementation references:
 
 ## Verification and its limits
 
-| Current portfolio release check | Recorded result |
+| Historical 3 November portfolio check | Recorded result |
 | --- | --- |
 | Production build and `check_site.py` | Passed for all 39 pages, inventory, metadata, local links/fragments, ARIA targets, schema and crawler policy |
 | Official Schema.org vocabulary | 4,828 local property/domain/range checks passed |
@@ -277,26 +284,14 @@ is recorded. Google/Bing ownership verification, sitemap submission and both pub
 structured-data validators remain outstanding. No analytics, ownership token or
 search-performance baseline was installed or invented.
 
-## Maintenance and follow-up
+## Current maintenance and follow-up — 24 November 2026
 
-Build sources, generated pages, fonts, images, PDF and hosting scripts are mapped
-in the [README](../README.md#stack-and-structure). The non-purging HostGator manifest
-copies 39 pages and runtime resources while preserving unrelated shared-host files.
-The redirect installer preserves other rules and stores backups outside the public
-root. Every managed redirect is scoped to the portfolio's two hostnames.
-Deployment and rollback instructions are in the [deployment runbook](../README.md#deployment).
+The [README](../README.md#stack-and-structure) maps build sources, generated pages, fonts, images, PDF and hosting scripts. The non-purging HostGator manifest copies 41 pages and runtime resources while preserving unrelated shared-host files. Domain-scoped redirects and private backup behavior are unchanged. Follow the [deployment and rollback runbook](../README.md#deployment) for future runtime releases; documentation-only commits do not need deployment.
 
-1. Complete the desktop/mobile interaction matrix when reviewing behavior changes.
-2. Run the public Schema.org and Google validators on representative homepage,
-   service, project and studio-directory URLs.
-3. Complete Google Search Console and Bing ownership with real account-issued
-   values, submit the sitemap and inspect representative URLs using the
-   [search registration instructions](SEARCH-CONSOLE.md).
-4. Establish search, country, page and qualified-inquiry baselines using the
-   [measurement plan](MEASUREMENT.md). AI referrals provide partial evidence only.
-5. Add future credits with confirmed role/version scope and source evidence;
-   preserve the owner's exclusions and person-versus-studio distinction. Review
-   the selected PDF and documentation inventory when portfolio content changes.
+1. Confirm hosting renewal or scheduled automatic renewal. The HostGator screen observed during publication said “Hosting expires in 7 days”; no renewal or automatic-renewal setting was changed.
+2. Optionally replace or supplement the RY X promotional portrait with an owner-supplied concert/FOH photograph and confirmed technical detail.
+3. Review existing Google/Bing properties for the new project, current sitemap ingestion and actual query/page/country data. Do not repeat ownership setup or treat the earlier 40 discovered URLs as a new 41-page indexing result.
+4. Use the [measurement plan](MEASUREMENT.md) for ongoing reports. Prior lab metrics and analytics QA events are historical evidence, not new business outcomes.
+5. Repeat interaction, structured-data or performance checks when later changes affect them. Keep factual claims and image provenance documented, preserve owner exclusions, and retain the [draft-only outreach instruction](OUTREACH-DRAFTS.md).
 
-Search engines and AI services decide crawling, indexing and presentation.
-Rankings, citations and recommendations are not guaranteed.
+Publication is complete; these are operational or optional follow-ups. [The closeout](SESSION-CLOSEOUT-2026-11-24.md) records the next-session starting point. Search engines decide crawling, indexing and presentation; rankings and citations are not guaranteed.
