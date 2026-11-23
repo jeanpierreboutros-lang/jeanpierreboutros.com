@@ -4,7 +4,7 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-Published **16 November 2026**: dark portfolio, original JPB logo, newest-first
+Previous release, **16 November 2026**: dark portfolio, original JPB logo, newest-first
 projects, Shareet · Tarteeb FOH credit and worldwide SEO improvements. Final
 content release `239f127` has 40 canonical pages, six services, 29 projects,
 35 gallery images and 51 studio release entries. Google and Bing ownership are
@@ -23,12 +23,15 @@ user-fetch rules passed 27 public HTTP checks. See [AI search visibility](docs/A
 and [live evidence](docs/ai-search-verification-2026-11-16.json) for provider
 references, Grok coverage, verification limits and ongoing discovery work.
 
-Local addition, **23 November 2026**: RY X with the Qatar Philharmonic Orchestra
-at QNCC, Auditorium 3, Doha, for Doha Film Festival’s DFF Music programme on
-23 November 2026. Jean-Pierre confirmed his FOH engineer role. The local build
-now has 41 canonical pages, 30 projects (18 FOH), 36 gallery images and 43
-collaboration names. See [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
-This addition is not deployed; the published release records below remain historical.
+Published **24 November 2026**, content release `04a1d8a`: RY X with the
+Qatar Philharmonic Orchestra at QNCC, Auditorium 3, Doha, for Doha Film
+Festival’s DFF Music programme on 23 November 2026. Jean-Pierre confirmed
+his FOH engineer role. The published build has 41 canonical pages, 30 projects
+(18 FOH), 36 gallery images and 43 collaboration names. All 41 pages and
+196 referenced resources matched the reviewed release. See the
+[release report](docs/RELEASE-2026-11-24.md),
+[live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json)
+and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
 
 ## Documentation and evidence
 
@@ -36,7 +39,8 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
-| [Deployment and registration](docs/RELEASE-2026-11-16.md) | Current published release, Google/Bing setup, tests and remaining measurements |
+| [RY X release](docs/RELEASE-2026-11-24.md) | Current published content release and live verification |
+| [Deployment and registration](docs/RELEASE-2026-11-16.md) | Previous release, Google/Bing setup, tests and remaining measurements |
 | [Exact release files](docs/release-files-2026-11-16.json) | Created/modified paths and final content commit |
 | [16 November audit](docs/SEO-AUDIT-2026-11-16.md) | Predeployment implementation/audit evidence; see the release report for current status |
 | [Predeployment public HTTP audit](docs/search-audit-live-2026-11-16.json) | 59 requests, with the published 39-page state distinguished from the local release |
@@ -46,7 +50,7 @@ These files are repository documentation and are excluded from the public websit
 | [Implementation report](docs/SEO-IMPLEMENTATION-REPORT.md) | Current architecture, content inventory, release history and verification limits |
 | [Search registration](docs/SEARCH-CONSOLE.md) | Completed Google/Bing registration and future production maintenance |
 | [Measurement plan](docs/MEASUREMENT.md) | Published baseline and future search/inquiry measurement |
-| [Current live verification](docs/portfolio-release-verification-2026-11-16.json) | 40 pages and 125 resource URLs verified; Google/Bing results and limits |
+| [16 November live verification](docs/portfolio-release-verification-2026-11-16.json) | 40 pages and 125 resource URLs verified; Google/Bing results and limits |
 | [3 November release verification](docs/portfolio-release-verification-2026-11-03.json) | Historical release: 39 pages and 152 resources matched live bytes |
 | [Studio credit research](docs/studio-credit-research.json) | All 41 collaboration names, exact role decisions and 51 unique release entries |
 | [Nancy Ajram review](docs/nancy-credit-research-2026-11-02.json) | Five published song credits and limits on unconfirmed work |
@@ -313,7 +317,7 @@ Before deployment:
 
 Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
 
-Current content release `239f127cddc602681c1091c73d18e3cb2e6f5fd6` was deployed on 16 November 2026; cPanel’s Last Deployed SHA matches and the public Last-Modified header is 12:03:34 GMT. See [the release report](docs/RELEASE-2026-11-16.md). Both Google and Bing are verified and processed the 40-URL sitemap.
+Current content release `04a1d8a45c1a07b848330a511c640224243b9ed8` was deployed on 24 November 2026 at 00:06:42 (Asia/Qatar). cPanel’s Last Deployed SHA matches. All 41 canonical pages and 196 referenced resources matched local bytes. See [the release report](docs/RELEASE-2026-11-24.md). Earlier Google and Bing registration evidence remains in the 16 November report; this release does not claim new indexing results.
 
 Historical portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See [the verification record](docs/portfolio-release-verification-2026-11-03.json).
 
@@ -324,7 +328,7 @@ Documentation-only commits can follow the deployed content commit without changi
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
 4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check all sitemap URLs, affected projects, service pages, updated images and all three profile download links. Verify HTTP/apex/index.html redirects to the HTTPS www canonical, a real 404, search crawler access and GPTBot exclusion. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 40 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 41 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
 The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Every redirect is conditional on jeanpierreboutros.com or www.jeanpierreboutros.com, so the other domain is unaffected. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 

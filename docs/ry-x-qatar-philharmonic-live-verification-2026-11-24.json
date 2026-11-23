@@ -1,0 +1,1963 @@
+{
+  "verified_at": "2026-11-23T21:08:19.857448+00:00",
+  "release_commit": "04a1d8a45c1a07b848330a511c640224243b9ed8",
+  "canonical_pages": 41,
+  "resources_checked": 196,
+  "matching_files": 237,
+  "failed": [],
+  "redirects": [
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "pass": true,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "status": 200
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "pass": true,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/index.html",
+      "pass": true,
+      "final_url": "https://www.jeanpierreboutros.com/",
+      "status": 200
+    }
+  ],
+  "private_paths_and_404": [
+    {
+      "path": "/ryx-verification-nonexistent-20261124/",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/build.py",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/docs/ry-x-qatar-philharmonic-research-2026-11-23.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/.git/config",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "results": [
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "edc989b364abdd0d181ac13f7c9beae6b54c815e789395f8fddf5a235fcaa865",
+      "bytes": 252333,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/favicon.png?v=a1ba96ca1a51",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a1ba96ca1a51908416dfc44aebfd7d1e76e04c2fbd4198cb6db91a2605ac28f6",
+      "bytes": 7557,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/favicon.png",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a1ba96ca1a51908416dfc44aebfd7d1e76e04c2fbd4198cb6db91a2605ac28f6",
+      "bytes": 7557,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/1f21c6eaa0000f33.woff2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1f21c6eaa0000f3329cfcfac966b43d5bebf5aa610303e33294ac31bc6f4bb59",
+      "bytes": 34664,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-960.webp?v=531fbced1854",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "531fbced1854a1342d480727896421cc9a72e06e8747057421cb3e0ca4d9739f",
+      "bytes": 58278,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/fonts/fonts.css?v=d946d5aae4ae",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d946d5aae4ae30d0b554d6c5b98dd9ae934f86a62a62ba85378e459ba853367d",
+      "bytes": 3608,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/styles.css?v=123992556f5e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "123992556f5e93a89afbbb4d5cdbf0d5ef99b91df6c54c8bb4fc02fe2c0a7feb",
+      "bytes": 54971,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/main.js?v=8272e6e3e321",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8272e6e3e3214b90f86e2e9487e84f571648e50e1c6bae343ccecb009e3840ae",
+      "bytes": 14270,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/analytics.js?v=df3352d4aabe",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "df3352d4aabee29d1e120eea9e57a403cd35bdc7d4151e8b221ab68fdb4328c4",
+      "bytes": 6863,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/jpb-monogram.png?v=1e6a204526e9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1e6a204526e91d30ce081505a849c494e5a76e48a78b8c1fe0ac373fba5c51be",
+      "bytes": 10579,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/output/pdf/jean-pierre-boutros-profile.pdf?v=02735665a277",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "02735665a277c1d861f6edbec8d562b6372a7f07c7a424cb165557638d1623da",
+      "bytes": 317690,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-160.webp?v=9d53383d56a5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9d53383d56a581285ee8530463db4e23f6b1eef7ccb501dee5e3b0a37dba361d",
+      "bytes": 5926,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-240.webp?v=99dc5ac9999e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "99dc5ac9999e990674740e249199514b8ec0aea3c2c49d402e0d40ef1710e8cf",
+      "bytes": 10520,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-480.webp?v=05391a51e4ae",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "05391a51e4ae762b0b79c74a62855d7d7d10b4f7195604b53477846ae33b5aec",
+      "bytes": 24972,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/live-outdoor-foh-night-1536.webp?v=163aa86eb911",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "163aa86eb9111ab37dc613409d4643a0c1accc95206e2a8131e300a905d1e702",
+      "bytes": 111508,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/ry-x-qatar-philharmonic-doha-2026-556.webp?v=8df09061ae8a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8df09061ae8a57c0b8420ac34f16804395f788e0d6d25ecf778f222f4ad169c8",
+      "bytes": 13934,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/ry-x-qatar-philharmonic-doha-2026-160.webp?v=ffe80086cfe0",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ffe80086cfe068363b82b43b17c2f16e11fa6485367d04a0c811766e5bf6db1b",
+      "bytes": 1616,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/ry-x-qatar-philharmonic-doha-2026-240.webp?v=ad46d58258f0",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ad46d58258f0451e0a0cb4537f69ed076d484abca6b2bbf3dfbb0183433a479b",
+      "bytes": 3268,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/ry-x-qatar-philharmonic-doha-2026-480.webp?v=2f53d42ba717",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2f53d42ba7173c6d3d16e5f9afca24c9b7a8964b01f5eaa0adb9111403cf65cf",
+      "bytes": 11034,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-960.webp?v=0fda3a684937",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0fda3a6849375f7a5043d76a9643331f4fde8c76c1fd3edf6bc5097c1a9a077e",
+      "bytes": 51682,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-160.webp?v=091b06e06359",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "091b06e063599947c7acdd64194e4c31c242b6ff611571932d99e080ea11520f",
+      "bytes": 4320,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-240.webp?v=b6c3f6e09e0a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b6c3f6e09e0a9c2bdc49918e2474a28d79d050dd18d4d5760dc620d3fcfc6fb2",
+      "bytes": 8184,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-480.webp?v=9279939c14f9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9279939c14f9f206e8b775cb1f5c2ecc965003acf07ea339476b66b86fd0aea1",
+      "bytes": 22188,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/tarteeb-shareet-qncc-doha-2026-1200.webp?v=54140e3d732e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "54140e3d732e1347362ad731b67def80190fc480e65d4a1e06c525bfc1826dc5",
+      "bytes": 65340,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-960.webp?v=0fc4999c3999",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0fc4999c399978159d3517273448d3a819daf731bbe877fa9677893f636f05fe",
+      "bytes": 108078,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-160.webp?v=8f168d72f40f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8f168d72f40f082b06767e619eeec19370ec12d48af91b6e101f8f02498efd90",
+      "bytes": 9262,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-240.webp?v=9c255eeaf38f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9c255eeaf38f2f94e2a7af776549148c2dc0aa000554f870a2a32b30826556af",
+      "bytes": 17606,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-480.webp?v=b0ca2db26df0",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b0ca2db26df0457816d950e75e7d5123b57a7149106a119fdb9312d7509ef832",
+      "bytes": 48676,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/the-eighties-knockout-kuwait-2026-1290.webp?v=087748a20eb2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "087748a20eb2a66a29a5cf57beae2b27e48dd6e753add88c1e0e838d91fd25e4",
+      "bytes": 146932,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-960.webp?v=ef59f2f9ebe4",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ef59f2f9ebe4795659a5777c5b2f041a15138bda1dbf9afcc70b50f5bceedd9e",
+      "bytes": 127996,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-160.webp?v=0a672a88ded3",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0a672a88ded35129885d4ae90e2f8abb962e264454e8dd0e40490ec05a217724",
+      "bytes": 6536,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-240.webp?v=491539319549",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4915393195490b0f0b2651faeded844d04198bbac47acac141b4b62a932341a1",
+      "bytes": 13264,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-480.webp?v=2fb3ba117ed2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2fb3ba117ed23f16c94d715abc2326cdc19b4467907d165998f11ad0fe019f35",
+      "bytes": 42638,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marina-viotti-zouk-mikael-2026-1440.webp?v=5301de2c13c4",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5301de2c13c4a3364b7b912fc1703ac5ffdc18b008a36f73b45d140fa2c09df6",
+      "bytes": 228506,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-960.webp?v=27fe6cf4b569",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "27fe6cf4b56923701d75028a7ba03f320b86ebb7a4a984c5115c855ff4c1e6eb",
+      "bytes": 102388,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-160.webp?v=7936bd835b9a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7936bd835b9a318cd9ae5edd377f9d96e4040dee552432db1321576df1eeabd0",
+      "bytes": 5390,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-240.webp?v=4910033a3a10",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4910033a3a104240c21fca7f8da3b8dee5af364f91b6832b2d235778a3cb8d90",
+      "bytes": 10558,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-480.webp?v=acf56b0ca310",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "acf56b0ca31047f0c6b3366a110f66919f850426812ef3b412b9d01d6ce634c9",
+      "bytes": 34100,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/lebanese-philharmonic-diman-2026-1600.webp?v=0001b324f00a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0001b324f00a612842add2c19de9fbda457581575052002754a90b3c7d16e405",
+      "bytes": 212868,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-960.webp?v=7a3aab8fb543",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7a3aab8fb54348b773c327efaa77eb23692780eae87d1e95e80650c78e45b4db",
+      "bytes": 131740,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-160.webp?v=7da4cf06ce12",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7da4cf06ce12268e4f8d332f6337a2806f2c8fd579fed6b709f3d2527a5e36e0",
+      "bytes": 5296,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-240.webp?v=95f21f15afa1",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "95f21f15afa1a6a21c74f54344e8cafd8aeb95bff4b7a4b8095580e3c1c017eb",
+      "bytes": 10940,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-480.webp?v=e5f05779520e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e5f05779520ea15813b4a7838cb6fa3ebfef50467e00ff2b0f7a4003efe86f07",
+      "bytes": 38934,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-qatar-philharmonic-2026-1600.webp?v=29c4249f55f7",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "29c4249f55f74490286afe312f2b18989a2cd5970b5f3b4d9611a2fb8e5ea536",
+      "bytes": 301664,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-960.webp?v=bba6e32898f3",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "bba6e32898f368ddefe1cd1c18ff2027674ac772f5b4fe227bbe0d587b7211b1",
+      "bytes": 162034,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-160.webp?v=6f1599438aa3",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6f1599438aa3666e5332c66fb76a6282fe9feb0762c84690905249c108ffab9a",
+      "bytes": 8612,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-240.webp?v=b799a2fc46d4",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b799a2fc46d4a1ea416d9fae7a90950a1902e861980b806aaf1caa193fc272f1",
+      "bytes": 16708,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-480.webp?v=b1eb4fc9db04",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b1eb4fc9db042efdd81ecc4a4333ff20177608e77aeac5ce7d2e0ef66544e63c",
+      "bytes": 51498,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/cartoon-orchestra-kuwait-2025-1345.webp?v=ee78c868e907",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ee78c868e9074d8af9133d1692a712508072926c072f1d352e87aebb035a917e",
+      "bytes": 279204,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-938.webp?v=a46eada5fd2e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a46eada5fd2eca35f1a747ba0193d41eb93596de43f9d5c86cf317e9c4f0acf6",
+      "bytes": 107110,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-160.webp?v=9f8c6df59ac9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9f8c6df59ac9638acdc05f5bcaa058dc8ddb14e37f564e3db59647bc8aa331e0",
+      "bytes": 8448,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-240.webp?v=812b1a34811b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "812b1a34811bbe812ec212d0028380a0634d38d69f7a39bbbfd08998bb27c559",
+      "bytes": 16958,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-shami-ehdeniyat-2025-480.webp?v=60cea235be5e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "60cea235be5e615137603d78c7e39895196788718b931873d5b7a86d17f5ffb3",
+      "bytes": 46704,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-538.webp?v=609e9ed5cb99",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "609e9ed5cb991a1d1dd48761f86fc8f4911340a4050779599aab9a60b725b6a7",
+      "bytes": 15554,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-160.webp?v=f05c21044953",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f05c210449535e598c62a2e24ad3443f8b6527f500f868aff0ae66d72cd6c6fa",
+      "bytes": 3332,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-240.webp?v=22eb3a002368",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "22eb3a00236813a6a53f049fbc672c5b2634bf85e878fb53e27c5fc9a681ca3e",
+      "bytes": 5502,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/adam-ehdeniyat-2025-480.webp?v=191cf9314c33",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "191cf9314c336eb6f781b7d1e7e6cfca57c279a4f3d6878fd527a6c8d3c3bc8b",
+      "bytes": 12450,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-960.webp?v=ffc73bcd3fb8",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ffc73bcd3fb8af2a1c78bdd54f1636d6c3797993c16dae0adf1896eb704fb05a",
+      "bytes": 80394,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-160.webp?v=a8d84019225a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a8d84019225acf275a72bad1001443770b3d92e5da07e2c7b2b920774ad03d11",
+      "bytes": 5262,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-240.webp?v=7e0bbe9e81b0",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7e0bbe9e81b0396fc0e7cb4301e815215fba9d1e1ad876000712043b080ec329",
+      "bytes": 10228,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-480.webp?v=3a29739e408e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3a29739e408e3469ab7ca3b1fe46e0c5886e00d809f56f81966ac51704ed3eeb",
+      "bytes": 29982,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-ehdeniyat-2025-1600.webp?v=0c439337ffcb",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0c439337ffcbf663d30265d29ee2c16ed8639a8f45b411cf8c321870ed77d5d0",
+      "bytes": 160758,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-960.webp?v=920d9443917f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "920d9443917faecf647972f2b7eb97aa284b45087c26f42b061e1caf88896aba",
+      "bytes": 77582,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-160.webp?v=d49f7f9d7beb",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d49f7f9d7beb787701b58bcb7f3bcbbdd376091b92aabad3999423c749db5bc7",
+      "bytes": 3348,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-240.webp?v=fe862d237cca",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "fe862d237cca84c8dee0c995fdbecc04df9320c76f75f769c618924af4bee163",
+      "bytes": 6952,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-480.webp?v=3dc3876f4300",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3dc3876f4300493ccea34bedb480005203fd2dbc313a98e2aa69a005443dffda",
+      "bytes": 24404,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/pope-leo-waterfront-1600.webp?v=f3417904ab6b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f3417904ab6b1d40ad949e6c1e6bf231794d3b7a12ee65284446ecd9c97d90e1",
+      "bytes": 160274,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-960.webp?v=dc50fb451bd9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "dc50fb451bd93f4baeec9f849bf06672ceba9194b90a928b6c3fdf03b3fee7ac",
+      "bytes": 40592,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-160.webp?v=346b17bfca74",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "346b17bfca7463c7d098da68e0cf64713f3b7e8842cda1c475fa51681765a444",
+      "bytes": 3002,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-240.webp?v=5de353cbd6c2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5de353cbd6c2608d4456e441498af82a5b4304743a84768c2393e4c8736a439d",
+      "bytes": 5200,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-480.webp?v=c0e4d0f5c817",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c0e4d0f5c81705b7a929664fea1de22095db1c3b5405574855678f3c494ed928",
+      "bytes": 14188,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-warda-night-jeddah-2024-1600.webp?v=b7c7a3fb9a53",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b7c7a3fb9a532ae334d13eb8cbf760f86c02105d0fc7cbf7c84a2b5b3ed218b4",
+      "bytes": 94158,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-960.webp?v=f4a3ca4ad0be",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f4a3ca4ad0bec7677561eacc214fe538da42c4106d913905578c6a1647177656",
+      "bytes": 93578,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-160.webp?v=e6dbb1226eef",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e6dbb1226eef91ea806509f65c05ff05aa43fb8169215f933de4618ad2fb6126",
+      "bytes": 6368,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-240.webp?v=e714e9bbb50b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e714e9bbb50b22e92ed7890a470c55546535cfd334e37c59851c8f8cd1d31176",
+      "bytes": 11404,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-480.webp?v=c12fecda9d86",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c12fecda9d86834052dea0a23b0ec6b80e908b6095f6698776c4fc3dd841c427",
+      "bytes": 31240,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-arab-stars-riyadh-2023-1080.webp?v=03666957c487",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "03666957c48767b6025701e447119421dad96ac4cbd221f76a31f65bde452880",
+      "bytes": 120052,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-960.webp?v=77cc3d8aee67",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "77cc3d8aee675616555ead6270c6fc3f0b96f27744452c2b4d9d6ef2aba3af56",
+      "bytes": 38604,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-160.webp?v=542a682ef8a8",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "542a682ef8a8b86f0383071a7c0609d171f0e9aa52f4d619ac7636f967e58fdb",
+      "bytes": 3156,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-240.webp?v=80d4c611a959",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "80d4c611a95947f64a8a3166470e1478c5a00f424511855ec7bb12a9716f1a04",
+      "bytes": 5346,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-480.webp?v=0d829d8f2e5f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0d829d8f2e5f384113442976e0f0a08f139f12f0fdbb14998c5a53612ca105f4",
+      "bytes": 13762,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-baligh-hamdi-riyadh-2023-1600.webp?v=76c26d7bb8ba",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "76c26d7bb8ba17f44c17f3adc3a6dd74b97e76eae17c0a79269c05f2fdad022a",
+      "bytes": 88504,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-600.webp?v=e23f50f38ae5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e23f50f38ae5ddea687d44f23ce09a419796058f27e02398adaf2d02cbb00032",
+      "bytes": 52916,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-160.webp?v=142a5b2b3c55",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "142a5b2b3c55f5ab9312054b5cce8e0625149fe5295f88b2c6ce5544af861b6a",
+      "bytes": 5796,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-240.webp?v=15d3242e0f50",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "15d3242e0f50b9b6e7e7e1f617854f2e876a8f53ca227a7abf2a2e368fff97cf",
+      "bytes": 12138,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/carole-samaha-golden-album-2023-480.webp?v=caa32531e6f8",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "caa32531e6f80270e5926c5cdf312d32341e229bb8d4394c9b4b579f56ee3a6e",
+      "bytes": 36694,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-960.webp?v=f474212e52d2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f474212e52d2f756e5917050253e2a4c5cc0d35208eccf97a40d94ec4242f109",
+      "bytes": 68552,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-160.webp?v=12db288afadc",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "12db288afadcf45e752b80c58e788d4063d16d9b7092f434f045a3bd692067ae",
+      "bytes": 5560,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-240.webp?v=a0276d503f09",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a0276d503f09a0b16b162a69058871c574b0c3d0c2ad2bdc00c363cb039bd1b9",
+      "bytes": 9304,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-480.webp?v=b5e67fce861d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b5e67fce861d30dba3e9f1e60386f92dc0ab60734824de2e3998f51870184f31",
+      "bytes": 21726,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-jounieh-2022-1280.webp?v=fa35a5ed8e0c",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "fa35a5ed8e0c39014262223b55979dd6cf4a38dd094b01d44cce972b513c98ff",
+      "bytes": 129404,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-647.webp?v=e3aaefc9a36c",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e3aaefc9a36cc4ca263c9d090bbf7291cf7ae7cb7a0936774f566aad2eea6012",
+      "bytes": 25996,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-160.webp?v=a4b0bf8ecc03",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a4b0bf8ecc0371b2895bba954decc3a3163ada85fe83fb818c7ebae3db4087e6",
+      "bytes": 4156,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-240.webp?v=9ab6fc32c34a",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9ab6fc32c34a629e0daa551a3c198c570f7c309117ace79299e934192576979b",
+      "bytes": 7262,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-olympia-paris-2022-480.webp?v=4fd87cb881b9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4fd87cb881b9a54bc21536dda8faef544e8cc25efad9ac1f4b569a5b361c9315",
+      "bytes": 17596,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-960.webp?v=189981ad56d5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "189981ad56d5e78c10fc546b2f4afaa582aa8c2ab26a824e68ebe77f217fad40",
+      "bytes": 37870,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-160.webp?v=e9590c5f529b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e9590c5f529bcc2e5f49c0664662b3d615fe0a6cc168a27d91e3eb544ef75eab",
+      "bytes": 3562,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-240.webp?v=9a4f214def84",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9a4f214def844154edbd42290327fbc277f16069528dca1fa5661a911ffc61bb",
+      "bytes": 6280,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-480.webp?v=46874cb92a25",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "46874cb92a25be503acc4c5cc618d57fcd4e9cb5fcd935aba137744228d33a9d",
+      "bytes": 15702,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/nancy-ajram-expo-dubai-2021-1600.webp?v=6c0746d18933",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6c0746d18933430dd0c7a3894e53ab4b22f446c37359acce1d6f964ad875f171",
+      "bytes": 71722,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-800.webp?v=749dfc190bbe",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "749dfc190bbe1f0b3f2b89e64b9e954f14d08bf767df87ee4a4515e5ce174b8d",
+      "bytes": 24532,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-160.webp?v=d013f82884c6",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d013f82884c62427d92ce8165b6924fbdb7fa3506d1572070ac109838da0ffca",
+      "bytes": 2564,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-240.webp?v=4135ca068aa8",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4135ca068aa8df14f7746c0e1aa154199c37474057bf5b0e0b6b5d98659e998b",
+      "bytes": 4550,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-muscat-2019-480.webp?v=08e6ce53bf76",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "08e6ce53bf76db77447cc605c226a041ce4c7fe14089ef3a342e2ad27b77102e",
+      "bytes": 11810,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-960.webp?v=6247daa0bb44",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6247daa0bb445d8cdcef4fa9931894dd34bb975cf4a791685fa60d8e7b29daf2",
+      "bytes": 100434,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-160.webp?v=bdef4abd7f27",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "bdef4abd7f27dbc11746dc4d2bf3f52b70e1c8cb00d7c6c5651c1ca779179789",
+      "bytes": 3796,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-240.webp?v=f1e7dab59b3e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f1e7dab59b3e59e329e975cfabf0709055bbb40e7249aeb6d597f12dd9ac0984",
+      "bytes": 7798,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-480.webp?v=cddf3a264ee2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "cddf3a264ee22607b330009a5e518b33df4512421ea41241c0446998cfd1a8f3",
+      "bytes": 27852,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-baalbeck-2019-1600.webp?v=3045f079e8a1",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3045f079e8a1cb3a66f28768177ae522fb26eb7dd0479fea8c9b66a5f2991ab6",
+      "bytes": 238452,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-960.webp?v=1af62a367a8c",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1af62a367a8ce01af9bd6eac4c444aef4e6d8f8fb0129ffdd45d342ae4b12d7e",
+      "bytes": 44302,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-160.webp?v=33cd7ad9c399",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "33cd7ad9c39916193348165292833d50e994df310b1110d9085c79f1362419a6",
+      "bytes": 2604,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-240.webp?v=1d4442bb56ce",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1d4442bb56ce1d7a1fe7e40e60791e4772d413853f23f347d2e0f8ebbc0ef4be",
+      "bytes": 5016,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-480.webp?v=7c54ca1e6d96",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7c54ca1e6d968bea4a8b90cd3dbdc7d93d2ee658eb9bd364fafe3d4f0f0299b8",
+      "bytes": 15754,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beirut-the-sea-lover-2019-1600.webp?v=9f5e9b147414",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9f5e9b14741474ae13c19ba2467b38d7019448b8fd30b4c5f09220b8c8c1cd97",
+      "bytes": 86598,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-483.webp?v=ef81265e633b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ef81265e633b3198682930c353cc22025b1eaba6f81968adfff6947e0d9eab32",
+      "bytes": 17662,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-160.webp?v=5ac1fd9cc257",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5ac1fd9cc2577093f703da95938526540a0b7b7a4add651bbb81ce8597316e49",
+      "bytes": 3772,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-240.webp?v=8e86de402c7d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8e86de402c7d5f337fcd62716cc8cd242fe84e1b4a4746f0fcc9d55f7ce4b1a8",
+      "bytes": 6928,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/mazeej-ndu-2019-480.webp?v=93298e501475",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "93298e501475fecb188dbad42e477872163367b37f40fb149a0e618bace32850",
+      "bytes": 17140,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-960.webp?v=4d703d16b2e5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4d703d16b2e55724618ca50a11f238c9c6c4eeddef350f368f010bd20da5f483",
+      "bytes": 8952,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-160.webp?v=ef6b6df46378",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ef6b6df46378f6823cfbaf4af72cfbc71fe0ebab50ff9caad8a589f05aa486bb",
+      "bytes": 1016,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-240.webp?v=82ef71c6c199",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "82ef71c6c19956d270870a13458cbf31107cd8b1ed07dfed689a885ce3a965d1",
+      "bytes": 1586,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-480.webp?v=6c0da374d902",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6c0da374d9023a4605298011002e64e3556bec6201ee26ad6069007250ee5819",
+      "bytes": 3738,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-amman-2019-1280.webp?v=802b043d1165",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "802b043d1165fdb8379f397a3f9e597e83d5506cf95ef6f44283e5a8b81ff3c4",
+      "bytes": 13002,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-483.webp?v=370fedbf8d23",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "370fedbf8d234fa3e793c969e1b13a682b63b62fade83f92b37502243e9a5cf0",
+      "bytes": 21466,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-160.webp?v=c0a8966941e5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c0a8966941e59adf00937ee7cf96329d1c2837467e14a2c86775161a6fdc92c5",
+      "bytes": 4778,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-240.webp?v=42535d37921b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "42535d37921b0e5118b2d17134dc8a0898a500a3cd6725f22cd63c5757b0b779",
+      "bytes": 8576,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zade-dirani-dbayeh-2018-480.webp?v=689fa12a891e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "689fa12a891eb696d2f4940d9583adb1b810cfae9e79ba3bf968816dc6746f50",
+      "bytes": 20586,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-960.webp?v=b4ff1631b287",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b4ff1631b287d9c94253d63ab989b180724f411397e84d5a09beb105ee0f5681",
+      "bytes": 86778,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-160.webp?v=7b2d564fab9b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7b2d564fab9b452e6003907a53b3dfe4de2fbffd1551bae2908af1453268a08d",
+      "bytes": 4070,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-240.webp?v=8309f9512d7d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8309f9512d7d272da39d67756614cfdfcc3969ddeb862809538037b406da9066",
+      "bytes": 8274,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-480.webp?v=44268aee15e2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "44268aee15e29670cbbad43aef96c257775d102cba5aa1f23c0844655ae627ff",
+      "bytes": 27856,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/al-sharq-symphony-istanbul-2017-1280.webp?v=ab736014afe9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ab736014afe9fc972f1c5b810c95e6504e2f2791461c3f4dd99ed26bdf4d6f0a",
+      "bytes": 129878,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-960.webp?v=72e399df665d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "72e399df665da32281494da61a945c08283fff833219017c63bd9f352bd4afbb",
+      "bytes": 53262,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-160.webp?v=636809db9024",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "636809db90244426f3b60f7e4f197baadc2c8fd2374d762616686e90ab61ed3f",
+      "bytes": 3130,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-240.webp?v=9a382a0ad2a9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9a382a0ad2a9f7e39565165e5cb9ee73ced7ad0b48e6b9193539d0a50d9d03e9",
+      "bytes": 5664,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-480.webp?v=eff36a7b30f1",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "eff36a7b30f1807711b0b030ebc459e17598be5697269b3391f622a8907e9cf6",
+      "bytes": 16754,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/marcel-khalife-amman-citadel-2016-1600.webp?v=d907369ce167",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d907369ce167f78430be9d6a7fab642dfff406e5e124d151acfcaf977b6348a2",
+      "bytes": 163948,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-960.webp?v=525f973870bf",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "525f973870bf22cc77f2f0a42f495cedc28b26037ee46f8ce560ff98fe103b8d",
+      "bytes": 26114,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-160.webp?v=15466f7f8c98",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "15466f7f8c981b31d0898db674e7fb2a02106818ac70731d687521cf0f7eb9ef",
+      "bytes": 2194,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-240.webp?v=10977c47fc81",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "10977c47fc817fb013417ec22b12c14621089529130da1ba7c2b6a6afcaa2612",
+      "bytes": 3934,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-480.webp?v=2d12757aa461",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2d12757aa4613bfacfbf9c02213482ba1dfbfab25268d44f017b835dc2a1a638",
+      "bytes": 10032,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/abeer-nehme-baalbeck-2016-1600.webp?v=3614f7ca1511",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3614f7ca1511bdaa494bf7fbd0b0c6b2eaec03211f28dba513a17316edb2ccd3",
+      "bytes": 53602,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-483.webp?v=2f3384909985",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2f338490998555d132d364669f48acc12eb3c6736038ac79542ca2de041d597d",
+      "bytes": 26636,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-160.webp?v=70fcfd2e49ef",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "70fcfd2e49efe73265252ca522a26954b5b952a4268aea639c3070172fc5422a",
+      "bytes": 5832,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-240.webp?v=9db7bc7b507f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9db7bc7b507f0e6dd2e4856e91a451d8c07bfef25a15230c171d671c4a7f2403",
+      "bytes": 10358,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/beiteddine-marco-polo-2013-480.webp?v=79afe4490c66",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "79afe4490c6614c05886c7f523a2205804937279b78bf63535b3aaf9bbece39c",
+      "bytes": 25384,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-960.webp?v=fa1e1a0d0fab",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "fa1e1a0d0faba66595f2857dee1f246f025326772f2775be0b638ce9ea43d243",
+      "bytes": 74990,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-160.webp?v=055bcd12aa47",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "055bcd12aa470f508b2058845b0cb45432e78d28c8b688795a6a85701d2d5694",
+      "bytes": 5446,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-240.webp?v=678fb31e2ba9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "678fb31e2ba9809beded3b827f092f2d5126aa236d80365452b5957436ff3945",
+      "bytes": 9592,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-480.webp?v=5cb572487973",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5cb57248797374fd6e580597eb7ee8e517f3e58f26b736037bf8a5a16a81cb30",
+      "bytes": 25422,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-manley-outboard-1440.webp?v=d2ddb75221ce",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d2ddb75221cec85171c9557c36a26f9b1271cbcb773299e872b6b73a49574a93",
+      "bytes": 166812,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-960.webp?v=eebf4c0c35ba",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "eebf4c0c35bad81194e389640988203a67e500e7e2eb0a03e8ed2dc1d0e91d86",
+      "bytes": 152378,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-160.webp?v=f94aea297f41",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f94aea297f4179a09c115d5d6093faf8d4f485c6cd7aac355e0ff682471e7d72",
+      "bytes": 6998,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-240.webp?v=226284cfa2b3",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "226284cfa2b325a6d842aaeedf3e484919dfe1e61fb49b4ba88c4b120c754121",
+      "bytes": 14326,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-480.webp?v=190de2e26846",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "190de2e26846d9d02860764ea46ea0dc92e2d30e6be8eb86160d85729abf9ba8",
+      "bytes": 48642,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/studio-mixing-console-1600.webp?v=e9305d95278e",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e9305d95278e44ecf7785035468528850e4c56c41efd789bf5253c666a45a3e9",
+      "bytes": 313166,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-960.webp?v=b63d62b901ad",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b63d62b901adc0c9833d390cd291360e5ac0fd7497b78d88a871769992bb0e20",
+      "bytes": 18076,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-160.webp?v=46ecf067f539",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "46ecf067f53922f9ec2636850ab02866af721b98c60f249709870d9a77442471",
+      "bytes": 2228,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-240.webp?v=49adf018b060",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "49adf018b06099b084c003b20f599c354b7f90c8bb9779aad573c71ce3f34698",
+      "bytes": 3536,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-480.webp?v=9b8260b15bbb",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9b8260b15bbb3f4d9f441de1ab3c9a53cea5e6e6d38acb5970cb9d90586a35e7",
+      "bytes": 7982,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/about-portrait-1600.webp?v=35d2ff9eaa18",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "35d2ff9eaa1867838d43dd2b74cba30b5bc08fcf2a11d7b3887cbd8e89b65e36",
+      "bytes": 35354,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-live-128.webp?v=a1485690d92d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a1485690d92dc2ae42e7d8d4698deff57651a81b3e2c6e3e194d8e31287414ff",
+      "bytes": 2756,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-recording-128.webp?v=e5604172f4f6",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e5604172f4f68c7a6639d7e4d383d0056bfbac60760e6941cf892cdc2352a06d",
+      "bytes": 3062,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/zynforge-stage-128.webp?v=809def2c2f12",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "809def2c2f126316474c7f909f78ec95e027d0b1ac4f9139144e97bab93f3288",
+      "bytes": 2682,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-1600.webp?v=a8b9f1fd1c8c",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a8b9f1fd1c8ced153c786a5953e5461cc5192df451e76f7bbcec682cf8646651",
+      "bytes": 236424,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-960.webp?v=0291be8c10e5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0291be8c10e5db54ede8fb48865ce0a601684f5e9609c229698fcb8cf0330379",
+      "bytes": 107002,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-160.webp?v=022f225ae049",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "022f225ae049d137a7a22dce027fd819f8fc204c03e41b70d982659b20ac0528",
+      "bytes": 5590,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-240.webp?v=e966f6a79e99",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e966f6a79e99fe9203a666904957fd389dc1d5d754c2be22d6366cbca4b49763",
+      "bytes": 11028,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-pov-theater-stage-480.webp?v=afe652238f91",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "afe652238f91e4da08cc1963b024638ecf05d778e6ebca2c43e77948d73690c8",
+      "bytes": 34162,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-1440.webp?v=ec86ad69ba88",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ec86ad69ba88ae4a51c89969064676b600d0dc1f78ff437c8e249e0d55ee1b28",
+      "bytes": 250568,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-960.webp?v=1c5baca9009b",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1c5baca9009bd2ebdeddc65d88f17056eec5fd38e2ca0c2ba39a18e901cfec03",
+      "bytes": 129106,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-160.webp?v=a54c9db7e7cc",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a54c9db7e7cc45c72daf267417f1fd2767e9d3ebb371af35b6e898a63bc268ea",
+      "bytes": 9230,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-240.webp?v=3de98eaf88c2",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3de98eaf88c22c85d62b2ba9315ef6477832655b8d1e7738c8e85d7cb435e5c5",
+      "bytes": 16978,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-church-concert-organ-480.webp?v=54d793098493",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "54d7930984933d108538cb779ef104c26372b5a40edd92274131e427ba3e4f1d",
+      "bytes": 45900,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-1440.webp?v=3a6796f23015",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3a6796f230157b5e3bd8f1e9141e0163915a29ba39f7bd05a39c93663a47e627",
+      "bytes": 263540,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-960.webp?v=3a6c7a51cbab",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3a6c7a51cbab8c9069177d510954bd89522fd04782449c94737c8c9567ce3b2d",
+      "bytes": 144144,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-160.webp?v=9e19a79c55f6",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9e19a79c55f6ba47993085f7434ff5047ec9e652051126e77d565c12de1e7cd1",
+      "bytes": 8250,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-240.webp?v=8326b108f61d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "8326b108f61df58e7487dc5c22e922f83e6f4c90b71745f35c9198324127a4bb",
+      "bytes": 16236,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-orchestra-ornate-backdrop-480.webp?v=1e18ade06572",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1e18ade0657247a5b43cc5005f3fe0d5226b49c3ff252062fcd0c57c949abdb1",
+      "bytes": 50192,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-1440.webp?v=c46917e6c6fd",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c46917e6c6fdf80508332e0ba0de500c62d8f3d85b87a203caac7076d5f87a38",
+      "bytes": 134132,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-960.webp?v=fe67c185afd4",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "fe67c185afd46927f31c83776d0e6090dbd73543c2bb52260d22154a6f88936e",
+      "bytes": 66816,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-160.webp?v=2272d4d7ac55",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2272d4d7ac5552bf239ca069dd6e357f6e721c054b77f9a97bbaf56a0716254b",
+      "bytes": 3570,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-240.webp?v=de4256879b9f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "de4256879b9fbd4b0ee07fc54432c100806f45f91977911105929393849c0ebc",
+      "bytes": 6638,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/foh-concert-hall-aerial-480.webp?v=5014b80163ec",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5014b80163ec6398a50944c985b09df908734184fe32e47a6251ce16c62bfa32",
+      "bytes": 20106,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-1440.webp?v=0d5024084b8f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0d5024084b8f318df71cbdaaa07272e5c09bbd5cb036ecca26c035fa12223632",
+      "bytes": 363360,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-960.webp?v=d5febfb4b6b4",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d5febfb4b6b4c30a72472d9f59b3ab73ab6cb8f4a5257827af13d4ff7cfe2f43",
+      "bytes": 165868,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-160.webp?v=2c8e01e615f9",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2c8e01e615f97071008c6cd75434e19a3c3e0d57a99b1570a77b44776e39cf86",
+      "bytes": 8552,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-240.webp?v=0aae207fb107",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0aae207fb107282be7bec6e7c24f8d5da91200e507541d4f3a1bfb08b8c3da28",
+      "bytes": 16744,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/concert-arena-led-screens-480.webp?v=1c90b614946c",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1c90b614946c4ce5ca1ab1e87d5c25742bf6aa941b6212098d5f6207ff5fa548",
+      "bytes": 53974,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-1080.webp?v=2b917d4aa512",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2b917d4aa512b70938ce15bd58e7ff350e69cf44017f6bbf484596dd61f71079",
+      "bytes": 158854,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-960.webp?v=48ac82fd7250",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "48ac82fd72505271b35ce5e54cdebe2e20ee46f43fd03c24ff240b9dbdaec29a",
+      "bytes": 126228,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-160.webp?v=20cf572e791d",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "20cf572e791d7a78b7ab31d20eeb0c4417ed27a0b5b9452d8176b61e204d9176",
+      "bytes": 9212,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-240.webp?v=5623a0fb21c5",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5623a0fb21c53a1ed9d0e175f86698c188aa4487ec4b61bc9ea99709824394b7",
+      "bytes": 17934,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/photos/optimized/midas-heritage-console-480.webp?v=2e027365732f",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2e027365732fba5f6e8599d997b060e8bea393cd0c93d9e9740aeef1e0fc1379",
+      "bytes": 48742,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "7afdd7128032730ae3c617a114d79fccf2f4fcc6cf93088bede442d0a1e51169",
+      "bytes": 37253,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/international-projects/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "33178e3dd3f1103de0134a4f4615894d808193b4edf7c2877cece6fb941a1a63",
+      "bytes": 37680,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/live-sound-engineer/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "737ff51e02b921cf4c370400c861632ae1a32536cfb250d54f3a746e70a02aef",
+      "bytes": 57425,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/mixing-mastering/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "653f2c0ec8830136f7e2447765ea6f9d3a7de836f50cf33cc3e6fdadac62a58e",
+      "bytes": 39491,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9365990055845e9e61cda6d1ad7df0fea3ea826a54fac672ae8a5cee245c8bc5",
+      "bytes": 46255,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ab6769b39fac683e696f5cc1197bf762a65e4360baa48f1c07219201f85f987d",
+      "bytes": 84483,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "efe4fe06d4aef3449f8e0f6c72fe66baf2d461c7383b619333825f9503981fba",
+      "bytes": 39776,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "408c318d529aa546844f5b9c0a5c31a812008668b39acb29fa8d5fabf660e63b",
+      "bytes": 39512,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6c93d3efae20ec8c542a89fb21b3c6256e7daaab964608136cc6c1ed8e4599ea",
+      "bytes": 39437,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "ee5a6261478ff101d183e73a995bd1ac4fa0e887ca0b4e1e1fea3ebb82344ed2",
+      "bytes": 39355,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "af26a0f4e29fce558532a906932016c1ba9728c006353de5a7cbd89069206dcb",
+      "bytes": 38142,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3454728f1f63ff41107bb20a7190aa562c5b61d0c57e383ebd22cfaeeafd4e3d",
+      "bytes": 38176,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b97bb47c9c62db21d830028fa58a58686d1c61340b30d65101149c0d8d6660fb",
+      "bytes": 38304,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "889ee638607c10f3153e710d821dcfe9b1bfffac6f590b8422304ffd64d6d179",
+      "bytes": 39489,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "734143ec32e47e85c38cf9b0f5a2a3a3cc2c7ff814d5498b8948d573d5247b79",
+      "bytes": 39706,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5cfb3cdd59abd4d7aa06bc8ef74663f7227fdcebe46fd5201d42ed9526704037",
+      "bytes": 39325,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "77a388ef03dcf60a48973b55c0aca87c6f1df99631b6e9d634d1398335b048d8",
+      "bytes": 39361,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a4a6f43f09f32ffd944227f17140cbb72dafaba59ac33c4f31b014e6bfd72f12",
+      "bytes": 39518,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3916652fb0718fd64d64e8f4493aadf109f72cb7ea77003c334112effdcd0db1",
+      "bytes": 39764,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "276a392b82db354f4f15695f49942ffefd31354ef454c82e577f9dbde0571f90",
+      "bytes": 39741,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c4253181de4d8572b34f5ecb604ded962d10f412a9f3a35de54373a361f836ca",
+      "bytes": 39387,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/marina-viotti/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "346cfe0e0e4165862f9c22739fa48ebb8a9b9f2c8e33aa16142adc7b6c4f4a12",
+      "bytes": 39334,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2bf713dfd85dde708730a520ae0cc4b48b4ca79eda7319be0078919a39d14a24",
+      "bytes": 38824,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a7ded1ed3cf59e2c6ae140a098a7df0b151530523ee716a984d307237a4ef07a",
+      "bytes": 39167,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d1562651838bd5f12ed3c2c801f5fb3a0646d72e0ae1fdabb48ee81dd49c3218",
+      "bytes": 39391,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0bd26db801af565ae778be1041412f31eaad086641df2484280ffa438a782bd5",
+      "bytes": 38979,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b4b8ee09bf50f6270bc425bbeecbdf2e3a4f10af0971be8edfc9bb54df2a7bf3",
+      "bytes": 39632,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/papal-broadcast/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "c52e17cbf92dddb9905cb74af96d40dd4c2217e7bc98f25f1926ba020e839588",
+      "bytes": 34543,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "e99e5c589943c6de5cb02aaab7d8eb3bee4cff70f05b2c2545fbd2805092bf9a",
+      "bytes": 40005,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-integration/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "97f94372fc90c78979fafeaf54660bd3d9b5cccc2be8c9c47d9b97e90fa0d920",
+      "bytes": 37961,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/studio-jpb/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3f287ad092943c199cc2427f2b2dae221f5cc70a40c429bc7c485a8a10524ffc",
+      "bytes": 37950,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "76471cbe7b06d815333f1b2b9c8bc67c67cbd39816b63f165f2e31f59c8aaaef",
+      "bytes": 39532,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/the-eighties/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "45a40eca7640db117ff6cdc6ddc89ff0036c82c28763157cdb83c91002fdf9f0",
+      "bytes": 39553,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/warda-night/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9b2a23488d1ba8d449b703386b25cdfe4c01ae8748bb620e9a17fea4ee4a2ff2",
+      "bytes": 39000,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "5b2e93c893c40e432a118cce1b8083bdad3996281b53f7e8c21663fb7685e053",
+      "bytes": 39509,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "456836faf745f377338c568f4028c4359de4e6806f138dd34b8c0aff7d3acda7",
+      "bytes": 38831,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/recording-engineer/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f00e5e374f8ababe9c2c6b033fa8c3c930e18d47b9e06bd69ea669aa87c0fdb9",
+      "bytes": 39799,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/services/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "d8f3146a6408deeefb891a927dd72d4e4af60eee259829e85be7e7199a969802",
+      "bytes": 34702,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-credits/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "226e6b2ccaee2de2e8caea6255264d104d8044d2d068a963d8210a6e058fa4d4",
+      "bytes": 57716,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/studio-system-integration/",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "712b4673b1d160f4b85846f714b7b4948b7d48452f942527e9a1ba2e51d7302e",
+      "bytes": 38497,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/robots.txt",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "a3bbfc9d3d75709ae518623564a38a2ceceb1b03cdecb8d9a9889228a0302f5d",
+      "bytes": 614,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/sitemap.xml",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "2233e7d93073b0e13cf1092d4403c31df8859392299de40a73a7e0990a929a38",
+      "bytes": 5290,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/llms.txt",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "38b80890f19c8b966864a53af6aa983cb7ea23f9c943e96077d4f6b719e73aba",
+      "bytes": 7429,
+      "last_modified": "Mon, 23 Nov 2026 21:06:42 GMT"
+    }
+  ],
+  "cpanel": {
+    "last_deployed_sha": "04a1d8a45c1a07b848330a511c640224243b9ed8",
+    "displayed_deployment_time": "Nov 24, 2026 12:06:42 AM",
+    "timezone": "Asia/Qatar"
+  },
+  "browser_observations": [
+    "HostGator deployment completed and Last Deployed SHA matched the approved release.",
+    "Published RY X project page loaded in Chrome with the correct artist, orchestra, FOH role, QNCC Auditorium 3, festival and date.",
+    "Desktop screenshot showed the published project layout and event portrait."
+  ],
+  "limits": [
+    "No claim about search-engine indexing or rankings.",
+    "No mobile interaction test performed in this publication session.",
+    "Generic Python urllib user-agent requests initially received HTTP 406; the final checks used the same explicit release-verification user-agent as the successful page and asset comparisons."
+  ]
+}

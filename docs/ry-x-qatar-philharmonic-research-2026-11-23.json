@@ -50,7 +50,7 @@
     "The official promotional portrait is not represented as a photograph from the concert.",
     "No equipment, conductor, attendance, recording or monitor responsibility asserted."
   ],
-  "publication_status": "Local files only; not deployed.",
+  "publication_status": "Published on 24 November 2026 at 00:06:42 (Asia/Qatar), content release 04a1d8a45c1a07b848330a511c640224243b9ed8",
   "verification": {
     "canonical_pages": 41,
     "project_records": 30,
@@ -59,6 +59,8 @@
     "site_metadata_assets_links_aria_and_chronology": "pass",
     "javascript_syntax": "pass",
     "deployment_shell_syntax": "pass",
-    "browser_preview": "Unavailable: computer-use browser host could not be reached. No visual or interaction check claimed."
-  }
+    "browser_preview": "Unavailable: computer-use browser host could not be reached. No visual or interaction check claimed.",
+    "publication_browser_preview": "Published project page and desktop layout observed in Chrome on 24 November 2026."
+  },
+  "publication_verification": "ry-x-qatar-philharmonic-live-verification-2026-11-24.json"
 }
