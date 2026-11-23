@@ -1,0 +1,64 @@
+{
+  "researched": "2026-11-23",
+  "slug": "ry-x-qatar-philharmonic-doha",
+  "title": "RY X with the Qatar Philharmonic Orchestra",
+  "festival": "Doha Film Festival",
+  "programme": "DFF Music",
+  "venue": "Qatar National Convention Centre (QNCC), Auditorium 3",
+  "location": "Doha, Qatar",
+  "date": "2026-11-23",
+  "engineering_role": {
+    "role": "FOH engineer",
+    "source": "Jean-Pierre Boutros, direct confirmation in this conversation on 23 November 2026"
+  },
+  "sources": [
+    {
+      "url": "https://www.dohafilm.com/en/contents/A0A4FC92-BFC5-42C2-8DCA-B1F276B632C8",
+      "publisher": "Doha Film Institute / Doha Film Festival",
+      "supports": [
+        "artist and orchestra",
+        "DFF Music",
+        "23 November, 8:30 PM",
+        "QNCC, Auditorium 3",
+        "official event portrait"
+      ]
+    },
+    {
+      "url": "https://qatarphilharmonicorchestra.org/concert/ry-x-with-the-qatar-philharmonic-orchestra/",
+      "publisher": "Qatar Philharmonic Orchestra",
+      "supports": [
+        "artist and orchestra",
+        "23 November 2026",
+        "Qatar National Convention Centre, Auditorium 3"
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://my.dohafilminstitute.com/filmimages/img/B118C153-A775-4DC3-A28F-FE6786FE4FCE.webp",
+    "credit": "Doha Film Institute / Doha Film Festival",
+    "local_path": "photos/ry-x-qatar-philharmonic-doha-2026.webp",
+    "sha256": "0621b9f6cdfe6a4efb1977133bc0c7247b2d9a210122989d9beb09a799243c3e",
+    "dimensions": [
+      556,
+      313
+    ],
+    "description": "RY X wearing a black hat and coat against a textured blue-grey background, in the official Doha Film Festival event portrait",
+    "treatment": "Official portrait retained unchanged; responsive WebP derivatives generated with the existing image pipeline settings."
+  },
+  "limits": [
+    "Engineering role confirmed by the owner; event listings establish event context.",
+    "The official promotional portrait is not represented as a photograph from the concert.",
+    "No equipment, conductor, attendance, recording or monitor responsibility asserted."
+  ],
+  "publication_status": "Local files only; not deployed.",
+  "verification": {
+    "canonical_pages": 41,
+    "project_records": 30,
+    "foh_projects": 18,
+    "gallery_images": 36,
+    "site_metadata_assets_links_aria_and_chronology": "pass",
+    "javascript_syntax": "pass",
+    "deployment_shell_syntax": "pass",
+    "browser_preview": "Unavailable: computer-use browser host could not be reached. No visual or interaction check claimed."
+  }
+}

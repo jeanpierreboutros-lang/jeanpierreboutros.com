@@ -23,6 +23,13 @@ user-fetch rules passed 27 public HTTP checks. See [AI search visibility](docs/A
 and [live evidence](docs/ai-search-verification-2026-11-16.json) for provider
 references, Grok coverage, verification limits and ongoing discovery work.
 
+Local addition, **23 November 2026**: RY X with the Qatar Philharmonic Orchestra
+at QNCC, Auditorium 3, Doha, for Doha Film Festival’s DFF Music programme on
+23 November 2026. Jean-Pierre confirmed his FOH engineer role. The local build
+now has 41 canonical pages, 30 projects (18 FOH), 36 gallery images and 43
+collaboration names. See [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
+This addition is not deployed; the published release records below remain historical.
+
 ## Documentation and evidence
 
 These files are repository documentation and are excluded from the public website deployment. Research dates record when sources were checked; reconciliation dates record when documentation was aligned with the published release. Historical test results retain their original scope and measurements.
@@ -57,9 +64,9 @@ Published design revision, 16 November 2026: the portfolio uses a production-fol
 
 The StudioJPB entry and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
-The project browser starts with all 29 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+The project browser starts with all 30 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
 
-`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 29 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 35; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
+`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 30 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 36; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
 
 Published content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 is the newest FOH entry. The published build contains 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. The downloadable profile remains the existing one-page selection.
 
@@ -67,6 +74,7 @@ Published content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa T
 
 | Project | Jean-Pierre's role | Location and date | Website anchor |
 | --- | --- | --- | --- |
+| RY X with the Qatar Philharmonic Orchestra · Doha Film Festival | FOH engineer | Auditorium 3, QNCC, Doha, Qatar; 23 November 2026 | `#ry-x-qatar-philharmonic-doha` |
 | Shareet: The 80s and 90s Concert · Tarteeb | FOH engineer | Al Mayassa Theatre, QNCC, Doha, Qatar; 14 November 2026 | `#tarteeb-shareet-doha` |
 | The Eighties... The Knockout | FOH engineer | JACC, Kuwait; October 2026 | `#the-eighties` |
 | Marina Viotti - Opera gala | FOH engineer | Roman Amphitheatre, Zouk Mikael, Lebanon; 8 September 2026 | `#marina-viotti` |
@@ -106,8 +114,8 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 - `build.py` generates the homepage and invokes the static page generator.
 - `services.py` holds the six service descriptions, FAQs and the reviewed content date.
 - `studio_credits.py` holds 51 song/album entries, their exact engineering scope and source notes excluded from rendered pages; it generates the homepage disclosures and `/studio-credits/`.
-- `docs/studio-credit-research.json` reconciles the initial 36-name audit and five added artists to all 41 current collaboration names; the research records above preserve role evidence, owner confirmations and recorded search batches.
-- `search_pages.py` generates 39 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
+- `docs/studio-credit-research.json` reconciles the initial 36-name audit and five added artists to the 41 collaboration names in that review; the research records above preserve role evidence, owner confirmations and recorded search batches.
+- `search_pages.py` generates 40 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
 - `check_site.py` validates the generated inventory, links, metadata, images, specific credits and crawler rules.
 - `hosting/seo.htaccess` contains domain-scoped canonical redirects; `hosting/install-seo.sh` merges the managed block and privately backs up existing rules.
 - `fonts/` contains the original typefaces, CSS, provenance manifest and SIL Open Font Licenses.
@@ -296,7 +304,7 @@ Before deployment:
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`, `sh -n hosting/install-seo.sh` and `git diff --check`. For domain/range checks, download the official Schema.org vocabulary separately and run `python3 check_site.py --vocabulary /path/to/schemaorg-current-https.jsonld`. No network request is made by the checker.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
-4. Verify Featured (6), All work (29), FOH (17), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
+4. Verify Featured (6), All work (30), FOH (18), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
 5. Confirm images and section links resolve and project links point to the intended source.
 6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check all three website download links use the new PDF fingerprint and size.
 7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.

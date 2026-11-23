@@ -29,6 +29,12 @@ PAGE_REVIEW_DATES = {
         "/live-sound-engineer/", "/international-projects/",
     )
 }
+PAGE_REVIEW_DATES.update({
+    path: "2026-11-23" for path in (
+        "/", "/projects/", "/projects/ry-x-qatar-philharmonic-doha/",
+        "/live-sound-engineer/", "/orchestra-sound-engineer/", "/international-projects/",
+    )
+})
 
 
 def absolute(path):
@@ -364,7 +370,7 @@ def render_search_pages(context):
               main_entity={"@id": service_id(slug)}, preload_image=service["photo"])
 
     # Preserve every full project description, with a genuinely indexable URL.
-    orchestra_projects = {"marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
+    orchestra_projects = {"ry-x-qatar-philharmonic-doha", "marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
                           "abeer-nehme-qatar", "lebanese-philharmonic-diman", "marcel-khalife-baalbeck"}
     for project in project_records:
         slug, name, production, location, role, category, photo, featured = project
@@ -380,6 +386,10 @@ def render_search_pages(context):
             title = "Shareet · Tarteeb at QNCC | Jean-Pierre Boutros, FOH"
             description = ("Jean-Pierre Boutros was the FOH engineer for Tarteeb’s Shareet concert "
                            "at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026. View the project.")
+        if slug == "ry-x-qatar-philharmonic-doha":
+            title = "RY X & Qatar Philharmonic at QNCC | Jean-Pierre Boutros, FOH"
+            description = ("Jean-Pierre Boutros: FOH engineer for RY X with the Qatar Philharmonic Orchestra "
+                           "at QNCC, Doha, for Doha Film Festival on 23 November 2026.")
         crumbs = [("Home", "/"), ("Projects", "/projects/"), (name + " · " + production, path)]
         body = intro(role + " · " + location, e(name) + "<br /><em>" + e(production) + "</em>",
                      summary, crumbs)
@@ -499,7 +509,7 @@ def render_search_pages(context):
         ("France", ["nancy-ajram-olympia"]),
         ("Oman", ["marcel-khalife-muscat"]),
         ("Jordan", ["marcel-khalife-amman", "zade-dirani-amman"]),
-        ("Qatar", ["tarteeb-shareet-doha", "abeer-nehme-qatar"]),
+        ("Qatar", ["ry-x-qatar-philharmonic-doha", "tarteeb-shareet-doha", "abeer-nehme-qatar"]),
         ("Kuwait", ["the-eighties", "cartoon-orchestra"]),
         ("Saudi Arabia", ["baligh-hamdi-night", "warda-night", "night-of-arab-stars"]),
         ("United Arab Emirates", ["nancy-ajram-expo-dubai"]),

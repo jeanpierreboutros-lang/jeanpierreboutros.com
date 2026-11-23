@@ -1634,5 +1634,31 @@
         "height": 128
       }
     ]
+  },
+  "ry-x-qatar-philharmonic-doha-2026.webp": {
+    "width": 556,
+    "height": 313,
+    "variants": [
+      {
+        "src": "photos/optimized/ry-x-qatar-philharmonic-doha-2026-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/ry-x-qatar-philharmonic-doha-2026-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
+        "src": "photos/optimized/ry-x-qatar-philharmonic-doha-2026-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "photos/optimized/ry-x-qatar-philharmonic-doha-2026-556.webp",
+        "width": 556,
+        "height": 313
+      }
+    ]
   }
 }

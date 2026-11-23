@@ -33,7 +33,7 @@ SERVICES = [
         ],
         "capabilities": ["Front-of-house concert mixing", "Artist monitor engineering", "Festival performance mixing", "Live music and theatre productions"],
         "brief": ["Artist, venue, country and show dates", "FOH or monitor position required", "Stage plot, input list and artist rider", "House system, available console and local audio crew"],
-        "projects": ["tarteeb-shareet-doha", "nancy-ajram-olympia", "abeer-nehme-baalbeck", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night", "marcel-khalife-amman", "zade-dirani-dbayeh", "zade-dirani-amman", "marcel-khalife-baalbeck", "nancy-ajram-jounieh", "mazeej-ndu"],
+        "projects": ["ry-x-qatar-philharmonic-doha", "tarteeb-shareet-doha", "nancy-ajram-olympia", "abeer-nehme-baalbeck", "ehdeniyat-al-shami", "ehdeniyat-abeer-nehme", "baligh-hamdi-night", "marcel-khalife-amman", "zade-dirani-dbayeh", "zade-dirani-amman", "marcel-khalife-baalbeck", "nancy-ajram-jounieh", "mazeej-ndu"],
         "faq": [
             ("What is the difference between FOH and monitor engineering?", "FOH is the mix for the audience. Monitor engineering is the performer’s stage mix. Jean-Pierre has documented credits in both roles; the assignment is agreed for the particular show."),
             ("Can I book Jean-Pierre for a festival performance?", "Yes. His festival credits include FOH for Abeer Nehme and Al Shami, and monitors for Adam, at Ehdeniyat 2025. Send the artist, dates, location and required position to discuss your production."),
@@ -55,7 +55,7 @@ SERVICES = [
         "sections": [
             ("Orchestra, soloist and performance context.", [
                 "An orchestral sound brief brings together the ensemble, conductor, soloists and the listening environment. FOH engineering concerns the amplified audience mix. Jean-Pierre’s project records identify his engineering role for each production.",
-                "Relevant work ranges from Abeer Nehme with the Qatar Philharmonic Orchestra at U VENUE in Doha to the Lebanese National Philharmonic Orchestra’s Eternal Covenant concert in Diman. The portfolio also includes Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic Orchestra."
+                "Relevant work includes RY X with the Qatar Philharmonic Orchestra at QNCC for Doha Film Festival, Abeer Nehme with the Qatar Philharmonic Orchestra at U VENUE in Doha, and the Lebanese National Philharmonic Orchestra’s Eternal Covenant concert in Diman. The portfolio also includes Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic Orchestra."
             ]),
             ("From concert halls to open-air performances.", [
                 "The existing credits include orchestral concerts, Cartoon Orchestra in Kuwait and the Marina Viotti opera gala at Zouk Mikael’s Roman Amphitheatre. Together, these projects span vocalists with orchestra, instrumental ensembles and open-air opera performances.",
@@ -64,7 +64,7 @@ SERVICES = [
         ],
         "capabilities": ["Orchestral FOH mixing", "Vocalist with orchestra performances", "Opera gala sound engineering", "Open-air and concert hall performances"],
         "brief": ["Ensemble, conductor, soloists and programme", "Venue layout and acoustic or amplified performance format", "Stage plan, input list and available audio system", "Rehearsals, show dates and separate recording or broadcast teams"],
-        "projects": ["abeer-nehme-qatar", "lebanese-philharmonic-diman", "al-sharq-symphony", "marina-viotti", "marcel-khalife-baalbeck"],
+        "projects": ["ry-x-qatar-philharmonic-doha", "abeer-nehme-qatar", "lebanese-philharmonic-diman", "al-sharq-symphony", "marina-viotti", "marcel-khalife-baalbeck"],
         "faq": [
             ("Which orchestral projects demonstrate this experience?", "Examples include Abeer Nehme with the Qatar Philharmonic in Doha, the Lebanese National Philharmonic in Diman and Al Sharq Symphony with Marcel Khalifé and the Istanbul Philharmonic. Each linked project identifies Jean-Pierre’s FOH role."),
             ("Does Jean-Pierre work on opera and vocal performances?", "Yes. The documented portfolio includes FOH engineering for the Marina Viotti opera gala at Zouk Mikael and Abeer Nehme’s performance with the Qatar Philharmonic Orchestra."),

@@ -32,7 +32,7 @@ artists = [
     "Salah El Kurdi", "Charbel Rouhana", "Chantal Bitar", "Carlos Azar",
     "Ziad Bourji", "Sarina Cross", "Ziad Jamal", "Mouhamad Khairy", "Mohammed Islam",
     "Manel Mallat", "Faraj Hanna", "Mike Massy", "Ria Ellinidou", "Marina Viotti",
-    "Lebanese National Philharmonic Orchestra",
+    "Lebanese National Philharmonic Orchestra", "RY X", "Qatar Philharmonic Orchestra",
 ]
 
 # Captions describe visible content, without guessing venues or artists.
@@ -72,6 +72,7 @@ gallery = [
     ("mazeej-ndu-2019.jpg", "Mazeej by Lucas Sakr · NDU", "Original Mazeej on Stage event artwork showing a grand piano in the NDU theatre and the date 11 March 2019", "FOH engineer · Zouk Mosbeh, Lebanon, 2019"),
     ("beirut-the-sea-lover-2019.jpg", "Beirut the Sea Lover", "A sunset, sailing ships and the Beirut cityscape projected onto the Roman Baths staircase during Beirut the Sea Lover, from the Beirut Spring Festival archive", "3D sound mixing · Beirut, Lebanon, 2019"),
     ("tarteeb-shareet-qncc-doha-2026.webp", "Shareet · Tarteeb", "Shareet promotional artwork showing a cassette tape on a vintage taxi beside Doha’s waterfront, with Tarteeb and Qatar Calendar logos and the QNCC event date", "FOH engineer · Al Mayassa Theatre, QNCC, Doha · 14 November 2026"),
+    ("ry-x-qatar-philharmonic-doha-2026.webp", "RY X · Qatar Philharmonic Orchestra", "RY X wearing a black hat and coat against a textured blue-grey background, in the official Doha Film Festival event portrait", "FOH engineer · Doha Film Festival · QNCC, Doha · 23 November 2026"),
 ]
 tv = [
     ("MTV Lebanon", "Hek Menghanni", "Music television"),
@@ -119,6 +120,11 @@ mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-m
 beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
 gallery_sources = {
+    "ry-x-qatar-philharmonic-doha-2026.webp": {
+        "name": "Doha Film Institute / Doha Film Festival",
+        "url": "https://www.dohafilm.com/en/contents/A0A4FC92-BFC5-42C2-8DCA-B1F276B632C8",
+        "image_url": "https://my.dohafilminstitute.com/filmimages/img/B118C153-A775-4DC3-A28F-FE6786FE4FCE.webp",
+    },
     "tarteeb-shareet-qncc-doha-2026.webp": {
         "name": "Tarteeb / Qatar Calendar · via 25° North",
         "url": "https://www.25north.qa/en/events/shareet-80s-90s-concert-qncc-2026",
@@ -259,6 +265,8 @@ def nav_links(css=""):
 
 
 artist_projects = {
+    "RY X": ("ry-x-qatar-philharmonic-doha", "FOH engineer · Doha Film Festival, 2026"),
+    "Qatar Philharmonic Orchestra": ("ry-x-qatar-philharmonic-doha", "FOH engineer · RY X, Doha Film Festival, 2026"),
     "Al Shami": ("ehdeniyat-al-shami", "FOH engineer · Ehdeniyat, 2025"),
     "Adam": ("ehdeniyat-adam", "Monitor engineer · Ehdeniyat, 2025"),
     "Lebanese National Philharmonic Orchestra": ("lebanese-philharmonic-diman", "FOH engineer · Diman, 2026"),
@@ -794,6 +802,26 @@ PROJECT_DETAILS += f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <!-- Event context: official Doha Film Festival and Qatar Philharmonic Orchestra listings. FOH role confirmed by Jean-Pierre on 23 November 2026. -->
+        <article class="project-event" id="ry-x-qatar-philharmonic-doha" aria-labelledby="ry-x-qatar-title" data-reveal>
+          <a class="event-media event-media--concert" href="{e(gallery_data[35]['src'])}" data-gallery-index="35" aria-label="Enlarge the official RY X event portrait" aria-haspopup="dialog" aria-controls="lightbox">
+            {image("ry-x-qatar-philharmonic-doha-2026.webp", gallery[35][2], sizes="(max-width: 760px) 100vw, 50vw")}
+            <span class="gallery-expand" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">30 <span>Front-of-house engineering · Doha Film Festival</span></p>
+            <h3 id="ry-x-qatar-title">RY X.<br /><em>Qatar Philharmonic Orchestra.</em></h3>
+            <p>FOH engineering for RY X with the Qatar Philharmonic Orchestra at Qatar National Convention Centre (QNCC), Auditorium 3, in Doha, Qatar, on 23 November 2026, as part of Doha Film Festival’s DFF Music programme.</p>
+            <p>The concert brought RY X’s contemporary songwriting together with the Qatar Philharmonic Orchestra in a symphonic performance.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Auditorium 3 · Qatar National Convention Centre (QNCC)</dd></div><div><dt>Festival</dt><dd>Doha Film Festival · DFF Music</dd></div><div><dt>Location &amp; date</dt><dd>Doha, Qatar · 23 November 2026</dd></div></dl>
+            <a class="text-link" href="https://www.dohafilm.com/en/contents/A0A4FC92-BFC5-42C2-8DCA-B1F276B632C8" target="_blank" rel="noopener noreferrer">Explore the official festival programme <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <p class="source-note">Event portrait: Doha Film Institute / Doha Film Festival · <a href="https://qatarphilharmonicorchestra.org/concert/ry-x-with-the-qatar-philharmonic-orchestra/" target="_blank" rel="noopener noreferrer">Qatar Philharmonic Orchestra concert listing<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -826,10 +854,12 @@ projects = [
     ("mazeej-ndu", "Mazeej by Lucas Sakr", "On Stage · NDU", "Zouk Mosbeh · 2019", "FOH engineer", "foh", 32, False),
     ("beirut-the-sea-lover", "Beirut the Sea Lover", "Roman Baths · Beirut Spring Festival", "Beirut · 2019", "3D sound mixing", "technical", 33, False),
     ("tarteeb-shareet-doha", "Shareet · Tarteeb", "The 80s and 90s Concert · QNCC", "Doha · 2026", "FOH engineer", "foh", 34, False),
+    ("ry-x-qatar-philharmonic-doha", "RY X", "Qatar Philharmonic Orchestra · Doha Film Festival", "Doha · 2026", "FOH engineer", "foh", 35, False),
 ]
 # Preserve the precision of the confirmed dates; a year-only credit stays year-only.
 # Ongoing studio practices are separate from dated productions.
 project_dates = {
+    "ry-x-qatar-philharmonic-doha": ("2026-11-23", "23 November 2026"),
     "tarteeb-shareet-doha": ("2026-11-14", "14 November 2026"),
     "the-eighties": ("2026-10", "October 2026"),
     "marina-viotti": ("2026-09-08", "8 September 2026"),
