@@ -546,7 +546,7 @@ def render_search_pages(context):
     applications = []
     for product_slug, filename, name, category, description in PRODUCTS:
         body += (f'<section class="page-section" id="{product_slug}"><p class="eyebrow">{e(category)}</p>'
-                 f'<h2>{e(name)}</h2>{root_links(images(filename, "", css="zyn-icon", sizes="64px"))}'
+                 f'<h2>{e(name)}</h2>{root_links(images(filename, name + " application icon", css="zyn-icon", sizes="64px"))}'
                  f'<p>{e(description)}</p></section>')
         applications.append({"@type": "SoftwareApplication", "@id": absolute(path + "#" + product_slug),
                              "name": name, "description": description, "applicationCategory": "MultimediaApplication",
