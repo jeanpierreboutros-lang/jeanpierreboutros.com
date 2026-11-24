@@ -57,9 +57,10 @@ For future website changes:
 | A fingerprinted `.woff2` asset | 200, `font/woff2`, immutable cache header |
 | `/styles.css?v=<current 12-character build hash>` | 200, immutable cache header |
 
-Also check that `studiojpb.com`, which shares the document root, has not acquired
-the portfolio's domain redirects and that existing access restrictions still
-work. Every redirect is conditional on this portfolio's two hostnames.
+The separate [domain migration](DOMAIN-MIGRATION-2026-11-24.md) now authorizes
+consolidating the retired `studiojpb.com` website on the same document root.
+Verify its reviewed page mappings and operational exceptions, and keep existing
+access restrictions, email hosts and all other hosted domains intact.
 
 ## Google Search Console maintenance
 
@@ -186,9 +187,10 @@ selected HTML bytes before sending. The initial batch of 42 URLs returned HTTP
 `--url`, after publication. Do not resubmit unchanged URLs repeatedly or equate
 receipt with indexing. See [the receipt](indexnow-submission-2026-11-24.json).
 
-The `studiojpb.com` alias still serves portfolio pages with a www portfolio
-canonical. The homepage on the inspected jeanpierreboutros.com property has the
-correct Google-selected canonical; that does not establish Google's selection
-for StudioJPB's separate URLs. Review that separate property before changing its
-redirects or identity. No additional DNS changes or property registrations were
-made in this release.
+Historical SEO-release observation: `studiojpb.com` served duplicate portfolio
+pages. The owner has since explicitly authorized its consolidation. See the
+[domain migration report](DOMAIN-MIGRATION-2026-11-24.md) for current redirect
+validation and the prepared Google Change of Address procedure. In the inspected
+Google account only the new domain property is currently available; no old-domain
+ownership or submitted Change of Address is claimed. DNS and email records remain
+unchanged.

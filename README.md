@@ -4,6 +4,11 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
+**Domain consolidation, 24 November 2026:** reviewed rules migrate the retired
+`studiojpb.com` website to the HTTPS www professional domain, with six specific
+legacy page mappings and path/query preservation. DNS and mail services remain
+unchanged. See the [migration report and manual search-console steps](docs/DOMAIN-MIGRATION-2026-11-24.md).
+
 **Gallery update, 24 November 2026:** four owner-supplied RY X photographs have
 faithful, non-generative exposure, color, noise and crop corrections. The gallery
 now contains 40 photographs; six remain initially visible, including the four
@@ -59,6 +64,7 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
+| [Domain migration](docs/DOMAIN-MIGRATION-2026-11-24.md) | Audit, historic URL map, live headers, mail preservation and search-console procedures |
 | [Gallery update](docs/GALLERY-UPDATE-2026-11-24.md) | Four faithfully corrected RY X photographs, preservation checks and release validation |
 | [SEO publication](docs/SEO-RELEASE-2026-11-24.md) | Current 42-page content release, Google/Bing/IndexNow receipts and production checks |
 | [Final SEO live verification](docs/seo-release-final-live-verification-2026-11-24.json) | 243 HTTP checks; 42 pages and 165 resources/discovery files match the published release |
@@ -367,7 +373,7 @@ Documentation-only commits can follow the deployed content commit without changi
 
 The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 41 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
-The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Every redirect is conditional on jeanpierreboutros.com or www.jeanpierreboutros.com, so the other domain is unaffected. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
+The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Canonical redirects apply to jeanpierreboutros.com and www.jeanpierreboutros.com. The separately reviewed migration rules also consolidate studiojpb.com and www.studiojpb.com. Other domains and mail hostnames remain outside these rules; robots, certificate validation and hosting/mail entry points are exempt from old-host migration. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 
 ### Rollback
 

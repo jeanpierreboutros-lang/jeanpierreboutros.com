@@ -1,0 +1,587 @@
+{
+  "checked": "2026-11-24",
+  "results": [
+    {
+      "url": "http://studiojpb.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "http://studiojpb.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.404654,
+      "total_seconds": 1.050522,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://studiojpb.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.629457,
+      "total_seconds": 1.258432,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://studiojpb.com/robots.txt",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/robots.txt",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "336",
+          "content-type": "text/plain"
+        }
+      ],
+      "ttfb_seconds": 0.619732,
+      "total_seconds": 0.620399,
+      "transfer_bytes": 336,
+      "decoded_bytes": 614,
+      "sha256": "a3bbfc9d3d75709ae518623564a38a2ceceb1b03cdecb8d9a9889228a0302f5d"
+    },
+    {
+      "url": "https://studiojpb.com/sitemap.xml",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/sitemap.xml",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "634",
+          "content-type": "application/xml"
+        }
+      ],
+      "ttfb_seconds": 0.606109,
+      "total_seconds": 0.607554,
+      "transfer_bytes": 634,
+      "decoded_bytes": 5416,
+      "sha256": "ab13edf1191843563478e8d89e5de0c6d47554b4d763f9155baee13ce2042e32"
+    },
+    {
+      "url": "https://studiojpb.com/llms.txt",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/llms.txt",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "2522",
+          "content-type": "text/plain"
+        }
+      ],
+      "ttfb_seconds": 0.61144,
+      "total_seconds": 0.612736,
+      "transfer_bytes": 2522,
+      "decoded_bytes": 7597,
+      "sha256": "2b1ca8dbbc443e0c70ea420ea6d8df0c83b1679fed01982b5511c65d884a7da0"
+    },
+    {
+      "url": "https://studiojpb.com/index.html?utm_source=migration-audit&item=one%20two",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/index.html?utm_source=migration-audit&item=one%20two",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:09 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.60213,
+      "total_seconds": 1.25152,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://studiojpb.com/live-sound-engineer",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/live-sound-engineer/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "date": "Tue, 24 Nov 2026 10:08:10 GMT",
+          "server": "Apache",
+          "location": "https://studiojpb.com/live-sound-engineer/",
+          "content-length": "290",
+          "content-type": "text/html; charset=iso-8859-1"
+        },
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:10 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.82322,
+      "total_seconds": 1.020965,
+      "transfer_bytes": 22450,
+      "decoded_bytes": 58851,
+      "sha256": "e036ba98fe7dd7fa195544678fe9b3cdf58f11510e93d90aae5628e4e5bb6db1"
+    },
+    {
+      "url": "https://studiojpb.com/projects/ry-x-qatar-philharmonic-doha/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/projects/ry-x-qatar-philharmonic-doha/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:10 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "15425",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.63625,
+      "total_seconds": 0.816453,
+      "transfer_bytes": 15425,
+      "decoded_bytes": 42742,
+      "sha256": "866b3d07c18ac3c5b68b75e7863570d7e8a79b6be5ae95e3206998e690a58443"
+    },
+    {
+      "url": "https://studiojpb.com/projects/nancy-ajram-olympia/index.html?ref=old",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/projects/nancy-ajram-olympia/index.html?ref=old",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:10 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "15209",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.627296,
+      "total_seconds": 0.806666,
+      "transfer_bytes": 15209,
+      "decoded_bytes": 41686,
+      "sha256": "ceaa2dcc0100b8483a78ab2202a3ad15563083e7b7ce4b3ca1fc71cf0caafa37"
+    },
+    {
+      "url": "https://studiojpb.com/about/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/about/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:11 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.684188,
+      "total_seconds": 0.684779,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "https://studiojpb.com/contact/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/contact/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:11 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.691024,
+      "total_seconds": 0.692262,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "https://studiojpb.com/services/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://studiojpb.com/services/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:11 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "12508",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.69028,
+      "total_seconds": 0.872907,
+      "transfer_bytes": 12508,
+      "decoded_bytes": 35979,
+      "sha256": "b2cb6d93eba8832feab2321988de51111261aa1c4be9039ffc4dbad00d85f87a"
+    },
+    {
+      "url": "https://studiojpb.com/index.php",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/index.php",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:11 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.81079,
+      "total_seconds": 0.811749,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "https://studiojpb.com/wp-sitemap.xml",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/wp-sitemap.xml",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:11 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.572003,
+      "total_seconds": 0.573464,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "https://studiojpb.com/sitemap_index.xml",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/sitemap_index.xml",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.667929,
+      "total_seconds": 0.668547,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "https://studiojpb.com/migration-audit-unmatched-20261124/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 404,
+      "effective_url": "https://studiojpb.com/migration-audit-unmatched-20261124/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 404 Not Found",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.692332,
+      "total_seconds": 0.693028,
+      "transfer_bytes": 462,
+      "decoded_bytes": 746,
+      "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+    },
+    {
+      "url": "http://www.studiojpb.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "http://www.studiojpb.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.437342,
+      "total_seconds": 1.005823,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://www.studiojpb.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://www.studiojpb.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.579948,
+      "total_seconds": 1.126383,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://www.jeanpierreboutros.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "location": "https://www.jeanpierreboutros.com/",
+          "content-length": "282",
+          "content-type": "text/html; charset=iso-8859-1"
+        },
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:13 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 1.025771,
+      "total_seconds": 1.66701,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://www.jeanpierreboutros.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "date": "Tue, 24 Nov 2026 10:08:12 GMT",
+          "server": "Apache",
+          "location": "https://www.jeanpierreboutros.com/",
+          "content-length": "282",
+          "content-type": "text/html; charset=iso-8859-1"
+        },
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:13 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 1.224107,
+      "total_seconds": 1.86128,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "http://www.jeanpierreboutros.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://www.jeanpierreboutros.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "date": "Tue, 24 Nov 2026 10:08:13 GMT",
+          "server": "Apache",
+          "location": "https://www.jeanpierreboutros.com/",
+          "content-length": "282",
+          "content-type": "text/html; charset=iso-8859-1"
+        },
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:13 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 1.012964,
+      "total_seconds": 1.56499,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "agent": "JPB-Domain-Migration-Audit/1.0",
+      "curl_exit": 0,
+      "status": 200,
+      "effective_url": "https://www.jeanpierreboutros.com/",
+      "redirects": [
+        {
+          "status": "HTTP/1.1 200 OK",
+          "date": "Tue, 24 Nov 2026 10:08:13 GMT",
+          "server": "Apache",
+          "last-modified": "Tue, 24 Nov 2026 09:57:51 GMT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "transfer-encoding": "chunked",
+          "content-type": "text/html"
+        }
+      ],
+      "ttfb_seconds": 0.622606,
+      "total_seconds": 1.156298,
+      "transfer_bytes": 93147,
+      "decoded_bytes": 258788,
+      "sha256": "83fa743ab5bbbe60f12993cf75fdf22b85d0258e85db51aeeb9dea26b904f771"
+    }
+  ]
+}

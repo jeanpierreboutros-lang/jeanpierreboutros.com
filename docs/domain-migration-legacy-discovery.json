@@ -1,0 +1,266 @@
+{
+  "checked": "2026-11-24",
+  "archive_count": 34,
+  "legacy_html": [
+    {
+      "original": "http://studiojpb.com/cpanel",
+      "mimetype": "text/html",
+      "timestamp": "20150223084553",
+      "archive_request": "https://web.archive.org/web/20150223084553id_/http://studiojpb.com/cpanel",
+      "curl_exit": 0,
+      "archive_text_excerpt": " cPanel Redirect Connection Selection .... trying: preferred If you are not behind a firewall that blocks port 2083 Enter Here If you are behind a firewall and can not connect to port 2083 Enter Here ",
+      "live": {
+        "url": "https://studiojpb.com/cpanel",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://studiojpb.com/cpanel",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 200 OK",
+            "date": "Tue, 24 Nov 2026 10:10:41 GMT",
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "13959",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.723975,
+        "total_seconds": 0.797915,
+        "transfer_bytes": 13959,
+        "decoded_bytes": 34630,
+        "sha256": "a1547885670ceec3f00d034bcf30a4088cd38b1e7e29cae92c5ce68a005b4880"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/About_Us.html",
+      "mimetype": "text/html",
+      "timestamp": "20130705011812",
+      "archive_request": "https://web.archive.org/web/20130705011812id_/http://studiojpb.com:80/studiojpb.com/About_Us.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " About Us Our mission is to provide uncompromising pursuit of perfection in delivering the highest quality, value of service, level of commitment and ethical behavior for our clients. JPB Studio has a reputation of a multi-purpose recording studio capable of accommodating virtually all your audio, composition and recording requirements. Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/About_Us.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/About_Us.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:39 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.645872,
+        "total_seconds": 0.64667,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/Clients.html",
+      "mimetype": "text/html",
+      "timestamp": "20130705011820",
+      "archive_request": "https://web.archive.org/web/20130705011820id_/http://studiojpb.com:80/studiojpb.com/Clients.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " Clients Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/Clients.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/Clients.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:40 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.626575,
+        "total_seconds": 0.627404,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/Contact_Us.html",
+      "mimetype": "text/html",
+      "timestamp": "20140125084930",
+      "archive_request": "https://web.archive.org/web/20140125084930id_/http://studiojpb.com:80/studiojpb.com/Contact_Us.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " Contact Us Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/Contact_Us.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/Contact_Us.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:40 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.553944,
+        "total_seconds": 0.555022,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/Gallery.html",
+      "mimetype": "text/html",
+      "timestamp": "20130705011846",
+      "archive_request": "https://web.archive.org/web/20130705011846id_/http://studiojpb.com:80/studiojpb.com/Gallery.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " Gallery Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/Gallery.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/Gallery.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:42 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.631097,
+        "total_seconds": 0.633814,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/Home.html",
+      "mimetype": "text/html",
+      "timestamp": "20130705011942",
+      "archive_request": "https://web.archive.org/web/20130705011942id_/http://studiojpb.com:80/studiojpb.com/Home.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " Home Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/Home.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/Home.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:41 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.601533,
+        "total_seconds": 0.602038,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com:80/studiojpb.com/Services.html",
+      "mimetype": "text/html",
+      "timestamp": "20140125085004",
+      "archive_request": "https://web.archive.org/web/20140125085004id_/http://studiojpb.com:80/studiojpb.com/Services.html",
+      "curl_exit": 0,
+      "archive_text_excerpt": " Services Copyrights to Studio Jean-Pierre Boutros 2012 ",
+      "live": {
+        "url": "https://studiojpb.com/studiojpb.com/Services.html",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 404,
+        "effective_url": "https://studiojpb.com/studiojpb.com/Services.html",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 404 Not Found",
+            "date": "Tue, 24 Nov 2026 10:10:42 GMT",
+            "server": "Apache",
+            "last-modified": "Wed, 25 Mar 2026 21:28:51 GMT",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "462",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.685548,
+        "total_seconds": 0.689226,
+        "transfer_bytes": 462,
+        "decoded_bytes": 746,
+        "sha256": "63c52aa99ca361b59a27e7f51fe5fadffef99e671f8b4f9560fab204219e0666"
+      }
+    },
+    {
+      "original": "http://studiojpb.com/webmail",
+      "mimetype": "text/html",
+      "timestamp": "20150223114001",
+      "archive_request": "https://web.archive.org/web/20150223114001id_/http://studiojpb.com/webmail",
+      "curl_exit": 0,
+      "archive_text_excerpt": " cPanel Redirect Connection Selection .... trying: preferred If you are not behind a firewall that blocks port 2096 Enter Here If you are behind a firewall and can not connect to port 2096 Enter Here ",
+      "live": {
+        "url": "https://studiojpb.com/webmail",
+        "agent": "JPB-Domain-Migration-Audit/1.0",
+        "curl_exit": 0,
+        "status": 200,
+        "effective_url": "https://studiojpb.com/webmail",
+        "redirects": [
+          {
+            "status": "HTTP/1.1 200 OK",
+            "date": "Tue, 24 Nov 2026 10:10:45 GMT",
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "13965",
+            "content-type": "text/html"
+          }
+        ],
+        "ttfb_seconds": 0.756299,
+        "total_seconds": 0.758371,
+        "transfer_bytes": 13965,
+        "decoded_bytes": 34635,
+        "sha256": "26b9f1f88bc08ce648b111de65966412e135038b579014c9f357ae36bb20cc70"
+      }
+    }
+  ]
+}

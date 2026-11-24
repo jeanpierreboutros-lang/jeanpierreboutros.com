@@ -2,7 +2,61 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# Limit every redirect to this portfolio's domain on the shared document root.
+# Consolidate only the two retired website hosts. DNS, mail hosts and other
+# hosted domains are outside this scope. Keep robots, certificate validation,
+# ownership proof and hosting/mail entry points available on the original host.
+# An environment flag avoids stopping unrelated existing access-control rules.
+RewriteCond %{HTTP_HOST} ^(www\.)?studiojpb\.com(:[0-9]+)?$ [NC]
+RewriteCond %{REQUEST_URI} !^/(robots\.txt$|\.well-known/(acme-challenge|pki-validation)(/|$)|(cpanel|webmail|whm|webdisk|autodiscover|autoconfig)(/|$)|BingSiteAuth\.xml$|google[a-f0-9]+\.html$) [NC]
+RewriteRule ^ - [E=JPB_OLD_SITE_MIGRATION:1]
+
+# Verified legacy iWeb pages; see domain-migration.json for provenance and intent.
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/Home\.html$ https://www.jeanpierreboutros.com/ [R=301,L,NE,NC]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/About_Us\.html$ https://www.jeanpierreboutros.com/projects/studio-jpb/ [R=301,L,NE,NC]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/Clients\.html$ https://www.jeanpierreboutros.com/studio-credits/ [R=301,L,NE,NC]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/Services\.html$ https://www.jeanpierreboutros.com/services/ [R=301,L,NE,NC]
+
+# Keep queries before the fragment, with a clean URL when no query exists.
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteCond %{QUERY_STRING} !^$
+RewriteRule ^studiojpb\.com/Gallery\.html$ https://www.jeanpierreboutros.com/?%{QUERY_STRING}#gallery [R=301,L,NE,NC]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/Gallery\.html$ https://www.jeanpierreboutros.com/#gallery [R=301,L,NE,NC]
+
+# Keep queries before the fragment, with a clean URL when no query exists.
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteCond %{QUERY_STRING} !^$
+RewriteRule ^studiojpb\.com/Contact_Us\.html$ https://www.jeanpierreboutros.com/?%{QUERY_STRING}#contact [R=301,L,NE,NC]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteRule ^studiojpb\.com/Contact_Us\.html$ https://www.jeanpierreboutros.com/#contact [R=301,L,NE,NC]
+
+# Normalize old index and directory URLs directly to the final HTTPS www URL.
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteCond %{THE_REQUEST} \s/+[^\s?]*index\.html[?\s] [NC]
+RewriteRule ^(.*/)?index\.html$ https://www.jeanpierreboutros.com/$1 [R=301,L]
+
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.+)$ https://www.jeanpierreboutros.com/$1/ [R=301,L]
+
+# Capture the raw request path so encoded spaces, percent signs and hashes
+# remain encoded. Apache may decode REQUEST_URI in per-directory rewrites.
+# The target contains no new query, so Apache preserves the original query.
+RewriteCond %{ENV:JPB_OLD_SITE_MIGRATION} =1
+RewriteCond %{THE_REQUEST} \s+(/[^?\s]*)
+RewriteRule ^ https://www.jeanpierreboutros.com%1 [R=301,L,NE]
+
+# Limit the remaining canonical redirects to the active portfolio domain.
 # Remove an explicitly requested index.html, preserving the query string.
 RewriteCond %{HTTP_HOST} ^(www\.)?jeanpierreboutros\.com(:[0-9]+)?$ [NC]
 RewriteCond %{THE_REQUEST} \s/+[^\s?]*index\.html[?\s] [NC]

@@ -1,0 +1,62 @@
+{
+  "checked": "2026-11-24",
+  "source_hosts": [
+    "studiojpb.com",
+    "www.studiojpb.com"
+  ],
+  "destination_origin": "https://www.jeanpierreboutros.com",
+  "status": 301,
+  "query_policy": "Preserve the original query string; do not append a replacement query. Fragment targets retain the query before the fragment.",
+  "default": "Preserve path on the primary origin. Unknown resources finish with a real 404, never a homepage fallback.",
+  "operational_exceptions": [
+    "robots.txt",
+    "/.well-known/acme-challenge/",
+    "/.well-known/pki-validation/",
+    "/cpanel",
+    "/webmail",
+    "/whm",
+    "/webdisk",
+    "/autodiscover",
+    "/autoconfig",
+    "/BingSiteAuth.xml",
+    "/google<verification-token>.html"
+  ],
+  "legacy_pages": [
+    {
+      "source_path": "/studiojpb.com/Home.html",
+      "destination": "/",
+      "reason": "Former studio homepage; the primary professional homepage retains the StudioJPB identity.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    },
+    {
+      "source_path": "/studiojpb.com/About_Us.html",
+      "destination": "/projects/studio-jpb/",
+      "reason": "Archived studio description maps to the dedicated StudioJPB practice page.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    },
+    {
+      "source_path": "/studiojpb.com/Clients.html",
+      "destination": "/studio-credits/",
+      "reason": "Legacy clients page had placeholder content; the named studio credits directory supplies the relevant current destination.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    },
+    {
+      "source_path": "/studiojpb.com/Services.html",
+      "destination": "/services/",
+      "reason": "Archived recording, mixing and mastering services map to the current engineering services directory.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    },
+    {
+      "source_path": "/studiojpb.com/Gallery.html",
+      "destination": "/#gallery",
+      "reason": "Current photographic gallery.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    },
+    {
+      "source_path": "/studiojpb.com/Contact_Us.html",
+      "destination": "/#contact",
+      "reason": "Current professional contact details; old email accounts remain operational.",
+      "evidence": "Internet Archive CDX and retrieved 2013\u20132014 snapshot; current old URL returned 404 before migration. Archive presence does not establish current search indexing."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "checked": "2026-11-24",
+  "records": [
+    {
+      "name": "studiojpb.com",
+      "type": "NS",
+      "answer": "studiojpb.com.\t\t86400\tIN\tNS\tns8001.hostgator.com.\nstudiojpb.com.\t\t86400\tIN\tNS\tns8002.hostgator.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "A",
+      "answer": "studiojpb.com.\t\t14400\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "AAAA",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "MX",
+      "answer": "studiojpb.com.\t\t14400\tIN\tMX\t0 studiojpb.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "TXT",
+      "answer": "studiojpb.com.\t\t14400\tIN\tTXT\t\"v=spf1 a mx include:websitewelcome.com ~all\"",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "CAA",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "studiojpb.com",
+      "type": "SOA",
+      "answer": "studiojpb.com.\t\t86400\tIN\tSOA\tns8001.hostgator.com. dnsadmin.gator4001.hostgator.com. 2026112300 86400 7200 3600000 86400",
+      "exit_code": 0
+    },
+    {
+      "name": "www.studiojpb.com",
+      "type": "CNAME",
+      "answer": "www.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "www.studiojpb.com",
+      "type": "A",
+      "answer": "www.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "www.studiojpb.com",
+      "type": "AAAA",
+      "answer": "www.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "_dmarc.studiojpb.com",
+      "type": "TXT",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "default._domainkey.studiojpb.com",
+      "type": "TXT",
+      "answer": "default._domainkey.studiojpb.com. 14400\tIN TXT\t\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6izqkWsVHczGX6jElqq/oDX+Ik72tUbuO/lAKYhsSbdGawMN82fpihLM/nvRmCE/2cd8zQrZ6RV+3NM5plRBY1MtCV8OxD5Xm7HjnAwWQ5moILdtaRlt+0LGSWNl5gcOzcMdXknSV4WLTSYkYmfHCFMm2VHSDuzifLbk4xUyBOHXDgPMBkpMoVfj528G94lVV\" \"lgzjZTghed2X12uBmK25vTAPgtr+vYOrdSZ2vXEAgJ0lkcKB8nlw5FEM+DNlOKdqZa+mUYxJMpvANubcJrqf02aO7AqTeRszZFwqn5zvpAmytzARnV/u4kaYS9X4JXLBUhcLDHErPhwSfqXbDuoIwIDAQAB;\"",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.studiojpb.com",
+      "type": "A",
+      "answer": "mail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.studiojpb.com",
+      "type": "AAAA",
+      "answer": "mail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.studiojpb.com",
+      "type": "CNAME",
+      "answer": "mail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "autodiscover.studiojpb.com",
+      "type": "CNAME",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "autodiscover.studiojpb.com",
+      "type": "A",
+      "answer": "autodiscover.studiojpb.com. 14400 IN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "autoconfig.studiojpb.com",
+      "type": "CNAME",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "autoconfig.studiojpb.com",
+      "type": "A",
+      "answer": "autoconfig.studiojpb.com. 14400\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "NS",
+      "answer": "jeanpierreboutros.com.\t86400\tIN\tNS\tns8001.hostgator.com.\njeanpierreboutros.com.\t86400\tIN\tNS\tns8002.hostgator.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "A",
+      "answer": "jeanpierreboutros.com.\t14400\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "AAAA",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "MX",
+      "answer": "jeanpierreboutros.com.\t14400\tIN\tMX\t0 mail.jeanpierreboutros.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "TXT",
+      "answer": "jeanpierreboutros.com.\t14400\tIN\tTXT\t\"google-site-verification=3MrxpalDojdD8wQpi33MuRqYI3u7pm0YTv9kG-uyqbw\"\njeanpierreboutros.com.\t14400\tIN\tTXT\t\"v=spf1 ip4:192.185.4.12 a mx include:websitewelcome.com ~all\"",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "CAA",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "jeanpierreboutros.com",
+      "type": "SOA",
+      "answer": "jeanpierreboutros.com.\t86400\tIN\tSOA\tns8001.hostgator.com. root.gator4001.hostgator.com. 2026111602 86400 7200 3600000 86400",
+      "exit_code": 0
+    },
+    {
+      "name": "www.jeanpierreboutros.com",
+      "type": "CNAME",
+      "answer": "www.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "www.jeanpierreboutros.com",
+      "type": "A",
+      "answer": "www.jeanpierreboutros.com. 10235 IN\tCNAME\tjeanpierreboutros.com.\njeanpierreboutros.com.\t10235\tIN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "www.jeanpierreboutros.com",
+      "type": "AAAA",
+      "answer": "www.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.",
+      "exit_code": 0
+    },
+    {
+      "name": "_dmarc.jeanpierreboutros.com",
+      "type": "TXT",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "default._domainkey.jeanpierreboutros.com",
+      "type": "TXT",
+      "answer": "default._domainkey.jeanpierreboutros.com. 14400\tIN TXT \"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnnbUJ1l96CoXVxc6uvuhix58RqFf9LtyXnw5U4zgw7fY/1Bmb4QxE9yJ19jnct27VPOlQXI+Kr4nvFMTMjWIH0ozsYMh0k2RGu8dxUVbpF4MoKj7W3Kwx7yYABXB38sd9CUJOI+qdlXeLfS6K26RXWibg8NN9yuP/99coIK/xFQ55Y+Vct2EyDPfZ5mqTvwQX\" \"6cDeFNmIitwZ8jke2M5J2bP9We8/toLfI1o2Y5YrwOnyOjUZvAiYNxmsklgaJ39Y+FazRyut9bI9ea7/FY8B+FOb1cFZObN2PARJQjdFXbq1f58MXPpJS2fobYXZCOTjtqxnZ4VdBgCAamuCYZzwwIDAQAB;\"",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.jeanpierreboutros.com",
+      "type": "A",
+      "answer": "mail.jeanpierreboutros.com. 14400 IN\tA\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.jeanpierreboutros.com",
+      "type": "AAAA",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "mail.jeanpierreboutros.com",
+      "type": "CNAME",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "CNAME",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "A",
+      "answer": "autodiscover.jeanpierreboutros.com. 14400 IN A\t192.185.16.224",
+      "exit_code": 0
+    },
+    {
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "CNAME",
+      "answer": "",
+      "exit_code": 0
+    },
+    {
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "A",
+      "answer": "autoconfig.jeanpierreboutros.com. 14400\tIN A\t192.185.16.224",
+      "exit_code": 0
+    }
+  ]
+}

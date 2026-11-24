@@ -1,0 +1,1928 @@
+{
+  "checked": "2026-11-24",
+  "scope": "Isolated real Apache HTTP fixture; production TLS and redirects are validated separately.",
+  "checks": 320,
+  "passed": true,
+  "results": [
+    {
+      "path": "/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/"
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/"
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/"
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/"
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/broadcast-audio-engineer/"
+    },
+    {
+      "path": "/international-projects/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/international-projects/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/international-projects/"
+    },
+    {
+      "path": "/international-projects/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/international-projects/"
+    },
+    {
+      "path": "/international-projects/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/international-projects/"
+    },
+    {
+      "path": "/international-projects/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/international-projects/"
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/"
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/"
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/"
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/live-sound-engineer/"
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/mixing-mastering/"
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/mixing-mastering/"
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/mixing-mastering/"
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/mixing-mastering/"
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/orchestra-sound-engineer/"
+    },
+    {
+      "path": "/projects/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/"
+    },
+    {
+      "path": "/projects/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/"
+    },
+    {
+      "path": "/projects/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/"
+    },
+    {
+      "path": "/projects/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/"
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-baalbeck/"
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/abeer-nehme-qatar/"
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/al-sharq-symphony/"
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/baligh-hamdi-night/"
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beirut-the-sea-lover/"
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/beiteddine-marco-polo/"
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/carole-samaha-golden-album/"
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/cartoon-orchestra/"
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-abeer-nehme/"
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-adam/"
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ehdeniyat-al-shami/"
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/lebanese-philharmonic-diman/"
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-amman/"
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-baalbeck/"
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marcel-khalife-muscat/"
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/marina-viotti/"
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/mazeej-ndu/"
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-expo-dubai/"
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-jounieh/"
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/"
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/night-of-arab-stars/"
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/papal-broadcast/"
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/"
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/"
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/"
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/"
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-integration/"
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-integration/"
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-integration/"
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-integration/"
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/tarteeb-shareet-doha/"
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/the-eighties/"
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/the-eighties/"
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/the-eighties/"
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/the-eighties/"
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/warda-night/"
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/warda-night/"
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/warda-night/"
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/warda-night/"
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-amman/"
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/zade-dirani-dbayeh/"
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/recording-engineer/"
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/recording-engineer/"
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/recording-engineer/"
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/recording-engineer/"
+    },
+    {
+      "path": "/services/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/services/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/services/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/services/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/services/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "localhost",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-system-integration/"
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-system-integration/"
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-system-integration/"
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-system-integration/"
+    },
+    {
+      "path": "/studiojpb.com/Home.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Home.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studiojpb.com/Services.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Services.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#contact"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#contact"
+    },
+    {
+      "path": "/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/robots.txt",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/.well-known/acme-challenge/migration-probe",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-probe",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/autodiscover/migration-probe",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/google1234567890abcdef.html",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/BingSiteAuth.xml",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-protected.txt",
+      "host": "studiojpb.com",
+      "status": 403,
+      "location": null
+    },
+    {
+      "path": "/studiojpb.com/Home.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Home.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studiojpb.com/Services.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Services.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#contact"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#contact"
+    },
+    {
+      "path": "/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "www.studiojpb.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/robots.txt",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/.well-known/acme-challenge/migration-probe",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-probe",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/autodiscover/migration-probe",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/google1234567890abcdef.html",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/BingSiteAuth.xml",
+      "host": "www.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-protected.txt",
+      "host": "www.studiojpb.com",
+      "status": 403,
+      "location": null
+    },
+    {
+      "path": "/studiojpb.com/Home.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Home.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studiojpb.com/Services.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Services.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#contact"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#contact"
+    },
+    {
+      "path": "/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "STUDIOJPB.COM",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/robots.txt",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/.well-known/acme-challenge/migration-probe",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-probe",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/autodiscover/migration-probe",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/google1234567890abcdef.html",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/BingSiteAuth.xml",
+      "host": "STUDIOJPB.COM",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-protected.txt",
+      "host": "STUDIOJPB.COM",
+      "status": 403,
+      "location": null
+    },
+    {
+      "path": "/studiojpb.com/Home.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Home.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/About_Us.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Clients.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/studio-credits/"
+    },
+    {
+      "path": "/studiojpb.com/Services.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/studiojpb.com/Services.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/services/"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Gallery.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#gallery"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23#contact"
+    },
+    {
+      "path": "/studiojpb.com/Contact_Us.html",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/#contact"
+    },
+    {
+      "path": "/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/projects/studio-jpb/index.html?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/studio-jpb/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/missing%20photo%23name.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/unmatched/?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/sitemap.xml?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23",
+      "host": "studiojpb.com:80",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/photos/ry-x-backstage-portrait-2026.jpg?utm_source=old&ref=one%20two&encoded=a%2Fb&literal=%26%23"
+    },
+    {
+      "path": "/robots.txt",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/.well-known/acme-challenge/migration-probe",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-probe",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/autodiscover/migration-probe",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/google1234567890abcdef.html",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/BingSiteAuth.xml",
+      "host": "studiojpb.com:80",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/webmail/migration-protected.txt",
+      "host": "studiojpb.com:80",
+      "status": 403,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "mail.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "webmail.studiojpb.com",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "unrelated.example",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "studiojpb.com.evil.example",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/",
+      "host": "jeanpierreboutros.com.evil.example",
+      "status": 200,
+      "location": null
+    },
+    {
+      "path": "/unmatched/",
+      "host": "localhost",
+      "status": 404,
+      "location": null
+    }
+  ]
+}

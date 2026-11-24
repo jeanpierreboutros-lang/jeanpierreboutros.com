@@ -1,0 +1,233 @@
+{
+  "checked": "2026-11-24",
+  "results": [
+    {
+      "host": "studiojpb.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "YR2"
+          ]
+        ]
+      ],
+      "not_before": "Oct 31 17:32:39 2026 GMT",
+      "not_after": "Jan 29 17:32:38 2027 GMT",
+      "subject_alt_names": [
+        [
+          "DNS",
+          "*.jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "*.studiojpb.com"
+        ],
+        [
+          "DNS",
+          "jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "mail.rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "studiojpb.com"
+        ],
+        [
+          "DNS",
+          "www.rnb.ozv.temporary.site"
+        ]
+      ]
+    },
+    {
+      "host": "www.studiojpb.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "YR2"
+          ]
+        ]
+      ],
+      "not_before": "Oct 31 17:32:39 2026 GMT",
+      "not_after": "Jan 29 17:32:38 2027 GMT",
+      "subject_alt_names": [
+        [
+          "DNS",
+          "*.jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "*.studiojpb.com"
+        ],
+        [
+          "DNS",
+          "jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "mail.rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "studiojpb.com"
+        ],
+        [
+          "DNS",
+          "www.rnb.ozv.temporary.site"
+        ]
+      ]
+    },
+    {
+      "host": "jeanpierreboutros.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "YR2"
+          ]
+        ]
+      ],
+      "not_before": "Oct 31 17:32:39 2026 GMT",
+      "not_after": "Jan 29 17:32:38 2027 GMT",
+      "subject_alt_names": [
+        [
+          "DNS",
+          "*.jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "*.studiojpb.com"
+        ],
+        [
+          "DNS",
+          "jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "mail.rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "studiojpb.com"
+        ],
+        [
+          "DNS",
+          "www.rnb.ozv.temporary.site"
+        ]
+      ]
+    },
+    {
+      "host": "www.jeanpierreboutros.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "YR2"
+          ]
+        ]
+      ],
+      "not_before": "Oct 31 17:32:39 2026 GMT",
+      "not_after": "Jan 29 17:32:38 2027 GMT",
+      "subject_alt_names": [
+        [
+          "DNS",
+          "*.jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "*.studiojpb.com"
+        ],
+        [
+          "DNS",
+          "jeanpierreboutros.com"
+        ],
+        [
+          "DNS",
+          "mail.rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "rnb.ozv.temporary.site"
+        ],
+        [
+          "DNS",
+          "studiojpb.com"
+        ],
+        [
+          "DNS",
+          "www.rnb.ozv.temporary.site"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "checked": "2026-11-24",
+  "source": "Verisign .com RDAP; no private contact records collected",
+  "domains": [
+    {
+      "domain": "studiojpb.com",
+      "status": [
+        "client delete prohibited",
+        "client renew prohibited",
+        "client transfer prohibited",
+        "client update prohibited"
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2008-06-30T09:24:50Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-06-30T09:24:50Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-06-30T19:14:20Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-24T10:15:31Z"
+        }
+      ],
+      "nameservers": [
+        "NS8001.HOSTGATOR.COM",
+        "NS8002.HOSTGATOR.COM"
+      ],
+      "registrar": [
+        {
+          "handle": "146",
+          "name": [
+            "GoDaddy.com, LLC"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "jeanpierreboutros.com",
+      "status": [
+        "client delete prohibited",
+        "client renew prohibited",
+        "client transfer prohibited",
+        "client update prohibited"
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2023-02-24T18:20:38Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-02-24T18:20:38Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-02-23T15:57:11Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-24T10:15:31Z"
+        }
+      ],
+      "nameservers": [
+        "NS8001.HOSTGATOR.COM",
+        "NS8002.HOSTGATOR.COM"
+      ],
+      "registrar": [
+        {
+          "handle": "146",
+          "name": [
+            "GoDaddy.com, LLC"
+          ]
+        }
+      ]
+    }
+  ]
+}
