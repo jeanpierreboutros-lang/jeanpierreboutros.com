@@ -14,6 +14,7 @@ from hashlib import sha256
 from urllib.parse import unquote, urlsplit
 from urllib.robotparser import RobotFileParser
 from xml.etree import ElementTree as ET
+from seo_content import CASE_STUDIES, PRODUCTS, PROJECT_METADATA
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.jeanpierreboutros.com"
@@ -164,7 +165,9 @@ def main():
     tree = ET.parse(ROOT / "sitemap.xml")
     entries = tree.findall("{*}url")
     urls = [entry.findtext("{*}loc") for entry in entries]
-    assert len(urls) == len(set(urls)) == 41, "Expected 41 unique canonical pages"
+    assert len(urls) == len(set(urls)) == 42, "Expected 42 unique canonical pages"
+    inventory = {ROOT / url.removeprefix(SITE).strip("/") / "index.html" for url in urls}
+    assert inventory == set(ROOT.rglob("index.html")), "Sitemap must cover every generated HTML page"
     pages = {}
     for url in urls:
         assert url.startswith(SITE + "/") and url.endswith("/") and "?" not in url
@@ -176,6 +179,8 @@ def main():
         assert page.h1 == 1, (path, "H1")
         assert len(page.titles) == 1 and page.titles[0].strip(), (path, "title")
         assert page.meta.get("description", "").strip(), (path, "description")
+        assert 20 <= len(page.titles[0]) <= 65, (path, "Editorial title length")
+        assert 100 <= len(page.meta["description"]) <= 165, (path, "Editorial description length")
         assert "noindex" not in page.meta.get("robots", ""), path
         assert page.meta.get("ga-measurement-id") == "G-KHS391KEP1", (path, "Analytics stream")
         assert 'src="https://www.googletagmanager.com/' not in text, (path, "Tag loaded before consent")
@@ -208,13 +213,30 @@ def main():
         assert len(page.json) == 1 and page.json[0].get("@graph"), (path, "JSON-LD")
         identity = next(item for item in page.json[0]["@graph"] if item.get("@type") == "Person")
         assert identity["@id"] == SITE + "/#person" and identity["name"] == "Jean-Pierre Boutros"
+        assert len(identity["sameAs"]) == 4 and len(set(identity["sameAs"])) == 4
+        assert "Audio software development" in identity["knowsAbout"]
+        if url != SITE + "/":
+            breadcrumb = next(n for n in page.json[0]["@graph"] if n.get("@type") == "BreadcrumbList")
+            items = breadcrumb["itemListElement"]
+            assert [i["position"] for i in items] == list(range(1, len(items) + 1))
+            assert items[-1]["item"]["@id"] == url
+        if url == SITE + "/audio-software-developer/":
+            applications = [n for n in page.json[0]["@graph"] if n.get("@type") == "SoftwareApplication"]
+            assert {n["name"] for n in applications} == {p[2] for p in PRODUCTS}
+            assert all(p[0] in page.ids for p in PRODUCTS)
+            assert all("offers" not in n and "aggregateRating" not in n for n in applications)
+        if url.startswith(SITE + "/projects/") and url != SITE + "/projects/":
+            slug = url.removeprefix(SITE + "/projects/").strip("/")
+            assert (page.titles[0], page.meta["description"]) == PROJECT_METADATA[slug]
+            if slug in CASE_STUDIES:
+                assert CASE_STUDIES[slug][0] in text
         pages[path] = page
         for ref in page.refs + [page.meta["og:image"], page.meta["twitter:image"]]:
             target = local_target(ref, path)
             if target:
                 assert target[0].is_file(), (path, ref, "missing local target")
     assert len({page.titles[0] for page in pages.values()}) == 41, "Duplicate titles"
-    assert len({page.meta["description"] for page in pages.values()}) == 41, "Duplicate descriptions"
+    assert len({page.meta["description"] for page in pages.values()}) == len(urls), "Duplicate descriptions"
     incoming = Counter()
     for source, page in pages.items():
         for ref in page.refs:
@@ -288,7 +310,7 @@ def main():
     if args.vocabulary:
         checked = vocabulary_check([p.json[0] for p in pages.values()], args.vocabulary)
         print(f"PASS: {checked} Schema.org property/domain/range checks against official vocabulary")
-    print("PASS: 41 pages; unique metadata/H1s; canonical URLs; local assets, fragments and ARIA references; no orphan pages; preserved project/gallery counts and specific roles; search access and GPTBot exclusion.")
+    print("PASS: 42 pages; complete sitemap; unique concise metadata/H1s; canonicals and breadcrumbs; local assets, fragments and ARIA references; no orphan pages; 30 projects and 36 gallery photographs; software entities; verified roles; search access and GPTBot exclusion.")
 
 
 if __name__ == "__main__":

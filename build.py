@@ -11,6 +11,7 @@ from search_pages import HOME_DESCRIPTION, asset_url, faq_html, graph, json_text
 from services import AVAILABILITY, HOME_FAQ, SERVICES
 from studio_credits import CREDIT_GROUPS, studio_groups_html
 from measurement import measurement_markup
+from seo_content import PRODUCTS
 
 OUT = Path(__file__).resolve().parent
 e = html.escape
@@ -79,11 +80,7 @@ tv = [
     ("Abu Dhabi TV", "Ghanni Al Aali", "Music television"),
     ("Al Mayadeen TV", "Ethnophilia", "Music documentary series"),
 ]
-zyn = [
-    ("zynforge-live.png", "Zynforge Live", "Live performance", "A plugin host for taking audio processing onto the stage."),
-    ("zynforge-recording.png", "Zynforge Recording", "Recording & playback", "Multitrack recording and playback for live performance."),
-    ("zynforge-stage.png", "Zynforge Stage", "Production planning", "Stage plots and technical riders for planning a production."),
-]
+zyn = PRODUCTS
 navigation = [("work", "Selected work"), ("credits", "Credits"), ("about", "About"),
               ("zynforge", "Zynforge"), ("gallery", "Gallery"), ("contact", "Contact")]
 
@@ -294,8 +291,8 @@ tv_html = "\n".join(f'''<li class="broadcast-row">
 zyn_html = "\n".join(f'''<article class="product-card">
   {image(filename, "", css="zyn-icon", sizes="64px")}
   <p class="product-category">{e(category)}</p>
-  <h3>{e(title)}</h3><p>{e(description)}</p>
-</article>''' for filename, title, category, description in zyn)
+  <h3><a href="/audio-software-developer/#{slug}">{e(title)}</a></h3><p>{e(description)}</p>
+</article>''' for slug, filename, title, category, description in zyn)
 
 gallery_items = []
 gallery_data = []
@@ -919,7 +916,8 @@ for project, article in zip(projects, project_articles):
   <p class="project-permalink"><a class="text-link" href="/projects/{slug}/">Read the full project page <span aria-hidden="true">↗</span></a></p>
 </dialog>''')
     filename = gallery[photo][0] if isinstance(photo, int) else photo
-    alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
+    alt = next((entry[2] for entry in gallery if entry[0] == filename),
+               "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
     source = gallery_sources.get(filename)
     source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
     poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34) else ''
@@ -1047,7 +1045,7 @@ INDEX = f'''<!DOCTYPE html>
             <h2 class="section-title" id="about-title">A working life<br />in sound.</h2>
             <p class="lead">I’m Jean-Pierre Boutros, an international sound engineer based in Lebanon, working with artists, musicians, and production teams worldwide.</p>
             <p>My work moves between the stage, the studio, and the broadcast desk: live sound, front-of-house and monitor mixing, concerts and festivals, recording, studio mixing, mastering, and audio system integration. I bring the same attention to each: understanding the performance and shaping the sound around it.</p>
-            <p>I founded StudioJPB in 2008. Alongside engineering and studio integration, I build audio software through Zynforge Audio, turning everyday production challenges into practical tools.</p>
+            <p>I founded StudioJPB in 2008. Alongside engineering and studio integration, I build audio software through <a href="/audio-software-developer/">Zynforge Audio</a>, turning everyday production challenges into practical tools.</p>
             <a class="text-link" href="{e(profile_url)}" download="Jean-Pierre-Boutros-Profile.pdf" aria-label="Download Jean-Pierre Boutros’s professional profile (PDF, 1 page, {profile_size})">Download profile (PDF) <span aria-hidden="true">↓</span></a>
           </div>
           <figure class="about-photo" data-reveal>

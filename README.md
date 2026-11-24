@@ -4,6 +4,13 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
+**Local SEO audit candidate, 24 November 2026 — not deployed:** the reviewed build
+has 42 canonical pages, a dedicated Zynforge/software page, concise project
+metadata, three expanded case studies and prepared IndexNow support. The existing
+live release below remains the 41-page publication. Read the [new audit and
+validation report](docs/SEO-AUDIT-2026-11-24.md) for changes, measured local results,
+remaining account steps and publication limits. The live deployment is on hold.
+
 Published **24 November 2026**, content release `04a1d8a`: RY X with the
 Qatar Philharmonic Orchestra at QNCC, Auditorium 3, Doha, for Doha Film
 Festival’s DFF Music programme on 23 November 2026. Jean-Pierre confirmed

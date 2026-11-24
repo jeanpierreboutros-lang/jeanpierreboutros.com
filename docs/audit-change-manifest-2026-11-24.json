@@ -1,0 +1,580 @@
+{
+  "checked": "2026-11-24",
+  "scope": "Reviewed source, generated pages and evidence; no deployment. Manifest excludes itself.",
+  "files": [
+    {
+      "path": ".cpanel.yml",
+      "change": "modified",
+      "baseline_sha256": "0ff5b790da8493386047489454ab28909b5c8c69be923347510eaab32f5ab2cc",
+      "sha256": "a3dff7d445f766c4e0f8f74014726e1148c3a80d08a66d61d4fdc9e7f0ba8096",
+      "bytes": 823
+    },
+    {
+      "path": "README.md",
+      "change": "modified",
+      "baseline_sha256": "fac739377ee33c276b72a7fcb45bdc1f346d588f7e9f62d3f1aae5cf8c7b07f6",
+      "sha256": "7968d92788c61f5d1299db776113f7aa4cd53d59c5eb98bfa3383b621739ae3f",
+      "bytes": 53428
+    },
+    {
+      "path": "audio-software-developer/index.html",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "6218ecd1cd97f4e6a52ccb8524d81095d3a90230db10d71bba6c8c5584b2a890",
+      "bytes": 35346
+    },
+    {
+      "path": "audit_live.py",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "fc8035740cb3c5a9a39c03d8d830f271e2eeb39cbfaa5c2622d4140331f6c837",
+      "bytes": 5363
+    },
+    {
+      "path": "broadcast-audio-engineer/index.html",
+      "change": "modified",
+      "baseline_sha256": "7afdd7128032730ae3c617a114d79fccf2f4fcc6cf93088bede442d0a1e51169",
+      "sha256": "e6a21dc7b8451c4edb02f22ecd6cfc15c3fc5fa04e4d5a2d510a3fa27482d76c",
+      "bytes": 37304
+    },
+    {
+      "path": "build.py",
+      "change": "modified",
+      "baseline_sha256": "53404804c0725dfa0ef21b2fe1b04245dda1f8ce63ac30d4690f60020f7a306e",
+      "sha256": "7cd7e4b8f58a8f46405fcbc335afe03202e55b8081f2913e390557bc02ab0e09",
+      "bytes": 106123
+    },
+    {
+      "path": "check_site.py",
+      "change": "modified",
+      "baseline_sha256": "f5f955812beb12ad99a1e6f27df466ae76cf1bc4b54b3f434e1144151f50bcfe",
+      "sha256": "cd7eaa092fbacb59c7978f303a40317b3d3f7262f7969b477a816f16fff66e4e",
+      "bytes": 17544
+    },
+    {
+      "path": "docs/SEARCH-CONSOLE.md",
+      "change": "modified",
+      "baseline_sha256": "0267d4b351b5b57ab7e09334cbf04e0ec6b991ca3595c395740ac92569494305",
+      "sha256": "90c34757ca170c4adb77b93f52ad7469288b611b6bee97ba37d33c8ca2460747",
+      "bytes": 12488
+    },
+    {
+      "path": "docs/SEO-AUDIT-2026-11-24.md",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "37cf78b1d700fb3b3935b59681003bc80166055c1345e63c667d5324bcdc9f24",
+      "bytes": 27986
+    },
+    {
+      "path": "docs/apache-audit-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "e233710beb2860f3827cd264b9a2728e89b11c20b70f8d69f12b5ee4cc010fbe",
+      "bytes": 10405
+    },
+    {
+      "path": "docs/audit-after-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "5a9d9a7a1267a06d167f7b42bd05f49bce35035334cfbdceb257db49e134b06d",
+      "bytes": 17003
+    },
+    {
+      "path": "docs/audit-baseline-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "d6013abcc9b2322788255669f56feff02d4df63aa57912b93c3b6494b5aaeb61",
+      "bytes": 18751
+    },
+    {
+      "path": "docs/browser-accessibility-audit-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "d1ebc0b62902a04b37f186fcf15a9eba7b45d614533aa7d6f706a2aff6e6dc82",
+      "bytes": 26387
+    },
+    {
+      "path": "docs/delivery-follow-up-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "9cb501dfab8b9b8cf51498542a626e6457be16186947624eb87f5a395e0659e1",
+      "bytes": 36677
+    },
+    {
+      "path": "docs/indexnow-prepared-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "3815d47c79a391eaae7ba57f0ecd163289dc492eca24a2922d4b9ff23e9c7fc6",
+      "bytes": 3005
+    },
+    {
+      "path": "docs/lighthouse-after-desktop-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "8ee2782d8ab884b3bd5d3e906a18d27affc79396103d83bc19070e6faff9ddf4",
+      "bytes": 1275403
+    },
+    {
+      "path": "docs/lighthouse-after-mobile-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "0f48401124f0dc0c2dfb5500a0b4657430d59add7dd820be693d083d3636961f",
+      "bytes": 984211
+    },
+    {
+      "path": "docs/lighthouse-before-desktop-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "82b78ecb1886a6309a1ce8d24011f6ccdeb4588481b860fe6c6a4e68c0ae82a2",
+      "bytes": 1279969
+    },
+    {
+      "path": "docs/lighthouse-before-mobile-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "529241228e29fcacba1abe3c8e7fc4af93e834b42c435ea8fb049d2085cc7151",
+      "bytes": 985916
+    },
+    {
+      "path": "docs/lighthouse-case-study-mobile-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "66d8308fef5156305dec050333bdcb1cc31154520a4c1434888e9dda3a5c7796",
+      "bytes": 685375
+    },
+    {
+      "path": "docs/lighthouse-software-mobile-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "2f4826ae55a123817b5b1ca103d4b287b2b9b34d9fb133b308dbec6b83593c50",
+      "bytes": 630647
+    },
+    {
+      "path": "docs/lighthouse-summary-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "84caa81a9dc4b364fa1d858cb20a4b9f77d48558ec86bc930c3f99a237f810bb",
+      "bytes": 3347
+    },
+    {
+      "path": "docs/pagespeed-desktop-attempt-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "9d27fabf17a8a72a059c7dc08ec1d6d8a524a5c6ce1da62845ee0642e1b898ea",
+      "bytes": 1346
+    },
+    {
+      "path": "docs/pagespeed-mobile-attempt-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "b2ab4b842d5cbcb8abe88bf58d5bf95cec42d1670b9937542298f94503594e8e",
+      "bytes": 1346
+    },
+    {
+      "path": "docs/preview-after-1440-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "0c468753077ba320abbf6cb99c29a3d3c18a02abb5b037d0279f9a7e340062df",
+      "bytes": 74666
+    },
+    {
+      "path": "docs/preview-after-390-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "8f48510fdd4381df81d0c3bdcd3c3e71249454683c82d023a950980d6d6eb6ce",
+      "bytes": 140949
+    },
+    {
+      "path": "docs/preview-before-1440-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "16f8c12d88c5984dd03f5c40fc3cfab9a379ef61b958ef0c3ec88f5a5382fb6a",
+      "bytes": 418081
+    },
+    {
+      "path": "docs/preview-before-390-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "8f48510fdd4381df81d0c3bdcd3c3e71249454683c82d023a950980d6d6eb6ce",
+      "bytes": 140949
+    },
+    {
+      "path": "docs/preview-software-1440-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "80fc379be2b714c71a7d7aaed2cf46a25edb6c45b65c37e9fed4a7a5a714f5a9",
+      "bytes": 281778
+    },
+    {
+      "path": "docs/preview-software-390-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "ff6ef98363ac60ccde25cf6b6658ff30d1149c3393a6cfa2b6cccad54f9954b3",
+      "bytes": 223213
+    },
+    {
+      "path": "docs/preview-zynforge-1440-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "301345fae05392f07fdb19ac853e8633875cef7bdd25b4433a074715a1117498",
+      "bytes": 85425
+    },
+    {
+      "path": "docs/preview-zynforge-390-2026-11-24.png",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "fa6887f406cd9f174d0e8621c0ade6f5dd9bb28d4c1c3a245db810fa6cb322f8",
+      "bytes": 57144
+    },
+    {
+      "path": "docs/public-delivery-audit-2026-11-24.json",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "592f2376684e4a001a8875f6aef9f1cba6a0169b2850cf5eeae17ce327be942a",
+      "bytes": 812383
+    },
+    {
+      "path": "index.html",
+      "change": "modified",
+      "baseline_sha256": "edc989b364abdd0d181ac13f7c9beae6b54c815e789395f8fddf5a235fcaa865",
+      "sha256": "c4e462a8d8968ffef6346c7900fdc654a21d16ee8de2d8425faa0fec1cd02620",
+      "bytes": 252690
+    },
+    {
+      "path": "indexnow-key.txt",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "db48fa9357308c45a9f287410f32cf75d396ba7b10c7172f2bed043e7a03774b",
+      "bytes": 33
+    },
+    {
+      "path": "indexnow.py",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "58571b07c732f6dfb604aaabfde6190223872e3ab4160eab82cd23b6c56e3d17",
+      "bytes": 3627
+    },
+    {
+      "path": "international-projects/index.html",
+      "change": "modified",
+      "baseline_sha256": "33178e3dd3f1103de0134a4f4615894d808193b4edf7c2877cece6fb941a1a63",
+      "sha256": "1df2a08b6ea49753784a61628d7bdd9a3ab746aea2fbab02d35007ab40eb5461",
+      "bytes": 38123
+    },
+    {
+      "path": "live-sound-engineer/index.html",
+      "change": "modified",
+      "baseline_sha256": "737ff51e02b921cf4c370400c861632ae1a32536cfb250d54f3a746e70a02aef",
+      "sha256": "e9d47431ff372013955a2f39bea3ed5738c010f12acb3f7ab75d13e3c869d719",
+      "bytes": 57709
+    },
+    {
+      "path": "llms.txt",
+      "change": "modified",
+      "baseline_sha256": "38b80890f19c8b966864a53af6aa983cb7ea23f9c943e96077d4f6b719e73aba",
+      "sha256": "2b1ca8dbbc443e0c70ea420ea6d8df0c83b1679fed01982b5511c65d884a7da0",
+      "bytes": 7597
+    },
+    {
+      "path": "mixing-mastering/index.html",
+      "change": "modified",
+      "baseline_sha256": "653f2c0ec8830136f7e2447765ea6f9d3a7de836f50cf33cc3e6fdadac62a58e",
+      "sha256": "d3be9ec73def7e532e61a2135f4122a5538d36dfd91f53cb157113bd00d975da",
+      "bytes": 39570
+    },
+    {
+      "path": "orchestra-sound-engineer/index.html",
+      "change": "modified",
+      "baseline_sha256": "9365990055845e9e61cda6d1ad7df0fea3ea826a54fac672ae8a5cee245c8bc5",
+      "sha256": "3368fb0e08cca494d17d5e7b70982c8eb62cb9dcfb79b6a30ed7ed4abc5ce7f3",
+      "bytes": 46326
+    },
+    {
+      "path": "projects/abeer-nehme-baalbeck/index.html",
+      "change": "modified",
+      "baseline_sha256": "efe4fe06d4aef3449f8e0f6c72fe66baf2d461c7383b619333825f9503981fba",
+      "sha256": "4bed4ff1310dc40f1b6e643af71cd890c677218fdb32b99766e2a9751a13aa3a",
+      "bytes": 39711
+    },
+    {
+      "path": "projects/abeer-nehme-qatar/index.html",
+      "change": "modified",
+      "baseline_sha256": "408c318d529aa546844f5b9c0a5c31a812008668b39acb29fa8d5fabf660e63b",
+      "sha256": "637a4c9cc5a060b13982ef8a4a81aa3c3c67cfd248bb2acb4bfd0637618cb821",
+      "bytes": 39423
+    },
+    {
+      "path": "projects/al-sharq-symphony/index.html",
+      "change": "modified",
+      "baseline_sha256": "6c93d3efae20ec8c542a89fb21b3c6256e7daaab964608136cc6c1ed8e4599ea",
+      "sha256": "9353bed57b804c194814b97930bb229a16080aeef874455a49350531721150f8",
+      "bytes": 39192
+    },
+    {
+      "path": "projects/baligh-hamdi-night/index.html",
+      "change": "modified",
+      "baseline_sha256": "ee5a6261478ff101d183e73a995bd1ac4fa0e887ca0b4e1e1fea3ebb82344ed2",
+      "sha256": "4dfee53dc3c4d60eaf30b9f49868b72b0bc3a86e26a317d843c6f775ba1d60b1",
+      "bytes": 39378
+    },
+    {
+      "path": "projects/beirut-the-sea-lover/index.html",
+      "change": "modified",
+      "baseline_sha256": "af26a0f4e29fce558532a906932016c1ba9728c006353de5a7cbd89069206dcb",
+      "sha256": "9caacf76c70c98792fdfc5b6b0eacb2effa4e67a60932c40af760b7156530e0c",
+      "bytes": 37941
+    },
+    {
+      "path": "projects/beiteddine-marco-polo/index.html",
+      "change": "modified",
+      "baseline_sha256": "3454728f1f63ff41107bb20a7190aa562c5b61d0c57e383ebd22cfaeeafd4e3d",
+      "sha256": "ef760f1761a7564de3a1b7227a25cdffa669cb57d6e16836709a85b48643e698",
+      "bytes": 37739
+    },
+    {
+      "path": "projects/carole-samaha-golden-album/index.html",
+      "change": "modified",
+      "baseline_sha256": "b97bb47c9c62db21d830028fa58a58686d1c61340b30d65101149c0d8d6660fb",
+      "sha256": "c63e40db24a4fdaf408f3d09d413e27feb4706d5a52c6104423d8cf29c01d99a",
+      "bytes": 38285
+    },
+    {
+      "path": "projects/cartoon-orchestra/index.html",
+      "change": "modified",
+      "baseline_sha256": "889ee638607c10f3153e710d821dcfe9b1bfffac6f590b8422304ffd64d6d179",
+      "sha256": "ecf68d955a86dac9ac38ced4b74bef8d7b3cae1df7d4236c0f42a2b34301d6d3",
+      "bytes": 39340
+    },
+    {
+      "path": "projects/ehdeniyat-abeer-nehme/index.html",
+      "change": "modified",
+      "baseline_sha256": "734143ec32e47e85c38cf9b0f5a2a3a3cc2c7ff814d5498b8948d573d5247b79",
+      "sha256": "073b2e169703b852ee531ac5815a1a0d482c809a25053f5d56adffc4bb4e68bd",
+      "bytes": 39621
+    },
+    {
+      "path": "projects/ehdeniyat-adam/index.html",
+      "change": "modified",
+      "baseline_sha256": "5cfb3cdd59abd4d7aa06bc8ef74663f7227fdcebe46fd5201d42ed9526704037",
+      "sha256": "688916fa887d0c235e51217d2ce022069423c866eccffc0b0f8744106a5e03ad",
+      "bytes": 39260
+    },
+    {
+      "path": "projects/ehdeniyat-al-shami/index.html",
+      "change": "modified",
+      "baseline_sha256": "77a388ef03dcf60a48973b55c0aca87c6f1df99631b6e9d634d1398335b048d8",
+      "sha256": "00f24540d1f957a6979dce98eb9e8a007462b29a0afc58094866f30606b9440f",
+      "bytes": 39320
+    },
+    {
+      "path": "projects/index.html",
+      "change": "modified",
+      "baseline_sha256": "ab6769b39fac683e696f5cc1197bf762a65e4360baa48f1c07219201f85f987d",
+      "sha256": "cd2095dbb09b319168524e5d919d02767cb447d67366d984bdaf90211df10705",
+      "bytes": 84648
+    },
+    {
+      "path": "projects/lebanese-philharmonic-diman/index.html",
+      "change": "modified",
+      "baseline_sha256": "a4a6f43f09f32ffd944227f17140cbb72dafaba59ac33c4f31b014e6bfd72f12",
+      "sha256": "3b606f779875b90fc54546378686585ed7ef94a1721053619d83e196a1428428",
+      "bytes": 39489
+    },
+    {
+      "path": "projects/marcel-khalife-amman/index.html",
+      "change": "modified",
+      "baseline_sha256": "3916652fb0718fd64d64e8f4493aadf109f72cb7ea77003c334112effdcd0db1",
+      "sha256": "262e3253c280d53b1891edd715645337be7b3190a512575835c76340a3673e75",
+      "bytes": 41029
+    },
+    {
+      "path": "projects/marcel-khalife-baalbeck/index.html",
+      "change": "modified",
+      "baseline_sha256": "276a392b82db354f4f15695f49942ffefd31354ef454c82e577f9dbde0571f90",
+      "sha256": "0c4c497262420874912a00142c1a1d1776aad0136a44670c8199a68a5e8ee406",
+      "bytes": 39696
+    },
+    {
+      "path": "projects/marcel-khalife-muscat/index.html",
+      "change": "modified",
+      "baseline_sha256": "c4253181de4d8572b34f5ecb604ded962d10f412a9f3a35de54373a361f836ca",
+      "sha256": "e9a6e9c910391b5b85f19d8cef12b603111499c1a59028118592e7370346dede",
+      "bytes": 39374
+    },
+    {
+      "path": "projects/marina-viotti/index.html",
+      "change": "modified",
+      "baseline_sha256": "346cfe0e0e4165862f9c22739fa48ebb8a9b9f2c8e33aa16142adc7b6c4f4a12",
+      "sha256": "0c28e7df38a890945e27c665bd884da6428e5335f75d5580a5b66aad6c903a28",
+      "bytes": 39333
+    },
+    {
+      "path": "projects/mazeej-ndu/index.html",
+      "change": "modified",
+      "baseline_sha256": "2bf713dfd85dde708730a520ae0cc4b48b4ca79eda7319be0078919a39d14a24",
+      "sha256": "e00d0dc8abde98dc3371e0f59fffc54c95c18bd0f70bc99c32d36e8109b7bacd",
+      "bytes": 38767
+    },
+    {
+      "path": "projects/nancy-ajram-expo-dubai/index.html",
+      "change": "modified",
+      "baseline_sha256": "a7ded1ed3cf59e2c6ae140a098a7df0b151530523ee716a984d307237a4ef07a",
+      "sha256": "9467996fb73d4f6c07e354b65a3a6e2bc6b9f67369580126241b0aba59dc2b9e",
+      "bytes": 39070
+    },
+    {
+      "path": "projects/nancy-ajram-jounieh/index.html",
+      "change": "modified",
+      "baseline_sha256": "d1562651838bd5f12ed3c2c801f5fb3a0646d72e0ae1fdabb48ee81dd49c3218",
+      "sha256": "3ec366d6f1e9e5c7a0eda803d0ec009eec196aca5ef4c896e74c79d2f36e03e6",
+      "bytes": 39362
+    },
+    {
+      "path": "projects/nancy-ajram-olympia/index.html",
+      "change": "modified",
+      "baseline_sha256": "0bd26db801af565ae778be1041412f31eaad086641df2484280ffa438a782bd5",
+      "sha256": "dc41b0e99690a163ff199365010458d01d772c393342463d7a3b40300fd83239",
+      "bytes": 40544
+    },
+    {
+      "path": "projects/night-of-arab-stars/index.html",
+      "change": "modified",
+      "baseline_sha256": "b4b8ee09bf50f6270bc425bbeecbdf2e3a4f10af0971be8edfc9bb54df2a7bf3",
+      "sha256": "1d0b960b7a7e34dcea09dd203f155fa8edd5be0abd93fe87731b830b0f8c3ede",
+      "bytes": 39507
+    },
+    {
+      "path": "projects/papal-broadcast/index.html",
+      "change": "modified",
+      "baseline_sha256": "c52e17cbf92dddb9905cb74af96d40dd4c2217e7bc98f25f1926ba020e839588",
+      "sha256": "94dd27a87a62f4a592032fd76f87276561301e3612a77beca93310a79176ee76",
+      "bytes": 34370
+    },
+    {
+      "path": "projects/ry-x-qatar-philharmonic-doha/index.html",
+      "change": "modified",
+      "baseline_sha256": "e99e5c589943c6de5cb02aaab7d8eb3bee4cff70f05b2c2545fbd2805092bf9a",
+      "sha256": "b142988460c77d57fb7912930e54b717cff7cf09641f3d309265f75ce246ea62",
+      "bytes": 41600
+    },
+    {
+      "path": "projects/studio-integration/index.html",
+      "change": "modified",
+      "baseline_sha256": "97f94372fc90c78979fafeaf54660bd3d9b5cccc2be8c9c47d9b97e90fa0d920",
+      "sha256": "6d5aeec56d8e543e13b6e1e22e3b799fe549ef983e14d4c5b82ea10182bc9510",
+      "bytes": 37868
+    },
+    {
+      "path": "projects/studio-jpb/index.html",
+      "change": "modified",
+      "baseline_sha256": "3f287ad092943c199cc2427f2b2dae221f5cc70a40c429bc7c485a8a10524ffc",
+      "sha256": "2fec4e991eb4243be18ddc1ec2e885983ce7beda4f9338ee9840278f3b0576ba",
+      "bytes": 37765
+    },
+    {
+      "path": "projects/tarteeb-shareet-doha/index.html",
+      "change": "modified",
+      "baseline_sha256": "76471cbe7b06d815333f1b2b9c8bc67c67cbd39816b63f165f2e31f59c8aaaef",
+      "sha256": "0ab9761316a2787c272b4c4c1841411da7ceb6b5b00bd311f8fc564752c60cfa",
+      "bytes": 39667
+    },
+    {
+      "path": "projects/the-eighties/index.html",
+      "change": "modified",
+      "baseline_sha256": "45a40eca7640db117ff6cdc6ddc89ff0036c82c28763157cdb83c91002fdf9f0",
+      "sha256": "2c145e4421583cd1dd9a1759e957d3b508a3f48bb1f01570b136ea2ef2871190",
+      "bytes": 39400
+    },
+    {
+      "path": "projects/warda-night/index.html",
+      "change": "modified",
+      "baseline_sha256": "9b2a23488d1ba8d449b703386b25cdfe4c01ae8748bb620e9a17fea4ee4a2ff2",
+      "sha256": "7efed4fd10f3f29d7e08845405ce1576dcb8634e258ceb02228b03c69b6a54db",
+      "bytes": 39051
+    },
+    {
+      "path": "projects/zade-dirani-amman/index.html",
+      "change": "modified",
+      "baseline_sha256": "5b2e93c893c40e432a118cce1b8083bdad3996281b53f7e8c21663fb7685e053",
+      "sha256": "9cde7eac32d9cb51a878046826fd02e987b71159e0f22163b8e67d90dfbcb742",
+      "bytes": 39564
+    },
+    {
+      "path": "projects/zade-dirani-dbayeh/index.html",
+      "change": "modified",
+      "baseline_sha256": "456836faf745f377338c568f4028c4359de4e6806f138dd34b8c0aff7d3acda7",
+      "sha256": "dd4228c1cf1d77ffed11701ab19c9853dbc1dcacceaa9049b2ade4ca79948786",
+      "bytes": 38850
+    },
+    {
+      "path": "recording-engineer/index.html",
+      "change": "modified",
+      "baseline_sha256": "f00e5e374f8ababe9c2c6b033fa8c3c930e18d47b9e06bd69ea669aa87c0fdb9",
+      "sha256": "81888614b894eee6720a9d8bf3b61a103ee6f89cc321941f714e8497282711d6",
+      "bytes": 40027
+    },
+    {
+      "path": "search_pages.py",
+      "change": "modified",
+      "baseline_sha256": "ff85122d5adbfdf7e47e0cba9a30287fcc8f96707dd6806d92f9acfb2e3191c1",
+      "sha256": "93cf51309e9cf2042f12747e6566d7a4900b1b98778f3508492d1cc05c83323e",
+      "bytes": 39247
+    },
+    {
+      "path": "seo_content.py",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "8a4ae7982d2363cdaa1269c8716c3a8db68c66412a6d304e79cf4addde4909c0",
+      "bytes": 10807
+    },
+    {
+      "path": "services/index.html",
+      "change": "modified",
+      "baseline_sha256": "d8f3146a6408deeefb891a927dd72d4e4af60eee259829e85be7e7199a969802",
+      "sha256": "7d713692ebbd8d786ddbe36a6e71d4e126bbb57b17d4344675f1dd99284a3608",
+      "bytes": 34837
+    },
+    {
+      "path": "services.py",
+      "change": "modified",
+      "baseline_sha256": "eaa7c8657fbccff5bb6f87188f923efd0ec10fc90e5cc4fd4d98ad879d5c796f",
+      "sha256": "2fcff3877f4a0ec925973ba9fe9fe66a81e3d73d9ad1038b69dce8f954b86922",
+      "bytes": 25821
+    },
+    {
+      "path": "sitemap.xml",
+      "change": "modified",
+      "baseline_sha256": "2233e7d93073b0e13cf1092d4403c31df8859392299de40a73a7e0990a929a38",
+      "sha256": "ab13edf1191843563478e8d89e5de0c6d47554b4d763f9155baee13ce2042e32",
+      "bytes": 5416
+    },
+    {
+      "path": "studio-credits/index.html",
+      "change": "modified",
+      "baseline_sha256": "226e6b2ccaee2de2e8caea6255264d104d8044d2d068a963d8210a6e058fa4d4",
+      "sha256": "a0416d41b7a202716210ea38c68e7eff59ce79f7a0b479f353a118cc75285666",
+      "bytes": 57851
+    },
+    {
+      "path": "studio-system-integration/index.html",
+      "change": "modified",
+      "baseline_sha256": "712b4673b1d160f4b85846f714b7b4948b7d48452f942527e9a1ba2e51d7302e",
+      "sha256": "86a57c3d598510c301fa1c8a13fe2ecc25faf1628a88d66930823a58cba084f3",
+      "bytes": 38759
+    },
+    {
+      "path": "styles.css",
+      "change": "modified",
+      "baseline_sha256": "123992556f5e93a89afbbb4d5cdbf0d5ef99b91df6c54c8bb4fc02fe2c0a7feb",
+      "sha256": "f99ec2c02e0b62e1112fe9d8ef090b66c7e6a6708e72866009721fae0d391f08",
+      "bytes": 54988
+    },
+    {
+      "path": "test_indexnow.py",
+      "change": "new",
+      "baseline_sha256": null,
+      "sha256": "9d389f1722d940f7595b58d24e3be61a0a7167e7616bc45f1ff43203ad214aec",
+      "bytes": 2385
+    }
+  ]
+}

@@ -165,3 +165,22 @@ later snippet refinement passed local checks and Bing's final live test with no
 SEO/GEO issues. A new full mobile/keyboard interaction matrix and field Core Web
 Vitals measurement were not performed after deployment; earlier local checks
 retain their original scope. See [the release report](RELEASE-2026-11-16.md).
+
+
+## Prepared local audit candidate — 24 November 2026
+
+The new [audit report](SEO-AUDIT-2026-11-24.md) describes an unpublished 42-page
+candidate. Keep the existing verified Google/Bing properties and DNS records.
+After an authorized deployment, inspect `/audio-software-developer/`, refresh the
+existing sitemap, verify selected canonicals and retry public PageSpeed tests.
+The `studiojpb.com` alias currently serves portfolio pages with a www portfolio
+canonical; inspect selected canonicals before deciding on that separate domain.
+
+`indexnow-key.txt` is prepared public ownership proof, and `indexnow.py` defaults
+to offline preparation. The deployment manifest includes the key. No IndexNow
+submission has occurred. After the exact candidate is live, use `--url` for
+changed canonical URLs and explicitly add `--submit`. The tool verifies the live
+key and exact selected page bytes before sending; stale HTML stops submission.
+See [the prepared payload](indexnow-prepared-2026-11-24.json). This does not submit
+to Google or prove indexing. Existing registration instructions above remain
+valid; no new fabricated verification meta tags were introduced.

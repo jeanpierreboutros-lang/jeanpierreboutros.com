@@ -1,0 +1,1190 @@
+{
+  "checked": "2026-11-24",
+  "browser": "Installed Google Chrome, headless Playwright",
+  "axe": "4.11.0; WCAG 2 A/AA + 2.1 A/AA",
+  "scans": [
+    {
+      "route": "/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/audio-software-developer/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/broadcast-audio-engineer/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/international-projects/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/live-sound-engineer/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/mixing-mastering/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/orchestra-sound-engineer/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/abeer-nehme-baalbeck/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/abeer-nehme-qatar/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/al-sharq-symphony/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/baligh-hamdi-night/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/beirut-the-sea-lover/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/beiteddine-marco-polo/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/carole-samaha-golden-album/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/cartoon-orchestra/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-abeer-nehme/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-adam/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-al-shami/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/lebanese-philharmonic-diman/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-amman/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-baalbeck/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-muscat/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marina-viotti/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/mazeej-ndu/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-expo-dubai/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-jounieh/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-olympia/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/night-of-arab-stars/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/papal-broadcast/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ry-x-qatar-philharmonic-doha/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/studio-integration/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/studio-jpb/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/tarteeb-shareet-doha/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/the-eighties/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/warda-night/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/zade-dirani-amman/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/zade-dirani-dbayeh/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/recording-engineer/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/studio-credits/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/studio-system-integration/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/audio-software-developer/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/broadcast-audio-engineer/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/international-projects/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/live-sound-engineer/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/mixing-mastering/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/orchestra-sound-engineer/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/abeer-nehme-baalbeck/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/abeer-nehme-qatar/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/al-sharq-symphony/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/baligh-hamdi-night/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/beirut-the-sea-lover/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/beiteddine-marco-polo/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/carole-samaha-golden-album/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/cartoon-orchestra/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-abeer-nehme/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-adam/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ehdeniyat-al-shami/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/lebanese-philharmonic-diman/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-amman/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-baalbeck/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marcel-khalife-muscat/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/marina-viotti/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/mazeej-ndu/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-expo-dubai/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-jounieh/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/nancy-ajram-olympia/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/night-of-arab-stars/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/papal-broadcast/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/ry-x-qatar-philharmonic-doha/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/studio-integration/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/studio-jpb/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/tarteeb-shareet-doha/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/the-eighties/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/warda-night/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/zade-dirani-amman/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/projects/zade-dirani-dbayeh/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/recording-engineer/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/studio-credits/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "route": "/studio-system-integration/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "horizontal_overflow": false
+    }
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "label": "before",
+      "width": 390,
+      "bounds": {
+        ".hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 952.9375
+        },
+        ".hero-title": {
+          "x": 20,
+          "y": 145.4375,
+          "width": 350,
+          "height": 113.328125
+        },
+        "#work": {
+          "x": 0,
+          "y": 952.9375,
+          "width": 390,
+          "height": 6852.296875
+        },
+        "#credits": {
+          "x": 0,
+          "y": 7805.234375,
+          "width": 390,
+          "height": 4955.359375
+        },
+        "#about": {
+          "x": 0,
+          "y": 12760.59375,
+          "width": 390,
+          "height": 2095.59375
+        },
+        "#zynforge": {
+          "x": 0,
+          "y": 14856.1875,
+          "width": 390,
+          "height": 826.390625
+        },
+        "#gallery": {
+          "x": 0,
+          "y": 15682.578125,
+          "width": 390,
+          "height": 1165.578125
+        },
+        "#contact": {
+          "x": 0,
+          "y": 16848.15625,
+          "width": 390,
+          "height": 774.09375
+        },
+        ".site-directory": {
+          "x": 0,
+          "y": 17622.25,
+          "width": 390,
+          "height": 449.34375
+        }
+      }
+    },
+    {
+      "label": "after",
+      "width": 390,
+      "bounds": {
+        ".hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 952.9375
+        },
+        ".hero-title": {
+          "x": 20,
+          "y": 145.4375,
+          "width": 350,
+          "height": 113.328125
+        },
+        "#work": {
+          "x": 0,
+          "y": 952.9375,
+          "width": 390,
+          "height": 6852.296875
+        },
+        "#credits": {
+          "x": 0,
+          "y": 7805.234375,
+          "width": 390,
+          "height": 4955.359375
+        },
+        "#about": {
+          "x": 0,
+          "y": 12760.59375,
+          "width": 390,
+          "height": 2095.59375
+        },
+        "#zynforge": {
+          "x": 0,
+          "y": 14856.1875,
+          "width": 390,
+          "height": 826.390625
+        },
+        "#gallery": {
+          "x": 0,
+          "y": 15682.578125,
+          "width": 390,
+          "height": 1165.578125
+        },
+        "#contact": {
+          "x": 0,
+          "y": 16848.15625,
+          "width": 390,
+          "height": 774.09375
+        },
+        ".site-directory": {
+          "x": 0,
+          "y": 17622.25,
+          "width": 390,
+          "height": 493.34375
+        }
+      }
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "bounds": {
+        ".hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 908.75
+        },
+        ".hero-title": {
+          "x": 56,
+          "y": 164.640625,
+          "width": 1328,
+          "height": 97.453125
+        },
+        "#work": {
+          "x": 0,
+          "y": 908.75,
+          "width": 1440,
+          "height": 8284
+        },
+        "#credits": {
+          "x": 0,
+          "y": 9192.75,
+          "width": 1440,
+          "height": 2700.75
+        },
+        "#about": {
+          "x": 0,
+          "y": 11893.5,
+          "width": 1440,
+          "height": 1578.078125
+        },
+        "#zynforge": {
+          "x": 0,
+          "y": 13471.578125,
+          "width": 1440,
+          "height": 741.46875
+        },
+        "#gallery": {
+          "x": 0,
+          "y": 14213.046875,
+          "width": 1440,
+          "height": 1371.234375
+        },
+        "#contact": {
+          "x": 0,
+          "y": 15584.28125,
+          "width": 1440,
+          "height": 521.390625
+        },
+        ".site-directory": {
+          "x": 0,
+          "y": 16105.671875,
+          "width": 1440,
+          "height": 293.34375
+        }
+      }
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "bounds": {
+        ".hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 908.75
+        },
+        ".hero-title": {
+          "x": 56,
+          "y": 164.640625,
+          "width": 1328,
+          "height": 97.453125
+        },
+        "#work": {
+          "x": 0,
+          "y": 908.75,
+          "width": 1440,
+          "height": 8284
+        },
+        "#credits": {
+          "x": 0,
+          "y": 9192.75,
+          "width": 1440,
+          "height": 2700.75
+        },
+        "#about": {
+          "x": 0,
+          "y": 11893.5,
+          "width": 1440,
+          "height": 1578.078125
+        },
+        "#zynforge": {
+          "x": 0,
+          "y": 13471.578125,
+          "width": 1440,
+          "height": 741.46875
+        },
+        "#gallery": {
+          "x": 0,
+          "y": 14213.046875,
+          "width": 1440,
+          "height": 1371.234375
+        },
+        "#contact": {
+          "x": 0,
+          "y": 15584.28125,
+          "width": 1440,
+          "height": 521.390625
+        },
+        ".site-directory": {
+          "x": 0,
+          "y": 16105.671875,
+          "width": 1440,
+          "height": 337.34375
+        }
+      }
+    }
+  ],
+  "layout_differences": [
+    {
+      "width": 390,
+      "selector": ".site-directory",
+      "before": {
+        "x": 0,
+        "y": 17622.25,
+        "width": 390,
+        "height": 449.34375
+      },
+      "after": {
+        "x": 0,
+        "y": 17622.25,
+        "width": 390,
+        "height": 493.34375
+      }
+    },
+    {
+      "width": 1440,
+      "selector": ".site-directory",
+      "before": {
+        "x": 0,
+        "y": 16105.671875,
+        "width": 1440,
+        "height": 293.34375
+      },
+      "after": {
+        "x": 0,
+        "y": 16105.671875,
+        "width": 1440,
+        "height": 337.34375
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "width": 390,
+      "project_dialog": "pass",
+      "nested_photo_viewer": "pass",
+      "escape_focus_restore": "pass",
+      "legacy_hash": "pass",
+      "filters": "pass",
+      "gallery_expand": "pass",
+      "mobile_menu": "pass",
+      "skip_link": "pass",
+      "profile_links": 3,
+      "product_anchors": "pass"
+    },
+    {
+      "width": 320,
+      "narrow_viewport_reflow": true
+    },
+    {
+      "width": 1440,
+      "project_dialog": "pass",
+      "nested_photo_viewer": "pass",
+      "escape_focus_restore": "pass",
+      "legacy_hash": "pass",
+      "filters": "pass",
+      "gallery_expand": "pass",
+      "mobile_menu": "not_applicable",
+      "skip_link": "pass",
+      "profile_links": 3,
+      "product_anchors": "pass"
+    },
+    {
+      "width": 720,
+      "narrow_viewport_reflow": true
+    }
+  ],
+  "no_javascript": "pass",
+  "limits": "Automated checks and keyboard interaction tests; no human VoiceOver audit. Reflow test uses a narrower CSS viewport.",
+  "additional_tests": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/recording-engineer/",
+      "width": 320,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/projects/ry-x-qatar-philharmonic-doha/",
+      "width": 320,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/audio-software-developer/",
+      "width": 320,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "scope": "baseline",
+      "root_text_size": "200%",
+      "width": 1440,
+      "overflow": true,
+      "heading_visible": true
+    },
+    {
+      "scope": "candidate",
+      "root_text_size": "200%",
+      "width": 1440,
+      "overflow": false,
+      "heading_visible": true
+    }
+  ]
+}

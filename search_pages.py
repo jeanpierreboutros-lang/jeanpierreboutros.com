@@ -11,6 +11,7 @@ from xml.etree import ElementTree as ET
 from services import AVAILABILITY, HOME_FAQ, REVIEWED, SERVICES, SERVICE_BY_SLUG
 from studio_credits import CREDIT_GROUPS, studio_groups_html
 from measurement import measurement_head, measurement_markup
+from seo_content import CASE_STUDIES, PRODUCTS, PROJECT_METADATA
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.jeanpierreboutros.com"
@@ -20,8 +21,8 @@ WEBSITE = SITE + "/#website"
 DESCRIPTION = ("Lebanon-based international sound engineer Jean-Pierre Boutros: "
                "FOH for concerts and festivals, recording, mixing, mastering, broadcast "
                "and studio integration. Available worldwide by arrangement.")
-HOME_DESCRIPTION = ("Jean-Pierre Boutros, Lebanon-based international sound engineer for FOH, "
-                    "concerts, recording, mixing, broadcast and studio integration. Available worldwide.")
+HOME_DESCRIPTION = ("Jean-Pierre Boutros: Lebanon-based FOH, live, orchestra, recording and mixing "
+                    "engineer, and audio software developer. Available for worldwide projects.")
 e = html.escape
 PAGE_REVIEW_DATES = {
     path: "2026-11-16" for path in (
@@ -35,6 +36,13 @@ PAGE_REVIEW_DATES.update({
         "/live-sound-engineer/", "/orchestra-sound-engineer/", "/international-projects/",
     )
 })
+# Shared identity and metadata reviewed in this release. This is deliberately
+# fixed, rather than a build timestamp. Production dates remain unchanged.
+PAGE_REVIEW_DATES.update({path: "2026-11-24" for path in (
+    "/", "/services/", "/projects/", "/international-projects/", "/studio-credits/",
+    "/audio-software-developer/", *("/" + s["slug"] + "/" for s in SERVICES),
+    *("/projects/" + slug + "/" for slug in PROJECT_METADATA),
+)})
 
 
 def absolute(path):
@@ -89,7 +97,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
         {
             "@type": "Person", "@id": PERSON, "name": NAME,
             "alternateName": "Jean Pierre Boutros", "url": absolute("/"),
-            "jobTitle": "International sound engineer, FOH engineer, recording and mixing engineer",
+            "jobTitle": "International sound engineer, FOH engineer, recording and mixing engineer, audio software developer",
             "description": DESCRIPTION, "email": "jp@jeanpierreboutros.com",
             "telephone": "+9613883863",
             "image": absolute(asset_url(search_image("about-portrait.jpg")["src"])),
@@ -102,7 +110,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
                           "Monitor engineering", "Concert and festival audio",
                           "Orchestra sound", "Recording and tracking", "Studio mixing",
                           "Mastering", "Broadcast audio", "Audio system integration",
-                          "Sound design and post-production"],
+                          "Sound design and post-production", "Audio software development"],
             "worksFor": {"@id": SITE + "/#studiojpb"},
             "affiliation": [{"@id": SITE + "/#studiojpb"},
                             {"@id": SITE + "/#zynforge"}],
@@ -121,7 +129,7 @@ def graph(path, title, description, *, page_type="WebPage", main_entity=None,
                       "address": {"@type": "PostalAddress",
                                   "addressLocality": "Jounieh", "addressCountry": "LB"}}},
         {"@type": "Organization", "@id": SITE + "/#zynforge", "name": "Zynforge Audio",
-         "founder": {"@id": PERSON}, "url": absolute("/#zynforge")},
+         "founder": {"@id": PERSON}, "url": absolute("audio-software-developer/")},
         {"@type": "WebSite", "@id": WEBSITE, "url": absolute("/"),
          "name": NAME, "description": DESCRIPTION, "inLanguage": "en",
          "publisher": {"@id": PERSON}},
@@ -234,7 +242,7 @@ def service_links():
 
 def site_links():
     return f'''<nav class="site-directory container" aria-label="Services and project pages">
-  <div><p class="eyebrow">Explore the work</p><a href="/services/">All services</a><a href="/projects/">All project details</a><a href="/studio-credits/">Studio credits</a><a href="/international-projects/">International projects</a></div>
+  <div><p class="eyebrow">Explore the work</p><a href="/services/">All services</a><a href="/projects/">All project details</a><a href="/studio-credits/">Studio credits</a><a href="/international-projects/">International projects</a><a href="/audio-software-developer/">Zynforge audio software</a></div>
   <ul>{service_links()}</ul>
 </nav>'''
 
@@ -364,6 +372,8 @@ def render_search_pages(context):
             f'<li><a href="/{key}/">{e(SERVICE_BY_SLUG[key]["name"])}</a></li>'
             for key in service["related"]
         ) + '<li><a href="/international-projects/">International projects & availability</a></li></ul></section>'
+        if slug in ("recording-engineer", "studio-system-integration", "live-sound-engineer"):
+            body += '<p><a class="text-link" href="/audio-software-developer/">Explore Jean-Pierre’s Zynforge audio software <span aria-hidden="true">↗</span></a></p>'
         body += inquiry_html(service["name"] + " inquiry")
         write(path, service["title"], service["description"], body, crumbs,
               image=service["photo"], alt=service["alt"],
@@ -376,26 +386,23 @@ def render_search_pages(context):
         slug, name, production, location, role, category, photo, featured = project
         path = f"/projects/{slug}/"
         filename = gallery[photo][0] if isinstance(photo, int) else photo
-        alt = gallery[photo][2] if isinstance(photo, int) else "Studio mixing console and audio equipment"
+        alt = next((entry[2] for entry in gallery if entry[0] == filename),
+                   "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
         article = article_by_slug[slug]
         summary = next((plain(p) for p in re.findall(r'<p(?! class="project-index")[^>]*>(.*?)</p>', article, re.S)
                         if len(plain(p)) > 70), f"{role} · {production} · {location}")
-        title = f"{name} · {production} | {role} | {NAME}"
-        description = f"{NAME}: {role.lower()} for {name}. {production}. {location}. Project details, photographs and related sound engineering services."
-        if slug == "tarteeb-shareet-doha":
-            title = "Shareet · Tarteeb at QNCC | Jean-Pierre Boutros, FOH"
-            description = ("Jean-Pierre Boutros was the FOH engineer for Tarteeb’s Shareet concert "
-                           "at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026. View the project.")
-        if slug == "ry-x-qatar-philharmonic-doha":
-            title = "RY X & Qatar Philharmonic at QNCC | Jean-Pierre Boutros, FOH"
-            description = ("Jean-Pierre Boutros: FOH engineer for RY X with the Qatar Philharmonic Orchestra "
-                           "at QNCC, Doha, for Doha Film Festival on 23 November 2026.")
+        title, description = PROJECT_METADATA[slug]
         crumbs = [("Home", "/"), ("Projects", "/projects/"), (name + " · " + production, path)]
         body = intro(role + " · " + location, e(name) + "<br /><em>" + e(production) + "</em>",
                      summary, crumbs)
         article = re.sub(r'\sdata-reveal(?:="[^"]*")?', "", article)
         article = re.sub(r'<h3(\s[^>]*)?>', lambda m: '<h2' + (m[1] or '') + '>', article).replace("</h3>", "</h2>")
         article = root_links(article)
+        if slug in CASE_STUDIES:
+            heading, context_text, brief = CASE_STUDIES[slug]
+            article += (f'<section class="page-section"><h2>{e(heading)}</h2>'
+                        f'<p>{e(context_text)}</p><h3>Planning a comparable production</h3>'
+                        f'<p>{e(brief)}</p></section>')
         if "<img" not in article:
             article = f'<figure class="page-photo project-system-photo">{root_links(images(filename, alt, sizes="100vw"))}<figcaption>Studio work · Audio equipment and workflow</figcaption></figure>' + article
         body += '<section class="project-page-record" aria-label="Project record">' + article + '</section>'
@@ -525,11 +532,35 @@ def render_search_pages(context):
             for slug in slugs
         ) + '</ul></section>'
     body += '</div><p>Studio integration work also includes <a href="/projects/studio-integration/">Merwas Studios in Riyadh and Playsound Studios in Lebanon</a>.</p></section>'
-    body += '<section class="page-section"><h2>Planning an international engagement</h2><p>Send the artist or production, service, city and country, rehearsal and performance dates, and available technical brief. Identify your production contact and the responsibilities of the local venue or crew. Availability, travel arrangements and deliverables are confirmed for the engagement.</p><p>Clients in Europe, the Americas, the Middle East, Africa, Asia and Oceania are welcome to inquire. The professional home base remains Lebanon.</p></section>'
+    body += '<section class="page-section"><h2>Planning an international engagement</h2><p>Send the artist or production, service, city and country, rehearsal and performance dates, and available technical brief. Identify your production contact and the responsibilities of the local venue or crew. Availability, travel arrangements and deliverables are confirmed for the engagement.</p><p>Inquiries are welcome from Lebanon, Qatar, Kuwait, the United Arab Emirates (UAE), Saudi Arabia, Europe, North America and worldwide. The professional home base remains Lebanon; project locations above describe past engagements.</p><p>Explore <a href="/services/">sound engineering services</a>, the <a href="/#about">professional biography</a> and <a href="/audio-software-developer/">Zynforge audio software</a> to choose the relevant area of work.</p></section>'
     body += faq_html(HOME_FAQ) + inquiry_html()
     write(path, "International Sound Engineer & Projects | Jean-Pierre Boutros",
           "Lebanon-based sound engineer Jean-Pierre Boutros is available worldwide by arrangement. Explore documented projects in Europe and the Middle East and contact him.",
           body, crumbs, page_type="CollectionPage")
+
+    path = "/audio-software-developer/"
+    crumbs = [("Home", "/"), ("Audio software", path)]
+    body = intro("Jean-Pierre Boutros · Zynforge Audio", "Audio software.<br /><em>Built from the work.</em>",
+                 "Jean-Pierre Boutros is a sound engineer and audio software developer based in Lebanon. Through Zynforge Audio, he builds tools for live performance, recording and production planning.", crumbs)
+    body += '<section class="page-section"><h2>From engineering practice to audio tools</h2><p>Jean-Pierre’s work spans front-of-house and monitor engineering, recording, mixing and studio system integration. Alongside StudioJPB, which he founded in 2008, Zynforge Audio connects his software development with practical stage and studio production requirements.</p><p>Explore the <a href="/projects/">professional project records</a>, <a href="/recording-engineer/">recording practice</a> and <a href="/studio-system-integration/">studio integration experience</a> behind this work.</p></section>'
+    applications = []
+    for product_slug, filename, name, category, description in PRODUCTS:
+        body += (f'<section class="page-section" id="{product_slug}"><p class="eyebrow">{e(category)}</p>'
+                 f'<h2>{e(name)}</h2>{root_links(images(filename, "", css="zyn-icon", sizes="64px"))}'
+                 f'<p>{e(description)}</p></section>')
+        applications.append({"@type": "SoftwareApplication", "@id": absolute(path + "#" + product_slug),
+                             "name": name, "description": description, "applicationCategory": "MultimediaApplication",
+                             "url": absolute(path + "#" + product_slug), "creator": {"@id": PERSON},
+                             "publisher": {"@id": SITE + "/#zynforge"}})
+    body += '<section class="page-section"><h2>Discuss the tools and your production</h2><p>For current availability, compatibility and product details, contact Jean-Pierre and identify the Zynforge tool you are interested in. For engineering work, include your production, venue, country, dates and required role.</p><p><a href="/live-sound-engineer/">Live sound and FOH engineering</a> · <a href="/recording-engineer/">Recording and tracking</a> · <a href="/#about">About Jean-Pierre</a></p></section>'
+    body += inquiry_html("Zynforge Audio product inquiry")
+    software_list = {"@type": "ItemList", "@id": absolute(path + "#tools"),
+                     "name": "Zynforge Audio tools", "numberOfItems": len(applications),
+                     "itemListElement": [{"@type": "ListItem", "position": i, "item": {"@id": app["@id"]}}
+                                         for i, app in enumerate(applications, 1)]}
+    write(path, "Audio Software Developer & Zynforge | Jean-Pierre Boutros",
+          "Jean-Pierre Boutros develops Zynforge Audio tools for live performance, multitrack recording and stage planning. Explore the software and engineering background.",
+          body, crumbs, main_entity={"@id": software_list["@id"]}, extra=[software_list, *applications])
 
     # Only canonical, real HTML pages; the date reflects this content review.
     paths = ["/"] + sorted(generated)
@@ -577,6 +608,7 @@ Sitemap: {SITE}/sitemap.xml
         f"- [Project records]({SITE}/projects/): All {len(project_records)} projects with role, context and sources.",
         f"- [Studio credits]({SITE}/studio-credits/): Jean-Pierre Boutros’s recording, mixing and mastering roles for released songs and albums.",
         f"- [International projects]({SITE}/international-projects/): Locations of documented work and worldwide availability.",
+        f"- [Audio software developer and Zynforge]({SITE}/audio-software-developer/): Jean-Pierre’s software work and three audio production tools.",
         "", "## Services",
     ]
     directory.extend(f'- [{s["name"]}]({SITE}/{s["slug"]}/): {s["intro"]}' for s in SERVICES)

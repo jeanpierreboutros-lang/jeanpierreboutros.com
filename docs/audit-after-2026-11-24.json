@@ -1,0 +1,350 @@
+{
+  "checked": "2026-11-24",
+  "pages": [
+    {
+      "path": "audio-software-developer/index.html",
+      "title": "Audio Software Developer & Zynforge | Jean-Pierre Boutros",
+      "title_length": 57,
+      "description": "Jean-Pierre Boutros develops Zynforge Audio tools for live performance, multitrack recording and stage planning. Explore the software and engineering background.",
+      "description_length": 161,
+      "bytes": 35346
+    },
+    {
+      "path": "broadcast-audio-engineer/index.html",
+      "title": "Broadcast Audio Engineer | Jean-Pierre Boutros",
+      "title_length": 46,
+      "description": "Broadcast sound engineering by Jean-Pierre Boutros. Explore the Beirut Waterfront Papal Mass credit and television work. International inquiries welcome.",
+      "description_length": 153,
+      "bytes": 37304
+    },
+    {
+      "path": "index.html",
+      "title": "Jean-Pierre Boutros | International FOH & Sound Engineer",
+      "title_length": 56,
+      "description": "Jean-Pierre Boutros: Lebanon-based FOH, live, orchestra, recording and mixing engineer, and audio software developer. Available for worldwide projects.",
+      "description_length": 151,
+      "bytes": 252690
+    },
+    {
+      "path": "international-projects/index.html",
+      "title": "International Sound Engineer & Projects | Jean-Pierre Boutros",
+      "title_length": 61,
+      "description": "Lebanon-based sound engineer Jean-Pierre Boutros is available worldwide by arrangement. Explore documented projects in Europe and the Middle East and contact him.",
+      "description_length": 162,
+      "bytes": 38123
+    },
+    {
+      "path": "live-sound-engineer/index.html",
+      "title": "Live Sound & FOH Engineer | Jean-Pierre Boutros",
+      "title_length": 47,
+      "description": "Jean-Pierre Boutros provides live sound, FOH and monitor engineering for concerts and festivals. Based in Lebanon; international projects by arrangement.",
+      "description_length": 153,
+      "bytes": 57709
+    },
+    {
+      "path": "mixing-mastering/index.html",
+      "title": "Mixing & Mastering Engineer | Jean-Pierre Boutros",
+      "title_length": 49,
+      "description": "Mixing and mastering by Jean-Pierre Boutros in Lebanon. Explore named credits for Nancy Ajram, Georges Wassouf and Carole Samaha. Worldwide inquiries welcome.",
+      "description_length": 158,
+      "bytes": 39570
+    },
+    {
+      "path": "orchestra-sound-engineer/index.html",
+      "title": "Orchestra Sound Engineer | Jean-Pierre Boutros",
+      "title_length": 46,
+      "description": "Orchestra and opera FOH engineering by Jean-Pierre Boutros. Explore Qatar, Lebanon and Istanbul Philharmonic projects and international availability.",
+      "description_length": 149,
+      "bytes": 46326
+    },
+    {
+      "path": "projects/abeer-nehme-baalbeck/index.html",
+      "title": "Abeer Nehme at Baalbeck · FOH | Jean-Pierre Boutros",
+      "title_length": 51,
+      "description": "Jean-Pierre Boutros: FOH engineer for Abeer Nehme at the Temple of Bacchus, Baalbeck International Festival, Lebanon, 19 August 2016. View the project.",
+      "description_length": 151,
+      "bytes": 39711
+    },
+    {
+      "path": "projects/abeer-nehme-qatar/index.html",
+      "title": "Abeer Nehme & Qatar Philharmonic | Jean-Pierre Boutros",
+      "title_length": 54,
+      "description": "FOH engineering by Jean-Pierre Boutros for Abeer Nehme with the Qatar Philharmonic Orchestra at U VENUE, Doha, 23 January 2026. Explore the project.",
+      "description_length": 148,
+      "bytes": 39423
+    },
+    {
+      "path": "projects/al-sharq-symphony/index.html",
+      "title": "Al Sharq Symphony · FOH | Jean-Pierre Boutros",
+      "title_length": 45,
+      "description": "Jean-Pierre Boutros: FOH engineer for Marcel Khalifé and the Istanbul Philharmonic in Al Sharq Symphony, Istanbul, 2017. View the concert record.",
+      "description_length": 145,
+      "bytes": 39192
+    },
+    {
+      "path": "projects/baligh-hamdi-night/index.html",
+      "title": "Nancy Ajram · Baligh Hamdi Night | Jean-Pierre Boutros",
+      "title_length": 54,
+      "description": "Jean-Pierre Boutros: monitor engineer for Nancy Ajram at Baligh Hamdi Night, Riyadh, 9 November 2023. View his artist-specific role and event context.",
+      "description_length": 150,
+      "bytes": 39378
+    },
+    {
+      "path": "projects/beirut-the-sea-lover/index.html",
+      "title": "Beirut the Sea Lover · 3D Mix | Jean-Pierre Boutros",
+      "title_length": 51,
+      "description": "Jean-Pierre Boutros’s published 3D sound mixing credit for Beirut the Sea Lover at the Roman Baths, Lebanon, on 14 June 2019. Explore the production.",
+      "description_length": 149,
+      "bytes": 37941
+    },
+    {
+      "path": "projects/beiteddine-marco-polo/index.html",
+      "title": "Marco Polo at Beiteddine · Audio | Jean-Pierre Boutros",
+      "title_length": 54,
+      "description": "Jean-Pierre Boutros: audio technical supervision for On the Steps of Marco Polo at Beiteddine Palace, Lebanon, 21–22 June 2013. View the project.",
+      "description_length": 145,
+      "bytes": 37739
+    },
+    {
+      "path": "projects/carole-samaha-golden-album/index.html",
+      "title": "Carole Samaha · Golden Album Mix | Jean-Pierre Boutros",
+      "title_length": 54,
+      "description": "Jean-Pierre Boutros: mixing and mastering engineer for Carole Samaha’s Golden Album, released 3 March 2023. Explore the album credit and studio work.",
+      "description_length": 149,
+      "bytes": 38285
+    },
+    {
+      "path": "projects/cartoon-orchestra/index.html",
+      "title": "Cartoon Orchestra, Kuwait · FOH | Jean-Pierre Boutros",
+      "title_length": 53,
+      "description": "Jean-Pierre Boutros: FOH engineer for Cartoon Orchestra at JACC National Theatre in Kuwait on 4 October 2025. Explore the concert role and production.",
+      "description_length": 150,
+      "bytes": 39340
+    },
+    {
+      "path": "projects/ehdeniyat-abeer-nehme/index.html",
+      "title": "Abeer Nehme at Ehdeniyat · FOH | Jean-Pierre Boutros",
+      "title_length": 52,
+      "description": "FOH engineering by Jean-Pierre Boutros for Abeer Nehme at Ehdeniyat International Festival, Lebanon, on 25 July 2025. View the concert and role.",
+      "description_length": 144,
+      "bytes": 39621
+    },
+    {
+      "path": "projects/ehdeniyat-adam/index.html",
+      "title": "Adam at Ehdeniyat · Monitors | Jean-Pierre Boutros",
+      "title_length": 50,
+      "description": "Jean-Pierre Boutros: monitor engineer for Adam at Ehdeniyat International Festival, Lebanon, on 31 July 2025. Explore his role and event context.",
+      "description_length": 145,
+      "bytes": 39260
+    },
+    {
+      "path": "projects/ehdeniyat-al-shami/index.html",
+      "title": "Al Shami at Ehdeniyat · FOH | Jean-Pierre Boutros",
+      "title_length": 49,
+      "description": "Jean-Pierre Boutros: FOH engineer for Al Shami at Ehdeniyat International Festival, Lebanon, on 3 August 2025. Explore the concert role and photographs.",
+      "description_length": 152,
+      "bytes": 39320
+    },
+    {
+      "path": "projects/index.html",
+      "title": "Sound Engineering Projects | Jean-Pierre Boutros",
+      "title_length": 48,
+      "description": "Explore Jean-Pierre Boutros’s documented FOH, monitor, orchestral, broadcast and studio work, with the actual role, dates, venues and production sources.",
+      "description_length": 153,
+      "bytes": 84648
+    },
+    {
+      "path": "projects/lebanese-philharmonic-diman/index.html",
+      "title": "Lebanese Philharmonic, Diman · FOH | Jean-Pierre Boutros",
+      "title_length": 56,
+      "description": "FOH engineering by Jean-Pierre Boutros for the Lebanese National Philharmonic’s Eternal Covenant concert in Diman, Lebanon, on 26 July 2026.",
+      "description_length": 140,
+      "bytes": 39489
+    },
+    {
+      "path": "projects/marcel-khalife-amman/index.html",
+      "title": "Marcel Khalifé, Amman · Recording | Jean-Pierre Boutros",
+      "title_length": 55,
+      "description": "Jean-Pierre Boutros: monitor and recording engineer for Marcel Khalifé at Amman Citadel, Jordan, on 13 September 2016. Explore the concert case study.",
+      "description_length": 150,
+      "bytes": 41029
+    },
+    {
+      "path": "projects/marcel-khalife-baalbeck/index.html",
+      "title": "Marcel Khalifé at Baalbeck · FOH | Jean-Pierre Boutros",
+      "title_length": 54,
+      "description": "FOH engineering by Jean-Pierre Boutros for Marcel Khalifé’s Ode to a Homeland at Baalbeck, Lebanon, on 5 July 2019. Explore the concert role and sources.",
+      "description_length": 153,
+      "bytes": 39696
+    },
+    {
+      "path": "projects/marcel-khalife-muscat/index.html",
+      "title": "Marcel Khalifé, Muscat · FOH | Jean-Pierre Boutros",
+      "title_length": 50,
+      "description": "Jean-Pierre Boutros: FOH engineer for Marcel Khalifé at the House of Musical Arts, Royal Opera House Muscat, Oman, 26–27 September 2019. View the record.",
+      "description_length": 153,
+      "bytes": 39374
+    },
+    {
+      "path": "projects/marina-viotti/index.html",
+      "title": "Marina Viotti Opera Gala · FOH | Jean-Pierre Boutros",
+      "title_length": 52,
+      "description": "Jean-Pierre Boutros: FOH engineer for Marina Viotti’s opera gala at Zouk Mikael, Lebanon, on 8 September 2026. View the project and production context.",
+      "description_length": 151,
+      "bytes": 39333
+    },
+    {
+      "path": "projects/mazeej-ndu/index.html",
+      "title": "Mazeej at NDU · FOH | Jean-Pierre Boutros",
+      "title_length": 41,
+      "description": "Jean-Pierre Boutros: FOH engineer for Mazeej by Lucas Sakr at NDU’s Bechara El Rahi Theater, Zouk Mosbeh, Lebanon, on 11 March 2019. View the project.",
+      "description_length": 150,
+      "bytes": 38767
+    },
+    {
+      "path": "projects/nancy-ajram-expo-dubai/index.html",
+      "title": "Nancy Ajram at Expo Dubai · Monitors | Jean-Pierre Boutros",
+      "title_length": 58,
+      "description": "Jean-Pierre Boutros: monitor engineer for Nancy Ajram at Infinite Nights, Expo 2020 Dubai, UAE, on 12 November 2021. View his artist-specific role.",
+      "description_length": 147,
+      "bytes": 39070
+    },
+    {
+      "path": "projects/nancy-ajram-jounieh/index.html",
+      "title": "Nancy Ajram · Bnoss Jounieh FOH | Jean-Pierre Boutros",
+      "title_length": 53,
+      "description": "Jean-Pierre Boutros: FOH engineer for Nancy Ajram’s Bnoss Jounieh concert at Fouad Chehab Stadium, Lebanon, 18 August 2022. View the role and event record.",
+      "description_length": 155,
+      "bytes": 39362
+    },
+    {
+      "path": "projects/nancy-ajram-olympia/index.html",
+      "title": "Nancy Ajram at L’Olympia · FOH | Jean-Pierre Boutros",
+      "title_length": 52,
+      "description": "Jean-Pierre Boutros: FOH engineer for Nancy Ajram at L’Olympia in Paris, France, on 10 June 2022. View the concert case study, role and photographs.",
+      "description_length": 148,
+      "bytes": 40544
+    },
+    {
+      "path": "projects/night-of-arab-stars/index.html",
+      "title": "Nancy Ajram · Night of Arab Stars | Jean-Pierre Boutros",
+      "title_length": 55,
+      "description": "Jean-Pierre Boutros: monitor engineer for Nancy Ajram at Night of Arab Stars, Riyadh Season, 31 December 2023. View his role and the concert record.",
+      "description_length": 148,
+      "bytes": 39507
+    },
+    {
+      "path": "projects/papal-broadcast/index.html",
+      "title": "Papal Mass Broadcast, Beirut | Jean-Pierre Boutros",
+      "title_length": 50,
+      "description": "Jean-Pierre Boutros’s broadcast sound engineering credit for the 2025 Papal Mass at Beirut Waterfront, Lebanon. Explore the role and production context.",
+      "description_length": 152,
+      "bytes": 34370
+    },
+    {
+      "path": "projects/ry-x-qatar-philharmonic-doha/index.html",
+      "title": "RY X & Qatar Philharmonic | Jean-Pierre Boutros, FOH",
+      "title_length": 52,
+      "description": "Jean-Pierre Boutros: FOH engineer for RY X with the Qatar Philharmonic Orchestra at QNCC, Doha, for Doha Film Festival on 23 November 2026.",
+      "description_length": 139,
+      "bytes": 41600
+    },
+    {
+      "path": "projects/studio-integration/index.html",
+      "title": "Studio Audio System Integration | Jean-Pierre Boutros",
+      "title_length": 53,
+      "description": "Explore Jean-Pierre Boutros’s audio system integration work at Merwas Studios in Riyadh and Playsound Studios in Lebanon, with related engineering services.",
+      "description_length": 156,
+      "bytes": 37868
+    },
+    {
+      "path": "projects/studio-jpb/index.html",
+      "title": "StudioJPB · Recording & Mixing | Jean-Pierre Boutros",
+      "title_length": 52,
+      "description": "StudioJPB in Jounieh, Lebanon, founded by Jean-Pierre Boutros in 2008. Explore his recording, mixing and mastering practice and named release credits.",
+      "description_length": 150,
+      "bytes": 37765
+    },
+    {
+      "path": "projects/tarteeb-shareet-doha/index.html",
+      "title": "Shareet · Tarteeb at QNCC | Jean-Pierre Boutros, FOH",
+      "title_length": 52,
+      "description": "Jean-Pierre Boutros was the FOH engineer for Tarteeb’s Shareet concert at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026. View the project.",
+      "description_length": 144,
+      "bytes": 39667
+    },
+    {
+      "path": "projects/the-eighties/index.html",
+      "title": "The Eighties, Kuwait · FOH | Jean-Pierre Boutros",
+      "title_length": 48,
+      "description": "FOH engineering by Jean-Pierre Boutros for The Eighties… The Knockout at JACC in Kuwait, October 2026. Explore the role, production and photographs.",
+      "description_length": 148,
+      "bytes": 39400
+    },
+    {
+      "path": "projects/warda-night/index.html",
+      "title": "Nancy Ajram · Warda Night | Jean-Pierre Boutros",
+      "title_length": 47,
+      "description": "Jean-Pierre Boutros: monitor engineer for Nancy Ajram at Warda Night, Abadi Al Johar Arena, Jeddah, 4 July 2024. Explore the role and concert context.",
+      "description_length": 150,
+      "bytes": 39051
+    },
+    {
+      "path": "projects/zade-dirani-amman/index.html",
+      "title": "Zade Dirani, Amman · FOH | Jean-Pierre Boutros",
+      "title_length": 46,
+      "description": "Jean-Pierre Boutros: FOH engineer for Zade Dirani’s Hope Concert at Royal Cultural Palace, Amman, Jordan, 22 February 2019. Explore the concert record.",
+      "description_length": 151,
+      "bytes": 39564
+    },
+    {
+      "path": "projects/zade-dirani-dbayeh/index.html",
+      "title": "Zade Dirani, Dbayeh · FOH | Jean-Pierre Boutros",
+      "title_length": 47,
+      "description": "FOH engineering by Jean-Pierre Boutros for Zade Dirani at Palais des Congrès, Dbayeh, Lebanon, on 11 October 2018. Explore the role and event record.",
+      "description_length": 149,
+      "bytes": 38850
+    },
+    {
+      "path": "recording-engineer/index.html",
+      "title": "Recording Engineer & Studio Sessions | Jean-Pierre Boutros",
+      "title_length": 58,
+      "description": "Recording and tracking with Jean-Pierre Boutros, founder of StudioJPB in Lebanon. Explore music and live recording credits. Worldwide inquiries welcome.",
+      "description_length": 152,
+      "bytes": 40027
+    },
+    {
+      "path": "services/index.html",
+      "title": "International Sound Engineering Services | Jean-Pierre Boutros",
+      "title_length": 62,
+      "description": "Live sound, FOH, orchestral mixing, recording, mastering, broadcast and studio integration with Jean-Pierre Boutros. Lebanon-based; worldwide inquiries welcome.",
+      "description_length": 160,
+      "bytes": 34837
+    },
+    {
+      "path": "studio-credits/index.html",
+      "title": "Recording, Mixing & Mastering Credits | Jean-Pierre Boutros",
+      "title_length": 59,
+      "description": "Explore Jean-Pierre Boutros and StudioJPB recording, mixing and mastering credits for songs and albums by Nancy Ajram, Carole Samaha, Abeer Nehme and more.",
+      "description_length": 155,
+      "bytes": 57851
+    },
+    {
+      "path": "studio-system-integration/index.html",
+      "title": "Studio Audio System Integration | Jean-Pierre Boutros",
+      "title_length": 53,
+      "description": "Studio audio system integration by Jean-Pierre Boutros: Merwas Studios in Riyadh and Playsound Studios in Lebanon. International project inquiries welcome.",
+      "description_length": 155,
+      "bytes": 38759
+    }
+  ],
+  "page_count": 42,
+  "long_titles": 0,
+  "long_descriptions": 0,
+  "html_bytes": 1936706,
+  "homepage_bytes_before": 252333,
+  "homepage_bytes_after": 252690,
+  "preserved_binary_runtime_files": 344,
+  "stylesheet_change": "max-width: 100% on .hero-portrait for text resize containment",
+  "schema_vocabulary_sha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74"
+}

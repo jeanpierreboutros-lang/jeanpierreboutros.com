@@ -1,0 +1,438 @@
+{
+  "checked": "2026-11-24",
+  "scope": "Isolated real Apache HTTP fixture. Live baseline separately verifies HTTPS redirects and scoped immutable caching; unchanged managed rules.",
+  "results": [
+    {
+      "path": "/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 252690
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 35346
+    },
+    {
+      "path": "/broadcast-audio-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 37304
+    },
+    {
+      "path": "/international-projects/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 38123
+    },
+    {
+      "path": "/live-sound-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 57709
+    },
+    {
+      "path": "/mixing-mastering/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39570
+    },
+    {
+      "path": "/orchestra-sound-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 46326
+    },
+    {
+      "path": "/projects/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 84648
+    },
+    {
+      "path": "/projects/abeer-nehme-baalbeck/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39711
+    },
+    {
+      "path": "/projects/abeer-nehme-qatar/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39423
+    },
+    {
+      "path": "/projects/al-sharq-symphony/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39192
+    },
+    {
+      "path": "/projects/baligh-hamdi-night/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39378
+    },
+    {
+      "path": "/projects/beirut-the-sea-lover/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 37941
+    },
+    {
+      "path": "/projects/beiteddine-marco-polo/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 37739
+    },
+    {
+      "path": "/projects/carole-samaha-golden-album/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 38285
+    },
+    {
+      "path": "/projects/cartoon-orchestra/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39340
+    },
+    {
+      "path": "/projects/ehdeniyat-abeer-nehme/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39621
+    },
+    {
+      "path": "/projects/ehdeniyat-adam/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39260
+    },
+    {
+      "path": "/projects/ehdeniyat-al-shami/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39320
+    },
+    {
+      "path": "/projects/lebanese-philharmonic-diman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39489
+    },
+    {
+      "path": "/projects/marcel-khalife-amman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 41029
+    },
+    {
+      "path": "/projects/marcel-khalife-baalbeck/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39696
+    },
+    {
+      "path": "/projects/marcel-khalife-muscat/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39374
+    },
+    {
+      "path": "/projects/marina-viotti/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39333
+    },
+    {
+      "path": "/projects/mazeej-ndu/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 38767
+    },
+    {
+      "path": "/projects/nancy-ajram-expo-dubai/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39070
+    },
+    {
+      "path": "/projects/nancy-ajram-jounieh/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39362
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 40544
+    },
+    {
+      "path": "/projects/night-of-arab-stars/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39507
+    },
+    {
+      "path": "/projects/papal-broadcast/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 34370
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 41600
+    },
+    {
+      "path": "/projects/studio-integration/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 37868
+    },
+    {
+      "path": "/projects/studio-jpb/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 37765
+    },
+    {
+      "path": "/projects/tarteeb-shareet-doha/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39667
+    },
+    {
+      "path": "/projects/the-eighties/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39400
+    },
+    {
+      "path": "/projects/warda-night/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39051
+    },
+    {
+      "path": "/projects/zade-dirani-amman/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 39564
+    },
+    {
+      "path": "/projects/zade-dirani-dbayeh/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 38850
+    },
+    {
+      "path": "/recording-engineer/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 40027
+    },
+    {
+      "path": "/services/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 34837
+    },
+    {
+      "path": "/studio-credits/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 57851
+    },
+    {
+      "path": "/studio-system-integration/",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 38759
+    },
+    {
+      "path": "/",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null,
+      "bytes": 282
+    },
+    {
+      "path": "/audio-software-developer",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/",
+      "cache_control": null,
+      "bytes": 307
+    },
+    {
+      "path": "/audio-software-developer/index.html?test=1",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/?test=1",
+      "cache_control": null,
+      "bytes": 314
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/index.html",
+      "host": "jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "cache_control": null,
+      "bytes": 311
+    },
+    {
+      "path": "/",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/",
+      "cache_control": null,
+      "bytes": 282
+    },
+    {
+      "path": "/audio-software-developer",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/",
+      "cache_control": null,
+      "bytes": 307
+    },
+    {
+      "path": "/audio-software-developer/index.html?test=1",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/audio-software-developer/?test=1",
+      "cache_control": null,
+      "bytes": 314
+    },
+    {
+      "path": "/projects/nancy-ajram-olympia/index.html",
+      "host": "www.jeanpierreboutros.com",
+      "status": 301,
+      "location": "https://www.jeanpierreboutros.com/projects/nancy-ajram-olympia/",
+      "cache_control": null,
+      "bytes": 311
+    },
+    {
+      "path": "/missing-seo-audit/",
+      "host": "localhost",
+      "status": 404,
+      "location": null,
+      "cache_control": null,
+      "bytes": 236
+    },
+    {
+      "path": "/audio-software-developer/",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 35346
+    },
+    {
+      "path": "/indexnow-key.txt",
+      "host": "localhost",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 33
+    },
+    {
+      "path": "/styles.css?v=123992556f5e",
+      "host": "studiojpb.com",
+      "status": 200,
+      "location": null,
+      "cache_control": null,
+      "bytes": 54988
+    }
+  ]
+}
