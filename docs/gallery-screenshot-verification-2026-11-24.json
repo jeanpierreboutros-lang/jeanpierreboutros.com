@@ -1,0 +1,15 @@
+{
+  "checked": "2026-11-24",
+  "checks": [
+    {
+      "width": 390,
+      "fully_loaded": 6,
+      "analytics": "Rejected only in isolated test context"
+    },
+    {
+      "width": 1440,
+      "fully_loaded": 6,
+      "analytics": "Rejected only in isolated test context"
+    }
+  ]
+}
