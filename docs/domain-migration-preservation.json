@@ -1,0 +1,26 @@
+{
+  "checked": "2026-11-24",
+  "baseline_commit": "866eeed11229aa3d17c273cd84cab970d1a9b7cc",
+  "migration_content_commit": "252b41f3414f03f202db2e5b55626369730d8002",
+  "changed_files": [
+    "README.md",
+    "audit_domain_migration.py",
+    "check_domain_migration_apache.py",
+    "docs/DOMAIN-MIGRATION-2026-11-24.md",
+    "docs/SEARCH-CONSOLE.md",
+    "docs/domain-migration-apache-validation.json",
+    "docs/domain-migration-dns-before.json",
+    "docs/domain-migration-head-before.json",
+    "docs/domain-migration-http-before.json",
+    "docs/domain-migration-legacy-discovery.json",
+    "docs/domain-migration-registration-before.json",
+    "docs/domain-migration-tls-before.json",
+    "hosting/domain-migration.json",
+    "hosting/seo.htaccess"
+  ],
+  "frontend_files_changed": 0,
+  "discovery_files_changed": false,
+  "canonical_pages": 42,
+  "gallery_photos": 40,
+  "runtime_change": "hosting/seo.htaccess only; mapping JSON is documentation/test input, not a deployed runtime asset."
+}

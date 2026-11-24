@@ -4,10 +4,12 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-**Domain consolidation, 24 November 2026:** reviewed rules migrate the retired
+**Domain consolidation, 24 November 2026:** deployed commit `252b41f` migrates the retired
 `studiojpb.com` website to the HTTPS www professional domain, with six specific
 legacy page mappings and path/query preservation. DNS and mail services remain
-unchanged. See the [migration report and manual search-console steps](docs/DOMAIN-MIGRATION-2026-11-24.md).
+unchanged. All 480 live migration checks pass; public PageSpeed is 96 mobile /
+100 desktop, with other categories 100 and Agentic Browsing 3/3. Google Change
+of Address is prepared for manual filing. See the [migration report and manual search-console steps](docs/DOMAIN-MIGRATION-2026-11-24.md).
 
 **Gallery update, 24 November 2026:** four owner-supplied RY X photographs have
 faithful, non-generative exposure, color, noise and crop corrections. The gallery

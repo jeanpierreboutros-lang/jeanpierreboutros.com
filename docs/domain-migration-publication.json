@@ -1,0 +1,22 @@
+{
+  "checked": "2026-11-24",
+  "content_commit": "252b41f3414f03f202db2e5b55626369730d8002",
+  "cpanel_last_deployed_display_time": "Nov 24, 2026 1:22:10 PM",
+  "deployment_sha_visibly_matched": true,
+  "migration_live_requests": 480,
+  "migration_failed_requests": 0,
+  "primary_readonly_requests": 243,
+  "primary_exact_body_matches": 207,
+  "primary_expected_missing_page_404": 1,
+  "head_variants": 8,
+  "tls_hostnames_verified": 4,
+  "dns_queries": 38,
+  "dns_record_changes": 0,
+  "axe_scans": 6,
+  "axe_violations": 0,
+  "frontend_runtime_files_changed": 0,
+  "google_change_of_address": "Prepared manual procedure; not submitted. Old domain not present in inspected account.",
+  "bing_migration": "Primary verified property retained; sitemap Success 42. Only primary site present in inspected site selector. No Site Move control appeared under inspected Configuration or Tools & Enhancements. Old ownership and URL submission are manual follow-ups.",
+  "authority_transfer": "Technical signals consolidated; full transfer, backlink inventory completeness, indexing and AI citations cannot be established by this audit.",
+  "email_delivery": "Web-only rules and unchanged DNS/mail configuration; no message send or authenticated mailbox end-to-end test performed."
+}

@@ -1,0 +1,41 @@
+{
+  "checked": "2026-11-24",
+  "method": "Public PageSpeed Insights browser report, mobile and desktop tabs observed directly.",
+  "report_url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/ilzvfpdb8abcu44yyzhdxp",
+  "report_display_time": "Nov 24, 2026, 1:24:13 PM GMT+3",
+  "content_commit": "252b41f3414f03f202db2e5b55626369730d8002",
+  "lighthouse": "13.6.0",
+  "browser": "HeadlessChromium 157.0.8103.38",
+  "mobile": {
+    "performance": 96,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "agentic_browsing": "3/3",
+    "FCP_ms": 1802,
+    "LCP_ms": 2477,
+    "TBT_ms": 0,
+    "CLS": 0,
+    "speed_index_ms": 2850
+  },
+  "desktop": {
+    "performance": 100,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "agentic_browsing": "3/3",
+    "FCP_ms": 460,
+    "LCP_ms": 562,
+    "TBT_ms": 0,
+    "CLS": 0,
+    "speed_index_ms": 1116
+  },
+  "pre_migration_production": {
+    "report_url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/u8h4n4cgfdj55919ihe3gz",
+    "mobile": 96,
+    "desktop": 99,
+    "other_categories": 100,
+    "agentic_browsing": "3/3"
+  },
+  "limits": "One fresh post-migration lab report; no CrUX data. The primary page/assets are unchanged. Timing variation does not establish that server rules caused a score improvement."
+}

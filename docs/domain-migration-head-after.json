@@ -1,0 +1,45 @@
+{
+  "checked": "2026-11-24",
+  "requests": [
+    {
+      "url": "http://studiojpb.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:33 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "https://studiojpb.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:34 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "http://www.studiojpb.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:35 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "https://www.studiojpb.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:36 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "http://jeanpierreboutros.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:37 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "https://jeanpierreboutros.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:37 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "http://www.jeanpierreboutros.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 301 Moved Permanently\nDate: Tue, 24 Nov 2026 10:23:38 GMT\nServer: Apache\nLocation: https://www.jeanpierreboutros.com/\nContent-Type: text/html; charset=iso-8859-1\n\n"
+    },
+    {
+      "url": "https://www.jeanpierreboutros.com/",
+      "curl_exit": 0,
+      "response_headers": "HTTP/1.1 200 OK\nDate: Tue, 24 Nov 2026 10:23:39 GMT\nServer: Apache\nLast-Modified: Tue, 24 Nov 2026 10:22:10 GMT\nAccept-Ranges: bytes\nContent-Length: 258788\nVary: Accept-Encoding\nContent-Type: text/html\n\n"
+    }
+  ]
+}

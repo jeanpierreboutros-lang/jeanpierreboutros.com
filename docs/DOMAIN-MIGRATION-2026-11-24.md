@@ -1,8 +1,10 @@
 # StudioJPB domain consolidation — 24 November 2026
 
-Status: audit and implementation complete; isolated validation passes.
-Live deployment and post-deployment verification are pending. No claim is made
-yet that the new migration redirects work on production.
+Published and live-verified. cPanel deployed content commit
+`252b41f3414f03f202db2e5b55626369730d8002` at **24 November 2026, 1:22:10 PM**;
+the displayed Last Deployed SHA matched. All 480 migration checks passed.
+Google Change of Address submission and old-domain search ownership remain
+manual follow-ups; they are not represented as completed.
 
 Destination: **https://www.jeanpierreboutros.com**. The owner explicitly authorized
 consolidation of the retired studiojpb.com website. Domain registration, DNS,
@@ -153,6 +155,10 @@ authority-transfer guarantee is made.
 
 ## Bing and AI discoverability
 
+The inspected Bing account contains only the verified primary website. Its
+HTTPS sitemap is Success with 42 URLs. No Site Move control appeared in the
+inspected Configuration or Tools & Enhancements menus.
+
 Bing's current [webmaster guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a)
 call for 301s for permanent moves, crawlable relevant destinations and consistent
 canonical URLs. These are the migration mechanisms implemented here. Do not rely
@@ -206,6 +212,102 @@ account; no registrar or CDN reconfiguration is required. For future maintenance
 
 ## Production results
 
-Pending deployment. Final evidence must include every old HTTP/HTTPS apex/www
-variant, all 42 page mappings, six legacy mappings, path/query checks, TLS,
-crawler delivery, genuine 404s, DNS comparison and unchanged primary content.
+The deployed rules are verified against live domains, using normal TLS
+certificate checks and actual GET/HEAD response headers.
+
+| Live homepage HEAD request | First response | Location |
+| --- | --- | --- |
+| http://studiojpb.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| https://studiojpb.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| http://www.studiojpb.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| https://www.studiojpb.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| http://jeanpierreboutros.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| https://jeanpierreboutros.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| http://www.jeanpierreboutros.com/ | 301 | https://www.jeanpierreboutros.com/ |
+| https://www.jeanpierreboutros.com/ | 200 | None |
+
+The seven noncanonical origins reach the primary homepage in one hop. Across
+all 42 canonical paths and eight origins, the 336 page-matrix requests finish
+with direct primary-domain 200 content matching the local release. No loop or
+extra redirect hop was observed on migrated content.
+
+| Additional live migration checks | Result |
+| --- | --- |
+| Six legacy pages × four old origins, with queries | 24/24 correct single 301s to relevant destinations |
+| Six legacy pages × four old origins, without queries | 24/24 correct clean destinations |
+| index.html and directory normalization | 12/12 direct final-path redirects |
+| Unmatched/retired URLs and encoded paths | 16/16 retain their paths and finish as genuine 404s |
+| Old robots.txt | 4/4 direct 200, exact current policy bytes |
+| cPanel/webmail entry points | 8/8 remain available on old origin |
+| Missing ACME/PKI probe paths | 8/8 remain on old origin with genuine 404s; no migration redirect |
+| sitemap.xml and llms.txt | 8/8 one 301, exact current primary file bytes |
+| Ten search/AI user agents × four old origins | 40/40 receive one 301 to the accessible matching page |
+| **Migration total** | **480/480 pass; zero active metadata errors** |
+| Separate primary delivery audit | 243 requests; 207 page/resource/discovery body hashes match; its one intentional missing-page 404 is expected |
+| DNS before/after | 38 repeated queries; zero record-value changes, ignoring resolver TTL countdown |
+| TLS after deployment | 4/4 hostname/chain validations pass; certificates retained |
+| Production browser/accessibility | Six axe scans, zero violations; mobile/desktop gallery controls, keyboard/focus and no-JavaScript access pass |
+
+The primary audit retains live response headers for compression and versioned
+immutable caching. Its 42 canonical pages, 162 referenced resources and three
+discovery files match the reviewed release. No DNS, mail, certificate, domain
+assignment, primary content or frontend asset change was made. No rollback
+trigger occurred. SMTP/IMAP message delivery was not tested with a real message
+or mailbox authentication; unchanged web-only configuration and DNS are the
+preservation evidence.
+
+Fresh [public PageSpeed report, 1:24:13 PM GMT+3](https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/ilzvfpdb8abcu44yyzhdxp):
+
+| Metric | Immediately preceding public report | Post-migration |
+| --- | ---: | ---: |
+| Mobile performance | 96 | 96 |
+| Desktop performance | 99 | 100 |
+| Accessibility / Best Practices / SEO | 100 / 100 / 100 | 100 / 100 / 100 |
+| Agentic Browsing | 3/3 | 3/3 |
+| TBT / CLS, both devices | 0 ms / 0 | 0 ms / 0 |
+
+The owner-supplied original baseline was 95 mobile / 100 desktop. The fresh
+post-migration report meets or exceeds those scores. Mobile LCP is 2.477s and
+desktop LCP is 0.562s. This is one lab report with no CrUX field data; the primary
+payload is unchanged, and timing variance does not prove that the redirect
+rules caused a performance improvement.
+
+Evidence files:
+
+- `domain-migration-head-after.json`: actual first-response HEAD headers for all
+  eight HTTP/HTTPS origin combinations.
+- `domain-migration-http-after-validation.json`: every one of the 480 requests,
+  actual header chains, final URL/status, body hashes and pass/fail details.
+- `domain-migration-primary-assets-after.json`: separate full active-site delivery
+  and cache/compression/crawler evidence.
+- `domain-migration-dns-after.json`, `domain-migration-tls-after.json`:
+  unchanged DNS records and validated HTTPS endpoints.
+- `domain-migration-browser-qa-after.json`, `domain-migration-pagespeed-after.json`:
+  observed production accessibility/behavior and public performance results.
+- `domain-migration-preservation.json`, `domain-migration-publication.json`:
+  source comparison and observed deployment/search-platform status.
+
+The source follow-up commits containing these reports do not need another
+website deployment: documentation and audit tools are excluded by the existing
+production copy manifest.
+
+## Remaining owner actions and monitoring
+
+1. Complete old-domain Google ownership and the prepared Change of Address
+   procedure for apex and www. No request has been submitted in this work.
+2. Verify/import the old domains in Bing, reconcile historical landing/backlink
+   exports, and notify its changed old URLs using the supported verified-site
+   tools. No Bing migration submission is claimed.
+3. Review old-domain access-log 404s and search exports for additional legacy
+   URLs over the next several weeks. Extend the explicit map when an equivalent
+   destination is verified. Historical backlink coverage is not exhaustive.
+4. Retain and renew the old domain, hosting, DNS, certificate renewal and email.
+   Address the hosting portal's seven-day expiration notice through billing.
+5. Monitor old/new indexing, clicks and impressions, referring traffic, selected
+   canonicals, crawl errors and Bing AI Performance. Keep a dated baseline and
+   compare after recrawling; consolidation is a search-engine process, not an
+   immediate measurable transfer of every signal.
+
+The technical migration is complete and verified. Search-platform filing,
+ongoing monitoring and the limits above remain explicit; complete authority
+transfer or AI citation gains are not claimed.

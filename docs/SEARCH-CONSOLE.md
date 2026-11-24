@@ -1,5 +1,11 @@
 # Search registration and production verification
 
+**Latest domain consolidation, 24 November 2026:** content commit `252b41f` is
+live with 480 passing migration checks. The retired StudioJPB web hosts now
+redirect to the primary origin while DNS/mail stay unchanged. Old-domain
+Google/Bing ownership and Google Change of Address remain manual steps in the
+[migration report](DOMAIN-MIGRATION-2026-11-24.md); no migration filing is claimed.
+
 Documentation reconciled **24 November 2026**. Current published content release is `536f7f1`, with 42 live sitemap URLs and 30 project records. Google and Bing processed the current sitemap successfully (42 URLs); the new software page and priority Google URLs have accepted indexing requests. IndexNow accepted 42 URLs with HTTP 202. See the [latest publication report](SEO-RELEASE-2026-11-24.md) and [technical submission evidence](seo-search-registration-2026-11-24.json). Submission/discovery is not proof of indexing.
 
 Registration was completed **16 November 2026** for release `239f127`. The table below records that dated account observation.
