@@ -1,0 +1,24 @@
+{
+  "checked": "2026-11-24",
+  "content_commit": "f3699aa4cbe61f2a49fc2a98b239c1cee55839ac",
+  "deployment_method": "Existing cPanel Git Update from Remote and Deploy HEAD Commit; Last Deployed SHA visibly matched.",
+  "cpanel_deployed_display_time": "Nov 24, 2026 12:57:51 PM",
+  "canonical_pages": 42,
+  "public_http_checks": 243,
+  "exact_live_byte_matches_in_audit": 207,
+  "expected_404": "/seo-audit-missing-20261124/",
+  "unexplained_http_errors": 0,
+  "new_photos_variants_and_manifest_exact_matches": 25,
+  "production_axe_scans": 6,
+  "accessibility_violations": 0,
+  "javascript_errors": 0,
+  "indexnow": {
+    "endpoint": "https://api.indexnow.org/indexnow",
+    "url_count": 1,
+    "url": "https://www.jeanpierreboutros.com/",
+    "status": 200,
+    "live_key_and_page_verified_before_post": true,
+    "indexing_guaranteed": false
+  },
+  "approval_review_interruption": "Browser step initially stopped because approval review hit a usage limit. It was not executed. Following the owner\u2019s CONTINUE, the normal approved workflow resumed successfully; no bypass was used."
+}

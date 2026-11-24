@@ -1,0 +1,24 @@
+{
+  "checked": "2026-11-24",
+  "baseline": "5e0b1dc3231130d96cb9e7c0ca4b180b1c8c6f10",
+  "content_commit": "f3699aa4cbe61f2a49fc2a98b239c1cee55839ac",
+  "homepage_before_gallery_identical": true,
+  "homepage_bytes_before": 252690,
+  "homepage_bytes_after": 258788,
+  "homepage_delta_bytes": 6098,
+  "existing_manifest_entries_unchanged": 57,
+  "new_manifest_entries": 4,
+  "byte_identical_files": [
+    "styles.css",
+    "main.js",
+    "analytics.js",
+    "robots.txt",
+    "sitemap.xml",
+    "llms.txt",
+    "favicon.png",
+    "jpb-monogram.png",
+    "jpb-logo-lockup.png",
+    "output/pdf/jean-pierre-boutros-profile.pdf"
+  ],
+  "existing_photo_font_pdf_logo_css_js_modified": []
+}

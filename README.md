@@ -7,7 +7,9 @@ Live site: https://www.jeanpierreboutros.com/
 **Gallery update, 24 November 2026:** four owner-supplied RY X photographs have
 faithful, non-generative exposure, color, noise and crop corrections. The gallery
 now contains 40 photographs; six remain initially visible, including the four
-new images. Original HEIC files, existing photographs, layout, styles and scripts
+new images. Content commit `f3699aa` is live; 42 canonical pages and all new
+image files match the reviewed release. Fresh production PageSpeed is 96 mobile /
+99 desktop, with other categories 100 and Agentic Browsing 3/3. Original HEIC files, existing photographs, layout, styles and scripts
 are preserved. See the [gallery release and validation](docs/GALLERY-UPDATE-2026-11-24.md).
 
 **Published SEO release, 24 November 2026:** content commit `536f7f1` is live with

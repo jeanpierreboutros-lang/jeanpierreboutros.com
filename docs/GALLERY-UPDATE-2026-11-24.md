@@ -1,6 +1,10 @@
 # RY X gallery update — 24 November 2026
 
-Status: implementation and local validation complete; publication verification pending.
+Published and verified: content commit `f3699aa4cbe61f2a49fc2a98b239c1cee55839ac`.
+cPanel displayed the matching Last Deployed SHA and completion time
+24 November 2026, 12:57:51 PM. The earlier usage-limit interruption to browser
+approval review was resolved after the owner requested continuation; no approval
+check was bypassed.
 
 Four owner-supplied RY X photographs are added to the existing gallery, increasing
 it from 36 to 40 photographs. All four appear among the six initially visible
@@ -79,14 +83,63 @@ Evidence: `gallery-local-qa-2026-11-24.json`, mobile/desktop screenshots,
 
 ## Publication and rollback
 
-Publication must follow the passing checks above. The release will be pushed
-to the existing repository and deployed through its established cPanel Git
-workflow. Verify all 42 live canonical pages, referenced assets, new image
-hashes and gallery interactions after deployment. A failed page/resource hash,
-missing image, broken viewer, accessibility regression or changed layout is
-a rollback trigger. The previous content release is `536f7f1`; the source
-baseline before this addition is documentation commit `5e0b1dc`.
+The reviewed release was committed, pushed and deployed through the existing
+cPanel Git workflow after all local checks passed. Live validation confirms:
 
-No Google/Bing ownership or sitemap configuration changes are needed for these
-existing URLs. An IndexNow notification for the updated homepage is appropriate
-after live verification. Submission does not establish indexing.
+- 243 public HTTP checks: all 42 canonical pages and 165 referenced/discovery
+  resources match the reviewed local bytes. The only non-200 final response is
+  the intentional missing-page 404 test; permanent canonical redirects pass.
+- Separately, all four new JPEG exports, all 20 WebP derivatives and the image
+  manifest match local bytes exactly (25 checks).
+- Six production axe scans at 390px and 1440px have zero violations; all four
+  new lightboxes, keyboard arrows/wrapping, Escape/focus return, show-all control
+  and no-JavaScript access pass. No overflow or page JavaScript errors occur.
+- The updated homepage was sent to IndexNow after its exact live HTML and
+  ownership key were verified. The endpoint returned HTTP 200 for one URL.
+  Acceptance does not establish indexing. Existing Google/Bing ownership and
+  sitemap setup need no changes for this gallery addition.
+
+A fresh [public PageSpeed report at 12:58:13 PM GMT+3](https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/u8h4n4cgfdj55919ihe3gz)
+measures the published homepage:
+
+| Production result | Before this gallery update, same-day reports | After |
+| --- | ---: | ---: |
+| Mobile performance | 95–96 | 96 |
+| Desktop performance | 98–99 | 99 |
+| Accessibility / Best Practices / SEO | 100 / 100 / 100 | 100 / 100 / 100 |
+| Agentic browsing | 3/3 | 3/3 |
+| TBT / CLS, both devices | 0 ms / 0 | 0 ms / 0 |
+
+The supplied historical baseline was mobile 95 / desktop 100. Desktop 100 was
+not reproduced in this production run; local desktop remains 100. Mobile LCP
+is 2.477s and desktop LCP is 0.562s. This is one fresh lab report; there is no
+CrUX field data and no claim of a causal ranking or Core Web Vitals improvement.
+The new gallery photographs still generate zero initial image requests.
+
+Evidence: `gallery-production-live-2026-11-24.json`,
+`gallery-production-new-images-2026-11-24.json`,
+`gallery-production-qa-2026-11-24.json`, production screenshots,
+`gallery-pagespeed-production-2026-11-24.json`,
+`gallery-preservation-2026-11-24.json` and
+`gallery-publication-2026-11-24.json`.
+
+A failed page/resource hash, missing image, broken viewer, accessibility
+regression or changed layout is a rollback trigger. No trigger occurred.
+The previous content release is `536f7f1`; the source baseline before this
+addition is documentation commit `5e0b1dc`. A local backup of modified files
+is retained under `Code/gallery-update-backups/before-2026-11-24`.
+Documentation-only follow-ups do not require another website deployment.
+
+## Expected benefit and remaining work
+
+The gallery now supplies four more owner-confirmed examples of the working
+side of the RY X production. Descriptive filenames, visible context, alt text
+and ordinary image links help users and crawlers understand these photographs.
+The existing professional credits and claims are unchanged. No ranking,
+indexing, AI citation or inquiry increase is promised.
+
+No manual gallery configuration remains. The original international SEO audit,
+search-platform receipts, measurement limits and longer-term follow-ups remain
+in [the SEO release report](SEO-RELEASE-2026-11-24.md) and
+[original audit](SEO-AUDIT-2026-11-24.md). This gallery release adds no new office,
+qualification, award, review or client claim.

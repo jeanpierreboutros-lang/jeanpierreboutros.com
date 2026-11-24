@@ -1,0 +1,45 @@
+{
+  "checked": "2026-11-24",
+  "method": "Observed public PageSpeed Insights browser report; scores transcribed from mobile and desktop tabs. No API score substituted.",
+  "content_commit": "f3699aa4cbe61f2a49fc2a98b239c1cee55839ac",
+  "report_url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/u8h4n4cgfdj55919ihe3gz",
+  "report_display_time": "Nov 24, 2026, 12:58:13 PM GMT+3",
+  "lighthouse": "13.6.0",
+  "browser": "HeadlessChromium 157.0.8103.38",
+  "mobile": {
+    "performance": 96,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "agentic_browsing": "3/3",
+    "FCP_ms": 1802,
+    "LCP_ms": 2477,
+    "TBT_ms": 0,
+    "CLS": 0,
+    "speed_index_ms": 2951,
+    "device": "Moto G Power; Slow 4G"
+  },
+  "desktop": {
+    "performance": 99,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "agentic_browsing": "3/3",
+    "FCP_ms": 526,
+    "LCP_ms": 562,
+    "TBT_ms": 0,
+    "CLS": 0,
+    "speed_index_ms": 1316,
+    "device": "Emulated Desktop; custom throttling"
+  },
+  "crux": "No data",
+  "user_supplied_prior_baseline": {
+    "mobile": 95,
+    "desktop": 100
+  },
+  "preceding_same_day_production_range": {
+    "mobile": "95–96",
+    "desktop": "98–99"
+  },
+  "limits": "One fresh public lab report for this photo release. Desktop 100 is not reproduced. Lab results vary and do not establish real-user Core Web Vitals or a causal ranking improvement."
+}

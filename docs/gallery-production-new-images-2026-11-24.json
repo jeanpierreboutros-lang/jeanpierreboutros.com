@@ -1,0 +1,155 @@
+{
+  "checked": "2026-11-24",
+  "results": [
+    {
+      "path": "photos/ry-x-foh-console-performance-2026.jpg",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 1220106
+    },
+    {
+      "path": "photos/ry-x-foh-console-stage-2026.jpg",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 1046550
+    },
+    {
+      "path": "photos/ry-x-production-blue-light-2026.jpg",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 1886137
+    },
+    {
+      "path": "photos/ry-x-backstage-portrait-2026.jpg",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 1263688
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-performance-2026-160.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 3904
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-performance-2026-240.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 7678
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-performance-2026-480.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 24422
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-performance-2026-960.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 70384
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-performance-2026-1600.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 141292
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-stage-2026-160.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 3048
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-stage-2026-240.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 6138
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-stage-2026-480.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 19574
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-stage-2026-960.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 56482
+    },
+    {
+      "path": "photos/optimized/ry-x-foh-console-stage-2026-1600.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 112758
+    },
+    {
+      "path": "photos/optimized/ry-x-production-blue-light-2026-160.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 2680
+    },
+    {
+      "path": "photos/optimized/ry-x-production-blue-light-2026-240.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 4752
+    },
+    {
+      "path": "photos/optimized/ry-x-production-blue-light-2026-480.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 13760
+    },
+    {
+      "path": "photos/optimized/ry-x-production-blue-light-2026-960.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 59288
+    },
+    {
+      "path": "photos/optimized/ry-x-production-blue-light-2026-1600.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 211014
+    },
+    {
+      "path": "photos/optimized/ry-x-backstage-portrait-2026-160.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 2918
+    },
+    {
+      "path": "photos/optimized/ry-x-backstage-portrait-2026-240.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 5198
+    },
+    {
+      "path": "photos/optimized/ry-x-backstage-portrait-2026-480.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 13882
+    },
+    {
+      "path": "photos/optimized/ry-x-backstage-portrait-2026-960.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 39746
+    },
+    {
+      "path": "photos/optimized/ry-x-backstage-portrait-2026-1600.webp",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 84146
+    },
+    {
+      "path": "photos/optimized/manifest.json",
+      "curl_exit": 0,
+      "matches_local": true,
+      "bytes": 43515
+    }
+  ]
+}
