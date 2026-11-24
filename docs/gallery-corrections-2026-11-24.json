@@ -1,0 +1,269 @@
+{
+  "method": "Non-generative pixel corrections from original HEIC decodes",
+  "originals_modified": false,
+  "photos": [
+    {
+      "source": "IMG_3654",
+      "filename": "ry-x-foh-console-performance-2026.jpg",
+      "crop": [
+        0,
+        1764,
+        3024,
+        4032
+      ],
+      "shadows": 0.25,
+      "chroma": 0.4,
+      "white_balance": [
+        1,
+        1,
+        1
+      ],
+      "color": 1.0,
+      "input_sha256": "5a0ccd5bbdda3759fd267c68199c56626aeff566fe9983da3010f451834fb226",
+      "output_sha256": "65f6161bd1278075e0e0f3656c2d71d34a06acca4a6493144f12c52685e7609e",
+      "width": 2400,
+      "height": 1800,
+      "bytes": 1220106
+    },
+    {
+      "source": "IMG_3642",
+      "filename": "ry-x-foh-console-stage-2026.jpg",
+      "crop": [
+        0,
+        1500,
+        3024,
+        3768
+      ],
+      "shadows": 0.24,
+      "chroma": 0.4,
+      "white_balance": [
+        1,
+        1,
+        1
+      ],
+      "color": 1.0,
+      "input_sha256": "fa6b6e46c784006b0c3b89c3fcc717c07ba3c203dea7a347a096ced7caaca5a9",
+      "output_sha256": "0e95038a64de8970dd03745a1464c7557272c059b41cc769acd3a6ffac972399",
+      "width": 2400,
+      "height": 1800,
+      "bytes": 1046550
+    },
+    {
+      "source": "IMG_3648",
+      "filename": "ry-x-production-blue-light-2026.jpg",
+      "crop": [
+        0,
+        900,
+        3024,
+        4032
+      ],
+      "shadows": 0.1,
+      "chroma": 0.55,
+      "white_balance": [
+        1.025,
+        1.01,
+        0.99
+      ],
+      "color": 0.99,
+      "input_sha256": "02f1888cb8d6a2db35c10794a91385db1f46270da16e39dbccc3673979db5026",
+      "output_sha256": "49d0c522f31be2846e4a7e6bc035ea27494e21f9c34d3d2e62d5c88b55184732",
+      "width": 2317,
+      "height": 2400,
+      "bytes": 1886137
+    },
+    {
+      "source": "IMG_3666",
+      "filename": "ry-x-backstage-portrait-2026.jpg",
+      "crop": [
+        0,
+        1400,
+        4284,
+        5712
+      ],
+      "shadows": 0.035,
+      "chroma": 0.15,
+      "white_balance": [
+        0.985,
+        1,
+        1.015
+      ],
+      "color": 0.985,
+      "input_sha256": "363d9d31231364278af2705ec11992d951431bca26c65192a5d86c984cd159ef",
+      "output_sha256": "f7a874f8b17aa1e534715399059232db83ce7f2e43455d4026ef193947468453",
+      "width": 2384,
+      "height": 2400,
+      "bytes": 1263688
+    }
+  ],
+  "checked": "2026-11-24",
+  "event_context": "RY X, confirmed by owner in this conversation",
+  "published_method": "Conventional non-generative corrections selected explicitly by owner; AI previews rejected and excluded",
+  "source_heic": [
+    {
+      "filename": "IMG_3654.HEIC",
+      "sha256": "97199079cc2243db99a3b1ca5434d447b91f2855f0a999cf2843e90f062087a0"
+    },
+    {
+      "filename": "IMG_3642.HEIC",
+      "sha256": "ec73d0ee89418bede8b5cce623bc77a58e316dd8c3c58eb2f035e936ef732316"
+    },
+    {
+      "filename": "IMG_3648.HEIC",
+      "sha256": "95bdd507a8e34da08dfae4d381a9695bed2c8923bd3a1cafaf9266782ad7d883"
+    },
+    {
+      "filename": "IMG_3666.HEIC",
+      "sha256": "47169597494b6ec73f75d2a81aedb8f1eb8cbd843293ed0a3c942a8aa8672604"
+    }
+  ],
+  "gallery_count_before": 36,
+  "gallery_count_after": 40,
+  "initial_visible_tiles": 6,
+  "new_photos_featured": 4,
+  "styles_and_scripts_unchanged": true,
+  "existing_photo_bytes_preserved": true,
+  "homepage_html_before_bytes": 252690,
+  "homepage_html_after_bytes": 258788,
+  "web_exports": [
+    {
+      "filename": "ry-x-foh-console-performance-2026.jpg",
+      "variants": [
+        {
+          "src": "photos/optimized/ry-x-foh-console-performance-2026-160.webp",
+          "width": 160,
+          "height": 120,
+          "bytes": 3904
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-performance-2026-240.webp",
+          "width": 240,
+          "height": 180,
+          "bytes": 7678
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-performance-2026-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 24422
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-performance-2026-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 70384
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-performance-2026-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 141292
+        }
+      ]
+    },
+    {
+      "filename": "ry-x-foh-console-stage-2026.jpg",
+      "variants": [
+        {
+          "src": "photos/optimized/ry-x-foh-console-stage-2026-160.webp",
+          "width": 160,
+          "height": 120,
+          "bytes": 3048
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-stage-2026-240.webp",
+          "width": 240,
+          "height": 180,
+          "bytes": 6138
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-stage-2026-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 19574
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-stage-2026-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 56482
+        },
+        {
+          "src": "photos/optimized/ry-x-foh-console-stage-2026-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 112758
+        }
+      ]
+    },
+    {
+      "filename": "ry-x-production-blue-light-2026.jpg",
+      "variants": [
+        {
+          "src": "photos/optimized/ry-x-production-blue-light-2026-160.webp",
+          "width": 160,
+          "height": 166,
+          "bytes": 2680
+        },
+        {
+          "src": "photos/optimized/ry-x-production-blue-light-2026-240.webp",
+          "width": 240,
+          "height": 249,
+          "bytes": 4752
+        },
+        {
+          "src": "photos/optimized/ry-x-production-blue-light-2026-480.webp",
+          "width": 480,
+          "height": 497,
+          "bytes": 13760
+        },
+        {
+          "src": "photos/optimized/ry-x-production-blue-light-2026-960.webp",
+          "width": 960,
+          "height": 994,
+          "bytes": 59288
+        },
+        {
+          "src": "photos/optimized/ry-x-production-blue-light-2026-1600.webp",
+          "width": 1600,
+          "height": 1657,
+          "bytes": 211014
+        }
+      ]
+    },
+    {
+      "filename": "ry-x-backstage-portrait-2026.jpg",
+      "variants": [
+        {
+          "src": "photos/optimized/ry-x-backstage-portrait-2026-160.webp",
+          "width": 160,
+          "height": 161,
+          "bytes": 2918
+        },
+        {
+          "src": "photos/optimized/ry-x-backstage-portrait-2026-240.webp",
+          "width": 240,
+          "height": 242,
+          "bytes": 5198
+        },
+        {
+          "src": "photos/optimized/ry-x-backstage-portrait-2026-480.webp",
+          "width": 480,
+          "height": 483,
+          "bytes": 13882
+        },
+        {
+          "src": "photos/optimized/ry-x-backstage-portrait-2026-960.webp",
+          "width": 960,
+          "height": 966,
+          "bytes": 39746
+        },
+        {
+          "src": "photos/optimized/ry-x-backstage-portrait-2026-1600.webp",
+          "width": 1600,
+          "height": 1611,
+          "bytes": 84146
+        }
+      ]
+    }
+  ]
+}

@@ -74,6 +74,10 @@ gallery = [
     ("beirut-the-sea-lover-2019.jpg", "Beirut the Sea Lover", "A sunset, sailing ships and the Beirut cityscape projected onto the Roman Baths staircase during Beirut the Sea Lover, from the Beirut Spring Festival archive", "3D sound mixing · Beirut, Lebanon, 2019"),
     ("tarteeb-shareet-qncc-doha-2026.webp", "Shareet · Tarteeb", "Shareet promotional artwork showing a cassette tape on a vintage taxi beside Doha’s waterfront, with Tarteeb and Qatar Calendar logos and the QNCC event date", "FOH engineer · Al Mayassa Theatre, QNCC, Doha · 14 November 2026"),
     ("ry-x-qatar-philharmonic-doha-2026.webp", "RY X · Qatar Philharmonic Orchestra", "RY X wearing a black hat and coat against a textured blue-grey background, in the official Doha Film Festival event portrait", "FOH engineer · Doha Film Festival · QNCC, Doha · 23 November 2026"),
+    ("ry-x-foh-console-performance-2026.jpg", "RY X · From front of house", "A digital mixing console with three illuminated screens facing the warm-lit stage during the RY X concert", "Concert production · 2026"),
+    ("ry-x-foh-console-stage-2026.jpg", "RY X · The desk and the stage", "The front-of-house mixing console and control screens overlooking musicians on the RY X concert stage", "Concert production · 2026"),
+    ("ry-x-production-blue-light-2026.jpg", "RY X · Behind the scenes", "Two people posing beside a production camera under blue stage lighting at the RY X concert", "Concert production · 2026"),
+    ("ry-x-backstage-portrait-2026.jpg", "RY X · Backstage", "Two people standing together backstage at the RY X concert, one wearing a wide-brimmed brown hat", "Concert production · 2026"),
 ]
 tv = [
     ("MTV Lebanon", "Hek Menghanni", "Music television"),
@@ -240,7 +244,7 @@ gallery_sources = {
 }
 
 
-def image(filename, alt, *, css="", sizes="100vw", eager=False):
+def image(filename, alt, *, css="", sizes="100vw", eager=False, position=None):
     """Use responsive assets while keeping the HTML build dependency-free."""
     info = image_manifest[filename]
     variants = info["variants"]
@@ -250,7 +254,8 @@ def image(filename, alt, *, css="", sizes="100vw", eager=False):
     default = next((v for v in variants if v["width"] >= 960), variants[-1])
     srcset = ", ".join(f"{asset_url(v['src'])} {v['width']}w" for v in variants)
     loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
-    return (f'<img class="{e(css)}" src="{e(asset_url(default["src"]))}" '
+    position_attr = f' style="object-position:{e(position)}"' if position else ''
+    return (f'<img class="{e(css)}"{position_attr} src="{e(asset_url(default["src"]))}" '
             f'srcset="{e(srcset)}" sizes="{e(sizes)}" alt="{e(alt)}" '
             f'width="{info["width"]}" height="{info["height"]}" '
             f'{loading} decoding="async" />')
@@ -304,11 +309,12 @@ for index, (filename, title, alt, context) in enumerate(gallery):
     gallery_data.append({"src": asset_url(full["src"]), "alt": alt, "caption": f"{title} · {context}{credit_text}",
                          "width": full["width"], "height": full["height"]})
     poster_class = " gallery-card--poster" if filename in ("the-eighties-knockout-kuwait-2026.jpg", "cartoon-orchestra-kuwait-2025.jpg", "beiteddine-marco-polo-2013.jpg", "carole-samaha-golden-album-2023.jpg", "zade-dirani-dbayeh-2018.jpg", "mazeej-ndu-2019.jpg", "tarteeb-shareet-qncc-doha-2026.webp") else ""
-    featured_attribute = ' data-gallery-featured' if index in (15, 16, 18, 19, 21, 23) else ''
+    featured_attribute = ' data-gallery-featured' if index in (15, 18, 36, 37, 38, 39) else ''
+    position = "50% 25%" if filename in ("ry-x-production-blue-light-2026.jpg", "ry-x-backstage-portrait-2026.jpg") else None
     gallery_items.append(f'''<figure class="gallery-card{poster_class}"{featured_attribute}>
   <a class="gallery-item" href="{e(asset_url(full["src"]))}" data-gallery-index="{index}"
      aria-label="Enlarge photo: {e(alt)}" aria-haspopup="dialog" aria-controls="lightbox">
-    {image(filename, alt, sizes="(max-width: 980px) 50vw, 33vw")}
+    {image(filename, alt, sizes="(max-width: 980px) 50vw, 33vw", position=position)}
     <span class="gallery-expand" aria-hidden="true">↗</span>
   </a>
   <figcaption><span>{e(title)}</span><span>{e(context)}{credit_html}</span></figcaption>

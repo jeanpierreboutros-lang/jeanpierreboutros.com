@@ -275,7 +275,11 @@ def main():
         assert all(work in service_text for work in works), (slug, "Named studio experience")
         assert service_text.count('<details>') == 4, (slug, "Visible FAQs")
     gallery = json.loads(re.search(r'id="gallery-data">(.*?)</script>', (ROOT / "index.html").read_text(), re.S)[1])
-    assert len(gallery) == 36
+    assert len(gallery) == 40
+    assert len(home.gallery_links) >= 40
+    assert len({photo["src"] for photo in gallery}) == 40
+    assert all(photo["alt"].strip() and photo["caption"].strip() for photo in gallery)
+    assert all("RY X" in photo["caption"] for photo in gallery[-4:])
     assert all(link["href"] == gallery[int(link["data-gallery-index"])]["src"] for link in home.gallery_links)
     assert len(home.downloads) == 3 and len(set(home.downloads)) == 1
     for slug, role in {
@@ -310,7 +314,7 @@ def main():
     if args.vocabulary:
         checked = vocabulary_check([p.json[0] for p in pages.values()], args.vocabulary)
         print(f"PASS: {checked} Schema.org property/domain/range checks against official vocabulary")
-    print("PASS: 42 pages; complete sitemap; unique concise metadata/H1s; canonicals and breadcrumbs; local assets, fragments and ARIA references; no orphan pages; 30 projects and 36 gallery photographs; software entities; verified roles; search access and GPTBot exclusion.")
+    print("PASS: 42 pages; complete sitemap; unique concise metadata/H1s; canonicals and breadcrumbs; local assets, fragments and ARIA references; no orphan pages; 30 projects and 40 gallery photographs; software entities; verified roles; search access and GPTBot exclusion.")
 
 
 if __name__ == "__main__":

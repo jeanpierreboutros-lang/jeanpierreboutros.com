@@ -1,0 +1,64 @@
+{
+  "checked": "2026-11-24",
+  "base": "http://127.0.0.1:8786",
+  "scans": [
+    {
+      "width": 390,
+      "scope": "home-collapsed",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "scope": "home-expanded",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "scope": "project-page",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "scope": "home-collapsed",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "scope": "home-expanded",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "scope": "project-page",
+      "violations": []
+    }
+  ],
+  "checks": [
+    {
+      "width": 390,
+      "gallery_total": 40,
+      "collapsed_visible": 6,
+      "new_featured": 4,
+      "initial_new_photo_requests": 0,
+      "new_lightboxes": "4/4 pass",
+      "keyboard_wrap": "pass",
+      "focus_restore": "pass",
+      "expand_collapse": "pass",
+      "horizontal_overflow": false
+    },
+    {
+      "width": 1440,
+      "gallery_total": 40,
+      "collapsed_visible": 6,
+      "new_featured": 4,
+      "initial_new_photo_requests": 0,
+      "new_lightboxes": "4/4 pass",
+      "keyboard_wrap": "pass",
+      "focus_restore": "pass",
+      "expand_collapse": "pass",
+      "horizontal_overflow": false
+    }
+  ],
+  "errors": [],
+  "no_javascript": "40 visible photos; pass"
+}

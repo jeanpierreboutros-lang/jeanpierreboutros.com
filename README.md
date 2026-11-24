@@ -4,6 +4,12 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
+**Gallery update, 24 November 2026:** four owner-supplied RY X photographs have
+faithful, non-generative exposure, color, noise and crop corrections. The gallery
+now contains 40 photographs; six remain initially visible, including the four
+new images. Original HEIC files, existing photographs, layout, styles and scripts
+are preserved. See the [gallery release and validation](docs/GALLERY-UPDATE-2026-11-24.md).
+
 **Published SEO release, 24 November 2026:** content commit `536f7f1` is live with
 42 canonical pages, a dedicated Zynforge/software page, concise project metadata,
 three expanded case studies and active IndexNow support. Google and Bing both
@@ -51,6 +57,7 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
+| [Gallery update](docs/GALLERY-UPDATE-2026-11-24.md) | Four faithfully corrected RY X photographs, preservation checks and release validation |
 | [SEO publication](docs/SEO-RELEASE-2026-11-24.md) | Current 42-page content release, Google/Bing/IndexNow receipts and production checks |
 | [Final SEO live verification](docs/seo-release-final-live-verification-2026-11-24.json) | 243 HTTP checks; 42 pages and 165 resources/discovery files match the published release |
 | [Production PageSpeed](docs/pagespeed-production-browser-2026-11-24.json) | Actual public mobile/desktop reports, kept separate from local scores |
@@ -87,7 +94,7 @@ The StudioJPB entry and detail use the close-up of Manley outboard equipment. Th
 
 The project browser starts with all 30 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
 
-`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 30 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 36; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
+`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 30 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 40; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
 
 Historical content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 became the newest FOH entry at that release. That build contained 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. RY X now leads the 30-project index. The downloadable profile remains the existing one-page selection.
 
@@ -291,6 +298,12 @@ python3 build.py
 ```
 
 Commit the generated WebP files and `photos/optimized/manifest.json` with the HTML. A normal HTML build does not require Pillow. The generator stops if a referenced derivative is missing.
+
+For a small addition, use `python3 optimize_images.py --only filename.jpg other.jpg`
+to generate only the selected originals and preserve every existing derivative.
+The RY X correction recipe is recorded in `enhance_gallery_photos.py`; its inputs
+are oriented, metadata-free sRGB PNG decodes, and it refuses to overwrite exports.
+The original HEIC files remain outside the website.
 
 Gallery captions describe visible content and established portfolio facts. Add specific event/venue information when confirmed.
 

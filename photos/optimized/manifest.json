@@ -1660,5 +1660,129 @@
         "height": 313
       }
     ]
+  },
+  "ry-x-backstage-portrait-2026.jpg": {
+    "width": 2384,
+    "height": 2400,
+    "variants": [
+      {
+        "src": "photos/optimized/ry-x-backstage-portrait-2026-160.webp",
+        "width": 160,
+        "height": 161
+      },
+      {
+        "src": "photos/optimized/ry-x-backstage-portrait-2026-240.webp",
+        "width": 240,
+        "height": 242
+      },
+      {
+        "src": "photos/optimized/ry-x-backstage-portrait-2026-480.webp",
+        "width": 480,
+        "height": 483
+      },
+      {
+        "src": "photos/optimized/ry-x-backstage-portrait-2026-960.webp",
+        "width": 960,
+        "height": 966
+      },
+      {
+        "src": "photos/optimized/ry-x-backstage-portrait-2026-1600.webp",
+        "width": 1600,
+        "height": 1611
+      }
+    ]
+  },
+  "ry-x-foh-console-performance-2026.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "variants": [
+      {
+        "src": "photos/optimized/ry-x-foh-console-performance-2026-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-performance-2026-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-performance-2026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-performance-2026-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-performance-2026-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "ry-x-foh-console-stage-2026.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "variants": [
+      {
+        "src": "photos/optimized/ry-x-foh-console-stage-2026-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-stage-2026-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-stage-2026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-stage-2026-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "photos/optimized/ry-x-foh-console-stage-2026-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "ry-x-production-blue-light-2026.jpg": {
+    "width": 2317,
+    "height": 2400,
+    "variants": [
+      {
+        "src": "photos/optimized/ry-x-production-blue-light-2026-160.webp",
+        "width": 160,
+        "height": 166
+      },
+      {
+        "src": "photos/optimized/ry-x-production-blue-light-2026-240.webp",
+        "width": 240,
+        "height": 249
+      },
+      {
+        "src": "photos/optimized/ry-x-production-blue-light-2026-480.webp",
+        "width": 480,
+        "height": 497
+      },
+      {
+        "src": "photos/optimized/ry-x-production-blue-light-2026-960.webp",
+        "width": 960,
+        "height": 994
+      },
+      {
+        "src": "photos/optimized/ry-x-production-blue-light-2026-1600.webp",
+        "width": 1600,
+        "height": 1657
+      }
+    ]
   }
 }

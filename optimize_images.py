@@ -16,11 +16,19 @@ DEST.mkdir(exist_ok=True)
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--thumbnails-only", action="store_true",
                     help="Add small variants while preserving all existing derivatives")
+parser.add_argument("--only", nargs="+", metavar="FILENAME",
+                    help="Generate selected originals while preserving every other derivative")
 args = parser.parse_args()
-manifest = json.loads((DEST / "manifest.json").read_text()) if args.thumbnails_only else {}
+manifest = json.loads((DEST / "manifest.json").read_text()) if args.thumbnails_only or args.only else {}
+if args.only:
+    for filename in args.only:
+        if Path(filename).name != filename or not (ROOT / "photos" / filename).is_file():
+            parser.error("Expected an existing original filename: " + filename)
 
 for source in sorted((ROOT / "photos").iterdir()):
     if source.suffix.lower() not in (".jpg", ".png", ".webp"):
+        continue
+    if args.only and source.name not in args.only:
         continue
     with Image.open(source) as original:
         original = ImageOps.exif_transpose(original)
