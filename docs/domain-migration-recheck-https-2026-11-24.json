@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-24T10:32:38.480552+00:00",
+  "hosts": [
+    {
+      "host": "studiojpb.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "expires": "Jan 29 17:32:38 2027 GMT"
+    },
+    {
+      "host": "www.studiojpb.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "expires": "Jan 29 17:32:38 2027 GMT"
+    },
+    {
+      "host": "jeanpierreboutros.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "expires": "Jan 29 17:32:38 2027 GMT"
+    },
+    {
+      "host": "www.jeanpierreboutros.com",
+      "verified": true,
+      "protocol": "TLSv1.2",
+      "expires": "Jan 29 17:32:38 2027 GMT"
+    }
+  ]
+}

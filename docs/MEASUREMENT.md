@@ -1,8 +1,19 @@
 # Visibility and inquiry measurement
 
-Documentation reconciled **24 November 2026**. Current content release **`04a1d8a`** was deployed on 24 November 2026 and contains 41 canonical pages, six services and 30 projects. All 41 pages and 196 referenced resources matched the published release. See [the release report](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
 
-Google and Bing ownership were verified and both processed the then-40-URL sitemap on 16 November. Search query/country/indexing reports were still processing when checked then. No search-account or GA4 reporting review was performed during this session, so the current 41-URL sitemap is not evidence that all 41 pages have been ingested or indexed. Missing report data is not a measured zero.
+Documentation reconciled **24 November 2026**. Current deployed runtime
+`252b41f` contains 42 canonical pages, six services, 30 projects and 40 gallery
+photographs. The final recheck completed 480 migration and 243 primary delivery
+requests without unexpected failures. See the [session closeout](SESSION-CLOSEOUT-2026-11-24.md)
+and [recheck evidence](domain-migration-recheck-2026-11-24.json).
+
+Both primary Google/Bing sitemaps show Success with 42 discovered URLs. Google's
+aggregate coverage view showed 42 indexed and three intentional HTTP/non-www
+redirect exclusions, but its update date was **16 November**. That lagging count
+does not establish indexing of every URL in the current sitemap. Manual-action
+and security reports showed no issues. Old-domain Google/Bing ownership and
+Google Change of Address remain unfinished. No current query/country/referral,
+inquiry or booking export was collected; missing data is not a measured zero.
 
 Consent-based GA4 is now installed after the owner's account-sharing choice and
 explicit approval of Google's agreements. Realtime received test page views,
@@ -17,7 +28,21 @@ the new release annotation and the 3 November baseline below.
 
 ## Establish a baseline
 
-Treat 24 November as a new content-release annotation: the RY X project went live as `04a1d8a`. At the next review, use the existing verified properties to inspect the new URL and latest sitemap processing, then export the available comparable data. No new search, country, referral, inquiry or field-performance baseline was collected for this release.
+Use separate 24 November annotations so later reports can distinguish changes:
+
+| Release annotation | Published content |
+| --- | --- |
+| `04a1d8a`, 00:06:42 | RY X project, 41 canonical pages |
+| `536f7f1`, 12:08:57 | International SEO/software release, 42 pages |
+| `f3699aa`, 12:57:51 | Four faithful RY X gallery additions, 40 photographs |
+| `252b41f`, 13:22:10 | StudioJPB domain migration; primary frontend unchanged |
+
+Times are cPanel's 24 November Asia/Qatar display. The latest public lab report
+at 13:24:13 GMT+3 measures **96 mobile / 100 desktop**, other categories 100,
+Agentic Browsing 3/3, TBT 0ms and CLS 0. No CrUX/INP field baseline or causal
+business improvement is established. Reconcile old-domain webmaster exports
+before assuming the six recovered historical mappings exhaust old backlinks.
+See the [migration report](DOMAIN-MIGRATION-2026-11-24.md).
 
 The historical published baseline is content release `24ec55e`, deployed through HostGator
 on 3 November 2026 (Asia/Beirut): 39 canonical pages, six services, 28 projects,
@@ -29,8 +54,8 @@ release delivery, not search visibility or performance gains. See the
 The earlier SEO deployment annotation is 16 November 2026, commit `239f127`,
 40 pages / 29 projects. The [SEO release live record](portfolio-release-verification-2026-11-16.json)
 distinguishes initial verification from the two-page metadata refinement.
-Registration is complete; export the first available Google Search Console and
-Bing Webmaster Tools performance data after processing finishes.
+Primary-domain registration is complete; old-domain migration ownership
+remains open. Export comparable Google/Bing performance data when available.
 Compare rolling 28-day periods, keeping seasonality and newly indexed pages in
 mind. An absent early impression is not proof of a technical fault. No search baseline,
 organic traffic growth, qualified-inquiry gains or real-user Core Web Vitals

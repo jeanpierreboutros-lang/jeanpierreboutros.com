@@ -1,0 +1,712 @@
+{
+  "checked_at": "2026-11-24T10:32:32.769403+00:00",
+  "baseline_record_values": 23,
+  "comparison": [
+    {
+      "server": "ns8001.hostgator.com",
+      "added": [],
+      "removed": [],
+      "failed_queries": [],
+      "confirmed_absent_names": [
+        "_dmarc.studiojpb.com TXT",
+        "_dmarc.jeanpierreboutros.com TXT"
+      ]
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "added": [],
+      "removed": [],
+      "failed_queries": [],
+      "confirmed_absent_names": [
+        "_dmarc.studiojpb.com TXT",
+        "_dmarc.jeanpierreboutros.com TXT"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "NS",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5016\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t86400\tIN\tNS\tns8002.hostgator.com.\nstudiojpb.com.\t\t86400\tIN\tNS\tns8001.hostgator.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15824\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21234\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "MX",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22178\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tMX\t0 studiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43643\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tTXT\t\"v=spf1 a mx include:websitewelcome.com ~all\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "CAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49744\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "SOA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55485\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t86400\tIN\tSOA\tns8001.hostgator.com. dnsadmin.gator4001.hostgator.com. 2026112300 86400 7200 3600000 86400\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40917\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15630\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9891\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "_dmarc.studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22485\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NXDOMAIN"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "default._domainkey.studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54436\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ndefault._domainkey.studiojpb.com. 14400\tIN TXT\t\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6izqkWsVHczGX6jElqq/oDX+Ik72tUbuO/lAKYhsSbdGawMN82fpihLM/nvRmCE/2cd8zQrZ6RV+3NM5plRBY1MtCV8OxD5Xm7HjnAwWQ5moILdtaRlt+0LGSWNl5gcOzcMdXknSV4WLTSYkYmfHCFMm2VHSDuzifLbk4xUyBOHXDgPMBkpMoVfj528G94lVV\" \"lgzjZTghed2X12uBmK25vTAPgtr+vYOrdSZ2vXEAgJ0lkcKB8nlw5FEM+DNlOKdqZa+mUYxJMpvANubcJrqf02aO7AqTeRszZFwqn5zvpAmytzARnV/u4kaYS9X4JXLBUhcLDHErPhwSfqXbDuoIwIDAQAB;\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5460\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40081\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24350\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autodiscover.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21301\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autodiscover.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43638\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautodiscover.studiojpb.com. 14400 IN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autoconfig.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55516\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autoconfig.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58027\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautoconfig.studiojpb.com. 14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "NS",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21179\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t86400\tIN\tNS\tns8002.hostgator.com.\njeanpierreboutros.com.\t86400\tIN\tNS\tns8001.hostgator.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43804\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24216\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "MX",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7335\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tMX\t0 mail.jeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29654\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tTXT\t\"google-site-verification=3MrxpalDojdD8wQpi33MuRqYI3u7pm0YTv9kG-uyqbw\"\njeanpierreboutros.com.\t14400\tIN\tTXT\t\"v=spf1 ip4:192.185.4.12 a mx include:websitewelcome.com ~all\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "CAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55699\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "SOA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30195\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t86400\tIN\tSOA\tns8001.hostgator.com. root.gator4001.hostgator.com. 2026111602 86400 7200 3600000 86400\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17321\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52376\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\njeanpierreboutros.com.\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14046\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "_dmarc.jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19592\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NXDOMAIN"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "default._domainkey.jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18424\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ndefault._domainkey.jeanpierreboutros.com. 14400\tIN TXT \"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnnbUJ1l96CoXVxc6uvuhix58RqFf9LtyXnw5U4zgw7fY/1Bmb4QxE9yJ19jnct27VPOlQXI+Kr4nvFMTMjWIH0ozsYMh0k2RGu8dxUVbpF4MoKj7W3Kwx7yYABXB38sd9CUJOI+qdlXeLfS6K26RXWibg8NN9yuP/99coIK/xFQ55Y+Vct2EyDPfZ5mqTvwQX\" \"6cDeFNmIitwZ8jke2M5J2bP9We8/toLfI1o2Y5YrwOnyOjUZvAiYNxmsklgaJ39Y+FazRyut9bI9ea7/FY8B+FOb1cFZObN2PARJQjdFXbq1f58MXPpJS2fobYXZCOTjtqxnZ4VdBgCAamuCYZzwwIDAQAB;\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56981\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.jeanpierreboutros.com. 14400 IN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26626\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20599\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10600\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61436\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautodiscover.jeanpierreboutros.com. 14400 IN A\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1928\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8001.hostgator.com",
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47189\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautoconfig.jeanpierreboutros.com. 14400\tIN A\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "NS",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41381\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t86400\tIN\tNS\tns8002.hostgator.com.\nstudiojpb.com.\t\t86400\tIN\tNS\tns8001.hostgator.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30088\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7832\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "MX",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12585\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tMX\t0 studiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16067\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t14400\tIN\tTXT\t\"v=spf1 a mx include:websitewelcome.com ~all\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "CAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37871\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "studiojpb.com",
+      "type": "SOA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21786\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nstudiojpb.com.\t\t86400\tIN\tSOA\tns8001.hostgator.com. dnsadmin.gator4001.hostgator.com. 2026112300 86400 7200 3600000 86400\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49270\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8554\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33509\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "_dmarc.studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35848\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NXDOMAIN"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "default._domainkey.studiojpb.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11417\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ndefault._domainkey.studiojpb.com. 14400\tIN TXT\t\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6izqkWsVHczGX6jElqq/oDX+Ik72tUbuO/lAKYhsSbdGawMN82fpihLM/nvRmCE/2cd8zQrZ6RV+3NM5plRBY1MtCV8OxD5Xm7HjnAwWQ5moILdtaRlt+0LGSWNl5gcOzcMdXknSV4WLTSYkYmfHCFMm2VHSDuzifLbk4xUyBOHXDgPMBkpMoVfj528G94lVV\" \"lgzjZTghed2X12uBmK25vTAPgtr+vYOrdSZ2vXEAgJ0lkcKB8nlw5FEM+DNlOKdqZa+mUYxJMpvANubcJrqf02aO7AqTeRszZFwqn5zvpAmytzARnV/u4kaYS9X4JXLBUhcLDHErPhwSfqXbDuoIwIDAQAB;\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58669\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\nstudiojpb.com.\t\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34742\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41459\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.studiojpb.com.\t14400\tIN\tCNAME\tstudiojpb.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autodiscover.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47140\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autodiscover.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63527\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautodiscover.studiojpb.com. 14400 IN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autoconfig.studiojpb.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41952\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autoconfig.studiojpb.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53045\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautoconfig.studiojpb.com. 14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "NS",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4624\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t86400\tIN\tNS\tns8001.hostgator.com.\njeanpierreboutros.com.\t86400\tIN\tNS\tns8002.hostgator.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40866\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34386\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "MX",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51630\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tMX\t0 mail.jeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44314\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t14400\tIN\tTXT\t\"google-site-verification=3MrxpalDojdD8wQpi33MuRqYI3u7pm0YTv9kG-uyqbw\"\njeanpierreboutros.com.\t14400\tIN\tTXT\t\"v=spf1 ip4:192.185.4.12 a mx include:websitewelcome.com ~all\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "CAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41827\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "jeanpierreboutros.com",
+      "type": "SOA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49819\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\njeanpierreboutros.com.\t86400\tIN\tSOA\tns8001.hostgator.com. root.gator4001.hostgator.com. 2026111602 86400 7200 3600000 86400\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21741\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38229\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\njeanpierreboutros.com.\t14400\tIN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "www.jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 550\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.jeanpierreboutros.com. 14400 IN\tCNAME\tjeanpierreboutros.com.\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "_dmarc.jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19038\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NXDOMAIN"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "default._domainkey.jeanpierreboutros.com",
+      "type": "TXT",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51541\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ndefault._domainkey.jeanpierreboutros.com. 14400\tIN TXT \"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnnbUJ1l96CoXVxc6uvuhix58RqFf9LtyXnw5U4zgw7fY/1Bmb4QxE9yJ19jnct27VPOlQXI+Kr4nvFMTMjWIH0ozsYMh0k2RGu8dxUVbpF4MoKj7W3Kwx7yYABXB38sd9CUJOI+qdlXeLfS6K26RXWibg8NN9yuP/99coIK/xFQ55Y+Vct2EyDPfZ5mqTvwQX\" \"6cDeFNmIitwZ8jke2M5J2bP9We8/toLfI1o2Y5YrwOnyOjUZvAiYNxmsklgaJ39Y+FazRyut9bI9ea7/FY8B+FOb1cFZObN2PARJQjdFXbq1f58MXPpJS2fobYXZCOTjtqxnZ4VdBgCAamuCYZzwwIDAQAB;\"\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45161\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmail.jeanpierreboutros.com. 14400 IN\tA\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "AAAA",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60494\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "mail.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48961\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63904\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autodiscover.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4787\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautodiscover.jeanpierreboutros.com. 14400 IN A\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "CNAME",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24553\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    },
+    {
+      "server": "ns8002.hostgator.com",
+      "name": "autoconfig.jeanpierreboutros.com",
+      "type": "A",
+      "exit_code": 0,
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56816\n;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nautoconfig.jeanpierreboutros.com. 14400\tIN A\t192.185.16.224\n\n",
+      "error": "",
+      "dns_status": "NOERROR"
+    }
+  ]
+}

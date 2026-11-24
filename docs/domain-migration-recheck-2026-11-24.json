@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-11-24T10:37:12.370197+00:00",
+  "action": "Read-only recheck. No website, DNS, payment, renewal or search-platform migration settings changed.",
+  "live_migration_checks": 480,
+  "unexpected_migration_failures": 0,
+  "primary_http_checks": 243,
+  "canonical_pages_matching": 42,
+  "page_resource_discovery_exact_matches": 207,
+  "intentional_missing_page_404": 1,
+  "https_valid_hostnames": 4,
+  "authoritative_dns_servers_checked": 2,
+  "authoritative_dns_queries": 76,
+  "dns_record_changes": 0,
+  "email_records": "MX, SPF and observed DKIM preserved. DMARC names remain absent, as before. No authenticated mailbox or sent-message test.",
+  "offline_validation": "42 pages and 5239 Schema.org vocabulary checks pass; consent/analytics tests pass.",
+  "google": {
+    "visible_verified_properties": [
+      "jeanpierreboutros.com"
+    ],
+    "primary_sitemap": "Success; 42 discovered pages; last read 24 Nov 2026",
+    "index_coverage_report": {
+      "indexed": 42,
+      "excluded": 3,
+      "report_last_update": "16 Nov 2026",
+      "limit": "This lagging aggregate report does not prove that every URL in the current 42-page sitemap is indexed.",
+      "excluded_examples": [
+        "https://jeanpierreboutros.com/",
+        "http://www.jeanpierreboutros.com/",
+        "http://jeanpierreboutros.com/"
+      ],
+      "excluded_reason": "Page with redirect; intentional canonical redirects"
+    },
+    "manual_actions": "No issues detected",
+    "security_issues": "No issues detected",
+    "old_domain_verification": "Still absent; Change of Address not submitted"
+  },
+  "bing": {
+    "visible_verified_properties": [
+      "https://www.jeanpierreboutros.com/"
+    ],
+    "primary_sitemap": "Success; 42 URLs; zero errors/warnings",
+    "old_domain_verification": "Still absent"
+  },
+  "latest_verified_pagespeed": {
+    "report_url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/ilzvfpdb8abcu44yyzhdxp",
+    "report_time": "24 Nov 2026 13:24:13 GMT+3",
+    "mobile": 96,
+    "desktop": 100,
+    "accessibility": 100,
+    "best_practices": 100,
+    "seo": 100,
+    "agentic_browsing": "3/3",
+    "recheck_note": "Existing same-day post-migration report read; no additional performance run in this read-only recheck."
+  },
+  "renewals_observed_in_hostgator_renewal_center": [
+    {
+      "product": "Business Plan (hosting)",
+      "expires": "2026-12-01",
+      "auto_renew": "off"
+    },
+    {
+      "product": "cPanel Email Basic",
+      "expires": "2026-12-01",
+      "auto_renew": "off"
+    }
+  ],
+  "priorities": [
+    "Renew BOTH Business Plan and cPanel Email Basic before 1 December 2026 using the owner-controlled billing flow.",
+    "Verify studiojpb.com in Google and Bing; reconcile historical URL/backlink exports, then submit the prepared Google Change of Address for old apex and www.",
+    "Retain old-domain registration, DNS, certificates and working redirects; monitor indexing and old-domain 404s."
+  ]
+}

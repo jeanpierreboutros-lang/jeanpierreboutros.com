@@ -1,5 +1,15 @@
 # jeanpierreboutros.com
 
+**Session closed, 24 November 2026.** Runtime `252b41f` remains deployed.
+Final recheck: 723 live HTTP requests, no unexpected failures, unchanged DNS
+and valid HTTPS. Latest public PageSpeed: **96 mobile / 100 desktop**, other
+categories 100, Agentic Browsing 3/3.
+
+**Owner actions:** renew **both Business Plan hosting and cPanel Email Basic**
+before **1 December 2026**; auto-renew is **off** for both. Verify the old
+domain in Google/Bing and complete the prepared Google Change of Address.
+Start with the [final session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md).
+
 Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio and broadcast sound engineering, audio system integration, StudioJPB and Zynforge Audio.
 
 Live site: https://www.jeanpierreboutros.com/
@@ -11,15 +21,15 @@ unchanged. All 480 live migration checks pass; public PageSpeed is 96 mobile /
 100 desktop, with other categories 100 and Agentic Browsing 3/3. Google Change
 of Address is prepared for manual filing. See the [migration report and manual search-console steps](docs/DOMAIN-MIGRATION-2026-11-24.md).
 
-**Gallery update, 24 November 2026:** four owner-supplied RY X photographs have
+**Earlier gallery publication, 24 November 2026:** four owner-supplied RY X photographs have
 faithful, non-generative exposure, color, noise and crop corrections. The gallery
 now contains 40 photographs; six remain initially visible, including the four
 new images. Content commit `f3699aa` is live; 42 canonical pages and all new
-image files match the reviewed release. Fresh production PageSpeed is 96 mobile /
+image files match the reviewed release. That gallery release's production PageSpeed was 96 mobile /
 99 desktop, with other categories 100 and Agentic Browsing 3/3. Original HEIC files, existing photographs, layout, styles and scripts
 are preserved. See the [gallery release and validation](docs/GALLERY-UPDATE-2026-11-24.md).
 
-**Published SEO release, 24 November 2026:** content commit `536f7f1` is live with
+**Earlier SEO publication, 24 November 2026:** content commit `536f7f1` is live with
 42 canonical pages, a dedicated Zynforge/software page, concise project metadata,
 three expanded case studies and active IndexNow support. Google and Bing both
 processed the updated sitemap successfully and discovered its 42 URLs. IndexNow
@@ -38,8 +48,9 @@ his FOH engineer role. The published build has 41 canonical pages, 30 projects
 and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
 
 The earlier RY X session’s
-[closeout and follow-ups](docs/SESSION-CLOSEOUT-2026-11-24.md) remain as historical evidence. The remaining operational reminder
-is to confirm hosting renewal; publishing the RY X entry is complete.
+[earlier closeout](docs/RY-X-SESSION-CLOSEOUT-2026-11-24.md) remains historical
+evidence. The final closeout above records completed SEO, gallery and migration
+work, both renewal deadlines and the unfinished old-domain search filings.
 
 Previous release, **16 November 2026**: dark portfolio, original JPB logo, newest-first
 projects, Shareet · Tarteeb FOH credit and worldwide SEO improvements. Final
@@ -66,12 +77,14 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
+| [Final session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Current deployment, completed work, renewal deadlines and next-session handoff |
+| [Final read-only recheck](docs/domain-migration-recheck-2026-11-24.json) | 723 live requests; both authoritative DNS servers; HTTPS, Google/Bing and renewal status |
 | [Domain migration](docs/DOMAIN-MIGRATION-2026-11-24.md) | Audit, historic URL map, live headers, mail preservation and search-console procedures |
 | [Gallery update](docs/GALLERY-UPDATE-2026-11-24.md) | Four faithfully corrected RY X photographs, preservation checks and release validation |
-| [SEO publication](docs/SEO-RELEASE-2026-11-24.md) | Current 42-page content release, Google/Bing/IndexNow receipts and production checks |
+| [SEO publication](docs/SEO-RELEASE-2026-11-24.md) | Earlier 42-page SEO release, Google/Bing/IndexNow receipts and production checks |
 | [Final SEO live verification](docs/seo-release-final-live-verification-2026-11-24.json) | 243 HTTP checks; 42 pages and 165 resources/discovery files match the published release |
-| [Production PageSpeed](docs/pagespeed-production-browser-2026-11-24.json) | Actual public mobile/desktop reports, kept separate from local scores |
-| [Session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Completed work, evidence, remaining follow-ups and next-session starting point |
+| [Production PageSpeed](docs/pagespeed-production-browser-2026-11-24.json) | Earlier SEO publication reports; latest 96/100 results are in the migration report |
+| [Earlier RY X closeout](docs/RY-X-SESSION-CLOSEOUT-2026-11-24.md) | Historical 41-page show publication; final closeout supersedes its follow-ups |
 | [RY X live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json) | 41 pages and 196 referenced resources matched the deployed release |
 | [RY X release](docs/RELEASE-2026-11-24.md) | Earlier 41-page publication and its live verification |
 | [Deployment and registration](docs/RELEASE-2026-11-16.md) | Previous release, Google/Bing setup, tests and remaining measurements |
@@ -154,6 +167,9 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 - `seo_content.py` holds individual project snippets, sourced case-study context and the existing Zynforge product descriptions.
 - `indexnow.py` prepares notifications offline and requires explicit `--submit` plus exact live-key/page verification before sending.
 - `audit_live.py` performs read-only public delivery checks and writes local evidence.
+- `audit_domain_migration.py` validates live old/new origins, legacy mappings, queries, crawler access and operational exceptions.
+- `check_domain_migration_apache.py` tests migration rules on an isolated Apache fixture.
+- `hosting/domain-migration.json` records the six verified legacy page mappings and migration policy.
 - `studio_credits.py` holds 51 song/album entries, their exact engineering scope and source notes excluded from rendered pages; it generates the homepage disclosures and `/studio-credits/`.
 - `docs/studio-credit-research.json` reconciles the initial 36-name audit and five added artists to the 41 collaboration names in that review; the research records above preserve role evidence, owner confirmations and recorded search batches.
 - `search_pages.py` generates 41 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
@@ -362,7 +378,13 @@ Before deployment:
 
 Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
 
-Current content release `04a1d8a45c1a07b848330a511c640224243b9ed8` was deployed on 24 November 2026 at 00:06:42 (Asia/Qatar). cPanel’s Last Deployed SHA matches. All 41 canonical pages and 196 referenced resources matched local bytes. See [the release report](docs/RELEASE-2026-11-24.md). Earlier Google and Bing registration evidence remains in the 16 November report; this release does not claim new indexing results.
+Current runtime `252b41f3414f03f202db2e5b55626369730d8002` was deployed on
+24 November 2026 at 13:22:10 (Asia/Qatar); cPanel's Last Deployed SHA matched.
+The final recheck confirms all 42 pages and 165 referenced/discovery files match,
+plus 480 passing domain-migration requests. Google/Bing primary sitemaps show
+Success with 42 discovered URLs; old-domain ownership and Google Change of
+Address remain manual. See [the migration report](docs/DOMAIN-MIGRATION-2026-11-24.md)
+and [final closeout](docs/SESSION-CLOSEOUT-2026-11-24.md).
 
 Historical portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See [the verification record](docs/portfolio-release-verification-2026-11-03.json).
 
@@ -373,7 +395,7 @@ Documentation-only commits can follow the deployed content commit without changi
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
 4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check all sitemap URLs, affected projects, service pages, updated images and all three profile download links. Verify HTTP/apex/index.html redirects to the HTTPS www canonical, a real 404, search crawler access and GPTBot exclusion. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 41 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 42 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
 The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Canonical redirects apply to jeanpierreboutros.com and www.jeanpierreboutros.com. The separately reviewed migration rules also consolidate studiojpb.com and www.studiojpb.com. Other domains and mail hostnames remain outside these rules; robots, certificate validation and hosting/mail entry points are exempt from old-host migration. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 

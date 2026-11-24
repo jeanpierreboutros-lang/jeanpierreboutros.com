@@ -6,7 +6,15 @@ redirect to the primary origin while DNS/mail stay unchanged. Old-domain
 Google/Bing ownership and Google Change of Address remain manual steps in the
 [migration report](DOMAIN-MIGRATION-2026-11-24.md); no migration filing is claimed.
 
-Documentation reconciled **24 November 2026**. Current published content release is `536f7f1`, with 42 live sitemap URLs and 30 project records. Google and Bing processed the current sitemap successfully (42 URLs); the new software page and priority Google URLs have accepted indexing requests. IndexNow accepted 42 URLs with HTTP 202. See the [latest publication report](SEO-RELEASE-2026-11-24.md) and [technical submission evidence](seo-search-registration-2026-11-24.json). Submission/discovery is not proof of indexing.
+Documentation reconciled **24 November 2026**. The final deployed runtime is
+`252b41f`; the final recheck repeats 480 migration and 243 primary HTTP requests
+without unexpected failures. Google/Bing primary sitemaps show Success with 42
+discovered URLs. Google manual-action and security reports show no issues.
+Its aggregate indexing view is dated 16 November: its 42 indexed count does not
+establish indexing of every current URL; its three exclusions are the intended
+HTTP/non-www homepage redirects. See the [final recheck](domain-migration-recheck-2026-11-24.json)
+and [session closeout](SESSION-CLOSEOUT-2026-11-24.md). Earlier SEO indexing
+requests and the 42-URL IndexNow HTTP 202 receipt retain their publication scope.
 
 Registration was completed **16 November 2026** for release `239f127`. The table below records that dated account observation.
 See [the release report](RELEASE-2026-11-16.md) and
@@ -20,12 +28,13 @@ See [the release report](RELEASE-2026-11-16.md) and
 
 The sitemap is `https://www.jeanpierreboutros.com/sitemap.xml`. Retain the
 verification DNS records; the existing SPF, mail and other DNS records were
-preserved. No remaining account sign-in or verification step is required.
+preserved. Primary-domain verification is complete; old-domain Google/Bing
+ownership and Google Change of Address remain open.
 Reports were processing when inspected on 16 November. They were not reopened during the RY X publication session; discovered URLs and accepted requests do not prove that every page is indexed or that a new version has been recrawled.
 
 ## Published release and future deployment checks
 
-Canonical origin: https://www.jeanpierreboutros.com. HostGator’s Last Deployed SHA is `536f7f1320210bcd6ceead619a9a0005948c0b72`, displayed at **24 November 2026, 12:08:57**. Final verification passed 243 public HTTP checks: all 42 pages, 162 referenced resources and three discovery files match the release. See [the publication report](SEO-RELEASE-2026-11-24.md) and [final live evidence](seo-release-final-live-verification-2026-11-24.json). Documentation-only commits do not require another deployment.
+Canonical origin: https://www.jeanpierreboutros.com. HostGator's Last Deployed SHA is `252b41f3414f03f202db2e5b55626369730d8002`, displayed at **24 November 2026, 13:22:10 (Asia/Qatar)**. The final recheck confirms 42 primary pages, 162 referenced resources and three discovery files match, plus 480 successful migration checks. See the [migration report](DOMAIN-MIGRATION-2026-11-24.md) and [recheck](domain-migration-recheck-2026-11-24.json). Documentation-only commits do not require another deployment.
 
 The current inventory is home, six service pages, 30 project pages, four directories
 and one software page. The 51 studio release entries share one directory page.
@@ -70,7 +79,8 @@ access restrictions, email hosts and all other hosted domains intact.
 
 ## Google Search Console maintenance
 
-Ownership and submission are complete. These steps describe future properties,
+Primary-domain ownership and submission are complete. Old-domain migration steps
+are in the [migration report](DOMAIN-MIGRATION-2026-11-24.md). The steps below describe future properties,
 verification recovery and routine review; reuse the existing verified property.
 
 Official setup: https://search.google.com/search-console
@@ -97,7 +107,7 @@ Ownership reference: https://support.google.com/webmasters/answer/9008080
 
 ## Bing Webmaster Tools maintenance
 
-Ownership and submission are complete using manual DNS verification. These steps
+Primary-domain ownership and submission are complete using manual DNS verification. These steps
 describe future properties or verification recovery; reuse the existing site.
 
 Official setup: https://www.bing.com/webmasters/
@@ -169,14 +179,17 @@ English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-The current 42-page release passes 5,239 official vocabulary property/domain/range checks. Historical evidence: the 16 November release passed 4,980 checks across 40 pages; that result was not extrapolated to the earlier RY X release. The predeployment Apache fixture passed 59 HTTP/TLS checks,
-including cache and shared-host isolation. Public byte checks and Google/Bing
+The current 42-page release passes 5,239 official vocabulary property/domain/range checks. Historical evidence: the 16 November release passed 4,980 checks across 40 pages; that result was not extrapolated to the earlier RY X release. The SEO predeployment Apache fixture passed 59 HTTP checks; the migration
+fixture passed 320 cases, including operational exceptions and host isolation.
+Live TLS was independently validated for all four hostnames. Public byte checks and Google/Bing
 live fetches are now recorded in the release evidence. The published Shareet
 URL passed Schema.org with zero errors/warnings and Google's Rich Results Test
 with four valid supported items and noncritical optional-field notices. The
 later snippet refinement passed local checks and Bing's final live test with no
-SEO/GEO issues. The current release also has a new 10-scan production accessibility and interaction
-smoke suite; see [its evidence](production-browser-qa-2026-11-24.json). No real-user
+SEO/GEO issues. The SEO release has a 10-scan production accessibility/interaction suite;
+see [its evidence](production-browser-qa-2026-11-24.json). The later migration
+adds six production axe scans with zero violations and gallery/keyboard checks;
+see [migration browser evidence](domain-migration-browser-qa-after.json). No real-user
 Core Web Vitals measurement is available. Earlier reports retain their dated scope.
 
 

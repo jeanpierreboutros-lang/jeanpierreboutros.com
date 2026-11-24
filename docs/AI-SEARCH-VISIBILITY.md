@@ -1,8 +1,22 @@
 # AI search visibility
 
-Documentation reconciled **24 November 2026**. Published content `04a1d8a` now has **41 canonical pages**, including the new RY X project. The existing search/fetch allow rules and GPTBot training exclusion are preserved; the site checker passed its robots assertions across all 41 URLs. All 41 pages and 196 referenced resources matched the live release. No new provider-origin retrieval, search-account review or AI citation test was performed. See [the release report](RELEASE-2026-11-24.md) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
 
-The portfolio is prepared for search and retrieval by ChatGPT, Claude, Perplexity and other assistants that use the public web. This builds on the published 41-page static website, linked professional identity, verified credits, international service descriptions and successfully processed Google/Bing sitemaps. Allowing access does not guarantee that a provider will crawl, index, cite or recommend it.
+Documentation reconciled **24 November 2026**. Deployed runtime `252b41f` has
+**42 canonical pages**, including the software-development page, and 40 gallery
+photographs. The search/fetch allow rules and separate GPTBot training exclusion
+remain unchanged. All 42 pages and 165 referenced/discovery resources match
+live bytes. Forty old-domain search/AI user-agent requests across ten identities
+and four origins receive one 301 to accessible matching primary pages; the
+separate primary audit includes 30 crawler requests. Old robots.txt stays a
+direct 200 with the existing policy. See the [migration report](DOMAIN-MIGRATION-2026-11-24.md),
+[final recheck](domain-migration-recheck-2026-11-24.json) and
+[session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
+The portfolio supplies public static content, linked professional identity,
+verified credits, international services and successfully processed 42-URL
+Google/Bing sitemaps. Old-domain ownership and Google Change of Address remain
+open. Header-based probes are not verified operator-IP crawls, indexing events
+or AI citation tests. No recommendation or citation increase is claimed.
 
 ## Historical crawler-policy verification — 16 November 2026
 
@@ -36,7 +50,7 @@ actual AI indexing or recommendation.
 | Bing / Copilot | bingbot allowed; verified Bing property and processed sitemap | Search and available AI Performance reports can be reviewed in the existing account; no universal AI citation measurement is claimed. |
 | Grok | Public, crawlable HTML, self-canonicals, verified identity and evidence; existing wildcard access preserved | [xAI Web Search](https://docs.x.ai/developers/tools/web-search) documents web search and page browsing. The reviewed official sources did not establish a publisher-submission endpoint or a verified search crawler token to add. No invented GrokBot entry or direct Grok submission is claimed. |
 
-Claude and the user fetchers were already allowed by the site's wildcard rule. The new explicit entries document and protect the intended policy if general crawler rules change later. They do not by themselves establish a new indexing event. The current site checker tests all eight documented search/fetch identities against the 41 canonical URLs; the focused HTTP evidence above remains the 16 November sample.
+Claude and the user fetchers were already allowed by the site's wildcard rule. The new explicit entries document and protect the intended policy if general crawler rules change later. They do not by themselves establish a new indexing event. The current site checker tests all eight documented search/fetch identities against the 42 canonical URLs; the focused HTTP evidence above remains the 16 November sample.
 
 The existing `GPTBot` training exclusion is retained. Other training preferences and wildcard access are unchanged. There is no blanket new bot permission, user-agent-based firewall bypass or removal of hosting security protections. User-agent strings alone do not establish that a request comes from an operator.
 
@@ -54,7 +68,7 @@ The recorded post-deployment checks fetched robots.txt and representative home/s
 
 ## Visibility work that continues over time
 
-1. Retain the verified Google/Bing properties and DNS proofs. Review indexing, selected canonicals and sitemap errors as reports populate; the historical discovery of 40 URLs does not establish ingestion or indexing of all 41 current URLs.
+1. Retain the verified Google/Bing properties and DNS proofs. Review indexing, selected canonicals and sitemap errors as reports populate; the current discovery of 42 URLs and lagging aggregate coverage counts do not establish indexing of each current page. Complete old-domain verification/migration and review selected canonicals after recrawling.
 2. Strengthen genuine third-party credits and links from organizers, venues, artists and studio releases. Keep the same name, role, location and canonical website in maintained professional profiles. No outreach or profile changes were made by this update.
 3. Publish useful, confirmed project details and photographs as work is completed. Keep FOH, monitors, recording and studio-only credits precise.
 4. Review available search queries, countries, service pages, identifiable AI referrals, Bing AI Performance and qualified international inquiries. Log occasional dated AI-search samples using non-leading professional queries. Results vary; one answer is not a stable rank.

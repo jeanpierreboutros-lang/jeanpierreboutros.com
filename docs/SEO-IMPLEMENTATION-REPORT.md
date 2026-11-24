@@ -2,25 +2,60 @@
 
 Documentation reconciled **24 November 2026**. Website: https://www.jeanpierreboutros.com/.
 
+
 ## Current published release — 24 November 2026
 
-Content `04a1d8a45c1a07b848330a511c640224243b9ed8` is deployed through the existing HostGator cPanel Git workflow. RY X with the Qatar Philharmonic Orchestra is the newest project, with Jean-Pierre’s confirmed FOH engineer role at QNCC, Auditorium 3, Doha, on 23 November 2026 for Doha Film Festival. The homepage, project page, gallery, collaboration credits, live/orchestra services, Qatar directory, sitemap and supplementary page directory include it.
+The current deployed runtime is `252b41f3414f03f202db2e5b55626369730d8002`,
+confirmed in cPanel at **24 November 2026, 13:22:10 (Asia/Qatar)**. It includes
+the international SEO/software release, four faithfully corrected owner-supplied
+RY X gallery photographs and the retired StudioJPB domain migration. Read the
+[final session closeout](SESSION-CLOSEOUT-2026-11-24.md) first for current status.
 
 | Current inventory | Count |
 | --- | ---: |
-| Canonical HTML pages / sitemap URLs | 41 |
-| Homepage / services / projects / directories | 1 / 6 / 30 / 4 |
+| Canonical HTML pages / sitemap URLs | 42 |
+| Homepage / services / projects / directories / software page | 1 / 6 / 30 / 4 / 1 |
 | FOH / monitors / broadcast / studio / technical projects | 18 / 6 / 1 / 3 / 2 |
 | Featured projects | 6 |
 | Artist and ensemble collaboration names | 43 |
-| Gallery images | 36 |
+| Gallery photographs | 40 |
 | Unique studio release entries / artist groups | 51 / 27 |
+| Zynforge product descriptions | 3 |
 
-All 41 pages and 196 referenced resources matched the release bytes after deployment. Three tested duplicate-origin/index URLs resolved to the canonical homepage; a nonexistent path and three repository-only paths returned 404. The live project page and desktop layout were observed in Chrome. The existing PDF, analytics implementation, fonts, branding and crawler policy were retained. No new mobile interaction matrix, vocabulary-wide schema run, external validator run, performance score or search-console result is claimed for this release.
+The [SEO release](SEO-RELEASE-2026-11-24.md) adds the software destination, unique
+concise snippets and three factual case-study sections. The
+[gallery release](GALLERY-UPDATE-2026-11-24.md) preserves original HEIC files,
+faces and equipment through non-generative corrections and responsive exports.
+The [domain migration](DOMAIN-MIGRATION-2026-11-24.md) sends old apex/www website
+requests to relevant primary-domain paths, with six historical page mappings,
+query preservation, operational exceptions and genuine unmatched-path 404s.
+DNS, email records and the primary frontend remain unchanged by migration.
 
-See [the release report](RELEASE-2026-11-24.md), [exact live evidence](ry-x-qatar-philharmonic-live-verification-2026-11-24.json), [event provenance](ry-x-qatar-philharmonic-research-2026-11-23.json) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+The final read-only recheck completed **723 live HTTP requests**: 480 migration
+checks passed; the separate 243-request primary audit matched all 42 canonical
+pages, 162 referenced assets and three discovery files. Its one intentional
+missing-page 404 is expected. Both authoritative DNS servers were queried
+directly (76 queries, no record changes); all four HTTPS hostnames validate.
+The build/site checks include 5,239 Schema.org vocabulary checks. Migration
+validation also includes 320 isolated Apache cases and six production axe scans
+with zero violations. See the [final recheck](domain-migration-recheck-2026-11-24.json).
 
-Google/Bing registration was completed on 16 November. Their recorded 40-URL sitemap processing is historical account evidence; the 41-URL sitemap is now live, but search accounts were not revisited to establish ingestion or indexing of the new project. Existing GA4 consent behavior and prior lab measurements retain their documented 16 November verification scope.
+The latest public PageSpeed report, **13:24:13 GMT+3**, is **96 mobile / 100
+desktop**, with Accessibility, Best Practices and SEO 100 and Agentic Browsing
+3/3. The later read-only recheck reviewed that report; it did not run another
+performance test. No CrUX field data or causal ranking improvement is claimed.
+
+Google and Bing primary ownership remain verified, and both primary sitemaps
+show Success with 42 discovered URLs. Google manual-action/security reports
+show no issues. Its aggregate indexing report is dated 16 November and does
+not prove that all current sitemap URLs are indexed. The old StudioJPB domain
+is still absent from both connected accounts; verification, historical URL
+export review and Google Change of Address remain manual follow-ups.
+
+**Urgent renewal:** HostGator Business Plan and cPanel Email Basic both expire
+**1 December 2026**, with auto-renew **off** for both. No billing or renewal
+setting was changed. The existing analytics implementation is preserved;
+GA4 event-receipt evidence remains dated 16 November.
 
 ## Historical addition — 16 November 2026
 
@@ -56,6 +91,9 @@ while its evidence is recorded under both artists. Studio entries share the
 
 | Release | Deployment and evidence scope |
 | --- | --- |
+| `252b41f` — domain consolidation | 24 November; 480 live migration checks, unchanged primary frontend/DNS, latest public PageSpeed 96/100 |
+| `f3699aa` — four faithful RY X photos | 24 November; gallery grows to 40, responsive variants and production gallery/accessibility checks pass |
+| `536f7f1` — international SEO and software | 24 November; 42 canonical URLs, Google/Bing/IndexNow receipts and SEO validation |
 | `04a1d8a` — RY X FOH project | 24 November 2026; 41 pages and 196 referenced resources matched live bytes; cPanel SHA confirmed |
 | `c931301` — analytics/performance follow-up | 16 November 2026; consent-based analytics and prior lab results retained; see the growth release report |
 | `239f127` — dark portfolio and SEO | 16 November 2026; 40 pages and 125 resource URLs verified, Google/Bing ownership and successful 40-URL sitemap processing |
@@ -284,14 +322,30 @@ is recorded. Google/Bing ownership verification, sitemap submission and both pub
 structured-data validators remain outstanding. No analytics, ownership token or
 search-performance baseline was installed or invented.
 
+
 ## Current maintenance and follow-up — 24 November 2026
 
-The [README](../README.md#stack-and-structure) maps build sources, generated pages, fonts, images, PDF and hosting scripts. The non-purging HostGator manifest copies 41 pages and runtime resources while preserving unrelated shared-host files. Domain-scoped redirects and private backup behavior are unchanged. Follow the [deployment and rollback runbook](../README.md#deployment) for future runtime releases; documentation-only commits do not need deployment.
+The [README](../README.md#stack-and-structure) maps build sources and generated
+assets. The non-purging HostGator manifest publishes 42 canonical pages and
+runtime resources. The managed rewrite block consolidates both website domains
+while preserving other domains, email hosts, certificate validation and existing
+access restrictions. Documentation-only commits need no cPanel deployment.
 
-1. Confirm hosting renewal or scheduled automatic renewal. The HostGator screen observed during publication said “Hosting expires in 7 days”; no renewal or automatic-renewal setting was changed.
-2. Optionally replace or supplement the RY X promotional portrait with an owner-supplied concert/FOH photograph and confirmed technical detail.
-3. Review existing Google/Bing properties for the new project, current sitemap ingestion and actual query/page/country data. Do not repeat ownership setup or treat the earlier 40 discovered URLs as a new 41-page indexing result.
-4. Use the [measurement plan](MEASUREMENT.md) for ongoing reports. Prior lab metrics and analytics QA events are historical evidence, not new business outcomes.
-5. Repeat interaction, structured-data or performance checks when later changes affect them. Keep factual claims and image provenance documented, preserve owner exclusions, and retain the [draft-only outreach instruction](OUTREACH-DRAFTS.md).
+1. Renew **both** Business Plan hosting and cPanel Email Basic before **1 December
+   2026**; auto-renew was observed off for both in Renewal Center.
+2. Verify the old domain in Google/Bing and complete the prepared migration
+   procedure. Preserve primary verification records, MX/SPF/DKIM and the working
+   redirects. Review historical URL/backlink exports and old-domain 404 logs.
+3. Retain domain registration, DNS, HTTPS renewal and redirects. Monitor selected
+   canonicals, indexing and comparable country/service/inquiry measurements.
+4. RY X already has four owner-supplied gallery photographs and a factual case
+   study. Additional console, routing, challenge or outcome detail remains
+   optional and requires owner confirmation.
+5. Keep [outreach drafts](OUTREACH-DRAFTS.md) unsent. Preserve attribution,
+   professional-role distinctions and owner exclusions. Review unresolved
+   external-source responses before changing established links.
 
-Publication is complete; these are operational or optional follow-ups. [The closeout](SESSION-CLOSEOUT-2026-11-24.md) records the next-session starting point. Search engines decide crawling, indexing and presentation; rankings and citations are not guaranteed.
+The [final closeout](SESSION-CLOSEOUT-2026-11-24.md) is the next-session entry
+point. Technical publication is complete; search filing and owner renewals are
+explicitly unfinished. Rankings, authority transfer and AI citations depend on
+search processing and are not guaranteed.

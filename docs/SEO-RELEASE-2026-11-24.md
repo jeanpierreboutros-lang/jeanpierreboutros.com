@@ -1,5 +1,12 @@
 # Published international SEO and software discovery release
 
+This is the SEO publication record. The final deployed runtime is
+`252b41f`, with 42 pages, 40 gallery photographs and the verified StudioJPB
+migration. Latest public PageSpeed is 96 mobile / 100 desktop at 13:24:13
+GMT+3. See the [final session closeout](SESSION-CLOSEOUT-2026-11-24.md) for
+current renewal deadlines, search-platform follow-ups and recheck results.
+The measurements and release-specific statements below retain their dated scope.
+
 **Published 24 November 2026.** The website is live at https://www.jeanpierreboutros.com/. Final content commit is `536f7f1320210bcd6ceead619a9a0005948c0b72`. HostGator cPanel displayed that exact Last Deployed SHA and completion time **24 November 2026, 12:08:57**. The owner authorized commit, push, deployment and search submissions with “PROCEED.”
 
 The reviewed SEO release was first published as `3ee0c8621f7fd59662fb19b427277b7d619d048d` at 11:57:25. Bing's live inspection then identified three empty product-icon alt values on the new software page. The final commit adds short descriptive labels for those icons; it changes only `search_pages.py` and the generated software page. Its final Bing live test reports **No SEO/GEO issues found**. Homepage HTML, CSS, scripts, photographs and fonts are unchanged between these two published commits.
@@ -50,7 +57,7 @@ The public API again returned quota errors. The browser interface successfully p
 | [12:14:20](https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/0f10tbsgenjcb6daktf4tq) | 95 | 99 | 100 / 100 / 100 | 3/3 |
 | User-supplied prior production baseline | 95 | 100 | 100 / 100 / 100 | 3/3 |
 
-The latest production run is **95 mobile / 99 desktop**. Across the three runs, mobile is 95–96 and desktop 98–99. Production desktop 100 was **not reproduced**; an exact preserved 100 is not claimed. Matched local before/after regression tests remain mobile 98→98 and desktop 100→100, but those use a different environment. No causal production regression or improvement can be established from the supplied single prior score and the new runs under different conditions.
+The latest run within this SEO publication was **95 mobile / 99 desktop**. Across the three runs, mobile is 95–96 and desktop 98–99. Production desktop 100 was **not reproduced in those three runs**; an exact preserved 100 is not claimed. Matched local before/after regression tests remain mobile 98→98 and desktop 100→100, but those use a different environment. No causal production regression or improvement can be established from the supplied single prior score and the new runs under different conditions.
 
 All remote runs have **0ms total blocking time and zero CLS**. Mobile LCP is 2.477–2.638s; desktop LCP is 0.562–0.639s. Remote reports highlight render-blocking styles, existing responsive-image opportunities, DOM size and about 2KiB estimated CSS minification savings. No animation was removed or visual redesign made to pursue a score. A comparable historical trace would be needed to isolate a reproducible desktop change. There is no CrUX field data or measured INP, and these tests do not establish response performance from every target country.
 
@@ -78,7 +85,14 @@ Google's initial software and RY X inspections were not indexed. Accepted reques
 
 Technical receipts: [Google/Bing observations](seo-search-registration-2026-11-24.json) and [IndexNow receipt](indexnow-submission-2026-11-24.json). No credentials, session URLs, private query exports or newly created account permissions are included.
 
-## Remaining work and practical limits
+## Follow-ups recorded at SEO publication
+
+Subsequent session work resolved two earlier items: the post-migration public
+report reaches desktop 100, and StudioJPB cross-domain redirects are live and
+verified. Renewal Center now confirms both hosting and cPanel Email Basic expire
+1 December with auto-renew off. The current action list is in the
+[final closeout](SESSION-CLOSEOUT-2026-11-24.md); the list below records the earlier
+SEO release's remaining work at its publication time.
 
 1. Allow recrawling, then review Google/Bing indexing and selected canonicals for the new software and RY X pages. Compare relevant country/service performance and qualified inquiries over comparable 28-day windows. No recurring automation was scheduled.
 2. An exact production desktop 100 remains unconfirmed. Keep the three observed reports as the current measured distribution. Investigate a repeatable slowdown against comparable traces before changing the protected design or animations.

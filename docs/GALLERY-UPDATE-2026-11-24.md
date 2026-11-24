@@ -1,5 +1,12 @@
 # RY X gallery update — 24 November 2026
 
+This is the gallery publication record. The final deployed runtime is
+`252b41f`, with 42 pages, 40 gallery photographs and the verified StudioJPB
+migration. Latest public PageSpeed is 96 mobile / 100 desktop at 13:24:13
+GMT+3. See the [final session closeout](SESSION-CLOSEOUT-2026-11-24.md) for
+current renewal deadlines, search-platform follow-ups and recheck results.
+The measurements and release-specific statements below retain their dated scope.
+
 Published and verified: content commit `f3699aa4cbe61f2a49fc2a98b239c1cee55839ac`.
 cPanel displayed the matching Last Deployed SHA and completion time
 24 November 2026, 12:57:51 PM. The earlier usage-limit interruption to browser

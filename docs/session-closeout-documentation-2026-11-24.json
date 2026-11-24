@@ -1,0 +1,77 @@
+{
+  "closed_at": "2026-11-24T11:13:27.091539+00:00",
+  "scope": "Documentation and final recheck evidence only. No runtime, DNS, financial, renewal, search-platform filing or outreach changes.",
+  "source_baseline_commit": "97ba9016afdc60eb658b88612b33ad3a05329b97",
+  "deployed_runtime_commit": "252b41f3414f03f202db2e5b55626369730d8002",
+  "reviewed_existing_markdown": [
+    "README.md",
+    "docs/AI-SEARCH-VISIBILITY.md",
+    "docs/ANALYTICS.md",
+    "docs/DOMAIN-MIGRATION-2026-11-24.md",
+    "docs/GALLERY-UPDATE-2026-11-24.md",
+    "docs/GROWTH-RELEASE-2026-11-16.md",
+    "docs/MEASUREMENT.md",
+    "docs/OUTREACH-DRAFTS.md",
+    "docs/PROJECT-DETAILS-TO-CONFIRM.md",
+    "docs/RELEASE-2026-11-16.md",
+    "docs/RELEASE-2026-11-24.md",
+    "docs/SEARCH-CONSOLE.md",
+    "docs/SEO-AUDIT-2026-11-16.md",
+    "docs/SEO-AUDIT-2026-11-24.md",
+    "docs/SEO-IMPLEMENTATION-REPORT.md",
+    "docs/SEO-RELEASE-2026-11-24.md",
+    "docs/SESSION-CLOSEOUT-2026-11-24.md",
+    "fonts/README.md"
+  ],
+  "unchanged_after_review": {
+    "fonts/README.md": "Font provenance, binaries, CSS and license sources remain unchanged; existing documentation is still accurate."
+  },
+  "new_historical_archive": "docs/RY-X-SESSION-CLOSEOUT-2026-11-24.md",
+  "current_handoff": "docs/SESSION-CLOSEOUT-2026-11-24.md",
+  "updated_or_added_files_before_this_ledger": [
+    "README.md",
+    "docs/AI-SEARCH-VISIBILITY.md",
+    "docs/ANALYTICS.md",
+    "docs/DOMAIN-MIGRATION-2026-11-24.md",
+    "docs/GALLERY-UPDATE-2026-11-24.md",
+    "docs/GROWTH-RELEASE-2026-11-16.md",
+    "docs/MEASUREMENT.md",
+    "docs/OUTREACH-DRAFTS.md",
+    "docs/PROJECT-DETAILS-TO-CONFIRM.md",
+    "docs/RELEASE-2026-11-16.md",
+    "docs/RELEASE-2026-11-24.md",
+    "docs/RY-X-SESSION-CLOSEOUT-2026-11-24.md",
+    "docs/SEARCH-CONSOLE.md",
+    "docs/SEO-AUDIT-2026-11-16.md",
+    "docs/SEO-AUDIT-2026-11-24.md",
+    "docs/SEO-IMPLEMENTATION-REPORT.md",
+    "docs/SEO-RELEASE-2026-11-24.md",
+    "docs/SESSION-CLOSEOUT-2026-11-24.md",
+    "docs/domain-migration-recheck-2026-11-24.json",
+    "docs/domain-migration-recheck-dns-2026-11-24.json",
+    "docs/domain-migration-recheck-https-2026-11-24.json",
+    "docs/domain-migration-recheck-live-2026-11-24.json",
+    "docs/domain-migration-recheck-primary-2026-11-24.json"
+  ],
+  "documentation_validation": {
+    "markdown_files_checked": 19,
+    "local_links_checked": 190,
+    "broken_local_links": 0,
+    "new_json_parses": true,
+    "current_inventory": "42 pages, 30 projects, six services, 43 collaborations, 40 gallery photos, 51 studio releases in 27 groups",
+    "latest_measured_pagespeed": "96 mobile / 100 desktop; other categories 100; Agentic Browsing 3/3; 13:24:13 GMT+3 report",
+    "known_preview_ports_without_listener": [
+      8004,
+      8771,
+      8785,
+      8786,
+      8789
+    ]
+  },
+  "owner_actions_remaining": [
+    "Renew BOTH Business Plan hosting and cPanel Email Basic before 2026-12-01; auto-renew observed off for both.",
+    "Verify the old domain in Google/Bing, reconcile historical URL/backlink exports, and submit the prepared Google Change of Address for old apex/www.",
+    "Retain registration, DNS, HTTPS and redirects; monitor indexing and old-domain 404s."
+  ],
+  "historical_evidence_policy": "Original dated JSON, CSV, font/license files and historical measurements are preserved. New recheck evidence is copied to separately named files."
+}

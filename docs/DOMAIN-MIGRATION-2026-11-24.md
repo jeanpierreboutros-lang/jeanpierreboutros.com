@@ -1,5 +1,12 @@
 # StudioJPB domain consolidation — 24 November 2026
 
+Final read-only recheck completed at **13:37:12 Asia/Qatar** on 24 November:
+723 live HTTP requests, zero unexpected failures, 76 direct authoritative-DNS
+queries with no record changes, and four valid HTTPS hostnames. Both hosting
+and cPanel Email Basic expire **1 December 2026**, with auto-renew **off**.
+See the [recheck evidence](domain-migration-recheck-2026-11-24.json) and
+[final session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+
 Published and live-verified. cPanel deployed content commit
 `252b41f3414f03f202db2e5b55626369730d8002` at **24 November 2026, 1:22:10 PM**;
 the displayed Last Deployed SHA matched. All 480 migration checks passed.
@@ -206,9 +213,11 @@ account; no registrar or CDN reconfiguration is required. For future maintenance
 4. GoDaddy → My Products → Domains → Domain settings: retain ownership and renew
    both domains before their RDAP expiration dates. Keep the existing HostGator
    nameservers. No purchase, billing or registration setting is changed here.
-5. The hosting portal separately reports **hosting expires in seven days**.
-   Arrange its renewal through the owner-controlled billing flow to retain web,
-   redirect and mail service; domain expiration dates do not cover hosting.
+5. HostGator → Billing → Renewal Center shows **Business Plan** and
+   **cPanel Email Basic** both expiring **1 December 2026**, with auto-renew
+   **off** for each. Renew both through the owner-controlled billing flow.
+   No renewal, payment or billing setting was changed. Domain registration
+   expiration does not cover these hosting/email subscriptions.
 
 ## Production results
 
@@ -291,6 +300,19 @@ The source follow-up commits containing these reports do not need another
 website deployment: documentation and audit tools are excluded by the existing
 production copy manifest.
 
+## Final read-only recheck
+
+The later recheck repeats all 480 migration requests and the 243-request primary
+audit with no unexpected failures. It queries both authoritative DNS servers
+directly (76 queries), confirms unchanged records and validates four HTTPS hosts.
+Google/Bing still show sitemap Success with 42 discovered URLs. Google manual
+actions/security reports show no issues; its aggregate coverage data remains
+dated 16 November and the three exclusions are intentional homepage redirects.
+Old-domain ownership remains absent in both connected accounts. The latest
+performance evidence is the existing 13:24:13 report, not a new performance run.
+No message-delivery test, payment, renewal or migration filing was performed.
+See [the complete recheck](domain-migration-recheck-2026-11-24.json).
+
 ## Remaining owner actions and monitoring
 
 1. Complete old-domain Google ownership and the prepared Change of Address
@@ -301,8 +323,9 @@ production copy manifest.
 3. Review old-domain access-log 404s and search exports for additional legacy
    URLs over the next several weeks. Extend the explicit map when an equivalent
    destination is verified. Historical backlink coverage is not exhaustive.
-4. Retain and renew the old domain, hosting, DNS, certificate renewal and email.
-   Address the hosting portal's seven-day expiration notice through billing.
+4. Renew **both** Business Plan hosting and cPanel Email Basic before
+   **1 December 2026**; auto-renew is off for both. Retain old-domain registration,
+   DNS, certificate renewal and working redirects.
 5. Monitor old/new indexing, clicks and impressions, referring traffic, selected
    canonicals, crawl errors and Bing AI Performance. Keep a dated baseline and
    compare after recrawling; consolidation is a search-engine process, not an

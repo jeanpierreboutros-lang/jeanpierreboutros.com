@@ -6,7 +6,7 @@ The existing portfolio's roles, dates, venues, images and published release
 credits are retained. No undocumented console, signal chain, channel count,
 challenge, result or testimonial will be invented.
 
-Four records can be expanded with richer first-person technical detail: RY X with Qatar Philharmonic at QNCC for Doha Film Festival, Shareet at QNCC, Abeer Nehme with Qatar Philharmonic, and Nancy Ajram at L'Olympia. RY X currently uses the attributed official promotional portrait; an owner-supplied FOH or concert photograph would add first-hand production context. For any future expansion, use only details the owner confirms for publication:
+Four records can be expanded with richer first-person technical detail: RY X with Qatar Philharmonic at QNCC for Doha Film Festival, Shareet at QNCC, Abeer Nehme with Qatar Philharmonic, and Nancy Ajram at L'Olympia. The RY X project card retains the attributed official portrait, and its gallery now contains four owner-supplied production photographs with faithful corrections. The SEO release already added factual case-study context for RY X, Nancy at L'Olympia and Marcel Khalifé at Amman Citadel. See the [photo release](GALLERY-UPDATE-2026-11-24.md) and [SEO release](SEO-RELEASE-2026-11-24.md). Further technical detail is optional. For any future expansion, use only details the owner confirms for publication:
 
 1. Your exact scope, including any work beyond the already confirmed FOH role.
 2. Console/recording system and any relevant routing, playback or processing.
