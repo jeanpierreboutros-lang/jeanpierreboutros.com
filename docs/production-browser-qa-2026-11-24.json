@@ -1,0 +1,91 @@
+{
+  "checked": "2026-11-24",
+  "release": "536f7f1320210bcd6ceead619a9a0005948c0b72",
+  "base": "https://www.jeanpierreboutros.com",
+  "scans": [
+    {
+      "path": "/",
+      "width": 390,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/audio-software-developer/",
+      "width": 390,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/recording-engineer/",
+      "width": 390,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "width": 390,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/studio-credits/",
+      "width": 390,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/audio-software-developer/",
+      "width": 1440,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/recording-engineer/",
+      "width": 1440,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/projects/ry-x-qatar-philharmonic-doha/",
+      "width": 1440,
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "path": "/studio-credits/",
+      "width": 1440,
+      "violations": [],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "interactions": [
+    {
+      "width": 390,
+      "project_dialog": "pass",
+      "photo_viewer": "pass",
+      "focus_return": "pass",
+      "filters": "pass",
+      "skip_link": "pass",
+      "mobile_menu": "pass",
+      "profile_links": 3
+    },
+    {
+      "width": 1440,
+      "project_dialog": "pass",
+      "photo_viewer": "pass",
+      "focus_return": "pass",
+      "filters": "pass",
+      "skip_link": "pass",
+      "mobile_menu": "not_applicable",
+      "profile_links": 3
+    }
+  ],
+  "limits": "Automated production smoke tests; not a manual screen-reader certification."
+}

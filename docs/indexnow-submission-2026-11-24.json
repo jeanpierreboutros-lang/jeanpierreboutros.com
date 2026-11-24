@@ -1,0 +1,9 @@
+{
+  "checked": "2026-11-24T09:10:42.761578+00:00",
+  "release": "536f7f1320210bcd6ceead619a9a0005948c0b72",
+  "command": "python3 indexnow.py --submit",
+  "returncode": 0,
+  "stdout": "IndexNow HTTP 202; 42 URLs sent. Indexing is not guaranteed.\n",
+  "stderr": "",
+  "meaning": "The tool verifies the public key and exact live page bytes before any submission; receipt does not prove indexing."
+}

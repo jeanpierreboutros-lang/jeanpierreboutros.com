@@ -1,0 +1,96 @@
+{
+  "checked": "2026-11-24",
+  "method": "Fresh public PageSpeed reports observed through Chrome UI; API requests separately returned quota errors. Values transcribed from observed AX metrics and score-calculator links.",
+  "release_measured": "3ee0c8621f7fd59662fb19b427277b7d619d048d",
+  "field_data": "No Data",
+  "reports": [
+    {
+      "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/olge2q1n047iopjmlaozob",
+      "reported_time": "2026-11-24 11:58:28 GMT+3",
+      "lighthouse": "13.6.0",
+      "mobile": {
+        "performance": 96,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 1802,
+        "lcp_ms": 2477,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 3027
+      },
+      "desktop": {
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 546,
+        "lcp_ms": 639,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 1376
+      }
+    },
+    {
+      "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/w647zosvm9c609cjzp3isg",
+      "reported_time": "2026-11-24 12:01:18 GMT+3",
+      "lighthouse": "13.6.0",
+      "mobile": {
+        "performance": 96,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 1802,
+        "lcp_ms": 2477,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 3041
+      },
+      "desktop": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 454,
+        "lcp_ms": 562,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 1275
+      }
+    },
+    {
+      "url": "https://pagespeed.web.dev/analysis/https-www-jeanpierreboutros-com/0f10tbsgenjcb6daktf4tq",
+      "reported_time": "2026-11-24 12:14:20 GMT+3",
+      "lighthouse": "13.6.0",
+      "mobile": {
+        "performance": 95,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 1888,
+        "lcp_ms": 2638,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 2827
+      },
+      "desktop": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100,
+        "agentic": "3/3",
+        "fcp_ms": 505,
+        "lcp_ms": 562,
+        "tbt_ms": 0,
+        "cls": 0,
+        "speed_index_ms": 1333
+      }
+    }
+  ],
+  "limits": "Three complete postdeployment public reports retained: mobile96/96/95 and desktop98/99/99. User supplied baseline95/100. Production desktop100 was not reproduced; no claim of an exact preserved score or a proven causal regression. Matched local before/after tests remain98/100. No CrUX/INP field result. The icon follow-up changes only the software page; measured homepage bytes match final release."
+}

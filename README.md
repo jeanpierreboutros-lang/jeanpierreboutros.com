@@ -4,14 +4,15 @@ Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio a
 
 Live site: https://www.jeanpierreboutros.com/
 
-**Local SEO audit candidate, 24 November 2026 — not deployed:** the reviewed build
-has 42 canonical pages, a dedicated Zynforge/software page, concise project
-metadata, three expanded case studies and prepared IndexNow support. The existing
-live release below remains the 41-page publication. Read the [new audit and
-validation report](docs/SEO-AUDIT-2026-11-24.md) for changes, measured local results,
-remaining account steps and publication limits. The live deployment is on hold.
+**Published SEO release, 24 November 2026:** content commit `536f7f1` is live with
+42 canonical pages, a dedicated Zynforge/software page, concise project metadata,
+three expanded case studies and active IndexNow support. Google and Bing both
+processed the updated sitemap successfully and discovered its 42 URLs. IndexNow
+accepted a 42-URL notification with HTTP 202; discovery/submission does not prove
+indexing. Read the [publication and validation report](docs/SEO-RELEASE-2026-11-24.md)
+and the [original implementation audit](docs/SEO-AUDIT-2026-11-24.md).
 
-Published **24 November 2026**, content release `04a1d8a`: RY X with the
+Earlier RY X publication, **24 November 2026**, content release `04a1d8a`: RY X with the
 Qatar Philharmonic Orchestra at QNCC, Auditorium 3, Doha, for Doha Film
 Festival’s DFF Music programme on 23 November 2026. Jean-Pierre confirmed
 his FOH engineer role. The published build has 41 canonical pages, 30 projects
@@ -21,8 +22,8 @@ his FOH engineer role. The published build has 41 canonical pages, 30 projects
 [live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json)
 and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
 
-Session closed **24 November 2026**. Start the next session with the
-[closeout and follow-ups](docs/SESSION-CLOSEOUT-2026-11-24.md). The remaining operational reminder
+The earlier RY X session’s
+[closeout and follow-ups](docs/SESSION-CLOSEOUT-2026-11-24.md) remain as historical evidence. The remaining operational reminder
 is to confirm hosting renewal; publishing the RY X entry is complete.
 
 Previous release, **16 November 2026**: dark portfolio, original JPB logo, newest-first
@@ -50,9 +51,12 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
+| [SEO publication](docs/SEO-RELEASE-2026-11-24.md) | Current 42-page content release, Google/Bing/IndexNow receipts and production checks |
+| [Final SEO live verification](docs/seo-release-final-live-verification-2026-11-24.json) | 243 HTTP checks; 42 pages and 165 resources/discovery files match the published release |
+| [Production PageSpeed](docs/pagespeed-production-browser-2026-11-24.json) | Actual public mobile/desktop reports, kept separate from local scores |
 | [Session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Completed work, evidence, remaining follow-ups and next-session starting point |
 | [RY X live verification](docs/ry-x-qatar-philharmonic-live-verification-2026-11-24.json) | 41 pages and 196 referenced resources matched the deployed release |
-| [RY X release](docs/RELEASE-2026-11-24.md) | Current published content release and live verification |
+| [RY X release](docs/RELEASE-2026-11-24.md) | Earlier 41-page publication and its live verification |
 | [Deployment and registration](docs/RELEASE-2026-11-16.md) | Previous release, Google/Bing setup, tests and remaining measurements |
 | [Exact release files](docs/release-files-2026-11-16.json) | Created/modified paths and final content commit |
 | [16 November audit](docs/SEO-AUDIT-2026-11-16.md) | Predeployment implementation/audit evidence; see the release report for current status |
@@ -130,9 +134,12 @@ A static website using HTML, CSS and vanilla JavaScript. No framework, bundler, 
 
 - `build.py` generates the homepage and invokes the static page generator.
 - `services.py` holds the six service descriptions, FAQs and the reviewed content date.
+- `seo_content.py` holds individual project snippets, sourced case-study context and the existing Zynforge product descriptions.
+- `indexnow.py` prepares notifications offline and requires explicit `--submit` plus exact live-key/page verification before sending.
+- `audit_live.py` performs read-only public delivery checks and writes local evidence.
 - `studio_credits.py` holds 51 song/album entries, their exact engineering scope and source notes excluded from rendered pages; it generates the homepage disclosures and `/studio-credits/`.
 - `docs/studio-credit-research.json` reconciles the initial 36-name audit and five added artists to the 41 collaboration names in that review; the research records above preserve role evidence, owner confirmations and recorded search batches.
-- `search_pages.py` generates 40 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
+- `search_pages.py` generates 41 additional HTML pages, shared metadata, linked JSON-LD entities, sitemap and robots files.
 - `check_site.py` validates the generated inventory, links, metadata, images, specific credits and crawler rules.
 - `hosting/seo.htaccess` contains domain-scoped canonical redirects; `hosting/install-seo.sh` merges the managed block and privately backs up existing rules.
 - `fonts/` contains the original typefaces, CSS, provenance manifest and SIL Open Font Licenses.
@@ -151,7 +158,7 @@ The homepage follows: introduction → selected work → collaborations and tele
 Jean-Pierre confirmed X `@JPbboutros` and LinkedIn
 `https://www.linkedin.com/in/jeanpierreboutros/` on 16 November 2026.
 The homepage contact section links to both alongside the existing Instagram and
-Facebook profiles. The Person entity on all 41 current pages includes all four profiles
+Facebook profiles. The Person entity on all 42 current pages includes all four profiles
 in `sameAs`, using the same stable identity. Social links retain accessible
 new-tab labels and safe external-link attributes; the row wraps on narrow
 screens. These links associate profiles with the professional identity without

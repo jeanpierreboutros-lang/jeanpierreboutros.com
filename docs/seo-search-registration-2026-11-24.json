@@ -1,0 +1,63 @@
+{
+  "checked": "2026-11-24",
+  "observation_method": "Existing authenticated Google Search Console and Bing Webmaster Tools browser interfaces; scoped technical observations transcribed from displayed UI. No credentials, session URLs or private search-performance query exports retained.",
+  "google": {
+    "property": "sc-domain:jeanpierreboutros.com",
+    "sitemap": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "submission": "Sitemap submitted successfully",
+    "status": "Success",
+    "submitted": "2026-11-24",
+    "last_read": "2026-11-24",
+    "discovered_pages": 42,
+    "software_page": {
+      "url": "https://www.jeanpierreboutros.com/audio-software-developer/",
+      "initial_index_status": "URL is unknown to Google",
+      "live_test": "URL is available to Google; Page can be indexed",
+      "breadcrumbs": "1 valid item",
+      "indexing_request": "Accepted; priority crawl queue"
+    },
+    "homepage": {
+      "url": "https://www.jeanpierreboutros.com/",
+      "indexed": true,
+      "last_index_crawl": "2026-11-20 13:24:25",
+      "declared_canonical": "https://www.jeanpierreboutros.com/",
+      "google_selected_canonical": "Inspected URL",
+      "crawl_allowed": true,
+      "indexing_allowed": true,
+      "fetch": "Successful",
+      "profile": "1 valid item; noncritical notices in indexed report",
+      "indexing_request": "Accepted; priority crawl queue"
+    },
+    "ry_x_project": {
+      "url": "https://www.jeanpierreboutros.com/projects/ry-x-qatar-philharmonic-doha/",
+      "initial_index_status": "URL is unknown to Google",
+      "indexing_request": "Accepted after live eligibility test; priority crawl queue"
+    }
+  },
+  "bing": {
+    "property": "https://www.jeanpierreboutros.com/",
+    "sitemap": "https://www.jeanpierreboutros.com/sitemap.xml",
+    "submission": "Re-submit accepted",
+    "status": "Success",
+    "last_submit": "2026-11-24",
+    "last_crawl": "2026-11-24",
+    "canonical_sitemap_urls": 42,
+    "sitemap_errors": 0,
+    "sitemap_warnings": 0,
+    "account_total_including_two_historical_HTTP_sitemaps": 44,
+    "software_page": {
+      "url": "https://www.jeanpierreboutros.com/audio-software-developer/",
+      "initial_index_status": "Not discovered",
+      "initial_live_test": "URL can be indexed by Bing; notice for three empty icon alt values",
+      "followup_release": "536f7f1320210bcd6ceead619a9a0005948c0b72",
+      "final_live_test_time": "2026-11-24 12:12, browser display",
+      "final_live_test": "URL can be indexed by Bing; No SEO/GEO issues found",
+      "indexing_request": "Success: URL submitted successfully. We will review the URL for indexation."
+    }
+  },
+  "limits": [
+    "Sitemap discovery and accepted requests do not prove new-page indexing or rankings.",
+    "No Google selected-canonical inspection for studiojpb.com was possible within the existing jeanpierreboutros.com property; no new property or DNS change was created.",
+    "Google overview aggregate indexing counts can include historical URLs; no claim all42 current pages are indexed."
+  ]
+}

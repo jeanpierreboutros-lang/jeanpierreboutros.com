@@ -1,6 +1,6 @@
 # Search registration and production verification
 
-Documentation reconciled **24 November 2026**. Current content release is `04a1d8a`, with 41 live sitemap URLs and 30 project pages. The RY X page is published; its ingestion/indexing has not been checked in the search accounts. See [current live evidence](ry-x-qatar-philharmonic-live-verification-2026-11-24.json) and [session closeout](SESSION-CLOSEOUT-2026-11-24.md).
+Documentation reconciled **24 November 2026**. Current published content release is `536f7f1`, with 42 live sitemap URLs and 30 project records. Google and Bing processed the current sitemap successfully (42 URLs); the new software page and priority Google URLs have accepted indexing requests. IndexNow accepted 42 URLs with HTTP 202. See the [latest publication report](SEO-RELEASE-2026-11-24.md) and [technical submission evidence](seo-search-registration-2026-11-24.json). Submission/discovery is not proof of indexing.
 
 Registration was completed **16 November 2026** for release `239f127`. The table below records that dated account observation.
 See [the release report](RELEASE-2026-11-16.md) and
@@ -19,9 +19,14 @@ Reports were processing when inspected on 16 November. They were not reopened du
 
 ## Published release and future deployment checks
 
-Canonical origin: https://www.jeanpierreboutros.com. HostGator’s Last Deployed SHA is `04a1d8a45c1a07b848330a511c640224243b9ed8`, observed at **24 November 2026, 00:06:42 (Asia/Qatar)**. All 41 pages and 196 referenced resources matched the reviewed release bytes. The three tested canonical redirect destinations and four 404 checks passed. See [the release report](RELEASE-2026-11-24.md). Documentation-only commits do not require deployment.
+Canonical origin: https://www.jeanpierreboutros.com. HostGator’s Last Deployed SHA is `536f7f1320210bcd6ceead619a9a0005948c0b72`, displayed at **24 November 2026, 12:08:57**. Final verification passed 243 public HTTP checks: all 42 pages, 162 referenced resources and three discovery files match the release. See [the publication report](SEO-RELEASE-2026-11-24.md) and [final live evidence](seo-release-final-live-verification-2026-11-24.json). Documentation-only commits do not require another deployment.
 
-The 41 sitemap URLs comprise home, six services, 30 projects and four directories. The 51 studio release entries share one directory page. For the next search-account review, inspect `/projects/ry-x-qatar-philharmonic-doha/`, check the existing sitemap’s latest processed inventory and selected canonicals, and record actual observations. No new Google/Bing inspection, indexing request, sitemap-processing result or IndexNow submission was performed for RY X.
+The current inventory is home, six service pages, 30 project pages, four directories
+and one software page. The 51 studio release entries share one directory page.
+Google and Bing both show sitemap Success with 42 URLs. Google accepted requests
+for home, the software page and RY X; Bing accepted the software page. The final
+Bing live test reports no SEO/GEO issues. Existing DNS ownership verification is
+retained. Search accounts may still show older indexed versions until recrawling.
 
 For future website changes:
 
@@ -37,7 +42,7 @@ For future website changes:
    prepends the domain-scoped JPB redirects while retaining the other .htaccess
    rules. Backups are private under the repository's `.deployment-backups/`.
    An invalid existing managed block or symlinked .htaccess stops installation.
-5. Confirm all 41 current sitemap URLs return 200 (update this inventory after later releases), and the live HTML/PDF/assets match
+5. Confirm all 42 current sitemap URLs return 200 (update this inventory after later releases), and the live HTML/PDF/assets match
    the release. Verify these examples:
 
 | Request | Expected result |
@@ -100,8 +105,9 @@ Official setup: https://www.bing.com/webmasters/
    Review indexing issues and Search Performance after Bing recrawls the site.
    When available, review **AI Performance** for supported Microsoft/partner
    citation and grounding-query reports. These are not counts for every AI assistant.
-6. Consider IndexNow for future substantive changes after ownership is
-   established. No IndexNow key was generated and no submission is claimed here.
+6. IndexNow is now prepared and its initial 42-URL notification returned HTTP 202.
+   For future substantive changes, use the explicit submission tool after publication.
+   A receipt does not establish indexing.
 
 Verification reference:
 https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b
@@ -128,7 +134,7 @@ Search access is explicitly allowed for Googlebot, bingbot, OAI-SearchBot,
 Claude-SearchBot and PerplexityBot. ChatGPT-User, Claude-User and Perplexity-User
 have explicit public-page access. See [AI search visibility](AI-SEARCH-VISIBILITY.md)
 for official provider references, Grok coverage and verification limits.
-The policy update was deployed in `c9521aa`; [27 focused live checks](ai-search-verification-2026-11-16.json) passed on 16 November. The RY X release retains that policy; `check_site.py` passed its robots access assertions across all 41 current sitemap URLs.
+The policy update was deployed in `c9521aa`; [27 focused live checks](ai-search-verification-2026-11-16.json) passed on 16 November. The current 42-page release retains that policy; local robots assertions and 30 public agent-identifying requests pass.
 GPTBot is disallowed at the owner's request. Other crawler access
 retains the previous wildcard policy; Google-Extended and other training
 controls were not silently changed. This is separate from firewall settings.
@@ -156,31 +162,33 @@ English is maintained as the primary language. Existing Arabic production titles
 retain their language attributes. There are no empty Arabic/French versions,
 automatic translations or incomplete hreflang clusters.
 
-The 16 November release passed 4,980 local Schema.org property/domain/range checks across its 40 pages; that total was not rerun or extrapolated to the 41-page RY X release. The predeployment Apache fixture passed 59 HTTP/TLS checks,
+The current 42-page release passes 5,239 official vocabulary property/domain/range checks. Historical evidence: the 16 November release passed 4,980 checks across 40 pages; that result was not extrapolated to the earlier RY X release. The predeployment Apache fixture passed 59 HTTP/TLS checks,
 including cache and shared-host isolation. Public byte checks and Google/Bing
 live fetches are now recorded in the release evidence. The published Shareet
 URL passed Schema.org with zero errors/warnings and Google's Rich Results Test
 with four valid supported items and noncritical optional-field notices. The
 later snippet refinement passed local checks and Bing's final live test with no
-SEO/GEO issues. A new full mobile/keyboard interaction matrix and field Core Web
-Vitals measurement were not performed after deployment; earlier local checks
-retain their original scope. See [the release report](RELEASE-2026-11-16.md).
+SEO/GEO issues. The current release also has a new 10-scan production accessibility and interaction
+smoke suite; see [its evidence](production-browser-qa-2026-11-24.json). No real-user
+Core Web Vitals measurement is available. Earlier reports retain their dated scope.
 
 
-## Prepared local audit candidate — 24 November 2026
+## Published SEO release — 24 November 2026
 
-The new [audit report](SEO-AUDIT-2026-11-24.md) describes an unpublished 42-page
-candidate. Keep the existing verified Google/Bing properties and DNS records.
-After an authorized deployment, inspect `/audio-software-developer/`, refresh the
-existing sitemap, verify selected canonicals and retry public PageSpeed tests.
-The `studiojpb.com` alias currently serves portfolio pages with a www portfolio
-canonical; inspect selected canonicals before deciding on that separate domain.
+The [original audit](SEO-AUDIT-2026-11-24.md) records prepublication findings; the
+[publication report](SEO-RELEASE-2026-11-24.md) records completed deployment and
+search submissions. Preserve the existing DNS ownership records and properties.
 
-`indexnow-key.txt` is prepared public ownership proof, and `indexnow.py` defaults
-to offline preparation. The deployment manifest includes the key. No IndexNow
-submission has occurred. After the exact candidate is live, use `--url` for
-changed canonical URLs and explicitly add `--submit`. The tool verifies the live
-key and exact selected page bytes before sending; stale HTML stops submission.
-See [the prepared payload](indexnow-prepared-2026-11-24.json). This does not submit
-to Google or prove indexing. Existing registration instructions above remain
-valid; no new fabricated verification meta tags were introduced.
+`indexnow-key.txt` is live public ownership proof. `indexnow.py` defaults to offline
+preparation; it requires explicit `--submit` and checks the live key and exact
+selected HTML bytes before sending. The initial batch of 42 URLs returned HTTP
+202. Future notifications should identify actual changed canonical URLs with
+`--url`, after publication. Do not resubmit unchanged URLs repeatedly or equate
+receipt with indexing. See [the receipt](indexnow-submission-2026-11-24.json).
+
+The `studiojpb.com` alias still serves portfolio pages with a www portfolio
+canonical. The homepage on the inspected jeanpierreboutros.com property has the
+correct Google-selected canonical; that does not establish Google's selection
+for StudioJPB's separate URLs. Review that separate property before changing its
+redirects or identity. No additional DNS changes or property registrations were
+made in this release.
