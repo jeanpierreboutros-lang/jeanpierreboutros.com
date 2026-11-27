@@ -120,7 +120,44 @@ nancy_jounieh_video_url = "https://www.youtube.com/watch?v=blbqRLqgoEU"
 mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-mar19-mon/11892/en"
 beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
+new_nancy_event_images = {
+    "nancy-alamein-2023.jpg",
+    "nancy-alula-2024.jpg",
+    "nancy-ayla-aqaba-2022.jpg",
+    "nancy-byblos-2024.jpg",
+    "nancy-casino-liban-2023.jpg",
+    "nancy-houston-2023.jpg",
+    "nancy-kuwait-february-2023.jpg",
+    "nancy-las-vegas-2023.jpg",
+    "nancy-mississauga-2024.jpg",
+    "nancy-montreal-2023.jpg",
+    "nancy-qatar-fashion-2022.jpg",
+    "nancy-red-sea-2022.jpg",
+    "nancy-riyadh-august-2024.jpg",
+    "nancy-riyadh-february-2024.jpg",
+    "nancy-soundstorm-2021.jpg",
+    "nancy-temecula-2023.jpg",
+}
+
 gallery_sources = {
+    "nancy-qatar-fashion-2022.jpg": {"name": "Event video", "url": "https://www.youtube.com/watch?v=XUktgK78xCI", "label": "Event image"},
+    "nancy-ayla-aqaba-2022.jpg": {"name": "Concert video", "url": "https://www.youtube.com/watch?v=sL7DQgGiyWo", "label": "Event image"},
+    "nancy-red-sea-2022.jpg": {"name": "Event video", "url": "https://www.youtube.com/watch?v=YOxaZOChS5c", "label": "Event image"},
+    "nancy-kuwait-february-2023.jpg": {"name": "Event video", "url": "https://www.youtube.com/watch?v=6aK9mujPSTw", "label": "Event image"},
+    "nancy-riyadh-february-2024.jpg": {"name": "Event video", "url": "https://www.youtube.com/watch?v=v_buJK674M0", "label": "Event image"},
+    "nancy-riyadh-august-2024.jpg": {"name": "Event video", "url": "https://www.youtube.com/watch?v=Kq5mpGu7RsU", "label": "Event image"},
+
+    "nancy-soundstorm-2021.jpg": {"name": "Youm7 / Nancy Ajram", "url": "https://www.youm7.com/story/2021/12/20/نانسى-عجرم-تتألق-بحفل-ميدل-بيست-قصتى-مع-الجمهور-السعودى/5586355/", "label": "Concert photo"},
+    "nancy-alamein-2023.jpg": {"name": "Concert footage", "url": "https://www.youtube.com/watch?v=IK67qrxpQ9o", "label": "Event image"},
+    "nancy-casino-liban-2023.jpg": {"name": "Concert footage", "url": "https://www.youtube.com/watch?v=xSX1PCJ4SB4", "label": "Event image"},
+    "nancy-alula-2024.jpg": {"name": "Concert footage", "url": "https://www.youtube.com/watch?v=2d3lg6h-M6g", "label": "Event image"},
+    "nancy-byblos-2024.jpg": {"name": "Event artwork", "url": "https://www.ticketingboxoffice.com/media/byb-nancy-ajram/21446/en", "label": "Event image"},
+
+    "nancy-houston-2023.jpg": {"name": "Concert video", "url": "https://www.youtube.com/watch?v=8sRSNSKCwsI", "label": "Event image"},
+    "nancy-montreal-2023.jpg": {"name": "Concert video", "url": "https://www.youtube.com/watch?v=lw2oNHJqJm4", "label": "Event image"},
+    "nancy-las-vegas-2023.jpg": {"name": "Artist’s concert post", "url": "https://x.com/NancyAjram/status/1637562201295798279", "label": "Event image"},
+    "nancy-mississauga-2024.jpg": {"name": "Event listing", "url": "https://mississaugasec.com/events/nancy-ajram/", "label": "Event image"},
+
     "cartoon-orchestra-doha-2025.png": {"name": "Qatar National Convention Centre", "url": "https://www.qncc.qa/event-details/cartoon-orchestra", "label": "Event artwork"},
     "charbel-rouhana-aub-echo-2026.jpg": {"name": "American University of Beirut", "url": "https://x.com/AUB_Lebanon/status/2012108040846348529", "label": "Event artwork"},
     "ry-x-qatar-philharmonic-doha-2026.webp": {
@@ -862,6 +899,202 @@ PROJECT_DETAILS += f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="nancy-ajram-houston-2023" aria-labelledby="nancy-ajram-houston-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-houston-2023.jpg", "Nancy Ajram concert in Houston, 10 March 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Houston</span></p>
+            <h3 id="nancy-ajram-houston-2023-title">Nancy Ajram.<br /><em>Houston.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at 713 Music Hall in Houston on 10 March 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>713 Music Hall</dd></div><div><dt>Location &amp; date</dt><dd>Houston · 10 March 2023</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=8sRSNSKCwsI" target="_blank" rel="noopener noreferrer">Concert video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-montreal-2023" aria-labelledby="nancy-ajram-montreal-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-montreal-2023.jpg", "Nancy Ajram concert in Montréal, 12 March 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Montréal</span></p>
+            <h3 id="nancy-ajram-montreal-2023-title">Nancy Ajram.<br /><em>Montréal.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Salle Wilfrid-Pelletier, Place des Arts in Montréal on 12 March 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Salle Wilfrid-Pelletier, Place des Arts</dd></div><div><dt>Location &amp; date</dt><dd>Montréal · 12 March 2023</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=lw2oNHJqJm4" target="_blank" rel="noopener noreferrer">Concert video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-las-vegas-2023" aria-labelledby="nancy-ajram-las-vegas-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-las-vegas-2023.jpg", "Nancy Ajram concert in Las Vegas, 18 March 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Las Vegas</span></p>
+            <h3 id="nancy-ajram-las-vegas-2023-title">Nancy Ajram.<br /><em>Las Vegas.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Encore Theater at Wynn Las Vegas in Las Vegas on 18 March 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Encore Theater at Wynn Las Vegas</dd></div><div><dt>Location &amp; date</dt><dd>Las Vegas · 18 March 2023</dd></div></dl>
+            <a class="text-link" href="https://x.com/NancyAjram/status/1637562201295798279" target="_blank" rel="noopener noreferrer">Artist’s concert post <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-temecula-2023" aria-labelledby="nancy-ajram-temecula-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-temecula-2023.jpg", "Nancy Ajram concert poster for Pechanga Theater in Temecula on 19 March 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Temecula</span></p>
+            <h3 id="nancy-ajram-temecula-2023-title">Nancy Ajram.<br /><em>Temecula.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Pechanga Theater in Temecula on 19 March 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Pechanga Theater</dd></div><div><dt>Location &amp; date</dt><dd>Temecula · 19 March 2023</dd></div></dl>
+            <a class="text-link" href="https://www.loudmemories.com/concerts/nancy-ajram-at-pechanga-resort-casino-temecula-us-on-19-march-2023-11397626" target="_blank" rel="noopener noreferrer">Concert listing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-mississauga-2024" aria-labelledby="nancy-ajram-mississauga-2024-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-mississauga-2024.jpg", "Nancy Ajram concert in Mississauga, 2 March 2024", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Mississauga</span></p>
+            <h3 id="nancy-ajram-mississauga-2024-title">Nancy Ajram.<br /><em>Mississauga.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Paramount Fine Foods Centre in Mississauga on 2 March 2024.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Paramount Fine Foods Centre</dd></div><div><dt>Location &amp; date</dt><dd>Mississauga · 2 March 2024</dd></div></dl>
+            <a class="text-link" href="https://mississaugasec.com/events/nancy-ajram/" target="_blank" rel="noopener noreferrer">Event listing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-alamein-2023" aria-labelledby="nancy-ajram-alamein-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-alamein-2023.jpg", "Nancy Ajram at New Alamein Festival, 28 July 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · New Alamein, Egypt</span></p>
+            <h3 id="nancy-ajram-alamein-2023-title">Nancy Ajram.<br /><em>New Alamein Festival.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at New Alamein Festival in New Alamein, Egypt on 28 July 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>New Alamein Arena</dd></div><div><dt>Location &amp; date</dt><dd>New Alamein, Egypt · 28 July 2023</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=IK67qrxpQ9o" target="_blank" rel="noopener noreferrer">View event coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-casino-liban-2023" aria-labelledby="nancy-ajram-casino-liban-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-casino-liban-2023.jpg", "Nancy Ajram at Casino du Liban, 3 August 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Jounieh, Lebanon</span></p>
+            <h3 id="nancy-ajram-casino-liban-2023-title">Nancy Ajram.<br /><em>Casino du Liban.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Casino du Liban in Jounieh, Lebanon on 3 August 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Salle des Ambassadeurs, Casino du Liban</dd></div><div><dt>Location &amp; date</dt><dd>Jounieh, Lebanon · 3 August 2023</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=xSX1PCJ4SB4" target="_blank" rel="noopener noreferrer">View event coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-alula-2024" aria-labelledby="nancy-ajram-alula-2024-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-alula-2024.jpg", "Nancy Ajram at AlUla Moments, 11 January 2024", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · AlUla, Saudi Arabia</span></p>
+            <h3 id="nancy-ajram-alula-2024-title">Nancy Ajram.<br /><em>AlUla Moments.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at AlUla Moments in AlUla, Saudi Arabia on 11 January 2024.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Maraya</dd></div><div><dt>Location &amp; date</dt><dd>AlUla, Saudi Arabia · 11 January 2024</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=2d3lg6h-M6g" target="_blank" rel="noopener noreferrer">View event coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-byblos-2024" aria-labelledby="nancy-ajram-byblos-2024-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-byblos-2024.jpg", "Nancy Ajram at Byblos International Festival, 26 July 2024", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Byblos, Lebanon</span></p>
+            <h3 id="nancy-ajram-byblos-2024-title">Nancy Ajram.<br /><em>Byblos International Festival.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at Byblos International Festival in Byblos, Lebanon on 26 July 2024.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Byblos International Festival</dd></div><div><dt>Location &amp; date</dt><dd>Byblos, Lebanon · 26 July 2024</dd></div></dl>
+            <a class="text-link" href="https://www.ticketingboxoffice.com/media/byb-nancy-ajram/21446/en" target="_blank" rel="noopener noreferrer">View event coverage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-soundstorm-2021" aria-labelledby="nancy-ajram-soundstorm-2021-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-soundstorm-2021.jpg", "Nancy Ajram at MDLBEAST Soundstorm in Riyadh on 19 December 2021", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Riyadh</span></p>
+            <h3 id="nancy-ajram-soundstorm-2021-title">Nancy Ajram.<br /><em>MDLBEAST Soundstorm.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at MDLBEAST Soundstorm in Riyadh, Saudi Arabia, on 19 December 2021.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Event</dt><dd>MDLBEAST Soundstorm</dd></div><div><dt>Location &amp; date</dt><dd>Riyadh, Saudi Arabia · 19 December 2021</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=ZJInSyrVJb0" target="_blank" rel="noopener noreferrer">View concert footage <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-red-sea-2022" aria-labelledby="nancy-ajram-red-sea-2022-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-red-sea-2022.jpg", "Nancy Ajram at Red Sea Film Festival, 8 December 2022", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Jeddah, Saudi Arabia</span></p>
+            <h3 id="nancy-ajram-red-sea-2022-title">Nancy Ajram.<br /><em>Red Sea Film Festival.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at Red Sea Film Festival in Jeddah, Saudi Arabia on 8 December 2022.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Ritz-Carlton</dd></div><div><dt>Location &amp; date</dt><dd>Jeddah, Saudi Arabia · 8 December 2022</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=YOxaZOChS5c" target="_blank" rel="noopener noreferrer">View event video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-kuwait-february-2023" aria-labelledby="nancy-ajram-kuwait-february-2023-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-kuwait-february-2023.jpg", "Nancy Ajram at February Kuwait Festival, 10 February 2023", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Kuwait</span></p>
+            <h3 id="nancy-ajram-kuwait-february-2023-title">Nancy Ajram.<br /><em>February Kuwait Festival.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at February Kuwait Festival in Kuwait on 10 February 2023.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Kuwait</dd></div><div><dt>Location &amp; date</dt><dd>Kuwait · 10 February 2023</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=6aK9mujPSTw" target="_blank" rel="noopener noreferrer">View event video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-riyadh-february-2024" aria-labelledby="nancy-ajram-riyadh-february-2024-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-riyadh-february-2024.jpg", "Nancy Ajram at Riyadh Season, 2 February 2024", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Riyadh, Saudi Arabia</span></p>
+            <h3 id="nancy-ajram-riyadh-february-2024-title">Nancy Ajram.<br /><em>Riyadh Season.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at Riyadh Season in Riyadh, Saudi Arabia on 2 February 2024.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Mohammed Abdu Arena</dd></div><div><dt>Location &amp; date</dt><dd>Riyadh, Saudi Arabia · 2 February 2024</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=v_buJK674M0" target="_blank" rel="noopener noreferrer">View event video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-riyadh-august-2024" aria-labelledby="nancy-ajram-riyadh-august-2024-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-riyadh-august-2024.jpg", "Nancy Ajram at Kingdom Tour, 16 August 2024", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Riyadh, Saudi Arabia</span></p>
+            <h3 id="nancy-ajram-riyadh-august-2024-title">Nancy Ajram.<br /><em>Kingdom Tour.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at Kingdom Tour in Riyadh, Saudi Arabia on 16 August 2024.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Mohammed Abdu Arena</dd></div><div><dt>Location &amp; date</dt><dd>Riyadh, Saudi Arabia · 16 August 2024</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=Kq5mpGu7RsU" target="_blank" rel="noopener noreferrer">View event video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-ayla-aqaba-2022" aria-labelledby="nancy-ajram-ayla-aqaba-2022-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-ayla-aqaba-2022.jpg", "Nancy Ajram at Ayla Music Festival, Aqaba, Jordan, 18 June 2022", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Monitor engineering · Aqaba</span></p>
+            <h3 id="nancy-ajram-ayla-aqaba-2022-title">Nancy Ajram.<br /><em>Ayla Music Festival.</em></h3>
+            <p>Monitor engineering for Nancy Ajram at Ayla Music Festival in Aqaba, Jordan, on 18 June 2022.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>Monitor engineer</dd></div><div><dt>Venue</dt><dd>Ayla Oasis</dd></div><div><dt>Location &amp; date</dt><dd>Aqaba, Jordan · 18 June 2022</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=sL7DQgGiyWo" target="_blank" rel="noopener noreferrer">View concert video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+        <article class="project-event" id="nancy-ajram-qatar-fashion-2022" aria-labelledby="nancy-ajram-qatar-fashion-2022-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("nancy-qatar-fashion-2022.jpg", "Nancy Ajram at Qatar Fashion United, Stadium 974, Doha, 16 December 2022", sizes="(max-width: 760px) 100vw, 50vw")}
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>FOH &amp; monitor engineering · Doha</span></p>
+            <h3 id="nancy-ajram-qatar-fashion-2022-title">Nancy Ajram.<br /><em>Qatar Fashion United.</em></h3>
+            <p>Front-of-house and monitor engineering for Nancy Ajram at Qatar Fashion United by CR Runway at Stadium 974 in Doha on 16 December 2022.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH &amp; monitor engineer</dd></div><div><dt>Venue</dt><dd>Stadium 974</dd></div><div><dt>Location &amp; date</dt><dd>Doha, Qatar · 16 December 2022</dd></div></dl>
+            <a class="text-link" href="https://www.youtube.com/watch?v=XUktgK78xCI" target="_blank" rel="noopener noreferrer">View event video <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -897,10 +1130,44 @@ projects = [
     ("ry-x-qatar-philharmonic-doha", "RY X", "Qatar Philharmonic Orchestra · Doha Film Festival", "Doha · 2026", "FOH engineer", "foh", 35, False),
     ("charbel-rouhana-aub-2026", "Charbel Rouhana", "Echo – Sadā · AUB", "Beirut · 2026", "FOH engineer", "foh", "charbel-rouhana-aub-echo-2026.jpg", False),
     ("cartoon-orchestra-doha-2025", "Cartoon Orchestra", "Al Mayassa Theatre · QNCC", "Doha · 2025", "FOH engineer", "foh", "cartoon-orchestra-doha-2025.png", False),
+    ("nancy-ajram-houston-2023", "Nancy Ajram", "713 Music Hall", "Houston · 2023", "FOH & monitor engineer", "foh", "nancy-houston-2023.jpg", False),
+    ("nancy-ajram-montreal-2023", "Nancy Ajram", "Salle Wilfrid-Pelletier, Place des Arts", "Montréal · 2023", "FOH & monitor engineer", "foh", "nancy-montreal-2023.jpg", False),
+    ("nancy-ajram-las-vegas-2023", "Nancy Ajram", "Encore Theater at Wynn Las Vegas", "Las Vegas · 2023", "FOH & monitor engineer", "foh", "nancy-las-vegas-2023.jpg", False),
+    ("nancy-ajram-temecula-2023", "Nancy Ajram", "Pechanga Theater", "Temecula · 2023", "FOH & monitor engineer", "foh", "nancy-temecula-2023.jpg", False),
+    ("nancy-ajram-mississauga-2024", "Nancy Ajram", "Paramount Fine Foods Centre", "Mississauga · 2024", "FOH & monitor engineer", "foh", "nancy-mississauga-2024.jpg", False),
+    ("nancy-ajram-alamein-2023", "Nancy Ajram", "New Alamein Festival", "New Alamein · 2023", "FOH & monitor engineer", "foh", "nancy-alamein-2023.jpg", False),
+    ("nancy-ajram-casino-liban-2023", "Nancy Ajram", "Casino du Liban", "Jounieh · 2023", "FOH & monitor engineer", "foh", "nancy-casino-liban-2023.jpg", False),
+    ("nancy-ajram-alula-2024", "Nancy Ajram", "AlUla Moments", "AlUla · 2024", "Monitor engineer", "monitors", "nancy-alula-2024.jpg", False),
+    ("nancy-ajram-byblos-2024", "Nancy Ajram", "Byblos International Festival", "Byblos · 2024", "Monitor engineer", "monitors", "nancy-byblos-2024.jpg", False),
+    ("nancy-ajram-soundstorm-2021", "Nancy Ajram", "MDLBEAST Soundstorm", "Riyadh · 2021", "FOH & monitor engineer", "foh", "nancy-soundstorm-2021.jpg", False),
+    ("nancy-ajram-red-sea-2022", "Nancy Ajram", "Red Sea Film Festival", "Jeddah · 2022", "Monitor engineer", "monitors", "nancy-red-sea-2022.jpg", False),
+    ("nancy-ajram-kuwait-february-2023", "Nancy Ajram", "February Kuwait Festival", "Kuwait · 2023", "Monitor engineer", "monitors", "nancy-kuwait-february-2023.jpg", False),
+    ("nancy-ajram-riyadh-february-2024", "Nancy Ajram", "Riyadh Season", "Riyadh · 2024", "Monitor engineer", "monitors", "nancy-riyadh-february-2024.jpg", False),
+    ("nancy-ajram-riyadh-august-2024", "Nancy Ajram", "Kingdom Tour", "Riyadh · 2024", "Monitor engineer", "monitors", "nancy-riyadh-august-2024.jpg", False),
+    ("nancy-ajram-ayla-aqaba-2022", "Nancy Ajram", "Ayla Music Festival", "Aqaba · 2022", "Monitor engineer", "monitors", "nancy-ayla-aqaba-2022.jpg", False),
+    ("nancy-ajram-qatar-fashion-2022", "Nancy Ajram", "Qatar Fashion United · Stadium 974", "Doha · 2022", "FOH & monitor engineer", "foh", "nancy-qatar-fashion-2022.jpg", False),
 ]
 # Preserve the precision of the confirmed dates; a year-only credit stays year-only.
 # Ongoing studio practices are separate from dated productions.
 project_dates = {
+    "nancy-ajram-qatar-fashion-2022": ("2022-12-16", "16 December 2022"),
+    "nancy-ajram-ayla-aqaba-2022": ("2022-06-18", "18 June 2022"),
+    "nancy-ajram-red-sea-2022": ("2022-12-08", "8 December 2022"),
+    "nancy-ajram-kuwait-february-2023": ("2023-02-10", "10 February 2023"),
+    "nancy-ajram-riyadh-february-2024": ("2024-02-02", "2 February 2024"),
+    "nancy-ajram-riyadh-august-2024": ("2024-08-16", "16 August 2024"),
+
+    "nancy-ajram-soundstorm-2021": ("2021-12-19", "19 December 2021"),
+    "nancy-ajram-alamein-2023": ("2023-07-28", "28 July 2023"),
+    "nancy-ajram-casino-liban-2023": ("2023-08-03", "3 August 2023"),
+    "nancy-ajram-alula-2024": ("2024-01-11", "11 January 2024"),
+    "nancy-ajram-byblos-2024": ("2024-07-26", "26 July 2024"),
+
+    "nancy-ajram-houston-2023": ("2023-03-10", "10 March 2023"),
+    "nancy-ajram-montreal-2023": ("2023-03-12", "12 March 2023"),
+    "nancy-ajram-las-vegas-2023": ("2023-03-18", "18 March 2023"),
+    "nancy-ajram-temecula-2023": ("2023-03-19", "19 March 2023"),
+    "nancy-ajram-mississauga-2024": ("2024-03-02", "2 March 2024"),
     "cartoon-orchestra-doha-2025": ("2025-10-17", "17 October 2025"),
     "charbel-rouhana-aub-2026": ("2026-01-28", "28 January 2026"),
     "ry-x-qatar-philharmonic-doha": ("2026-11-23", "23 November 2026"),
@@ -964,10 +1231,10 @@ for project, article in zip(projects, project_articles):
 </dialog>''')
     filename = gallery[photo][0] if isinstance(photo, int) else photo
     alt = next((entry[2] for entry in gallery if entry[0] == filename),
-               "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
+               "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else f"Nancy Ajram concert event image · {filename}" if filename.startswith("nancy-") else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
     source = gallery_sources.get(filename)
-    source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
-    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34, 'charbel-rouhana-aub-echo-2026.jpg', 'cartoon-orchestra-doha-2025.png') else ''
+    source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source and filename not in new_nancy_event_images else '')
+    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34, 'charbel-rouhana-aub-echo-2026.jpg', 'cartoon-orchestra-doha-2025.png', 'nancy-temecula-2023.jpg', 'nancy-byblos-2024.jpg') else ''
     featured_attr = ' data-featured' if featured else ''
     date_html = (f'<time class="portfolio-date" datetime="{project_dates[slug][0]}">{e(project_dates[slug][1])}</time>'
                  if slug in project_dates else '<span class="portfolio-date">Ongoing practice</span>')
@@ -1174,6 +1441,6 @@ search_paths = render_search_pages({
     "project_order": card_order, "project_years": project_years,
     "project_dates": project_dates,
     "articles": project_articles, "cards": project_cards, "gallery": gallery,
-    "sources": gallery_sources, "gallery_data": gallery_data,
+    "sources": gallery_sources, "gallery_data": gallery_data, "new_nancy_event_images": new_nancy_event_images,
 })
 print(f"Search pages written: {len(search_paths)} canonical pages, including the homepage")

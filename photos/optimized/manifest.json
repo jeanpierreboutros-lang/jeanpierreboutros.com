@@ -1836,5 +1836,381 @@
         "height": 540
       }
     ]
+  },
+  "nancy-houston-2023.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-houston-2023-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-houston-2023-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-houston-2023-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-las-vegas-2023.jpg": {
+    "width": 960,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-las-vegas-2023-160.webp",
+        "width": 160,
+        "height": 200
+      },
+      {
+        "src": "photos/optimized/nancy-las-vegas-2023-240.webp",
+        "width": 240,
+        "height": 300
+      },
+      {
+        "src": "photos/optimized/nancy-las-vegas-2023-480.webp",
+        "width": 480,
+        "height": 600
+      },
+      {
+        "src": "photos/optimized/nancy-las-vegas-2023-960.webp",
+        "width": 960,
+        "height": 1200
+      }
+    ]
+  },
+  "nancy-mississauga-2024.jpg": {
+    "width": 1200,
+    "height": 600,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-mississauga-2024-160.webp",
+        "width": 160,
+        "height": 80
+      },
+      {
+        "src": "photos/optimized/nancy-mississauga-2024-240.webp",
+        "width": 240,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-mississauga-2024-480.webp",
+        "width": 480,
+        "height": 240
+      },
+      {
+        "src": "photos/optimized/nancy-mississauga-2024-960.webp",
+        "width": 960,
+        "height": 480
+      },
+      {
+        "src": "photos/optimized/nancy-mississauga-2024-1200.webp",
+        "width": 1200,
+        "height": 600
+      }
+    ]
+  },
+  "nancy-montreal-2023.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-montreal-2023-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-montreal-2023-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-montreal-2023-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-temecula-2023.jpg": {
+    "width": 1061,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-temecula-2023-160.webp",
+        "width": 160,
+        "height": 193
+      },
+      {
+        "src": "photos/optimized/nancy-temecula-2023-240.webp",
+        "width": 240,
+        "height": 290
+      },
+      {
+        "src": "photos/optimized/nancy-temecula-2023-480.webp",
+        "width": 480,
+        "height": 579
+      },
+      {
+        "src": "photos/optimized/nancy-temecula-2023-960.webp",
+        "width": 960,
+        "height": 1158
+      },
+      {
+        "src": "photos/optimized/nancy-temecula-2023-1061.webp",
+        "width": 1061,
+        "height": 1280
+      }
+    ]
+  },
+  "nancy-alamein-2023.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-alamein-2023-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-alamein-2023-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-alamein-2023-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-alula-2024.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-alula-2024-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-alula-2024-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-alula-2024-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-byblos-2024.jpg": {
+    "width": 483,
+    "height": 316,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-byblos-2024-160.webp",
+        "width": 160,
+        "height": 105
+      },
+      {
+        "src": "photos/optimized/nancy-byblos-2024-240.webp",
+        "width": 240,
+        "height": 157
+      },
+      {
+        "src": "photos/optimized/nancy-byblos-2024-480.webp",
+        "width": 480,
+        "height": 314
+      },
+      {
+        "src": "photos/optimized/nancy-byblos-2024-483.webp",
+        "width": 483,
+        "height": 316
+      }
+    ]
+  },
+  "nancy-casino-liban-2023.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-casino-liban-2023-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-casino-liban-2023-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-casino-liban-2023-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-soundstorm-2021.jpg": {
+    "width": 1080,
+    "height": 1351,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-soundstorm-2021-160.webp",
+        "width": 160,
+        "height": 200
+      },
+      {
+        "src": "photos/optimized/nancy-soundstorm-2021-240.webp",
+        "width": 240,
+        "height": 300
+      },
+      {
+        "src": "photos/optimized/nancy-soundstorm-2021-480.webp",
+        "width": 480,
+        "height": 600
+      },
+      {
+        "src": "photos/optimized/nancy-soundstorm-2021-960.webp",
+        "width": 960,
+        "height": 1201
+      },
+      {
+        "src": "photos/optimized/nancy-soundstorm-2021-1080.webp",
+        "width": 1080,
+        "height": 1351
+      }
+    ]
+  },
+  "nancy-kuwait-february-2023.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-kuwait-february-2023-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-kuwait-february-2023-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-kuwait-february-2023-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-red-sea-2022.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-red-sea-2022-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-red-sea-2022-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-red-sea-2022-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-riyadh-august-2024.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-riyadh-august-2024-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-riyadh-august-2024-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-riyadh-august-2024-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-riyadh-february-2024.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-riyadh-february-2024-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-riyadh-february-2024-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-riyadh-february-2024-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-ayla-aqaba-2022.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-ayla-aqaba-2022-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-ayla-aqaba-2022-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-ayla-aqaba-2022-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
+  },
+  "nancy-qatar-fashion-2022.jpg": {
+    "width": 480,
+    "height": 360,
+    "variants": [
+      {
+        "src": "photos/optimized/nancy-qatar-fashion-2022-160.webp",
+        "width": 160,
+        "height": 120
+      },
+      {
+        "src": "photos/optimized/nancy-qatar-fashion-2022-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "photos/optimized/nancy-qatar-fashion-2022-480.webp",
+        "width": 480,
+        "height": 360
+      }
+    ]
   }
 }

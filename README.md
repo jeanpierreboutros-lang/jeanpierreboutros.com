@@ -390,3 +390,7 @@ The document root is shared with the existing main hosting site. Deployment copi
 ### Rollback
 
 If a release introduces a broken page, incorrect credit or inaccessible download, revert its commit on `main` with `git revert RELEASE_COMMIT_SHA`, review the resulting runtime files, and push the revert. Update from remote and deploy that new HEAD in cPanel. Verify Last Deployed SHA and the restored live page/PDF. Keep unrelated shared hosting files untouched. Reverting code alone does not remove the managed .htaccess block: restore the appropriate private `.deployment-backups/htaccess-before-jpb.*` backup in cPanel if redirect rules need rollback. Preserve the current non-JPB rules if they changed after that backup. Newly added static pages remain on the non-purging host until explicitly removed; remove only this release’s generated service/project pages if a full rollback is required, or retain their valid content while restoring the homepage.
+
+## Nancy Ajram concert portfolio update
+
+The 27 November 2026 concert additions, dates, confirmed roles, image sources and release checks are documented in [Nancy concert release notes](docs/NANCY-CONCERTS-2026-11-27.md). Check that record for the publication status and image-rights follow-up.

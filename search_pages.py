@@ -267,6 +267,7 @@ def render_search_pages(context):
     cards = context["cards"]
     gallery = context["gallery"]
     sources = context["sources"]
+    new_nancy_event_images = context["new_nancy_event_images"]
     gallery_data = [dict(photo, src="/" + photo["src"].lstrip("/"))
                     for photo in context["gallery_data"]]
     nav = re.search(r'<nav class="nav".*?</dialog>', home, re.S)[0]
@@ -387,7 +388,7 @@ def render_search_pages(context):
         path = f"/projects/{slug}/"
         filename = gallery[photo][0] if isinstance(photo, int) else photo
         alt = next((entry[2] for entry in gallery if entry[0] == filename),
-                   "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
+                   "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else f"Nancy Ajram event image · {filename}" if filename.startswith("nancy-") else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
         article = article_by_slug[slug]
         summary = next((plain(p) for p in re.findall(r'<p(?! class="project-index")[^>]*>(.*?)</p>', article, re.S)
                         if len(plain(p)) > 70), f"{role} · {production} · {location}")
@@ -427,6 +428,22 @@ def render_search_pages(context):
                          f'{e(group["name"])} · {e(work_title)} · {e(work["role"])}</a></li>')
             body += '</ul></section>'
         related_by_project = {
+            "nancy-ajram-alamein-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-casino-liban-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-alula-2024": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-byblos-2024": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-soundstorm-2021": ["nancy-ajram-expo-dubai", "nancy-ajram-olympia"],
+            "nancy-ajram-red-sea-2022": ["nancy-ajram-expo-dubai", "nancy-ajram-olympia"],
+            "nancy-ajram-kuwait-february-2023": ["nancy-ajram-expo-dubai", "nancy-ajram-olympia"],
+            "nancy-ajram-riyadh-february-2024": ["nancy-ajram-expo-dubai", "nancy-ajram-olympia"],
+            "nancy-ajram-riyadh-august-2024": ["nancy-ajram-expo-dubai", "nancy-ajram-olympia"],
+            "nancy-ajram-ayla-aqaba-2022": ["nancy-ajram-jounieh", "nancy-ajram-olympia"],
+            "nancy-ajram-qatar-fashion-2022": ["nancy-ajram-expo-dubai", "nancy-ajram-soundstorm-2021"],
+            "nancy-ajram-houston-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-montreal-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-las-vegas-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-temecula-2023": ["nancy-ajram-mississauga-2024", "nancy-ajram-olympia"],
+            "nancy-ajram-mississauga-2024": ["nancy-ajram-montreal-2023", "nancy-ajram-olympia"],
             "cartoon-orchestra-doha-2025": ["cartoon-orchestra", "tarteeb-shareet-doha"],
             "charbel-rouhana-aub-2026": ["beiteddine-marco-polo", "abeer-nehme-baalbeck"],
             "nancy-ajram-olympia": ["baligh-hamdi-night", "warda-night"],
@@ -436,7 +453,10 @@ def render_search_pages(context):
         related_projects = related_by_project.get(slug,
             [p[0] for p in project_records if p[5] == category and p[0] != slug][:2])
         if related_projects:
-            body += '<section class="page-section"><h2>More from the portfolio</h2>' + project_grid(related_projects) + '</section>'
+            related_cards = project_grid(related_projects)
+            if filename in new_nancy_event_images:
+                related_cards = re.sub(r'<p class="portfolio-credit">.*?</p>', '', related_cards, flags=re.S)
+            body += '<section class="page-section"><h2>More from the portfolio</h2>' + related_cards + '</section>'
         body += inquiry_html(name + " / similar production inquiry")
         article_id = absolute(path + "#record")
         picture = search_image(filename)

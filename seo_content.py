@@ -12,6 +12,24 @@ PRODUCTS = [
 # Short, individually written search snippets. Full production names remain in
 # the visible headings and records; character counts are editorial guardrails.
 PROJECT_METADATA = {
+    "nancy-ajram-qatar-fashion-2022": ("Nancy Ajram Qatar Fashion United | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Qatar Fashion United, Doha, on 16 December 2022."),
+    "nancy-ajram-ayla-aqaba-2022": ("Nancy Ajram Ayla Music Festival | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at Ayla Music Festival in Aqaba, Jordan, on 18 June 2022."),
+    "nancy-ajram-red-sea-2022": ("Nancy Ajram Red Sea Film Festival 2022 | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at Red Sea Film Festival in Jeddah, Saudi Arabia on 8 December 2022."),
+    "nancy-ajram-kuwait-february-2023": ("Nancy Ajram February Kuwait Festival 2023 | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at February Kuwait Festival in Kuwait on 10 February 2023."),
+    "nancy-ajram-riyadh-february-2024": ("Nancy Ajram Riyadh Season 2024 | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at Riyadh Season in Riyadh, Saudi Arabia on 2 February 2024."),
+    "nancy-ajram-riyadh-august-2024": ("Nancy Ajram Kingdom Tour 2024 | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at Kingdom Tour in Riyadh, Saudi Arabia on 16 August 2024."),
+
+    "nancy-ajram-soundstorm-2021": ("Nancy Ajram at Soundstorm Riyadh | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at MDLBEAST Soundstorm in Riyadh on 19 December 2021."),
+    "nancy-ajram-alamein-2023": ("Nancy Ajram New Alamein Festival | FOH and Monitor", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at New Alamein Festival in New Alamein, Egypt on 28 July 2023."),
+    "nancy-ajram-casino-liban-2023": ("Nancy Ajram Casino du Liban | FOH and Monitor", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Casino du Liban in Jounieh, Lebanon on 3 August 2023."),
+    "nancy-ajram-alula-2024": ("Nancy Ajram AlUla Moments | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at AlUla Moments in AlUla, Saudi Arabia on 11 January 2024."),
+    "nancy-ajram-byblos-2024": ("Nancy Ajram Byblos International Festival | Monitor Engineer", "Jean-Pierre Boutros was monitor engineer for Nancy Ajram at Byblos International Festival in Byblos, Lebanon on 26 July 2024."),
+
+    "nancy-ajram-houston-2023": ("Nancy Ajram Houston | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at 713 Music Hall in Houston on 10 March 2023."),
+    "nancy-ajram-montreal-2023": ("Nancy Ajram Montréal | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Salle Wilfrid-Pelletier, Place des Arts in Montréal on 12 March 2023."),
+    "nancy-ajram-las-vegas-2023": ("Nancy Ajram Las Vegas | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Encore Theater at Wynn Las Vegas in Las Vegas on 18 March 2023."),
+    "nancy-ajram-temecula-2023": ("Nancy Ajram Temecula | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Pechanga Theater in Temecula on 19 March 2023."),
+    "nancy-ajram-mississauga-2024": ("Nancy Ajram Mississauga | FOH and Monitor Engineer", "Jean-Pierre Boutros was FOH and monitor engineer for Nancy Ajram at Paramount Fine Foods Centre in Mississauga on 2 March 2024."),
     "cartoon-orchestra-doha-2025": ("Cartoon Orchestra Doha | FOH Engineer Jean-Pierre Boutros", "Jean-Pierre Boutros was FOH engineer for Cartoon Orchestra at Al Mayassa Theatre, QNCC, Doha, on 17 October 2025."),
     "charbel-rouhana-aub-2026": (
         "Charbel Rouhana: Echo – Sadā | FOH Engineer Jean-Pierre Boutros",
