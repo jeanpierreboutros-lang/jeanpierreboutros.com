@@ -393,4 +393,6 @@ If a release introduces a broken page, incorrect credit or inaccessible download
 
 ## Nancy Ajram concert portfolio update
 
-The 27 November 2026 concert additions, dates, confirmed roles, image sources, release checks and the updated local one-page profile draft are documented in [Nancy concert release notes](docs/NANCY-CONCERTS-2026-11-27.md). Check that record for the publication status and image-rights follow-up.
+The 27 November 2026 concert additions, dates, confirmed roles, image sources, release checks and the updated one-page professional profile release are documented in [Nancy concert release notes](docs/NANCY-CONCERTS-2026-11-27.md). Check that record for the publication status and image-rights follow-up.
+
+The updated professional profile was deployed on 27 November 2026 in content commit `26b0c818c83548504d26bebc69f16ebce7c81012`. Its live PDF and homepage were verified against local bytes; the three homepage profile links share the updated fingerprint.
