@@ -710,3 +710,8 @@ html.motion-paused { scroll-behavior: auto; }
   :root { --bg: white; --bg-rgb: 255 255 255; --bg-alt: white; --surface: white; --text: #111; --text-rgb: 17 17 17; --muted: #333; --dim: #444; --accent: #333; --border: #aaa; }
   .portfolio-order { display: none; }
 }
+
+/* Show the complete AUB event artwork and keep its caption below the image. */
+.project-page-record .event-media--aub-poster, .project-dialog .event-media--aub-poster { height: auto; display: flex; flex-direction: column; justify-content: center; }
+.project-page-record .event-media--aub-poster img, .project-dialog .event-media--aub-poster img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+.event-media--aub-poster figcaption { position: static; width: 100%; }

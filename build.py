@@ -121,6 +121,7 @@ mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-m
 beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
 gallery_sources = {
+    "charbel-rouhana-aub-echo-2026.jpg": {"name": "American University of Beirut", "url": "https://x.com/AUB_Lebanon/status/2012108040846348529", "label": "Event artwork"},
     "ry-x-qatar-philharmonic-doha-2026.webp": {
         "name": "Doha Film Institute / Doha Film Festival",
         "url": "https://www.dohafilm.com/en/contents/A0A4FC92-BFC5-42C2-8DCA-B1F276B632C8",
@@ -275,7 +276,7 @@ artist_projects = {
     "Nancy Ajram": ("nancy-ajram-olympia", "FOH & monitor engineer · 2021–24"),
     "Abeer Nehme": ("abeer-nehme-baalbeck", "FOH engineer · Baalbeck, Qatar & Ehden"),
     "Marcel Khalifé": ("marcel-khalife-baalbeck", "FOH, monitors & recording · Istanbul, Muscat, Baalbeck & Amman"),
-    "Charbel Rouhana": ("beiteddine-marco-polo", "Audio technical supervision · Beiteddine, 2013"),
+    "Charbel Rouhana": ("charbel-rouhana-aub-2026", "FOH engineer · AUB, Beirut, 2026"),
     "Carole Samaha": ("carole-samaha-golden-album", "Mixing & mastering · Golden Album, 2023"),
     "Zade Dirani": ("zade-dirani-dbayeh", "FOH mixing · Dbayeh, 2018 & Amman, 2019"),
     "Mazeej": ("mazeej-ndu", "FOH engineer · NDU, 2019"),
@@ -825,6 +826,23 @@ PROJECT_DETAILS += f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="charbel-rouhana-aub-2026" aria-labelledby="charbel-aub-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("charbel-rouhana-aub-echo-2026.jpg", "AUB concert poster for Echo – Sadā by Charbel Rouhana, 28 January 2026", sizes="(max-width: 760px) 100vw, 50vw")}
+            <figcaption>Concert artwork · American University of Beirut</figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Front-of-house engineering · Beirut</span></p>
+            <h3 id="charbel-aub-title">Charbel Rouhana.<br /><em>Echo – Sadā.</em></h3>
+            <p>Front-of-house (FOH) sound engineering for Charbel Rouhana’s “Echo – Sadā”, presented by the AUB Zaki Nassif Program for Music as part of its 2025–26 festival, Remembering and Discovering.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Assembly Hall · American University of Beirut</dd></div><div><dt>Location &amp; date</dt><dd>Beirut, Lebanon · 28 January 2026</dd></div></dl>
+            <a class="text-link" href="https://x.com/AUB_Lebanon/status/2012108040846348529" target="_blank" rel="noopener noreferrer">View AUB’s concert announcement <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -858,10 +876,12 @@ projects = [
     ("beirut-the-sea-lover", "Beirut the Sea Lover", "Roman Baths · Beirut Spring Festival", "Beirut · 2019", "3D sound mixing", "technical", 33, False),
     ("tarteeb-shareet-doha", "Shareet · Tarteeb", "The 80s and 90s Concert · QNCC", "Doha · 2026", "FOH engineer", "foh", 34, False),
     ("ry-x-qatar-philharmonic-doha", "RY X", "Qatar Philharmonic Orchestra · Doha Film Festival", "Doha · 2026", "FOH engineer", "foh", 35, False),
+    ("charbel-rouhana-aub-2026", "Charbel Rouhana", "Echo – Sadā · AUB", "Beirut · 2026", "FOH engineer", "foh", "charbel-rouhana-aub-echo-2026.jpg", False),
 ]
 # Preserve the precision of the confirmed dates; a year-only credit stays year-only.
 # Ongoing studio practices are separate from dated productions.
 project_dates = {
+    "charbel-rouhana-aub-2026": ("2026-01-28", "28 January 2026"),
     "ry-x-qatar-philharmonic-doha": ("2026-11-23", "23 November 2026"),
     "tarteeb-shareet-doha": ("2026-11-14", "14 November 2026"),
     "the-eighties": ("2026-10", "October 2026"),
@@ -923,10 +943,10 @@ for project, article in zip(projects, project_articles):
 </dialog>''')
     filename = gallery[photo][0] if isinstance(photo, int) else photo
     alt = next((entry[2] for entry in gallery if entry[0] == filename),
-               "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
+               "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
     source = gallery_sources.get(filename)
     source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
-    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34) else ''
+    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34, 'charbel-rouhana-aub-echo-2026.jpg') else ''
     featured_attr = ' data-featured' if featured else ''
     date_html = (f'<time class="portfolio-date" datetime="{project_dates[slug][0]}">{e(project_dates[slug][1])}</time>'
                  if slug in project_dates else '<span class="portfolio-date">Ongoing practice</span>')
