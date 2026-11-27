@@ -165,7 +165,7 @@ def main():
     tree = ET.parse(ROOT / "sitemap.xml")
     entries = tree.findall("{*}url")
     urls = [entry.findtext("{*}loc") for entry in entries]
-    assert len(urls) == len(set(urls)) == 43, "Expected 43 unique canonical pages"
+    assert len(urls) == len(set(urls)) == 44, "Expected 44 unique canonical pages"
     inventory = {ROOT / url.removeprefix(SITE).strip("/") / "index.html" for url in urls}
     assert inventory == set(ROOT.rglob("index.html")), "Sitemap must cover every generated HTML page"
     pages = {}
@@ -235,7 +235,7 @@ def main():
             target = local_target(ref, path)
             if target:
                 assert target[0].is_file(), (path, ref, "missing local target")
-    assert len({page.titles[0] for page in pages.values()}) == 42, "Duplicate titles"
+    assert len({page.titles[0] for page in pages.values()}) == 43, "Duplicate titles"
     assert len({page.meta["description"] for page in pages.values()}) == len(urls), "Duplicate descriptions"
     incoming = Counter()
     for source, page in pages.items():
@@ -248,12 +248,12 @@ def main():
                 incoming[target[0]] += 1
     assert all(incoming[path] for path in pages if path != ROOT / "index.html"), "Orphan page"
     home = pages[ROOT / "index.html"]
-    assert len(home.cards) == len(home.dialogs) == 31
+    assert len(home.cards) == len(home.dialogs) == 32
     assert sum("data-featured" in card for card in home.cards) == 6
-    assert Counter(card["data-category"] for card in home.cards) == {"foh": 19, "monitors": 6, "broadcast": 1, "studio": 3, "technical": 2}
+    assert Counter(card["data-category"] for card in home.cards) == {"foh": 20, "monitors": 6, "broadcast": 1, "studio": 3, "technical": 2}
     home_text = (ROOT / "index.html").read_text()
     project_dates = re.findall(r'<time class="portfolio-date" datetime="([^"]+)">', home_text)
-    assert len(project_dates) == 29 and project_dates == sorted(project_dates, reverse=True), "Project date order"
+    assert len(project_dates) == 30 and project_dates == sorted(project_dates, reverse=True), "Project date order"
     years = re.findall(r'data-project-year-group="([^"]+)"', home_text)
     assert years == list(dict.fromkeys(d[:4] for d in project_dates)) + ["ongoing"], "Project year groups"
     assert all(card["data-project-year"] == "ongoing" for card in home.cards[-2:]), "Ongoing studio practices"
@@ -266,7 +266,7 @@ def main():
     tarteeb = (ROOT / "projects/tarteeb-shareet-doha/index.html").read_text()
     assert all(value in tarteeb for value in ("FOH engineer", "14 November 2026", "Al Mayassa Theatre", "QNCC", "Tarteeb")), "Tarteeb role, venue and date"
     assert "2026-11-14" in project_dates, "Tarteeb date in chronology"
-    assert len(re.findall(r'<h4>.*?</h4>', home_text)) >= 31, "Project headings nested under year headings"
+    assert len(re.findall(r'<h4>.*?</h4>', home_text)) >= 32, "Project headings nested under year headings"
     for slug, works in {
         "recording-engineer": ("Warana Eh", "Nour", "Mech Rah Khallik Tfell"),
         "mixing-mastering": ("Men Nazra", "Noss Omry", "Golden Album"),
@@ -314,7 +314,7 @@ def main():
     if args.vocabulary:
         checked = vocabulary_check([p.json[0] for p in pages.values()], args.vocabulary)
         print(f"PASS: {checked} Schema.org property/domain/range checks against official vocabulary")
-    print("PASS: 43 pages; complete sitemap; unique concise metadata/H1s; canonicals and breadcrumbs; local assets, fragments and ARIA references; no orphan pages; 31 projects and 40 gallery photographs; software entities; verified roles; search access and GPTBot exclusion.")
+    print("PASS: 44 pages; complete sitemap; unique concise metadata/H1s; canonicals and breadcrumbs; local assets, fragments and ARIA references; no orphan pages; 32 projects and 40 gallery photographs; software entities; verified roles; search access and GPTBot exclusion.")
 
 
 if __name__ == "__main__":

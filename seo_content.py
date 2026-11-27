@@ -12,6 +12,7 @@ PRODUCTS = [
 # Short, individually written search snippets. Full production names remain in
 # the visible headings and records; character counts are editorial guardrails.
 PROJECT_METADATA = {
+    "cartoon-orchestra-doha-2025": ("Cartoon Orchestra Doha | FOH Engineer Jean-Pierre Boutros", "Jean-Pierre Boutros was FOH engineer for Cartoon Orchestra at Al Mayassa Theatre, QNCC, Doha, on 17 October 2025."),
     "charbel-rouhana-aub-2026": (
         "Charbel Rouhana: Echo – Sadā | FOH Engineer Jean-Pierre Boutros",
         "Jean-Pierre Boutros was FOH engineer for Charbel Rouhana’s Echo – Sadā at AUB Assembly Hall, Beirut, on 28 January 2026.",

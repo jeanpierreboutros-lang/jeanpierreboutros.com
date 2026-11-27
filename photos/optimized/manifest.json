@@ -1810,5 +1810,31 @@
         "height": 1200
       }
     ]
+  },
+  "cartoon-orchestra-doha-2025.png": {
+    "width": 958,
+    "height": 540,
+    "variants": [
+      {
+        "src": "photos/optimized/cartoon-orchestra-doha-2025-160.webp",
+        "width": 160,
+        "height": 90
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-doha-2025-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-doha-2025-480.webp",
+        "width": 480,
+        "height": 271
+      },
+      {
+        "src": "photos/optimized/cartoon-orchestra-doha-2025-958.webp",
+        "width": 958,
+        "height": 540
+      }
+    ]
   }
 }

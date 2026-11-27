@@ -121,6 +121,7 @@ mazeej_ndu_programme_url = "https://www.ticketingboxoffice.com/media/mazeej-11-m
 beirut_sea_lover_programme_url = "https://www.beirutspringfestival.org/beirut-the-sea-lover/2019/en"
 
 gallery_sources = {
+    "cartoon-orchestra-doha-2025.png": {"name": "Qatar National Convention Centre", "url": "https://www.qncc.qa/event-details/cartoon-orchestra", "label": "Event artwork"},
     "charbel-rouhana-aub-echo-2026.jpg": {"name": "American University of Beirut", "url": "https://x.com/AUB_Lebanon/status/2012108040846348529", "label": "Event artwork"},
     "ry-x-qatar-philharmonic-doha-2026.webp": {
         "name": "Doha Film Institute / Doha Film Festival",
@@ -843,6 +844,24 @@ PROJECT_DETAILS += f'''
 '''
 
 
+PROJECT_DETAILS += f'''
+        <article class="project-event" id="cartoon-orchestra-doha-2025" aria-labelledby="cartoon-doha-title" data-reveal>
+          <figure class="event-media event-media--concert event-media--aub-poster">
+            {image("cartoon-orchestra-doha-2025.png", "Cartoon Orchestra artwork for Al Mayassa Theatre at QNCC in Qatar on 17 October 2025", sizes="(max-width: 760px) 100vw, 50vw")}
+            <figcaption>Event artwork · Qatar National Convention Centre</figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-index">0 <span>Front-of-house engineering · Doha</span></p>
+            <h3 id="cartoon-doha-title">Cartoon Orchestra.<br /><em>Al Mayassa Theatre.</em></h3>
+            <p>Front-of-house (FOH) engineering for Cartoon Orchestra at Al Mayassa Theatre, Qatar National Convention Centre, on 17 October 2025.</p>
+            <p>The concert brought Arabic and international animated soundtracks to the stage in orchestral arrangements.</p>
+            <dl class="project-details"><div><dt>My role</dt><dd>FOH engineer</dd></div><div><dt>Venue</dt><dd>Al Mayassa Theatre · QNCC</dd></div><div><dt>Location &amp; date</dt><dd>Doha, Qatar · 17 October 2025</dd></div></dl>
+            <a class="text-link" href="https://www.qncc.qa/event-details/cartoon-orchestra" target="_blank" rel="noopener noreferrer">View the QNCC event listing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </article>
+'''
+
+
 # Card summaries stay separate from the full, sourced project descriptions above.
 # Tuple fields: anchor, artist/title, production, location/date, role, category, photo, featured.
 projects = [
@@ -877,10 +896,12 @@ projects = [
     ("tarteeb-shareet-doha", "Shareet · Tarteeb", "The 80s and 90s Concert · QNCC", "Doha · 2026", "FOH engineer", "foh", 34, False),
     ("ry-x-qatar-philharmonic-doha", "RY X", "Qatar Philharmonic Orchestra · Doha Film Festival", "Doha · 2026", "FOH engineer", "foh", 35, False),
     ("charbel-rouhana-aub-2026", "Charbel Rouhana", "Echo – Sadā · AUB", "Beirut · 2026", "FOH engineer", "foh", "charbel-rouhana-aub-echo-2026.jpg", False),
+    ("cartoon-orchestra-doha-2025", "Cartoon Orchestra", "Al Mayassa Theatre · QNCC", "Doha · 2025", "FOH engineer", "foh", "cartoon-orchestra-doha-2025.png", False),
 ]
 # Preserve the precision of the confirmed dates; a year-only credit stays year-only.
 # Ongoing studio practices are separate from dated productions.
 project_dates = {
+    "cartoon-orchestra-doha-2025": ("2025-10-17", "17 October 2025"),
     "charbel-rouhana-aub-2026": ("2026-01-28", "28 January 2026"),
     "ry-x-qatar-philharmonic-doha": ("2026-11-23", "23 November 2026"),
     "tarteeb-shareet-doha": ("2026-11-14", "14 November 2026"),
@@ -943,10 +964,10 @@ for project, article in zip(projects, project_articles):
 </dialog>''')
     filename = gallery[photo][0] if isinstance(photo, int) else photo
     alt = next((entry[2] for entry in gallery if entry[0] == filename),
-               "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
+               "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
     source = gallery_sources.get(filename)
     source_html = (f'<p class="portfolio-credit">{e(source.get("label", "Photo"))}: <a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["name"])}<span class="sr-only"> (opens in a new tab)</span></a></p>' if source else '')
-    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34, 'charbel-rouhana-aub-echo-2026.jpg') else ''
+    poster_class = ' portfolio-card--poster' if photo in (0, 2, 26, 27, 28, 32, 34, 'charbel-rouhana-aub-echo-2026.jpg', 'cartoon-orchestra-doha-2025.png') else ''
     featured_attr = ' data-featured' if featured else ''
     date_html = (f'<time class="portfolio-date" datetime="{project_dates[slug][0]}">{e(project_dates[slug][1])}</time>'
                  if slug in project_dates else '<span class="portfolio-date">Ongoing practice</span>')

@@ -380,14 +380,14 @@ def render_search_pages(context):
               main_entity={"@id": service_id(slug)}, preload_image=service["photo"])
 
     # Preserve every full project description, with a genuinely indexable URL.
-    orchestra_projects = {"ry-x-qatar-philharmonic-doha", "marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
+    orchestra_projects = {"cartoon-orchestra-doha-2025", "ry-x-qatar-philharmonic-doha", "marina-viotti", "cartoon-orchestra", "al-sharq-symphony",
                           "abeer-nehme-qatar", "lebanese-philharmonic-diman", "marcel-khalife-baalbeck"}
     for project in project_records:
         slug, name, production, location, role, category, photo, featured = project
         path = f"/projects/{slug}/"
         filename = gallery[photo][0] if isinstance(photo, int) else photo
         alt = next((entry[2] for entry in gallery if entry[0] == filename),
-                   "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
+                   "Cartoon Orchestra event artwork for QNCC, Doha" if filename == "cartoon-orchestra-doha-2025.png" else "AUB concert poster for Echo – Sadā by Charbel Rouhana" if filename == "charbel-rouhana-aub-echo-2026.jpg" else "Studio audio equipment used in Jean-Pierre Boutros’s engineering work")
         article = article_by_slug[slug]
         summary = next((plain(p) for p in re.findall(r'<p(?! class="project-index")[^>]*>(.*?)</p>', article, re.S)
                         if len(plain(p)) > 70), f"{role} · {production} · {location}")
@@ -427,6 +427,7 @@ def render_search_pages(context):
                          f'{e(group["name"])} · {e(work_title)} · {e(work["role"])}</a></li>')
             body += '</ul></section>'
         related_by_project = {
+            "cartoon-orchestra-doha-2025": ["cartoon-orchestra", "tarteeb-shareet-doha"],
             "charbel-rouhana-aub-2026": ["beiteddine-marco-polo", "abeer-nehme-baalbeck"],
             "nancy-ajram-olympia": ["baligh-hamdi-night", "warda-night"],
             "marcel-khalife-amman": ["marcel-khalife-muscat", "marcel-khalife-baalbeck"],
@@ -517,7 +518,7 @@ def render_search_pages(context):
         ("France", ["nancy-ajram-olympia"]),
         ("Oman", ["marcel-khalife-muscat"]),
         ("Jordan", ["marcel-khalife-amman", "zade-dirani-amman"]),
-        ("Qatar", ["ry-x-qatar-philharmonic-doha", "tarteeb-shareet-doha", "abeer-nehme-qatar"]),
+        ("Qatar", ["cartoon-orchestra-doha-2025", "ry-x-qatar-philharmonic-doha", "tarteeb-shareet-doha", "abeer-nehme-qatar"]),
         ("Kuwait", ["the-eighties", "cartoon-orchestra"]),
         ("Saudi Arabia", ["baligh-hamdi-night", "warda-night", "night-of-arab-stars"]),
         ("United Arab Emirates", ["nancy-ajram-expo-dubai"]),
