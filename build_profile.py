@@ -40,17 +40,14 @@ SITE = "https://www.jeanpierreboutros.com/"
 
 PRODUCTIONS = [
     (
+        "RY X & Qatar Philharmonic Orchestra", "ry-x-qatar-philharmonic-doha",
+        "FOH engineer | Doha | 23 November 2026",
+        "Doha Film Festival, Qatar National Convention Centre.",
+    ),
+    (
         "The Eighties... The Knockout", "the-eighties",
         "FOH engineer | Kuwait | October 2026",
         "National Theatre, Sheikh Jaber Al-Ahmad Cultural Centre (JACC).",
-    ),
-    (
-        "Abeer Nehme - Selected engineering credits", "abeer-nehme-qatar",
-        "FOH engineer | Qatar, 2026; Baalbeck, Lebanon, 2016",
-        "Qatar Philharmonic, U VENUE, 23 Jan 2026. "
-        "Baalbeck Festival, Temple of Bacchus, 19 Aug 2016. "
-        "Audio technical supervision: On the Steps of Marco Polo with "
-        "Charbel Rouhana, Beiteddine (2013).",
     ),
     (
         "Marina Viotti - Opera gala", "marina-viotti",
@@ -63,9 +60,22 @@ PRODUCTIONS = [
         "Eternal Covenant. Patriarchal Summer Residence.",
     ),
     (
+        "Charbel Rouhana - Echo – Sadā", "charbel-rouhana-aub-2026",
+        "FOH engineer | Beirut | 28 January 2026",
+        "Zaki Nassif Program, American University of Beirut.",
+    ),
+    (
+        "Abeer Nehme - Selected engineering credits", "abeer-nehme-qatar",
+        "FOH engineer | Qatar, 2026; Baalbeck, Lebanon, 2016",
+        "Qatar Philharmonic, U VENUE, 23 Jan 2026. "
+        "Baalbeck Festival, Temple of Bacchus, 19 Aug 2016. "
+        "Audio technical supervision: On the Steps of Marco Polo with "
+        "Charbel Rouhana, Beiteddine (2013).",
+    ),
+    (
         "Cartoon Orchestra", "cartoon-orchestra",
-        "FOH engineer | Kuwait | 4 October 2025",
-        "JACC National Theatre.",
+        "FOH engineer | Kuwait & Doha | October 2025",
+        "JACC National Theatre (4 Oct); QNCC, Doha (17 Oct).",
     ),
     (
         "Marcel Khalifé - Selected engineering credits", "marcel-khalife-muscat",
@@ -76,9 +86,9 @@ PRODUCTIONS = [
     ),
     (
         "Nancy Ajram - FOH & monitor credits", "nancy-ajram-olympia",
-        "FOH engineer | L'Olympia, Paris | 10 June 2022",
-        "Monitor engineer: Expo 2020 Dubai (2021); Baligh Hamdi Night and "
-        "Night of Arab Stars, Riyadh (2023); Warda Night, Jeddah (2024).",
+        "FOH & monitors | USA, Canada, Qatar & Riyadh | 2021–24",
+        "Monitor engineer: Ayla, AlUla, Byblos and Kuwait. "
+        "FOH: L’Olympia and Bnoss Jounieh (2022).",
     ),
     (
         "Papal Mass broadcast", "papal-broadcast",
@@ -168,9 +178,9 @@ def build():
     for title, anchor, metadata, detail in PRODUCTIONS:
         left = paragraph(pdf, f'<link href="{SITE}projects/{anchor}/">{escape(title)}</link>',
                          margin, left, left_width, font="ProfileSansBold", size=9.9,
-                         leading=12.4, gap=2)
+                         leading=11.1, gap=0.5)
         left = paragraph(pdf, escape(metadata), margin, left, left_width,
-                         size=8.4, leading=10.8, color=DARK_GOLD, gap=2)
+                         size=8.1, leading=9.5, color=DARK_GOLD, gap=0.5)
         detail_markup = escape(detail)
         if anchor == "abeer-nehme-qatar":
             detail_markup = detail_markup.replace("Baalbeck Festival", f'<link href="{SITE}projects/abeer-nehme-baalbeck/">Baalbeck Festival</link>')
@@ -178,13 +188,13 @@ def build():
         elif anchor == "marcel-khalife-muscat":
             detail_markup = detail_markup.replace("Amman Citadel", f'<link href="{SITE}projects/marcel-khalife-amman/">Amman Citadel</link>')
         left = paragraph(pdf, detail_markup, margin, left, left_width,
-                         size=9.1, leading=12, color=MUTED, gap=3.5)
+                         size=8.5, leading=10.1, color=MUTED, gap=1.5)
 
     left = paragraph(pdf,
         f'<b><link href="{SITE}projects/ehdeniyat-abeer-nehme/">Ehdeniyat 2025 | Ehden, Lebanon</link></b><br/>'
         f'FOH: Abeer Nehme (25 Jul), <link href="{SITE}projects/ehdeniyat-al-shami/">Al Shami (3 Aug)</link>.<br/>'
         f'Monitor engineer: <link href="{SITE}projects/ehdeniyat-adam/">Adam (31 Jul)</link>.',
-        margin, left - 4, left_width, size=9.1, leading=12.5, color=MUTED)
+        margin, left - 2, left_width, size=8.5, leading=10.5, color=MUTED)
 
     right = section(pdf, "Expertise", right_x, top, right_width)
     for item in ["Live sound & FOH", "Monitor engineering", "Broadcast sound", "Recording & tracking",

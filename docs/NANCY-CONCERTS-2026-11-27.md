@@ -28,3 +28,7 @@ Pre-release checks: `python3 build.py`, `python3 check_site.py`, `node --check m
 ## Publication and live verification
 
 Published from content commit `a2b7bff4059634fa4803a29c145ab44bf6db4311` through KnownHost cPanel on 27 November 2026; the panel reported the deployment complete. Each of the 16 new public project URLs returned HTTP 200 and matched the local HTML bytes, and one responsive image per new project matched the local asset bytes. The public sitemap returned HTTP 200 and contains 60 URLs. These checks do not establish image licensing, search indexing, or performance measurements.
+
+## Professional profile draft
+
+The local one-page professional profile was revised to summarize the newly confirmed Nancy Ajram FOH and monitor work, including separate monitor-only examples, while retaining L’Olympia and Bnoss Jounieh as FOH. The selected productions also now include RY X with Qatar Philharmonic, Charbel Rouhana at AUB, and Cartoon Orchestra in Doha alongside the Kuwait performance. It remains a selection, not an exhaustive list; the website contains the individual dated projects. Local checks confirmed one A4 page, selectable text, 21 links (17 project links), a successful site build and the unchanged site inventory. The updated PDF is a local draft pending review and deployment.
