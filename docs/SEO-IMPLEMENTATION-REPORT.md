@@ -1,5 +1,7 @@
 # Worldwide SEO and AI search implementation
 
+**Current status, 27 November 2026:** The KnownHost release `fcba4a9` contains 44 canonical pages, including 32 projects and 40 gallery photographs. All 44 live sitemap URLs returned HTTP 200. Search indexing and analytics data were not rechecked for this release. See the [current release handoff](RELEASE-2026-11-27.md). The dated observations below describe earlier releases.
+
 Documentation reconciled **24 November 2026**. Website: https://www.jeanpierreboutros.com/.
 
 

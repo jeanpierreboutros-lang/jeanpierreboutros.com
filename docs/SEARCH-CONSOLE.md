@@ -1,5 +1,7 @@
 # Search registration and production verification
 
+**Current status, 27 November 2026:** The KnownHost release `fcba4a9` contains 44 canonical pages, including 32 projects and 40 gallery photographs. All 44 live sitemap URLs returned HTTP 200. Search indexing and analytics data were not rechecked for this release. See the [current release handoff](RELEASE-2026-11-27.md). The dated observations below describe earlier releases.
+
 **Latest domain consolidation, 24 November 2026:** content commit `252b41f` is
 live with 480 passing migration checks. The retired StudioJPB web hosts now
 redirect to the primary origin while DNS/mail stay unchanged. Old-domain
@@ -34,11 +36,11 @@ Reports were processing when inspected on 16 November. They were not reopened du
 
 ## Published release and future deployment checks
 
-Canonical origin: https://www.jeanpierreboutros.com. HostGator's Last Deployed SHA is `252b41f3414f03f202db2e5b55626369730d8002`, displayed at **24 November 2026, 13:22:10 (Asia/Qatar)**. The final recheck confirms 42 primary pages, 162 referenced resources and three discovery files match, plus 480 successful migration checks. See the [migration report](DOMAIN-MIGRATION-2026-11-24.md) and [recheck](domain-migration-recheck-2026-11-24.json). Documentation-only commits do not require another deployment.
+Historical 24 November baseline: Canonical origin was https://www.jeanpierreboutros.com. HostGator's Last Deployed SHA is `252b41f3414f03f202db2e5b55626369730d8002`, displayed at **24 November 2026, 13:22:10 (Asia/Qatar)**. The final recheck confirms 42 primary pages, 162 referenced resources and three discovery files match, plus 480 successful migration checks. See the [migration report](DOMAIN-MIGRATION-2026-11-24.md) and [recheck](domain-migration-recheck-2026-11-24.json). Documentation-only commits do not require another deployment.
 
-The current inventory is home, six service pages, 30 project pages, four directories
+The 24 November inventory was home, six service pages, 30 project pages, four directories
 and one software page. The 51 studio release entries share one directory page.
-Google and Bing both show sitemap Success with 42 URLs. Google accepted requests
+On 24 November Google and Bing showed sitemap Success with 42 URLs. Google accepted requests
 for home, the software page and RY X; Bing accepted the software page. The final
 Bing live test reports no SEO/GEO issues. Existing DNS ownership verification is
 retained. Search accounts may still show older indexed versions until recrawling.
@@ -50,14 +52,14 @@ For future website changes:
 2. Review the homepage, a service page, a project page, the studio-credit directory and the mobile navigation.
    Test a homepage card, its photo viewer, Escape, a direct legacy project hash,
    the full project link, service links and the three profile downloads.
-3. Push the reviewed release to `main`. In the existing HostGator cPanel Git
+3. Push the reviewed release to `main`. In the KnownHost cPanel Git
    repository, use **Update from Remote**, confirm the intended HEAD, then
    **Deploy HEAD Commit**. Confirm the Last Deployed SHA.
 4. The existing `.cpanel.yml` copies new assets and pages first. Its installer
    prepends the domain-scoped JPB redirects while retaining the other .htaccess
    rules. Backups are private under the repository's `.deployment-backups/`.
    An invalid existing managed block or symlinked .htaccess stops installation.
-5. Confirm all 42 current sitemap URLs return 200 (update this inventory after later releases), and the live HTML/PDF/assets match
+5. Confirm all 44 current sitemap URLs return 200 (update this inventory after later releases), and the live HTML/PDF/assets match
    the release. Verify these examples:
 
 | Request | Expected result |

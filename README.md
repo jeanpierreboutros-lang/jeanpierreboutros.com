@@ -1,35 +1,28 @@
 # jeanpierreboutros.com
 
-**Session closed, 24 November 2026.** Runtime `252b41f` remains deployed.
-Final recheck: 723 live HTTP requests, no unexpected failures, unchanged DNS
-and valid HTTPS. Latest public PageSpeed: **96 mobile / 100 desktop**, other
-categories 100, Agentic Browsing 3/3.
+**Current release, 27 November 2026:** concert content commit `fcba4a9` is live on KnownHost. The site contains 44 canonical pages, 32 projects (20 FOH) and 40 gallery photographs. All 44 sitemap URLs returned HTTP 200 in the post-release check. The new AUB and Doha concerts and the hosting workflow are documented in the [release and hosting handoff](docs/RELEASE-2026-11-27.md).
 
-**Owner actions:** renew **both Business Plan hosting and cPanel Email Basic**
-before **1 December 2026**; auto-renew is **off** for both. Verify the old
-domain in Google/Bing and complete the prepared Google Change of Address.
-Start with the [final session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md).
+**Migration follow-up:** retain HostGator access until KnownHost confirms the post-cutover incremental email sync for julienboutros.com and mailbox contents are verified. The support ticket was awaiting a response from the owner; do not send a reply without authorization. The earlier 1 December expiry date should be verified in the relevant account.
 
 Personal portfolio of Jean-Pierre Boutros: FOH and monitor engineering, studio and broadcast sound engineering, audio system integration, StudioJPB and Zynforge Audio.
 
 Live site: https://www.jeanpierreboutros.com/
 
-**Domain consolidation, 24 November 2026:** deployed commit `252b41f` migrates the retired
+**Historical domain consolidation, 24 November 2026:** deployed commit `252b41f` migrates the retired
 `studiojpb.com` website to the HTTPS www professional domain, with six specific
-legacy page mappings and path/query preservation. DNS and mail services remain
-unchanged. All 480 live migration checks pass; public PageSpeed is 96 mobile /
+legacy page mappings and path/query preservation. At that time DNS and mail services remained unchanged; they were subsequently moved to KnownHost. All 480 live migration checks pass; public PageSpeed is 96 mobile /
 100 desktop, with other categories 100 and Agentic Browsing 3/3. Google Change
 of Address is prepared for manual filing. See the [migration report and manual search-console steps](docs/DOMAIN-MIGRATION-2026-11-24.md).
 
 **Earlier gallery publication, 24 November 2026:** four owner-supplied RY X photographs have
 faithful, non-generative exposure, color, noise and crop corrections. The gallery
 now contains 40 photographs; six remain initially visible, including the four
-new images. Content commit `f3699aa` is live; 42 canonical pages and all new
+new images. Content commit `f3699aa` was live at that release; 42 canonical pages and all new
 image files match the reviewed release. That gallery release's production PageSpeed was 96 mobile /
 99 desktop, with other categories 100 and Agentic Browsing 3/3. Original HEIC files, existing photographs, layout, styles and scripts
 are preserved. See the [gallery release and validation](docs/GALLERY-UPDATE-2026-11-24.md).
 
-**Earlier SEO publication, 24 November 2026:** content commit `536f7f1` is live with
+**Earlier SEO publication, 24 November 2026:** content commit `536f7f1` was live with
 42 canonical pages, a dedicated Zynforge/software page, concise project metadata,
 three expanded case studies and active IndexNow support. Google and Bing both
 processed the updated sitemap successfully and discovered its 42 URLs. IndexNow
@@ -50,7 +43,7 @@ and [event research](docs/ry-x-qatar-philharmonic-research-2026-11-23.json).
 The earlier RY X session’s
 [earlier closeout](docs/RY-X-SESSION-CLOSEOUT-2026-11-24.md) remains historical
 evidence. The final closeout above records completed SEO, gallery and migration
-work, both renewal deadlines and the unfinished old-domain search filings.
+work and the historical follow-ups; see the current release above for the KnownHost migration status.
 
 Previous release, **16 November 2026**: dark portfolio, original JPB logo, newest-first
 projects, Shareet · Tarteeb FOH credit and worldwide SEO improvements. Final
@@ -77,7 +70,8 @@ These files are repository documentation and are excluded from the public websit
 
 | Document | Purpose and scope |
 | --- | --- |
-| [Final session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Current deployment, completed work, renewal deadlines and next-session handoff |
+| [Current release and hosting handoff](docs/RELEASE-2026-11-27.md) | KnownHost deployment, AUB concert, verification and migration follow-up |
+| [24 November session closeout](docs/SESSION-CLOSEOUT-2026-11-24.md) | Historical HostGator-era deployment and follow-up |
 | [Final read-only recheck](docs/domain-migration-recheck-2026-11-24.json) | 723 live requests; both authoritative DNS servers; HTTPS, Google/Bing and renewal status |
 | [Domain migration](docs/DOMAIN-MIGRATION-2026-11-24.md) | Audit, historic URL map, live headers, mail preservation and search-console procedures |
 | [Gallery update](docs/GALLERY-UPDATE-2026-11-24.md) | Four faithfully corrected RY X photographs, preservation checks and release validation |
@@ -115,11 +109,11 @@ Published design revision, 16 November 2026: the portfolio uses a production-fol
 
 The StudioJPB entry and detail use the close-up of Manley outboard equipment. The opening flows directly into Selected Work.
 
-The project browser starts with all 30 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
+The project browser starts with all 32 projects, ordered by date within year groups. The Featured filter retains Nancy Ajram at L'Olympia, Abeer Nehme with the Qatar Philharmonic, Marcel Khalifé in Muscat, Al Shami at Ehdeniyat, Nancy's Baligh Hamdi Night monitor credit, and The Eighties in Kuwait, in chronological order. Other filters expose FOH, Monitors, Broadcast, Studio and Technical categories. Empty year groups disappear when filtering. Homepage project links point to dedicated `/projects/<slug>/` pages and progressively open the complete sourced description in a native modal when JavaScript is available. The existing homepage project anchors still work. Each modal also offers an ordinary link to the full project page. Closing a project restores focus to its originating link. Opening a photograph inside a project uses the existing image viewer, and closing it returns to the project.
 
-`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 30 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 40; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
+`projects` in `build.py` holds the compact card summaries and filter categories. Its source order must match `PROJECT_DETAILS`; the build validates matching anchors. `project_dates` holds confirmed dates and their display labels; `card_order` sorts the rendered index newest first. Month-only and year-only records retain that precision; undated events follow dated events in the same year. StudioJPB and integration remain ongoing practices rather than dated events. The `/projects/` directory and related project lists use the same chronology. All 32 project descriptions remain available without JavaScript. The gallery initially shows six photographs of engineering work, with a control to show all 40; the image viewer always includes every photograph. The project header keeps its title, role and close button visible while scrolling. Links from a project to another section close the project and move focus to that section. The one-page PDF includes the confirmed production roles and 16 links to dedicated project pages. It is linked from the opening, About and Contact sections.
 
-Historical content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 became the newest FOH entry at that release. That build contained 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. RY X now leads the 30-project index. The downloadable profile remains the existing one-page selection.
+Historical content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa Theatre, QNCC, Doha, on 14 November 2026 became the newest FOH entry at that release. That build contained 40 canonical pages, 29 project records (17 FOH) and 35 gallery images. RY X leads the current 32-project index. The downloadable profile remains the existing one-page selection.
 
 ## Current project register
 
@@ -129,6 +123,8 @@ Historical content addition, 16 November 2026: Shareet · Tarteeb at Al Mayassa 
 | Shareet: The 80s and 90s Concert · Tarteeb | FOH engineer | Al Mayassa Theatre, QNCC, Doha, Qatar; 14 November 2026 | `#tarteeb-shareet-doha` |
 | The Eighties... The Knockout | FOH engineer | JACC, Kuwait; October 2026 | `#the-eighties` |
 | Marina Viotti - Opera gala | FOH engineer | Roman Amphitheatre, Zouk Mikael, Lebanon; 8 September 2026 | `#marina-viotti` |
+| Charbel Rouhana · Echo – Sadā | FOH engineer | Assembly Hall, AUB, Beirut; 28 January 2026 | `#charbel-rouhana-aub-2026` |
+| Cartoon Orchestra · Doha | FOH engineer | Al Mayassa Theatre, QNCC, Doha; 17 October 2025 | `#cartoon-orchestra-doha-2025` |
 | Cartoon Orchestra | FOH engineer | JACC National Theatre, Kuwait; 4 October 2025 | `#cartoon-orchestra` |
 | Al Sharq Symphony - Marcel Khalifé and Istanbul Philharmonic | FOH engineer | Istanbul, Turkey; 2017; conductor Lubnan Baalbaki | `#al-sharq-symphony` |
 | Abeer Nehme with Qatar Philharmonic Orchestra | FOH engineer | U VENUE, Doha, Qatar; 23 January 2026 | `#abeer-nehme-qatar` |
@@ -369,22 +365,14 @@ Before deployment:
 1. Run `python3 build.py`, `python3 check_site.py`, `node --check main.js`, `sh -n hosting/install-seo.sh` and `git diff --check`. For domain/range checks, download the official Schema.org vocabulary separately and run `python3 check_site.py --vocabulary /path/to/schemaorg-current-https.jsonld`. No network request is made by the checker.
 2. Check desktop and mobile layouts, especially 320px and 400px widths.
 3. Verify mobile menu keyboard focus, Escape, destination focus and scroll unlocking.
-4. Verify Featured (6), All work (30), FOH (18), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
+4. Verify Featured (6), All work (32), FOH (20), Monitors (6), Broadcast (1), Studio (3), and Technical (2) filters. Open a project, enlarge its image, close the image viewer with Escape, then close the project and check focus restoration. Test a direct project URL and the gallery show-all control. Check the full descriptions remain available without JavaScript.
 5. Confirm images and section links resolve and project links point to the intended source.
 6. If the PDF changed, render and inspect it; verify all production dates and roles, one A4 page, embedded fonts, and working project/contact links. Check all three website download links use the new PDF fingerprint and size.
 7. Review the final local preview. For documentation-only changes, validate the affected records and links; repeat interaction checks when behavior changes.
 
 ## Deployment
 
-Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. HostGator's cPanel checkout is `/home2/studiojp/repositories/jeanpierreboutros.com`.
-
-Current runtime `252b41f3414f03f202db2e5b55626369730d8002` was deployed on
-24 November 2026 at 13:22:10 (Asia/Qatar); cPanel's Last Deployed SHA matched.
-The final recheck confirms all 42 pages and 165 referenced/discovery files match,
-plus 480 passing domain-migration requests. Google/Bing primary sitemaps show
-Success with 42 discovered URLs; old-domain ownership and Google Change of
-Address remain manual. See [the migration report](docs/DOMAIN-MIGRATION-2026-11-24.md)
-and [final closeout](docs/SESSION-CLOSEOUT-2026-11-24.md).
+Repository: https://github.com/jeanpierreboutros-lang/jeanpierreboutros.com.git. Published branch: `main`. KnownHost cPanel checkout: `/home/studiojp/repositories/jpb-knownhost`. The document root is `/home/studiojp/public_html/`. Content commit `fcba4a9fd3e26520816d6b085fb562a8a804a2f8` was deployed on 27 November 2026; cPanel reported completion and the live homepage, project page, sitemap, stylesheet and poster returned HTTP 200. All 44 live sitemap URLs returned HTTP 200. The [current release handoff](docs/RELEASE-2026-11-27.md) records the checks and limits.
 
 Historical portfolio release `24ec55eef9540cb49fab5f49328399e631a13c05` was deployed through HostGator on 3 November 2026 at 00:00:01 (Asia/Beirut). cPanel’s Last Deployed SHA matched. All 39 canonical pages and 152 referenced resources matched local bytes; redirects, the real 404 and unpublished source/research paths passed checks. See [the verification record](docs/portfolio-release-verification-2026-11-03.json).
 
@@ -395,7 +383,7 @@ Documentation-only commits can follow the deployed content commit without changi
 3. Deploy HEAD and wait for completion. Confirm Last Deployed SHA equals the intended release.
 4. Hard-refresh https://www.jeanpierreboutros.com/ and https://jeanpierreboutros.com/. Check all sitemap URLs, affected projects, service pages, updated images and all three profile download links. Verify HTTP/apex/index.html redirects to the HTTPS www canonical, a real 404, search crawler access and GPTBot exclusion. Compare downloaded PDF bytes with the committed artifact when the profile changes.
 
-The deploy manifest targets `/home2/studiojp/public_html/`, confirmed in cPanel's Domains screen for jeanpierreboutros.com. It copies the 42 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
+The deploy manifest targets `/home/studiojp/public_html/`, confirmed in KnownHost cPanel’s Domains screen for jeanpierreboutros.com. It copies the 44 static pages, fonts, CSS, JavaScript, robots, sitemap, the supplementary llms.txt directory, icons, profile PDF and complete photos directory. Assets and new pages are copied before the homepage and discovery files. Build scripts, the SEO report, this README and Git metadata are not published. Local edits and previews do not deploy the website.
 
 The document root is shared with the existing main hosting site. Deployment copies files without purging other content or changing domain mappings. The redirect installer prepends only the clearly marked JPB block, preserves existing non-JPB .htaccess rules, rejects malformed managed blocks and symlinked .htaccess files, and stores backups in the repository’s non-public `.deployment-backups/`. Canonical redirects apply to jeanpierreboutros.com and www.jeanpierreboutros.com. The separately reviewed migration rules also consolidate studiojpb.com and www.studiojpb.com. Other domains and mail hostnames remain outside these rules; robots, certificate validation and hosting/mail entry points are exempt from old-host migration. Inspect live behaviour after deployment; local Apache/TLS tests cover canonical redirects and preservation of existing access restrictions.
 
